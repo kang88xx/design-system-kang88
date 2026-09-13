@@ -1,0 +1,1 @@
+.LinkLogo.LinkTextLink{display:block;color:var(--colorIconSecondary);width:var(--logoWidth,72px);height:var(--logoHeight,24px);will-change:color,opacity;transition-property:opacity}.LinkLogo.LinkTextLink:hover{color:inherit;opacity:.6}.LinkLogo--onelink.LinkTextLink{--logoWidth:130px;--logoHeight:24px}.LinkLogo__svg{display:block;width:100%;height:100%}

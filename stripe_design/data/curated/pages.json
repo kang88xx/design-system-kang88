@@ -1,0 +1,1637 @@
+[
+ {
+  "slug": "about",
+  "path": "/about",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "About Us | Stripe",
+  "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+  "elementCount": 155,
+  "docHeight": 2043,
+  "sections": 1,
+  "buttons": 1,
+  "shots": {
+   "fold": "captures/pages/about-1440-fold.png",
+   "full": "captures/pages/about-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "agentic-commerce",
+  "path": "/agentic-commerce",
+  "system": "legacy",
+  "ok": true,
+  "status": 404,
+  "title": "Page not found",
+  "description": null,
+  "h1": "",
+  "elementCount": 1427,
+  "docHeight": 2451,
+  "sections": 24,
+  "buttons": 8,
+  "shots": {
+   "fold": "captures/pages/agentic-commerce-1440-fold.png",
+   "full": "captures/pages/agentic-commerce-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "ai",
+  "path": "/ai",
+  "system": "legacy",
+  "ok": true,
+  "status": 404,
+  "title": "Page not found",
+  "description": null,
+  "h1": "",
+  "elementCount": 1427,
+  "docHeight": 2451,
+  "sections": 24,
+  "buttons": 8,
+  "shots": {
+   "fold": "captures/pages/ai-1440-fold.png",
+   "full": "captures/pages/ai-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "apps",
+  "path": "/apps",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Build a Stripe App | Stripe",
+  "description": "Use the full power of Stripe’s API to build an app that integrates Stripe with your CRM, data warehouse, helpdesk, and more.",
+  "h1": "",
+  "elementCount": 2237,
+  "docHeight": 8999,
+  "sections": 40,
+  "buttons": 29,
+  "shots": {
+   "fold": "captures/pages/apps-1440-fold.png",
+   "full": "captures/pages/apps-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "atlas",
+  "path": "/atlas",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Atlas | Incorporate your startup in Delaware: C corp or LLC",
+  "description": "Stripe Atlas is a simple, powerful way to incorporate a US company. Everything you need to start a business in a few clicks—we'll handle the legal paperwork.",
+  "h1": "",
+  "elementCount": 1913,
+  "docHeight": 7429,
+  "sections": 40,
+  "buttons": 18,
+  "shots": {
+   "fold": "captures/pages/atlas-1440-fold.png",
+   "full": "captures/pages/atlas-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "authorization-boost",
+  "path": "/authorization-boost",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Authorization Boost | Increase Your Authorization Rates",
+  "description": "Increase your payment authorization rates and lower network costs with AI-powered optimizations that help boost your revenue.",
+  "h1": "",
+  "elementCount": 3638,
+  "docHeight": 13969,
+  "sections": 40,
+  "buttons": 34,
+  "shots": {
+   "fold": "captures/pages/authorization-boost-1440-fold.png",
+   "full": "captures/pages/authorization-boost-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "billing-subscriptions",
+  "path": "/billing/subscriptions",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Billing | Flexible Subscription Management Tool",
+  "description": "Build and manage subscriptions at global scale. Launch pricing models in minutes, reduce churn automatically, and track performance metrics in one place.",
+  "h1": "Grow and recover more subscription revenue",
+  "elementCount": 1824,
+  "docHeight": 9832,
+  "sections": 9,
+  "buttons": 20,
+  "shots": {
+   "fold": "captures/pages/billing-subscriptions-1440-fold.png",
+   "full": "captures/pages/billing-subscriptions-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "billing-usage-based-billing",
+  "path": "/billing/usage-based-billing",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Usage-based billing software for AI | Metronome, a Stripe product",
+  "description": "Deploy usage-based and hybrid models faster. Support consumption billing, metered billing, token-based pricing, and other pricing models in one platform.",
+  "h1": "Turn usage into revenue with Metronome. Monetization infrastructure built for pricing agility and scale.",
+  "elementCount": 2012,
+  "docHeight": 9569,
+  "sections": 8,
+  "buttons": 22,
+  "shots": {
+   "fold": "captures/pages/billing-usage-based-billing-1440-fold.png",
+   "full": "captures/pages/billing-usage-based-billing-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "billing",
+  "path": "/billing",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Billing | Recurring Payments & Subscription Solutions",
+  "description": "Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools.",
+  "h1": "Monetize faster with Stripe Billing.Manage pricing, reduce churn, and grow revenue—on one platform.",
+  "elementCount": 2526,
+  "docHeight": 10640,
+  "sections": 12,
+  "buttons": 19,
+  "shots": {
+   "fold": "captures/pages/billing-1440-fold.png",
+   "full": "captures/pages/billing-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "blog",
+  "path": "/blog",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Blog: Online Payment Solutions Blog",
+  "description": "Follow the Stripe blog to learn about new product features, the latest in technology, payment solutions, and business initiatives.",
+  "h1": "",
+  "elementCount": 1887,
+  "docHeight": 11330,
+  "sections": 28,
+  "buttons": 29,
+  "shots": {
+   "fold": "captures/pages/blog-1440-fold.png",
+   "full": "captures/pages/blog-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "capital-platforms",
+  "path": "/capital/platforms",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Capital for platforms: Business financing for your customers",
+  "description": "Stripe Capital provides platforms with an end-to-end lending API that enables you to offer access to fast and flexible financing to help your customers grow their businesses.",
+  "h1": "",
+  "elementCount": 2005,
+  "docHeight": 8493,
+  "sections": 40,
+  "buttons": 32,
+  "shots": {
+   "fold": "captures/pages/capital-platforms-1440-fold.png",
+   "full": "captures/pages/capital-platforms-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "capital",
+  "path": "/capital",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Capital | Loans and Cash Advances for Small Businesses",
+  "description": "Tap into the financing you need to grow. Stripe Capital provides access to small business financing and loans with flexible payments and no lengthy application.",
+  "h1": "",
+  "elementCount": 1795,
+  "docHeight": 6006,
+  "sections": 40,
+  "buttons": 24,
+  "shots": {
+   "fold": "captures/pages/capital-1440-fold.png",
+   "full": "captures/pages/capital-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "checkout",
+  "path": "/checkout",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Checkout | Checkout Pages for Your Website",
+  "description": "Experience seamless online payments with Stripe Checkout. Our optimized low-code solution enhances conversion rates with a simple and secure process.",
+  "h1": "",
+  "elementCount": 4161,
+  "docHeight": 13175,
+  "sections": 40,
+  "buttons": 80,
+  "shots": {
+   "fold": "captures/pages/checkout-1440-fold.png",
+   "full": "captures/pages/checkout-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "climate",
+  "path": "/climate",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Climate",
+  "description": "Stripe Climate allows you to remove carbon as you grow your business",
+  "h1": "",
+  "elementCount": 2415,
+  "docHeight": 12417,
+  "sections": 38,
+  "buttons": 25,
+  "shots": {
+   "fold": "captures/pages/climate-1440-fold.png",
+   "full": "captures/pages/climate-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "connect",
+  "path": "/connect",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Connect | Platform and Marketplace Payment Solutions",
+  "description": "Stripe Connect is the fastest and easiest way to integrate payments and financial services into your software platform or marketplace.",
+  "h1": "",
+  "elementCount": 3803,
+  "docHeight": 14587,
+  "sections": 40,
+  "buttons": 59,
+  "shots": {
+   "fold": "captures/pages/connect-1440-fold.png",
+   "full": "captures/pages/connect-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "contact-sales",
+  "path": "/contact/sales",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe | Contact our Sales Team",
+  "description": "Contact the Stripe sales team to learn more about how Stripe can help you.",
+  "h1": "Let's get you to the right place",
+  "elementCount": 111,
+  "docHeight": 1027,
+  "sections": 1,
+  "buttons": 3,
+  "shots": {
+   "fold": "captures/pages/contact-sales-1440-fold.png",
+   "full": "captures/pages/contact-sales-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "crypto-onramp",
+  "path": "/crypto-onramp",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Crypto Onramp | Onboard Users onto Crypto from Fiat",
+  "description": "Let customers buy crypto directly in your app or site with Stripe Crypto Onramp. Optimized for conversion, with broad payment method support and built-in compliance.",
+  "h1": "The onramp built to convert",
+  "elementCount": 1748,
+  "docHeight": 10589,
+  "sections": 9,
+  "buttons": 17,
+  "shots": {
+   "fold": "captures/pages/crypto-onramp-1440-fold.png",
+   "full": "captures/pages/crypto-onramp-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "customers",
+  "path": "/customers",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Our customers | Stripe",
+  "description": "Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform.",
+  "h1": "",
+  "elementCount": 3369,
+  "docHeight": 9482,
+  "sections": 40,
+  "buttons": 34,
+  "shots": {
+   "fold": "captures/pages/customers-1440-fold.png",
+   "full": "captures/pages/customers-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "data-pipeline",
+  "path": "/data-pipeline",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Data Pipeline | Sync Stripe Data to Your Data Warehouse",
+  "description": "Send Stripe data to Snowflake, Redshift, Databricks, or your cloud storage and combine with other sources for a complete view of your business performance.",
+  "h1": "",
+  "elementCount": 2301,
+  "docHeight": 9997,
+  "sections": 40,
+  "buttons": 29,
+  "shots": {
+   "fold": "captures/pages/data-pipeline-1440-fold.png",
+   "full": "captures/pages/data-pipeline-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "enterprise",
+  "path": "/enterprise",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Enterprise Payment Solutions for Large Businesses | Stripe",
+  "description": "Get enterprise payment and financial solutions that maximize conversion, add revenue streams, and automate financial operations. Learn why enterprises build on Stripe.",
+  "h1": "",
+  "elementCount": 2919,
+  "docHeight": 14212,
+  "sections": 40,
+  "buttons": 39,
+  "shots": {
+   "fold": "captures/pages/enterprise-1440-fold.png",
+   "full": "captures/pages/enterprise-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "financial-connections",
+  "path": "/financial-connections",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Financial Connections | Secure Open Banking Platform",
+  "description": "Stripe Financial Connections is an open banking solution that lets users securely share financial data to streamline ACH payments and payouts, reduce fraud, and underwrite risk.",
+  "h1": "",
+  "elementCount": 3332,
+  "docHeight": 11556,
+  "sections": 40,
+  "buttons": 25,
+  "shots": {
+   "fold": "captures/pages/financial-connections-1440-fold.png",
+   "full": "captures/pages/financial-connections-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "global",
+  "path": "/global",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe global availability",
+  "description": "Once Stripe is supported in your country, you’ll be able to accept payments from customers anywhere in the world.",
+  "h1": "",
+  "elementCount": 1580,
+  "docHeight": 4138,
+  "sections": 28,
+  "buttons": 13,
+  "shots": {
+   "fold": "captures/pages/global-1440-fold.png",
+   "full": "captures/pages/global-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "home",
+  "path": "/",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+  "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+  "h1": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to you",
+  "elementCount": 2995,
+  "docHeight": 14709,
+  "sections": 13,
+  "buttons": 57,
+  "shots": {
+   "fold": "captures/pages/home-1440-fold.png",
+   "full": "captures/pages/home-1440-full.png",
+   "mobileFold": "captures/pages/home-390-fold.png"
+  },
+  "mobile": {
+   "headings": [
+    {
+     "t": "H1",
+     "s": "34px",
+     "lh": "35.02px",
+     "text": "Financial infrastructure to grow your revenue."
+    },
+    {
+     "t": "H1",
+     "s": "34px",
+     "lh": "35.02px",
+     "text": "Financial infrastructure to grow your revenue."
+    },
+    {
+     "t": "H2",
+     "s": "22px",
+     "lh": "26.4px",
+     "text": "Flexible solutions for every business model."
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Accept and optimize payments globally—online and in person"
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Enable any billing model"
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Monetize through agentic commerce"
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Create a card issuing program"
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Access borderless money movement with stablecoins and crypto"
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Embed payments in your platform"
+    },
+    {
+     "t": "H2",
+     "s": "34px",
+     "lh": "35.02px",
+     "text": "The backbone of global commerce"
+    },
+    {
+     "t": "H2",
+     "s": "22px",
+     "lh": "26.4px",
+     "text": "Powering businesses of all sizes."
+    },
+    {
+     "t": "H3",
+     "s": "20px",
+     "lh": "24px",
+     "text": "Transform your enterprise with agile financial infrastructur"
+    }
+   ],
+   "bodyPad": [
+    "0px",
+    "0px",
+    "0px",
+    "0px",
+    "0px",
+    "0px"
+   ],
+   "nav": 66
+  }
+ },
+ {
+  "slug": "identity",
+  "path": "/identity",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Identity | Identity Verification for Payments",
+  "description": "Secure your business effortlessly with Stripe Identity. Verify the identity of users globally, and safeguard against fraud with minimal friction.",
+  "h1": "",
+  "elementCount": 2531,
+  "docHeight": 8825,
+  "sections": 40,
+  "buttons": 27,
+  "shots": {
+   "fold": "captures/pages/identity-1440-fold.png",
+   "full": "captures/pages/identity-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "industries-fintech",
+  "path": "/industries/fintech",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for Fintech | Payments and Financial Infrastructure",
+  "description": "See how fintechs like Robinhood and Remitly use Stripe's fintech payment solutions to move money globally, fight fraud with AI, and build on stablecoin rails.",
+  "h1": "",
+  "elementCount": 2219,
+  "docHeight": 8854,
+  "sections": 40,
+  "buttons": 29,
+  "shots": {
+   "fold": "captures/pages/industries-fintech-1440-fold.png",
+   "full": "captures/pages/industries-fintech-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "industries-gaming",
+  "path": "/industries/gaming",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for Gaming | Gaming Payment Processing Solutions",
+  "description": "Process gaming payments globally. Support local payment methods, manage billing and subscriptions, and protect revenue with AI-powered fraud detection.",
+  "h1": "",
+  "elementCount": 2294,
+  "docHeight": 9025,
+  "sections": 40,
+  "buttons": 23,
+  "shots": {
+   "fold": "captures/pages/industries-gaming-1440-fold.png",
+   "full": "captures/pages/industries-gaming-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "industries-healthcare",
+  "path": "/industries/healthcare",
+  "system": "legacy",
+  "ok": true,
+  "status": 404,
+  "title": "Page not found",
+  "description": null,
+  "h1": "",
+  "elementCount": 1427,
+  "docHeight": 2451,
+  "sections": 24,
+  "buttons": 8,
+  "shots": {
+   "fold": "captures/pages/industries-healthcare-1440-fold.png",
+   "full": "captures/pages/industries-healthcare-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "industries-nonprofits",
+  "path": "/industries/nonprofits",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for nonprofits | Billing & Payment Solutions",
+  "description": "Global nonprofit leaders and charities use Stripe to optimize one-time and recurring donations, and to scale their fundraising platforms.",
+  "h1": "",
+  "elementCount": 2395,
+  "docHeight": 9891,
+  "sections": 40,
+  "buttons": 32,
+  "shots": {
+   "fold": "captures/pages/industries-nonprofits-1440-fold.png",
+   "full": "captures/pages/industries-nonprofits-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "industries-retail",
+  "path": "/industries/retail",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for Retail | Payment Solutions for Retail",
+  "description": "Connect in-store and online payments with Stripe. Grow conversion and launch new revenue streams on a single global platform.",
+  "h1": "",
+  "elementCount": 2213,
+  "docHeight": 10462,
+  "sections": 40,
+  "buttons": 25,
+  "shots": {
+   "fold": "captures/pages/industries-retail-1440-fold.png",
+   "full": "captures/pages/industries-retail-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "industries-travel",
+  "path": "/industries/travel",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for hospitality, travel, and leisure",
+  "description": "Simplify bookings and payments while delivering personalized service at every touchpoint. Stripe helps hospitality, travel, and leisure businesses grow revenue, improve operations, and build loyalty.",
+  "h1": "",
+  "elementCount": 2422,
+  "docHeight": 9859,
+  "sections": 40,
+  "buttons": 35,
+  "shots": {
+   "fold": "captures/pages/industries-travel-1440-fold.png",
+   "full": "captures/pages/industries-travel-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "invoicing",
+  "path": "/invoicing",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Create and Send Invoices Online | Stripe Invoicing",
+  "description": "Create and send invoices online in minutes with Stripe. Use our invoicing software to automate payment collection and recover revenue with AI-powered dunning.",
+  "h1": "",
+  "elementCount": 3343,
+  "docHeight": 12464,
+  "sections": 40,
+  "buttons": 31,
+  "shots": {
+   "fold": "captures/pages/invoicing-1440-fold.png",
+   "full": "captures/pages/invoicing-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "issuing",
+  "path": "/issuing",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Issuing | Virtual and Physical Card Issuing Platform",
+  "description": "Build card programs that scale by offering your own virtual and physical cards online in seconds using the Stripe Issuing API and just a few lines of code.",
+  "h1": "",
+  "elementCount": 2633,
+  "docHeight": 12383,
+  "sections": 40,
+  "buttons": 31,
+  "shots": {
+   "fold": "captures/pages/issuing-1440-fold.png",
+   "full": "captures/pages/issuing-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "jobs",
+  "path": "/jobs",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Careers | Shape the Future of the Global Economy",
+  "description": "Economic growth doesn't happen on its own—at Stripe, it's yours to shape. Explore Stripe's mission and browse career opportunities.",
+  "h1": "Implement the conditions for prosperity",
+  "elementCount": 733,
+  "docHeight": 7155,
+  "sections": 11,
+  "buttons": 13,
+  "shots": {
+   "fold": "captures/pages/jobs-1440-fold.png",
+   "full": "captures/pages/jobs-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "managed-payments",
+  "path": "/managed-payments",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Your Merchant of Record Provider | Stripe Managed Payments",
+  "description": "Sell globally in 195 countries without additional setup. Stripe’s merchant of record solution handles payments, tax, fraud, disputes, and support for you.",
+  "h1": "",
+  "elementCount": 2247,
+  "docHeight": 11508,
+  "sections": 40,
+  "buttons": 28,
+  "shots": {
+   "fold": "captures/pages/managed-payments-1440-fold.png",
+   "full": "captures/pages/managed-payments-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "money-management-availability",
+  "path": "/money-management/availability",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Money Management | Products, Countries, and Availability",
+  "description": "Store currencies and stablecoins, send money globally, and pay with cards. See which money management products are available, by country and currency.",
+  "elementCount": 2646,
+  "docHeight": 6427,
+  "sections": 5,
+  "buttons": 18,
+  "shots": {
+   "fold": "captures/pages/money-management-availability-1440-fold.png",
+   "full": "captures/pages/money-management-availability-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "newsroom",
+  "path": "/newsroom",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Newsroom: The Latest News & Announcements",
+  "description": "Read the latest news and information from Stripe, including corporate and product announcements, research reports, brand assets, and more.",
+  "h1": "",
+  "elementCount": 1775,
+  "docHeight": 5860,
+  "sections": 35,
+  "buttons": 26,
+  "shots": {
+   "fold": "captures/pages/newsroom-1440-fold.png",
+   "full": "captures/pages/newsroom-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "partners",
+  "path": "/partners",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Work with a Stripe Partner | Stripe Partner Ecosystem",
+  "description": "Discover thousands of trusted partners around the world to help your business do more with Stripe.",
+  "h1": "",
+  "elementCount": 2164,
+  "docHeight": 7735,
+  "sections": 40,
+  "buttons": 26,
+  "shots": {
+   "fold": "captures/pages/partners-1440-fold.png",
+   "full": "captures/pages/partners-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments-checkout",
+  "path": "/payments/checkout",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Checkout | Checkout Pages for Your Website",
+  "description": "Experience seamless online payments with Stripe Checkout. Our optimized low-code solution enhances conversion rates with a simple and secure process.",
+  "h1": "",
+  "elementCount": 4161,
+  "docHeight": 13175,
+  "sections": 40,
+  "buttons": 80,
+  "shots": {
+   "fold": "captures/pages/payments-checkout-1440-fold.png",
+   "full": "captures/pages/payments-checkout-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments-elements",
+  "path": "/payments/elements",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Elements | Custom Checkout Design and UI",
+  "description": "Stripe’s suite of modular UI building blocks make it easy to design a secure on-brand checkout and payments experience for your customers.",
+  "h1": "",
+  "elementCount": 3601,
+  "docHeight": 10849,
+  "sections": 40,
+  "buttons": 37,
+  "shots": {
+   "fold": "captures/pages/payments-elements-1440-fold.png",
+   "full": "captures/pages/payments-elements-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments-features",
+  "path": "/payments/features",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Payments | Features and Process",
+  "description": "View all Stripe Payments features and options, such as revenue optimization, fraud protection, mobile payments, and more.",
+  "h1": "",
+  "elementCount": 3496,
+  "docHeight": 18795,
+  "sections": 40,
+  "buttons": 14,
+  "shots": {
+   "fold": "captures/pages/payments-features-1440-fold.png",
+   "full": "captures/pages/payments-features-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments-link",
+  "path": "/payments/link",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Link by Stripe: One-click payments",
+  "description": "Link allows your customers to securely save and reuse payment details for a faster checkout at hundreds of thousands of Link-enabled online businesses.",
+  "h1": "",
+  "elementCount": 2226,
+  "docHeight": 10818,
+  "sections": 40,
+  "buttons": 24,
+  "shots": {
+   "fold": "captures/pages/payments-link-1440-fold.png",
+   "full": "captures/pages/payments-link-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments-payment-links",
+  "path": "/payments/payment-links",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Payment Links | Simple Links to Accept Payments",
+  "description": "Effortlessly create and share a comprehensive payment page in just a few clicks with Stripe Payment Links. No website or coding skills required.",
+  "h1": "",
+  "elementCount": 2397,
+  "docHeight": 9487,
+  "sections": 40,
+  "buttons": 40,
+  "shots": {
+   "fold": "captures/pages/payments-payment-links-1440-fold.png",
+   "full": "captures/pages/payments-payment-links-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments-payment-methods",
+  "path": "/payments/payment-methods",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Accept bank transfers in Europe with Stripe",
+  "description": "Save on manual work with Stripe’s comprehensive billing, payments, and reconciliation infrastructure for European businesses.",
+  "h1": "",
+  "elementCount": 1732,
+  "docHeight": 6612,
+  "sections": 40,
+  "buttons": 21,
+  "shots": {
+   "fold": "captures/pages/payments-payment-methods-1440-fold.png",
+   "full": "captures/pages/payments-payment-methods-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "payments",
+  "path": "/payments",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Payments | Global Payment Processing Platform",
+  "description": "Capture more revenue with a unified payments solution that eliminates the need for one-off merchant account, payment gateway, and processor integrations.",
+  "h1": "",
+  "elementCount": 4447,
+  "docHeight": 18612,
+  "sections": 40,
+  "buttons": 80,
+  "shots": {
+   "fold": "captures/pages/payments-1440-fold.png",
+   "full": "captures/pages/payments-1440-full.png",
+   "mobileFold": "captures/pages/payments-390-fold.png"
+  },
+  "mobile": {
+   "headings": [
+    {
+     "t": "H1",
+     "s": "32px",
+     "lh": "normal",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Payments"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Revenue"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Money management"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Platforms and marketplaces"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "More"
+    },
+    {
+     "t": "H1",
+     "s": "15px",
+     "lh": "24px",
+     "text": "Payments"
+    }
+   ],
+   "bodyPad": [],
+   "nav": 74
+  }
+ },
+ {
+  "slug": "payouts",
+  "path": "/payouts",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Send global payouts and mass payments | Stripe Global Payouts",
+  "description": "Stripe Global Payouts support all your payout needs. They’re a fast and secure way to pay vendors, customers, freelancers, and other third parties in their local currency.",
+  "h1": "",
+  "elementCount": 2153,
+  "docHeight": 8793,
+  "sections": 40,
+  "buttons": 29,
+  "shots": {
+   "fold": "captures/pages/payouts-1440-fold.png",
+   "full": "captures/pages/payouts-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "pricing",
+  "path": "/pricing",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Pricing & Fees",
+  "description": "Find Stripe fees and pricing information. Find our processing fees for credit cards, pricing models and pay-as-you-go fees for businesses.",
+  "h1": "",
+  "elementCount": 4480,
+  "docHeight": 22252,
+  "sections": 40,
+  "buttons": 80,
+  "shots": {
+   "fold": "captures/pages/pricing-1440-fold.png",
+   "full": "captures/pages/pricing-1440-full.png",
+   "mobileFold": "captures/pages/pricing-390-fold.png"
+  },
+  "mobile": {
+   "headings": [
+    {
+     "t": "H1",
+     "s": "32px",
+     "lh": "normal",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "16.8px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": ""
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Payments"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Revenue"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Money management"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "Platforms and marketplaces"
+    },
+    {
+     "t": "H1",
+     "s": "14px",
+     "lh": "21px",
+     "text": "More"
+    },
+    {
+     "t": "H1",
+     "s": "48px",
+     "lh": "56px",
+     "text": "Pricing built for businesses of all sizes"
+    }
+   ],
+   "bodyPad": [],
+   "nav": 74
+  }
+ },
+ {
+  "slug": "radar",
+  "path": "/radar",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Radar | AI-powered Fraud Detection Solution",
+  "description": "Trained on 70 trillion data points, Stripe Radar reduces fraud by 32% on average. Detect threats at every stage of the customer journey, with any processor.",
+  "elementCount": 1984,
+  "docHeight": 9919,
+  "sections": 11,
+  "buttons": 20,
+  "shots": {
+   "fold": "captures/pages/radar-1440-fold.png",
+   "full": "captures/pages/radar-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "resources",
+  "path": "/resources",
+  "system": "legacy",
+  "ok": true,
+  "status": 404,
+  "title": "Page not found",
+  "description": null,
+  "h1": "",
+  "elementCount": 1427,
+  "docHeight": 2451,
+  "sections": 24,
+  "buttons": 8,
+  "shots": {
+   "fold": "captures/pages/resources-1440-fold.png",
+   "full": "captures/pages/resources-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "revenue-recognition",
+  "path": "/revenue-recognition",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Revenue Recognition | Revenue Recognition Software",
+  "description": "Stripe’s revenue recognition software simplifies accrual accounting to close your books quickly, accurately, and in line with ASC 606 and IFRS 15 standards.",
+  "h1": "",
+  "elementCount": 3167,
+  "docHeight": 9682,
+  "sections": 40,
+  "buttons": 26,
+  "shots": {
+   "fold": "captures/pages/revenue-recognition-1440-fold.png",
+   "full": "captures/pages/revenue-recognition-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "security",
+  "path": "/security",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Security at Stripe | Stripe Documentation",
+  "description": "Our users trust Stripe with their sensitive data and rely on us to be good custodians of their customers' data as well. As a payments infrastructure company, our security posture continually evolves to meet the rigorous standards of the global financial industry.",
+  "h1": "Security at Stripe",
+  "elementCount": 891,
+  "docHeight": 900,
+  "sections": 0,
+  "buttons": 33,
+  "shots": {
+   "fold": "captures/pages/security-1440-fold.png",
+   "full": "captures/pages/security-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "sessions",
+  "path": "/sessions",
+  "system": "hds",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Sessions 2027 | The global internet economy conference",
+  "description": "Stripe Sessions is a 2-day, in-person event with discussions about important internet economy trends, the future of commerce, and Stripe product updates. Register now to secure your spot.",
+  "h1": "The internet economy conference",
+  "elementCount": 436,
+  "docHeight": 7923,
+  "sections": 9,
+  "buttons": 13,
+  "shots": {
+   "fold": "captures/pages/sessions-1440-fold.png",
+   "full": "captures/pages/sessions-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "sigma",
+  "path": "/sigma",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Sigma | Analyze Stripe Data Using SQL and AI",
+  "description": "Use SQL and our AI-powered assistant to easily analyze Stripe data in your Dashboard to uncover revenue drivers, payment trends, and create custom reports.",
+  "h1": "",
+  "elementCount": 2269,
+  "docHeight": 9532,
+  "sections": 40,
+  "buttons": 47,
+  "shots": {
+   "fold": "captures/pages/sigma-1440-fold.png",
+   "full": "captures/pages/sigma-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "sitemap",
+  "path": "/sitemap",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Sitemap",
+  "description": null,
+  "h1": "",
+  "elementCount": 1467,
+  "docHeight": 3284,
+  "sections": 24,
+  "buttons": 9,
+  "shots": {
+   "fold": "captures/pages/sitemap-1440-fold.png",
+   "full": "captures/pages/sitemap-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "startups",
+  "path": "/startups",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Grow Your Business with Stripe | Stripe Startups",
+  "description": "Stripe helps startups launch quickly and effectively. Venture-backed startups can apply to Stripe Startups for access to exclusive discounts, events, and content.",
+  "h1": "",
+  "elementCount": 3674,
+  "docHeight": 16848,
+  "sections": 40,
+  "buttons": 51,
+  "shots": {
+   "fold": "captures/pages/startups-1440-fold.png",
+   "full": "captures/pages/startups-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "tax",
+  "path": "/tax",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Tax | Sales Tax Software for Global Compliance",
+  "description": "Simplify global tax compliance with an automated sales tax, VAT, and GST solution across 100+ countries. Identify obligations, calculate and collect taxes, and file on time.",
+  "h1": "",
+  "elementCount": 3668,
+  "docHeight": 17433,
+  "sections": 40,
+  "buttons": 37,
+  "shots": {
+   "fold": "captures/pages/tax-1440-fold.png",
+   "full": "captures/pages/tax-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "terminal",
+  "path": "/terminal",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Terminal | Unified Commerce Platform",
+  "description": "Stripe Terminal allows businesses to offer seamless and custom in-person payments for a unified commerce experience.",
+  "h1": "",
+  "elementCount": 2719,
+  "docHeight": 13527,
+  "sections": 40,
+  "buttons": 41,
+  "shots": {
+   "fold": "captures/pages/terminal-1440-fold.png",
+   "full": "captures/pages/terminal-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "treasury-platforms",
+  "path": "/treasury/platforms",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Treasury for Platforms | Financial Services APIs",
+  "description": "Stripe Treasury for platforms lets customers store funds, move money, and use payment cards issued by your platform—all within your ecosystem.",
+  "h1": "",
+  "elementCount": 2109,
+  "docHeight": 10459,
+  "sections": 40,
+  "buttons": 20,
+  "shots": {
+   "fold": "captures/pages/treasury-platforms-1440-fold.png",
+   "full": "captures/pages/treasury-platforms-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "treasury",
+  "path": "/treasury",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Treasury | Business Account to Unify Your Finances",
+  "description": "Open a financial account with Stripe Treasury to convert currencies, send payouts, and manage spending. No fees, no minimum balance.",
+  "h1": "",
+  "elementCount": 1919,
+  "docHeight": 8162,
+  "sections": 40,
+  "buttons": 22,
+  "shots": {
+   "fold": "captures/pages/treasury-1440-fold.png",
+   "full": "captures/pages/treasury-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-agentic-commerce",
+  "path": "/use-cases/agentic-commerce",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Agentic Commerce | Infrastructure for the Agent Economy",
+  "description": "The Agentic Commerce Suite connects businesses, agents, and buyers. Accept agentic payments, and make products discoverable across AI surfaces.",
+  "h1": "",
+  "elementCount": 1769,
+  "docHeight": 7978,
+  "sections": 40,
+  "buttons": 12,
+  "shots": {
+   "fold": "captures/pages/use-cases-agentic-commerce-1440-fold.png",
+   "full": "captures/pages/use-cases-agentic-commerce-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-ai",
+  "path": "/use-cases/ai",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for AI Companies | Trusted by Industry Leaders in AI",
+  "description": "Top AI companies use Stripe to grow and monetize products. Build agentic commerce applications and flexible pricing models to meet your business needs.",
+  "h1": "",
+  "elementCount": 1886,
+  "docHeight": 7327,
+  "sections": 40,
+  "buttons": 16,
+  "shots": {
+   "fold": "captures/pages/use-cases-ai-1440-fold.png",
+   "full": "captures/pages/use-cases-ai-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-creator-economy",
+  "path": "/use-cases/creator-economy",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for creator economy | A complete solution for the creator economy",
+  "description": "Build for the creator economy with Stripe",
+  "h1": "",
+  "elementCount": 2274,
+  "docHeight": 11076,
+  "sections": 40,
+  "buttons": 21,
+  "shots": {
+   "fold": "captures/pages/use-cases-creator-economy-1440-fold.png",
+   "full": "captures/pages/use-cases-creator-economy-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-crypto",
+  "path": "/use-cases/crypto",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Grow Your Business Globally with Crypto and Stablecoins | Stripe",
+  "description": "Reach new customers and reduce costs with Stripe's crypto and stablecoin solutions. Accept crypto payments, launch borderless financial services, and more.",
+  "h1": "",
+  "elementCount": 2594,
+  "docHeight": 13917,
+  "sections": 40,
+  "buttons": 30,
+  "shots": {
+   "fold": "captures/pages/use-cases-crypto-1440-fold.png",
+   "full": "captures/pages/use-cases-crypto-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-ecommerce",
+  "path": "/use-cases/ecommerce",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for Ecommerce | Payment Processing Platform",
+  "description": "Simplify ecommerce payments with Stripe’s unified, fast, and user-friendly payments solution for both online and in-person transactions.",
+  "h1": "",
+  "elementCount": 2888,
+  "docHeight": 9129,
+  "sections": 40,
+  "buttons": 30,
+  "shots": {
+   "fold": "captures/pages/use-cases-ecommerce-1440-fold.png",
+   "full": "captures/pages/use-cases-ecommerce-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-embedded-finance",
+  "path": "/use-cases/embedded-finance",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Embedded Finance | Financial Services on Your Platform",
+  "description": "Embedded finance solutions to unlock the full potential of your business. Seamlessly integrate financial services into your platform with Stripe.",
+  "h1": "",
+  "elementCount": 2982,
+  "docHeight": 9926,
+  "sections": 40,
+  "buttons": 19,
+  "shots": {
+   "fold": "captures/pages/use-cases-embedded-finance-1440-fold.png",
+   "full": "captures/pages/use-cases-embedded-finance-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-finance-automation",
+  "path": "/use-cases/finance-automation",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe Financial Automation Tools | Software & Solutions",
+  "description": " Stripe’s financial automation tools help over 200,000 businesses optimize revenue and automate manual processes. Get started today.",
+  "h1": "",
+  "elementCount": 2721,
+  "docHeight": 10417,
+  "sections": 40,
+  "buttons": 36,
+  "shots": {
+   "fold": "captures/pages/use-cases-finance-automation-1440-fold.png",
+   "full": "captures/pages/use-cases-finance-automation-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-global-businesses",
+  "path": "/use-cases/global-businesses",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Solutions for Global Businesses | Stripe",
+  "description": "Stripe offers a full commerce platform that helps enterprise businesses expand globally, optimize revenue, and build frictionless payment experiences.",
+  "h1": "",
+  "elementCount": 2286,
+  "docHeight": 10853,
+  "sections": 40,
+  "buttons": 36,
+  "shots": {
+   "fold": "captures/pages/use-cases-global-businesses-1440-fold.png",
+   "full": "captures/pages/use-cases-global-businesses-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-in-app-payments",
+  "path": "/use-cases/in-app-payments",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Accept In-App Payments to Grow Your App Revenue | Stripe",
+  "description": "Boost conversion with a customizable checkout experience for your app. Optimize the checkout flow, streamline subscriptions, and deploy with minimal coding.",
+  "h1": "",
+  "elementCount": 1911,
+  "docHeight": 9523,
+  "sections": 40,
+  "buttons": 25,
+  "shots": {
+   "fold": "captures/pages/use-cases-in-app-payments-1440-fold.png",
+   "full": "captures/pages/use-cases-in-app-payments-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-marketplaces",
+  "path": "/use-cases/marketplaces",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for Marketplaces | Power Payments for Marketplaces",
+  "description": "Stripe offers what you need to onboard service providers, manage global payments, send payouts, optimize checkout, beat fraud, and more.",
+  "h1": "",
+  "elementCount": 2993,
+  "docHeight": 10528,
+  "sections": 40,
+  "buttons": 22,
+  "shots": {
+   "fold": "captures/pages/use-cases-marketplaces-1440-fold.png",
+   "full": "captures/pages/use-cases-marketplaces-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-platforms",
+  "path": "/use-cases/platforms",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for Platforms | Easily Accept Payments",
+  "description": "Increase your platform’s growth and revenue with easy-to-integrate Stripe payment solutions and financial services, designed to accelerate business success.",
+  "h1": "",
+  "elementCount": 2832,
+  "docHeight": 10376,
+  "sections": 40,
+  "buttons": 25,
+  "shots": {
+   "fold": "captures/pages/use-cases-platforms-1440-fold.png",
+   "full": "captures/pages/use-cases-platforms-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ },
+ {
+  "slug": "use-cases-saas",
+  "path": "/use-cases/saas",
+  "system": "legacy",
+  "ok": true,
+  "status": 200,
+  "title": "Stripe for SaaS | Billing Platform for SaaS Businesses",
+  "description": "Streamline recurring billing processes and expand your global user base with Stripe’s modular and comprehensive suite of SaaS solutions for seamless, secure payments.",
+  "h1": "",
+  "elementCount": 2604,
+  "docHeight": 9723,
+  "sections": 40,
+  "buttons": 23,
+  "shots": {
+   "fold": "captures/pages/use-cases-saas-1440-fold.png",
+   "full": "captures/pages/use-cases-saas-1440-full.png",
+   "mobileFold": null
+  },
+  "mobile": null
+ }
+]

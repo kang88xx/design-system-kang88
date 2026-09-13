@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reatic Design System</title>
+<link rel="icon" href="public/assets/icons/logo-triangle.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Work+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="studio-shell.css">
+<link rel="stylesheet" href="src/system/tokens.css">
+<link rel="stylesheet" href="src/system/motion.css">
+<link rel="stylesheet" href="src/system/components.css">
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+
+<div class="as-studio">
+<a class="as-skip-link" href="#as-workspace">Skip to content</a>
+
+<aside id="as-nav" class="as-sidebar" aria-label="Navigation">
+  <a class="as-brand" href="#overview" aria-label="맨 위로">
+    <span class="as-brand-mark rt-logo"><svg viewBox="0 0 1000 1000" role="img" aria-label="REATIC INDUSTRY"><polygon points="500,245 783,733 217,733" fill="none" stroke="currentColor" stroke-width="32"/></svg></span>
+    <div>
+      <strong>Reatic</strong>
+      <span>Design system</span>
+    </div>
+    <span class="as-brand-badge">WEB</span>
+  </a>
+  <div class="as-sidebar-group">
+    <span class="as-sidebar-label">WORKSPACE</span>
+    <nav aria-label="스튜디오 섹션">
+      <a href="#overview"><span class="as-nav-index">01</span>Overview</a>
+      <a href="#identity"><span class="as-nav-index">02</span>Identity</a>
+      <a href="#colors"><span class="as-nav-index">03</span>Colors</a>
+      <a href="#typography"><span class="as-nav-index">04</span>Type</a>
+      <a href="#layout"><span class="as-nav-index">05</span>Layout</a>
+      <a href="#components"><span class="as-nav-index">06</span>Components</a>
+      <a href="#motion"><span class="as-nav-index">07</span>Motion</a>
+      <a href="#document"><span class="as-nav-index">08</span>Document</a>
+      <a href="#sources"><span class="as-nav-index">09</span>Sources</a>
+    </nav>
+  </div>
+  <div class="as-sidebar-bottom">
+    <span class="as-status-dot"></span>
+    <span>Local source capture<small>2026-09-13 · reaticindustry.com</small></span>
+    <a href="https://reaticindustry.com" target="_blank" rel="noreferrer" aria-label="Open original website">↗</a>
+  </div>
+</aside>
+<button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+
+<div class="as-main-shell">
+<header class="as-topbar">
+  <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+  <div class="as-breadcrumb"><span>Design system</span><span>/</span><strong>Overview</strong></div>
+  <div class="as-topbar-tools">
+    <button class="st-btn as-icon-button" id="theme-light" type="button"><span aria-hidden="true">☀</span><span class="sr-only">Light theme</span></button>
+    <button class="st-btn as-icon-button" id="theme-dark" type="button"><span aria-hidden="true">☾</span><span class="sr-only">Dark theme</span></button>
+    <button class="st-btn st-btn--accent as-export-button" id="export-tokens" type="button">Export tokens.css <span aria-hidden="true">↧</span></button>
+  </div>
+</header>
+
+<main id="as-workspace" tabindex="-1" class="as-workspace as-page-overview">
+<!-- ================= OVERVIEW ================= -->
+<section id="overview">
+  <div class="as-overview-title">
+    <span class="rt-logo as-hero-mark"><svg viewBox="0 0 1000 1000" aria-hidden="true"><polygon points="500,245 783,733 217,733" fill="none" stroke="currentColor" stroke-width="32"/></svg></span>
+    <div class="as-eyebrow"><span class="as-status-dot"></span> WEB DESIGN SYSTEM <span class="as-version">2026.09</span></div>
+    <h1><span>무에서 유를</span><span>창조하는 시스템.</span></h1>
+    <p class="as-intro">리틱인더스트리 공개 홈페이지 4개 페이지에서 수집한 색·서체·레이아웃·컴포넌트·모션을 실행 가능한 토큰, React 컴포넌트, 로컬 재구성 페이지, 문서 템플릿으로 정리했습니다. 값은 Wix 테마 변수와 렌더링된 계산 스타일(1440·390px)에서 직접 읽었습니다.</p>
+    <div class="as-title-actions">
+      <a class="rt-button rt-button--cta as-button" href="public/reconstruction/home.html">홈 재구성 보기</a>
+      <a class="as-text-command" href="public/reconstruction/contact.html">작업 의뢰 재구성 <span aria-hidden="true">↗</span></a>
+      <a class="as-text-command" href="../templates/reatic-document.html">문서 템플릿 <span aria-hidden="true">↗</span></a>
+      <a class="as-text-command" href="public/reatic-design-system-0.1.0.tgz" download>React 패키지 <span aria-hidden="true">↧</span></a>
+      <a class="as-text-command" href="https://reaticindustry.com" target="_blank" rel="noreferrer">reaticindustry.com <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div class="as-stats-strip">
+    <div><strong>4</strong><span>Pages</span></div>
+    <div><strong id="token-count">—</strong><span>Tokens</span></div>
+    <div><strong>32</strong><span>Type sizes</span></div>
+    <div><strong>6</strong><span>Entrances</span></div>
+    <div><strong>7</strong><span>Background videos</span></div>
+    <div><strong>32</strong><span>Client logos</span></div>
+    <div><strong>14</strong><span>React components</span></div>
+  </div>
+</section>
+
+<!-- ================= IDENTITY ================= -->
+<section class="st-block st-strip" id="identity">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">01 · Identity</span>
+        <h2 class="st-title">외곽선 삼각형 하나, 워드마크 없음.</h2>
+        <p class="st-lede st-muted">로고는 채움 없는 검정 정삼각형입니다. 선 두께는 밑변의 약 <b>1/18</b>. 헤더에는 <b>64×64</b>로만 놓이고 텍스트 로고는 어디에도 쓰지 않습니다. 슬로건 <b>"무에서 유를 창조하는 모션그래픽 프로덕션"</b>이 이름 역할을 합니다.</p>
+      </div>
+    </div>
+    <div class="st-grid g4" style="margin-top:40px">
+      <div style="background:#fff;aspect-ratio:1;display:grid;place-items:center"><svg viewBox="0 0 1000 1000" style="width:50%"><polygon points="500,245 783,733 217,733" fill="none" stroke="#000" stroke-width="32"/></svg></div>
+      <div style="background:#000;aspect-ratio:1;display:grid;place-items:center;border:1px solid #262626"><svg viewBox="0 0 1000 1000" style="width:50%"><polygon points="500,245 783,733 217,733" fill="none" stroke="#f3f3f3" stroke-width="32"/></svg></div>
+      <div style="background:#fff;aspect-ratio:1;display:grid;place-items:center"><svg viewBox="0 0 1000 1000" style="width:24%"><polygon points="500,245 783,733 217,733" fill="none" stroke="#000" stroke-width="32"/></svg></div>
+      <div style="background:#000;aspect-ratio:1;display:grid;place-items:center;border:1px solid #262626;padding:12px;text-align:center"><span style="font-weight:700;font-size:13px;color:#f3f3f3;line-height:1.5">무에서 유를<br>창조하는<br>모션그래픽 프로덕션</span></div>
+    </div>
+    <div class="st-tbl" style="margin-top:32px"><table class="st-table">
+      <tr><th>원본</th><th>크기</th><th>용도</th></tr>
+      <tr><td><a href="public/assets/logo/logo-triangle-3000.png">logo-triangle-3000.png</a> (리틱인더스트리_로고디자인)</td><td class="mono">3000 × 3000</td><td>마스터, 투명 배경</td></tr>
+      <tr><td><a href="public/assets/logo/logo-triangle-1000.png">logo-triangle-1000.png</a></td><td class="mono">1000 × 1000</td><td>파비콘 · apple-touch-icon</td></tr>
+      <tr><td><a href="public/assets/logo/logo-animated-1920x1080.gif">logo-animated-1920x1080.gif</a></td><td class="mono">1920 × 1080</td><td>about 히어로(그려지는 삼각형)</td></tr>
+      <tr><td><a href="public/assets/logo/og-image-1920x1080.png">og-image-1920x1080.png</a></td><td class="mono">1920 × 1080 (OG 2500 × 1330)</td><td>링크 공유 이미지</td></tr>
+      <tr><td><a href="public/assets/icons/logo-triangle.svg">logo-triangle.svg</a> · <a href="public/assets/icons/logo-triangle-white.svg">-white.svg</a></td><td class="mono">vector</td><td>재구성 벡터본 (polygon 500,245 783,733 217,733 · stroke 32)</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ================= COLORS ================= -->
+<section class="st-block" id="colors">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">02 · Color</span>
+        <h2 class="st-title">흑백에 앰버 한 점.</h2>
+        <p class="st-lede">바탕은 <b>#ffffff</b>와 <b>#000000</b>이 번갈아 나오고, 검정 위 텍스트는 순백이 아닌 <b>#f3f3f3</b>입니다. 회색 본문 위에 검정 볼드로 강조하는 조판이 기본이고, <b>#eea302</b> 앰버는 페이지당 한 번 CTA에만 씁니다. 현재 페이지 내비는 데스크톱 <b>#ff4040</b>, 모바일 <b>#926402</b>.</p>
+      </div>
+    </div>
+    <h3 class="st-sub">사용 팔레트</h3>
+    <div class="st-swrow">
+      <div class="st-sw"><div class="chip" style="background:#ffffff;border-bottom:1px solid rgba(128,128,128,.25)"></div><div class="lbl"><code>#ffffff</code> white<small>페이지 바탕 · 검정 위 강조 헤드라인</small></div><button class="st-btn copy" type="button" data-copy="#ffffff">Copy #ffffff</button></div>
+      <div class="st-sw"><div class="chip" style="background:#f3f3f3"></div><div class="lbl"><code>#f3f3f3</code> gray-100<small>카드 · 검정 위 기본 텍스트 · 입력 테두리 · 내비 호버</small></div><button class="st-btn copy" type="button" data-copy="#f3f3f3">Copy #f3f3f3</button></div>
+      <div class="st-sw"><div class="chip" style="background:#e3e3e3"></div><div class="lbl"><code>#e3e3e3</code> gray-200<small>스크롤 힌트 텍스트 · 괘선</small></div><button class="st-btn copy" type="button" data-copy="#e3e3e3">Copy #e3e3e3</button></div>
+      <div class="st-sw"><div class="chip" style="background:#c7c7c7"></div><div class="lbl"><code>#c7c7c7</code> gray-300<small>테마 예비</small></div><button class="st-btn copy" type="button" data-copy="#c7c7c7">Copy #c7c7c7</button></div>
+      <div class="st-sw"><div class="chip" style="background:#8a8a8a"></div><div class="lbl"><code>#8a8a8a</code> gray-500<small>보조 본문 · 내비 구분선</small></div><button class="st-btn copy" type="button" data-copy="#8a8a8a">Copy #8a8a8a</button></div>
+      <div class="st-sw"><div class="chip" style="background:#414141"></div><div class="lbl"><code>#414141</code> gray-700<small>포트폴리오 흐린 도입부</small></div><button class="st-btn copy" type="button" data-copy="#414141">Copy #414141</button></div>
+      <div class="st-sw"><div class="chip" style="background:#282626"></div><div class="lbl"><code>#282626</code> gray-900<small>about 보조 버튼</small></div><button class="st-btn copy" type="button" data-copy="#282626">Copy #282626</button></div>
+      <div class="st-sw"><div class="chip" style="background:#000000"></div><div class="lbl"><code>#000000</code> black<small>기본 텍스트 · 검정 스트립</small></div><button class="st-btn copy" type="button" data-copy="#000000">Copy #000000</button></div>
+      <div class="st-sw"><div class="chip" style="background:#eea302"></div><div class="lbl"><code>#eea302</code> amber-500<small>CTA 필 버튼 · "미준수 0회"</small></div><button class="st-btn copy" type="button" data-copy="#eea302">Copy #eea302</button></div>
+      <div class="st-sw"><div class="chip" style="background:#ff4040"></div><div class="lbl"><code>#ff4040</code> red-nav<small>현재 페이지 내비(데스크톱)</small></div><button class="st-btn copy" type="button" data-copy="#ff4040">Copy #ff4040</button></div>
+    </div>
+    <h3 class="st-sub">Wix 테마 램프 (선언됨, 앰버 외 미사용)</h3>
+    <div class="st-ramp"><span style="background:#face70">#face70</span><span style="background:#eea302">#eea302</span><span style="background:#926402;color:#fff">#926402</span><span style="background:#755104;color:#fff">#755104</span><span style="background:#593e03;color:#fff">#593e03</span></div>
+    <div class="st-ramp"><span style="background:#ffbeb6">#ffbeb6</span><span style="background:#ff9d92">#ff9d92</span><span style="background:#ff3b25;color:#fff">#ff3b25</span><span style="background:#aa2719;color:#fff">#aa2719</span><span style="background:#55140c;color:#fff">#55140c</span></div>
+    <div class="st-ramp"><span style="background:#bcebed">#bcebed</span><span style="background:#a7d8d9">#a7d8d9</span><span style="background:#80d8da">#80d8da</span><span style="background:#2a9192;color:#fff">#2a9192</span><span style="background:#135454;color:#fff">#135454</span></div>
+    <div class="st-ramp"><span style="background:#e9b3ff">#e9b3ff</span><span style="background:#df8dff">#df8dff</span><span style="background:#be1aff;color:#fff">#be1aff</span><span style="background:#7f11aa;color:#fff">#7f11aa</span><span style="background:#3f0955;color:#fff">#3f0955</span></div>
+    <h3 class="st-sub">규칙</h3>
+    <div class="st-tbl"><table class="st-table">
+      <tr><th>상황</th><th>값</th></tr>
+      <tr><td>검정 바탕 위 본문</td><td><code>#f3f3f3</code>. 헤드라인 한 줄만 <code>#ffffff</code>로 올려 위계를 만든다.</td></tr>
+      <tr><td>흰 바탕 본문</td><td><code>#8a8a8a</code>로 깔고 핵심 구절만 <code>#000000</code> 볼드.</td></tr>
+      <tr><td>앰버</td><td>페이지당 1회, CTA. 호버 시 <code>#f3f3f3</code>로 빠진다.</td></tr>
+      <tr><td>내비 호버</td><td>글자가 <code>#f3f3f3</code>로 0.4s 페이드되어 거의 사라진다.</td></tr>
+      <tr><td>입력 · 버튼 테두리(검정 위)</td><td><code>2px solid #f3f3f3</code>. 밑줄 입력 포커스는 <code>box-shadow 0 2px 0 0 #f3f3f3</code>, 제출 호버 시 테두리 <code>#eea302</code>.</td></tr>
+      <tr><td>예산 슬라이더</td><td>트랙 <code>rgba(243,243,243,.11)</code> 2px · 썸 22px.</td></tr>
+    </table></div>
+    <h3 class="st-sub">전체 토큰 (tokens.json → tokens.css)</h3>
+    <div class="st-token-list" id="token-list"></div>
+  </div>
+</section>
+
+<!-- ================= TYPOGRAPHY ================= -->
+<section class="st-block st-strip" id="typography">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">03 · Typography</span>
+        <h2 class="st-title">굵은 고딕, 1.4 행간, 극단적 크기.</h2>
+        <p class="st-lede st-muted">Latin 헤드라인 서체는 <b>Work Sans SemiBold</b>이지만 한글 글리프가 없어 한글은 OS 고딕으로 폴백됩니다. 사이트가 직접 업로드한 <b>Noto Sans KR Bold · Black · DemiLight</b>가 히어로·버튼·주석에 명시되어 있고, 내비·라벨은 <b>Avenir LT 35 Light</b>, 테마 본문은 <b>DIN Next Light</b>입니다. 행간은 전 단계 <b>1.4em</b>. 모바일(320 캔버스)은 히어로 34/32px, 제목 31px, 내비 22px로 줄어듭니다.</p>
+      </div>
+    </div>
+    <div class="st-grid g3" style="margin-top:40px">
+      <div class="st-fontcard"><div class="big" style="font-family:var(--rt-font-ko);font-weight:700">가나다 Aa</div><div class="name">Noto Sans KR Bold 700 · Black 900 · DemiLight 350</div><div class="use">히어로 3줄, CTA 라벨, 제출 버튼, ※ 주석, 입력 플레이스홀더</div></div>
+      <div class="st-fontcard"><div class="big" style="font-family:var(--rt-font-display);font-weight:600">None Aa</div><div class="name">Work Sans SemiBold (worksans-semibold + v19)</div><div class="use">Wix font_0/2/3/4/5 · 슬라이더 카드 "None" · 한글은 폴백</div></div>
+      <div class="st-fontcard"><div class="big" style="font-family:var(--rt-font-ui);font-weight:300">Avenir Aa</div><div class="name">Avenir LT 35 Light · DIN Next Light</div><div class="use">내비 16px, 텍스트에어리어, "* required", 테마 본문 16/12</div></div>
+    </div>
+    <h3 class="st-sub" style="color:#fff">스케일 (데스크톱 1440 관측값)</h3>
+    <div class="st-spec"><div class="k">mega<b>260px / 1.4</b></div><div class="v" style="font-size:clamp(64px,12vw,160px);line-height:1">끝납니다</div></div>
+    <div class="st-spec"><div class="k">display<b>100 · 101 · 105px</b></div><div class="v" style="font-size:clamp(40px,7vw,80px)">리틱인더스트리는</div></div>
+    <div class="st-spec"><div class="k">h1<b>70 · 71 · 72px</b></div><div class="v" style="font-size:clamp(32px,5vw,60px)">언제나 영상미를 최우선으로.</div></div>
+    <div class="st-spec"><div class="k">h2<b>55 · 60 · 66px</b></div><div class="v" style="font-size:clamp(28px,4vw,52px)">먼저, 회사명을 입력해주세요.</div></div>
+    <div class="st-spec"><div class="k">h3<b>42 · 49px</b></div><div class="v" style="font-size:42px">우리는<br>무에서 유를<br>창조해냅니다.</div></div>
+    <div class="st-spec"><div class="k">h4<b>35 · 38 · 41px</b></div><div class="v" style="font-size:36px;color:#f3f3f3">작업이 급하신가요?</div></div>
+    <div class="st-spec"><div class="k">h5 · lead<b>31px / 1.2 · 21px</b></div><div class="v" style="font-size:31px;line-height:1.2;color:#8a8a8a;font-weight:400">원하는 결과물을 만들기 위해 <b style="color:#fff">필요한 효과와 기술만 간결하게</b> 사용하며 <b style="color:#fff">빠른 작업 속도</b>를 추구합니다.</div></div>
+    <div class="st-spec"><div class="k">body · small<b>16 · 15px</b></div><div class="v" style="font-size:16px;font-weight:400;color:#f3f3f3">리틱인더스트리가 의뢰를 받고 작업한 프로젝트를 구경해보세요 · 리틱인더스트리에 의뢰하기</div></div>
+    <div class="st-spec"><div class="k">caption · fine<b>13 · 12px</b></div><div class="v" style="font-size:12px;font-weight:300;color:#f3f3f3">※ 제출해주신 예산 비용은 참고를 위해서만 사용되며 실제 견적 비용은 별개입니다.</div></div>
+    <div class="st-spec" style="border-bottom:0"><div class="k">micro<b>10px</b></div><div class="v" style="font-family:var(--rt-font-display);font-weight:600;font-size:10px;letter-spacing:.04em;color:#f3f3f3">DESIGNED BY REATIC INDUSTRY ALL RIGHTS ARE RESERVED</div></div>
+    <div class="st-tbl" style="margin-top:32px"><table class="st-table">
+      <tr><th>Wix 변수</th><th>선언</th><th>Wix 변수</th><th>선언</th></tr>
+      <tr><td class="mono">font_0</td><td>100px/1.4em worksans-semibold</td><td class="mono">font_6</td><td>18px/1.4em avenir-lt-w01_85-heavy</td></tr>
+      <tr><td class="mono">font_1</td><td>16px/1.4em din-next-w01-light</td><td class="mono">font_7</td><td>22px/1.4em avenir-lt-w01_35-light</td></tr>
+      <tr><td class="mono">font_2</td><td>42px/1.4em worksans-semibold</td><td class="mono">font_8</td><td>16px/1.4em avenir-lt-w01_35-light (내비)</td></tr>
+      <tr><td class="mono">font_3</td><td>26px/1.4em worksans-semibold</td><td class="mono">font_9</td><td>13px/1.4em avenir-lt-w01_35-light</td></tr>
+      <tr><td class="mono">font_4 · 5</td><td>22 · 18px/1.4em worksans-semibold</td><td class="mono">font_10</td><td>12px/1.4em din-next-w01-light</td></tr>
+    </table></div>
+    <p class="st-muted" style="margin-top:20px;font-size:14px">자간은 기본 0. about 버튼 0.75px, 리치텍스트 인라인 1px / -0.5px. 행간 예외: 홈 리드 31/37.2(1.2), about 장문 1.7, "이제 제출만 하시면…" 44/35(0.8, 의도적 겹침).</p>
+  </div>
+</section>
+
+<!-- ================= LAYOUT ================= -->
+<section class="st-block" id="layout">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">04 · Layout</span>
+        <h2 class="st-title">풀블리드 영상, 중앙 980 컬럼, 거대한 여백.</h2>
+        <p class="st-lede">텍스트와 내비는 <b>중앙 980px</b> 컬럼에, 히어로 카피는 x=117에서 시작합니다. 영상과 검정 스트립은 <b>1440 전폭</b>, 포트폴리오 갤러리는 <b>좌우 60px 여백의 1320px</b>(타일 651×366, 간격 20). 섹션 사이 세로 여백이 300~1500px로 매우 커서 한 화면에 한 메시지만 읽힙니다. 헤더 76px는 고정되지 않습니다. 모바일 캔버스는 320px, 좌우 여백 20px.</p>
+      </div>
+    </div>
+    <div class="st-griddiag">
+      <div class="c1320"></div><div class="c980"></div><div class="c900"></div>
+      <span class="lb" style="left:8px;top:8px">1440 canvas</span>
+      <span class="lb" style="left:50%;transform:translateX(-50%);top:8px;color:var(--rt-color-nav-selected)">980 content column</span>
+      <span class="lb" style="left:50%;transform:translateX(-50%);top:92px">900 × 450 inline video</span>
+      <span class="lb" style="right:8px;bottom:8px">1320 gallery · 60px gutters</span>
+    </div>
+    <h3 class="st-sub">페이지별 섹션 시퀀스 (높이 비례, 데스크톱 px)</h3>
+    <div class="st-pagemap">
+      <div class="pm"><h4>홈 <span>9,252</span></h4><div class="col">
+        <div class="s f" style="height:8px">header 76</div><div class="s v" style="height:60px">hero video 952</div><div class="s w" style="height:28px">우리는 / 무에서 유를 400 · pad 115/96</div><div class="s g" style="height:96px">여백 1521 · 계속 스크롤하세요 :)</div><div class="s w" style="height:22px">강점 314</div><div class="s f" style="height:36px">slider cards 543</div><div class="s w" style="height:74px">lead + 900×450 video 1164 · pad 189/228</div><div class="s v" style="height:58px">video bleed 921</div><div class="s w" style="height:33px">영상미 최우선 495</div><div class="s f" style="height:36px">split text | video 533</div><div class="s v" style="height:58px">video bleed 921</div><div class="s w" style="height:56px">split video | text 894</div><div class="s k" style="height:32px">CTA 470</div><div class="s w" style="height:6px">footer 48</div>
+      </div></div>
+      <div class="pm"><h4>리틱인더스트리 <span>10,753</span></h4><div class="col">
+        <div class="s f" style="height:8px">header 76</div><div class="s w" style="height:60px">logo GIF hero 961</div><div class="s w" style="height:150px">text · 38/100/105px · vertical line 2×416 · 2643</div><div class="s k" style="height:330px">black · 여러분은 · 끝납니다 260px · 0회 6961</div><div class="s w" style="height:8px">footer</div>
+      </div></div>
+      <div class="pm"><h4>포트폴리오 <span>8,310</span></h4><div class="col">
+        <div class="s f" style="height:8px">header 76</div><div class="s k" style="height:60px">black hero 961</div><div class="s k" style="height:20px">기획부터 제작까지 268</div><div class="s v" style="height:300px">gallery 2-col 651×366 · gap 20 · 5607</div><div class="s k" style="height:55px">clients 8 × 4 · 150px cells · 879</div><div class="s k" style="height:32px">CTA 470</div><div class="s w" style="height:6px">footer 48</div>
+      </div></div>
+      <div class="pm"><h4>작업 의뢰 <span>6,232</span></h4><div class="col">
+        <div class="s f" style="height:8px">header 76</div><div class="s v" style="height:56px">fixed silk video · 회사명 · pad 312</div><div class="s w" style="height:56px">사용처 · select 304×46</div><div class="s w" style="height:56px">레퍼런스 · textarea 720×106</div><div class="s w" style="height:56px">납기 · date 260×42</div><div class="s w" style="height:56px">연락처 · 2 × 298×37</div><div class="s w" style="height:56px">예산 · slider 702×2</div><div class="s w" style="height:56px">기타 · rich text · 제출 221×40</div><div class="s w" style="height:6px">footer 48</div>
+      </div></div>
+    </div>
+    <h3 class="st-sub">고정 치수</h3>
+    <div class="st-tbl"><table class="st-table">
+      <tr><th>요소</th><th>데스크톱</th><th>모바일 (320)</th></tr>
+      <tr><td>헤더 / 로고</td><td class="mono">76px · relative / 64 × 64 @ (16, 6)</td><td class="mono">Wix 모바일 헤더 · 내비 22px</td></tr>
+      <tr><td>내비 항목</td><td class="mono">3 × 141px · 1px #8a8a8a 구분선 · 선택 #ff4040</td><td class="mono">선택 #926402</td></tr>
+      <tr><td>섹션 안쪽 여백</td><td class="mono">텍스트 115/96 · 리드 189/228 · contact 312/246</td><td class="mono">20px 사방</td></tr>
+      <tr><td>인라인 영상 · 2단 분할</td><td class="mono">900 × 450 중앙 · 719–721 / 나머지</td><td class="mono">단일 컬럼 · 폭 280</td></tr>
+      <tr><td>CTA 스트립 · 버튼</td><td class="mono">470px 검정 · 288 × 55 r50</td><td class="mono">동일 비율</td></tr>
+      <tr><td>슬라이더 카드 · 갤러리 타일</td><td class="mono">≈780 × 440 r40 · 651 × 366 gap 20</td><td class="mono">321 × 178 · 1열 gap 16</td></tr>
+      <tr><td>클라이언트 로고 · 앵커 도트</td><td class="mono">150px 셀 8×4 (1200폭) · 11px 도트 7개, 32 간격, 우측 60</td><td class="mono">2열 · 도트 숨김</td></tr>
+      <tr><td>푸터</td><td class="mono">48px · 10px 대문자</td><td class="mono">동일</td></tr>
+    </table></div>
+    <div class="st-grid g2" style="margin-top:32px">
+      <div class="st-shot"><img src="public/assets/preview/home-fold.png" alt="홈 첫 화면: 흰 헤더와 풀블리드 영상" loading="lazy"><div class="c">HOME · fold 1440×900</div></div>
+      <div class="st-shot"><img src="public/assets/preview/home-split.png" alt="홈 2단 분할: 좌측 영상, 우측 텍스트" loading="lazy"><div class="c">HOME · split video | text 894</div></div>
+      <div class="st-shot"><img src="public/assets/preview/home-slider.png" alt="홈 슬라이더 카드" loading="lazy"><div class="c">HOME · slider cards r40</div></div>
+      <div class="st-shot"><img src="public/assets/preview/home-lead.png" alt="홈 리드 문단" loading="lazy"><div class="c">HOME · lead 31px, gray + black bold</div></div>
+      <div class="st-shot"><img src="public/assets/preview/portfolio-hero.png" alt="포트폴리오 검정 히어로" loading="lazy"><div class="c">PORTFOLIO · black hero 961</div></div>
+      <div class="st-shot"><img src="public/assets/preview/contact-fold.png" alt="작업 의뢰 첫 화면" loading="lazy"><div class="c">CONTACT · fixed video ground, anchor dots</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMPONENTS ================= -->
+<section class="st-block st-strip" id="components">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">05 · Components</span>
+        <h2 class="st-title">몇 개 안 되지만, 전부 정해져 있다.</h2>
+        <p class="st-lede st-muted">아래 샘플은 <b>components.css</b>의 실제 클래스입니다. React 패키지의 Header · NavMenu · Button · TextField · Select · Checkbox · Card · GalleryTile · Gallery · AnchorDots · ScrollHint · CtaStrip · Footer · EnterMotion이 같은 마크업을 출력합니다. <b>호버·포커스·상태</b>를 직접 확인하세요.</p>
+      </div>
+    </div>
+    <div class="st-grid g2" style="margin-top:40px">
+      <div class="st-demo light"><span class="cap">Nav · Avenir Light 16 · hover → #f3f3f3 · current #ff4040</span>
+        <div class="nav-wrap"><ul class="rt-nav"><li class="rt-nav__item"><a class="rt-nav__link" href="#components" aria-current="page">리틱인더스트리</a></li><li class="rt-nav__item"><a class="rt-nav__link" href="#components">포트폴리오</a></li><li class="rt-nav__item"><a class="rt-nav__link" href="#components">작업 의뢰</a></li></ul></div></div>
+      <div class="st-demo dark"><span class="cap">CTA pill · 288×55 · r50 · #eea302 → #f3f3f3</span>
+        <a class="rt-button rt-button--cta" href="#components">리틱인더스트리에 의뢰하기 <svg class="rt-button__icon" viewBox="0 0 200 60" aria-hidden="true"><path d="M159 10.9l-2.2 2.4L183.6 39H9v3h174.6l-26.2 25.3 2.1 2.6 30.5-29.3-31-29.7z" transform="translate(0 -9)"/></svg></a></div>
+      <div class="st-demo dark"><span class="cap">Secondary · 142×40 · #282626 · tracking .75px</span>
+        <div class="st-state"><a class="rt-button rt-button--secondary" href="#components">홈페이지로 의뢰</a><a class="rt-button rt-button--secondary" href="#components">이메일로 의뢰</a></div></div>
+      <div class="st-demo dark"><span class="cap">Submit · 221×40 · 2px #f3f3f3 · r2 · states</span>
+        <form id="demo-form" style="display:grid;gap:14px;justify-items:center;width:100%">
+          <div class="rt-field rt-field--underline" style="max-width:420px;width:100%"><label class="rt-field__label" for="demo-company" style="font-size:14px">회사명</label><input class="rt-field__input" id="demo-company" name="company" type="text" placeholder="회사명을 입력해주세요."><p class="rt-field__error" id="demo-error" role="alert"></p></div>
+          <button class="rt-button rt-button--submit" id="demo-submit" type="submit">제출</button>
+          <p class="rt-text rt-text--caption" id="demo-status" role="status" aria-live="polite"></p>
+          <div class="st-state"><button class="st-btn" type="button" id="state-disabled">Disabled</button><button class="st-btn" type="button" id="state-loading">Loading</button><button class="st-btn" type="button" id="state-reset">Reset</button></div>
+        </form></div>
+      <div class="st-demo dark" style="place-items:stretch"><span class="cap">Underline input · 13px DemiLight · 2px bottom · focus box-shadow</span>
+        <div class="rt-field rt-field--underline"><label class="rt-field__label" for="demo-mail" style="font-size:21px">이메일</label><input class="rt-field__input" id="demo-mail" type="email" placeholder="연락을 받을 이메일 주소를 입력해주세요."></div>
+        <div class="rt-field"><label class="rt-field__label" for="demo-use" style="font-size:16px">사용처</label><span class="rt-select"><select class="rt-select__input" id="demo-use"><option>사용처를 선택해주세요</option><option>광고</option><option>방송</option><option>기업 홍보</option></select><svg class="rt-select__icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 3.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span></div>
+        <label class="rt-checkbox"><input class="rt-checkbox__input" type="checkbox"><span>아직 정해진 일정이 없습니다.</span></label></div>
+      <div class="st-demo dark" style="place-items:stretch"><span class="cap">Box textarea · 2px #f3f3f3 · Avenir 15 · Range 702×2 / 22</span>
+        <div class="rt-field rt-field--box"><label class="rt-field__label" for="demo-ref" style="font-size:16px">레퍼런스</label><textarea class="rt-field__input" id="demo-ref" placeholder="영상을 볼 수 있는 링크를 입력해주세요. 여러 링크를 올려도 좋고, '없음'으로 적어주셔도 됩니다."></textarea></div>
+        <div class="rt-field" style="justify-items:center"><span class="rt-range__tooltip" id="demo-range-out">약 3000만원</span><input class="rt-range" id="demo-range" type="range" min="1000" max="10000" step="500" value="3000" aria-labelledby="demo-range-out"></div></div>
+      <div class="st-demo light"><span class="cap">Slider card · r40 · #f3f3f3 · Latin word + 12px caption</span>
+        <div class="rt-card" style="max-width:420px"><div class="rt-card__word">None</div><div class="rt-card__caption">아무것도 없어도</div></div></div>
+      <div class="st-demo dark" style="place-items:stretch"><span class="cap">Gallery tile · 16:9 · media transform .4s · overlay .4s</span>
+        <div class="rt-gallery" style="gap:12px"><a class="rt-tile" href="https://www.youtube.com/watch?v=kEO_wwGfvIk" target="_blank" rel="noreferrer"><img class="rt-tile__media" src="public/source/images/3ae519_fd5814f2f1c143bc84abc1fe52f399bd~mv2.png" alt="포트폴리오 1" loading="lazy"><span class="rt-tile__overlay">YouTube에서 보기</span></a><div class="rt-tile"><img class="rt-tile__media" src="public/source/images/3ae519_43072a434dc0466d80ca10f2698a9745~mv2.png" alt="포트폴리오 22" loading="lazy"></div></div></div>
+      <div class="st-demo dark"><span class="cap">Anchor dots · 11px · 32 gap · Scroll hint</span>
+        <div style="display:flex;gap:80px;align-items:center"><ol class="rt-anchor-dots" style="position:static;transform:none"><li><a class="rt-anchor-dots__link" href="#components" aria-current="true" aria-label="1"><span class="rt-anchor-dots__dot"></span></a></li><li><a class="rt-anchor-dots__link" href="#components" aria-label="2"><span class="rt-anchor-dots__dot"></span></a></li><li><a class="rt-anchor-dots__link" href="#components" aria-label="3"><span class="rt-anchor-dots__dot"></span></a></li><li><a class="rt-anchor-dots__link" href="#components" aria-label="4"><span class="rt-anchor-dots__dot"></span></a></li></ol>
+        <div class="rt-scroll-hint"><span>계속 스크롤하세요 :)</span><svg class="rt-scroll-hint__icon" viewBox="19.999 58 160.001 84" aria-hidden="true"><path d="M172.5 142a7.485 7.485 0 0 1-5.185-2.073L100 75.808l-67.315 64.12c-2.998 2.846-7.74 2.744-10.606-.234a7.454 7.454 0 0 1 .235-10.565l72.5-69.057a7.524 7.524 0 0 1 10.371 0l72.5 69.057a7.455 7.455 0 0 1 .235 10.565A7.503 7.503 0 0 1 172.5 142z" transform="rotate(180 100 100)"/></svg></div></div></div>
+      <div class="st-demo light"><span class="cap">Footer · 48px · 10px</span>
+        <div class="rt-footer" style="width:100%"><p style="margin:0">Designed by Reatic Industry<br>All rights are reserved</p></div></div>
+    </div>
+    <div class="st-grid g2" style="margin-top:32px">
+      <div class="st-shot"><img src="public/assets/preview/hover-nav.png" alt="내비 호버 상태 캡처" loading="lazy"><div class="c">captured · nav hover (item fades)</div></div>
+      <div class="st-shot"><img src="public/assets/preview/hover-cta.png" alt="CTA 호버 상태 캡처" loading="lazy"><div class="c">captured · CTA hover (#eea302 → #f3f3f3)</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MOTION ================= -->
+<section class="st-block" id="motion">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">06 · Motion</span>
+        <h2 class="st-title">1200ms, sine in-out, 60px.</h2>
+        <p class="st-lede">모든 텍스트는 스크롤 진입 시 재생되는 Wix 진입 애니메이션을 씁니다. 지배적인 값은 <b>1200ms · cubic-bezier(.445,.05,.55,.95) · 60px</b>. 히어로 3줄은 <b>3D 폴드</b>가 <b>0 → 700 → 1400ms</b>로 스태거되고, 홈 힌트와 contact 히어로는 <b>블러</b>로 들어옵니다. 스크롤 패럴랙스는 코드에 있지만 <b>켜져 있지 않습니다</b>. 배경 영상 7개는 자동재생·음소거·루프. 갤러리 컨테이너는 <b>800ms cubic-bezier(.13,.78,.53,.92)</b>로 재배치됩니다.</p>
+      </div>
+    </div>
+    <label class="st-check" style="margin-top:20px"><input type="checkbox" id="reduce-motion"> Reduce motion</label>
+    <div class="st-grid g3" style="margin-top:24px">
+      <div class="mo" data-motion-demo="float"><div class="hd"><b>floatIn ↑</b><span>27×</span></div><div class="stage"><div class="box" data-rt-enter="float-up">두 방법 모두</div></div><div class="spec2">1200ms · sine in-out · translateY 60px + fade</div><button class="st-btn" type="button" data-replay>Replay floatIn</button></div>
+      <div class="mo" data-motion-demo="float-x"><div class="hd"><b>floatIn ←</b><span>left / right</span></div><div class="stage"><div class="box" data-rt-enter="float-left">홈페이지로 의뢰</div></div><div class="spec2">1200ms · sine in-out · translateX ±60px</div><button class="st-btn" type="button" data-replay>Replay floatIn left</button></div>
+      <div class="mo" data-motion-demo="fade"><div class="hd"><b>fadeIn</b><span>13×</span></div><div class="stage"><div class="box" data-rt-enter="fade">리틱인더스트리는</div></div><div class="spec2">1200 / 900 / 700 / 650ms · sine in-out 또는 quad-out</div><button class="st-btn" type="button" data-replay>Replay fadeIn</button></div>
+      <div class="mo" data-motion-demo="fold"><div class="hd"><b>foldIn · stagger</b><span>hero</span></div><div class="stage lines"><div class="box" data-rt-enter="fold">우리는</div><div class="box" data-rt-enter="fold-2">무에서 유를</div><div class="box" data-rt-enter="fold-3">창조해냅니다.</div></div><div class="spec2">1200ms · back-out (.175,.885,.32,1.275) + fade quad-out · rotateX -90° · perspective 800 · delay 0 / 700 / 1400</div><button class="st-btn" type="button" data-replay>Replay foldIn stagger</button></div>
+      <div class="mo" data-motion-demo="fold-side"><div class="hd"><b>foldIn · side hinge</b><span>about</span></div><div class="stage"><div class="box" data-rt-enter="fold-side">여러분은</div></div><div class="spec2">700ms · rotateY 90° · origin left</div><button class="st-btn" type="button" data-replay>Replay foldIn side</button></div>
+      <div class="mo" data-motion-demo="blur"><div class="hd"><b>blurIn</b><span>hint · contact hero</span></div><div class="stage"><div class="box" data-rt-enter="blur-hero" style="--rt-motion-hero-delay:1ms;background:transparent;color:var(--st-text);font-size:22px">먼저, 회사명을</div></div><div class="spec2">blur 25px → 0 · 1900ms linear + fade 1330ms sine-in · delay 3000 (hint: 6px · 2000ms)</div><button class="st-btn" type="button" data-replay>Replay blurIn</button></div>
+      <div class="mo" data-motion-demo="glide"><div class="hd"><b>glideIn</b><span>5×</span></div><div class="stage lines"><div class="box" data-rt-enter="glide-left" style="font-size:16px">홈페이지를 통해 몇 가지 빈 칸만 채운 뒤</div><div class="box" data-rt-enter="glide-right" style="font-size:16px;justify-self:end">자세하게 의뢰하고 싶다면 이메일로</div></div><div class="spec2">1200ms · cubic in-out (.645,.045,.355,1) · 60px · no fade · 2nd delay 500</div><button class="st-btn" type="button" data-replay>Replay glideIn</button></div>
+      <div class="mo" data-motion-demo="reveal"><div class="hd"><b>revealIn</b><span>vertical line</span></div><div class="stage"><div class="box" data-rt-enter="reveal" style="width:2px;height:90px;padding:0;background:var(--st-text)"></div></div><div class="spec2">1200ms · cubic in-out · clip-path top → bottom</div><button class="st-btn" type="button" data-replay>Replay revealIn</button></div>
+      <div class="mo"><div class="hd"><b>page transition</b><span>Wix</span></div><div class="stage"><div class="box" style="background:transparent;color:var(--st-muted);font-weight:400;font-size:12px;width:auto">out-in .35s<br>(.22,1,.36,1) → (.64,0,.78,0)<br>slide .6s (.83,0,.17,1)</div></div><div class="spec2">홈 → 서브 페이지 이동 시</div><span></span></div>
+    </div>
+    <h3 class="st-sub">이징 곡선</h3>
+    <div class="st-grid g2">
+      <div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 28.5 60.8, 35.2 3.2, 64 0"/></svg><div><b>sine in-out · cubic-bezier(.445,.05,.55,.95)</b><span>floatIn · fadeIn · 기본 진입</span></div></div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 11.2 56.6, 20.5 -17.6, 64 0"/></svg><div><b>back-out · cubic-bezier(.175,.885,.32,1.275)</b><span>foldIn · 오버슈트</span></div></div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 16 34.6, 28.8 18.2, 64 0"/></svg><div><b>quad-out · cubic-bezier(.25,.46,.45,.94)</b><span>foldIn과 짝인 fade</span></div></div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 8.3 14.1, 33.9 5.1, 64 0"/></svg><div><b>gallery container · cubic-bezier(.13,.78,.53,.92)</b><span>타일 재배치 .8s</span></div></div>
+      </div>
+      <div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 41.3 61.1, 22.7 0, 64 0"/></svg><div><b>cubic in-out · cubic-bezier(.645,.045,.355,1)</b><span>glideIn · revealIn</span></div></div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 30.1 64, 47.7 18.2, 64 0"/></svg><div><b>sine-in · cubic-bezier(.47,0,.745,.715)</b><span>blurIn과 짝인 fade</span></div></div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 19.2 55.7, 7.7 0, 64 0"/></svg><div><b>gallery media · cubic-bezier(.3,.13,.12,1)</b><span>타일 transform .4s</span></div></div>
+        <div class="st-curve"><svg viewBox="0 0 64 64"><line x1="0" y1="64" x2="64" y2="0"/><path d="M0 64 C 55.7 64, 8.3 0, 64 0"/></svg><div><b>slider · cubic-bezier(.87,0,.13,1)</b><span>홈 카드 슬라이더</span></div></div>
+      </div>
+    </div>
+    <h3 class="st-sub">인터랙션 · 미디어</h3>
+    <div class="st-tbl"><table class="st-table">
+      <tr><th>대상</th><th>트랜지션</th></tr>
+      <tr><td>내비 링크</td><td class="mono">color .4s ease → #f3f3f3 · 현재 #ff4040</td></tr>
+      <tr><td>CTA 필</td><td class="mono">background #eea302 → #f3f3f3 (.2s) · 화살표 아이콘</td></tr>
+      <tr><td>보조 버튼</td><td class="mono">all .2s ease-in · #282626 → #f3f3f3 + 1px #000</td></tr>
+      <tr><td>제출</td><td class="mono">background-color .5s → rgba(243,243,243,.29) · border → #eea302</td></tr>
+      <tr><td>갤러리</td><td class="mono">container transform .8s (.13,.78,.53,.92) · media transform .4s (.3,.13,.12,1) · filter .5s · opacity .5s · overlay .4s · 로딩 셔머 1.6s</td></tr>
+      <tr><td>슬라이더</td><td class="mono">transform var(--transition-duration) cubic-bezier(.87,0,.13,1)</td></tr>
+      <tr><td>배경 영상</td><td class="mono">7개 · autoplay muted loop · object-fit cover · 1920×800 / 2000×1000 / 1920×1080 · contact는 position:fixed</td></tr>
+      <tr><td>스크롤 효과</td><td class="mono">parallax / reveal / zoom 선언만 존재, 활성화 안 됨</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ================= DOCUMENT ================= -->
+<section class="st-block st-strip" id="document">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">07 · Document system</span>
+        <h2 class="st-title">같은 언어로 쓰는 문서.</h2>
+        <p class="st-lede st-muted"><b>templates/reatic-document.html</b> 한 파일이 문서용 디자인 시스템입니다. 홈페이지의 조판 규칙을 A4 제안서·보고서·견적서에 맞게 축소한 토큰(표지 44 / 장 28 / 절 20 / 본문 11.5pt / 각주 8.5pt), 표·카드·콜아웃·핵심 숫자·단계·타임라인·서명선 패턴, 그리고 <b>인쇄 스타일</b>이 들어 있습니다. 브라우저에서 열고 내용을 바꾼 뒤 Ctrl/Cmd+P로 PDF를 만듭니다.</p>
+      </div>
+    </div>
+    <p style="margin-top:20px"><a class="rt-button rt-button--cta" href="../templates/reatic-document.html" target="_blank" rel="noreferrer">문서 템플릿 열기</a></p>
+    <iframe class="st-frame" src="../templates/reatic-document.html" title="Reatic Document System 미리보기" loading="lazy" style="margin-top:24px"></iframe>
+  </div>
+</section>
+
+<!-- ================= SOURCES ================= -->
+<section class="st-block" id="sources">
+  <div class="st-wrap">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <span class="as-eyebrow">08 · Sources &amp; evidence</span>
+        <h2 class="st-title">수집한 것 전부.</h2>
+        <p class="st-lede">원본 HTML 5종, 계산 스타일·측정 JSON 3종, 스크린샷 67장, 이미지 74장, 웹폰트 55종, 배경 영상 7개(720p)가 <b>evidence/</b>와 <b>app/public/</b>에 있습니다. 파일마다 크기와 SHA-256이 <b>evidence/source-index.json</b>에 기록됩니다.</p>
+      </div>
+    </div>
+    <div class="st-grid g2" style="margin-top:32px">
+      <div>
+        <label class="sr-only" for="source-filter">파일 필터</label>
+        <input class="st-input" id="source-filter" type="search" placeholder="Filter source files (e.g. home.html, fonts, mp4)">
+        <p class="st-muted" id="source-count" style="font-size:12px;margin:8px 0">loading…</p>
+        <ul class="st-filelist" id="source-list"></ul>
+      </div>
+      <div>
+        <div class="st-token-list" id="source-groups" style="grid-template-columns:1fr"></div>
+        <div class="st-shot" style="margin-top:16px"><img src="public/assets/preview/portfolio-clients.png" alt="클라이언트 로고 그리드" loading="lazy"><div class="c">clients · 8 × 4 · white monotone on black</div></div>
+      </div>
+    </div>
+    <h3 class="st-sub">외부 참조</h3>
+    <div class="st-tbl"><table class="st-table">
+      <tr><th>항목</th><th>값</th></tr>
+      <tr><td>원본</td><td><a href="https://www.reaticindustry.com/" rel="noreferrer">reaticindustry.com</a> · /about · /portfolio · /contact (Wix Thunderbolt, 2026-09-13 KST 수집)</td></tr>
+      <tr><td>포트폴리오 YouTube</td><td class="mono">kEO_wwGfvIk · 5Yuh3pgZRLo · EDNPR6wQW8Q · BYwRKN0En-w · TN8UvCXm8gA</td></tr>
+      <tr><td>연락</td><td class="mono">contact@reaticindustry.com</td></tr>
+      <tr><td>Wix 유료 폰트</td><td>Avenir LT 35 Light / 85 Heavy, DIN Next Light, Helvetica W01, Proxima Nova — 재배포 불가, 토큰에 Google Fonts 폴백(Nunito Sans, Barlow) 지정</td></tr>
+    </table></div>
+  </div>
+</section>
+  <footer class="as-studio-footer">
+    <span>Reatic Design System · source reaticindustry.com · captured 2026-09-13</span>
+    <span>Public source + reusable implementation</span>
+  </footer>
+</main>
+</div>
+<div class="as-toast" role="status"></div>
+</div>
+<script src="studio-shell.js"></script>
+<script src="studio.js"></script>
+</body>
+</html>

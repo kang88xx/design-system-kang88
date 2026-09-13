@@ -1,0 +1,1 @@
+.FullWidthFeatureCarouselItemWrapper{min-width:0;width:var(--layoutWidth);flex-shrink:0;padding-right:24px;height:100%}@media (min-width:600px){.FullWidthFeatureCarouselItemWrapper{width:calc(var(--layoutWidth)/2);padding-right:36px}}.FullWidthFeatureCarouselItemWrapper>.Card{height:100%}

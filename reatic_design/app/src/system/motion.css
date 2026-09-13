@@ -1,0 +1,97 @@
+/* REATIC motion system — every entrance, hover and transition observed on reaticindustry.com.
+   Pair with tokens.css. Entrances start paused; add `.is-in` (IntersectionObserver or useEnterMotion)
+   to run them, mirroring Wix `animation-play-state: paused → running` on scroll-into-view. */
+
+@keyframes rt-fadeIn { 0% { opacity: 0; } 100% { opacity: var(--rt-comp-opacity, 1); } }
+
+@keyframes rt-floatIn {
+  0% { opacity: 0; animation-timing-function: step-end; }
+  0.0001% { opacity: 0; transform: translate(var(--rt-motion-x, 0px), var(--rt-motion-y, 60px)); }
+  100% { opacity: var(--rt-comp-opacity, 1); transform: translate(0, 0); }
+}
+
+@keyframes rt-glideIn {
+  0% { opacity: 0; animation-timing-function: step-end; }
+  0.0001% { opacity: var(--rt-comp-opacity, 1); transform: translate(var(--rt-motion-x, -60px), var(--rt-motion-y, 0px)); }
+  100% { opacity: var(--rt-comp-opacity, 1); transform: translate(0, 0); }
+}
+
+@keyframes rt-foldIn {
+  0.0001% {
+    transform: translate(var(--rt-origin-x, 0%), var(--rt-origin-y, -50%)) perspective(var(--rt-motion-perspective, 800px))
+      rotateX(var(--rt-rotate-x, -90deg)) rotateY(var(--rt-rotate-y, 0deg))
+      translate(calc(-1 * var(--rt-origin-x, 0%)), calc(-1 * var(--rt-origin-y, -50%)));
+  }
+  100% {
+    transform: translate(var(--rt-origin-x, 0%), var(--rt-origin-y, -50%)) perspective(var(--rt-motion-perspective, 800px))
+      rotateX(0deg) rotateY(0deg)
+      translate(calc(-1 * var(--rt-origin-x, 0%)), calc(-1 * var(--rt-origin-y, -50%)));
+  }
+}
+
+@keyframes rt-blurIn { 0% { filter: blur(var(--rt-motion-blur, 6px)); } 100% { filter: blur(0); } }
+
+@keyframes rt-revealIn {
+  0% { opacity: 0; animation-timing-function: step-end; }
+  0.0001% { opacity: 1; clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
+  100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+
+@keyframes rt-page-out { to { opacity: 0; } }
+@keyframes rt-page-in { from { opacity: 0; } }
+@keyframes rt-slide-out { to { transform: translateX(-100%); } }
+@keyframes rt-slide-in { from { transform: translateX(100%); } }
+@keyframes rt-loading-bg {
+  0% { background-color: rgba(241, 241, 241, 0.2); }
+  50% { background-color: rgba(241, 241, 241, 0.8); }
+  100% { background-color: rgba(241, 241, 241, 0.2); }
+}
+
+/* ---- entrance presets ---- */
+[data-rt-enter] { animation-fill-mode: backwards; animation-play-state: paused; }
+[data-rt-enter].is-in { animation-play-state: running; }
+
+[data-rt-enter="fade"] { animation: rt-fadeIn var(--rt-motion-enter, 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95)) backwards 1 paused; }
+[data-rt-enter="fade-short"] { animation: rt-fadeIn 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95) backwards 1 paused; }
+[data-rt-enter="fade-late"] { animation: rt-fadeIn 900ms 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95) backwards 1 paused; }
+
+[data-rt-enter="float-up"] { --rt-motion-x: 0px; --rt-motion-y: var(--rt-motion-offset, 60px); animation: rt-floatIn var(--rt-motion-enter, 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95)) backwards 1 paused; }
+[data-rt-enter="float-up-short"] { --rt-motion-x: 0px; --rt-motion-y: var(--rt-motion-offset, 60px); animation: rt-floatIn 600ms cubic-bezier(0.445, 0.05, 0.55, 0.95) backwards 1 paused; }
+[data-rt-enter="float-left"] { --rt-motion-x: calc(-1 * var(--rt-motion-offset, 60px)); --rt-motion-y: 0px; animation: rt-floatIn var(--rt-motion-enter, 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95)) backwards 1 paused; }
+[data-rt-enter="float-right"] { --rt-motion-x: var(--rt-motion-offset, 60px); --rt-motion-y: 0px; animation: rt-floatIn var(--rt-motion-enter, 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95)) backwards 1 paused; }
+[data-rt-enter="float-viewport"] { --rt-motion-x: 0px; --rt-motion-y: calc(100vh - var(--rt-top, 0px)); animation: rt-floatIn var(--rt-motion-enter, 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95)) backwards 1 paused; }
+
+[data-rt-enter^="fold"] {
+  --rt-origin-x: 0%; --rt-origin-y: -50%; --rt-rotate-x: -90deg; --rt-rotate-y: 0deg;
+  animation: rt-fadeIn var(--rt-motion-fold-fade, 1200ms cubic-bezier(0.25, 0.46, 0.45, 0.94)) backwards 1 paused,
+             rt-foldIn var(--rt-motion-fold, 1200ms cubic-bezier(0.175, 0.885, 0.32, 1.275)) backwards 1 paused;
+}
+[data-rt-enter="fold-2"] { animation-delay: var(--rt-motion-stagger-delay, 700ms); }
+[data-rt-enter="fold-3"] { animation-delay: calc(2 * var(--rt-motion-stagger-delay, 700ms)); }
+[data-rt-enter="fold-short"] { animation-duration: 650ms; }
+[data-rt-enter="fold-side"] { --rt-origin-x: -50%; --rt-origin-y: 0%; --rt-rotate-x: 0deg; --rt-rotate-y: 90deg; animation-duration: 700ms; }
+
+[data-rt-enter="blur"] { --rt-motion-blur: var(--rt-motion-blur-amount, 6px); animation: rt-fadeIn var(--rt-motion-blur-fade, 1400ms cubic-bezier(0.47, 0, 0.745, 0.715)) backwards 1 paused, rt-blurIn var(--rt-motion-blur, 2000ms linear) backwards 1 paused; }
+[data-rt-enter="blur-hero"] { --rt-motion-blur: var(--rt-motion-blur-hero, 25px); animation: rt-fadeIn 1330ms var(--rt-motion-hero-delay, 3000ms) cubic-bezier(0.47, 0, 0.745, 0.715) backwards 1 paused, rt-blurIn 1900ms var(--rt-motion-hero-delay, 3000ms) linear backwards 1 paused; }
+
+[data-rt-enter="glide-left"] { --rt-motion-x: calc(-1 * var(--rt-motion-offset, 60px)); animation: rt-glideIn var(--rt-motion-glide, 1200ms cubic-bezier(0.645, 0.045, 0.355, 1)) backwards 1 paused; }
+[data-rt-enter="glide-right"] { --rt-motion-x: var(--rt-motion-offset, 60px); animation: rt-glideIn var(--rt-motion-glide, 1200ms cubic-bezier(0.645, 0.045, 0.355, 1)) backwards 1 paused; animation-delay: var(--rt-motion-glide-delay, 500ms); }
+[data-rt-enter="glide-viewport"] { --rt-motion-x: calc(100vw - var(--rt-left, 0px)); --rt-motion-y: 0px; animation: rt-glideIn var(--rt-motion-glide, 1200ms cubic-bezier(0.645, 0.045, 0.355, 1)) backwards 1 paused; }
+
+[data-rt-enter="reveal"] { animation: rt-revealIn var(--rt-motion-glide, 1200ms cubic-bezier(0.645, 0.045, 0.355, 1)) backwards 1 paused; }
+
+/* ---- page transitions (Wix out-in / slide) ---- */
+.rt-page-leave { animation: rt-page-out var(--rt-motion-page-out, 350ms cubic-bezier(0.22, 1, 0.36, 1)) forwards; }
+.rt-page-enter { animation: rt-page-in var(--rt-motion-page-in, 350ms cubic-bezier(0.64, 0, 0.78, 0)) 350ms backwards; }
+.rt-page-slide-leave { animation: rt-slide-out var(--rt-motion-page-slide, 600ms cubic-bezier(0.83, 0, 0.17, 1)) forwards; }
+.rt-page-slide-enter { animation: rt-slide-in var(--rt-motion-page-slide, 600ms cubic-bezier(0.83, 0, 0.17, 1)) backwards; }
+
+/* ---- background media ---- */
+.rt-bg-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.rt-bg-fixed { position: fixed; inset: 0; z-index: -1; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-rt-enter] { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; clip-path: none !important; }
+  .rt-page-leave, .rt-page-enter, .rt-page-slide-leave, .rt-page-slide-enter { animation: none !important; }
+  .rt-bg-video { display: none; }
+}

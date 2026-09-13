@@ -1,0 +1,21 @@
+{
+  "name": "@local/reatic-design-system",
+  "version": "0.1.0",
+  "description": "Locally authored React 19 components, CSS tokens and motion presets reconstructed from reaticindustry.com observations.",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": { "types": "./index.d.ts", "import": "./index.js" },
+    "./styles.css": "./styles.css",
+    "./tokens.css": "./tokens.css",
+    "./motion.css": "./motion.css",
+    "./tokens.json": "./tokens.json"
+  },
+  "files": ["index.js", "index.d.ts", "components.jsx", "styles.css", "tokens.css", "motion.css", "components.css", "tokens.json", "README.md"],
+  "sideEffects": ["*.css"],
+  "peerDependencies": { "react": "^19.0.0", "react-dom": "^19.0.0" },
+  "license": "UNLICENSED",
+  "private": false
+}

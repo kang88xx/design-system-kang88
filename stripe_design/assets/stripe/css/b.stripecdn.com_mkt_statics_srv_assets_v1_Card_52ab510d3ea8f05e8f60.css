@@ -1,0 +1,1 @@
+.CheckoutCard.Card{--cardMinHeight:500px;height:var(--cardHeight,var(--cardMinHeight))}.CheckoutStandaloneAnimation>.CheckoutCard{max-width:calc(var(--columnMaxWidth)*2);width:100%;margin:0 auto}

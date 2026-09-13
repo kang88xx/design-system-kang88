@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-09-10T05:59:37.420Z",
+  "files": {
+    "referenced": 2709,
+    "missing": 0,
+    "sample": []
+  },
+  "tokens": {
+    "light": 699,
+    "dark": 365,
+    "unresolved": 0,
+    "sample": [],
+    "fontFamily": "\"sohne-var\",\"SF Pro Display\",sans-serif"
+  },
+  "css": {
+    "tokens.css": {
+      "bytes": 76023,
+      "rulesParsed": 15,
+      "braces": 16,
+      "ratio": 0.94
+    },
+    "hds-components.css": {
+      "bytes": 160688,
+      "rulesParsed": 963,
+      "braces": 965,
+      "ratio": 1
+    },
+    "legacy-tokens.css": {
+      "bytes": 16504,
+      "rulesParsed": 45,
+      "braces": 45,
+      "ratio": 1
+    },
+    "legacy-components.css": {
+      "bytes": 105440,
+      "rulesParsed": 995,
+      "braces": 995,
+      "ratio": 1
+    },
+    "recipes.css": {
+      "bytes": 49249,
+      "rulesParsed": 165,
+      "braces": 165,
+      "ratio": 1
+    }
+  },
+  "live": {
+    "url": "https://stripe.com/",
+    "live": {
+      "button": {
+        "background-color": "rgb(83, 58, 253)",
+        "color": "rgb(255, 255, 255)",
+        "border-radius": "4px",
+        "height": "48px",
+        "font-size": "16px",
+        "font-weight": "400",
+        "padding": "15.5px 24px 16.5px"
+      },
+      "h1": {
+        "font-size": "48px",
+        "font-weight": "300",
+        "line-height": "55.2px",
+        "letter-spacing": "-0.96px",
+        "color": "rgb(129, 184, 26)",
+        "font-family": "sohne-var, \"SF Pro Display\", sans-serif"
+      },
+      "header": {
+        "height": "76px"
+      },
+      "footerLink": {
+        "color": "rgb(80, 97, 122)",
+        "font-size": "16px",
+        "font-weight": "300"
+      },
+      "rootVars": {
+        "brand600": "#533afd",
+        "textSolid": "#061b31",
+        "space200": "16px",
+        "headingXxl": "3.5rem"
+      }
+    },
+    "checks": [
+      {
+        "name": "button bg == action-bg-solid",
+        "actual": "#533afd",
+        "expected": "#533afd",
+        "pass": true
+      },
+      {
+        "name": "button radius == core-radius-sm",
+        "actual": "4px",
+        "expected": "4px",
+        "pass": true
+      },
+      {
+        "name": "button height == button-height desktop",
+        "actual": "48px",
+        "expected": "48px",
+        "pass": true
+      },
+      {
+        "name": "h1 size == heading-xxl?/xl desktop",
+        "actual": "48px",
+        "expected": "56px|48px|40px",
+        "pass": true
+      },
+      {
+        "name": "footer link color == text-soft",
+        "actual": "#50617a",
+        "expected": "#50617a",
+        "pass": true
+      },
+      {
+        "name": "root --hds-color-core-brand-600",
+        "actual": "#533afd",
+        "expected": "#533afd",
+        "pass": true
+      },
+      {
+        "name": "root --hds-space-core-200",
+        "actual": "16px",
+        "expected": "16px",
+        "pass": true
+      },
+      {
+        "name": "root --hds-font-heading-xxl-size (desktop)",
+        "actual": "3.5rem",
+        "expected": "3.5rem",
+        "pass": true
+      },
+      {
+        "name": "header height 76px",
+        "actual": "76px",
+        "expected": "76px",
+        "pass": true
+      }
+    ],
+    "passed": 9,
+    "total": 9
+  },
+  "ok": true
+}

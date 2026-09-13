@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="11" viewBox="0 0 8 11">
+  <g fill="none" fill-rule="evenodd" stroke="#566282" stroke-width="1.4" transform="translate(1 1.437)">
+    <polyline points="1.4 4.2 4.2 7 1.4 9.8" transform="rotate(90 2.8 7)"/>
+    <polyline points="1.4 -1.4 4.2 1.4 1.4 4.2" transform="matrix(0 -1 -1 0 4.2 4.2)"/>
+  </g>
+</svg>

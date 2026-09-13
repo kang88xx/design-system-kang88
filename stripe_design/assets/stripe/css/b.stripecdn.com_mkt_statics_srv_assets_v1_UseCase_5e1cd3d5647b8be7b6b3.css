@@ -1,0 +1,1 @@
+.BankingUseCase{display:flex;flex-direction:column;height:100%}.BankingUseCase__layout{height:100%;align-items:flex-start}.BankingUseCase__graphicContainer{margin-top:auto;display:flex;flex-direction:column}@media (min-width:600px){.BankingUseCase__graphicContainer{margin-right:var(--columnPaddingLarge)}}.BankingUseCase__image{display:block;width:100%;height:auto}

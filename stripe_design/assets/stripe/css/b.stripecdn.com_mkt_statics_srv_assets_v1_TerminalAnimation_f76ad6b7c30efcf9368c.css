@@ -1,0 +1,1 @@
+.PaymentsTerminalAnimation{position:relative;width:var(--columnWidth);min-width:380px;min-height:540px}@media (min-width:600px){.PaymentsTerminalAnimation{min-width:0}}.PaymentsTerminalAnimation__graphic{width:120%}@media (min-width:600px){.PaymentsTerminalAnimation__graphic{width:180%}}.PaymentsTerminalAnimation__graphicLayout{width:468px;height:640px}

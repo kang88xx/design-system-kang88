@@ -1,0 +1,1 @@
+.InvoicingBrandNav{display:flex;justify-content:center}.InvoicingBrandNav__item{--indicatorColor:#a9b3be;padding:12px 3px;border-radius:1px}.InvoicingBrandNav__item:before{display:block;width:24px;height:2px;border-radius:1px;background:var(--indicatorColor);content:""}.InvoicingBrandNav__item--isActive{--indicatorColor:var(--accentColor)}

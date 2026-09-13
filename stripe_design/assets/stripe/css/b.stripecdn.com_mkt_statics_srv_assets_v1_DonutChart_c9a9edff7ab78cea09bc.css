@@ -1,0 +1,1 @@
+.PaymentMethodHubDonutChart{--donutChartSize:120px;--donutChartLineWidth:24px;width:var(--donutChartSize);height:var(--donutChartSize)}@media (min-width:600px){.PaymentMethodHubDonutChart{--donutChartSize:192px;--donutChartLineWidth:30px}}.PaymentMethodHubDonutChart__canvas{width:100%;height:100%}

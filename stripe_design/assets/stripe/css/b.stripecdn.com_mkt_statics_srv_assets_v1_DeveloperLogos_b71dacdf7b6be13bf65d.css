@@ -1,0 +1,1 @@
+.TerminalDeveloperLogos{display:grid;grid-template-columns:1fr 1fr 1fr;margin:0 -16px}.TerminalDeveloperLogos .UserLogo{display:block;width:100%}@media (min-width:900px){.TerminalDeveloperLogos{margin:0 0 0 -16px;width:440px}.TerminalDeveloperLogos .UserLogo:nth-child(3n){margin-left:-20px}}

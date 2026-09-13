@@ -160,6 +160,81 @@ window.DESIGN_SYSTEMS = [
     stats: ["Edition 04", "TypeScript 선언", "모션 라이브러리"]
   },
   {
+    slug: "reatic",
+    name: "Reatic Design System",
+    brand: "Reatic Industry",
+    origin: "reaticindustry.com",
+    kind: "web",
+    date: "2026-09-13",
+    tagline: "리틱인더스트리 공개 홈페이지 4페이지의 코드와 동작으로 만든 실행 가능한 디자인 시스템",
+    description:
+      "리틱인더스트리(reaticindustry.com) 공개 홈페이지 4개 페이지의 코드와 관찰 가능한 동작을 기반으로 만든 로컬 디자인 시스템입니다. 토큰·CSS·React 19 컴포넌트 14개, 시스템만으로 다시 그린 재구성 4페이지, A4 문서 템플릿, 모션 프리셋 19종을 제공합니다.",
+    palette: ["#000000", "#282626", "#8a8a8a", "#eea302", "#f3f3f3", "#ffffff"],
+    accent: "#eea302",
+    folder: "reatic_design",
+    entry: "../reatic_design/app/index.html",
+    pages: [
+      { label: "디자인 시스템 스튜디오", href: "../reatic_design/app/index.html" },
+      { label: "홈 재구성", href: "../reatic_design/app/public/reconstruction/home.html" },
+      { label: "소개 재구성", href: "../reatic_design/app/public/reconstruction/about.html" },
+      { label: "포트폴리오 재구성", href: "../reatic_design/app/public/reconstruction/portfolio.html" },
+      { label: "작업 의뢰 재구성", href: "../reatic_design/app/public/reconstruction/contact.html" },
+      { label: "문서 디자인 시스템 (A4)", href: "../reatic_design/templates/reatic-document.html" },
+      { label: "단일 HTML 아티팩트", href: "../reatic_design/dist/reatic-design-system.html" }
+    ],
+    docs: [
+      { label: "DESIGN.md", href: "../reatic_design/DESIGN.md" },
+      { label: "README.md", href: "../reatic_design/README.md" },
+      { label: "HANDOFF.md", href: "../reatic_design/HANDOFF.md" },
+      { label: "프로젝트 통합 가이드", href: "../reatic_design/docs/project-integration.md" },
+      { label: "모션 사용 가이드", href: "../reatic_design/docs/motion-usage.md" },
+      { label: "문서 시스템", href: "../reatic_design/docs/document-system.md" },
+      { label: "모션 조사", href: "../reatic_design/docs/motion-research.md" },
+      { label: "인터랙션 인벤토리", href: "../reatic_design/docs/interaction-inventory.md" },
+      { label: "소스 완전성", href: "../reatic_design/docs/source-completeness.md" }
+    ],
+    downloads: [
+      { label: "React 패키지 (.tgz)", href: "../reatic_design/app/public/reatic-design-system-0.1.0.tgz" },
+      { label: "tokens.css", href: "../reatic_design/app/src/system/tokens.css" },
+      { label: "tokens.json", href: "../reatic_design/app/src/system/tokens.json" }
+    ],
+    stats: ["React 컴포넌트 14", "모션 프리셋 19", "재구성 페이지 4"]
+  },
+  {
+    slug: "stripe",
+    name: "Stripe Design Sources",
+    brand: "Stripe",
+    origin: "stripe.com",
+    kind: "web",
+    date: "2026-09-10",
+    tagline: "stripe.com 마케팅 사이트의 토큰·박스·이펙트·모션·일러스트 소스 카탈로그",
+    description:
+      "stripe.com 마케팅 사이트에서 수집한 디자인 소스 카탈로그입니다. 새 시스템(HDS)과 레거시 시스템의 토큰·컴포넌트 CSS 원문, 박스 소스 355개, 이펙트 370개, 키프레임 100개, 일러스트 391개, 인터랙션 52개를 뷰어에서 탐색하고 독립 CSS 레시피로 가져갈 수 있습니다.",
+    palette: ["#061b31", "#533afd", "#635bff", "#50617a", "#f8fafd", "#e5edf5"],
+    accent: "#533afd",
+    folder: "stripe_design",
+    entry: "../stripe_design/viewer/index.html",
+    pages: [{ label: "소스 뷰어", href: "../stripe_design/viewer/index.html" }],
+    docs: [
+      { label: "README.md", href: "../stripe_design/README.md" },
+      { label: "DESIGN.md", href: "../stripe_design/DESIGN.md" },
+      { label: "파운데이션", href: "../stripe_design/docs/FOUNDATIONS.md" },
+      { label: "컴포넌트", href: "../stripe_design/docs/COMPONENTS.md" },
+      { label: "박스·이펙트·모션", href: "../stripe_design/docs/BOXES_EFFECTS_MOTION.md" },
+      { label: "출처", href: "../stripe_design/docs/SOURCES.md" },
+      { label: "수집 범위", href: "../stripe_design/docs/SOURCE_COVERAGE.md" },
+      { label: "라이선스·저작권 표시", href: "../stripe_design/docs/LICENSE_AND_ATTRIBUTION.md" }
+    ],
+    downloads: [
+      { label: "HDS tokens.css", href: "../stripe_design/data/curated/tokens.css" },
+      { label: "HDS tokens.json", href: "../stripe_design/data/curated/tokens.json" },
+      { label: "박스·이펙트 레시피 CSS", href: "../stripe_design/data/curated/recipes.css" },
+      { label: "HDS 컴포넌트 CSS", href: "../stripe_design/data/curated/hds-components.css" },
+      { label: "레거시 tokens.css", href: "../stripe_design/data/curated/legacy-tokens.css" }
+    ],
+    stats: ["HDS 토큰 699", "박스 소스 355", "이펙트 370"]
+  },
+  {
     slug: "adver",
     name: "X Advertising Design System",
     brand: "X Ads",

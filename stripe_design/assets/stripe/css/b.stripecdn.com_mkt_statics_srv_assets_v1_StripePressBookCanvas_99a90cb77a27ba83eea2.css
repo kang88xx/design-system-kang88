@@ -1,0 +1,1 @@
+.StripePressBookCanvas{--bookMaxWidth:var(--columnWidth);max-width:var(--bookMaxWidth);max-height:var(--bookMaxWidth)}@media (min-width:900px){.StripePressBookCanvas{--bookMaxWidth:calc(var(--columnWidth)*2)}}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>리틱인더스트리 | 포트폴리오 재구성 (로컬)</title>
+<link rel="icon" href="../assets/icons/logo-triangle.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Work+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="../../src/system/tokens.css">
+<link rel="stylesheet" href="../../src/system/motion.css">
+<link rel="stylesheet" href="../../src/system/components.css">
+<style>
+  /* Local reconstruction of /portfolio: black hero (961), intro (268), 2-column 16:9 gallery (tile 651×366, gap 20, margin 60),
+     clients 8×4 (150px cells), CTA strip. Gallery tiles link to the five public YouTube videos where the source did. */
+  * { box-sizing: border-box; }
+  html, body { overflow-x: clip; }
+  body { margin: 0; background: var(--rt-color-bg-strip); color: var(--rt-color-text-on-strip); font-family: var(--rt-font-ko); -webkit-font-smoothing: antialiased; }
+  .banner { position: sticky; top: 0; z-index: 20; background: var(--rt-color-accent); color: #000; font-size: 12px; padding: 6px 16px; text-align: center; font-weight: 700; }
+  .banner a { color: inherit; }
+  .hero { min-height: var(--rt-section-hero-alt); display: grid; align-content: center; justify-items: center; gap: 120px; padding: 80px 24px; }
+  .hero h2 { max-width: 860px; }
+  .intro { padding: 65px calc(60 / 1440 * 100vw) 0; display: grid; gap: 12px; }
+  .gallery { padding: 72px calc(60 / 1440 * 100vw) 120px; }
+  .rt-gallery { gap: var(--rt-layout-gallery-gap); }
+  .clients { padding: 120px calc(120 / 1440 * 100vw) 100px; display: grid; gap: 80px; justify-items: center; }
+  .rt-clients { width: 100%; max-width: 1200px; background: transparent; gap: 0; }
+  .rt-clients img { width: 150px; max-width: 100%; margin: 0 auto; }
+  @media (max-width: 750px) { .intro, .gallery, .clients { padding-inline: var(--rt-layout-mobile-padding); } .hero { gap: 60px; } }
+</style>
+</head>
+<body>
+<div class="banner">로컬 재구성 — 원본 <a href="https://www.reaticindustry.com/portfolio" rel="noreferrer">reaticindustry.com/portfolio</a>. 타일 이미지는 수집한 원본이며, 링크는 원본이 연결한 공개 YouTube 영상입니다.</div>
+
+<header class="rt-header rt-header--line" style="background:#fff;color:#000">
+  <a href="home.html" aria-label="홈으로"><span class="rt-logo" style="color:#000"><svg viewBox="0 0 1000 1000" role="img" aria-label="REATIC INDUSTRY"><polygon points="500,245 783,733 217,733" fill="none" stroke="currentColor" stroke-width="32"/></svg></span></a>
+  <nav aria-label="주 메뉴"><ul class="rt-nav">
+    <li class="rt-nav__item"><a class="rt-nav__link" href="about.html">리틱인더스트리</a></li>
+    <li class="rt-nav__item"><a class="rt-nav__link" href="portfolio.html" aria-current="page">포트폴리오</a></li>
+    <li class="rt-nav__item"><a class="rt-nav__link" href="contact.html">작업 의뢰</a></li>
+  </ul></nav>
+  <div></div>
+</header>
+
+<main class="rt-on-strip">
+  <section class="hero" aria-label="도입">
+    <div>
+      <h2 class="rt-text rt-text--h3-alt rt-text--muted" style="color:#414141" data-rt-enter="fade">우리는 작업을 맡을 때 <b>기술</b>만 제공할 수도 있지만,</h2>
+      <h2 class="rt-text rt-text--h3-alt rt-text--muted" style="color:#414141" data-rt-enter="fade"><b>아이디어</b>를 제공하고 <b>창작 그 자체</b>를 보여드리며,</h2>
+      <h2 class="rt-text rt-text--h3-alt rt-text--muted" style="color:#414141" data-rt-enter="fade">필요 시 맡은 <b>프로젝트 전체를 구상</b>하기도 합니다.</h2>
+    </div>
+    <div class="rt-scroll-hint rt-scroll-hint--inverse"><svg class="rt-scroll-hint__icon" viewBox="19.999 58 160.001 84" aria-hidden="true"><path d="M172.5 142a7.485 7.485 0 0 1-5.185-2.073L100 75.808l-67.315 64.12c-2.998 2.846-7.74 2.744-10.606-.234a7.454 7.454 0 0 1 .235-10.565l72.5-69.057a7.524 7.524 0 0 1 10.371 0l72.5 69.057a7.455 7.455 0 0 1 .235 10.565A7.503 7.503 0 0 1 172.5 142z" transform="rotate(180 100 100)"/></svg></div>
+  </section>
+
+  <section class="intro" aria-label="소개">
+    <h2 class="rt-text" style="font-size:56px;color:#fff;line-height:1.4" data-rt-enter="fade-late">기획부터 제작까지</h2>
+    <p class="rt-text rt-text--body" style="font-family:var(--rt-font-ui);font-weight:300;color:#fff;line-height:1.8">리틱인더스트리가 의뢰를 받고 작업한 프로젝트를 구경해보세요</p>
+  </section>
+
+  <section class="gallery" aria-label="프로젝트">
+    <div class="rt-gallery" id="gallery"></div>
+  </section>
+
+  <section class="clients" aria-label="클라이언트">
+    <h2 class="rt-text rt-text--h6" style="color:#fff" data-rt-enter="fade">리틱인더스트리는 다양한 의뢰처와 함께 하고 있습니다.</h2>
+    <div class="rt-clients" id="clients"></div>
+  </section>
+
+  <section class="rt-cta-strip" aria-label="의뢰">
+    <div class="rt-scroll-hint rt-scroll-hint--up rt-scroll-hint--inverse"><svg class="rt-scroll-hint__icon" viewBox="19.999 58 160.001 84" aria-hidden="true"><path d="M172.5 142a7.485 7.485 0 0 1-5.185-2.073L100 75.808l-67.315 64.12c-2.998 2.846-7.74 2.744-10.606-.234a7.454 7.454 0 0 1 .235-10.565l72.5-69.057a7.524 7.524 0 0 1 10.371 0l72.5 69.057a7.455 7.455 0 0 1 .235 10.565A7.503 7.503 0 0 1 172.5 142z" transform="rotate(180 100 100)"/></svg></div>
+    <p class="rt-cta-strip__eyebrow">무에서 유를 창조하는 모션그래픽 프로덕션</p>
+    <h1 class="rt-cta-strip__title">리틱인더스트리에 의뢰하세요</h1>
+    <a class="rt-button rt-button--cta" href="contact.html">리틱인더스트리에 의뢰하기 <svg class="rt-button__icon" viewBox="0 0 200 60" aria-hidden="true"><path d="M159 10.9l-2.2 2.4L183.6 39H9v3h174.6l-26.2 25.3 2.1 2.6 30.5-29.3-31-29.7z" transform="translate(0 -9)"/></svg></a>
+  </section>
+</main>
+
+<footer class="rt-footer" style="background:#000;color:#f3f3f3"><p style="margin:0">Designed by Reatic Industry<br>All rights are reserved</p></footer>
+
+<script>
+  // Tile order follows the saved portfolio.html <img> order (evidence/source/portfolio.html).
+  const tiles = ['3ae519_fd5814f2f1c143bc84abc1fe52f399bd~mv2.png','3ae519_63c7885e70d84c0ab63b173b1b385f22~mv2.jpg','3ae519_1879647b57394edf9a9d1636086d5d1ff003.jpg','3ae519_0d0ec1eb99914d96a5dac5a1279bca29f003.jpg','3ae519_79a7dfc3d28940fdad7ccd54f28551c4~mv2.jpg','3ae519_291b3f598d314332a6c333eb8486aefd~mv2.jpg','3ae519_591818b8c9b44917be3ac6899fc719f1~mv2.jpg','3ae519_4c61b4fb0d4447f092709cd789f4f8b9~mv2.png','3ae519_48a3ee4b47394f05adda3d7a8cc7f187~mv2.png','3ae519_cff35766114d49e4bc9be6aa7372808af003.jpg','3ae519_32adc3bc2f494f30b654a2ef642d0eaf~mv2.png','3ae519_1e96238a08ad4304b43f6ad49d037f93~mv2.png','3ae519_23585672dd1644788232873c23daa12af003.jpg','3ae519_75727c61b4984fde8885682abec0e23d~mv2.jpg','3ae519_0f775ad540e74d4db13d5dc53b4322b2~mv2.png','3ae519_bea90490e2ec4818a8f87169bb12b7c2~mv2.jpg','3ae519_98046092d8a942aaa3ae4ed9ec5d48f5f003.jpg','3ae519_db0e0021882c4d52981dc647bb901226f003.jpg','3ae519_4ce4610166fe4162aed16c6e824dede0~mv2.png','3ae519_3c5cdf5d47c549f08d4df594b5283e8c~mv2.png','3ae519_271a2b150169430db2ccef700d1aa763~mv2.png','3ae519_43072a434dc0466d80ca10f2698a9745~mv2.png','3ae519_44b3d157610247f09c8a886b1522f032f003.jpg','3ae519_77d60ffe1efe41379d75e68d767298d8f003.jpg','3ae519_dad0f249de0341178eea15a4b5f43878~mv2.png'];
+  const youtube = { 0: 'kEO_wwGfvIk', 1: '5Yuh3pgZRLo', 2: 'EDNPR6wQW8Q', 3: 'BYwRKN0En-w', 4: 'TN8UvCXm8gA' };
+  const g = document.getElementById('gallery');
+  tiles.forEach((file, i) => {
+    const yt = youtube[i];
+    const el = document.createElement(yt ? 'a' : 'div');
+    el.className = 'rt-tile';
+    if (yt) { el.href = `https://www.youtube.com/watch?v=${yt}`; el.target = '_blank'; el.rel = 'noreferrer'; }
+    el.innerHTML = `<img class="rt-tile__media" src="../source/images/${file}" alt="포트폴리오 ${i + 1}" loading="lazy">${yt ? '<span class="rt-tile__overlay">YouTube에서 보기</span>' : ''}`;
+    g.appendChild(el);
+  });
+  const clients = ['3ae519_ce5c4e53d0254dd3ac1fd4270ee31d95~mv2.png','3ae519_4e56c64bfd9a473fbdc8ac823fbd2f14~mv2.png','3ae519_78c1421cbc0f4c0b87486321bf1a2edf~mv2.png','3ae519_f59f76b71e3c4fd98f7f16585feacf08~mv2.png','3ae519_78ba082a390148c5bf292cacf800c103~mv2.png','3ae519_1246d86d538c4051afd6626555dc671e~mv2.png','3ae519_37ef9fadee56417397b5a9d0c1fb619a~mv2.png','3ae519_7c28eb09611941e489385c5d4e868df8~mv2.png','3ae519_903982be02e54993b940675ae2300782~mv2.png','3ae519_a072eb1bff9c48718dc6740e6d9e9728~mv2.png','3ae519_456427714ce3447dab132353a21179c2~mv2.png','3ae519_26a74f13e4cc47a08078ae16ae7531a7~mv2.png','3ae519_a01b9461b25a4566b3afd0730ef13d21~mv2.png','3ae519_a2aa00d1e1204d1a9b06b4843d3d02f7~mv2.png','3ae519_84798eb623704495b9db931c926428c2~mv2.png','3ae519_f916debd3dac493d9e25b883a512dc87~mv2.png','3ae519_d7415a5d38ca45b9b9f7d4e92494125d~mv2.png','3ae519_58ea2f0bf0a742e3ac80d32a0333f8dc~mv2.png','3ae519_6ab1af29b5074c0b959d6dca9ceae3d3~mv2.png','3ae519_31c11b20f6d74c62a594d2d7ed254392~mv2.png','3ae519_24b23880e0bd41e783d35b1a3afc7a04~mv2.png','3ae519_ba44b5c616814fc483d1d6c11516fe18~mv2.png','3ae519_72acf6fb61974b7bb4af0507559daf98~mv2.png','3ae519_e19d3717498d4dc69617c2364eea11f3~mv2.png','3ae519_d39c74f95da84b33a39420463149e5bc~mv2.png'];
+  const c = document.getElementById('clients');
+  clients.forEach((file, i) => { const img = document.createElement('img'); img.src = `../assets/clients/${file}`; img.alt = `클라이언트 로고 ${i + 1}`; img.loading = 'lazy'; img.width = 150; img.height = 150; c.appendChild(img); });
+  const io = new IntersectionObserver((entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { threshold: 0.2 });
+  document.querySelectorAll('[data-rt-enter]').forEach((el) => io.observe(el));
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg class="ExperienceCurves__graph" xmlns="http://www.w3.org/2000/svg" width="474" height="302" viewBox="0 0 474 302" data-ds-id="i93">
+      <g fill="none" fill-rule="evenodd">
+        <path stroke="#BFCEE0" d="M474 301H1V0"></path>
+        <path stroke="#919CB0" stroke-linecap="round" stroke-width="2" d="M19 43c29.46 71.1 148.8 228 436 228" transform="translate(1)"></path>
+        <path stroke="#505B76" stroke-linecap="round" stroke-width="2" d="M47 42c49.74 135.75 76 187.9 144.3 212.45C247.63 274.7 311.04 277 455 277" transform="translate(1)"></path>
+        <path stroke="#635BFF" stroke-linecap="round" stroke-width="2" d="M146 42s2 7.5 3.5 13"></path>
+        <path stroke="#635BFF" stroke-dasharray="3" stroke-linecap="round" stroke-width="2" d="M456 241s-161.25-3.26-225.4-54.83c-39.5-29.43-71.37-99.9-81.1-131.17"></path>
+        <g transform="translate(143 49)">
+          <circle cx="6" cy="6" r="5" fill="#635BFF"></circle>
+          <circle cx="6" cy="6" r="3" fill="#FFF" fill-rule="nonzero"></circle>
+        </g>
+        <path stroke="#C4CCD8" stroke-linecap="round" stroke-width="2" d="M61 42s41 21.29 61 37 64.24 110.3 117.5 146.5C279.95 253 456 257 456 257"></path>
+      </g>
+    </svg>

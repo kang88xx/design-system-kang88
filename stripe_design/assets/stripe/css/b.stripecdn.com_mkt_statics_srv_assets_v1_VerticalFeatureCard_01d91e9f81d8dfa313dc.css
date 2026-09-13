@@ -1,0 +1,1 @@
+.VerticalFeatureCard{display:flex;flex-direction:column;height:100%}.VerticalFeatureCard__copyRowLayout{padding:40px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:52px;flex:1}.VerticalFeatureCard__cta{margin-top:auto}.VerticalFeatureCard__copy.Copy .List{--paddingLeft:var(--columnPaddingNone)}

@@ -1,0 +1,17 @@
+<svg class="SupportPatternAnimation__guideIcon" data-js-target="SupportPatternAnimation.guideIconEl" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#g193x1)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9999 23.4615C19.673 23.4615 23.4614 19.6731 23.4614 15C23.4614 10.3268 19.673 6.53842 14.9999 6.53842C10.3267 6.53842 6.53833 10.3268 6.53833 15C6.53833 19.6731 10.3267 23.4615 14.9999 23.4615ZM14.9998 21.5818C18.6345 21.5818 21.581 18.6353 21.581 15.0006C21.581 11.3659 18.6345 8.41943 14.9998 8.41943C11.3651 8.41943 8.41859 11.3659 8.41859 15.0006C8.41859 18.6353 11.3651 21.5818 14.9998 21.5818Z" fill="url(#g193x0)"></path>
+        </g>
+        <circle cx="15" cy="15" r="6.53846" fill="#FFFFFF" fill-opacity="0.6" stroke="#FFFFFF" stroke-width="0.769231"></circle>
+        <defs>
+          <filter id="g193x1" x="0.384484" y="0.384575" width="29.2308" height="29.2308" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+            <feGaussianBlur stdDeviation="3.07692" result="effect1_foregroundBlur_3788_245640"></feGaussianBlur>
+          </filter>
+          <linearGradient id="g193x0" x1="14.9999" y1="6.53842" x2="14.9999" y2="15.0654" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#80E9FF"></stop>
+            <stop offset="1" stop-color="#7A73FF"></stop>
+          </linearGradient>
+        </defs>
+      </svg>

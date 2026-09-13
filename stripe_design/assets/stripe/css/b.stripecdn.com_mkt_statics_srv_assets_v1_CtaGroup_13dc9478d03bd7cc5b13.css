@@ -1,0 +1,1 @@
+.CtaGroup{--ctaGroupGapSmall:8px;--ctaGroupGapNormal:16px;--ctaColGroupGap:var(--ctaGroupGapNormal);--ctaRowGroupGap:12px;display:flex;flex-wrap:wrap;align-items:center;padding:0 0 0 var(--columnPaddingNormal);gap:var(--ctaRowGroupGap) var(--ctaColGroupGap)}.CtaGroup--inline{padding-left:0}.CtaGroup--gapSmall{--ctaColGroupGap:var(--ctaGroupGapSmall)}

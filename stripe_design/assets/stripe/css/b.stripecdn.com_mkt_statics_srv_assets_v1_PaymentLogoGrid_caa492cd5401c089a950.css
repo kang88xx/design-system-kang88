@@ -1,0 +1,1 @@
+.PaymentLogoGrid{display:flex;flex-wrap:wrap;align-items:center;margin:-12px;padding:8px 0 0 var(--columnPaddingNormal)}.PaymentLogoGrid .PaymentLogo{margin:12px}.Copy .PaymentLogoGrid{padding-left:calc(var(--columnPaddingNormal) - var(--footerPaddingLeft)*1px);padding-right:0}

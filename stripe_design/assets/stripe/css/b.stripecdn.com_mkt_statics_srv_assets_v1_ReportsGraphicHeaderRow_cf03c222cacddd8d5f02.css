@@ -1,0 +1,1 @@
+.RevRecReportsGraphicHeaderRow{--revRecGraphicHeaderRowColumns:1fr 1f 1fr;display:grid;grid-auto-flow:column;grid-template-columns:var(--revRecGraphicHeaderRowColumns);align-items:center;height:40px;padding:8px 12px;border-radius:4px;background-color:#ffeef5}

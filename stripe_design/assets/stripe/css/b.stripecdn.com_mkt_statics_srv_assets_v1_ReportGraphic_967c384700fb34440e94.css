@@ -1,0 +1,1 @@
+.ReportGraphic{position:relative;display:flex;justify-content:flex-start;align-items:center}.ReportGraphic__back,.ReportGraphic__front{box-shadow:var(--cardShadowXLarge);border-radius:4px;width:100%;height:auto;max-width:272px}.ReportGraphic__front{position:absolute;top:48px;left:48px}.ReportGraphic--accentTeal{--background:#3dc9c9}.ReportGraphic--accentCyan{--background:#02bcf5}

@@ -1,0 +1,35 @@
+<svg class="HeroAnimationLyftScene__map" xmlns="http://www.w3.org/2000/svg" width="272" height="359" viewBox="0 0 272 359" data-ds-id="e81">
+        <defs>
+          <linearGradient id="line-gradient" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FE00C4"></stop>
+            <stop offset="100%" stop-color="#962FFE"></stop>
+          </linearGradient>
+
+          <filter id="pin-shadow" width="264.3%" height="214.6%" x="-82.1%" y="-56.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"></feGaussianBlur>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.126666302 0"></feColorMatrix>
+            <feMerge>
+              <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+              <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+          </filter>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+          <g fill="#E5EAF0" style="opacity: 0.53;">
+            <path fill-rule="nonzero" d="M3.24-7.7A9.7 9.7 0 0 0-2.2 1.23V34.1h30.8V23.89a6.7 6.7 0 0 0-1.81-4.79L3.24-7.7zm211.13 0c-2.22 1.06-22.71 1.67-61.47 1.82V34.1h86.9V23.89c0-1.92-.6-3.51-1.82-4.79L214.37-7.7zM-2.2 193.6h30.8V253H-2.2zM-2.2 162.8h30.8V187H-2.2zM-2.2 127.6h30.8v28.6H-2.2zM-2.2 40.7h30.8V121H-2.2zM-2.2 294.8h30.8v44H-2.2zM35.2 77h112.2v44H35.2zM35.2 294.8h204.6v63.8H35.2zM152.9 40.7h110v29.7h-110zM152.9 77h88v42.9h-88zM246.4 77h44v42.9h-44zM246.4 294.8h44v63.8h-44zM-15.4 344.3h44v14.3h-44zM69.3 127.6h171.6v90.2H69.3z"></path>
+            <path d="M112.2 224.4h91.3V253h-91.3z"></path>
+            <path fill-rule="nonzero" d="M-2.2 278.02c0 5.66 4.23 10.18 9.51 10.18H28.6v-28.6H-2.2v18.42zm114.4 0v10.18h53.9v-28.6h-53.9v18.42zM35.2 127.6h27.5v90.2H35.2zM246.4 193.6h25.3v24.2h-25.3zM246.4 162.8h25.3V187h-25.3zM246.4 127.6h25.3v28.6h-25.3zM35.2 259.6h27.5v28.6H35.2zM35.2 224.4h27.5V253H35.2zM210.1 259.6h61.6v28.6h-61.6zM210.1 224.4h61.6V253h-61.6zM172.7 259.6h30.8v28.6h-30.8zM135.55-9.57l-88 .17H11l20.68 23.46A15.34 15.34 0 0 1 35.41 24v46.54l111.99.96V-9.57h-11.85zm166.29.77l-43.79.16H222.2l20.3 23.05a15.08 15.08 0 0 1 3.65 9.77v9.92h65.15V1.28c.15-5.6-4.12-10.08-9.46-10.08zM78.79 259.6H69.3v28.6h33v-6.95L83.46 261.7a6.66 6.66 0 0 0-4.67-2.1zm-9.49-6.95h9.68c3.68 0 7.06 1.44 9.52 4l14.9 15.05v-47.3H69.3v28.25z"></path>
+          </g>
+          <g class="HeroAnimationLyftScene__mapMarker" fill="none" fill-rule="evenodd" filter="url(#pin-shadow)" transform="translate(79.5 85.5)">
+            <g data-js-target="HeroAnimationLyftScene.mapMarker">
+              <circle cx="13.75" cy="13.75" r="13.2" fill="#FF00C3" stroke="#FFF" stroke-width="1.1"></circle>
+              <circle cx="13.75" cy="13.75" r="2.75" fill="#FEFFFF"></circle>
+              <path stroke="#FEFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" d="M13.75 27.08V38.4"></path>
+              <path fill="#FEFFFF" d="M14.74 27.08h-.99c.36 2.89.54 3.9.54 3.04 0-1.3.55-2.66 2.74-2.98l-2.29-.06zM12.73 27.08h1c-.36 2.89-.54 3.9-.54 3.04 0-1.3-.56-2.66-2.74-2.98l2.28-.06z"></path>
+            </g>
+            <circle cx="13.75" cy="39.05" r="2.2" fill="#32325D" stroke="#FFF" stroke-width="1.1" data-js-target="HeroAnimationLyftScene.mapMarkerShadow"></circle>
+          </g>
+          <path data-js-target="HeroAnimationLyftScene.drivePath" stroke="url(#line-gradient)" stroke-width="3.3" d="M 219.3 221 h -153.8 v -96.2 h 42" style="opacity: 0; stroke-dasharray: 292;"></path>
+        </g>
+      </svg>

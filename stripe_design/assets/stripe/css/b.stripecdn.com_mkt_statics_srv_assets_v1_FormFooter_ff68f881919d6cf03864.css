@@ -1,0 +1,1 @@
+.FormFooter{display:flex;flex-direction:column;margin:20px 0 0}@media (min-width:600px){.FormFooter{flex-direction:row}}.FormFooter__genericError{display:flex;align-items:center;margin:0 0 8px}@media (min-width:600px){.FormFooter__genericError{margin:0 16px 0 0}}.FormFooter__genericError[hidden]{display:none}@media (min-width:600px){.FormFooter__inputContainer{margin-left:auto}}

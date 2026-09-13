@@ -1,0 +1,1 @@
+.KnockoutText{color:transparent;-webkit-background-clip:text;background-clip:text;background-repeat:repeat-y;background-size:100% auto;animation:knockoutText 5s linear infinite}@keyframes knockoutText{0%{background-position-y:0}to{background-position-y:100%}}

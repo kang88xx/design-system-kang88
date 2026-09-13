@@ -1,0 +1,1 @@
+.BlogIndexGridSection__layout{--gapMin:60;--gapMax:112;display:grid;row-gap:calc(var(--gapMin)*1px + (var(--gapMax) - var(--gapMin))*(var(--windowWidth)/525 - .71429px));}@media (min-width:900px){.BlogIndexGridSection__layout{row-gap:calc(1px*var(--gapMax))}}

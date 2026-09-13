@@ -1,0 +1,1186 @@
+/* Stripe box & effect recipes — standalone CSS derived from computed styles observed on stripe.com (2026-09-10).
+ * Each recipe lists its source page/element; original matched rules live in data/curated/boxes.json[].source. */
+
+/* atlas · div.Section__layout > div.RowLayout > div.RowLayout > div.Card.Card--shadowXLarge · 1080x571 · legacy */
+.box-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* checkout · div.RowLayout > div.ColumnLayout > figure.SnippetsCodeEditor > div.Card.Card--border · 540x370 · legacy */
+.box-card {
+  background-color: rgb(12, 46, 78);
+  border: 1px solid rgb(15, 57, 94);
+  border-radius: 8px;
+  color: rgb(173, 189, 204);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 849x645 · hds */
+.box-browser-graphic-window {
+  background-color: rgba(248, 250, 253, 0.45);
+  border-radius: 6px;
+  box-shadow: rgba(23, 23, 23, 0.08) 0px 15px 35px 0px;
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* checkout · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.CheckoutEmbeddedFor · 412x273 · legacy */
+.box-checkoutembeddedformgraphic-modal {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 24px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* managed-payments · div.MediaCallout__graphic.MediaCallout__graphic--alignBottom > a.Link > div.GuideGraphic > · 270x366 · legacy */
+.box-guidegraphic-page {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: rgb(153, 102, 255);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+.box-guidegraphic-page:hover { color: rgb(10, 37, 64); border-color: rgb(10, 37, 64); transform: matrix(1, 0, 0, 1, -40, -20); outline: rgb(10, 37, 64) none 3px; text-decoration-color: rgb(10, 37, 64); }
+
+/* revenue-recognition · div.CyclingCardsAnimation__masked > div.CyclingCardsAnimation__container > div.CyclingCard · 540x90 · legacy */
+.box-cyclingcard-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* use-cases-marketplaces · div.Card.Card--shadowXLarge.FallingCard__card > div.ConnectOnboardingScreen.ConnectOnboard · 268x287 · legacy */
+.box-connectonboardingscreen-body {
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* billing · div.graphic-with-background.graphic-with-background-aspect-ratio.billing-accordion-graphic · 666x401 · hds */
+.box-dom-graphic-content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* checkout · div.CheckoutMobileCard__phoneContainer > div.CheckoutMobileCard__phone > figure.CheckoutPo · 251x527 · legacy */
+.box-phonegraphic-screen {
+  background-color: rgb(255, 255, 255);
+  border-radius: 34px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* checkout · div.PhoneGraphic__screen > div.CheckoutPhoneGraphic.CheckoutPhoneGraphic--scaleLarge > div · 244x273 · legacy */
+.box-applepaysheet-sheet {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px 8px 30px 30px;
+  box-shadow: rgba(50, 50, 93, 0.12) 0px 6px 12px -2px, rgba(0, 0, 0, 0.15) 0px 3px 7px -3px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* customers · div.DomGraphic__scaleContainer > div.PayInvoiceGraphic.CustomersGraphicWallGraphic__payInv · 380x316 · legacy */
+.box-payinvoicegraphic-modal {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* home · div.modular-solutions-bento__content > div.modular-solutions-bento__layout > button.modula · 828x686 · hds */
+.box-modular-solutions-bento-card-border {
+  background-color: rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  clip-path: inset(4px 4.8284px round 6px);
+  transition: clip-path 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+
+/* payments · div.RowLayout > div.RowLayout > div.TestimonialCarousel.TestimonialCarousel--orientationHo · 1080x300 · legacy */
+.box-testimonialcarousel-carousel {
+  background-color: rgb(97, 31, 105);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.billing-bento__grid > a.gradient-border-card.gradient-border-card--expandable.feature- · 1237x261 · hds */
+.box-gradient-border-card-border {
+  background-color: rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 238);
+  clip-path: inset(0.5px 2.36923px round 6px);
+  transition: clip-path 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+
+/* billing · li.carousel__item.case-study-carousel__item > div.carousel__inner.case-study-carousel__inn · 400x480 · hds */
+.box-case-study-card-media {
+  background-color: rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+.box-case-study-card-media:hover { transform: matrix(1.03475, 0, 0, 1, -5.7683, 0); }
+
+/* billing · div.carousel__scroller.resource-carousel__scroller > div.carousel__item.resource-carousel_ · 400x216 · hds */
+.box-hds-resource-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+.box-hds-resource-card::before { content: ""; border-radius: 6px; box-shadow: rgba(0, 55, 112, 0.06) 0px 2px 10px 0px, rgba(0, 59, 137, 0.04) 0px 1px 4px 0px; opacity: 1; width: 400px; height: 215.547px; border: 0px none rgb(0, 0, 0); }
+.box-hds-resource-card::after { content: ""; border-radius: 6px; box-shadow: rgba(0, 55, 112, 0.1) 0px 6px 22px 0px, rgba(0, 59, 137, 0.02) 0px 4px 8px 0px; opacity: 0; width: 400px; height: 215.547px; border: 0px none rgb(0, 0, 0); }
+
+/* checkout · div.CheckoutMobileCard__phone > figure.CheckoutPowdurPhone.PhoneGraphic.PhoneGraphic--scal · 251x527 · legacy */
+.box-checkoutphonegraphic {
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px;
+  padding: 24px 16px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* connect · div.HeroAnimationScreen > div.HeroAnimationScreen__content > div.HeroAnimationLyftScene__s · 251x155 · legacy */
+.box-heroanimationlyftscene-drawer {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px 8px 27px 27px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 18px 15px 15px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* customers · figure.DomGraphic.CustomersOverviewTogetherWithInstacart__phone > div.DomGraphic__heightCo · 264x533 · legacy */
+.box-instacartcashoutgraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 36px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* customers · figure.DomGraphic > div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > fig · 301x564 · legacy */
+.box-terminalgraphic {
+  background-color: rgb(48, 69, 93);
+  border-radius: 40px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* enterprise · figure.DomGraphic > div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div · 320x370 · legacy */
+.box-revrecgraphic-content {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 11px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments · div.PaymentsHeroAnimationCheckout__payment > div.PaymentsHeroAnimationLink.PaymentsHeroAni · 286x156 · legacy */
+.box-paymentsheroanimationlink-orderdetailstable {
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 6px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* billing · div.billing-hero-animation__wrap > div.m-card.m-card-center.billing-hero-animation__morph- · 261x306 · hds */
+.box-billing-hero-animation-morph-card-inner {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 216, 255);
+  border-radius: 6px;
+  color: rgb(6, 27, 49);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.billing-hero-animation__wrap > div.m-card.m-card-right.billing-hero-animation__morph-c · 452x326 · hds */
+.box-m-card-right-inner {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 216, 255);
+  border-radius: 6px;
+  color: rgb(6, 27, 49);
+  transition: all;
+  overflow: hidden;
+}
+.box-m-card-right-inner:hover { transform: matrix(1.55862, 0, 0, 1.0241, 0, 0); }
+
+/* billing · div.dom-graphic__content.dom-graphic__content--horizontal-scale-left > div.browser-graphic · 308x495 · hds */
+.box-m-invoice-drawer {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 45px -30px, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px;
+  padding: 16px 24px;
+  color: rgb(6, 27, 49);
+  transition: all;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default.subscriptions-bento-graphic > div.dom-graphic · 410x413 · hds */
+.box-subscriptions-bento-graphic-large-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 22px 24px 60px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default.usage-based-billing-bento-graphic > div.dom-g · 350x253 · hds */
+.box-usage-based-billing-bento-graphic-large-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 16px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default.invoicing-bento-graphic > div.dom-graphic__co · 459x523 · hds */
+.box-invoicing-bento-graphic-email-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 6px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 444x394 · hds */
+.box-billing-platform-ui-graphic-detail-page {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.graphic-with-background__foreground.graphic-with-background-fg-width.graphic-with-back · 586x361 · hds */
+.box-billing-platform-churned-graphic-content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 24px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* billing · div.browser-graphic__page > div.billing-accordion-checkout-graphic > div.billing-accordion · 222x222 · hds */
+.box-billing-accordion-checkout-graphic-product-image {
+  background-color: rgb(248, 250, 253);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.section-row.section-row-gap > div.chippy-card-layout > a.chippy-card.chippy-card--imag · 608x120 · hds */
+.box-chippy-card-row {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(0, 0, 238);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.carousel__inner > div.feature-card.feature-card-gap > div.feature-card__graphic > div. · 348x374 · hds */
+.box-product-ui-graphic {
+  background-color: rgba(22, 88, 188, 0.03);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* billing · div.product-ui-graphic__wrap.product-ui-graphic__wrap--x-left.product-ui-graphic__wrap--y- · 277x292 · hds */
+.box-checkout-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 24px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 259x250 · hds */
+.box-tax-graphic-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* billing · div.product-ui-graphic__wrap.product-ui-graphic__wrap--x-left.product-ui-graphic__wrap--y- · 387x286 · hds */
+.box-revenue-recognition-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 22px 24px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* billing · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 289x226 · hds */
+.box-sigma-graphic-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* billing · div.product-ui-graphic__wrap.product-ui-graphic__wrap--x-left.product-ui-graphic__wrap--y- · 277x302 · hds */
+.box-data-pipeline-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* billing · div.product-ui-graphic__wrap.product-ui-graphic__wrap--x-left.product-ui-graphic__wrap--y- · 426x422 · hds */
+.box-projects-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* capital · div.CapitalHowItWorksDiagram__optionTrack > div.CapitalHowItWorksDiagram__optionList.theme · 256x110 · legacy */
+.box-capitalloanoption-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 16px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* checkout · div.GraphicFormField.CheckoutField.ShippingField > div.GraphicFormField__content > div.Gra · 384x169 · legacy */
+.box-addressautocomplete {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(230, 235, 241);
+  border-radius: 6px;
+  box-shadow: rgba(49, 49, 93, 0.08) 0px 15px 35px 0px, rgba(0, 0, 0, 0.06) 0px 5px 15px 0px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* checkout · div.Card.CheckoutCard.CheckoutMobileCard > div.CheckoutMobileCard__phoneContainer > div.Ch · 265x541 · legacy */
+.box-checkoutpowdurphone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 42px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* checkout · div.CheckoutStickyAnimation__masked > div.CheckoutStickyAnimation__cardContainer > div.Car · 540x500 · legacy */
+.box-checkoutglobalcard-content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* climate · div.Card.Card--shadowMedium.ClimateHeroReceiptGraphic > div.ClimateHeroReceiptGraphic__det · 350x80 · legacy */
+.box-climateheroreceiptgraphic-table {
+  background-color: rgb(245, 249, 251);
+  border-radius: 3px;
+  padding: 0px 15px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* climate · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > figure.ClimateHeroGraph · 301x590 · legacy */
+.box-climateherographic-phone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 42px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* climate · div.DomGraphic__scaleContainer > div.TemperatureScenariosGraph__overlay > div.TemperatureS · 260x91 · legacy */
+.box-temperaturescenariosgraph-tooltip {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(99, 91, 255);
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: rgb(70, 83, 100);
+  transition: all;
+}
+.box-temperaturescenariosgraph-tooltip::before { content: ""; background-color: rgb(99, 91, 255); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 50); inset: 39.1875px 129px 0px 128px; width: 1px; height: 50px; border: 0px none rgb(70, 83, 100); }
+.box-temperaturescenariosgraph-tooltip::after { content: ""; background-color: rgb(99, 91, 255); border-radius: 50%; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 50); inset: 84.1875px 127px 0px 126px; width: 5px; height: 5px; border: 0px none rgb(70, 83, 100); }
+
+/* climate · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.ExperienceCurvesGra · 180x89 · legacy */
+.box-experiencecurves-tooltip {
+  border: 1px solid rgb(99, 91, 255);
+  border-radius: 4px;
+  padding: 10px 16px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+.box-experiencecurves-tooltip::before { content: ""; background-color: rgb(99, 91, 255); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 80); inset: 7.1875px 89px 0px 88px; width: 1px; height: 80px; border: 0px none rgb(66, 84, 102); }
+.box-experiencecurves-tooltip::after { content: ""; background-color: rgb(99, 91, 255); border-radius: 50%; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 85); inset: 82.1875px 87px 0px 86px; width: 5px; height: 5px; border: 0px none rgb(66, 84, 102); }
+
+/* connect · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.HeroAnimation > div · 271x541 · legacy */
+.box-heroanimation-phone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 37px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 44px 89px -18px, rgba(0, 0, 0, 0.3) 0px 26px 54px -26px, rgba(10, 37, 64, 0.35) 0px -2px 4px 0px inset;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* connect · div.HeroAnimationShopifyScene > div.HeroAnimationScreen.HeroAnimationScreen--active > div. · 255x525 · legacy */
+.box-heroanimationshopifyscene-screen {
+  background-color: rgb(255, 255, 255);
+  border-radius: 32px;
+  padding: 21px 18px 17px;
+  color: rgb(136, 152, 170);
+  transition: all;
+  overflow: hidden;
+}
+
+/* connect · div.HeroAnimationDoorDashScene > div.HeroAnimationScreen > div.HeroAnimationScreen__conten · 255x525 · legacy */
+.box-heroanimationdoordashscene-screen {
+  background-color: rgb(255, 255, 255);
+  border-radius: 32px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* customers · div.CustomersHero__graphic > div.CustomersHero__track > div.CustomersHero__caseStudiesGrid · 254x356 · legacy */
+.box-customerscasestudycard {
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 0px 0px 355.594px;
+  color: rgb(255, 255, 255);
+  transition: all;
+  overflow: hidden;
+}
+
+/* customers · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.CustomersOverviewTo · 264x533 · legacy */
+.box-customersoverviewtogetherwithlyft-phone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 36px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* customers · figure.DomGraphic.DomGraphic--isAnimating > div.DomGraphic__heightContainer > div.DomGraph · 380x235 · legacy */
+.box-animatedcardgraphic {
+  border-radius: 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* customers · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.MobilePaymentGraphi · 301x615 · legacy */
+.box-mobilepaymentgraphic-phone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 42px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* enterprise · div.BucketItem__graphicContainer.BucketItem__graphicContainer--directionUp > div.BucketIte · 223x455 · legacy */
+.box-enterprisehubdepositsphonegraphic-phonegraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 32px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 39px -20px, rgba(50, 50, 93, 0.25) 0px 32px 66px -13px, rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* enterprise · div.BucketItem__graphicContainer.BucketItem__graphicContainer--directionUp > div.BucketIte · 223x446 · legacy */
+.box-enterprisehubretoolphonegraphic-phonegraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 27px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 39px -20px, rgba(50, 50, 93, 0.25) 0px 32px 66px -13px, rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* financial-connections · div.RowLayout.ProductHeroSection__content > div.ColumnLayout > div.FinancialConnectionsHer · 310x592 · legacy */
+.box-financialconnectionsherophonegraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 34px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* financial-connections · div.FinancialConnectionsHeroPhoneGraphic__track > div.FinancialConnectionsAppFundsView > d · 282x75 · legacy */
+.box-financialconnectionsappfundsview-listgrid {
+  border: 1px solid rgb(246, 249, 252);
+  border-radius: 4px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* financial-connections · div.FinancialConnectionsHeroAnimation > figure.FinancialConnectionsHeroPhoneGraphic.PhoneG · 279x494 · legacy */
+.box-financialconnectionsappbottomsheet {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px 8px 0px 0px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* financial-connections · div.Section__layout > div.RowLayout > div.RowLayout > div.FinancialConnectionsLinkBankVeri · 1080x525 · legacy */
+.box-financialconnectionslinkbankverificationgraphic {
+  background-color: rgb(246, 249, 252);
+  border: 1px dashed rgb(231, 236, 241);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* financial-connections · div.RowLayout.SideBySide__rightRowLayout > div.FinancialConnectionsPrebuiltFlowAnimation > · 272x362 · legacy */
+.box-financialconnectionsprebuiltflowbankconnection-browser {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 0px 0px 32px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+.box-financialconnectionsprebuiltflowbankconnection-browser:hover { transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1; }
+
+/* financial-connections · div.RowLayout.SideBySide__rightRowLayout > div.BankAnimation__container > div.BankAnimatio · 380x368 · legacy */
+.box-bankanimation-rowcontainer {
+  background-image: linear-gradient(90deg, rgba(108, 140, 171, 0.2) -13%, rgba(255, 255, 255, 0) 19%);
+  border-radius: 500px 0px 0px 500px;
+  padding: 64px 0px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* home · div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__ch · 180x96 · hds */
+.box-payments-graphic-checkout-item-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* home · div.dom-graphic.dom-graphic--variant-default.agentic-commerce-graphic > div.dom-graphic__c · 276x246 · hds */
+.box-agentic-commerce-graphic-products {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20.187px 40.374px -20.187px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* home · div.dom-graphic.dom-graphic--variant-default.connect-platform-dom-graphic > div.dom-graphi · 296x326 · hds */
+.box-connect-platform-graphic-payment-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.12) 0px 15.931px 31.863px 0px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* home · section.section-row.section-row-gap > div.startups__program-card-grid > a.startups-program · 608x168 · hds */
+.box-startups-program-card-inner {
+  background-color: rgb(248, 250, 253);
+  border-radius: 6px;
+  color: rgb(0, 0, 238);
+  transition: all;
+  overflow: hidden;
+}
+
+/* home · div > div.platform-graphic__features > div.platform-graphic-features > div.platform-graphi · 356x89 · hds */
+.box-platform-graphic-feature-card-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* home · div.developer-systems-animation > figure.developer-systems-animation__figure > div.develop · 152x105 · hds */
+.box-developer-systems-animation-apps {
+  background-color: rgb(18, 32, 84);
+  border-radius: 6px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* home · div.lazy-animation.lazy-animation--loaded > div.dom-graphic.dom-graphic--variant-default > · 400x294 · hds */
+.box-no-code-graphic-card {
+  background-color: rgb(18, 32, 84);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* home · div.lazy-animation.lazy-animation--loaded > div.dom-graphic.dom-graphic--variant-default > · 400x294 · hds */
+.box-integrated-platforms-graphic-card {
+  background-color: rgb(18, 32, 84);
+  border-radius: 6px;
+  padding: 30px 0px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* home · div.lazy-animation.lazy-animation--loaded > div.dom-graphic.dom-graphic--variant-default > · 400x294 · hds */
+.box-integrated-code-graphic-card {
+  background-color: rgb(18, 32, 84);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  transition: all;
+  overflow: hidden;
+}
+
+/* home · div.section-row.section-row-gap > div.section-row.section-row-gap > div > div.book-of-the- · 1232x626 · hds */
+.box-book-of-the-week {
+  background-color: rgb(248, 250, 253);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* identity · figure.IdentityHeroAnimation.IdentityHeroAnimation--isIntroFinished > div.IdentityHeroAnim · 422x288 · legacy */
+.box-identityheroidentification-background {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3) 25%, rgba(246, 249, 252, 0.3) 50%, rgba(246, 249, 252, 0.3) 60%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* identity · div.RowLayout.SideBySide__rightRowLayout > figure.IdentityPreventFraudAnimation > div.Card · 294x394 · legacy */
+.box-video {
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* issuing · figure.DomGraphic.IssuingPhoneGraphic__domGraphic > div.DomGraphic__heightContainer > div. · 377x772 · legacy */
+.box-issuingphonegraphic-phone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* managed-payments · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.GlobalPayoutsFeatur · 427x321 · legacy */
+.box-globalpayoutsfeaturegraphic-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* managed-payments · figure.DomGraphic.StatCardGraphic > div.DomGraphic__heightContainer > div.DomGraphic__scal · 524x351 · legacy */
+.box-statcardgraphic-layout {
+  background-color: rgb(246, 249, 252);
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 8px;
+  padding: 0px 0px 20px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments-elements · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > figure.LinkPaymentMetho · 308x604 · legacy */
+.box-linkpaymentmethodphoneanimation-phone {
+  background-color: rgb(255, 255, 255);
+  border-radius: 48px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* payments-payment-links · div.PaymentLinksHeroGraphicChat__message.PaymentLinksHeroGraphicChat__message--right > div · 253x207 · legacy */
+.box-paymentlinksherographicchat-linkcontents {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* payments-payment-links · div.Section__container > div.Section__layoutContainer > div.Section__layout > div.DemoLayo · 1080x574 · legacy */
+.box-demolayout {
+  background-color: rgb(10, 37, 64);
+  background-image: radial-gradient(rgba(16, 62, 105, 0.6) 18.75%, rgba(0, 0, 0, 0) 0px);
+  border: 1px solid rgb(13, 46, 79);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 45px -30px;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments-payment-links · div.Section__layout > div.DemoLayout.flavor--Twilight > div.ColumnLayout > div.DemoLayout_ · 266x556 · legacy */
+.box-demolayout-controlscontainer {
+  background-color: rgb(13, 46, 79);
+  border: 1px solid rgb(37, 89, 142);
+  border-radius: 4px;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+  transition: all;
+}
+
+/* payments · div.PaymentsHeroAnimationGraphic__content > div.PaymentsHeroAnimationPaymentElements__paym · 313x322 · legacy */
+.box-paymentsheroanimationpaymentelements-plandetails {
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 8px;
+  padding: 16px 26px;
+  color: rgb(63, 75, 102);
+  transition: all;
+}
+
+/* payments · div.GraphicForm__content > div.GraphicFormFieldList > div.PaymentsHeroAnimationKlarna__car · 301x89 · legacy */
+.box-paymentsheroanimationklarna-oneclick {
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments · div.Track.PaymentMethodHubGlobalPaymentCarousel__track > div.Track__track > div.PaymentMet · 454x300 · legacy */
+.box-paymentelementaccordiongraphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments · figure.PaymentElementAccordionGraphic.PaymentMethodHubGlobalPaymentCarousel__graphicFormEl · 420x108 · legacy */
+.box-paymentelementaccordiongraphicselectionpanel {
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 8px;
+  padding: 12px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments · div.PaymentsTerminalAnimation__graphicLayout > div.PaymentsTerminalAnimationS700 > div.Pay · 186x349 · legacy */
+.box-paymentsterminalanimations700-screen {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 50px 0px 0px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* payments · div.RowLayout > div.RowLayout > div.AccentedCard.AccentedCard--shadowMedium.AccentedCard-- · 1080x517 · legacy */
+.box-accentedcard-background {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: transform 0.5s cubic-bezier(0.7, 0, 0, 1);
+  overflow: hidden;
+}
+.box-accentedcard-background::after { content: ""; background-color: rgb(153, 102, 255); opacity: 1; inset: 0px 0px 508.984px; width: 1080px; height: 8px; border: 0px none rgb(66, 84, 102); }
+
+/* radar · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 353x463 · hds */
+.box-radar-hero-grid-block {
+  background-image: radial-gradient(104.7% 105.03% at 57.22% -4.54%, rgba(83, 58, 253, 0.78) 0px, rgba(244, 75, 204, 0.78) 47.84%, rgba(83, 58, 253, 0.78) 100%);
+  backdrop-filter: blur(0.41px); -webkit-backdrop-filter: blur(0.41px);
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* radar · div.radar-hero-grid-block > div.radar-hero-grid-block__content.radar-hero-business-card >  · 337x372 · hds */
+.box-radar-hero-business-card-form {
+  border: 1px solid rgb(214, 217, 252);
+  border-radius: 6px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* radar · div.section-container > div.section-row.section-row-gap > div.radar-protection-stages-grap · 1232x574 · hds */
+.box-dot-grid-background {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* radar · div.radar-protection-stages-graphic__foreground > div.radar-protection-stages-graphic__bod · 296x328 · hds */
+.box-radar-protection-stages-graphic-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 4px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  transition: all;
+}
+
+/* radar · div.dom-graphic.dom-graphic--variant-default.transaction-fraud-prevention-bento-graphic >  · 308x280 · hds */
+.box-transaction-fraud-prevention-bento-graphic-form-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 20px;
+  color: rgb(0, 0, 238);
+  transition: all;
+  overflow: hidden;
+}
+
+/* radar · div.feature-bento-card__graphic.feature-bento-card-g-align > div.dom-graphic.dom-graphic-- · 366x432 · hds */
+.box-account-fraud-prevention-bento-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 20px;
+  color: rgb(0, 0, 238);
+  transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.box-account-fraud-prevention-bento-graphic:hover { transform: matrix(1, 0, 0, 1, 0, 0.299167); }
+
+/* radar · div.dom-graphic.dom-graphic--variant-default.dispute-management-bento-graphic > div.dom-gr · 377x432 · hds */
+.box-dispute-management-bento-graphic-refund-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 20px 20px 40px;
+  color: rgb(0, 0, 238);
+  transition: all;
+  overflow: clip;
+}
+
+/* radar · div.radar-reduce-risk__tabs > div.Tabs__content.Tabs__content--active > div.radar-reduce-r · 1232x310 · hds */
+.box-spotlight-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 0px 0px 0px 32px;
+  color: rgb(0, 0, 0);
+  transition: all;
+  overflow: hidden;
+}
+
+/* radar · ul.carousel__scroller.compact-product-eco-carousel__scroller > li.carousel__item.compact-p · 446x356 · hds */
+.box-compact-product-eco-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  color: rgb(0, 0, 238);
+  transition: all;
+  overflow: hidden;
+}
+
+/* radar · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 346x208 · hds */
+.box-compact-checkout-graphic-form {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 40px 24px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* radar · div.product-ui-graphic__wrap.product-ui-graphic__wrap--x-center.product-ui-graphic__wrap-- · 400x167 · hds */
+.box-compact-connect-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 24px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* radar · div.product-ui-graphic__wrap.product-ui-graphic__wrap--x-center.product-ui-graphic__wrap-- · 400x172 · hds */
+.box-compact-authorization-boost-graphic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 24px;
+  color: rgb(0, 0, 238);
+  transition: all;
+}
+
+/* radar · div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content.dom-graphic__conte · 346x249 · hds */
+.box-compact-data-pipeline-graphic-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 237, 245);
+  border-radius: 6px;
+  padding: 40px 24px;
+  color: rgb(0, 0, 238);
+  transition: all;
+  overflow: hidden;
+}
+
+/* revenue-recognition · div.Track.RevRecReportsGraphic__track > div.Track__track > div.RevRecReportsGraphicPanel.R · 524x66 · legacy */
+.box-revrecreportsgraphicdebitspanel-row {
+  background-color: rgb(246, 249, 251);
+  border-radius: 4px;
+  padding: 8px 0px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* sessions · div.section-module-scss-module__3rx8Wa__content.section-module-scss-module__3rx8Wa__conten · 939x419 · hds */
+.box-glowcard-module-scss-module-szahhq-border {
+  background-color: rgb(219, 215, 215);
+  border-radius: 24px;
+  color: rgb(32, 3, 60);
+  transition: all;
+  overflow: hidden;
+}
+.box-glowcard-module-scss-module-szahhq-border::after { content: ""; background-image: linear-gradient(rgba(210, 152, 255, 0.02) 0%, rgba(210, 152, 255, 0.07) 10%, rgba(255, 46, 222, 0.25) 100%); background-color: rgb(249, 247, 247); border-radius: 23px; opacity: 1; inset: 1px; width: 936.672px; height: 416.812px; border: 0px none rgb(32, 3, 60); }
+
+/* sessions · div.section-module-scss-module__3rx8Wa__content.section-module-scss-module__3rx8Wa__conten · 460x401 · hds */
+.box-ticket-module-scss-module-hbi-vg-pricingfooter {
+  background-color: rgba(20, 4, 36, 0.1);
+  border-radius: 20px;
+  padding: 16px 8px 8px;
+  color: rgb(32, 3, 60);
+  transition: background-color 0.5s ease-out;
+}
+
+/* sessions · div.section-module-scss-module__3rx8Wa__inner > div.section-module-scss-module__3rx8Wa__co · 175x175 · hds */
+.box-speakerssection-module-scss-module-jsfusw-logocell {
+  background-color: rgb(32, 3, 60);
+  border-radius: 8px;
+  padding: 4px;
+  color: rgb(32, 3, 60);
+  transition: all;
+  overflow: hidden;
+}
+
+/* sessions · div.section-module-scss-module__3rx8Wa__content > ul.SpeakersSection-module-scss-module__j · 704x114 · hds */
+.box-secondarycta-module-scss-module-5htdpa-container {
+  background-image: linear-gradient(rgb(249, 247, 247), rgb(249, 247, 247)), linear-gradient(to right, rgb(219, 215, 215) 50%, rgb(32, 3, 60) 50%);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 16px;
+  padding: 8px;
+  color: rgb(32, 3, 60);
+  transition: background-position 0.2s cubic-bezier(0.45, 0.02, 0.09, 0.98);
+}
+
+/* sigma · div.SigmaQueryConversation > div.SigmaQueryConversation__itemList > div.SigmaQueryConversa · 356x94 · legacy */
+.box-sigmaqueryconversationitem-chatcard {
+  background-color: rgb(153, 102, 255);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 24px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+.box-sigmaqueryconversationitem-chatcard:hover { transform: matrix(1, 0, 0, 1, 0, -47); opacity: 0; }
+
+/* startups · div.StartupHubHero__graphicContainer > div.StartupHubPaymentLinkGraphic > div.StartupHubPa · 164x110 · legacy */
+.box-startuphubpaymentlinkgraphic-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 69px -57px, rgba(50, 50, 93, 0.25) 0px 34px 69px -11px;
+  color: rgb(10, 37, 64);
+  transition: all;
+  overflow: hidden;
+}
+
+/* startups · div.StartupHubHero__graphicContainer > div.StartupHubFirstPaymentGraphic > div.StartupHubF · 204x131 · legacy */
+.box-startuphubfirstpaymentgraphic-content {
+  background-color: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 69px -57px, rgba(50, 50, 93, 0.25) 0px 34px 69px -11px;
+  padding: 20px;
+  color: rgb(10, 37, 64);
+  transition: all;
+  overflow: hidden;
+}
+
+/* startups · div.StartupHubHero__graphicContainer > div.StartupHubInstantPayoutGraphic > div.StartupHub · 242x327 · legacy */
+.box-startuphubinstantpayoutgraphic-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 69px -57px, rgba(50, 50, 93, 0.25) 0px 34px 69px -11px;
+  color: rgb(10, 37, 64);
+  transition: all;
+}
+
+/* startups · div.StartupHubHero__graphicContainer > div.StartupHubRevRecHeroGraphic > div.StartupHubRev · 300x371 · legacy */
+.box-startuphubrevrecherographic-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 69px -57px, rgba(50, 50, 93, 0.25) 0px 34px 69px -11px;
+  padding: 11px;
+  color: rgb(10, 37, 64);
+  transition: all;
+}
+
+/* startups · div.BucketItem__graphicContainer.BucketItem__graphicContainer--directionUp > div.BucketIte · 252x515 · legacy */
+.box-startuphubordersphonegraphic-phonegraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 36px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 39px -20px, rgba(50, 50, 93, 0.25) 0px 32px 66px -13px, rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* startups · div.StartupHubDashboardAnimation__body > div.StartupHubDashboardAnimation__dashboardModal  · 982x355 · legacy */
+.box-startuphubrevrecdashboardgraphic-overviewcontainer {
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 3.7px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* terminal · div.TerminalUnifiedCommerceGraphic__s700 > div.TerminalUnifiedCommerceS700Animation > div. · 171x309 · legacy */
+.box-terminalunifiedcommerces700animation-screen {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* terminal · div.RowLayout.SideBySide__rightRowLayout > div.TerminalDeviceShowcaseGraphic > div.Termina · 260x236 · legacy */
+.box-terminaldeviceshowcasecard {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* treasury · div.ColumnLayout > div.HeroGraphic > div.HeroGraphic__cardsContainer > div.HeroGraphic__ca · 254x228 · legacy */
+.box-herographic-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 22px 16px 19px;
+  color: rgb(10, 37, 64);
+  transition: opacity 0.3s;
+  overflow: hidden;
+}
+
+/* treasury · div.RowLayout > div.ColumnLayout.ColumnLayout--alignCenter > div.RowLayout.SideBySide__rig · 540x540 · legacy */
+.box-stablecoinsstatsanimation {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(231, 236, 241);
+  border-radius: 8px;
+  padding: 24px 32px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: clip;
+}
+.box-stablecoinsstatsanimation::after { content: ""; background-image: linear-gradient(0deg, rgb(255, 255, 255) 45%, rgba(0, 0, 0, 0)); opacity: 1; inset: 368px 0px 0px; width: 538px; height: 170px; border: 0px none rgb(66, 84, 102); }
+
+/* use-cases-marketplaces · figure.DomGraphic > div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div · 540x373 · legacy */
+.box-doordashonboardinggraphic {
+  background-color: rgb(245, 249, 251);
+  border-radius: 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  color: rgb(66, 84, 102);
+  transition: all;
+  overflow: hidden;
+}
+
+/* use-cases-marketplaces · figure.DomGraphic.DoorDashHeroGraphic__phone > div.DomGraphic__heightContainer > div.DomGr · 250x505 · legacy */
+.box-doordashearningsgraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 36px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* use-cases-marketplaces · div.DomGraphic__heightContainer > div.DomGraphic__scaleContainer > div.LyftConnectAnimatio · 271x541 · legacy */
+.box-lyftconnectanimation-phone {
+  background-color: rgb(246, 249, 252);
+  border-radius: 37px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 44px 89px -18px, rgba(0, 0, 0, 0.3) 0px 26px 54px -26px, rgba(10, 37, 64, 0.35) 0px -2px 4px 0px inset;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+/* use-cases-marketplaces · figure.DomGraphic.MarketplacesGraphicWallGrid__deposits > div.DomGraphic__heightContainer  · 304x614 · legacy */
+.box-depositsgraphic {
+  background-color: rgb(246, 249, 252);
+  border-radius: 36px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 8px;
+  color: rgb(66, 84, 102);
+  transition: all;
+}
+
+
+/* ===== Effect recipes (HDS + legacy) ===== */
+.fx-gradient-text { background: linear-gradient(90deg, #7232f1 3.13%, #fb76fa 50%, #ffcf5e); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+.fx-nav-cta-gradient-text { background: linear-gradient(90deg, #e18638, #e17a38); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; transition: background .3s linear; } /* legacy SiteHeader NavCtaGradient (unstuck) */
+.fx-glass { background-color: rgba(248, 250, 253, 0.45); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-radius: 6px; box-shadow: rgba(23, 23, 23, 0.08) 0px 15px 35px 0px; } /* HDS browser-graphic__window */
+.fx-blob-brand { background: radial-gradient(50% 50%, rgba(83, 58, 253, 0.8) 62.5%, rgba(83, 58, 253, 0) 100%); filter: blur(40px); }
+.fx-blob-magenta { background: radial-gradient(50% 50%, rgba(243, 99, 243, 0.8) 53.85%, rgba(243, 99, 243, 0) 100%); filter: blur(40px); }
+.fx-blob-lemon { background: radial-gradient(50% 50%, rgb(255, 207, 94) 41.35%, rgba(255, 207, 94, 0) 100%); filter: blur(40px); }
+.fx-bento-halo { background: radial-gradient(circle, rgb(127, 125, 252), rgb(244, 75, 204) 33%, rgb(229, 237, 245) 66%); } /* HDS modular-solutions bento card hover halo */
+.fx-gradient-border { position: relative; border-radius: 6px; } .fx-gradient-border::before { content: ""; position: absolute; inset: -1px; border-radius: inherit; padding: 1px; background: conic-gradient(from var(--border-angle, 0deg), #ffd7ef 0%, #f44bcc 25%, #533afd 50%, #ffd7ef 100%); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; animation: fx-border-spin 4s linear infinite; } @property --border-angle { syntax: "<angle>"; inherits: false; initial-value: 0deg; } @keyframes fx-border-spin { to { --border-angle: 360deg; } } /* HDS platform-graphic / agentic-commerce border spin */
+.fx-skew-section { --sectionAngle: -6deg; position: relative; } .fx-skew-section > .bg { position: absolute; inset: 0; transform: skewY(var(--sectionAngle)); transform-origin: 100% 0; background: var(--backgroundColor, #f6f9fc); } /* legacy .Section__background: --angleNormal -6deg, --angleStrong -12deg */
+.fx-legacy-gradient-canvas { --gradientColorZero: #a960ee; --gradientColorOne: #ff333d; --gradientColorTwo: #90e0ff; --gradientColorThree: #ffcb57; background: linear-gradient(-6deg, var(--gradientColorZero), var(--gradientColorOne), var(--gradientColorTwo), var(--gradientColorThree)); } /* static fallback of the legacy WebGL Gradient (flavor Chroma) */
+.fx-hover-lift { transition: transform 300ms cubic-bezier(.25,1,.5,1), box-shadow 300ms cubic-bezier(.25,1,.5,1); } .fx-hover-lift:hover { transform: translateY(-4px); }
+.fx-hover-arrow { display: inline-flex; align-items: center; gap: 4px; } .fx-hover-arrow svg { transition: transform 150ms cubic-bezier(0.215,0.61,0.355,1); } .fx-hover-arrow:hover svg { transform: translateX(3px); } /* HDS .hds-icon-hover-arrow / legacy .HoverArrow */
+.fx-card-shadow-xs { box-shadow: 0 2px 5px -1px rgba(50,50,93,.25), 0 1px 3px -1px rgba(0,0,0,.3); }
+.fx-card-shadow-sm { box-shadow: 0 6px 12px -2px rgba(50,50,93,.25), 0 3px 7px -3px rgba(0,0,0,.3); }
+.fx-card-shadow-md { box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3); }
+.fx-card-shadow-lg { box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3); }
+.fx-card-shadow-xl { box-shadow: 0 50px 100px -20px rgba(50,50,93,.25), 0 30px 60px -30px rgba(0,0,0,.3); }
+.fx-hds-shadow-xs { box-shadow: 0 2px 10px 0 rgba(0,55,112,.06), 0 1px 4px 0 rgba(0,59,137,.04); }
+.fx-hds-shadow-sm { box-shadow: 0 5px 14px 0 rgba(0,55,112,.08), 0 2px 8px 0 rgba(0,59,137,.05); }
+.fx-hds-shadow-md { box-shadow: 0 6px 22px 0 rgba(0,55,112,.1), 0 4px 8px 0 rgba(0,59,137,.02); }
+.fx-hds-shadow-lg { box-shadow: 0 15px 40px -2px rgba(0,55,112,.1), 0 5px 20px -2px rgba(0,59,137,.04); }
+.fx-hds-shadow-xl { box-shadow: 0 20px 80px -16px rgba(0,55,112,.1), 0 10px 60px -16px rgba(0,59,137,.04); }

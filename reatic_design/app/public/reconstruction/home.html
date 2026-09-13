@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>리틱인더스트리 | 홈 재구성 (로컬)</title>
+<link rel="icon" href="../assets/icons/logo-triangle.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Work+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="../../src/system/tokens.css">
+<link rel="stylesheet" href="../../src/system/motion.css">
+<link rel="stylesheet" href="../../src/system/components.css">
+<style>
+  /* Local reconstruction of https://www.reaticindustry.com/ using only system tokens/components.
+     Section heights follow the 1440px capture (evidence/source/computed-styles.json). Wix runtime is not used. */
+  * { box-sizing: border-box; }
+  html, body { overflow-x: clip; }
+  body { margin: 0; background: var(--rt-color-bg); color: var(--rt-color-text); font-family: var(--rt-font-ko); -webkit-font-smoothing: antialiased; }
+  .banner { position: sticky; top: 0; z-index: 20; background: var(--rt-color-accent); color: #000; font-size: 12px; padding: 6px 16px; text-align: center; font-weight: 700; }
+  .banner a { color: inherit; }
+  .hero { position: relative; height: var(--rt-section-hero); overflow: hidden; background: #000; }
+  .copy { padding: var(--rt-section-home-text-top) 24px var(--rt-section-home-text-bottom) calc(var(--rt-layout-hero-copy-left) * 100 / 1440 * 1vw); }
+  .copy h2 { line-height: 1.4; }
+  .breath { height: var(--rt-section-breath); display: grid; align-content: end; justify-items: center; padding-bottom: 372px; }
+  .strength { padding: 116px 24px 117px calc(137 / 1440 * 100vw); }
+  .slider { height: var(--rt-section-slider); display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 48px 40px; overflow: hidden; }
+  .slider .rt-card { max-width: none; height: 100%; aspect-ratio: auto; }
+  .lead { padding: var(--rt-section-lead-top) 24px var(--rt-section-lead-bottom); }
+  .lead .rt-container { padding-inline: 0; }
+  .lead video { display: block; width: var(--rt-layout-inline-media-w); max-width: 100%; height: auto; aspect-ratio: 2 / 1; margin: 96px auto 0; object-fit: cover; background: #000; }
+  .bleed { position: relative; height: var(--rt-section-video-bleed); overflow: hidden; background: #000; }
+  .vision { height: var(--rt-section-text-mid); display: grid; align-content: center; padding-inline: calc(284 / 1440 * 100vw); }
+  .split { min-height: var(--rt-section-split); background: var(--rt-color-surface); }
+  .split--tall { min-height: var(--rt-section-split-tall); background: var(--rt-color-bg); }
+  .split video { width: 100%; height: 100%; min-height: 300px; object-fit: cover; display: block; background: #000; }
+  .split .text { padding: 48px calc(48 / 1440 * 100vw) 48px 48px; display: grid; align-content: center; gap: 24px; }
+  @media (max-width: 750px) {
+    .copy, .strength, .vision { padding: 40px var(--rt-layout-mobile-padding); }
+    .breath { height: 40vh; padding-bottom: 60px; }
+    .slider { grid-template-columns: 1fr; height: auto; padding: 24px var(--rt-layout-mobile-padding); }
+    .slider .rt-card { aspect-ratio: 780 / 440; }
+    .lead { padding: 40px var(--rt-layout-mobile-padding); }
+    .hero, .bleed { height: 56vw; min-height: 240px; }
+    .split .text { padding: 32px var(--rt-layout-mobile-padding); }
+  }
+</style>
+</head>
+<body>
+<div class="banner">로컬 재구성 — 원본 <a href="https://www.reaticindustry.com/" rel="noreferrer">reaticindustry.com</a>의 홈을 시스템 토큰과 컴포넌트만으로 다시 그린 페이지입니다. Wix 런타임은 사용하지 않습니다.</div>
+
+<header class="rt-header rt-header--line">
+  <a href="home.html" aria-label="홈으로"><span class="rt-logo"><svg viewBox="0 0 1000 1000" role="img" aria-label="REATIC INDUSTRY"><polygon points="500,245 783,733 217,733" fill="none" stroke="currentColor" stroke-width="32"/></svg></span></a>
+  <nav aria-label="주 메뉴"><ul class="rt-nav">
+    <li class="rt-nav__item"><a class="rt-nav__link" href="about.html">리틱인더스트리</a></li>
+    <li class="rt-nav__item"><a class="rt-nav__link" href="portfolio.html">포트폴리오</a></li>
+    <li class="rt-nav__item"><a class="rt-nav__link" href="contact.html">작업 의뢰</a></li>
+  </ul></nav>
+  <div></div>
+</header>
+
+<main>
+  <section class="rt-section hero" aria-label="히어로 영상">
+    <video class="rt-bg-video" src="../media/3ae519_df4ed66293d7410797707addfb2c403a.mp4" autoplay muted loop playsinline></video>
+  </section>
+
+  <section class="rt-section copy" aria-label="소개 문장">
+    <h2 class="rt-text rt-text--h3-alt" data-rt-enter="fold">우리는</h2>
+    <h2 class="rt-text rt-text--h3-alt" data-rt-enter="fold-2">무에서 유를</h2>
+    <h2 class="rt-text rt-text--h3-alt" data-rt-enter="fold-3">창조해냅니다.</h2>
+  </section>
+
+  <section class="rt-section breath" aria-label="스크롤 여백">
+    <div class="rt-scroll-hint" data-rt-enter="blur"><span>계속 스크롤하세요 :)</span>
+      <svg class="rt-scroll-hint__icon" viewBox="19.999 58 160.001 84" aria-hidden="true"><path d="M172.5 142a7.485 7.485 0 0 1-5.185-2.073L100 75.808l-67.315 64.12c-2.998 2.846-7.74 2.744-10.606-.234a7.454 7.454 0 0 1 .235-10.565l72.5-69.057a7.524 7.524 0 0 1 10.371 0l72.5 69.057a7.455 7.455 0 0 1 .235 10.565A7.503 7.503 0 0 1 172.5 142z" transform="rotate(180 100 100)"/></svg>
+    </div>
+  </section>
+
+  <section class="rt-section strength" aria-label="강점">
+    <h1 class="rt-text rt-text--h2" style="font-size:55px" data-rt-enter="fade">리틱인더스트리만의 강점</h1>
+  </section>
+
+  <section class="rt-section slider" aria-label="카드 슬라이더">
+    <div class="rt-card"><div class="rt-card__word">None</div><div class="rt-card__caption">아무것도 없어도</div></div>
+    <div class="rt-card rt-card--media" style="background-image:url('../source/images/3ae519_1e96238a08ad4304b43f6ad49d037f93~mv2.png')" role="img" aria-label="당장 될까 — 시계 이미지"></div>
+  </section>
+
+  <section class="rt-section lead" aria-label="효율">
+    <div class="rt-container">
+      <h2 class="rt-text rt-text--h5" data-rt-enter="float-up">리틱인더스트리는 효율을 중시합니다.</h2>
+      <p class="rt-text rt-text--h5 rt-text--muted" style="margin-top:40px" data-rt-enter="float-up">원하는 결과물을 만들기 위해 <b>필요한 효과와 기술만 간결하게</b> 사용하며 <b>빠른 작업 속도</b>를 추구합니다. 그 이후엔 필요 없는 <b>절차는 모두 과감히 생략</b>하고 기존의 목표에만 충실할 수 있도록 주의를 기울입니다.</p>
+      <video src="../media/3ae519_b632851cd5444f1bbe2d23c4da79fe2d.mp4" autoplay muted loop playsinline></video>
+    </div>
+  </section>
+
+  <section class="rt-section bleed" aria-label="풀블리드 영상 1">
+    <video class="rt-bg-video" src="../media/3ae519_5c444c7df1c047f38fdf0c58e559c1a5.mp4" autoplay muted loop playsinline></video>
+  </section>
+
+  <section class="rt-section vision" aria-label="영상미">
+    <h1 class="rt-text rt-text--h1" style="text-align:center" data-rt-enter="fade">언제나 영상미를 최우선으로.</h1>
+  </section>
+
+  <section class="rt-section split rt-split" aria-label="시청 유도">
+    <div class="text">
+      <h2 class="rt-text rt-text--h5" data-rt-enter="float-left">영상의 목적은 여러가지가 존재하지만 - 결국 사람들이 시청하게 만드는 것이 영상의 근본적인 목적입니다.</h2>
+      <h2 class="rt-text rt-text--h5" data-rt-enter="float-left">리틱인더스트리는 영상을 접하는 미래의 소비자들이 몰입감 있게 영상을 계속 시청할 수 있도록 유도합니다.</h2>
+    </div>
+    <video src="../media/3ae519_b117fbd2c1f14b39ad279e61f9a74cb3.mp4" autoplay muted loop playsinline></video>
+  </section>
+
+  <section class="rt-section bleed" aria-label="풀블리드 영상 2">
+    <video class="rt-bg-video" src="../media/3ae519_0381e312bb96415ba39c1fe07eb0e9c6.mp4" autoplay muted loop playsinline></video>
+  </section>
+
+  <section class="rt-section split split--tall rt-split" aria-label="작업 모토">
+    <video src="../media/3ae519_9bf0e6f4ec0e4936816407d59160a29c.mp4" autoplay muted loop playsinline></video>
+    <div class="text">
+      <h1 class="rt-text rt-text--lead" style="font-size:20px;font-weight:700" data-rt-enter="float-right">현실적이고 디테일한 렌더기술과 실제로는 불가능한 구도의 연출이 더해질 때 모션그래픽의 진정한 장점이 드러나게 됩니다. 실제 촬영으로는 담을 수 없는 미적 요소들이 영상에 담겨지며 상상을 시각화하는 작업을 현실에서 이뤄내는 것이 무에서 유를 창조하는 저희의 작업 모토이자 스타일입니다.</h1>
+    </div>
+  </section>
+
+  <section class="rt-cta-strip" aria-label="의뢰">
+    <div class="rt-scroll-hint rt-scroll-hint--up rt-scroll-hint--inverse"><svg class="rt-scroll-hint__icon" viewBox="19.999 58 160.001 84" aria-hidden="true"><path d="M172.5 142a7.485 7.485 0 0 1-5.185-2.073L100 75.808l-67.315 64.12c-2.998 2.846-7.74 2.744-10.606-.234a7.454 7.454 0 0 1 .235-10.565l72.5-69.057a7.524 7.524 0 0 1 10.371 0l72.5 69.057a7.455 7.455 0 0 1 .235 10.565A7.503 7.503 0 0 1 172.5 142z" transform="rotate(180 100 100)"/></svg></div>
+    <p class="rt-cta-strip__eyebrow">무에서 유를 창조하는 모션그래픽 프로덕션</p>
+    <h1 class="rt-cta-strip__title">리틱인더스트리에 의뢰하세요</h1>
+    <a class="rt-button rt-button--cta" href="contact.html">리틱인더스트리에 의뢰하기 <svg class="rt-button__icon" viewBox="0 0 200 60" aria-hidden="true"><path d="M159 10.9l-2.2 2.4L183.6 39H9v3h174.6l-26.2 25.3 2.1 2.6 30.5-29.3-31-29.7z" transform="translate(0 -9)"/></svg></a>
+  </section>
+</main>
+
+<footer class="rt-footer"><p style="margin:0">Designed by Reatic Industry<br>All rights are reserved</p></footer>
+
+<script>
+  const io = new IntersectionObserver((entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { threshold: 0.2 });
+  document.querySelectorAll('[data-rt-enter]').forEach((el) => io.observe(el));
+</script>
+</body>
+</html>

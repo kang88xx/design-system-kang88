@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reatic Document System</title>
+<!--
+  REATIC DOCUMENT SYSTEM — 단일 파일 문서 디자인 시스템
+  리틱인더스트리 홈페이지의 조판 규칙(흑백 + 앰버 한 점, 회색 본문 + 검정 강조, 1.4 행간, 굵은 고딕, 여백)을
+  제안서·보고서·견적서·메모 같은 문서에 적용합니다. 이 파일 하나로 (1) 스타일 가이드를 읽고 (2) 그대로 복사해 문서를 쓰고
+  (3) 브라우저 인쇄로 A4 PDF를 만들 수 있습니다. 외부 의존성은 Google Fonts(선택)뿐입니다.
+
+  사용법: <body> 안의 <article class="doc"> 내용을 바꾸면 됩니다. 컴포넌트는 아래 "패턴" 절에 모두 예시로 있습니다.
+  인쇄: Ctrl/Cmd+P → A4, 배경 그래픽 켜기. 여백은 @page에서 정합니다.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Work+Sans:wght@400;600&display=swap">
+<style>
+  /* ============ 1. 토큰 (홈페이지 디자인 시스템에서 문서용으로 좁힌 값) ============ */
+  :root {
+    --doc-ink: #000000;          /* 본문 검정 */
+    --doc-ink-2: #414141;        /* 보조 검정 */
+    --doc-muted: #8a8a8a;        /* 회색 본문 (강조 앞) */
+    --doc-hint: #c7c7c7;         /* 캡션·번호 */
+    --doc-line: #e3e3e3;         /* 괘선 */
+    --doc-surface: #f3f3f3;      /* 표 헤더·콜아웃·코드 바탕 */
+    --doc-paper: #ffffff;
+    --doc-strip: #000000;        /* 검정 띠(표지·구분 페이지) */
+    --doc-on-strip: #f3f3f3;
+    --doc-accent: #eea302;       /* 앰버: 문서당 한 곳(핵심 숫자·결론·서명선) */
+    --doc-accent-dark: #926402;
+    --doc-danger: #e03939;
+
+    --doc-font: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    --doc-font-latin: "Work Sans", "Noto Sans KR", sans-serif;
+
+    /* 타입 스케일: 홈페이지 스케일(260/100/70/60/49/42/38/31/26/21/16/15/13/12/10)을 A4 폭에 맞춰 1/2.6 ~ 1/1 로 축소 */
+    --doc-size-cover: 44px;      /* 표지 제목 (← 100) */
+    --doc-size-h1: 28px;         /* 장 제목 (← 70/60) */
+    --doc-size-h2: 20px;         /* 절 제목 (← 49/42) */
+    --doc-size-h3: 15px;         /* 소제목 (← 31/26) */
+    --doc-size-lead: 16px;       /* 리드 문단 (← 21) */
+    --doc-size-body: 11.5pt;     /* 본문 (← 16) */
+    --doc-size-small: 10pt;      /* 표·캡션 (← 13) */
+    --doc-size-fine: 8.5pt;      /* 각주·법적 고지 (← 12/10) */
+    --doc-size-number: 56px;     /* 핵심 숫자 (← 100) */
+    --doc-leading: 1.4;          /* 홈페이지 공통 행간 */
+    --doc-leading-body: 1.7;     /* 장문 본문 (about 페이지 1.7) */
+
+    --doc-space-1: 4px; --doc-space-2: 8px; --doc-space-3: 12px; --doc-space-4: 16px; --doc-space-6: 24px; --doc-space-8: 32px; --doc-space-12: 48px; --doc-space-16: 64px;
+    --doc-radius-card: 12px;     /* 카드 라운드 (← 40, 문서 비율) */
+    --doc-radius-pill: 50px;
+    --doc-measure: 38em;         /* 본문 최대 폭 ≈ 65자 */
+    --doc-page-w: 210mm; --doc-page-margin: 22mm 20mm 24mm;
+  }
+
+  /* ============ 2. 기본 ============ */
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; background: #ededed; color: var(--doc-ink); font-family: var(--doc-font); font-size: var(--doc-size-body); line-height: var(--doc-leading-body); -webkit-font-smoothing: antialiased; font-variant-numeric: tabular-nums; }
+  .doc { background: var(--doc-paper); width: var(--doc-page-w); max-width: 100%; margin: 24px auto; padding: 22mm 20mm 24mm; box-shadow: 0 1px 4px rgba(0,0,0,.18); }
+  .doc > * + * { margin-top: var(--doc-space-4); }
+  h1, h2, h3, h4 { font-weight: 700; line-height: var(--doc-leading); margin: 0; text-wrap: balance; }
+  p { margin: 0; }
+  a { color: inherit; text-decoration: underline; text-decoration-color: var(--doc-hint); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--doc-ink); }
+  strong, b { font-weight: 700; color: var(--doc-ink); }
+  small { font-size: var(--doc-size-fine); color: var(--doc-muted); }
+  hr { border: 0; border-top: 1px solid var(--doc-line); margin: var(--doc-space-8) 0; }
+  code, kbd { font-family: var(--doc-font-latin); font-size: .92em; background: var(--doc-surface); padding: 1px 5px; }
+  pre { background: var(--doc-surface); padding: var(--doc-space-4); overflow-x: auto; font-family: var(--doc-font-latin); font-size: var(--doc-size-small); line-height: 1.5; }
+  pre code { background: none; padding: 0; }
+  img { max-width: 100%; display: block; }
+  figure { margin: 0; }
+  figcaption { font-size: var(--doc-size-small); color: var(--doc-muted); margin-top: var(--doc-space-2); }
+
+  /* ============ 3. 타이포 역할 ============ */
+  .doc-h1 { font-size: var(--doc-size-h1); margin-top: var(--doc-space-16); padding-top: var(--doc-space-6); border-top: 2px solid var(--doc-ink); }
+  .doc-h1:first-child, .doc-cover + .doc-h1 { margin-top: 0; }
+  .doc-h2 { font-size: var(--doc-size-h2); margin-top: var(--doc-space-12); }
+  .doc-h3 { font-size: var(--doc-size-h3); margin-top: var(--doc-space-8); }
+  .doc-eyebrow { font-family: var(--doc-font-latin); font-weight: 600; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--doc-muted); }
+  .doc-lead { font-size: var(--doc-size-lead); line-height: 1.6; color: var(--doc-muted); max-width: var(--doc-measure); }
+  .doc-lead b { color: var(--doc-ink); }
+  .doc-body { max-width: var(--doc-measure); color: var(--doc-ink); }
+  .doc-body p + p { margin-top: var(--doc-space-3); }
+  .doc-muted { color: var(--doc-muted); }                   /* 회색 본문 + 검정 볼드 강조 = 시그니처 조판 */
+  .doc-muted b { color: var(--doc-ink); }
+  .doc-fine { font-size: var(--doc-size-fine); color: var(--doc-muted); line-height: 1.5; font-weight: 300; }
+  .doc-accent { color: var(--doc-accent); }
+  .doc-number { font-family: var(--doc-font-latin); font-weight: 600; font-size: var(--doc-size-number); line-height: 1; letter-spacing: -.01em; }
+  .doc-number small { display: block; font-family: var(--doc-font); font-size: var(--doc-size-small); font-weight: 400; color: var(--doc-muted); margin-top: var(--doc-space-2); letter-spacing: 0; }
+  .doc-center { text-align: center; }
+  .doc-right { text-align: right; }
+
+  /* ============ 4. 표지 · 검정 띠 ============ */
+  .doc-cover { background: var(--doc-strip); color: var(--doc-on-strip); margin: -22mm -20mm 0; padding: 22mm 20mm; min-height: 297mm; display: grid; grid-template-rows: auto 1fr auto; gap: var(--doc-space-8); page-break-after: always; break-after: page; }
+  .doc-cover .doc-logo { width: 48px; height: 48px; color: var(--doc-on-strip); }
+  .doc-cover .doc-eyebrow { color: var(--doc-muted); }
+  .doc-cover h1 { font-size: var(--doc-size-cover); line-height: 1.25; color: #fff; }
+  .doc-cover h1 span { display: block; }
+  .doc-cover .doc-lead { color: var(--doc-muted); }
+  .doc-cover .doc-lead b { color: #fff; }
+  .doc-cover .meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--doc-space-4); border-top: 1px solid #333; padding-top: var(--doc-space-4); font-size: var(--doc-size-small); }
+  .doc-cover .meta b { display: block; color: #fff; font-weight: 700; }
+  .doc-cover .meta span { color: var(--doc-muted); }
+  .doc-strip { background: var(--doc-strip); color: var(--doc-on-strip); margin: var(--doc-space-8) -20mm; padding: var(--doc-space-12) 20mm; }
+  .doc-strip h2 { color: #fff; }
+  .doc-strip .doc-muted b { color: #fff; }
+  .doc-logo svg { width: 100%; height: 100%; display: block; }
+
+  /* ============ 5. 머리말 · 꼬리말 ============ */
+  .doc-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--doc-space-4); padding-bottom: var(--doc-space-3); border-bottom: 1px solid var(--doc-line); font-family: var(--doc-font-latin); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--doc-muted); }
+  .doc-header .doc-logo { width: 22px; height: 22px; color: var(--doc-ink); }
+  .doc-header .center { text-align: center; }
+  .doc-footer { margin-top: var(--doc-space-16); padding-top: var(--doc-space-3); border-top: 1px solid var(--doc-line); display: flex; justify-content: space-between; gap: var(--doc-space-4); font-family: var(--doc-font-latin); font-weight: 600; font-size: 9px; letter-spacing: .06em; text-transform: uppercase; color: var(--doc-ink); }
+
+  /* ============ 6. 표 ============ */
+  .doc-table { width: 100%; border-collapse: collapse; font-size: var(--doc-size-small); line-height: 1.5; }
+  .doc-table th, .doc-table td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--doc-line); vertical-align: top; }
+  .doc-table th { background: var(--doc-surface); font-family: var(--doc-font-latin); font-weight: 600; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--doc-ink); border-bottom: 2px solid var(--doc-ink); }
+  .doc-table td.num, .doc-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .doc-table tr.total td { border-top: 2px solid var(--doc-ink); border-bottom: 0; font-weight: 700; }
+  .doc-table tr.total td.num { color: var(--doc-accent-dark); }
+  .doc-table--plain th { background: transparent; }
+  .doc-table-wrap { overflow-x: auto; }
+
+  /* ============ 7. 카드 · 콜아웃 · 핵심 숫자 ============ */
+  .doc-grid { display: grid; gap: var(--doc-space-4); grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .doc-card { background: var(--doc-surface); border-radius: var(--doc-radius-card); padding: var(--doc-space-6); display: grid; gap: var(--doc-space-2); align-content: start; }
+  .doc-card .doc-eyebrow { color: var(--doc-muted); }
+  .doc-card--dark { background: var(--doc-strip); color: var(--doc-on-strip); }
+  .doc-card--dark .doc-eyebrow { color: var(--doc-muted); }
+  .doc-callout { border-left: 2px solid var(--doc-ink); padding: var(--doc-space-2) var(--doc-space-4); color: var(--doc-ink-2); }
+  .doc-callout--accent { border-left-color: var(--doc-accent); }
+  .doc-callout--danger { border-left-color: var(--doc-danger); }
+  .doc-callout .doc-eyebrow { margin-bottom: var(--doc-space-1); }
+  .doc-note { font-size: var(--doc-size-fine); color: var(--doc-muted); line-height: 1.5; }
+  .doc-note::before { content: "※ "; }
+  .doc-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: var(--doc-space-6); padding: var(--doc-space-6) 0; border-top: 1px solid var(--doc-line); border-bottom: 1px solid var(--doc-line); }
+  .doc-kpis .doc-number { font-size: 36px; }
+  .doc-kpis .doc-number.doc-accent { color: var(--doc-accent); }
+
+  /* ============ 8. 목록 · 단계 · 타임라인 ============ */
+  .doc-list { padding-left: 1.2em; max-width: var(--doc-measure); }
+  .doc-list li + li { margin-top: var(--doc-space-1); }
+  .doc-list--check { list-style: none; padding-left: 0; }
+  .doc-list--check li { padding-left: 1.6em; position: relative; }
+  .doc-list--check li::before { content: ""; position: absolute; left: 0; top: .55em; width: 9px; height: 5px; border-left: 2px solid var(--doc-ink); border-bottom: 2px solid var(--doc-ink); transform: rotate(-45deg); }
+  .doc-steps { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--doc-space-3); counter-reset: step; }
+  .doc-steps li { display: grid; grid-template-columns: 40px 1fr; gap: var(--doc-space-3); align-items: baseline; padding: var(--doc-space-3) 0; border-bottom: 1px solid var(--doc-line); }
+  .doc-steps li::before { counter-increment: step; content: counter(step, decimal-leading-zero); font-family: var(--doc-font-latin); font-weight: 600; font-size: 20px; color: var(--doc-hint); }
+  .doc-steps b { display: block; }
+  .doc-steps span { color: var(--doc-muted); font-size: var(--doc-size-small); }
+  .doc-timeline { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0; }
+  .doc-timeline li { padding: var(--doc-space-3) var(--doc-space-3) 0 0; border-top: 2px solid var(--doc-line); position: relative; }
+  .doc-timeline li::before { content: ""; position: absolute; top: -6px; left: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--doc-paper); border: 2px solid var(--doc-ink); }
+  .doc-timeline li.now { border-top-color: var(--doc-ink); }
+  .doc-timeline li.now::before { background: var(--doc-accent); border-color: var(--doc-accent); }
+  .doc-timeline b { display: block; font-size: var(--doc-size-small); }
+  .doc-timeline span { font-size: var(--doc-size-fine); color: var(--doc-muted); }
+
+  /* ============ 9. 버튼(링크) · 라벨 · 서명 ============ */
+  .doc-button { display: inline-flex; align-items: center; gap: 10px; height: 40px; padding: 0 22px; border-radius: var(--doc-radius-pill); background: var(--doc-accent); color: var(--doc-ink); font-weight: 700; font-size: var(--doc-size-small); text-decoration: none; }
+  .doc-button--dark { background: var(--doc-strip); color: var(--doc-on-strip); border: 2px solid var(--doc-on-strip); border-radius: 2px; }
+  .doc-tag { display: inline-block; padding: 2px 10px; border: 1px solid var(--doc-ink); font-family: var(--doc-font-latin); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .doc-tag--fill { background: var(--doc-ink); color: var(--doc-paper); border-color: var(--doc-ink); }
+  .doc-tag--accent { background: var(--doc-accent); border-color: var(--doc-accent); }
+  .doc-sign { display: grid; grid-template-columns: 1fr 1fr; gap: var(--doc-space-8); margin-top: var(--doc-space-12); }
+  .doc-sign div { border-top: 2px solid var(--doc-ink); padding-top: var(--doc-space-2); font-size: var(--doc-size-small); }
+  .doc-sign div.accent { border-top-color: var(--doc-accent); }
+  .doc-sign b { display: block; }
+
+  /* ============ 10. 화면 전용 툴바 · 인쇄 ============ */
+  .doc-toolbar { position: sticky; top: 0; z-index: 10; background: var(--doc-strip); color: var(--doc-on-strip); display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding: 10px 20px; font-family: var(--doc-font-latin); font-size: 12px; }
+  .doc-toolbar b { color: #fff; }
+  .doc-toolbar .spacer { flex: 1; }
+  .doc-toolbar button { background: var(--doc-accent); color: #000; border: 0; height: 32px; padding: 0 16px; border-radius: 50px; font-family: var(--doc-font); font-weight: 700; font-size: 12px; cursor: pointer; }
+  .doc-toolbar button:hover { background: var(--doc-surface); }
+  .doc-toolbar button:focus-visible { outline: 2px solid var(--doc-accent); outline-offset: 2px; }
+  .doc-guide { background: var(--doc-surface); border-left: 2px solid var(--doc-accent); padding: var(--doc-space-3) var(--doc-space-4); font-size: var(--doc-size-small); color: var(--doc-ink-2); }
+  .page-break { break-before: page; page-break-before: always; }
+  .avoid-break { break-inside: avoid; page-break-inside: avoid; }
+  @media (max-width: 750px) { .doc { padding: 24px 16px; margin: 0; box-shadow: none; } .doc-cover { margin: -24px -16px 0; padding: 32px 16px; min-height: auto; } .doc-strip { margin-inline: -16px; padding-inline: 16px; } .doc-sign { grid-template-columns: 1fr; } .doc-h1 { font-size: 24px; } }
+  @page { size: A4; margin: 0; }
+  @media print {
+    body { background: #fff; }
+    .doc { width: auto; max-width: none; margin: 0; padding: var(--doc-page-margin); box-shadow: none; }
+    .doc-toolbar, .doc-guide, .no-print { display: none !important; }
+    .doc-cover { margin: -22mm -20mm 0; min-height: 297mm; }
+    a { text-decoration: none; }
+    .doc-h1, .doc-h2, .doc-h3 { break-after: avoid; }
+    .doc-table, .doc-card, .doc-callout, .doc-kpis, .doc-steps li, figure { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="doc-toolbar" role="toolbar" aria-label="문서 도구">
+  <b>Reatic Document System</b>
+  <span>리틱인더스트리 디자인 언어를 문서에 적용하는 단일 파일 템플릿</span>
+  <span class="spacer"></span>
+  <button type="button" onclick="window.print()">A4 PDF로 인쇄</button>
+</div>
+
+<article class="doc" id="document">
+
+  <!-- ======= 표지 ======= -->
+  <section class="doc-cover">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <span class="doc-logo"><svg viewBox="0 0 1000 1000" role="img" aria-label="REATIC INDUSTRY"><polygon points="500,245 783,733 217,733" fill="none" stroke="currentColor" stroke-width="32"/></svg></span>
+      <span class="doc-eyebrow">Proposal · 2026-09</span>
+    </div>
+    <div style="display:grid;gap:24px;align-content:center">
+      <p class="doc-eyebrow">Reatic Industry</p>
+      <h1><span>무에서 유를</span><span>창조하는 제안서.</span></h1>
+      <p class="doc-lead">이 문서는 리틱인더스트리 홈페이지의 <b>흑백 + 앰버 한 점</b>, <b>회색 본문 + 검정 강조</b>, <b>1.4 행간의 굵은 고딕</b>이라는 조판 규칙을 제안서·보고서·견적서에 옮긴 템플릿입니다. 표지의 검정 띠는 홈페이지의 CTA 스트립과 같은 역할을 합니다.</p>
+    </div>
+    <div class="meta">
+      <div><span>문서</span><b>브랜드 필름 제작 제안</b></div>
+      <div><span>수신</span><b>클라이언트 브랜드팀</b></div>
+      <div><span>발신</span><b>리틱인더스트리</b></div>
+      <div><span>버전</span><b>v1.0 · 2026-09-13</b></div>
+    </div>
+  </section>
+
+  <!-- ======= 머리말 ======= -->
+  <header class="doc-header">
+    <span class="doc-logo"><svg viewBox="0 0 1000 1000" aria-hidden="true"><polygon points="500,245 783,733 217,733" fill="none" stroke="currentColor" stroke-width="32"/></svg></span>
+    <span class="center">Brand film proposal · v1.0</span>
+    <span>Reatic Industry</span>
+  </header>
+
+  <div class="doc-guide no-print"><b>템플릿 사용법</b> — 아래 내용은 모든 패턴을 한 번씩 보여 주는 예시입니다. 필요한 블록만 남기고 텍스트를 바꾸세요. 앰버는 문서 전체에서 <b>한 곳</b>(핵심 숫자·결론·서명선 중 하나)에만 쓰는 것이 규칙입니다.</div>
+
+  <!-- ======= 1. 개요 ======= -->
+  <h1 class="doc-h1">1. 개요</h1>
+  <p class="doc-lead">영상의 목적은 여러 가지가 있지만, 결국 <b>사람들이 끝까지 시청하게 만드는 것</b>이 근본적인 목적입니다. 이 제안은 그 목적을 위해 필요한 효과와 기술만 간결하게 쓰고, 필요 없는 절차는 과감히 생략하는 방식으로 구성했습니다.</p>
+  <div class="doc-body doc-muted">
+    <p>리틱인더스트리는 <b>효율</b>을 중시합니다. 원하는 결과물을 만들기 위해 필요한 효과와 기술만 간결하게 사용하며 <b>빠른 작업 속도</b>를 추구합니다. 그 이후엔 필요 없는 절차는 모두 과감히 생략하고 기존의 목표에만 충실할 수 있도록 주의를 기울입니다.</p>
+    <p>이 문서의 회색 본문 안에서 검정으로 굵게 표시된 구절만 읽어도 결론이 전달되도록 썼습니다. 홈페이지의 리드 문단이 쓰는 방식과 같습니다.</p>
+  </div>
+
+  <div class="doc-kpis avoid-break">
+    <div><div class="doc-number doc-accent">0<small>마감 일정 미준수 (회)</small></div></div>
+    <div><div class="doc-number">100<small>% 마감 준수</small></div></div>
+    <div><div class="doc-number">1<small>년 A/S 보장</small></div></div>
+    <div><div class="doc-number">32<small>협업 클라이언트</small></div></div>
+  </div>
+  <p class="doc-note">핵심 숫자 중 하나에만 앰버를 씁니다. 나머지는 검정으로 두어 위계를 만듭니다.</p>
+
+  <!-- ======= 2. 범위와 산출물 ======= -->
+  <h1 class="doc-h1">2. 범위와 산출물</h1>
+  <h2 class="doc-h2">2.1 작업 범위</h2>
+  <ul class="doc-list doc-list--check">
+    <li><b>기획</b> — 레퍼런스 분석, 컨셉 보드, 스토리보드 1회 수정 포함</li>
+    <li><b>제작</b> — 3D 렌더 · 모션그래픽 · 타이포그래피, 90초 본편 + 15초 티저</li>
+    <li><b>납품</b> — 4K ProRes, 1080p H.264, 세로형 9:16 컷다운, 프로젝트 파일 클라우드 백업</li>
+  </ul>
+  <h2 class="doc-h2">2.2 진행 단계</h2>
+  <ol class="doc-steps">
+    <li><b>의뢰 접수</b><span>홈페이지 양식 또는 이메일. 두 방법 모두 동일하게 접수됩니다.</span></li>
+    <li><b>세부 논의 · 견적 확정</b><span>접수 후 최대한 빠르게 메일로 연락드립니다.</span></li>
+    <li><b>계약 · 즉시 착수</b><span>번거로운 결재 과정 없이 계약 완료 즉시 작업을 시작합니다.</span></li>
+    <li><b>납품</b><span>약속된 기한에 결과물을 전달하고, 1년간 A/S를 보장합니다.</span></li>
+  </ol>
+
+  <h2 class="doc-h2">2.3 일정</h2>
+  <ol class="doc-timeline avoid-break">
+    <li class="now"><b>9월 3주</b><span>킥오프 · 컨셉</span></li>
+    <li><b>9월 4주</b><span>스토리보드</span></li>
+    <li><b>10월 1–2주</b><span>제작</span></li>
+    <li><b>10월 3주</b><span>수정 1회</span></li>
+    <li><b>10월 4주</b><span>납품</span></li>
+  </ol>
+
+  <!-- ======= 3. 견적 ======= -->
+  <h1 class="doc-h1">3. 견적</h1>
+  <div class="doc-table-wrap">
+    <table class="doc-table">
+      <thead><tr><th>항목</th><th>내용</th><th class="num">수량</th><th class="num">단가 (원)</th><th class="num">금액 (원)</th></tr></thead>
+      <tbody>
+        <tr><td>기획</td><td>컨셉 · 스토리보드</td><td class="num">1</td><td class="num">3,000,000</td><td class="num">3,000,000</td></tr>
+        <tr><td>제작</td><td>본편 90초 3D · 모션그래픽</td><td class="num">1</td><td class="num">18,000,000</td><td class="num">18,000,000</td></tr>
+        <tr><td>제작</td><td>티저 15초 · 세로 컷다운</td><td class="num">2</td><td class="num">1,500,000</td><td class="num">3,000,000</td></tr>
+        <tr><td>사운드</td><td>음원 라이선스 · 믹싱</td><td class="num">1</td><td class="num">1,200,000</td><td class="num">1,200,000</td></tr>
+        <tr class="total"><td colspan="4">합계 (VAT 별도)</td><td class="num">25,200,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="doc-note">제출해주신 예산 비용은 참고를 위해서만 사용되며 실제 견적 비용은 별개입니다. 1천만원 미만의 소형 작업은 홈페이지 양식이 아닌 contact@reaticindustry.com으로 문의 부탁드립니다.</p>
+
+  <div class="doc-grid avoid-break">
+    <div class="doc-card"><span class="doc-eyebrow">Included</span><b>수정 1회</b><span class="doc-muted">스토리보드 단계에서 1회, 제작 단계에서 1회.</span></div>
+    <div class="doc-card"><span class="doc-eyebrow">Backup</span><b>1년 A/S</b><span class="doc-muted">모든 프로젝트 파일을 클라우드에 백업하고 이중 보안을 적용합니다.</span></div>
+    <div class="doc-card doc-card--dark"><span class="doc-eyebrow">Contract</span><b>클라이언트 양식 가능</b><span class="doc-muted">계약 시 의뢰처가 원할 경우 클라이언트 측 계약 양식을 사용합니다.</span></div>
+  </div>
+
+  <!-- ======= 검정 띠 (구분 페이지) ======= -->
+  <section class="doc-strip page-break">
+    <p class="doc-eyebrow">Section</p>
+    <h2 style="font-size:var(--doc-size-h1)">언제나 영상미를 최우선으로.</h2>
+    <p class="doc-muted" style="margin-top:12px;max-width:var(--doc-measure)">현실적이고 디테일한 렌더기술과 실제로는 불가능한 구도의 연출이 더해질 때 <b>모션그래픽의 진정한 장점</b>이 드러납니다. 이 띠는 장(章)이 바뀌는 자리에 한 번만 씁니다.</p>
+  </section>
+
+  <!-- ======= 4. 패턴 카탈로그 ======= -->
+  <h1 class="doc-h1">4. 패턴 카탈로그</h1>
+  <p class="doc-body doc-muted">위에서 쓰인 블록을 포함해 이 파일이 제공하는 모든 패턴입니다. 클래스 이름은 전부 <b>doc-</b> 접두사를 씁니다.</p>
+
+  <h2 class="doc-h2">4.1 타이포그래피</h2>
+  <div class="doc-table-wrap">
+    <table class="doc-table doc-table--plain">
+      <thead><tr><th>클래스</th><th>크기</th><th>예시</th></tr></thead>
+      <tbody>
+        <tr><td><code>.doc-cover h1</code></td><td>44px / 1.25</td><td style="font-size:22px;font-weight:700;line-height:1.25">무에서 유를 창조하는 제안서.</td></tr>
+        <tr><td><code>.doc-h1</code></td><td>28px / 1.4 · 상단 2px 검정선</td><td style="font-size:20px;font-weight:700">1. 개요</td></tr>
+        <tr><td><code>.doc-h2</code></td><td>20px / 1.4</td><td style="font-size:16px;font-weight:700">2.1 작업 범위</td></tr>
+        <tr><td><code>.doc-h3</code></td><td>15px / 1.4</td><td style="font-size:14px;font-weight:700">세부 항목</td></tr>
+        <tr><td><code>.doc-eyebrow</code></td><td>10px · Work Sans 600 · 자간 .18em · 대문자</td><td><span class="doc-eyebrow">Proposal · 2026-09</span></td></tr>
+        <tr><td><code>.doc-lead</code></td><td>16px / 1.6 · 회색 + 검정 볼드</td><td class="doc-lead" style="font-size:13px">필요한 효과와 기술만 <b>간결하게</b>.</td></tr>
+        <tr><td><code>.doc-body</code></td><td>11.5pt / 1.7 · 최대 38em</td><td>본문 단락. 약 65자 폭에서 줄바꿈됩니다.</td></tr>
+        <tr><td><code>.doc-muted</code></td><td>회색 #8a8a8a · <b>b</b>는 검정</td><td class="doc-muted">회색 문장 속 <b>검정 강조</b>가 시그니처.</td></tr>
+        <tr><td><code>.doc-fine</code> / <code>.doc-note</code></td><td>8.5pt · Light 300</td><td class="doc-fine">※ 각주와 법적 고지.</td></tr>
+        <tr><td><code>.doc-number</code></td><td>56px · Work Sans 600 · 탭 숫자</td><td><span class="doc-number" style="font-size:28px">25,200,000</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="doc-h2">4.2 색</h2>
+  <div class="doc-grid" style="grid-template-columns:repeat(auto-fit,minmax(90px,1fr))">
+    <div class="doc-card" style="background:#000;color:#f3f3f3"><span class="doc-eyebrow" style="color:#8a8a8a">Ink · Strip</span><b>#000000</b></div>
+    <div class="doc-card" style="background:#414141;color:#f3f3f3"><span class="doc-eyebrow" style="color:#c7c7c7">Ink 2</span><b>#414141</b></div>
+    <div class="doc-card" style="background:#8a8a8a;color:#fff"><span class="doc-eyebrow" style="color:#f3f3f3">Muted</span><b>#8a8a8a</b></div>
+    <div class="doc-card" style="background:#c7c7c7"><span class="doc-eyebrow">Hint</span><b>#c7c7c7</b></div>
+    <div class="doc-card" style="background:#e3e3e3"><span class="doc-eyebrow">Line</span><b>#e3e3e3</b></div>
+    <div class="doc-card"><span class="doc-eyebrow">Surface</span><b>#f3f3f3</b></div>
+    <div class="doc-card" style="background:#eea302"><span class="doc-eyebrow" style="color:#593e03">Accent · 1×</span><b>#eea302</b></div>
+    <div class="doc-card" style="background:#e03939;color:#fff"><span class="doc-eyebrow" style="color:#ffd0d0">Danger</span><b>#e03939</b></div>
+  </div>
+
+  <h2 class="doc-h2">4.3 콜아웃</h2>
+  <div class="doc-callout"><span class="doc-eyebrow">Note</span><br>기본 콜아웃. 왼쪽 2px 검정선. 본문 보조 설명에 씁니다.</div>
+  <div class="doc-callout doc-callout--accent" style="margin-top:12px"><span class="doc-eyebrow">Decision</span><br>결론·결정 사항. 문서에서 앰버를 여기에 썼다면 다른 곳엔 쓰지 않습니다.</div>
+  <div class="doc-callout doc-callout--danger" style="margin-top:12px"><span class="doc-eyebrow">Risk</span><br>리스크·주의. 빨강은 경고에만.</div>
+
+  <h2 class="doc-h2">4.4 라벨 · 버튼 · 서명</h2>
+  <p><span class="doc-tag">Draft</span> <span class="doc-tag doc-tag--fill">Approved</span> <span class="doc-tag doc-tag--accent">Action</span></p>
+  <p style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap"><a class="doc-button" href="mailto:contact@reaticindustry.com">이메일로 의뢰 <span aria-hidden="true">→</span></a><a class="doc-button doc-button--dark" href="https://www.reaticindustry.com/contact">홈페이지로 의뢰</a></p>
+  <p class="doc-note">버튼은 링크용입니다. 인쇄물에서는 URL을 각주로 함께 적으세요.</p>
+
+  <div class="doc-sign avoid-break">
+    <div><b>리틱인더스트리</b>담당자 서명 · 2026-09-13</div>
+    <div class="accent"><b>클라이언트</b>담당자 서명 · 날짜</div>
+  </div>
+
+  <h2 class="doc-h2">4.5 코드 · 인용</h2>
+  <pre><code>&lt;section class="doc-strip"&gt;
+  &lt;p class="doc-eyebrow"&gt;Section&lt;/p&gt;
+  &lt;h2&gt;언제나 영상미를 최우선으로.&lt;/h2&gt;
+&lt;/section&gt;</code></pre>
+
+  <h2 class="doc-h2">4.6 규칙 요약</h2>
+  <ul class="doc-list">
+    <li>바탕은 흰색, 강조 면은 <b>#f3f3f3</b>, 구분 페이지·표지는 검정. 검정 위 글자는 순백이 아닌 <b>#f3f3f3</b>.</li>
+    <li>본문은 회색으로 깔고 <b>핵심 구절만 검정 볼드</b>. 한 문단에 강조는 세 곳 이하.</li>
+    <li>앰버 <b>#eea302</b>는 문서 전체에서 한 곳. 빨강은 리스크에만.</li>
+    <li>행간 1.4(제목) · 1.7(본문). 장 제목 위에는 2px 검정선 하나, 그 외 괘선은 1px <b>#e3e3e3</b>.</li>
+    <li>숫자는 Work Sans 탭 숫자. 표의 숫자 열은 오른쪽 정렬.</li>
+    <li>여백을 아끼지 않습니다. 장 사이 64px, 절 사이 48px. 한 페이지에 한 메시지.</li>
+  </ul>
+
+  <footer class="doc-footer">
+    <span>Designed by Reatic Industry</span>
+    <span>All rights are reserved</span>
+  </footer>
+</article>
+
+</body>
+</html>

@@ -7,6 +7,23 @@
 + /lusion_design/screenshots/
 + /lusion_design/screenshots/home-ready.png
 - /lusion_design/screenshots/**
++ /reatic_design/evidence/
++ /reatic_design/evidence/source-index.json
++ /reatic_design/evidence/completeness.json
++ /reatic_design/evidence/verification.json
+- /reatic_design/evidence/**
++ /stripe_design/captures/
++ /stripe_design/captures/clips/
++ /stripe_design/captures/clips/**
++ /stripe_design/captures/components/
++ /stripe_design/captures/components/**
++ /stripe_design/captures/interactions/
++ /stripe_design/captures/interactions/**
++ /stripe_design/captures/boxes/
++ /stripe_design/captures/boxes/**
++ /stripe_design/captures/pages/
++ /stripe_design/captures/pages/*-fold.png
+- /stripe_design/captures/**
 # --- 어디서나 제외 --- (숨김 디렉터리는 전부: .git .omx .omc .openai .vercel .claude .gstack .tmp …)
 - .*/
 - .git/
@@ -39,7 +56,7 @@
 - /wanted_design/assets/montage/source/*.tar.gz
 - /toss_design/dist/toss-source-kit.zip
 # --- 허브에 등록되지 않은 루트 폴더·파일 ---
-- /stripe_design/
+- /reatic-design/
 - /logo/
 - /design/
 - /*.zip
@@ -50,6 +67,8 @@
 - /apple_design/app/dist/client/research/inline/
 - /apple_design/app/dist/client/research/pages/
 - /apple_design/app/dist/client/research/motion-replay.json
+- /apple_design/app/dist/client/research/runtime-sources/
+- /apple_design/app/dist/client/research/runtime-dom/
 - /apple_design/app/dist/server/
 # --- Toss: 스니펫 원본 196MB ---
 - /toss_design/dist/snippets/
@@ -74,3 +93,7 @@
 - /Ark-pdf/downloads/ark-design-system.zip
 - /Ark-pdf/downloads/ark-source-archive.zip
 - /Ark-pdf/source/images/
+# --- Reatic: 원본 증거 HTML/스크린샷, 라이선스 폰트 원본 제외 ---
+- /reatic_design/app/public/source/fonts/
+# --- Stripe: 원본 캡처 데이터(문서 예시 API 키 포함, 뷰어 미사용) ---
+- /stripe_design/data/raw/

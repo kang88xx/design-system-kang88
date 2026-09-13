@@ -1,0 +1,1 @@
+.FallingCard{width:100%;position:absolute;left:0;transform-origin:bottom center;font-size:var(--brandedInvoiceBaseSize)}.FallingCard:not(.FallingCard--isSized){height:100%}.FallingCardsAnimation--directionDown .FallingCard{top:0}.FallingCardsAnimation--directionUp .FallingCard{bottom:0}.FallingCard--isSized .Card{position:absolute;top:0;left:0;width:100%;height:100%}

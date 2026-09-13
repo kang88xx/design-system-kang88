@@ -1,0 +1,36 @@
+{
+  "generated": "2026-09-13T09:17:41.313Z",
+  "files": 287,
+  "bytes": 108384661,
+  "byGroup": {
+    "source-html": 5,
+    "source-data": 3,
+    "source-screenshots": 67,
+    "source-images": 74,
+    "source-fonts": 55,
+    "media-videos": 7,
+    "assets": 47,
+    "system": 7,
+    "studio": 3,
+    "reconstruction": 4,
+    "templates": 1,
+    "docs": 6,
+    "scripts": 8
+  },
+  "referenced": {
+    "images": 74,
+    "videos": 7,
+    "fontFaces": 55,
+    "youtube": 5
+  },
+  "missing": {
+    "paths": [],
+    "images": [],
+    "videos": []
+  },
+  "notes": [
+    "Videos are stored at 720p; 1080p/480p/360p renditions exist on the origin but were not copied.",
+    "YouTube portfolio links are external references, not archived media.",
+    "Wix runtime bundles (parastorage) are not archived; the saved HTML contains inline theme CSS and the component markup."
+  ]
+}

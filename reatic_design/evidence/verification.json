@@ -1,0 +1,375 @@
+{
+  "generated": "2026-09-13T13:10:18.716Z",
+  "checks": [
+    "Studio heading",
+    "Token copy",
+    "Token export",
+    "Dark theme toggle",
+    "No overflow overview at 1440",
+    "No overflow identity at 1440",
+    "No overflow colors at 1440",
+    "No overflow typography at 1440",
+    "No overflow layout at 1440",
+    "No overflow components at 1440",
+    "No overflow motion at 1440",
+    "No overflow document at 1440",
+    "No overflow sources at 1440",
+    "No overflow overview at 768",
+    "No overflow identity at 768",
+    "No overflow colors at 768",
+    "No overflow typography at 768",
+    "No overflow layout at 768",
+    "No overflow components at 768",
+    "No overflow motion at 768",
+    "No overflow document at 768",
+    "No overflow sources at 768",
+    "No overflow overview at 390",
+    "No overflow identity at 390",
+    "No overflow colors at 390",
+    "No overflow typography at 390",
+    "No overflow layout at 390",
+    "No overflow components at 390",
+    "No overflow motion at 390",
+    "No overflow document at 390",
+    "No overflow sources at 390",
+    "No overflow overview at 320",
+    "No overflow identity at 320",
+    "No overflow colors at 320",
+    "No overflow typography at 320",
+    "No overflow layout at 320",
+    "No overflow components at 320",
+    "No overflow motion at 320",
+    "No overflow document at 320",
+    "No overflow sources at 320",
+    "Motion replay runs",
+    "Reduced motion preview",
+    "CTA hover turns light",
+    "Nav selected is #ff4040",
+    "Underline field focus line",
+    "Disabled button state",
+    "Loading button state",
+    "Reconstruction home no overflow 1440",
+    "Reconstruction home no broken images",
+    "Reconstruction home videos ready",
+    "Reconstruction home entrances ran",
+    "Reconstruction home no overflow 390",
+    "Reconstruction about no overflow 1440",
+    "Reconstruction about no broken images",
+    "Reconstruction about entrances ran",
+    "Reconstruction about no overflow 390",
+    "Reconstruction portfolio no overflow 1440",
+    "Reconstruction portfolio no broken images",
+    "Reconstruction portfolio entrances ran",
+    "Reconstruction portfolio no overflow 390",
+    "Reconstruction contact no overflow 1440",
+    "Reconstruction contact no broken images",
+    "Reconstruction contact videos ready",
+    "Reconstruction contact entrances ran",
+    "Reconstruction contact no overflow 390",
+    "Contact validation blocks empty submit",
+    "Contact submit success state",
+    "Document template renders",
+    "Document template no overflow 1440",
+    "Document template print stylesheet hides chrome",
+    "Document template no overflow 390",
+    "No page errors",
+    "No missing local resources"
+  ],
+  "results": [
+    {
+      "name": "Studio heading",
+      "ok": true
+    },
+    {
+      "name": "Token copy",
+      "ok": true
+    },
+    {
+      "name": "Token export",
+      "ok": true
+    },
+    {
+      "name": "Dark theme toggle",
+      "ok": true
+    },
+    {
+      "name": "No overflow overview at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow identity at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow colors at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow typography at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow layout at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow components at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow motion at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow document at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow sources at 1440",
+      "ok": true
+    },
+    {
+      "name": "No overflow overview at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow identity at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow colors at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow typography at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow layout at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow components at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow motion at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow document at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow sources at 768",
+      "ok": true
+    },
+    {
+      "name": "No overflow overview at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow identity at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow colors at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow typography at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow layout at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow components at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow motion at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow document at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow sources at 390",
+      "ok": true
+    },
+    {
+      "name": "No overflow overview at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow identity at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow colors at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow typography at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow layout at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow components at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow motion at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow document at 320",
+      "ok": true
+    },
+    {
+      "name": "No overflow sources at 320",
+      "ok": true
+    },
+    {
+      "name": "Motion replay runs",
+      "ok": true
+    },
+    {
+      "name": "Reduced motion preview",
+      "ok": true
+    },
+    {
+      "name": "CTA hover turns light",
+      "ok": true
+    },
+    {
+      "name": "Nav selected is #ff4040",
+      "ok": true
+    },
+    {
+      "name": "Underline field focus line",
+      "ok": true
+    },
+    {
+      "name": "Disabled button state",
+      "ok": true
+    },
+    {
+      "name": "Loading button state",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction home no overflow 1440",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction home no broken images",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction home videos ready",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction home entrances ran",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction home no overflow 390",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction about no overflow 1440",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction about no broken images",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction about entrances ran",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction about no overflow 390",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction portfolio no overflow 1440",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction portfolio no broken images",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction portfolio entrances ran",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction portfolio no overflow 390",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction contact no overflow 1440",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction contact no broken images",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction contact videos ready",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction contact entrances ran",
+      "ok": true
+    },
+    {
+      "name": "Reconstruction contact no overflow 390",
+      "ok": true
+    },
+    {
+      "name": "Contact validation blocks empty submit",
+      "ok": true
+    },
+    {
+      "name": "Contact submit success state",
+      "ok": true
+    },
+    {
+      "name": "Document template renders",
+      "ok": true
+    },
+    {
+      "name": "Document template no overflow 1440",
+      "ok": true
+    },
+    {
+      "name": "Document template print stylesheet hides chrome",
+      "ok": true
+    },
+    {
+      "name": "Document template no overflow 390",
+      "ok": true
+    },
+    {
+      "name": "No page errors",
+      "ok": true
+    },
+    {
+      "name": "No missing local resources",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "passed": true
+}
