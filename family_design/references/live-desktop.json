@@ -1,0 +1,3427 @@
+{
+  "meta": {
+    "url": "https://family.co/",
+    "title": "Family",
+    "viewport": {
+      "w": 1440,
+      "h": 1000
+    },
+    "body": {
+      "color": "rgb(71, 70, 69)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\""
+    },
+    "elements": [
+      {
+        "tag": "HTML",
+        "cls": "",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 11367
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Times New Roman\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "BODY",
+        "cls": "",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 11367
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 11367
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "_app__Wrapper-sc-6lqo0o-1 dPkkOz",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 11367
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 95
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "sticky"
+      },
+      {
+        "tag": "DIV",
+        "cls": "InnerContainer__Container-sc-oy047e-0 hKlZHw",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 184,
+          "y": 0,
+          "w": 1072,
+          "h": 94
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "HEADER",
+        "cls": "",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 208,
+          "y": 0,
+          "w": 1024,
+          "h": 94
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Topbar__Content-sc-gsec0x-0 blZVGu",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 208,
+          "y": 0,
+          "w": 1024,
+          "h": 94
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Topbar__LogoAnchor-sc-gsec0x-1 bBWjGI",
+        "text": "",
+        "rect": {
+          "x": 208,
+          "y": 30,
+          "w": 72,
+          "h": 34
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "",
+        "rect": {
+          "x": 196,
+          "y": 30,
+          "w": 96,
+          "h": 34
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Logo__Container-sc-brvax7-0 iHjrEA",
+        "text": "",
+        "rect": {
+          "x": 208,
+          "y": 38,
+          "w": 72,
+          "h": 18
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 208,
+          "y": 38,
+          "w": 72,
+          "h": 18
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "g",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 208,
+          "y": 38,
+          "w": 16,
+          "h": 16
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 208,
+          "y": 38,
+          "w": 16,
+          "h": 16
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "g",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 230,
+          "y": 39,
+          "w": 50,
+          "h": 16
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 230,
+          "y": 41,
+          "w": 8,
+          "h": 12
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 238,
+          "y": 43,
+          "w": 9,
+          "h": 9
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 249,
+          "y": 43,
+          "w": 14,
+          "h": 9
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 264,
+          "y": 39,
+          "w": 3,
+          "h": 3
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 264,
+          "y": 43,
+          "w": 2,
+          "h": 9
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 268,
+          "y": 41,
+          "w": 3,
+          "h": 12
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 271,
+          "y": 43,
+          "w": 9,
+          "h": 12
+        },
+        "color": "rgb(38, 38, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "NAV",
+        "cls": "Nav__NavContainer-sc-141m4ur-5 cgvYDO",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 316,
+          "y": 31,
+          "w": 916,
+          "h": 33
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__NavMenu-sc-141m4ur-11 gAvZOD",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 316,
+          "y": 31,
+          "w": 916,
+          "h": 33
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "UL",
+        "cls": "Nav__PageMenu-sc-141m4ur-10 clDwSL",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.\n\nResources \nBlog\nChan",
+        "rect": {
+          "x": 316,
+          "y": 31,
+          "w": 337,
+          "h": 33
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "Developers \nConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 316,
+          "y": 31,
+          "w": 119,
+          "h": 33
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Developers",
+        "rect": {
+          "x": 316,
+          "y": 31,
+          "w": 119,
+          "h": 33
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "background 0.2s, color 0.2s",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 415,
+          "y": 42,
+          "w": 10,
+          "h": 10
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 417,
+          "y": 46,
+          "w": 7,
+          "h": 4
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__DropdownContainer-sc-141m4ur-3 jmGeWm",
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 318,
+          "y": 68,
+          "w": 303,
+          "h": 130
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "8px",
+        "shadow": "rgba(0, 0, 0, 0.1) 0px 3px 16px 0px",
+        "opacity": "0",
+        "transform": "matrix3d(0.96, 0, 0, 0, 0, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)",
+        "transition": "opacity 0.1s, transform 0.1s",
+        "animation": "none",
+        "position": "absolute"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__DropdownContent-sc-141m4ur-4 kZbwzk",
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 322,
+          "y": 72,
+          "w": 296,
+          "h": 122
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "8px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "UL",
+        "cls": "",
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.\n\nFamily\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 322,
+          "y": 72,
+          "w": 296,
+          "h": 122
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.",
+        "rect": {
+          "x": 322,
+          "y": 72,
+          "w": 296,
+          "h": 61
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.",
+        "rect": {
+          "x": 322,
+          "y": 72,
+          "w": 296,
+          "h": 61
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__IconContainer-sc-141m4ur-2 jhkKsN connectKit",
+        "text": "",
+        "rect": {
+          "x": 337,
+          "y": 86,
+          "w": 35,
+          "h": 35
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "9.6px",
+        "shadow": "rgba(0, 0, 0, 0.04) 0px 0px 0px 1px",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "absolute"
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 343,
+          "y": 91,
+          "w": 22,
+          "h": 27
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 1)",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 345,
+          "y": 95,
+          "w": 17,
+          "h": 16
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "rect",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 344,
+          "y": 91,
+          "w": 7,
+          "h": 7
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 356,
+          "y": 107,
+          "w": 7,
+          "h": 7
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "sc-eIcdZJ bQoldi",
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.",
+        "rect": {
+          "x": 386,
+          "y": 82,
+          "w": 224,
+          "h": 42
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__StyledHeading-sc-141m4ur-0 fhJwEg",
+        "text": "ConnectKit",
+        "rect": {
+          "x": 386,
+          "y": 82,
+          "w": 76,
+          "h": 22
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "H5",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 hAxgce",
+        "text": "ConnectKit",
+        "rect": {
+          "x": 386,
+          "y": 83,
+          "w": 76,
+          "h": 21
+        },
+        "color": "rgb(18, 18, 18)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.13px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "P",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 idDTlz",
+        "text": "Connecting a wallet, made simple.",
+        "rect": {
+          "x": 386,
+          "y": 105,
+          "w": 212,
+          "h": 19
+        },
+        "color": "rgb(132, 130, 129)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "-0.09px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "Family\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 322,
+          "y": 134,
+          "w": 296,
+          "h": 60
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Family\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 322,
+          "y": 134,
+          "w": 296,
+          "h": 60
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__IconContainer-sc-141m4ur-2 jhkKsN API",
+        "text": "",
+        "rect": {
+          "x": 337,
+          "y": 147,
+          "w": 35,
+          "h": 35
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "9.6px",
+        "shadow": "rgba(0, 0, 0, 0.04) 0px 0px 0px 1px",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "absolute"
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 342,
+          "y": 153,
+          "w": 23,
+          "h": 23
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 350,
+          "y": 160,
+          "w": 8,
+          "h": 8
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 344,
+          "y": 154,
+          "w": 20,
+          "h": 20
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "sc-eIcdZJ bQoldi",
+        "text": "Family\n\nDedicated self-custody account.",
+        "rect": {
+          "x": 386,
+          "y": 143,
+          "w": 224,
+          "h": 41
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__StyledHeading-sc-141m4ur-0 fhJwEg",
+        "text": "Family",
+        "rect": {
+          "x": 386,
+          "y": 143,
+          "w": 45,
+          "h": 21
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "H5",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 hAxgce",
+        "text": "Family",
+        "rect": {
+          "x": 386,
+          "y": 143,
+          "w": 45,
+          "h": 21
+        },
+        "color": "rgb(18, 18, 18)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.13px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "P",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 idDTlz",
+        "text": "Dedicated self-custody account.",
+        "rect": {
+          "x": 386,
+          "y": 165,
+          "w": 204,
+          "h": 19
+        },
+        "color": "rgb(132, 130, 129)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "-0.09px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "Resources \nBlog\nChangelog\nHelp & Support\nFAQs",
+        "rect": {
+          "x": 439,
+          "y": 31,
+          "w": 113,
+          "h": 33
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Resources",
+        "rect": {
+          "x": 439,
+          "y": 31,
+          "w": 113,
+          "h": 33
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "background 0.2s, color 0.2s",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 532,
+          "y": 42,
+          "w": 10,
+          "h": 10
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 534,
+          "y": 46,
+          "w": 7,
+          "h": 4
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__DropdownContainer-sc-141m4ur-3 jmGeWm",
+        "text": "Blog\nChangelog\nHelp & Support\nFAQs",
+        "rect": {
+          "x": 438,
+          "y": 68,
+          "w": 157,
+          "h": 161
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "8px",
+        "shadow": "rgba(0, 0, 0, 0.1) 0px 3px 16px 0px",
+        "opacity": "0",
+        "transform": "matrix3d(0.96, 0, 0, 0, 0, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)",
+        "transition": "opacity 0.1s, transform 0.1s",
+        "animation": "none",
+        "position": "absolute"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__DropdownContent-sc-141m4ur-4 bInzzw",
+        "text": "Blog\nChangelog\nHelp & Support\nFAQs",
+        "rect": {
+          "x": 442,
+          "y": 72,
+          "w": 150,
+          "h": 154
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "8px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "UL",
+        "cls": "",
+        "text": "Blog\nChangelog\nHelp & Support\nFAQs",
+        "rect": {
+          "x": 442,
+          "y": 72,
+          "w": 150,
+          "h": 154
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "Blog",
+        "rect": {
+          "x": 442,
+          "y": 72,
+          "w": 150,
+          "h": 38
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Blog",
+        "rect": {
+          "x": 442,
+          "y": 72,
+          "w": 150,
+          "h": 38
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 hAxgce",
+        "text": "Blog",
+        "rect": {
+          "x": 454,
+          "y": 82,
+          "w": 30,
+          "h": 18
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.13px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "Changelog",
+        "rect": {
+          "x": 442,
+          "y": 111,
+          "w": 150,
+          "h": 38
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Changelog",
+        "rect": {
+          "x": 442,
+          "y": 111,
+          "w": 150,
+          "h": 38
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 hAxgce",
+        "text": "Changelog",
+        "rect": {
+          "x": 454,
+          "y": 120,
+          "w": 74,
+          "h": 18
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.13px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "Help & Support",
+        "rect": {
+          "x": 442,
+          "y": 149,
+          "w": 150,
+          "h": 38
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Help & Support",
+        "rect": {
+          "x": 442,
+          "y": 149,
+          "w": 150,
+          "h": 38
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 hAxgce",
+        "text": "Help & Support",
+        "rect": {
+          "x": 454,
+          "y": 159,
+          "w": 102,
+          "h": 18
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.13px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "FAQs",
+        "rect": {
+          "x": 442,
+          "y": 187,
+          "w": 150,
+          "h": 38
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "FAQs",
+        "rect": {
+          "x": 442,
+          "y": 187,
+          "w": 150,
+          "h": 38
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 hAxgce",
+        "text": "FAQs",
+        "rect": {
+          "x": 454,
+          "y": 197,
+          "w": 36,
+          "h": 18
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.13px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "text": "X (Twitter)",
+        "rect": {
+          "x": 556,
+          "y": 31,
+          "w": 97,
+          "h": 32
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "X (Twitter)",
+        "rect": {
+          "x": 556,
+          "y": 31,
+          "w": 97,
+          "h": 32
+        },
+        "color": "rgb(40, 38, 36)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "10px",
+        "letterSpacing": "normal",
+        "radius": "6px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "background 0.2s, color 0.2s",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "Nav__ActionMenu-sc-141m4ur-12 ekXEVU",
+        "text": "Log In\nGet Started",
+        "rect": {
+          "x": 1037,
+          "y": 31,
+          "w": 195,
+          "h": 32
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "login-button",
+        "text": "Log In",
+        "rect": {
+          "x": 1037,
+          "y": 31,
+          "w": 70,
+          "h": 32
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "0.2s ease-out",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "Button__Container-sc-1jjqbrw-0 hACioR",
+        "text": "Log In",
+        "rect": {
+          "x": 1037,
+          "y": 31,
+          "w": 70,
+          "h": 32
+        },
+        "color": "rgb(18, 18, 18)",
+        "background": "rgb(246, 244, 239)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "-0.09px",
+        "radius": "32px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "background-color 0.1s",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Get Started",
+        "rect": {
+          "x": 1123,
+          "y": 31,
+          "w": 109,
+          "h": 32
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "Button__Container-sc-1jjqbrw-0 fnjIlG",
+        "text": "Get Started",
+        "rect": {
+          "x": 1123,
+          "y": 31,
+          "w": 109,
+          "h": 32
+        },
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(23, 23, 23)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "lineHeight": "normal",
+        "letterSpacing": "-0.09px",
+        "radius": "32px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "background-color 0.1s",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 94,
+          "w": 1440,
+          "h": 1
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "HR",
+        "cls": "",
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 95,
+          "w": 1440,
+          "h": 1
+        },
+        "color": "rgb(128, 128, 128)",
+        "background": "rgba(0, 0, 0, 0.05)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 1)",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 0,
+          "y": 95,
+          "w": 1440,
+          "h": 11272
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 0,
+          "y": 95,
+          "w": 1440,
+          "h": 10956
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 0,
+          "y": 95,
+          "w": 1440,
+          "h": 1356
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "SectionIntro__Section-sc-1nhl813-0 hcdKOK",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 0,
+          "y": 95,
+          "w": 1440,
+          "h": 554
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "InnerContainer__Container-sc-oy047e-0 hKlZHw",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 184,
+          "y": 215,
+          "w": 1072,
+          "h": 338
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 208,
+          "y": 215,
+          "w": 1024,
+          "h": 338
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Your favorite\ncrypto wallet.\n\nExplore Ethereum with the best wallet for iOS. Interacting with crypto has never been so s",
+        "rect": {
+          "x": 208,
+          "y": 215,
+          "w": 1024,
+          "h": 338
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "H1",
+        "cls": "SectionIntro__Title-sc-1nhl813-1 geYPoR",
+        "text": "Your favorite\ncrypto wallet.",
+        "rect": {
+          "x": 208,
+          "y": 221,
+          "w": 1024,
+          "h": 166
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Family, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "68px",
+        "fontWeight": "500",
+        "lineHeight": "74.8px",
+        "letterSpacing": "-1.36px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "Your",
+        "rect": {
+          "x": 521,
+          "y": 221,
+          "w": 145,
+          "h": 75
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Family, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "68px",
+        "fontWeight": "500",
+        "lineHeight": "74.8px",
+        "letterSpacing": "-1.36px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "favorite",
+        "rect": {
+          "x": 680,
+          "y": 221,
+          "w": 239,
+          "h": 75
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Family, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "68px",
+        "fontWeight": "500",
+        "lineHeight": "74.8px",
+        "letterSpacing": "-1.36px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "crypto",
+        "rect": {
+          "x": 507,
+          "y": 296,
+          "w": 209,
+          "h": 75
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Family, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "68px",
+        "fontWeight": "500",
+        "lineHeight": "74.8px",
+        "letterSpacing": "-1.36px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "wallet.",
+        "rect": {
+          "x": 730,
+          "y": 296,
+          "w": 203,
+          "h": 75
+        },
+        "color": "color(display-p3 0.203922 0.203922 0.2)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Family, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "68px",
+        "fontWeight": "500",
+        "lineHeight": "74.8px",
+        "letterSpacing": "-1.36px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "text": "Explore Ethereum with the best wallet for iOS. Interacting with crypto has never been so simple.",
+        "rect": {
+          "x": 500,
+          "y": 393,
+          "w": 440,
+          "h": 52
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "P",
+        "cls": "Typography__Paragraph-sc-p3xo6h-7 gWkJEG",
+        "text": "Explore Ethereum with the best wallet for iOS. Interacting with crypto has never been so simple.",
+        "rect": {
+          "x": 516,
+          "y": 393,
+          "w": 408,
+          "h": 52
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "-0.22px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "cls": "SectionIntro__ButtonContainer-sc-1nhl813-3 OJwrO",
+        "text": "Download on iOS\nWatch the Video",
+        "rect": {
+          "x": 208,
+          "y": 451,
+          "w": 1024,
+          "h": 64
+        },
+        "color": "rgb(71, 70, 69)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "A",
+        "cls": "SectionIntro__Button-sc-1nhl813-4 dQyCQZ",
+        "text": "Download on iOS",
+        "rect": {
+          "x": 507,
+          "y": 467,
+          "w": 210,
+          "h": 48
+        },
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(23, 23, 23)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "lineHeight": "17px",
+        "letterSpacing": "-0.22px",
+        "radius": "32px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "background-color 0.1s",
+        "animation": "none",
+        "position": "relative"
+      },
+      {
+        "tag": "svg",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 529,
+          "y": 480,
+          "w": 16,
+          "h": 20
+        },
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "lineHeight": "17px",
+        "letterSpacing": "-0.22px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -1)",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 529,
+          "y": 484,
+          "w": 16,
+          "h": 15
+        },
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "lineHeight": "17px",
+        "letterSpacing": "-0.22px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      },
+      {
+        "tag": "path",
+        "cls": "[object SVGAnimatedString]",
+        "text": "",
+        "rect": {
+          "x": 537,
+          "y": 480,
+          "w": 4,
+          "h": 5
+        },
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "lineHeight": "17px",
+        "letterSpacing": "-0.22px",
+        "radius": "0px",
+        "shadow": "none",
+        "opacity": "1",
+        "transform": "none",
+        "transition": "all",
+        "animation": "none",
+        "position": "static"
+      }
+    ],
+    "counts": {
+      "color": {
+        "rgb(71, 70, 69)": 1735,
+        "rgb(38, 38, 38)": 12,
+        "rgb(40, 38, 36)": 7,
+        "color(display-p3 0.203922 0.203922 0.2)": 156,
+        "rgb(18, 18, 18)": 40,
+        "rgb(132, 130, 129)": 2,
+        "rgb(255, 255, 255)": 5,
+        "rgb(128, 128, 128)": 9,
+        "rgba(71, 70, 69, 0.7)": 5,
+        "rgb(0, 0, 0)": 114,
+        "color(display-p3 0.00392157 0.552941 1)": 18,
+        "color(display-p3 0.203922 0.780392 0.34902)": 35,
+        "color(display-p3 0.454902 0.454902 0.517647)": 18,
+        "color(display-p3 0.215686 0.517647 0.956863)": 35,
+        "color(display-p3 0.792157 0.572549 0.188235)": 51,
+        "color(display-p3 0.286275 0.266667 0.25098)": 45,
+        "color(display-p3 0.266667 0.776471 0.498039)": 14,
+        "color(display-p3 1 0.32549 0.0627451)": 45,
+        "color(display-p3 1 0.745098 0.298039)": 21,
+        "color(display-p3 0.517647 0.509804 0.505882)": 39,
+        "rgb(26, 136, 248)": 3,
+        "rgba(112, 112, 112, 0.4)": 32,
+        "rgba(34, 34, 34, 0.4)": 22,
+        "rgb(228, 228, 228)": 7
+      },
+      "backgroundColor": {
+        "rgb(255, 255, 255)": 10,
+        "rgba(0, 0, 0, 0)": 2355,
+        "rgb(246, 244, 239)": 2,
+        "rgb(23, 23, 23)": 2,
+        "rgba(0, 0, 0, 0.05)": 1,
+        "color(display-p3 0.984314 0.980392 0.976471)": 20,
+        "rgb(0, 0, 0)": 1,
+        "color(display-p3 0.584314 0.32549 0.976471)": 3,
+        "color(display-p3 0.203922 0.780392 0.34902)": 4,
+        "color(display-p3 0.00392157 0.552941 1)": 9,
+        "color(display-p3 0.937255 0.266667 0.266667)": 3,
+        "color(display-p3 1 0.745098 0.298039)": 4,
+        "rgb(249, 115, 22)": 3,
+        "color(display-p3 0.976471 0.4 0.67451)": 3,
+        "color(display-p3 0.94902 0.941176 0.929412)": 11,
+        "color(display-p3 1 0.32549 0.0627451)": 7,
+        "rgb(251, 250, 249)": 2,
+        "color(display-p3 1 1 1)": 30
+      },
+      "fontFamily": {
+        "\"Times New Roman\"": 1,
+        "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"": 2391,
+        "Family, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"": 23,
+        "\"LFE Sans\"": 55
+      },
+      "fontSize": {
+        "16px": 2001,
+        "15px": 96,
+        "14px": 56,
+        "68px": 5,
+        "17px": 87,
+        "44px": 129,
+        "19px": 21,
+        "12px": 3,
+        "13px": 19,
+        "13.3333px": 45,
+        "23px": 2,
+        "20px": 6
+      },
+      "borderRadius": {
+        "0px": 2306,
+        "6px": 10,
+        "8px": 7,
+        "9.6px": 2,
+        "32px": 4,
+        "12px": 25,
+        "24px 0px 0px 24px": 1,
+        "50%": 6,
+        "72px": 27,
+        "7.5%": 9,
+        "4px": 6,
+        "17px": 1,
+        "10px": 30,
+        "40px": 30,
+        "2px": 6
+      },
+      "boxShadow": {
+        "none": 2429,
+        "rgba(0, 0, 0, 0.1) 0px 3px 16px 0px": 2,
+        "rgba(0, 0, 0, 0.04) 0px 0px 0px 1px": 2,
+        "rgba(0, 0, 0, 0.15) 0px 0px 24px 0px": 1,
+        "color(display-p3 0.94902 0.941176 0.929412) 0px 0px 0px 0px inset": 3,
+        "rgba(0, 0, 0, 0.04) 0px 1px 6px 0px, rgba(0, 0, 0, 0.05) 0px 0px 24px 0px": 1,
+        "rgba(0, 0, 0, 0.8) 0px 0px 6px 0px, rgba(0, 0, 0, 0.8) 0px 0px 6px 0px inset": 2,
+        "color(display-p3 0.94902 0.941176 0.929412) 0px 0px 0px 1px inset": 30
+      },
+      "transition": {
+        "all": 2074,
+        "0.2s ease-out": 120,
+        "background 0.2s, color 0.2s": 3,
+        "opacity 0.1s, transform 0.1s": 2,
+        "background-color 0.1s": 4,
+        "opacity 0.2s": 69,
+        "fill 0.1s": 8,
+        "transform 1s cubic-bezier(0.19, 1, 0.22, 1)": 56,
+        "opacity 0.1s ease-in-out": 44,
+        "transform 0.22s cubic-bezier(0.19, 1, 0.22, 1)": 42,
+        "box-shadow 0.1s": 3,
+        "transform 0.18s": 2,
+        "fill 0.4s": 7,
+        "background 0.1s, transform 0.1s": 3,
+        "box-shadow 0.1s, background 0.1s": 30,
+        "color 0.14s": 3
+      },
+      "animation": {
+        "none": 2468,
+        "120s linear infinite hdKGda": 1,
+        "120s linear infinite reverse hdKGda": 1
+      }
+    },
+    "links": [
+      {
+        "text": "",
+        "href": "https://family.co/"
+      },
+      {
+        "text": "Developers",
+        "href": "https://family.co/docs"
+      },
+      {
+        "text": "ConnectKit\n\nConnecting a wallet, made simple.",
+        "href": "https://family.co/docs/connectkit"
+      },
+      {
+        "text": "Family\n\nDedicated self-custody account.",
+        "href": "https://family.co/docs/family-account"
+      },
+      {
+        "text": "Resources",
+        "href": "https://family.co/blog"
+      },
+      {
+        "text": "Blog",
+        "href": "https://family.co/blog"
+      },
+      {
+        "text": "Changelog",
+        "href": "https://family.co/changelog"
+      },
+      {
+        "text": "Help & Support",
+        "href": "https://family.co/support"
+      },
+      {
+        "text": "FAQs",
+        "href": "https://family.co/faqs"
+      },
+      {
+        "text": "X (Twitter)",
+        "href": "https://twitter.com/family"
+      },
+      {
+        "text": "Log In",
+        "href": "https://app.family.co/"
+      },
+      {
+        "text": "Download on iOS",
+        "href": "https://family.co/download"
+      },
+      {
+        "text": "Watch the Video",
+        "href": ""
+      },
+      {
+        "text": "Published 13 May, 2025\n\nThe Crypto Wallet Problem – Why We Created Family Accounts\n\nTraditional wallets rely on seed phrases and private keys, but this approach has fundamental flaws. Losing access to your bank account because you misplaced a single piece of information would be unthinkable—yet in crypto, this remains a common reality. Most users struggle with managing seed phrases and private keys, often resorting to insecure storage methods like screenshots or digital notes.",
+        "href": "https://family.co/blog/why-family-accounts"
+      },
+      {
+        "text": "Published 2 April, 2025\n\nMaking Family Simpler & Safer\n\nWe're thrilled to announce a major upgrade to Family—designed to make onboarding and navigating Ethereum simpler and safer than ever. Born from our own need for seamless yet secure crypto experiences, these features offer the easiest path to getting onchain.",
+        "href": "https://family.co/blog/family-accounts"
+      },
+      {
+        "text": "Follow Family",
+        "href": "https://twitter.com/family"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/floguo/status/1645597339955118080"
+      },
+      {
+        "text": "floguo",
+        "href": "https://twitter.com/floguo/status/1645597339955118080"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/floguo/status/1645597339955118080"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/mrdanielfeo/status/1646371918965260289"
+      },
+      {
+        "text": "Daniel Feodoroff",
+        "href": "https://twitter.com/mrdanielfeo/status/1646371918965260289"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/mrdanielfeo/status/1646371918965260289"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/web3emm/status/1650912133402722310"
+      },
+      {
+        "text": "emm",
+        "href": "https://twitter.com/web3emm/status/1650912133402722310"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/web3emm/status/1650912133402722310"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/Skytrackr/status/1656698593703776256"
+      },
+      {
+        "text": "skytracker.lens(🌸, 🌿)",
+        "href": "https://twitter.com/Skytrackr/status/1656698593703776256"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/Skytrackr/status/1656698593703776256"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/dappdesigner/status/1651952932848295937"
+      },
+      {
+        "text": "Ilya Komolkin",
+        "href": "https://twitter.com/dappdesigner/status/1651952932848295937"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/dappdesigner/status/1651952932848295937"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/m1guelpf/status/1644490929430986753"
+      },
+      {
+        "text": "miguel piedrafita",
+        "href": "https://twitter.com/m1guelpf/status/1644490929430986753"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/m1guelpf/status/1644490929430986753"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/shivnull/status/1650977326111358977"
+      },
+      {
+        "text": "Shiv",
+        "href": "https://twitter.com/shivnull/status/1650977326111358977"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/shivnull/status/1650977326111358977"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/floguo/status/1645597339955118080"
+      },
+      {
+        "text": "floguo",
+        "href": "https://twitter.com/floguo/status/1645597339955118080"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/floguo/status/1645597339955118080"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/mrdanielfeo/status/1646371918965260289"
+      },
+      {
+        "text": "Daniel Feodoroff",
+        "href": "https://twitter.com/mrdanielfeo/status/1646371918965260289"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/mrdanielfeo/status/1646371918965260289"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/web3emm/status/1650912133402722310"
+      },
+      {
+        "text": "emm",
+        "href": "https://twitter.com/web3emm/status/1650912133402722310"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/web3emm/status/1650912133402722310"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/Skytrackr/status/1656698593703776256"
+      },
+      {
+        "text": "skytracker.lens(🌸, 🌿)",
+        "href": "https://twitter.com/Skytrackr/status/1656698593703776256"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/Skytrackr/status/1656698593703776256"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/dappdesigner/status/1651952932848295937"
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://family.co/videos/send.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/receive.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/swap.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/nft.mp4",
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/watch.mp4",
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/activity.mp4",
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/onboarding.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/missioncontrol.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "src": "https://family.co/videos/dragdropdone.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "controls": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://family.co/assets/home/emoji-1.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-2.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-3.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-4.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-5.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-6.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-7.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-8.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-10.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-9.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-1.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-2.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-3.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-4.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-5.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-6.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-7.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-8.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-10.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-9.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-1.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-2.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-3.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-4.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-5.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-6.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-7.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-8.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-10.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/home/emoji-9.png",
+        "alt": "",
+        "w": 176,
+        "h": 176
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/videos/promo-collectibles.png",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/videos/promo-watch.png",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/videos/promo-activity.png",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/assets/phone.png",
+        "alt": "Phone",
+        "w": 762,
+        "h": 1502
+      },
+      {
+        "src": "https://family.co/media/why-family-accounts.png",
+        "alt": "The Crypto Wallet Problem – Why We Created Family Accounts",
+        "w": 4320,
+        "h": 2280
+      },
+      {
+        "src": "https://family.co/media/family-accounts.png",
+        "alt": "Making Family Simpler & Safer",
+        "w": 2160,
+        "h": 1140
+      },
+      {
+        "src": "https://family.co/avatars/floguo.jpeg",
+        "alt": "",
+        "w": 399,
+        "h": 399
+      },
+      {
+        "src": "https://family.co/avatars/mrdanielfeo.jpeg",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://family.co/avatars/web3emm.jpeg",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://family.co/avatars/Skytrackr.jpeg",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://family.co/avatars/dappdesigner.png",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://family.co/avatars/m1guelpf.jpeg",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "url": "https://family.co/"
+  },
+  "elapsed": 4301,
+  "events": [
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "pageerror",
+      "text": "Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 503 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 ()"
+    },
+    {
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 ()"
+    }
+  ]
+}

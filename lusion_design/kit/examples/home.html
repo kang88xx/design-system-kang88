@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Studio Home — Motion System Example</title>
+    <meta name="description" content="이미지와 영상 없이 인터랙션과 모션만으로 구성한 메인 화면 예제. 키트의 토큰·컴포넌트·런타임만 사용합니다.">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="../tokens.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./home.css">
+  </head>
+  <body>
+    <div class="ds-root home" id="home" data-ds-theme="light" data-tone="blue">
+      <a class="home-skip" href="#work">본문으로 건너뛰기</a>
+
+      <div class="home-loader" id="loader" aria-hidden="true">
+        <span class="home-loader__label">Loading</span>
+        <span class="home-loader__digits"><span id="loader-percent">0</span></span>
+      </div>
+
+      <header class="home-header">
+        <a class="home-brand" href="#top" data-ds-reveal="scale" data-ds-reveal-manual aria-label="Studio, 홈으로">
+          <span class="home-brand__mark" aria-hidden="true"></span>
+          <span>Studio</span>
+        </a>
+        <div class="home-header__right" data-ds-stagger>
+          <button class="home-sound" type="button" aria-pressed="false" aria-label="사운드 켜기" data-ds-reveal="scale" data-ds-reveal-manual>
+            <span class="home-sound__wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          </button>
+          <a class="ds-talk" href="#contact" data-ds-reveal="scale" data-ds-reveal-manual data-ds-magnetic="0.14">
+            <span class="ds-talk__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            <span class="ds-talk__label">Let's talk</span>
+            <span class="ds-talk__dot" aria-hidden="true"></span>
+          </a>
+          <button class="ds-talk home-menu-btn" type="button" data-ds-panel-toggle="menu" data-ds-reveal="scale" data-ds-reveal-manual data-ds-magnetic="0.14">
+            <span class="ds-talk__label">Menu</span>
+            <span class="ds-dots" aria-hidden="true"></span>
+          </button>
+        </div>
+      </header>
+
+      <main class="home-main">
+        <section class="home-hero" id="top" aria-labelledby="hero-title">
+          <div class="home-hero__frame" data-ds-tilt="4" data-ds-tilt-dynamics="drift">
+            <div class="home-orb home-orb--a" data-ds-tilt-layer style="--ds-depth: -1.4"></div>
+            <div class="home-orb home-orb--b" data-ds-tilt-layer style="--ds-depth: -.6"></div>
+            <button class="home-object" id="hero-object" type="button" data-ds-tilt-layer style="--ds-depth: 1.6" aria-label="오브젝트 색 바꾸기" data-ds-cursor-label="Tap" data-ds-cursor-scale=".7">
+              <span class="home-object__spin" aria-hidden="true">
+                <span class="home-object__arm"></span>
+                <span class="home-object__arm"></span>
+                <span class="home-object__arm"></span>
+                <span class="home-object__arm"></span>
+                <span class="home-object__core"></span>
+              </span>
+            </button>
+            <div class="home-hero__grid" aria-hidden="true">
+              <span class="ds-cross"></span><span class="ds-cross"></span><span class="ds-cross"></span><span class="ds-cross"></span>
+            </div>
+          </div>
+
+          <div class="home-hero__copy">
+            <p class="ds-eyebrow home-hero__eyebrow" data-ds-reveal="fade" data-ds-reveal-manual>Creative studio · Motion · Real-time 3D</p>
+            <h1 class="home-hero__title" id="hero-title" data-ds-split="words" data-ds-reveal-manual>We build immersive digital experiences that move people.</h1>
+            <p class="home-hero__lead" data-ds-reveal data-ds-reveal-manual>브랜드·제품·전시를 위한 실시간 3D와 인터랙션. 이 화면은 이미지와 영상 없이 모션 시스템만으로 구성한 메인 예제입니다.</p>
+          </div>
+
+          <div class="home-hero__scroll" data-ds-reveal="fade" data-ds-reveal-manual>
+            <div class="home-hero__crosses" aria-hidden="true">
+              <span class="ds-cross"></span><span class="ds-cross"></span><span class="ds-cross"></span><span class="ds-cross"></span><span class="ds-cross"></span>
+            </div>
+            <a class="home-hero__hint" href="#reel">
+              <span class="ds-loop"><span>Scroll to explore</span></span>
+              <span class="ds-loop ds-loop--arrow" aria-hidden="true"><span>↓</span></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="home-reel ds-section" id="reel" aria-labelledby="reel-title">
+          <h2 class="home-reel__title" id="reel-title" data-ds-split="chars">Make it move.</h2>
+          <div class="home-reel__row">
+            <p class="home-reel__copy" data-ds-reveal>정적인 화면 위에 선택적으로 움직이는 장면. 내비게이션과 본문은 DOM이, 볼륨·깊이·조명은 장면 계층이 맡습니다. 여기서는 장면 대신 CSS 도형과 동역학으로 같은 리듬을 보여줍니다.</p>
+            <a class="ds-cta" href="#work" data-ds-reveal="scale" data-ds-magnetic="0.12">
+              <span class="ds-cta__dot" aria-hidden="true"></span>
+              <span class="ds-cta__label">Watch the reel</span>
+              <span class="ds-cta__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </a>
+          </div>
+          <div class="ds-mask home-reel__mask">
+          <a class="home-reel__frame" href="#work" data-ds-cursor-label="Play" data-ds-cursor-scale="1.2" data-ds-reveal="mask" aria-label="쇼릴 자리. 영상 대신 도형 루프를 재생합니다.">
+            <span class="home-reel__blob home-reel__blob--a" aria-hidden="true"></span>
+            <span class="home-reel__blob home-reel__blob--b" aria-hidden="true"></span>
+            <span class="home-reel__blob home-reel__blob--c" aria-hidden="true"></span>
+            <span class="home-reel__meta" aria-hidden="true"><span>Showreel</span><span>02:14</span></span>
+            <span class="ds-cross home-reel__cross home-reel__cross--tl" aria-hidden="true"></span>
+            <span class="ds-cross home-reel__cross home-reel__cross--br" aria-hidden="true"></span>
+          </a>
+          </div>
+        </section>
+
+        <section class="home-work ds-section" id="work" aria-labelledby="work-title">
+          <header class="home-work__head">
+            <h2 class="home-work__title" id="work-title" data-ds-split="words">Featured work</h2>
+            <span class="home-work__count" data-ds-reveal="fade">(04)</span>
+          </header>
+          <ul class="home-work__grid" data-ds-stagger>
+            <li>
+              <a class="home-card" href="#work" data-ds-reveal data-ds-cursor-label="View">
+                <span class="home-card__media ds-zoom"><span class="home-card__art home-card__art--1" aria-hidden="true"></span></span>
+                <span class="home-card__line1">Automotive · Real-time configurator</span>
+                <span class="home-card__line2 ds-swap" data-swap="Dream Machine"><span class="ds-swap__text">Dream Machine</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="home-card" href="#work" data-ds-reveal data-ds-cursor-label="View">
+                <span class="home-card__media ds-zoom"><span class="home-card__art home-card__art--2" aria-hidden="true"></span></span>
+                <span class="home-card__line1">Fintech · Data-driven particles</span>
+                <span class="home-card__line2 ds-swap" data-swap="Orbit Ledger"><span class="ds-swap__text">Orbit Ledger</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="home-card" href="#work" data-ds-reveal data-ds-cursor-label="View">
+                <span class="home-card__media ds-zoom"><span class="home-card__art home-card__art--3" aria-hidden="true"></span></span>
+                <span class="home-card__line1">Exhibition · Spatial audio</span>
+                <span class="home-card__line2 ds-swap" data-swap="Field Notes"><span class="ds-swap__text">Field Notes</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="home-card" href="#work" data-ds-reveal data-ds-cursor-label="View">
+                <span class="home-card__media ds-zoom"><span class="home-card__art home-card__art--4" aria-hidden="true"></span></span>
+                <span class="home-card__line1">Toy brand · Playable landing</span>
+                <span class="home-card__line2 ds-swap" data-swap="Choo Choo"><span class="ds-swap__text">Choo Choo</span></span>
+              </a>
+            </li>
+          </ul>
+          <div class="home-work__foot">
+            <a class="ds-cta ds-cta--dark" href="#work" data-ds-reveal="scale" data-ds-magnetic="0.12">
+              <span class="ds-cta__dot" aria-hidden="true"></span>
+              <span class="ds-cta__label">All projects</span>
+              <span class="ds-cta__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="home-contact ds-section" id="contact" aria-labelledby="contact-title">
+          <div class="home-contact__top">
+            <p class="ds-eyebrow" data-ds-reveal="fade">Have a project in mind?</p>
+            <h2 class="home-contact__title" id="contact-title" data-ds-split="words">Let's talk.</h2>
+            <a class="ds-link ds-link--slow home-contact__mail" href="mailto:hello@studio.example" data-ds-reveal="fade">hello@studio.example</a>
+          </div>
+          <div class="home-contact__grid" data-ds-stagger>
+            <div class="home-contact__col" data-ds-reveal>
+              <span class="ds-eyebrow">Social</span>
+              <a class="ds-swap" href="#contact" data-swap="Instagram"><span class="ds-swap__text">Instagram</span></a>
+              <a class="ds-swap" href="#contact" data-swap="LinkedIn"><span class="ds-swap__text">LinkedIn</span></a>
+              <a class="ds-swap" href="#contact" data-swap="X / Twitter"><span class="ds-swap__text">X / Twitter</span></a>
+            </div>
+            <div class="home-contact__col" data-ds-reveal>
+              <span class="ds-eyebrow">Studio</span>
+              <a class="ds-link" href="#reel">About us</a>
+              <a class="ds-link" href="#contact">Careers</a>
+              <a class="ds-link ds-link--slow" href="#contact">Labs ↗</a>
+            </div>
+            <form class="home-contact__form" data-ds-reveal id="newsletter" novalidate>
+              <label class="ds-field">
+                <span class="ds-eyebrow">Newsletter</span>
+                <span class="home-contact__input">
+                  <input class="ds-input" name="email" type="email" placeholder="your@email.com" required autocomplete="email" aria-describedby="newsletter-status">
+                  <button class="home-contact__submit" type="submit" aria-label="구독">
+                    <span class="ds-icon-swap" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                    </span>
+                  </button>
+                </span>
+                <small id="newsletter-status" class="home-contact__status" aria-live="polite">데모입니다. 서버로 전송하지 않습니다.</small>
+              </label>
+            </form>
+          </div>
+          <footer class="home-footer">
+            <span>© 2026 Studio — Motion system example</span>
+            <div class="home-footer__nav">
+              <span class="ds-cross" aria-hidden="true"></span>
+              <a class="home-footer__next ds-swap" href="#top" data-swap="Back to top"><span class="ds-swap__text">Back to top</span></a>
+              <button class="home-up" type="button" id="to-top" aria-label="맨 위로" data-ds-magnetic="0.2">
+                <span class="ds-icon-swap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5m-7 7 7-7 7 7"/></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5m-7 7 7-7 7 7"/></svg>
+                </span>
+              </button>
+            </div>
+          </footer>
+        </section>
+      </main>
+
+      <nav class="home-menu" id="menu" data-ds-panel aria-label="사이트 메뉴">
+        <div class="ds-panel home-menu__panel" data-ds-stagger>
+          <div class="ds-panel__box home-menu__links">
+            <a class="ds-menu-link" href="#top" aria-current="page" data-ds-panel-close="menu"><span class="ds-swap" data-swap="Home"><span class="ds-swap__text">Home</span></span></a>
+            <a class="ds-menu-link" href="#reel"><span class="ds-swap" data-swap="About us"><span class="ds-swap__text">About us</span></span></a>
+            <a class="ds-menu-link" href="#work" data-ds-panel-close="menu"><span class="ds-swap" data-swap="Projects"><span class="ds-swap__text">Projects</span></span></a>
+            <a class="ds-menu-link" href="#contact" data-ds-panel-close="menu"><span class="ds-swap" data-swap="Contact"><span class="ds-swap__text">Contact</span></span></a>
+          </div>
+          <div class="ds-panel__box home-menu__box">
+            <span class="ds-eyebrow">Newsletter</span>
+            <p>분기마다 한 번, 작업 뒤의 기술과 결정을 보냅니다.</p>
+            <a class="ds-link" href="#contact" data-ds-panel-close="menu">구독하기</a>
+          </div>
+          <a class="ds-cta ds-cta--dark home-menu__talk" href="#contact" data-ds-panel-close="menu">
+            <span class="ds-cta__dot" aria-hidden="true"></span>
+            <span class="ds-cta__label">Let's talk</span>
+            <span class="ds-cta__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+          </a>
+          <div class="ds-panel__box home-menu__box home-menu__box--row"><span class="ds-eyebrow">Also</span><a class="ds-link ds-link--slow home-menu__labs" href="#contact">Labs ↗</a></div>
+        </div>
+      </nav>
+      <div class="ds-backdrop home-backdrop" data-ds-panel-close="menu" aria-hidden="true"></div>
+
+      <div class="ds-bar ds-bar--vertical ds-bar--auto-hide home-progress" data-ds-scroll-progress aria-hidden="true"><span class="ds-bar__fill"></span></div>
+      <div class="ds-cursor ds-cursor--accent" data-ds-cursor><span data-ds-cursor-text>View</span></div>
+      <div class="ds-toast-region" data-ds-toast-region aria-live="polite" aria-atomic="true"></div>
+    </div>
+    <script type="module" src="./home.js"></script>
+  </body>
+</html>

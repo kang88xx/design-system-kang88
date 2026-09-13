@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko" data-exported="false">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARK A4 Proposal Template</title>
+  <style>:root {
+  --cobalt: #011187;
+  --navy: #061A58;
+  --icon: #091955;
+  --paper: #F4F4F8;
+  --ink: #1A2646;
+  --muted: #516086;
+  --amber: #EEC12B;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #d9dbe5; color: var(--ink); font-family: "Malgun Gothic", Arial, sans-serif; }
+.toolbar { position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; align-items: center; justify-content: flex-end; padding: 12px 18px; background: rgba(255,255,255,.94); border-bottom: 1px solid #d6d9e5; }
+button { border: 0; background: var(--cobalt); color: white; min-height: 36px; padding: 0 14px; font-size: 14px; cursor: pointer; }
+.status { margin-right: auto; font-size: 13px; color: var(--muted); min-height: 18px; }
+main { display: grid; gap: 18px; justify-content: center; padding: 24px; }
+.page { width: 210mm; min-height: 297mm; background: white; padding: 18mm 16mm; position: relative; overflow: hidden; box-shadow: 0 10px 34px rgba(6,26,88,.18); }
+.cover { background: var(--cobalt); color: white; }
+.cover h1 { font-size: 54pt; line-height: .98; margin: 68mm 0 10mm; font-weight: 500; letter-spacing: 0; }
+.eyebrow { font-size: 11pt; letter-spacing: 0; color: inherit; opacity: .78; }
+h2 { margin: 0 0 10mm; font-size: 30pt; line-height: 1.05; font-weight: 500; letter-spacing: 0; }
+h3 { margin: 0 0 4mm; font-size: 15pt; font-weight: 500; }
+p, li { font-size: 10.5pt; line-height: 1.62; color: var(--muted); }
+.rule { height: 1.2mm; width: 34mm; background: var(--cobalt); margin: 8mm 0; }
+.cover .rule { background: white; opacity: .82; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10mm; }
+.metric-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7mm; margin-top: 14mm; }
+.metric { border-top: 1.1mm solid var(--cobalt); padding-top: 6mm; }
+.metric strong { display: block; font-size: 26pt; line-height: 1; color: var(--ink); margin-bottom: 4mm; }
+.process { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5mm; margin-top: 12mm; }
+.step { background: var(--paper); padding: 7mm 5mm; min-height: 42mm; }
+.page-footer { position: absolute; left: 16mm; right: 16mm; bottom: 10mm; border-top: .4mm solid rgba(26,38,70,.22); padding-top: 4mm; display: flex; justify-content: space-between; font-size: 8pt; color: var(--muted); }
+.cover .page-footer { color: rgba(255,255,255,.68); border-color: rgba(255,255,255,.4); }
+[contenteditable] { outline-color: var(--amber); }
+@media print {
+  @page { size: A4; margin: 0; }
+  body { background: white; }
+  .toolbar { display: none; }
+  main { padding: 0; gap: 0; }
+  .page { box-shadow: none; page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+}
+</style>
+</head>
+<body>
+  <div class="toolbar">
+    <div id="saveStatus" class="status" role="status" aria-live="polite"></div>
+    <button type="button" id="saveLocal">저장</button>
+    <button type="button" id="downloadHtml">HTML 내려받기</button>
+    <button type="button" onclick="window.print()">PDF 인쇄</button>
+  </div>
+  <main id="proposal">
+    <section class="page cover">
+      <div class="eyebrow" contenteditable="true">ARK / PROJECT</div>
+      <h1 contenteditable="true">PROJECT<br>PROPOSAL</h1>
+      <div class="rule"></div>
+      <p contenteditable="true">SAMPLE / 예시: 비즈니스 제안의 핵심 메시지, 범위, 기대 효과를 한 문장으로 정리합니다.</p>
+      <div class="page-footer"><span>ARK DOCUMENT SYSTEM</span><span>01</span></div>
+    </section>
+    <section class="page">
+      <div class="eyebrow" contenteditable="true">01 / CONTEXT</div>
+      <h2 contenteditable="true">문제 정의와<br>시장 맥락</h2>
+      <div class="grid">
+        <div><h3 contenteditable="true">SAMPLE Current Issue</h3><p contenteditable="true">예시: 현재 상황, 병목, 의사결정에 필요한 배경을 간결하게 작성합니다.</p></div>
+        <div><h3 contenteditable="true">SAMPLE Opportunity</h3><p contenteditable="true">예시: 제안이 해결하는 기회와 기대되는 변화를 수치 또는 사례와 연결합니다.</p></div>
+      </div>
+      <div class="metric-row">
+        <div class="metric"><strong contenteditable="true">32%</strong><p contenteditable="true">예시 데이터 / SAMPLE<br>evidence placeholder</p></div>
+        <div class="metric"><strong contenteditable="true">4.8×</strong><p contenteditable="true">예시 데이터 / SAMPLE<br>evidence placeholder</p></div>
+        <div class="metric"><strong contenteditable="true">12w</strong><p contenteditable="true">예시 데이터 / SAMPLE<br>evidence placeholder</p></div>
+      </div>
+      <div class="page-footer"><span>ARK DOCUMENT SYSTEM</span><span>02</span></div>
+    </section>
+    <section class="page">
+      <div class="eyebrow" contenteditable="true">02 / SOLUTION</div>
+      <h2 contenteditable="true">제안 방향과<br>실행 구조</h2>
+      <p contenteditable="true">SAMPLE / 예시: 제안의 원칙, 범위, 산출물을 문서 전체에서 같은 어휘로 반복합니다. 강조색은 작은 신호에만 사용합니다.</p>
+      <div class="process">
+        <div class="step"><h3 contenteditable="true">SAMPLE Discover</h3><p contenteditable="true">예시: 자료 수집</p></div>
+        <div class="step"><h3 contenteditable="true">SAMPLE Design</h3><p contenteditable="true">예시: 구조 설계</p></div>
+        <div class="step"><h3 contenteditable="true">SAMPLE Build</h3><p contenteditable="true">예시: 산출물 제작</p></div>
+        <div class="step"><h3 contenteditable="true">SAMPLE Verify</h3><p contenteditable="true">예시: 검수 및 보완</p></div>
+      </div>
+      <div class="page-footer"><span>ARK DOCUMENT SYSTEM</span><span>03</span></div>
+    </section>
+    <section class="page">
+      <div class="eyebrow" contenteditable="true">03 / GUIDE</div>
+      <h2 contenteditable="true">아이콘과 도형<br>확장 프롬프트</h2>
+      <p contenteditable="true">SAMPLE / 예시: 새 아이콘은 prompts/guide.md를 따른다. 원본 아이콘에는 바이올렛/네이비 계열 그라디언트와 단색 outline family가 함께 존재하므로, 용도별 family를 먼저 고른다.</p>
+      <p contenteditable="true">예시: 인쇄용 mono 확장은 48x48 SVG viewBox, currentColor 네이비 스트로크, 3-unit rounded stroke, no fill을 기준으로 한다. 집을 금괴로 바꿀 때 금색/광택/3D 표현은 쓰지 않는다.</p>
+      <div class="page-footer"><span>ARK DOCUMENT SYSTEM</span><span>04</span></div>
+    </section>
+  </main>
+  <script>
+    const status = document.getElementById("saveStatus");
+    const proposal = document.getElementById("proposal");
+    const isExported = document.documentElement.dataset.exported === "true";
+    const key = "ark-proposal-a4-html:" + location.pathname;
+    function setStatus(message) {
+      status.textContent = message;
+    }
+    function tryStorage(action) {
+      try {
+        return action();
+      } catch (error) {
+        setStatus("브라우저 저장소를 사용할 수 없습니다. HTML 내려받기를 사용하세요.");
+        return null;
+      }
+    }
+    if (!isExported) {
+      const saved = tryStorage(() => localStorage.getItem(key));
+      if (saved) proposal.innerHTML = saved;
+    }
+    document.getElementById("saveLocal").addEventListener("click", () => {
+      if (tryStorage(() => localStorage.setItem(key, proposal.innerHTML)) !== null) {
+        setStatus("저장되었습니다.");
+      }
+    });
+    document.getElementById("downloadHtml").addEventListener("click", () => {
+      tryStorage(() => localStorage.setItem(key, proposal.innerHTML));
+      const cloned = document.documentElement.cloneNode(true);
+      cloned.dataset.exported = "true";
+      const liveStatus = cloned.querySelector("#saveStatus");
+      if (liveStatus) liveStatus.textContent = "내려받은 HTML입니다. 저장 복원은 비활성화되어 있습니다.";
+      const doc = "<!doctype html>\n" + cloned.outerHTML;
+      const url = URL.createObjectURL(new Blob([doc], {type: "text/html;charset=utf-8"}));
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "ark-proposal-edited.html";
+      a.click();
+      URL.revokeObjectURL(url);
+      setStatus("HTML 파일을 내려받았습니다.");
+    });
+  </script>
+</body>
+</html>

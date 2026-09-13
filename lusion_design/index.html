@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lusion 공개 웹사이트의 디자인 토큰, 프로젝트, 미디어 구현 근거와 독자 제작용 프롬프트를 정리한 로컬 레퍼런스.">
+  <title>Lusion / Reference System</title>
+  <link rel="stylesheet" href="studio-shell.css"><link rel="stylesheet" href="tokens/lusion.css">
+  <link rel="stylesheet" href="catalog.css"><link rel="stylesheet" href="sequence-demos.css">
+  <script src="studio-shell.js" defer></script><script src="catalog-data.js" defer></script>
+  <script src="catalog.js" defer></script><script src="sequence-demos.js" defer></script>
+<link rel="stylesheet" href="workspace-nav.css"><link rel="stylesheet" href="studio-brand.css"></head>
+<body>
+<div class="as-studio">
+  <a class="skip-link as-skip-link" href="#main">본문으로 건너뛰기</a>
+  <aside id="as-nav" class="as-sidebar" aria-label="Navigation">
+    <a class="as-brand" href="#overview" aria-label="Lusion Reference System 처음으로"><span class="as-brand-mark" aria-hidden="true"><svg viewBox="0 0 22 30" width="22" height="30" focusable="false"><path d="M11 3.5v23M1.5 15h19" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></span><div><strong>LUSION</strong> <span>/ REFERENCE SYSTEM</span></div><span class="as-brand-badge">WEB</span></a>
+    <div class="as-sidebar-group">
+      <span class="as-sidebar-label">WORKSPACE</span>
+      <nav aria-label="디자인 시스템 페이지">
+        <a href="project-kit.html"><span class="as-nav-index">01</span>프로젝트에 적용</a>
+        <a href="index.html" aria-current="page"><span class="as-nav-index">02</span>개요·토큰</a>
+        <a href="source-explorer.html"><span class="as-nav-index">03</span>소스 탐색</a>
+        <a href="components.html"><span class="as-nav-index">04</span>아이콘·컴포넌트</a>
+        <a href="motion-lab.html"><span class="as-nav-index">05</span>모션 실험실</a>
+        <a href="reconstruction.html"><span class="as-nav-index">06</span>재구성 스튜디오</a>
+        <a href="video-analysis.html"><span class="as-nav-index">07</span>영상 분석</a>
+      </nav>
+    </div>
+    <div class="as-sidebar-bottom">
+      <span class="as-status-dot"></span>
+      <span>Local source capture<small>2026.09.06 · lusion.co</small></span>
+      <a href="https://lusion.co/" target="_blank" rel="noreferrer" aria-label="Open original website"><span aria-hidden="true">↗</span></a>
+    </div>
+  </aside>
+  <button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+  <div class="as-main-shell">
+    <header class="as-topbar">
+      <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="as-breadcrumb"><span>Design system</span><span>/</span><strong>개요·토큰</strong></div>
+      <div class="as-topbar-tools"><label class="as-topbar-search"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14.5 14.5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg><span class="as-visually-hidden">에셋 검색</span><input id="asset-search" type="search" placeholder="파일명, 프로젝트, 경로로 검색…" autocomplete="off"></label><a class="as-export-button" href="tokens/lusion.css" download>Export tokens <span aria-hidden="true">↧</span></a></div>
+    </header>
+    <main id="main" tabindex="-1" class="as-workspace as-page-overview">
+    <section id="overview" class="section as-overview-title">
+      <div class="as-eyebrow"><span class="as-status-dot"></span> PUBLIC WEBSITE STUDY <span class="as-version">03 / SEP 2026</span></div>
+      <h1>Beyond the screen.<br><span>Inside the system.</span></h1>
+      <p class="as-intro">공식 내부 가이드가 아닌 <strong>공개 자료 기반 참조 시스템</strong>입니다. 원본에서 확인한 사실과 새 제작 제안을 구분해 기록했습니다.</p>
+      <div class="as-overview-copy"><p>화면 너머의 디자인을,<br>다시 사용할 수 있는 언어로.</p><p class="muted">Lusion의 공개 코드와 화면에서 추출한 디자인 토큰, 미디어 구조, 그리고 독자 제작을 위한 가이드.</p></div>
+      <div class="as-title-actions"><a class="as-button" href="source-explorer.html">소스 탐색 시작 <span aria-hidden="true">↗</span></a><a class="as-text-command" href="https://lusion.co/" target="_blank" rel="noreferrer">원본 사이트 <span aria-hidden="true">↗</span></a></div>
+      <dl class="as-stats-strip"><div><dt>수집 페이지</dt><dd data-stat="pages">22</dd></div><div><dt>프로젝트</dt><dd data-stat="projects">19</dd></div><div><dt>공개 에셋</dt><dd data-stat="assets">394</dd></div><div><dt>로컬 자료</dt><dd data-stat="size">153<span> MiB</span></dd></div></dl>
+      <div class="evidence-key"><span class="badge extracted">추출</span> 배포 코드의 실제 값 <span class="badge observed">관측</span> 화면·네트워크 근거 <span class="badge proposed">제안</span> 새로 작성한 제작 규칙</div>
+    </section>
+    <nav class="section-nav as-view-tabs" aria-label="문서 섹션"><a href="#overview" aria-current="location">개요</a><a href="#foundations">디자인 토큰</a><a href="#components">컴포넌트</a><a href="#projects">프로젝트 <span>19</span></a><a href="#motion">모션·영상</a><a href="#prompts">제작 프롬프트</a><a href="#assets">에셋 탐색</a></nav>
+
+
+
+
+    <section class="source-workspace section ruled" aria-labelledby="source-workspace-title">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">SOURCE WORKSPACE / EXPLORE & BUILD</div><h2 id="source-workspace-title">찾고, 읽고,<br>직접 실행하세요.</h2></div><a class="text-link as-text-command" href="downloads/lusion-source-system-v4.zip" download>전체 소스 패키지 다운로드 ↓</a></div>
+      <div class="source-entry-grid">
+        <a class="source-entry" href="source-explorer.html"><span class="eyebrow">01 / SOURCE EXPLORER</span><h3>한곳에서 찾는 전체 소스</h3><p>HTML·CSS·JavaScript부터 셰이더·이미지·영상·폰트·3D 데이터까지. 출처별로 검색하고 코드와 미리보기를 확인하세요.</p><span class="source-entry-action">소스 검색 · 미리보기 · 다운로드 ↗</span></a>
+        <a class="source-entry source-entry-dark" href="reconstruction.html"><span class="eyebrow">02 / RECONSTRUCTION STUDIO</span><h3>확보하지 못한 효과도,<br>실행 가능한 예제로.</h3><p>포인터 흔적·입자 변형·유리 파편·스프링 반응을 조작하고 분석 근거와 대체 구현 코드를 함께 살펴보세요.</p><span class="source-entry-action">대체 구현 실행하기 ↗</span></a>
+      </div>
+      <p class="note">공개 배포 파일과 번들에서 분리한 코드, 새로 작성한 재구성을 각각 표시합니다. <a href="research/source-audit-v3.md">수집 범위와 누락 감사 ↗</a></p>
+    </section>
+
+    <section id="working-system" class="section ruled working-system">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">VERSION 03 / FROM SOURCE TO INTERACTION</div><h2>보기만 했던 요소를,<br>직접 움직이는 시스템으로.</h2></div><a class="text-link as-text-command" href="kit/examples/home.html">v5 모션 메인 화면 예제 ↗</a></div>
+      <div class="system-lanes">
+        <a class="system-lane" href="components.html"><span class="lane-number">01 / COMPONENTS</span><div class="lane-icons" aria-hidden="true"><span>↗</span><span>＋</span><span>Ⅱ</span><span>●</span></div><h3>아이콘·박스·인포그래픽</h3><p>SVG 원형, CSS 기호, 클레이 버튼, 메뉴, 카드와 정보 패널을 상태별로 확인합니다.</p><span class="lane-action">컴포넌트 열기 ↗</span></a>
+        <a class="system-lane lane-dark" href="motion-lab.html"><span class="lane-number">02 / MOTION LAB</span><div class="lane-orbit" aria-hidden="true"><span>＋</span><i></i><i></i></div><h3>입력에 반응하는 모션</h3><p>3D·깊이·충격·터널·타이포·전환을 조작하고 재현 코드의 동작 원리를 확인합니다.</p><span class="lane-action">모션 실험하기 ↗</span></a>
+        <a class="system-lane" href="video-analysis.html"><span class="lane-number">03 / FRAME STUDY</span><div class="lane-frames"><img src="media/video-frames/textures--reel--desktop-1.jpg" alt="유기적인 군집 장면"><img src="media/video-frames/textures--reel--desktop-2.jpg" alt="분홍 굴절 포털"><img src="media/video-frames/textures--reel--desktop-3.jpg" alt="미니어처 기차 장면"></div><h3>영상 28개·프레임 84개</h3><p>시간대별 장면과 예상 제작 방식을 대조하고 해당 프레임 위치에서 원본을 재생합니다.</p><span class="lane-action">분석과 원본 비교 ↗</span></a>
+      </div><p class="note">공개 코드에서 추출한 요소와 관측 기반으로 새로 구현한 요소를 각각 표시했습니다. 복원 예제의 조명·물리·렌더링은 원본 내부 구현과 다를 수 있습니다.</p>
+    </section>
+
+    <section class="section" aria-label="원본 화면 참고">      <figure class="hero-reference"><a href="screenshots/home-ready.png" target="_blank" rel="noreferrer"><img src="screenshots/home-ready.png" alt="Lusion 홈 화면 캡처: 어두운 무대 안에 밀집된 검정, 흰색, 파랑의 둥근 3D 모듈" width="1440" height="1000"></a><figcaption><span>01 — HOME / KINETIC FIELD</span><span>관측 · 공개 사이트 캡처 ↗</span></figcaption></figure></section>
+
+    <section id="foundations" class="section ruled">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">01 / FOUNDATIONS</div><h2>시각 언어의 기본값.</h2></div><a class="text-link as-text-command" href="tokens/lusion.css">CSS 토큰 열기 ↗</a></div>
+      <div class="subheading"><h3>Color palette</h3><span class="badge extracted">추출 · :root</span></div>
+      <p class="section-copy">차분한 중성색 위에 선명한 파랑. 스와치를 누르면 HEX 값을 복사합니다.</p>
+      <div id="swatches" class="swatches"></div>
+      <p class="note">이름은 원본 CSS 토큰입니다. 프로젝트별 색상과 디버그 색상은 전역 팔레트에서 분리했습니다. <a href="research/css-evidence.md">전체 추출 근거 ↗</a></p>
+      <div class="type-specimen"><div class="type-caption"><h3>Typography</h3><span class="badge extracted">추출 · @font-face</span><p>Aeonik Regular / Medium<br>IBM Plex Mono / LusionMono</p><p class="note">영문은 수집 폰트, 한국어는 시스템 폰트 대체.<br>각 폰트의 신규 서비스 사용 범위는 별도 확인.</p></div><div class="type-showcase"><div class="type-display">Make<br><i>the unreal.</i></div><div class="type-alphabet">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj<br>0123456789 / !?@#&</div><div class="type-mono">IBM PLEX MONO · 400 / 500<br>DESIGN × TECHNOLOGY × EXPRESSION</div></div></div>
+      <div class="type-scale"><div><span class="mono">TEXT / XS</span><strong>.75em</strong></div><div><span class="mono">TEXT / BASE</span><strong>clamp(1rem, 1.5vw, 2rem)</strong></div><div><span class="mono">TEXT / LG</span><strong>1.75em</strong></div><div><span class="mono">TEXT / 4XL</span><strong>clamp(7em, 8vw, 20em)</strong></div></div>
+    </section>
+
+    <section id="components" class="section ruled">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">02 / STRUCTURE & COMPONENTS</div><h2>여백이 만드는 질서.</h2></div><span class="badge observed">관측 + 재구성</span></div>
+      <div class="component-layout"><article class="grid-specimen"><div class="subheading"><h3>Responsive grid</h3><span class="mono">12 → 6 COLUMNS</span></div><div class="grid-demo" aria-label="데스크톱 12열, 모바일 6열 그리드"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span></div><p>12열 · gap 2vw · 좌우 max(5vw, 40px)</p><p class="note">812px 이하: 6열 / gap 4vw / padding 25px<br>400px 이하: padding 15px</p></article><article class="shape-specimen"><h3>Soft geometry</h3><div class="shape-row"><div class="shape desktop-shape">20px</div><div class="shape mobile-shape">10px</div><div class="shape pill-shape">Pill</div></div><p class="note">카드 모서리: 데스크톱 20px, 모바일 최종 10px.<br>버튼은 알약 형태로 분리합니다.</p></article></div>
+      <div class="button-specimen"><div><h3>Pill button / states</h3><p class="note">원본 형태를 바탕으로 접근 가능한 상태를 제안합니다.</p></div><div class="button-samples"><button class="pill dark" type="button" data-demo="기본 버튼을 눌렀습니다.">Let's talk <span aria-hidden="true">↗</span></button><button class="pill light" type="button" data-demo="보조 버튼을 눌렀습니다."><span class="dot" aria-hidden="true"></span> Explore</button><button class="pill blue" type="button" data-demo="강조 버튼을 눌렀습니다.">Get in touch <span aria-hidden="true">↗</span></button><button class="pill" type="button" disabled>Disabled <span aria-hidden="true">↗</span></button></div></div>
+    </section>
+
+    <section id="projects" class="section ruled">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">03 / PROJECT ARCHIVE</div><h2>서로 다른 세계,<br>하나의 구조.</h2></div><div class="section-heading-aside"><span class="large-count">19</span><p class="note">공개 프로젝트 페이지와<br>로컬 썸네일 아카이브</p></div></div>
+      <div id="project-grid" class="project-grid"></div>
+      <p class="note">작품명을 누르면 공식 프로젝트 페이지를 엽니다. 수집 이미지와 프로젝트별 색상은 원본 관측 자료입니다.</p>
+    </section>
+
+    <section id="motion" class="section ruled">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">04 / MOTION & MEDIA</div><h2>움직임을 만드는 방법.</h2><p class="note"><a href="motion-lab.html">작동하는 모션·충격·인포그래픽 예제 열기 ↗</a></p></div><a class="text-link as-text-command" href="media/motion-system.md">구현 근거와 장면 계약 ↗</a></div>
+      <div class="motion-methods"><article><span class="mono">01 / REAL-TIME</span><h3>물리 반응형 3D</h3><p>모듈 geometry + matcap + body physics. 커서 주변의 힘이 회전과 이동에 연결됩니다.</p><code>HomeBalloons / cross.buf</code></article><article><span class="mono">02 / DEPTH</span><h3>한 장의 이미지, 깊이</h3><p>컬러 이미지와 깊이 맵을 함께 읽어 카드에 작은 시차와 포커스 이동을 만듭니다.</p><code>home.webp + home_depth.webp</code></article><article><span class="mono">03 / POST EFFECT</span><h3>포인터의 흔적</h3><p>입력을 render target에 누적하고 blur한 결과를 화면 왜곡 효과에 전달합니다.</p><code>ScreenPaint → Distortion</code></article></div>
+      <div class="subheading reel-heading"><h3>Responsive reel</h3><span class="badge extracted">추출 · MP4</span></div><p class="section-copy">원본 공개 릴의 가로·세로 편집본. 자동 로드와 자동 재생 없이, 재생 버튼으로 확인합니다.</p>
+      <div class="reels"><figure><video controls muted playsinline preload="none" poster="media/video-frames/textures--reel--desktop-1.jpg" aria-label="Lusion 데스크톱 릴"><source src="sources/assets/lusion.dev/assets/textures/reel/desktop.mp4" type="video/mp4">브라우저가 영상을 지원하지 않습니다.</video><figcaption><span>DESKTOP / WIDE</span><a href="sources/assets/lusion.dev/assets/textures/reel/desktop.mp4">로컬 영상 ↗</a></figcaption></figure><figure class="mobile-reel"><video controls muted playsinline preload="none" poster="media/video-frames/textures--reel--mobile-1.jpg" aria-label="Lusion 모바일 릴"><source src="sources/assets/lusion.dev/assets/textures/reel/mobile.mp4" type="video/mp4">브라우저가 영상을 지원하지 않습니다.</video><figcaption><span>MOBILE / VERTICAL</span><a href="sources/assets/lusion.dev/assets/textures/reel/mobile.mp4">열기 ↗</a></figcaption></figure></div>
+      <p class="note">미리보기 포스터는 각 릴에서 추출한 실제 프레임입니다. 이 열람기는 원본 JavaScript 번들을 실행하지 않습니다.</p>
+    </section>
+
+    <section id="prompts" class="section ruled prompt-section">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">05 / PRODUCTION PLAYBOOK</div><h2>관찰에서,<br>새로운 장면으로.</h2></div><span class="badge proposed">제안 · 신규 프롬프트 7종</span></div>
+      <p class="section-copy">아래 문구는 관측한 시각·구현 원리를 독자 제작용으로 새로 작성한 브리프입니다. <strong>Lusion의 실제 생성 프롬프트나 내부 제작 문서가 아닙니다.</strong></p>
+      <div id="prompt-list" class="prompt-list"></div>
+      <a class="pill dark" href="media/production-guide.md">카메라·재질·검수 기준 전체 보기 <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section id="assets" class="section ruled">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">06 / LOCAL ASSET INDEX</div><h2>공개 소스, 찾기 쉽게.</h2></div><a class="text-link as-text-command" href="research/asset-manifest.json">URL·해시·수집 원장 ↗</a></div>
+      <div class="asset-controls"><label class="filter-field"><span>파일 유형</span><select id="asset-type"><option value="all">모든 유형</option><option value="image">이미지</option><option value="video">영상</option><option value="audio">오디오</option><option value="font">폰트</option><option value="data">데이터·코드</option></select></label></div>
+      <div class="asset-result-line"><p id="asset-count" role="status" aria-live="polite"></p><span class="mono">LOCAL FILES / NO AUTOLOAD</span></div>
+      <div id="asset-list" class="asset-list"></div>
+      <div class="pagination"><button id="asset-prev" class="pill light" type="button">← 이전</button><span id="asset-page" class="mono"></span><button id="asset-next" class="pill light" type="button">다음 →</button></div>
+      <p class="note">에셋은 링크를 선택할 때 엽니다. .buf 파일은 배포용 데이터로, 편집 가능한 원본 3D 씬과 구분합니다.</p>
+    </section>
+
+
+    <section id="sequences" class="section ruled">
+      <div class="section-heading as-section-heading"><div><div class="eyebrow as-eyebrow">07 / CONNECTED SEQUENCES</div><h2>장면 사이도,<br>하나의 컴포넌트.</h2></div><span class="badge proposed">원본 동작을 분석한 독립 재현</span></div>
+      <div class="sequence-grid">
+        <article class="sequence-card"><h3>작은 썸네일 → 큰 릴</h3><p class="note">진행률로 프레임의 크기와 모서리를 함께 제어합니다. 원본의 WebGL 표면 변형을 DOM 보간으로 단순화했습니다.</p><div class="sequence-stage"><div class="sequence-reel" id="sequence-reel"><img src="media/video-frames/textures--reel--desktop-2.jpg" alt="분홍 포털 릴 프레임"><span aria-hidden="true">PLAY ↗ REEL</span></div></div><label class="sequence-range">진행률<input type="range" id="reel-progress" min="0" max="100" value="0"><output id="reel-progress-value">0%</output></label><span class="sequence-source">HomeReelSection / #home-reel-thumb → #home-reel-container-inner</span></article>
+        <article class="sequence-card sequence-dark"><h3>마지막 CTA의 문자 전환</h3><p class="note">원본 EndSection의 문자 교체와 말미 강조를 수동 재생으로 구성했습니다. 문구·타이밍은 이 예제의 제안입니다.</p><div class="ending-copy" id="ending-copy" aria-hidden="true"></div><p class="ending-preview" id="ending-preview" role="status">LET’S CREATE.</p><button type="button" class="pill light" id="ending-replay">문자 전환 재생 ↗</button><span class="sequence-source">EndSection / #end-section-title-link / ROLLUP_ANIMATION_INTERVAL</span></article>
+        <article class="sequence-card sequence-next"><div><h3>다음 장면으로 이어지는 진행률</h3><p class="note">제스처를 켠 영역 안에서만 휠 또는 방향키가 게이지를 채웁니다. 터치는 +25% 버튼, 키보드는 Tab·방향키·Escape. 실제 페이지를 강제로 이동하지 않는 상태 재현입니다.</p><span class="sequence-source">ScrollNavSection / #scroll-nav-next-bar-inner / overScrollRatio</span></div><div class="next-demo-panel" id="next-demo-panel" tabindex="0" aria-label="다음 장면 진행률 데모"><div class="next-label"><span id="next-scene-name">ABOUT / PREVIEW</span><span id="next-percent">0%</span></div><div class="next-track" role="progressbar" aria-label="장면 이동 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="next-demo-bar"></span></div><div class="next-actions"><button type="button" id="next-activate" aria-pressed="false">제스처 시작</button><button type="button" id="next-step">+25%</button><button type="button" id="next-now">바로 전환 ↗</button></div><p id="next-state" class="note" role="status">활성화 전에는 페이지가 정상적으로 스크롤됩니다.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section resources ruled" aria-labelledby="resources-title"><div><div class="eyebrow as-eyebrow">KEEP EXPLORING</div><h2 id="resources-title">근거까지 연결된<br>디자인 시스템.</h2></div><div class="resource-links"><a href="DESIGN.md">디자인 시스템 문서 <span>↗</span></a><a href="tokens/lusion.tokens.json">JSON 디자인 토큰 <span>↗</span></a><a href="research/official-sources.md">공식 출처와 제작 설명 <span>↗</span></a><a href="research/pages.md">수집 페이지 목록 <span>↗</span></a><a href="research/css-evidence.md">CSS 추출 근거 <span>↗</span></a><a href="media/production-guide.md">이미지·영상 제작 가이드 <span>↗</span></a></div></section>
+      <footer class="as-studio-footer"><span>LUSION / REFERENCE SYSTEM</span><p>공개 자료 조사 · 2026.09.06<br>원본 자산의 신규 사용 권한과 비공개 제작 원본은 이 조사로 확인되지 않습니다.</p><a href="#overview">위로 ↑</a></footer>
+    </main>
+  </div>
+  <div class="as-toast" role="status"></div>
+</div>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="noscript-message">프로젝트 목록·에셋 검색·복사는 JavaScript가 필요합니다. <a href="DESIGN.md">전체 문서</a>와 <a href="research/asset-manifest.json">에셋 원장</a>은 바로 열 수 있습니다.</p></noscript>
+</body>
+</html>

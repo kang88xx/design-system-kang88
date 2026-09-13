@@ -1,0 +1,122 @@
+[
+  {
+    "id": "motion-scroll-scrub-story",
+    "category": "motion",
+    "label": "스크롤 서사 진행률",
+    "evidence": "recreated",
+    "description": "toss.im의 스크롤 기반 설명 전환에서 영감을 받아 range 입력으로 카드 이동, 투명도, blur, 진행 bar를 재현한다.",
+    "tags": ["scroll", "scrub", "opacity", "transform", "blur"],
+    "source": {
+      "url": "https://toss.im/",
+      "section": "global narrative inspiration"
+    },
+    "code": {
+      "language": "html",
+      "value": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Scroll scrub motion</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f7f8fa;color:#333d4b}.demo{min-height:100svh;display:grid;place-items:center;padding:24px}.stage{width:min(100%,520px);display:grid;gap:18px;border:1px solid #e5e8eb;border-radius:24px;padding:28px;background:#fff}.card{border:1px solid #dbe7ff;border-radius:24px;padding:24px;background:#fff;box-shadow:0 24px 60px rgba(25,31,40,.08);opacity:var(--o,.7);transform:translateY(var(--y,16px)) scale(var(--s,.97));filter:blur(var(--b,1px));transition:transform 200ms cubic-bezier(.2,.8,.2,1),opacity 150ms cubic-bezier(.2,.8,.2,1),filter 200ms cubic-bezier(.2,.8,.2,1)}strong{display:block;color:#191f28;font-size:32px}.bar{height:8px;border-radius:999px;background:#f2f4f6;overflow:hidden}.bar span{display:block;width:var(--p,40%);height:100%;background:#3182f6}input{accent-color:#3182f6}</style><main class=\"demo\"><section class=\"stage\" aria-label=\"스크롤 서사 재현\"><div class=\"card\" id=\"card\"><span>이번 달 자산</span><strong>49,348,000원</strong><div class=\"bar\"><span></span></div></div><label>진행률 <input id=\"range\" type=\"range\" min=\"0\" max=\"100\" value=\"40\"></label><output id=\"out\">40%</output></section></main><script>const r=document.querySelector('#range'),c=document.querySelector('#card'),o=document.querySelector('#out');function sync(){const p=Number(r.value)/100;c.style.setProperty('--y',`${Math.round((1-p)*26)}px`);c.style.setProperty('--o',String(.58+p*.42));c.style.setProperty('--s',String(.96+p*.04));c.style.setProperty('--b',`${((1-p)*2.2).toFixed(2)}px`);c.style.setProperty('--p',`${Math.max(8,r.value)}%`);o.value=`${r.value}%`;o.textContent=o.value}r.addEventListener('input',sync);sync();</script></html>"
+    },
+    "preview": {
+      "kind": "motion",
+      "value": "scrub"
+    }
+  },
+  {
+    "id": "motion-stagger-card-reveal",
+    "category": "motion",
+    "label": "카드 순차 등장",
+    "evidence": "recreated",
+    "description": "섹션 reveal의 방향과 순서를 컴팩트한 카드 리스트에 적용한다. visibility/replay 상황에서도 최종 상태가 남는다.",
+    "tags": ["stagger", "reveal", "cards", "opacity", "translate"],
+    "source": {
+      "url": "https://toss.im/",
+      "section": "section reveal inspiration"
+    },
+    "code": {
+      "language": "html",
+      "value": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Stagger reveal</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f7f8fa;color:#333d4b}.wrap{min-height:100svh;display:grid;place-items:center;padding:24px}.panel{width:min(100%,420px);display:grid;gap:12px;border-radius:24px;padding:24px;background:#fff}.item{display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;border-radius:12px;padding:12px;background:#f9fafb;opacity:0;transform:translateY(18px)}.item.show{opacity:1;transform:translateY(0);transition:opacity 600ms cubic-bezier(.2,.8,.2,1),transform 600ms cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--i)*70ms)}i{width:40px;height:40px;border-radius:50%;background:#e8f3ff}button{min-height:44px;border:0;border-radius:12px;background:#3182f6;color:white;font:inherit;font-weight:700}@media (prefers-reduced-motion:reduce){*{transition-duration:.001ms!important}}</style><main class=\"wrap\"><section class=\"panel\" aria-label=\"카드 순차 등장\"><div class=\"item\" style=\"--i:0\"><i></i><strong>계좌 연결</strong><span>완료</span></div><div class=\"item\" style=\"--i:1\"><i></i><strong>지출 분석</strong><span>3초 전</span></div><div class=\"item\" style=\"--i:2\"><i></i><strong>혜택 추천</strong><span>새로움</span></div><button type=\"button\">다시보기</button></section></main><script>const items=[...document.querySelectorAll('.item')],btn=document.querySelector('button');function play(){items.forEach(x=>x.classList.remove('show'));setTimeout(()=>items.forEach(x=>x.classList.add('show')),30)}btn.addEventListener('click',play);play();</script></html>"
+    },
+    "preview": {
+      "kind": "motion",
+      "value": "reveal"
+    }
+  },
+  {
+    "id": "motion-spring-bottom-sheet",
+    "category": "motion",
+    "label": "하단 확인 패널",
+    "evidence": "recreated",
+    "description": "중요 행동 확인을 dialog 기반 하단 패널로 재현한다. Escape, Tab 순환, 포커스 복귀를 포함한다.",
+    "tags": ["dialog", "bottom-sheet", "focus", "keyboard", "spring"],
+    "source": {
+      "url": "https://toss.im/",
+      "section": "navigation and panel transition inspiration"
+    },
+    "code": {
+      "language": "html",
+      "value": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Bottom sheet</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f7f8fa;color:#333d4b}.wrap{min-height:100svh;display:grid;place-items:center;padding:24px}.card{display:grid;gap:14px;width:min(100%,360px);border:1px solid #e5e8eb;border-radius:20px;padding:24px;background:#fff}button{min-height:44px;border:0;border-radius:12px;padding:0 18px;background:#3182f6;color:white;font:inherit;font-weight:700}.soft{background:#f2f4f6;color:#333d4b}dialog{width:min(100% - 24px,420px);border:0;padding:0;background:transparent}dialog[open]{display:grid;align-items:end;min-height:100%;margin:auto auto 0}dialog::backdrop{background:rgba(25,31,40,.32)}.sheet{display:grid;gap:16px;border-radius:24px 24px 0 0;padding:24px;background:#fff;box-shadow:0 -16px 48px rgba(25,31,40,.18);animation:up 360ms cubic-bezier(.18,1.14,.28,1)}@keyframes up{from{transform:translateY(28px)}to{transform:translateY(0)}}@media (prefers-reduced-motion:reduce){.sheet{animation:none}}</style><main class=\"wrap\"><section class=\"card\"><strong>김토스님에게 52,000원</strong><span>보내기 전 내용을 확인한다.</span><button id=\"open\" type=\"button\">확인 패널 열기</button></section></main><dialog id=\"dialog\" aria-labelledby=\"title\"><form method=\"dialog\" class=\"sheet\"><h1 id=\"title\">송금 내용을 확인한다</h1><p>확인하면 완료 상태가 남는다.</p><button value=\"ok\">확인 완료</button><button class=\"soft\" value=\"cancel\">닫기</button></form></dialog><script>const d=document.querySelector('#dialog'),open=document.querySelector('#open');let last;function focusables(){return [...d.querySelectorAll('button')]}open.onclick=()=>{last=document.activeElement;d.showModal();focusables()[0].focus()};d.addEventListener('close',()=>last&&last.focus());d.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const f=focusables(),first=f[0],lastEl=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();lastEl.focus()}else if(!e.shiftKey&&document.activeElement===lastEl){e.preventDefault();first.focus()}});</script></html>"
+    },
+    "preview": {
+      "kind": "motion",
+      "value": "sheet"
+    }
+  },
+  {
+    "id": "motion-segmented-active-icon",
+    "category": "motion",
+    "label": "필 선택과 아이콘 활성화",
+    "evidence": "recreated",
+    "description": "짧은 선택 컨트롤에서 필 배경은 300-400ms로 이동하고 아이콘 색/스케일은 150-200ms 안에 반응한다.",
+    "tags": ["segmented-control", "icon", "active", "transform", "color"],
+    "source": {
+      "url": "https://toss.im/",
+      "section": "micro feedback inspiration"
+    },
+    "code": {
+      "language": "html",
+      "value": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Segmented active icon</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f7f8fa;color:#333d4b}.wrap{min-height:100svh;display:grid;place-items:center;padding:24px}.panel{width:min(100%,420px);display:grid;gap:20px;border-radius:24px;padding:24px;background:#fff}.seg{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:4px;border-radius:999px;padding:4px;background:#f2f4f6}.seg:before{content:\"\";position:absolute;inset:4px auto 4px 4px;width:calc((100% - 8px)/3);border-radius:999px;background:#fff;box-shadow:0 4px 16px rgba(25,31,40,.08);transform:translateX(calc(var(--i,0)*100%));transition:transform 360ms cubic-bezier(.2,.8,.2,1)}button{z-index:1;min-height:44px;border:0;border-radius:999px;background:transparent;color:#6b7684;font:inherit;font-weight:700}button[aria-pressed=true]{color:#3182f6}.symbol{display:grid;place-items:center;min-height:140px;border-radius:20px;background:#f9fafb;color:#8b95a1}.symbol svg{width:76px;height:76px;transform:scale(.92);transition:color 150ms cubic-bezier(.2,.8,.2,1),transform 200ms cubic-bezier(.2,.8,.2,1)}.symbol.active svg{color:#3182f6;transform:scale(1)}</style><main class=\"wrap\"><section class=\"panel\"><div class=\"seg\" role=\"group\" aria-label=\"알림 범위\"><button aria-pressed=\"true\">전체</button><button aria-pressed=\"false\">중요</button><button aria-pressed=\"false\">보안</button></div><div class=\"symbol\"><svg viewBox=\"0 0 64 64\" fill=\"none\"><rect x=\"10\" y=\"18\" width=\"44\" height=\"32\" rx=\"10\" fill=\"currentColor\" opacity=\".14\"></rect><path d=\"M14 24h36a6 6 0 0 1 6 6v14a8 8 0 0 1-8 8H16A8 8 0 0 1 8 44V22a8 8 0 0 1 8-8h28\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"></path></svg></div></section></main><script>const seg=document.querySelector('.seg'),buttons=[...document.querySelectorAll('button')],symbol=document.querySelector('.symbol');buttons.forEach((b,i)=>b.onclick=()=>{seg.style.setProperty('--i',i);buttons.forEach((x,n)=>x.setAttribute('aria-pressed',String(n===i)));symbol.classList.toggle('active',i>0)});</script></html>"
+    },
+    "preview": {
+      "kind": "motion",
+      "value": "active-pill"
+    }
+  },
+  {
+    "id": "motion-accordion-height-reveal",
+    "category": "motion",
+    "label": "아코디언 높이 전개",
+    "evidence": "recreated",
+    "description": "정보량이 달라지는 패널을 scrollHeight 측정으로 열고 닫아 자연스럽게 높이를 바꾼다.",
+    "tags": ["accordion", "height", "disclosure", "aria-expanded"],
+    "source": {
+      "url": "https://toss.im/",
+      "section": "component transition inspiration"
+    },
+    "code": {
+      "language": "html",
+      "value": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Accordion reveal</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f7f8fa;color:#333d4b}.wrap{min-height:100svh;display:grid;place-items:center;padding:24px}.acc{width:min(100%,420px);display:grid;gap:8px}.item{border:1px solid #e5e8eb;border-radius:12px;background:#fff}button{width:100%;min-height:56px;border:0;background:transparent;padding:0 16px;text-align:left;font:inherit;font-weight:800;color:#191f28}.panel{height:0;overflow:hidden;transition:height 360ms cubic-bezier(.2,.8,.2,1)}p{margin:0;padding:0 16px 16px;color:#4e5968}@media (prefers-reduced-motion:reduce){.panel{transition:none}}</style><main class=\"wrap\"><section class=\"acc\"><div class=\"item\"><button aria-expanded=\"false\">송금 전 확인</button><div class=\"panel\"><p>받는 사람, 금액, 출금 계좌를 한 번에 보여준다.</p></div></div><div class=\"item\"><button aria-expanded=\"false\">실패했을 때</button><div class=\"panel\"><p>입력값을 보존하고 복구 행동을 먼저 보여준다.</p></div></div></section></main><script>document.querySelectorAll('.item').forEach(item=>{const b=item.querySelector('button'),p=item.querySelector('.panel');b.onclick=()=>{const open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));if(open){p.style.height=p.scrollHeight+'px';p.offsetHeight;p.style.height='0px'}else{p.style.height=p.scrollHeight+'px';setTimeout(()=>{if(b.getAttribute('aria-expanded')==='true')p.style.height='auto'},380)}}});</script></html>"
+    },
+    "preview": {
+      "kind": "motion",
+      "value": "accordion"
+    }
+  },
+  {
+    "id": "motion-loading-success-progress",
+    "category": "motion",
+    "label": "로딩에서 성공 상태",
+    "evidence": "recreated",
+    "description": "비동기 버튼 피드백을 진행 bar와 완료 상태로 재현한다. replay/cancel을 제공하고 타이머를 한 개로 제한한다.",
+    "tags": ["loading", "success", "progress", "cancel", "timer"],
+    "source": {
+      "url": "https://toss.im/",
+      "section": "async feedback inspiration"
+    },
+    "code": {
+      "language": "html",
+      "value": "<!doctype html><html lang=\"ko\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Loading success progress</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f7f8fa;color:#333d4b}.wrap{min-height:100svh;display:grid;place-items:center;padding:24px}.panel{width:min(100%,420px);display:grid;gap:16px;border-radius:24px;padding:24px;background:#fff}.bar{height:10px;border-radius:999px;background:#f2f4f6;overflow:hidden}.bar span{display:block;width:var(--p,0%);height:100%;background:#3182f6;transition:width 200ms linear}.result{display:grid;gap:4px;border-radius:12px;padding:16px;background:#f9fafb}.result.success strong{color:#03b26c}.result.cancel strong{color:#dd7d02}.actions{display:flex;gap:8px}button{min-height:44px;border:0;border-radius:12px;padding:0 18px;background:#3182f6;color:white;font:inherit;font-weight:700}.soft{background:#f2f4f6;color:#333d4b}</style><main class=\"wrap\"><section class=\"panel\"><div class=\"bar\"><span></span></div><div class=\"result\"><strong>대기 중</strong><span>재생을 누르면 처리 상태를 확인할 수 있다.</span></div><div class=\"actions\"><button id=\"start\">재생</button><button class=\"soft\" id=\"cancel\">취소</button></div></section></main><script>const fill=document.querySelector('.bar span'),box=document.querySelector('.result'),title=box.querySelector('strong'),copy=box.querySelector('span'),start=document.querySelector('#start'),cancel=document.querySelector('#cancel');let timer=null,value=0;function paint(state){fill.style.setProperty('--p',value+'%');box.className='result '+(state||'');if(state==='success'){title.textContent='완료';copy.textContent='김토스님에게 52,000원을 보냈다.'}else if(state==='cancel'){title.textContent='취소됨';copy.textContent='진행 중인 타이머를 멈췄다.'}else{title.textContent=value?'처리 중':'대기 중';copy.textContent=value?'보안 확인을 진행하고 있다.':'재생을 누르면 처리 상태를 확인할 수 있다.'}}function stop(state){clearTimeout(timer);timer=null;start.disabled=false;paint(state)}function tick(){value=Math.min(100,value+12);paint();if(value>=100){stop('success');return}timer=setTimeout(tick,190)}start.onclick=()=>{clearTimeout(timer);value=0;start.disabled=true;tick()};cancel.onclick=()=>stop('cancel');paint();</script></html>"
+    },
+    "preview": {
+      "kind": "motion",
+      "value": "progress"
+    }
+  }
+]

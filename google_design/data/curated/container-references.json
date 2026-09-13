@@ -1,0 +1,50 @@
+[
+  {
+    "id": "meet-nav-selected-pill",
+    "name": "Selected navigation capsule",
+    "dimensions": {
+      "width": 112,
+      "height": 64
+    },
+    "radius": "32px",
+    "background": "#C9E6FD",
+    "border": "none",
+    "contentColors": {
+      "icon": "#061C33",
+      "label": "#1967D2"
+    },
+    "usage": "selected destination in a vertical navigation rail"
+  },
+  {
+    "id": "meet-security-banner-pill",
+    "name": "Security information banner",
+    "dimensions": {
+      "height": 128,
+      "width": "fluid"
+    },
+    "radius": "64px",
+    "background": "#D3E3FD",
+    "border": "none",
+    "padding": {
+      "block": 28,
+      "inline": 52
+    },
+    "usage": "high-trust informational message with a status icon"
+  },
+  {
+    "id": "meet-new-meeting-pill",
+    "name": "Soft-green primary tonal CTA",
+    "dimensions": {
+      "width": 214,
+      "height": 111
+    },
+    "radius": "56px",
+    "background": "#C4EED0",
+    "border": "none",
+    "contentColors": {
+      "icon": "#072711",
+      "label": "#072711"
+    },
+    "usage": "empty-state primary action"
+  }
+]

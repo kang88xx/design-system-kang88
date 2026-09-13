@@ -1,0 +1,1081 @@
+{
+  "schemaVersion": "1.0.0",
+  "service": "drive",
+  "capturedAt": "2026-09-01T03:39:51.379Z",
+  "source": {
+    "host": "drive.google.com",
+    "path": "/drive/u/0/home",
+    "route": null,
+    "authenticated": true
+  },
+  "privacy": {
+    "textContentCollected": false,
+    "personalContentExcluded": true,
+    "assetHostAllowlist": [
+      "drive.google.com",
+      "*.gstatic.com",
+      "fonts.gstatic.com"
+    ]
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "root": {
+    "colorScheme": "normal",
+    "fontSize": "16px",
+    "background": "rgb(255, 255, 255)"
+  },
+  "layout": {
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "regions": {
+      "header": [
+        {
+          "x": 0,
+          "y": -1,
+          "width": 1440,
+          "height": 64
+        }
+      ],
+      "navigation": [
+        {
+          "x": 328,
+          "y": -1000,
+          "width": 784,
+          "height": 48
+        },
+        {
+          "x": 16,
+          "y": 143,
+          "width": 224,
+          "height": 414
+        }
+      ],
+      "main": [
+        {
+          "x": 257,
+          "y": 63,
+          "width": 1127,
+          "height": 921
+        }
+      ],
+      "complementary": [
+        {
+          "x": 1384,
+          "y": 63,
+          "width": 56,
+          "height": 937
+        }
+      ],
+      "search": []
+    }
+  },
+  "foundations": {
+    "colors": [
+      {
+        "value": "rgb(31, 31, 31)",
+        "count": 354
+      },
+      {
+        "value": "rgb(68, 71, 70)",
+        "count": 67
+      },
+      {
+        "value": "rgb(0, 74, 119)",
+        "count": 62
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 20
+      },
+      {
+        "value": "rgb(11, 87, 208)",
+        "count": 13
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgb(4, 30, 73)",
+        "count": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 497
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 6
+      },
+      {
+        "value": "rgb(233, 238, 246)",
+        "count": 5
+      },
+      {
+        "value": "rgb(248, 250, 253)",
+        "count": 3
+      },
+      {
+        "value": "rgb(11, 87, 208)",
+        "count": 2
+      },
+      {
+        "value": "rgb(194, 231, 255)",
+        "count": 2
+      },
+      {
+        "value": "rgb(211, 227, 253)",
+        "count": 2
+      },
+      {
+        "value": "rgb(225, 227, 225)",
+        "count": 1
+      }
+    ],
+    "borders": [
+      {
+        "value": "rgb(31, 31, 31)",
+        "count": 344
+      },
+      {
+        "value": "rgb(68, 71, 70)",
+        "count": 66
+      },
+      {
+        "value": "rgb(0, 74, 119)",
+        "count": 61
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 21
+      },
+      {
+        "value": "rgb(11, 87, 208)",
+        "count": 12
+      },
+      {
+        "value": "rgba(66, 133, 244, 0.24)",
+        "count": 3
+      },
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 2
+      },
+      {
+        "value": "rgba(100, 121, 143, 0.12)",
+        "count": 2
+      },
+      {
+        "value": "rgb(116, 119, 117)",
+        "count": 1
+      },
+      {
+        "value": "rgb(132, 196, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgb(211, 227, 253)",
+        "count": 1
+      },
+      {
+        "value": "rgb(232, 240, 254)",
+        "count": 1
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgb(4, 30, 73)",
+        "count": 1
+      },
+      {
+        "value": "rgba(251, 188, 4, 0.24)",
+        "count": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "50%",
+        "count": 18
+      },
+      {
+        "value": "20px",
+        "count": 15
+      },
+      {
+        "value": "100px",
+        "count": 9
+      },
+      {
+        "value": "36px",
+        "count": 8
+      },
+      {
+        "value": "16px",
+        "count": 7
+      },
+      {
+        "value": "9999px",
+        "count": 4
+      },
+      {
+        "value": "22px",
+        "count": 3
+      },
+      {
+        "value": "38px",
+        "count": 2
+      },
+      {
+        "value": "min(100%, 20px)",
+        "count": 2
+      },
+      {
+        "value": "0px 0px 2px 2px",
+        "count": 1
+      },
+      {
+        "value": "0px 12px 12px 0px",
+        "count": 1
+      },
+      {
+        "value": "12px",
+        "count": 1
+      },
+      {
+        "value": "16px 16px 0px 0px",
+        "count": 1
+      },
+      {
+        "value": "24px",
+        "count": 1
+      },
+      {
+        "value": "3px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "color(srgb 0 0 0 / 0.14) 0px 3px 4px 0px, color(srgb 0 0 0 / 0.12) 0px 3px 3px -2px, color(srgb 0 0 0 / 0.2) 0px 1px 8px 0px",
+        "count": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px",
+        "count": 1
+      }
+    ],
+    "typography": {
+      "families": [
+        {
+          "value": "\"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+          "count": 392
+        },
+        {
+          "value": "\"Google Sans Text\", Roboto, Helvetica, Arial, sans-serif",
+          "count": 56
+        },
+        {
+          "value": "Arial",
+          "count": 45
+        },
+        {
+          "value": "\"Google Sans Flex\", \"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+          "count": 9
+        },
+        {
+          "value": "\"Google Sans\", Roboto, Arial, sans-serif",
+          "count": 7
+        },
+        {
+          "value": "\"Google Sans\", \"Google Sans\", Roboto, Arial, sans-serif",
+          "count": 4
+        },
+        {
+          "value": "\"Google Sans\", Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "count": 4
+        },
+        {
+          "value": "\"Product Sans\", Arial, sans-serif",
+          "count": 1
+        }
+      ],
+      "sizes": [
+        {
+          "value": "14px",
+          "count": 396
+        },
+        {
+          "value": "13px",
+          "count": 56
+        },
+        {
+          "value": "13.3333px",
+          "count": 36
+        },
+        {
+          "value": "16px",
+          "count": 16
+        },
+        {
+          "value": "24px",
+          "count": 9
+        },
+        {
+          "value": "20px",
+          "count": 4
+        },
+        {
+          "value": "22px",
+          "count": 1
+        }
+      ],
+      "weights": [
+        {
+          "value": "400",
+          "count": 464
+        },
+        {
+          "value": "500",
+          "count": 54
+        }
+      ],
+      "lineHeights": [
+        {
+          "value": "20px",
+          "count": 244
+        },
+        {
+          "value": "16px",
+          "count": 37
+        },
+        {
+          "value": "26px",
+          "count": 27
+        },
+        {
+          "value": "27px",
+          "count": 18
+        },
+        {
+          "value": "32px",
+          "count": 4
+        },
+        {
+          "value": "24px",
+          "count": 3
+        },
+        {
+          "value": "22px",
+          "count": 1
+        },
+        {
+          "value": "48px",
+          "count": 1
+        }
+      ],
+      "letterSpacing": [
+        {
+          "value": "0.23px",
+          "count": 1
+        }
+      ]
+    },
+    "spacing": [
+      {
+        "value": "4px",
+        "count": 63
+      },
+      {
+        "value": "8px",
+        "count": 47
+      },
+      {
+        "value": "3px",
+        "count": 27
+      },
+      {
+        "value": "12px",
+        "count": 21
+      },
+      {
+        "value": "16px",
+        "count": 16
+      },
+      {
+        "value": "14px",
+        "count": 11
+      },
+      {
+        "value": "2px",
+        "count": 11
+      },
+      {
+        "value": "24px",
+        "count": 9
+      },
+      {
+        "value": "5px",
+        "count": 8
+      },
+      {
+        "value": "-1px",
+        "count": 5
+      },
+      {
+        "value": "18px",
+        "count": 5
+      },
+      {
+        "value": "20px",
+        "count": 4
+      },
+      {
+        "value": "7px",
+        "count": 4
+      },
+      {
+        "value": "9px",
+        "count": 4
+      },
+      {
+        "value": "-4px",
+        "count": 3
+      },
+      {
+        "value": "200px",
+        "count": 3
+      },
+      {
+        "value": "6px",
+        "count": 3
+      },
+      {
+        "value": "176.531px",
+        "count": 2
+      },
+      {
+        "value": "48px",
+        "count": 2
+      },
+      {
+        "value": "103px",
+        "count": 1
+      },
+      {
+        "value": "10px",
+        "count": 1
+      },
+      {
+        "value": "11px",
+        "count": 1
+      },
+      {
+        "value": "25px",
+        "count": 1
+      },
+      {
+        "value": "327.75px",
+        "count": 1
+      },
+      {
+        "value": "327.766px",
+        "count": 1
+      },
+      {
+        "value": "45px",
+        "count": 1
+      },
+      {
+        "value": "51px",
+        "count": 1
+      },
+      {
+        "value": "56px",
+        "count": 1
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "50%",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": "false",
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 2
+      },
+      {
+        "role": "button",
+        "width": 178,
+        "height": 36,
+        "radius": "36px",
+        "background": "rgb(233, 238, 246)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "state": {
+          "disabled": false,
+          "expanded": "false",
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 2
+      },
+      {
+        "role": "button",
+        "width": 179,
+        "height": 36,
+        "radius": "36px",
+        "background": "rgb(233, 238, 246)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "state": {
+          "disabled": false,
+          "expanded": "false",
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 2
+      },
+      {
+        "role": "button",
+        "width": 152,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 100,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 116,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": "false",
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "50%",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": "false",
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "min(100%, 20px)",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(68, 71, 70)",
+        "border": "0px none rgb(68, 71, 70)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "link",
+        "width": 108,
+        "height": 48,
+        "radius": "22px",
+        "background": "rgb(211, 227, 253)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 100,
+        "height": 56,
+        "radius": "16px",
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px outset rgb(0, 0, 0)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 22,
+        "height": 22,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 74, 119)",
+        "border": "0px none rgb(0, 74, 119)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "link",
+        "width": 139,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgb(11, 87, 208)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 87, 208)",
+        "border": "0px none rgb(11, 87, 208)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 32,
+        "height": 32,
+        "radius": "16px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(68, 71, 70)",
+        "border": "0px none rgb(68, 71, 70)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "button",
+        "width": 56,
+        "height": 56,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      }
+    ],
+    "links": [
+      {
+        "role": "link",
+        "width": 224,
+        "height": 32,
+        "radius": "100px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 8
+      },
+      {
+        "role": "button",
+        "width": 40,
+        "height": 40,
+        "radius": "50%",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": "false",
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 2
+      },
+      {
+        "role": "a",
+        "width": 124,
+        "height": 48,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 87, 208)",
+        "border": "0px none rgb(11, 87, 208)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "link",
+        "width": 108,
+        "height": 48,
+        "radius": "22px",
+        "background": "rgb(211, 227, 253)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "link",
+        "width": 224,
+        "height": 32,
+        "radius": "100px",
+        "background": "rgb(194, 231, 255)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "a",
+        "width": 154,
+        "height": 48,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 87, 208)",
+        "border": "0px none rgb(11, 87, 208)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "a",
+        "width": 88,
+        "height": 18,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 74, 119)",
+        "border": "0px none rgb(0, 74, 119)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "a",
+        "width": 99,
+        "height": 24,
+        "radius": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 74, 119)",
+        "border": "1px solid rgb(0, 74, 119)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      },
+      {
+        "role": "link",
+        "width": 139,
+        "height": 40,
+        "radius": "20px",
+        "background": "rgb(11, 87, 208)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      }
+    ],
+    "inputs": [
+      {
+        "role": "input",
+        "width": 736,
+        "height": 20,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(68, 71, 70)",
+        "border": "0px none rgb(68, 71, 70)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": null,
+          "pressed": null,
+          "checked": null
+        },
+        "count": 1
+      }
+    ],
+    "tabs": [
+      {
+        "role": "tab",
+        "width": 56,
+        "height": 56,
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(31, 31, 31)",
+        "border": "0px none rgb(31, 31, 31)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "state": {
+          "disabled": false,
+          "expanded": null,
+          "selected": "false",
+          "pressed": null,
+          "checked": null
+        },
+        "count": 5
+      }
+    ],
+    "checkboxes": [],
+    "menus": [],
+    "dialogs": [],
+    "listItems": [],
+    "chips": []
+  },
+  "interactionStates": {
+    "focusable": 28,
+    "disabled": 1,
+    "expanded": 0,
+    "selected": 1,
+    "checked": 0
+  },
+  "metrics": {
+    "visibleElementCount": 518,
+    "svgCount": 86,
+    "imageCount": 7,
+    "inlineStyleSheetCount": 6,
+    "externalStyleSheetCount": 2
+  },
+  "assetPolicy": {
+    "observedReferencesOnly": true,
+    "redistributableAssetsRequireCuratedLicenseReview": true
+  },
+  "observedReferenceAssets": [
+    "https://drive.google.com/drive/u/0/-webkit-linear-gradient(right%20bottom,%20rgb(0,%200,%200),%20rgba(0,%200,%200,%200))",
+    "https://drive.google.com/drive/u/0/preload",
+    "https://fonts.gstatic.com/s/i/googlematerialicons/add/v21/black-24dp/1x/gm_add_black_24dp.png",
+    "https://ssl.gstatic.com/gb/images/bar/al-icon.png",
+    "https://www.gstatic.com/companion/icon_assets/calendar_2026_2x.png",
+    "https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png",
+    "https://www.gstatic.com/companion/icon_assets/keep_2026_2x.png",
+    "https://www.gstatic.com/companion/icon_assets/tasks_2026_2x.png",
+    "https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png"
+  ],
+  "redistributableAssets": []
+}

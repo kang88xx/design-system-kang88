@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Contents">
+  <title>Contents</title>
+  <desc>ARK PDF p3의 목차/인덱스 흐름을 기준으로 한 편집 가능한 리스트 마스터. Source pages: 3. Icon adaptation guide: ../prompts/guide.md.</desc>
+  <metadata data-guide-ref="../prompts/guide.md"/>
+  <rect width="1920" height="1080" fill="white"/>
+
+  <rect x="0" y="0" width="180" height="1080" fill="#061A58"/>
+  <text x="90" y="860" text-anchor="middle" font-family="'Malgun Gothic', Arial, sans-serif" font-size="188" font-weight="300" fill="#FFFFFF" opacity=".16">01</text>
+  <text x="240" y="144" text-anchor="start" font-family="'Malgun Gothic', Arial, sans-serif" font-size="85" font-weight="500" fill="#1A2646"><tspan x="240" dy="0">CONTENTS</tspan></text>
+  <text x="240" y="210" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">SAMPLE / 예시: 제안의 흐름을 4-6개 장으로 정리</text>
+  <text x="240" y="308" font-family="'Malgun Gothic', Arial, sans-serif" font-size="34" fill="#1A2646">SAMPLE Context</text><text x="1660" y="308" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="26" fill="#516086">01</text><line x1="240" y1="342" x2="1660" y2="342" stroke="#F4F4F8" stroke-width="4"/><text x="240" y="420" font-family="'Malgun Gothic', Arial, sans-serif" font-size="34" fill="#1A2646">SAMPLE Approach</text><text x="1660" y="420" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="26" fill="#516086">02</text><line x1="240" y1="454" x2="1660" y2="454" stroke="#F4F4F8" stroke-width="4"/><text x="240" y="532" font-family="'Malgun Gothic', Arial, sans-serif" font-size="34" fill="#1A2646">SAMPLE Solution</text><text x="1660" y="532" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="26" fill="#516086">03</text><line x1="240" y1="566" x2="1660" y2="566" stroke="#F4F4F8" stroke-width="4"/><text x="240" y="644" font-family="'Malgun Gothic', Arial, sans-serif" font-size="34" fill="#1A2646">SAMPLE Execution</text><text x="1660" y="644" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="26" fill="#516086">04</text><line x1="240" y1="678" x2="1660" y2="678" stroke="#F4F4F8" stroke-width="4"/><text x="240" y="756" font-family="'Malgun Gothic', Arial, sans-serif" font-size="34" fill="#1A2646">SAMPLE Appendix</text><text x="1660" y="756" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="26" fill="#516086">05</text><line x1="240" y1="790" x2="1660" y2="790" stroke="#F4F4F8" stroke-width="4"/>
+  
+  <line x1="60" y1="1032" x2="1860" y2="1032" stroke="#1A2646" stroke-opacity=".42" stroke-width="2"/>
+  <text x="60" y="1058" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#516086" opacity="1">ARK / PROJECT DOCUMENT SYSTEM</text>
+  <text x="1860" y="1058" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#516086" opacity="1">02</text>
+
+
+</svg>

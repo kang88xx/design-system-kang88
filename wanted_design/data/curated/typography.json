@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Display 1",
+    "fontSize": "56px",
+    "lineHeight": "72px",
+    "lineHeightRatio": 1.286,
+    "letterSpacing": "-0.0319em"
+  },
+  {
+    "name": "Display 2",
+    "fontSize": "40px",
+    "lineHeight": "52px",
+    "lineHeightRatio": 1.3,
+    "letterSpacing": "-0.0282em"
+  },
+  {
+    "name": "Display 3",
+    "fontSize": "36px",
+    "lineHeight": "48px",
+    "lineHeightRatio": 1.334,
+    "letterSpacing": "-0.027em"
+  },
+  {
+    "name": "Title 1",
+    "fontSize": "32px",
+    "lineHeight": "44px",
+    "lineHeightRatio": 1.375,
+    "letterSpacing": "-0.0253em"
+  },
+  {
+    "name": "Title 2",
+    "fontSize": "28px",
+    "lineHeight": "38px",
+    "lineHeightRatio": 1.358,
+    "letterSpacing": "-0.0236em"
+  },
+  {
+    "name": "Title 3",
+    "fontSize": "24px",
+    "lineHeight": "32px",
+    "lineHeightRatio": 1.334,
+    "letterSpacing": "-0.023em"
+  },
+  {
+    "name": "Heading 1",
+    "fontSize": "22px",
+    "lineHeight": "30px",
+    "lineHeightRatio": 1.364,
+    "letterSpacing": "-0.0194em"
+  },
+  {
+    "name": "Heading 2",
+    "fontSize": "20px",
+    "lineHeight": "28px",
+    "lineHeightRatio": 1.4,
+    "letterSpacing": "-0.012em"
+  },
+  {
+    "name": "Headline 1",
+    "fontSize": "18px",
+    "lineHeight": "26px",
+    "lineHeightRatio": 1.444,
+    "letterSpacing": "-0.002em"
+  },
+  {
+    "name": "Headline 2",
+    "fontSize": "17px",
+    "lineHeight": "26px",
+    "lineHeightRatio": 1.412,
+    "letterSpacing": "0em"
+  },
+  {
+    "name": "Body 1/Normal",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "lineHeightRatio": 1.5,
+    "letterSpacing": "0.0057em"
+  },
+  {
+    "name": "Body 1/Reading",
+    "fontSize": "16px",
+    "lineHeight": "26px",
+    "lineHeightRatio": 1.625,
+    "letterSpacing": "0.0057em"
+  },
+  {
+    "name": "Body 2/Normal",
+    "fontSize": "15px",
+    "lineHeight": "22px",
+    "lineHeightRatio": 1.467,
+    "letterSpacing": "0.0096em"
+  },
+  {
+    "name": "Body 2/Reading",
+    "fontSize": "15px",
+    "lineHeight": "24px",
+    "lineHeightRatio": 1.6,
+    "letterSpacing": "0.0096em"
+  },
+  {
+    "name": "Label 1/Normal",
+    "fontSize": "14px",
+    "lineHeight": "20px",
+    "lineHeightRatio": 1.429,
+    "letterSpacing": "0.0145em"
+  },
+  {
+    "name": "Label 1/Reading",
+    "fontSize": "14px",
+    "lineHeight": "22px",
+    "lineHeightRatio": 1.571,
+    "letterSpacing": "0.0145em"
+  },
+  {
+    "name": "Label 2",
+    "fontSize": "13px",
+    "lineHeight": "18px",
+    "lineHeightRatio": 1.385,
+    "letterSpacing": "0.0194em"
+  },
+  {
+    "name": "Caption 1",
+    "fontSize": "12px",
+    "lineHeight": "16px",
+    "lineHeightRatio": 1.334,
+    "letterSpacing": "0.0252em"
+  },
+  {
+    "name": "Caption 2",
+    "fontSize": "11px",
+    "lineHeight": "14px",
+    "lineHeightRatio": 1.273,
+    "letterSpacing": "0.0311em"
+  }
+]

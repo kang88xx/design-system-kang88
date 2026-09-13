@@ -1,0 +1,673 @@
+{
+  "page": 15,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n15\nAdvantages of\nModular Buildings\n\nIn today’s construction industry,\nefficiency, flexibility, and safety are\nessential. With advanced design and\nprecision manufacturing, ARK’s modular\nbuildings provide faster, more economical,\nand safer building solutions.\n\nFast\nFlexible\n\nEconomy\nSafety\n\nQuick Deployment, Immediate Use\nAdaptable to Any Need\n\nCost-Efficient & Sustainable\nEngineered for Protection\n\nFactory-built modules reduce construction\ntime by 50%, enabling faster project\ncompletion and quicker operations.\n\nCustomizable designs suit offices, camps,\nand permanent structures, seamlessly\nadjusting to different environments.\n\nLower labor costs, reduced material waste,\nand factory-controlled quality ensure a\nhigh-value, low-maintenance solution.\n\nBuilt with high-strength steel and fire-\nresistant materials, ARK modules meet\nglobal safety standards for durability.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "15",
+      "bbox": [
+        1856.201,
+        45.176,
+        1866.721,
+        56.496
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1856.201,
+        54.496
+      ]
+    },
+    {
+      "text": "Advantages of ",
+      "bbox": [
+        53.129,
+        37.082,
+        426.313,
+        92.06
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.129,
+        82.26
+      ]
+    },
+    {
+      "text": "Modular Buildings",
+      "bbox": [
+        53.129,
+        101.566,
+        497.118,
+        156.544
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.129,
+        146.744
+      ]
+    },
+    {
+      "text": "In today’s construction industry, ",
+      "bbox": [
+        51.261,
+        271.661,
+        449.961,
+        299.111
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        51.261,
+        294.111
+      ]
+    },
+    {
+      "text": "efficiency, flexibility, and safety are ",
+      "bbox": [
+        51.261,
+        303.361,
+        483.061,
+        330.811
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        51.261,
+        325.811
+      ]
+    },
+    {
+      "text": "essential. With advanced design and ",
+      "bbox": [
+        51.261,
+        335.061,
+        506.361,
+        362.511
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        51.261,
+        357.511
+      ]
+    },
+    {
+      "text": "precision manufacturing, ARK’s modular ",
+      "bbox": [
+        51.261,
+        366.761,
+        552.711,
+        394.211
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        51.261,
+        389.211
+      ]
+    },
+    {
+      "text": "buildings provide faster, more economical, ",
+      "bbox": [
+        51.261,
+        398.461,
+        576.111,
+        425.911
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        51.261,
+        420.911
+      ]
+    },
+    {
+      "text": "and safer building solutions.",
+      "bbox": [
+        51.261,
+        430.161,
+        394.636,
+        457.611
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        51.261,
+        452.611
+      ]
+    },
+    {
+      "text": "Fast",
+      "bbox": [
+        967.229,
+        248.155,
+        1071.01,
+        303.133
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        293.333
+      ]
+    },
+    {
+      "text": "Flexible",
+      "bbox": [
+        1423.685,
+        248.155,
+        1616.843,
+        303.133
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        293.333
+      ]
+    },
+    {
+      "text": "Economy",
+      "bbox": [
+        967.229,
+        666.585,
+        1196.598,
+        721.563
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        711.763
+      ]
+    },
+    {
+      "text": "Safety",
+      "bbox": [
+        1423.685,
+        666.585,
+        1580.632,
+        721.563
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        711.763
+      ]
+    },
+    {
+      "text": "Quick Deployment, Immediate Use",
+      "bbox": [
+        967.229,
+        313.126,
+        1316.148,
+        335.566
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        331.566
+      ]
+    },
+    {
+      "text": "Adaptable to Any Need",
+      "bbox": [
+        1423.685,
+        313.126,
+        1660.885,
+        335.566
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        331.566
+      ]
+    },
+    {
+      "text": "Cost-Efficient & Sustainable",
+      "bbox": [
+        967.229,
+        731.326,
+        1246.989,
+        753.766
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        749.766
+      ]
+    },
+    {
+      "text": "Engineered for Protection",
+      "bbox": [
+        1423.685,
+        731.326,
+        1684.525,
+        753.766
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        749.766
+      ]
+    },
+    {
+      "text": "Factory-built modules reduce construction ",
+      "bbox": [
+        967.229,
+        353.638,
+        1310.893,
+        371.35
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        368.15
+      ]
+    },
+    {
+      "text": "time by ",
+      "bbox": [
+        967.229,
+        377.206,
+        1031.869,
+        394.918
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        391.718
+      ]
+    },
+    {
+      "text": "50%",
+      "bbox": [
+        1031.869,
+        376.118,
+        1065.661,
+        395.206
+      ],
+      "font": "HelveticaNeue-Bold",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 20,
+      "ascender": 0.975,
+      "descender": -0.218,
+      "origin": [
+        1031.869,
+        391.718
+      ]
+    },
+    {
+      "text": ", enabling faster project ",
+      "bbox": [
+        1065.661,
+        377.206,
+        1258.141,
+        394.918
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1065.661,
+        391.718
+      ]
+    },
+    {
+      "text": "completion and quicker operations.",
+      "bbox": [
+        967.229,
+        400.294,
+        1247.917,
+        418.006
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        414.806
+      ]
+    },
+    {
+      "text": "Customizable designs suit offices, camps, ",
+      "bbox": [
+        1423.685,
+        353.638,
+        1757.494,
+        371.35
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        368.15
+      ]
+    },
+    {
+      "text": "and permanent structures, seamlessly ",
+      "bbox": [
+        1423.685,
+        376.166,
+        1727.925,
+        393.878
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        390.678
+      ]
+    },
+    {
+      "text": "adjusting to different environments.",
+      "bbox": [
+        1423.685,
+        398.694,
+        1707.189,
+        416.406
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        413.206
+      ]
+    },
+    {
+      "text": "Lower labor costs, reduced material waste, ",
+      "bbox": [
+        967.229,
+        768.427,
+        1310.653,
+        786.139
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        782.939
+      ]
+    },
+    {
+      "text": "and factory-controlled quality ensure a ",
+      "bbox": [
+        967.229,
+        790.955,
+        1280.413,
+        808.667
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        805.467
+      ]
+    },
+    {
+      "text": "high-value, low-maintenance solution.",
+      "bbox": [
+        967.229,
+        813.483,
+        1266.237,
+        831.195
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.229,
+        827.995
+      ]
+    },
+    {
+      "text": "Built with high-strength steel and fire-",
+      "bbox": [
+        1423.685,
+        768.427,
+        1725.157,
+        786.139
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        782.939
+      ]
+    },
+    {
+      "text": "resistant materials, ARK modules meet ",
+      "bbox": [
+        1423.685,
+        790.955,
+        1735.478,
+        808.667
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1423.685,
+        805.467
+      ]
+    },
+    {
+      "text": "global safety standards",
+      "bbox": [
+        1423.685,
+        813.435,
+        1601.733,
+        832.523
+      ],
+      "font": "HelveticaNeue-Bold",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 20,
+      "ascender": 0.975,
+      "descender": -0.218,
+      "origin": [
+        1423.685,
+        829.035
+      ]
+    },
+    {
+      "text": " for durability.",
+      "bbox": [
+        1601.733,
+        814.523,
+        1711.413,
+        832.235
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1601.733,
+        829.035
+      ]
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "generated_at": "2026-09-06T13:54:19.470Z",
+  "total": 55,
+  "models": [
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/bg_box.buf",
+      "label": "bg_box.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 8,
+      "indexCount": 30,
+      "points": "sources/decoded/models__about__bg_box.points.json",
+      "obj": "sources/decoded/models__about__bg_box.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/camera_spline.buf",
+      "label": "camera_spline.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 200,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__camera_spline.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/letter_placements.buf",
+      "label": "letter_placements.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 196,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__letter_placements.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/logo_text.buf",
+      "label": "logo_text.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 1400,
+      "indexCount": 6270,
+      "points": "sources/decoded/models__about__logo_text.points.json",
+      "obj": "sources/decoded/models__about__logo_text.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/person.buf",
+      "label": "person.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 2666,
+      "indexCount": 11952,
+      "points": "sources/decoded/models__about__person.points.json",
+      "obj": "sources/decoded/models__about__person.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/person_idle.buf",
+      "label": "person_idle.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 4590,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__person_idle.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_0.buf",
+      "label": "rock_0.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 1475,
+      "indexCount": 3972,
+      "points": "sources/decoded/models__about__rock_0.points.json",
+      "obj": "sources/decoded/models__about__rock_0.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_0_low.buf",
+      "label": "rock_0_low.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 149,
+      "indexCount": 702,
+      "points": "sources/decoded/models__about__rock_0_low.points.json",
+      "obj": "sources/decoded/models__about__rock_0_low.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_1.buf",
+      "label": "rock_1.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 1649,
+      "indexCount": 4746,
+      "points": "sources/decoded/models__about__rock_1.points.json",
+      "obj": "sources/decoded/models__about__rock_1.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_1_low.buf",
+      "label": "rock_1_low.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 149,
+      "indexCount": 702,
+      "points": "sources/decoded/models__about__rock_1_low.points.json",
+      "obj": "sources/decoded/models__about__rock_1_low.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_2.buf",
+      "label": "rock_2.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 1689,
+      "indexCount": 4770,
+      "points": "sources/decoded/models__about__rock_2.points.json",
+      "obj": "sources/decoded/models__about__rock_2.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_2_low.buf",
+      "label": "rock_2_low.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 149,
+      "indexCount": 702,
+      "points": "sources/decoded/models__about__rock_2_low.points.json",
+      "obj": "sources/decoded/models__about__rock_2_low.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_3.buf",
+      "label": "rock_3.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 1728,
+      "indexCount": 4878,
+      "points": "sources/decoded/models__about__rock_3.points.json",
+      "obj": "sources/decoded/models__about__rock_3.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_3_low.buf",
+      "label": "rock_3_low.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 149,
+      "indexCount": 702,
+      "points": "sources/decoded/models__about__rock_3_low.points.json",
+      "obj": "sources/decoded/models__about__rock_3_low.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_0.buf",
+      "label": "rock_animation_0.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__rock_animation_0.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_1.buf",
+      "label": "rock_animation_1.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__rock_animation_1.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_2.buf",
+      "label": "rock_animation_2.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__rock_animation_2.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_3.buf",
+      "label": "rock_animation_3.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__rock_animation_3.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_l.buf",
+      "label": "sphere_l.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 73,
+      "indexCount": 360,
+      "points": "sources/decoded/models__about__sphere_l.points.json",
+      "obj": "sources/decoded/models__about__sphere_l.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_m.buf",
+      "label": "sphere_m.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 33,
+      "indexCount": 144,
+      "points": "sources/decoded/models__about__sphere_m.points.json",
+      "obj": "sources/decoded/models__about__sphere_m.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_s.buf",
+      "label": "sphere_s.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 17,
+      "indexCount": 48,
+      "points": "sources/decoded/models__about__sphere_s.points.json",
+      "obj": "sources/decoded/models__about__sphere_s.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_xs.buf",
+      "label": "sphere_xs.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 9,
+      "indexCount": 24,
+      "points": "sources/decoded/models__about__sphere_xs.points.json",
+      "obj": "sources/decoded/models__about__sphere_xs.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/terrain.buf",
+      "label": "terrain.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 13872,
+      "indexCount": 80238,
+      "points": "sources/decoded/models__about__terrain.points.json",
+      "obj": "sources/decoded/models__about__terrain.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/terrain_lines.buf",
+      "label": "terrain_lines.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 11832,
+      "indexCount": 0,
+      "points": "sources/decoded/models__about__terrain_lines.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/home/cross.buf",
+      "label": "cross.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 4940,
+      "indexCount": 29628,
+      "points": "sources/decoded/models__home__cross.points.json",
+      "obj": "sources/decoded/models__home__cross.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_capability.buf",
+      "label": "line_capability.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "points": "sources/decoded/models__lines__line_capability.points.json",
+      "obj": "sources/decoded/models__lines__line_capability.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_goal.buf",
+      "label": "line_goal.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "points": "sources/decoded/models__lines__line_goal.points.json",
+      "obj": "sources/decoded/models__lines__line_goal.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_office.buf",
+      "label": "line_office.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "points": "sources/decoded/models__lines__line_office.points.json",
+      "obj": "sources/decoded/models__lines__line_office.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_reel.buf",
+      "label": "line_reel.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "points": "sources/decoded/models__lines__line_reel.points.json",
+      "obj": "sources/decoded/models__lines__line_reel.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/plant.buf",
+      "label": "plant.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 5990,
+      "indexCount": 25008,
+      "points": "sources/decoded/models__plant.points.json",
+      "obj": "sources/decoded/models__plant.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/playground/tunnel.buf",
+      "label": "tunnel.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 64,
+      "indexCount": 192,
+      "points": "sources/decoded/models__playground__tunnel.points.json",
+      "obj": "sources/decoded/models__playground__tunnel.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_animations.buf",
+      "label": "astronaut_animations.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 15264,
+      "indexCount": 0,
+      "points": "sources/decoded/models__tunnels__astronaut_animations.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_glove_shoes.buf",
+      "label": "astronaut_glove_shoes.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 2328,
+      "indexCount": 9858,
+      "points": "sources/decoded/models__tunnels__astronaut_glove_shoes.points.json",
+      "obj": "sources/decoded/models__tunnels__astronaut_glove_shoes.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_helmet.buf",
+      "label": "astronaut_helmet.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 3403,
+      "indexCount": 12597,
+      "points": "sources/decoded/models__tunnels__astronaut_helmet.points.json",
+      "obj": "sources/decoded/models__tunnels__astronaut_helmet.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_helmet_glass.buf",
+      "label": "astronaut_helmet_glass.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 101,
+      "indexCount": 492,
+      "points": "sources/decoded/models__tunnels__astronaut_helmet_glass.points.json",
+      "obj": "sources/decoded/models__tunnels__astronaut_helmet_glass.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_in_animation.buf",
+      "label": "astronaut_in_animation.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 100,
+      "indexCount": 0,
+      "points": "sources/decoded/models__tunnels__astronaut_in_animation.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_out_animation.buf",
+      "label": "astronaut_out_animation.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 100,
+      "indexCount": 0,
+      "points": "sources/decoded/models__tunnels__astronaut_out_animation.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_wearpack.buf",
+      "label": "astronaut_wearpack.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 3683,
+      "indexCount": 16764,
+      "points": "sources/decoded/models__tunnels__astronaut_wearpack.points.json",
+      "obj": "sources/decoded/models__tunnels__astronaut_wearpack.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/broken_glass.buf",
+      "label": "broken_glass.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 7907,
+      "indexCount": 36090,
+      "points": "sources/decoded/models__tunnels__broken_glass.points.json",
+      "obj": "sources/decoded/models__tunnels__broken_glass.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/broken_glass_animation.buf",
+      "label": "broken_glass_animation.buf",
+      "status": "points-animation-decoded",
+      "meshType": "Points",
+      "vertexCount": 14190,
+      "indexCount": 0,
+      "points": "sources/decoded/models__tunnels__broken_glass_animation.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/diamond.buf",
+      "label": "diamond.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 217,
+      "indexCount": 1290,
+      "points": "sources/decoded/models__tunnels__diamond.points.json",
+      "obj": "sources/decoded/models__tunnels__diamond.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/earth_card.buf",
+      "label": "earth_card.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 584,
+      "indexCount": 2904,
+      "points": "sources/decoded/models__tunnels__earth_card.points.json",
+      "obj": "sources/decoded/models__tunnels__earth_card.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_base_hd.buf",
+      "label": "grid_base_hd.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 1280,
+      "indexCount": 1920,
+      "points": "sources/decoded/models__tunnels__grid_base_hd.points.json",
+      "obj": "sources/decoded/models__tunnels__grid_base_hd.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_base_ld.buf",
+      "label": "grid_base_ld.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 16,
+      "indexCount": 24,
+      "points": "sources/decoded/models__tunnels__grid_base_ld.points.json",
+      "obj": "sources/decoded/models__tunnels__grid_base_ld.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_structure_hd.buf",
+      "label": "grid_structure_hd.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 96,
+      "indexCount": 0,
+      "points": "sources/decoded/models__tunnels__grid_structure_hd.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_structure_ld.buf",
+      "label": "grid_structure_ld.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 456,
+      "indexCount": 0,
+      "points": "sources/decoded/models__tunnels__grid_structure_ld.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/tunnel_block_base.buf",
+      "label": "tunnel_block_base.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 142,
+      "indexCount": 252,
+      "points": "sources/decoded/models__tunnels__tunnel_block_base.points.json",
+      "obj": "sources/decoded/models__tunnels__tunnel_block_base.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/tunnel_block_wall.buf",
+      "label": "tunnel_block_wall.buf",
+      "status": "mesh-decoded",
+      "meshType": "Mesh",
+      "vertexCount": 5865,
+      "indexCount": 17430,
+      "points": "sources/decoded/models__tunnels__tunnel_block_wall.points.json",
+      "obj": "sources/decoded/models__tunnels__tunnel_block_wall.obj"
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/andrii.buf",
+      "label": "andrii.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__andrii.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/edan.buf",
+      "label": "edan.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__edan.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/ffi.buf",
+      "label": "ffi.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__ffi.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/paul.buf",
+      "label": "paul.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__paul.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/pierre.buf",
+      "label": "pierre.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__pierre.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/sunny.buf",
+      "label": "sunny.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__sunny.points.json",
+      "obj": null
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/yannic.buf",
+      "label": "yannic.buf",
+      "status": "points-decoded",
+      "meshType": "Points",
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "points": "sources/decoded/team__yannic.points.json",
+      "obj": null
+    }
+  ]
+}

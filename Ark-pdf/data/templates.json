@@ -1,0 +1,135 @@
+[
+  {
+    "id": "cover",
+    "name": "Cover",
+    "description": "ARK PDF p4/p7/p10의 코발트 풀블리드, 넓은 여백, 하단 레일을 따른 표지 마스터.",
+    "sourcePages": [
+      4,
+      7,
+      10
+    ],
+    "category": "slide",
+    "svg": "templates/cover.svg"
+  },
+  {
+    "id": "contents",
+    "name": "Contents",
+    "description": "ARK PDF p3의 목차/인덱스 흐름을 기준으로 한 편집 가능한 리스트 마스터.",
+    "sourcePages": [
+      3
+    ],
+    "category": "slide",
+    "svg": "templates/contents.svg"
+  },
+  {
+    "id": "divider",
+    "name": "Section Divider",
+    "description": "ARK PDF p4/p10/p17/p27의 코발트 섹션 화면처럼 거대 번호를 우상단에 두고 제목을 좌하단에 배치한 디바이더.",
+    "sourcePages": [
+      4,
+      10,
+      17,
+      27
+    ],
+    "category": "slide",
+    "svg": "templates/divider.svg"
+  },
+  {
+    "id": "statement",
+    "name": "Statement",
+    "description": "긴 제안 문장을 강조하는 넓은 여백, 좌측 라인, 보조 노트 구조.",
+    "sourcePages": [
+      8,
+      9,
+      15
+    ],
+    "category": "slide",
+    "svg": "templates/statement.svg"
+  },
+  {
+    "id": "metrics",
+    "name": "Metrics",
+    "description": "ARK PDF p11/p13/p14/p50의 수치 강조와 여백 구조를 따른 성과 지표 마스터.",
+    "sourcePages": [
+      11,
+      13,
+      14,
+      50
+    ],
+    "category": "slide",
+    "svg": "templates/metrics.svg"
+  },
+  {
+    "id": "comparison",
+    "name": "Comparison",
+    "description": "ARK PDF p19/p22/p24의 병렬 정보 배치를 따른 옵션/전후 비교 마스터.",
+    "sourcePages": [
+      19,
+      22,
+      24
+    ],
+    "category": "slide",
+    "svg": "templates/comparison.svg"
+  },
+  {
+    "id": "process",
+    "name": "Process",
+    "description": "ARK PDF p25/p46의 단계형 설명 구조를 따른 실행 프로세스 마스터.",
+    "sourcePages": [
+      25,
+      46
+    ],
+    "category": "slide",
+    "svg": "templates/process.svg"
+  },
+  {
+    "id": "case-study",
+    "name": "Case Study",
+    "description": "ARK PDF p31/p33/p35의 사례/공간 소개 페이지 구조를 따른 케이스 스터디 마스터.",
+    "sourcePages": [
+      31,
+      33,
+      35
+    ],
+    "category": "slide",
+    "svg": "templates/case-study.svg"
+  },
+  {
+    "id": "gallery",
+    "name": "Gallery",
+    "description": "ARK PDF p32/p34/p36/p41의 이미지 중심 구성과 균일 프레임을 따른 갤러리 마스터.",
+    "sourcePages": [
+      32,
+      34,
+      36,
+      41
+    ],
+    "category": "slide",
+    "svg": "templates/gallery.svg"
+  },
+  {
+    "id": "closing",
+    "name": "Closing",
+    "description": "종결 메시지와 다음 행동을 남기는 클로징/컨택 마스터.",
+    "sourcePages": [
+      50,
+      51,
+      52
+    ],
+    "category": "slide",
+    "svg": "templates/closing.svg"
+  },
+  {
+    "id": "proposal-a4",
+    "name": "A4 Proposal",
+    "description": "편집, 로컬 저장, HTML 다운로드, 인쇄가 가능한 4페이지 A4 제안서 템플릿.",
+    "sourcePages": [
+      4,
+      15,
+      26,
+      52
+    ],
+    "svg": "templates/proposal-a4.html",
+    "category": "document"
+  }
+]

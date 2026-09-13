@@ -1,0 +1,141 @@
+{
+  "page": 32,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n32\n\nTechnip Tsf Offices\nTechnip Tsf Food Service Building\nTechnip Tsf Offices",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "32",
+      "bbox": [
+        1853.508,
+        41.993,
+        1865.948,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1853.508,
+        51.313
+      ]
+    },
+    {
+      "text": "Technip Tsf Offices",
+      "bbox": [
+        110.927,
+        981.153,
+        344.452,
+        1008.828
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        110.927,
+        1003.828
+      ]
+    },
+    {
+      "text": "Technip Tsf Food Service Building",
+      "bbox": [
+        798.927,
+        981.153,
+        1217.702,
+        1008.828
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        798.927,
+        1003.828
+      ]
+    },
+    {
+      "text": "Technip Tsf Offices",
+      "bbox": [
+        1486.927,
+        981.153,
+        1720.452,
+        1008.828
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1486.927,
+        1003.828
+      ]
+    }
+  ]
+}

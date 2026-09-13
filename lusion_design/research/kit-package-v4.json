@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-09-10T12:58:57.533Z",
+  "checks": [
+    {
+      "name": "ZIP contains byte-identical current sources",
+      "passed": true
+    },
+    {
+      "name": "Standalone ZIP has no archived assets or dependencies",
+      "passed": true
+    },
+    {
+      "name": "ES module imports in Node without DOM globals",
+      "passed": true
+    },
+    {
+      "name": "ZIP-only example initializes",
+      "passed": true
+    },
+    {
+      "name": "ZIP-only dialog runs",
+      "passed": true
+    },
+    {
+      "name": "ZIP-only tabs run",
+      "passed": true
+    },
+    {
+      "name": "ZIP-only example makes no external requests",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:40287/kit/examples/index.html",
+        "http://127.0.0.1:40287/kit/tokens.css",
+        "http://127.0.0.1:40287/kit/components.css",
+        "http://127.0.0.1:40287/kit/examples/example.css",
+        "http://127.0.0.1:40287/kit/examples/example.js",
+        "http://127.0.0.1:40287/kit/system.js",
+        "http://127.0.0.1:40287/kit/README.md"
+      ]
+    },
+    {
+      "name": "ZIP-only example has no errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "ZIP-only README link resolves",
+      "passed": true
+    },
+    {
+      "name": "Local npm archive installs offline and exports work",
+      "passed": true
+    },
+    {
+      "name": "TypeScript compiler available for consumer verification",
+      "passed": true
+    },
+    {
+      "name": "Installed package consumer typechecks incl. invalid API assertions",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

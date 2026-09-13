@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Toss Product Sans OTF";
+  src: url("https://static.toss.im/assets/toss-im/font/TossProductSansOTF-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toss Product Sans OTF";
+  src: url("https://static.toss.im/assets/toss-im/font/TossProductSansOTF-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toss Product Sans OTF";
+  src: url("https://static.toss.im/assets/toss-im/font/TossProductSansOTF-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+
+  /* Observed palette */
+  --color-blue-50: #e8f3ff;
+  --color-blue-200: #90c2ff;
+  --color-blue-500: #3182f6;
+  --color-blue-600: #1b64da;
+  --color-navy-950: #031629;
+  --color-white: #fff;
+  --color-grey-50: #f9fafb;
+  --color-grey-100: #f2f4f6;
+  --color-grey-200: #e5e8eb;
+  --color-grey-300: #d1d6db;
+  --color-grey-400: #b0b8c1;
+  --color-grey-500: #8b95a1;
+  --color-grey-600: #6b7684;
+  --color-grey-700: #4e5968;
+  --color-grey-800: #333d4b;
+  --color-grey-900: #191f28;
+  --color-live-grey-50: #f6f7f9;
+  --color-live-grey-100: #f2f4f7;
+  --color-live-grey-200: #e8ebf0;
+  --color-live-grey-300: #d4d9e1;
+  --color-live-grey-400: #b8bdc5;
+  --color-live-grey-500: #8f959e;
+  --color-live-grey-600: #727780;
+  --color-live-grey-700: #4e535c;
+  --color-live-grey-800: #333840;
+  --color-live-grey-900: #1c1f25;
+  --color-live-blue-opacity-50: rgba(7, 25, 76, 0.05);
+  --color-red-500: #f04452;
+  --color-green-500: #03b26c;
+  --color-orange-500: #dd7d02;
+
+  /* Semantic color */
+  --color-background: var(--color-white);
+  --color-background-subtle: var(--color-grey-50);
+  --color-surface: var(--color-white);
+  --color-surface-muted: var(--color-grey-100);
+  --color-surface-brand: var(--color-blue-50);
+  --color-text-strong: var(--color-grey-900);
+  --color-text-primary: var(--color-grey-800);
+  --color-text-secondary: var(--color-grey-700);
+  --color-text-tertiary: var(--color-grey-600);
+  --color-border: var(--color-grey-200);
+  --color-action: var(--color-blue-500);
+  --color-action-hover: var(--color-blue-600);
+  --color-focus: var(--color-blue-500);
+  --color-info: var(--color-blue-500);
+  --color-warning: var(--color-orange-500);
+  --color-danger: var(--color-red-500);
+  --color-success: var(--color-green-500);
+  --color-chart-primary: var(--color-blue-500);
+  --color-chart-secondary: var(--color-blue-200);
+  --color-chart-neutral: var(--color-grey-400);
+  --color-chart-positive: var(--color-green-500);
+  --color-chart-negative: var(--color-red-500);
+  --color-motion-fallback: var(--color-navy-950);
+
+  /* Observed live gradients */
+  --gradient-surface-blue-soft: linear-gradient(212deg, rgba(197, 217, 253, 0.3) 13%, rgba(197, 217, 253, 0) 93%);
+  --gradient-commerce-action: linear-gradient(90deg, #ff6b35, #f7931e);
+  --gradient-dark-elevation: linear-gradient(to right top, #000, #101010);
+  --gradient-content-fade-up: linear-gradient(rgba(255, 255, 255, 0), #fff 25%);
+  --gradient-content-fade-down: linear-gradient(#fff 0%, rgba(255, 255, 255, 0) 100%);
+
+  /* Typography */
+  --font-sans: "Toss Product Sans OTF", "Toss Product Sans", "Pretendard", "Noto Sans KR", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-size-caption: 0.8125rem;
+  --font-size-label: 0.875rem;
+  --font-size-body: 1rem;
+  --font-size-title-sm: 1.25rem;
+  --font-size-title-md: 2.5rem;
+  --font-size-title-lg: 3.5rem;
+  --font-size-display: 5rem;
+  --line-height-caption: 1.54;
+  --line-height-label: 1.6;
+  --line-height-body: 1.6;
+  --line-height-title-sm: 1.5;
+  --line-height-title-md: 1.4;
+  --line-height-title-lg: 1.2;
+  --line-height-display: 1.2;
+  --letter-spacing-heading: -0.02em;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-30: 7.5rem;
+  --space-40: 10rem;
+
+  /* Shape */
+  --radius-control: 0.75rem;
+  --radius-panel-sm: 1.25rem;
+  --radius-panel: 2rem;
+  --radius-media: 3rem;
+  --radius-pill: 100px;
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* Iconography */
+  --icon-size-sm: 1rem;
+  --icon-size-xs: 0.875rem;
+  --icon-size-md: 1.25rem;
+  --icon-size-lg: 1.5rem;
+  --icon-size-xl: 2rem;
+  --icon-size-feature: 3rem;
+  --icon-stroke-width: 1.75;
+
+  /* Layout */
+  --height-nav: 4rem;
+  --width-nav: 76.5rem;
+  --width-content: 81rem;
+  --width-copy: 35rem;
+  --gutter-page: 1.5rem;
+  --control-height-compact: 2.25rem;
+  --control-height-default: 3rem;
+  --catalog-header-height: 4.5rem;
+  --catalog-sidebar-width: 17.5rem;
+  --catalog-shell-background: #f7f8fa;
+  --catalog-shell-surface: #ffffff;
+
+  /* Observed CSS effects; reference values remain separate from semantic use. */
+  --shadow-control: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-dialog: 0 24px 80px rgba(0, 0, 0, 0.18);
+  --blur-navigation: 20px;
+  --duration-navigation: 400ms;
+  --ease-feedback: ease;
+  --ease-expressive: cubic-bezier(0.2, 1, 0.6, 1);
+  --color-action-accessible: var(--color-blue-600);
+
+  /* Motion: feedback/transform observed; reveal is a study recommendation. */
+  --duration-fast: 150ms;
+  --duration-medium: 200ms;
+  --duration-reveal: 600ms;
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --motion-sequence-frame-count: 138;
+  --motion-sequence-scroll-height: 650;
+  --motion-sequence-frame-phase: 0.75;
+  --motion-earth-scroll-height: 300;
+  --motion-earth-rotation-speed: 6;
+  --motion-earth-dot-count: 13149;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --height-nav: 3.5rem;
+    --font-size-title-md: 1.75rem;
+    --font-size-title-lg: 2.25rem;
+    --font-size-display: 2.5rem;
+    --line-height-title-md: 1.45;
+    --line-height-title-lg: 1.28;
+    --line-height-display: 1.15;
+    --radius-media: 2.5rem;
+    --gutter-page: 1.25rem;
+    --space-section: 6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-medium: 0ms;
+    --duration-reveal: 0ms;
+  }
+}

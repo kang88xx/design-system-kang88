@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="토스 공개 홈의 실제 소스와 재현한 모션을 검색하고 복사하는 디자인 시스템 라이브러리"
+    />
+    <title>Toss Design Library · 소스와 인터랙션</title>
+    <link rel="stylesheet" href="./studio-shell.css?v=20260913" />
+    <link rel="stylesheet" href="./components.css?v=20260907" />
+    <link rel="stylesheet" href="./catalog.css?v=20260907" />
+    <link rel="stylesheet" href="./motion-lab.css?v=20260907" />
+    <link rel="stylesheet" href="./source-media.css?v=20260907" />
+    <link rel="stylesheet" href="./studio-brand.css?v=20260913" />
+  </head>
+  <body>
+    <div class="as-studio">
+    <a class="skip-link" href="#main">본문으로 이동</a>
+
+    <aside id="as-nav" class="as-sidebar" aria-label="디자인 시스템 라이브러리">
+      <a class="as-brand" href="#intro" aria-label="Toss Design Library 홈">
+        <span class="as-brand-mark"><img src="./assets/source/3364a280986e-logo-toss-blue-2x.png" alt="" /></span>
+        <div>
+          <strong>Design Library</strong>
+          <span>PUBLIC SITE STUDY</span>
+        </div>
+        <span class="as-brand-badge">WEB</span>
+      </a>
+
+      <div class="as-sidebar-group">
+        <span class="as-sidebar-label">Library</span>
+        <nav aria-label="Library">
+          <a href="#intro" data-shell-link><span class="as-nav-index">01</span><span>둘러보기</span></a>
+          <a href="#live-catalog" data-shell-link><span class="as-nav-index">02</span><span>소스 라이브러리</span><strong class="as-nav-count" data-library-count="all">…</strong></a>
+          <a href="#source-motion" data-shell-link><span class="as-nav-index">03</span><span>원본 모션</span></a>
+          <a href="#motion-lab" data-shell-link><span class="as-nav-index">04</span><span>모션 실험실</span><strong class="as-nav-count">6</strong></a>
+        </nav>
+
+        <span class="as-sidebar-label">Foundations</span>
+        <nav aria-label="Foundations">
+          <a href="#colors" data-shell-link><span class="as-nav-index">05</span><span>색상과 토큰</span></a>
+          <a href="#typography" data-shell-link><span class="as-nav-index">06</span><span>타이포그래피</span></a>
+          <a href="#icons" data-shell-link><span class="as-nav-index">07</span><span>아이콘</span><strong class="as-nav-count" data-library-count="icons">…</strong></a>
+          <a href="#shapes" data-shell-link><span class="as-nav-index">08</span><span>도형과 박스</span></a>
+        </nav>
+
+        <span class="as-sidebar-label">Patterns</span>
+        <nav aria-label="Patterns">
+          <a href="#principles" data-shell-link><span class="as-nav-index">09</span><span>디자인 원칙</span></a>
+          <a href="#dataviz" data-shell-link><span class="as-nav-index">10</span><span>데이터 시각화</span></a>
+          <a href="#interactions" data-shell-link><span class="as-nav-index">11</span><span>상태와 피드백</span></a>
+          <a href="#components" data-shell-link><span class="as-nav-index">12</span><span>컴포넌트</span></a>
+          <a href="#global-motion" data-shell-link><span class="as-nav-index">13</span><span>글로벌 스크롤</span></a>
+          <a href="#source-audit" data-shell-link><span class="as-nav-index">14</span><span>출처와 수집 범위</span></a>
+        </nav>
+      </div>
+
+      <div class="as-sidebar-bottom">
+        <span class="as-status-dot"></span>
+        <span>출처: toss.im<small>2026-09-07 공개 홈 수집</small><small>스터디 · 공식 TDS 아님</small></span>
+        <a href="https://toss.im/" target="_blank" rel="noreferrer" aria-label="Open original website">↗</a>
+      </div>
+    </aside>
+    <button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+
+    <div class="as-main-shell">
+      <header class="as-topbar">
+        <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+        <div class="as-breadcrumb">
+          <span>Design system</span>
+          <span>/</span>
+          <strong>둘러보기</strong>
+        </div>
+        <div class="as-topbar-tools">
+          <form class="as-topbar-search" role="search" data-global-search-form>
+            <svg class="icon icon--md" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-search" /></svg>
+            <input type="search" placeholder="소스, 색상, 모션 검색..." aria-label="전체 카탈로그 검색" data-global-search />
+          </form>
+          <nav class="site-nav__links catalog-primary-links" aria-label="디자인 시스템 섹션">
+            <a class="site-nav__link" data-section-link href="#principles">원칙</a>
+            <a class="site-nav__link" data-section-link href="#colors">기초</a>
+            <a class="site-nav__link" data-section-link href="#icons">아이콘</a>
+            <a class="site-nav__link" data-section-link href="#dataviz">시각화</a>
+            <a class="site-nav__link" data-section-link href="#global-motion">모션</a>
+            <a class="site-nav__link" data-section-link href="#shapes">도형</a>
+            <a class="site-nav__link" data-section-link href="#interactions">인터랙션</a>
+          </nav>
+          <button
+            class="mobile-menu-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            메뉴
+          </button>
+          <a class="as-export-button site-nav__source" href="https://toss.im/" target="_blank" rel="noreferrer">원본 보기 <span aria-hidden="true">↗</span></a>
+          <a class="as-export-button" href="./tokens.css" download>Export tokens <span aria-hidden="true">↧</span></a>
+        </div>
+      </header>
+
+      <nav class="mobile-nav" id="mobile-menu" aria-label="모바일 디자인 시스템 섹션" hidden>
+        <a data-section-link href="#intro">둘러보기</a>
+        <a data-section-link href="#live-catalog">소스 라이브러리</a>
+        <a data-section-link href="#source-motion">원본 모션</a>
+        <a data-section-link href="#motion-lab">모션 실험실</a>
+        <a data-section-link href="#principles">원칙</a>
+        <a data-section-link href="#colors">기초 토큰</a>
+        <a data-section-link href="#typography">타이포</a>
+        <a data-section-link href="#icons">아이콘</a>
+        <a data-section-link href="#dataviz">인포그래픽</a>
+        <a data-section-link href="#global-motion">글로벌 모션</a>
+        <a data-section-link href="#shapes">도형</a>
+        <a data-section-link href="#interactions">인터랙션</a>
+        <a data-section-link href="#components">컴포넌트</a>
+        <a data-section-link href="#source-audit">소스 감사</a>
+        <a href="./DESIGN.md">디자인 문서</a>
+      </nav>
+
+      <nav class="page-rail" aria-label="페이지 섹션 탐색" data-page-rail>
+        <span class="page-rail__label" data-page-rail-label aria-hidden="true"></span>
+        <a class="page-rail__link" href="#intro" data-rail-link aria-label="시작"><span></span></a>
+        <a class="page-rail__link" href="#principles" data-rail-link aria-label="원칙"><span></span></a>
+        <a class="page-rail__link" href="#colors" data-rail-link aria-label="색상"><span></span></a>
+        <a class="page-rail__link" href="#typography" data-rail-link aria-label="타이포"><span></span></a>
+        <a class="page-rail__link" href="#icons" data-rail-link aria-label="아이콘"><span></span></a>
+        <a class="page-rail__link" href="#dataviz" data-rail-link aria-label="시각화"><span></span></a>
+        <a class="page-rail__link" href="#global-motion" data-rail-link aria-label="글로벌 모션"><span></span></a>
+        <a class="page-rail__link" href="#shapes" data-rail-link aria-label="도형"><span></span></a>
+        <a class="page-rail__link" href="#interactions" data-rail-link aria-label="인터랙션"><span></span></a>
+        <a class="page-rail__link" href="#components" data-rail-link aria-label="컴포넌트"><span></span></a>
+        <a class="page-rail__link" href="#source-audit" data-rail-link aria-label="소스 감사"><span></span></a>
+      </nav>
+
+      <main id="main" tabindex="-1" class="as-workspace as-page-overview">
+      <section id="intro" aria-labelledby="hero-title">
+        <div class="as-overview-title">
+          <div class="as-eyebrow">
+            <span class="as-status-dot"></span>
+            <span>TOSS DESIGN LIBRARY</span>
+            <span class="as-version overview-version">2026.09 <i aria-hidden="true"></i> 공개 소스 기반</span>
+          </div>
+          <h1 id="hero-title">좋은 디자인을,<br />쓸 수 있는 소스로.</h1>
+          <p class="as-intro">토스의 색상부터 작은 움직임까지.<br />실제 화면에서 발견한 요소를 탐색하고,<br class="desktop-break" /> 내 프로젝트에 맞게 꺼내 쓰세요.</p>
+          <div class="as-title-actions">
+            <a class="as-button" href="#live-catalog">소스 둘러보기 <span aria-hidden="true">↗</span></a>
+            <a class="as-text-command" href="#motion-lab">모션 체험하기 <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="as-stats-strip" aria-label="소스 수집 현황">
+          <div><strong data-library-count="all">—</strong><span>탐색 가능한 소스</span></div>
+          <div><strong data-asset-count>—</strong><span>발견한 미디어 자산</span></div>
+          <div><strong>2<span> sizes</span></strong><span>데스크톱 · 모바일</span></div>
+          <div><a href="./dist/toss-source-kit.zip" download><strong aria-hidden="true">↓</strong><span>소스 키트 다운로드</span></a></div>
+        </div>
+        <figure class="overview-reference">
+          <a href="https://toss.im/" target="_blank" rel="noreferrer"><img src="./evidence/source/home-1440.png" alt="토스 공개 홈. 생활 장면 위에 큰 제목과 둥근 미디어 경계를 사용한 실제 화면." width="1440" height="1000" /></a>
+          <figcaption><span><i aria-hidden="true"></i> toss.im · 실제 수집 화면</span><span>1440 × 1000</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="section live-catalog" id="live-catalog" data-live-catalog aria-label="소스 라이브러리">
+        <div class="as-section-heading"><div><h2>소스 라이브러리</h2><p role="status">수집한 소스를 불러오고 있어요.</p></div></div>
+      </section>
+
+      <section class="section" id="source-motion" data-source-motion aria-label="원본 모션 플레이어"></section>
+
+      <section class="section" id="motion-lab" data-motion-lab aria-label="모션 실험실"></section>
+
+      <section class="section" id="principles" data-progress-label="원칙" aria-labelledby="principles-title">
+        <div class="as-section-heading">
+          <div>
+            <h2 class="section-heading" id="principles-title">사용 장면이 약속보다 먼저다</h2>
+            <p class="section-lede">
+              토스 홈은 기능을 나열하지 않는다. 실제 행동, 한 문장의 이점, 짧은 근거, 한 개의 다음 행동을 순서대로 보여준다.
+            </p>
+          </div>
+        </div>
+
+        <div class="demo-grid">
+          <div class="demo-copy">
+            <p class="eyebrow">Narrative component</p>
+            <h3>내 자산은<br />한곳에서 이해하기</h3>
+            <p>숫자와 금융사를 먼저 늘어놓지 않고, 사용자가 얻는 결과를 먼저 설명한다.</p>
+            <a class="button button--primary" href="#components">컴포넌트 확인하기</a>
+          </div>
+
+          <div class="product-panel" aria-label="자산 요약 제품 패널 예시">
+            <article class="account-card">
+              <span class="account-card__label">내 자산</span>
+              <p class="account-card__value">49,348,000원</p>
+              <ul class="account-list">
+                <li><span>생활 계좌</span><strong>4,820,000원</strong></li>
+                <li><span>투자 계좌</span><strong>32,048,000원</strong></li>
+                <li><span>저축 계좌</span><strong>12,480,000원</strong></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="colors" data-progress-label="색상" aria-labelledby="colors-title">
+        <div class="as-section-heading">
+          <div>
+            <h2 class="section-heading" id="colors-title">색은 행동과 상태에만 쓴다</h2>
+            <p class="section-lede">파랑 한 가지가 행동을 맡고, 회색 단계가 대부분의 정보 계층을 만든다.</p>
+          </div>
+        </div>
+
+        <div class="token-grid">
+          <div class="swatch" style="--swatch: #3182f6; --swatch-text: #fff">
+            <strong>Blue 500</strong><span>#3182f6 · primary action</span>
+          </div>
+          <div class="swatch" style="--swatch: #e8f3ff">
+            <strong>Blue 50</strong><span>#e8f3ff · brand surface</span>
+          </div>
+          <div class="swatch" style="--swatch: #191f28; --swatch-text: #fff">
+            <strong>Grey 900</strong><span>#191f28 · strong text</span>
+          </div>
+          <div class="swatch" style="--swatch: #333d4b; --swatch-text: #fff">
+            <strong>Grey 800</strong><span>#333d4b · primary text</span>
+          </div>
+          <div class="swatch" style="--swatch: #4e5968; --swatch-text: #fff">
+            <strong>Grey 700</strong><span>#4e5968 · secondary text</span>
+          </div>
+          <div class="swatch" style="--swatch: #8b95a1">
+            <strong>Grey 500</strong><span>#8b95a1 · muted text</span>
+          </div>
+          <div class="swatch" style="--swatch: #f2f4f6">
+            <strong>Grey 100</strong><span>#f2f4f6 · muted surface</span>
+          </div>
+          <div class="swatch" style="--swatch: #ffffff">
+            <strong>White</strong><span>#ffffff · base surface</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="typography" data-progress-label="타이포" aria-labelledby="type-title">
+        <div class="as-section-heading">
+          <div>
+            <h2 class="section-heading" id="type-title">큰 제목과 넓은 여백이 계층을 만든다</h2>
+          </div>
+        </div>
+        <div class="type-specimens">
+          <div class="type-row">
+            <span class="type-row__meta">Display · 80/96 · 700</span>
+            <p class="type-row__sample" style="--sample-size: 5rem; --sample-line: 1.2; --sample-weight: 700; --sample-tracking: -0.02em">마침내 하나로</p>
+          </div>
+          <div class="type-row">
+            <span class="type-row__meta">Section · 40/56 · 700</span>
+            <p class="type-row__sample" style="--sample-size: 2.5rem; --sample-line: 1.4; --sample-weight: 700; --sample-tracking: -0.02em">몇 번만 누르면 끝나는 송금</p>
+          </div>
+          <div class="type-row">
+            <span class="type-row__meta">Body · 16/25.6 · 400</span>
+            <p class="type-row__sample">복잡한 과정을 숨기고 사용자가 얻는 결과와 다음 행동을 짧게 설명한다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tinted" id="icons" data-progress-label="아이콘" aria-labelledby="icons-title">
+        <div class="section-intro as-section-heading" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--dark as-eyebrow">Normalized core 12 · live source 55</p>
+            <h2 class="section-heading" id="icons-title">핵심 아이콘과 라이브 소스를 분리한다</h2>
+            <p class="section-lede">
+              아래 12개는 재사용 규격을 보여주는 핵심 예시이며 전체 목록이 아니다. 실제 홈에서 수집한 55개 고유 소스는
+              <a href="#live-catalog">라이브 아이콘 전체 보기</a>에서 확인한다.
+            </p>
+          </div>
+        </div>
+
+        <div class="icon-system" data-reveal>
+          <div class="icon-board" aria-label="디자인 시스템 아이콘 12종">
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-arrow-right" /></svg><span>arrow</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-chevron-down" /></svg><span>chevron</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-close" /></svg><span>close</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-check" /></svg><span>check</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-info" /></svg><span>info</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-warning" /></svg><span>warning</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-search" /></svg><span>search</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-wallet" /></svg><span>wallet</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-transfer" /></svg><span>transfer</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-chart" /></svg><span>chart</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-card" /></svg><span>card</span></div>
+            <div class="icon-tile"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-shield" /></svg><span>shield</span></div>
+          </div>
+
+          <aside class="icon-guidance" aria-label="아이콘 사용 규칙">
+            <div>
+              <span class="spec-label">Size</span>
+              <div class="icon-sizes" aria-label="아이콘 크기 16, 20, 24, 32픽셀">
+                <span><svg class="icon icon--sm" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-wallet" /></svg>16</span>
+                <span><svg class="icon icon--md" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-wallet" /></svg>20</span>
+                <span><svg class="icon icon--lg" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-wallet" /></svg>24</span>
+                <span><svg class="icon icon--xl" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-wallet" /></svg>32</span>
+              </div>
+            </div>
+            <dl class="rule-list">
+              <div><dt>그리드</dt><dd>24 × 24px, 바깥 여백 2px 이상</dd></div>
+              <div><dt>선</dt><dd>1.75px, 둥근 끝과 모서리</dd></div>
+              <div><dt>색</dt><dd>단색 currentColor, 상태색은 의미가 있을 때만</dd></div>
+              <div><dt>라벨</dt><dd>처음 보는 행동은 아이콘과 텍스트를 함께 표시</dd></div>
+            </dl>
+            <div class="icon-actions" aria-label="아이콘 버튼 예시">
+              <button class="icon-button" type="button" aria-label="검색">
+                <svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-search" /></svg>
+              </button>
+              <button class="icon-button" type="button" aria-label="보안 정보">
+                <svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-shield" /></svg>
+              </button>
+              <button class="button button--soft" type="button">
+                내역 보기
+                <svg class="icon icon--md" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-arrow-right" /></svg>
+              </button>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="dataviz" data-progress-label="시각화" aria-labelledby="dataviz-title">
+        <div class="section-intro as-section-heading" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--dark as-eyebrow">Data visualization</p>
+            <h2 class="section-heading" id="dataviz-title">숫자의 크기보다, 다음 판단을 먼저 보여준다</h2>
+            <p class="section-lede">
+              금융 데이터는 비교 기준, 변화 방향, 실제 값을 함께 제공한다. 색만으로 상승과 하락을 구분하지 않는다.
+            </p>
+          </div>
+        </div>
+
+        <div class="data-canvas" data-reveal>
+          <figure class="asset-chart" aria-labelledby="asset-chart-title">
+            <figcaption>
+              <span class="spec-label">Composition</span>
+              <strong id="asset-chart-title">자산 구성</strong>
+              <span>총 49,348,000원</span>
+            </figcaption>
+            <div class="bar-chart">
+              <div class="bar-row">
+                <span>투자</span>
+                <div class="bar-track"><span class="bar-fill" style="--bar-value: 65%"></span></div>
+                <strong>65%</strong>
+              </div>
+              <div class="bar-row">
+                <span>저축</span>
+                <div class="bar-track"><span class="bar-fill bar-fill--secondary" style="--bar-value: 25%"></span></div>
+                <strong>25%</strong>
+              </div>
+              <div class="bar-row">
+                <span>생활</span>
+                <div class="bar-track"><span class="bar-fill bar-fill--neutral" style="--bar-value: 10%"></span></div>
+                <strong>10%</strong>
+              </div>
+            </div>
+            <p class="chart-note"><svg class="icon icon--md" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-info" /></svg>비율과 금액을 함께 적어 색을 보지 않아도 비교할 수 있다.</p>
+          </figure>
+
+          <figure class="donut-chart" aria-labelledby="donut-title">
+            <figcaption><span class="spec-label">Part to whole</span><strong id="donut-title">이번 달 지출</strong></figcaption>
+            <div class="donut-layout">
+              <svg class="donut" viewBox="0 0 120 120" role="img" aria-labelledby="donut-svg-title donut-svg-desc">
+                <title id="donut-svg-title">이번 달 지출 구성</title>
+                <desc id="donut-svg-desc">생활 61퍼센트, 이동 25퍼센트, 기타 14퍼센트</desc>
+                <circle class="donut__base" cx="60" cy="60" r="48" pathLength="100" />
+                <circle class="donut__segment donut__segment--primary" cx="60" cy="60" r="48" pathLength="100" stroke-dasharray="61 39" />
+                <circle class="donut__segment donut__segment--secondary" cx="60" cy="60" r="48" pathLength="100" stroke-dasharray="25 75" stroke-dashoffset="-63" />
+                <circle class="donut__segment donut__segment--neutral" cx="60" cy="60" r="48" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="-90" />
+              </svg>
+              <ul class="chart-legend">
+                <li><i class="legend-key legend-key--primary"></i><span>생활</span><strong>61%</strong></li>
+                <li><i class="legend-key legend-key--secondary"></i><span>이동</span><strong>25%</strong></li>
+                <li><i class="legend-key legend-key--neutral"></i><span>기타</span><strong>14%</strong></li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure class="trend-chart" aria-labelledby="trend-title">
+            <figcaption>
+              <span><span class="spec-label">Change over time</span><strong id="trend-title">6개월 자산 변화</strong></span>
+              <span class="trend-value"><svg class="icon icon--md" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-chart" /></svg>+8.4%</span>
+            </figcaption>
+            <svg class="trend-line" viewBox="0 0 620 190" role="img" aria-labelledby="trend-svg-title trend-svg-desc">
+              <title id="trend-svg-title">6개월 자산 변화 추이</title>
+              <desc id="trend-svg-desc">3월의 일시 하락 뒤 6월까지 꾸준히 상승해 전체 8.4퍼센트 증가했다.</desc>
+              <g class="trend-grid">
+                <path d="M24 32H596M24 88H596M24 144H596" />
+              </g>
+              <path class="trend-area" d="M24 136C80 122 108 118 154 124S230 104 282 110s86-56 146-42 96-6 168-44v142H24Z" />
+              <path class="trend-path" d="M24 136C80 122 108 118 154 124S230 104 282 110s86-56 146-42 96-6 168-44" />
+              <g class="trend-points"><circle cx="24" cy="136" r="4" /><circle cx="154" cy="124" r="4" /><circle cx="282" cy="110" r="4" /><circle cx="428" cy="68" r="4" /><circle cx="596" cy="24" r="4" /></g>
+            </svg>
+            <div class="trend-labels" aria-hidden="true"><span>1월</span><span>2월</span><span>3월</span><span>4월</span><span>5월</span><span>6월</span></div>
+          </figure>
+        </div>
+      </section>
+
+      <section
+        class="global-earth"
+        id="global-motion"
+        data-progress-label="글로벌 모션"
+        data-earth-section
+        aria-labelledby="global-motion-title"
+      >
+        <div class="global-earth__sticky">
+          <img
+            class="global-earth__background"
+            src="./assets/source/bc12cbf0a679-footer-background.png"
+            alt=""
+            loading="lazy"
+          />
+          <canvas class="global-earth__stars" data-earth-stars aria-hidden="true"></canvas>
+          <div class="global-earth__copy" data-earth-copy>
+            <p>Global reveal</p>
+            <h2 id="global-motion-title">전 세계 어디서든 마침내 토스 하나로.</h2>
+            <p>우리가 만든 변화가 국경을 넘어 모두의 상식이 될 때, 세상은 마침내 토스 하나로 충분해진다.</p>
+          </div>
+          <div class="global-earth__visual" data-earth-visual>
+            <canvas
+              class="global-earth__canvas"
+              data-earth-canvas
+              role="img"
+              aria-label="흰 점으로 표현한 대륙과 위도·경도 선이 천천히 회전하는 지구본"
+            >
+              전 세계로 확장되는 서비스를 표현한 회전 지구본
+            </canvas>
+            <div class="global-earth__loading" data-earth-loading role="status">지구 데이터 불러오는 중…</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="shapes" data-progress-label="도형" aria-labelledby="shapes-title">
+        <div class="section-intro as-section-heading" data-reveal>
+          <div>
+            <p class="eyebrow as-eyebrow">Shape language</p>
+            <h2 class="section-heading" id="shapes-title">도형은 장식이 아니라 관계를 설명한다</h2>
+            <p class="section-lede">
+              원은 상태, 선은 흐름, 필은 선택, 둥근 사각형은 콘텐츠 경계를 맡는다. 목적 없는 장식 도형은 만들지 않는다.
+            </p>
+          </div>
+        </div>
+
+        <div class="shape-system" data-reveal>
+          <div class="shape-stage" aria-label="도형 문법으로 구성한 송금 흐름 예시">
+            <div class="shape-flow">
+              <div class="shape-node shape-node--source"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-wallet" /></svg><span>내 계좌</span></div>
+              <div class="shape-connector"><span>52,000원</span></div>
+              <div class="shape-node shape-node--destination"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-check" /></svg><span>송금 완료</span></div>
+            </div>
+            <div class="shape-caption"><span>상태</span><span>흐름</span><span>결과</span></div>
+          </div>
+          <dl class="shape-rules">
+            <div><dt><i class="shape-sample shape-sample--circle"></i>Circle</dt><dd>진행점, 상태, 사람처럼 단일 대상을 나타낸다.</dd></div>
+            <div><dt><i class="shape-sample shape-sample--line"></i>Line</dt><dd>시간과 이동 방향처럼 두 항목의 관계를 잇는다.</dd></div>
+            <div><dt><i class="shape-sample shape-sample--pill"></i>Pill</dt><dd>짧은 선택과 필터처럼 한 줄짜리 제어에만 쓴다.</dd></div>
+            <div><dt><i class="shape-sample shape-sample--panel"></i>Panel</dt><dd>관련 콘텐츠를 묶되 그림자보다 면과 간격으로 구분한다.</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="interactions" data-progress-label="인터랙션" aria-labelledby="interactions-title">
+        <div class="section-intro as-section-heading" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--dark as-eyebrow">Interaction and motion</p>
+            <h2 class="section-heading" id="interactions-title">누른 다음에 무슨 일이 생겼는지 바로 보여준다</h2>
+            <p class="section-lede">
+              빠른 피드백은 150ms, 구성요소 전환은 200ms, 큰 설명 전환은 600ms를 쓴다. 움직임을 줄인 환경에서는 최종 상태를 즉시 표시한다.
+            </p>
+          </div>
+        </div>
+
+        <div class="interaction-workbench" data-reveal>
+          <section class="state-demo" aria-labelledby="state-demo-title">
+            <div class="workbench-heading"><span class="spec-label">Async feedback</span><h3 id="state-demo-title">송금 상태</h3></div>
+            <div class="transfer-card" data-transfer-card>
+              <div class="transfer-card__icon"><svg class="icon icon--lg" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-transfer" /></svg></div>
+              <div><span>김토스님에게</span><strong>52,000원</strong></div>
+            </div>
+            <button class="button button--primary progress-button" type="button" data-progress-button>
+              <span data-transfer-progress-label>송금하기</span>
+              <svg class="icon icon--md" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-arrow-right" /></svg>
+            </button>
+            <p class="status-message" data-status-message aria-live="polite">버튼을 누르면 로딩과 완료 피드백을 확인할 수 있다.</p>
+          </section>
+
+          <section class="control-demo" aria-labelledby="control-demo-title">
+            <div class="workbench-heading"><span class="spec-label">Selection</span><h3 id="control-demo-title">명확한 선택</h3></div>
+            <div class="tabs" data-tabs>
+              <div class="tab-list" role="tablist" aria-label="알림 종류">
+                <button id="tab-spend" role="tab" aria-selected="true" aria-controls="panel-spend" type="button">지출</button>
+                <button id="tab-asset" role="tab" aria-selected="false" aria-controls="panel-asset" type="button" tabindex="-1">자산</button>
+                <button id="tab-benefit" role="tab" aria-selected="false" aria-controls="panel-benefit" type="button" tabindex="-1">혜택</button>
+              </div>
+              <div id="panel-spend" class="tab-panel" role="tabpanel" aria-labelledby="tab-spend">이번 주 지출이 지난주보다 <strong>34,200원 적다.</strong></div>
+              <div id="panel-asset" class="tab-panel" role="tabpanel" aria-labelledby="tab-asset" hidden>전체 자산이 지난달보다 <strong>1.8% 늘었다.</strong></div>
+              <div id="panel-benefit" class="tab-panel" role="tabpanel" aria-labelledby="tab-benefit" hidden>이번 달 받을 수 있는 혜택이 <strong>3개 남았다.</strong></div>
+            </div>
+            <div class="switch-row">
+              <span><strong>중요 알림</strong><small>입출금과 보안 알림만 받기</small></span>
+              <button class="switch" type="button" role="switch" aria-checked="true" aria-label="중요 알림 켜짐"><span></span></button>
+            </div>
+          </section>
+
+          <section class="motion-demo" aria-labelledby="motion-demo-title">
+            <div class="workbench-heading"><span class="spec-label">Motion tokens</span><h3 id="motion-demo-title">속도는 의미를 가진다</h3></div>
+            <div class="motion-timeline">
+              <div><span>150ms</span><i class="motion-bar motion-bar--fast"></i><strong>눌림</strong></div>
+              <div><span>200ms</span><i class="motion-bar motion-bar--medium"></i><strong>상태 전환</strong></div>
+              <div><span>600ms</span><i class="motion-bar motion-bar--reveal"></i><strong>설명 전환</strong></div>
+            </div>
+            <div class="feedback-stack" aria-label="상태 메시지 예시">
+              <div class="feedback feedback--success"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-check" /></svg><span><strong>연결 완료</strong> 계좌 정보를 불러왔다.</span></div>
+              <div class="feedback feedback--warning"><svg class="icon" aria-hidden="true"><use href="./icons.svg?v=20260901-1#icon-warning" /></svg><span><strong>다시 확인</strong> 인증 시간이 곧 끝난다.</span></div>
+              <div class="skeleton" aria-label="정보를 불러오는 중"><span></span><span></span><span></span></div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="section" id="components" data-progress-label="컴포넌트" aria-labelledby="components-title">
+        <div class="as-section-heading">
+          <div>
+            <h2 class="section-heading" id="components-title">컴포넌트는 적고, 상태는 분명하게</h2>
+            <p class="section-lede">버튼과 선택지는 단순한 형태를 유지한다. 차이는 색, 문구, 상태에서 만든다.</p>
+          </div>
+        </div>
+
+        <div class="component-strip" aria-label="버튼 상태 예시">
+          <button class="button button--primary" type="button">계속하기</button>
+          <button class="button button--soft" type="button">나중에 보기</button>
+          <button class="button" type="button" disabled>사용할 수 없음</button>
+        </div>
+
+        <div class="component-strip" role="group" aria-label="금융 분야 선택">
+          <button class="chip" type="button" aria-pressed="true">대출</button>
+          <button class="chip" type="button" aria-pressed="false">카드</button>
+          <button class="chip" type="button" aria-pressed="false">보험</button>
+        </div>
+
+        <aside class="note">
+          이 스터디의 토큰과 아이콘은 실제 웹 CSS와 공개 화면에서 관찰한 패턴을 바탕으로 재구성했다. 공식 TDS 또는 브랜드 자산 배포판으로 사용하지 않는다.
+        </aside>
+      </section>
+
+      <section class="section section--tinted source-audit" id="source-audit" data-progress-label="소스 감사" aria-labelledby="source-audit-title">
+        <div class="section-intro as-section-heading" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--dark as-eyebrow">Source coverage</p>
+            <h2 class="section-heading" id="source-audit-title">화면에서 보이지 않던 구현 소스까지 확인했다</h2>
+            <p class="section-lede">
+              라이브 페이지의 DOM, 네트워크, CSS와 JavaScript를 다시 대조했다. 이 표는 관찰한 원본과 현재 스터디의 구현 범위를 구분한다.
+            </p>
+          </div>
+        </div>
+
+        <div class="source-ledger" data-reveal>
+          <div class="source-ledger__head" aria-hidden="true"><span>원본 소스</span><span>관찰값</span><span>현재 상태</span></div>
+          <dl>
+            <div><dt>Rotating earth canvas</dt><dd>대륙 점 13,149개, 위·경도 10° 그리드, 초당 6° 회전</dd><dd><strong class="coverage coverage--done">구현</strong></dd></div>
+            <div><dt>Earth performance guard</dt><dd>30fps, DPR 1.5, 최대 400만 canvas pixel</dd><dd><strong class="coverage coverage--done">구현</strong></dd></div>
+            <div><dt>Global scroll narrative</dt><dd>고정 화면에서 문장은 사라지고 지구본이 위로 이동</dd><dd><strong class="coverage coverage--done">구현</strong></dd></div>
+            <div><dt>Fixed page rail</dt><dd>11개 anchor, hash 이동, hover label, theme 전환</dd><dd><strong class="coverage coverage--done">구현</strong></dd></div>
+            <div><dt>Hero frame sequence</dt><dd>AVIF / WebP 프레임 주소와 관찰한 애니메이션 키프레임을 수집</dd><dd><strong class="coverage coverage--study">소스 확인</strong></dd></div>
+            <div><dt>Motion accessibility</dt><dd>visibility gating, reduced-motion 정지 지구본</dd><dd><strong class="coverage coverage--done">구현</strong></dd></div>
+            <div><dt>Full product stories</dt><dd>송금, 자산, 금융, 투자, 쇼핑, 광고, 결제, 매장</dd><dd><strong class="coverage coverage--study">수집 데이터</strong></dd></div>
+            <div><dt>Official assets</dt><dd>공개 미디어는 로컬 스터디 자료로 보관하고 원본 URL·검증 해시를 연결</dd><dd><strong class="coverage coverage--remote">출처 연결</strong></dd></div>
+          </dl>
+        </div>
+
+
+      </section>
+
+      <footer class="as-studio-footer">
+        <span>Toss Design Library · 2026-09-07 공개 홈 스터디 · 공식 TDS 배포판이 아닙니다.</span>
+        <span><a href="./README.md">사용 방법</a> · <a href="./data/toss-source-library.json" download>전체 소스 JSON</a> · <a href="./source-coverage.md">수집 범위</a></span>
+      </footer>
+      </main>
+    </div>
+    <div class="as-toast" role="status"></div>
+    </div>
+    <script src="./studio-shell.js?v=20260913"></script>
+    <script src="./app.js?v=20260907"></script>
+    <script src="./source-media.js?v=20260907"></script>
+    <script src="./motion-lab.js?v=20260907"></script>
+    <script src="./earth-motion.js?v=20260901-4"></script>
+    <script src="./live-catalog.js?v=20260907"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="precision-tool-title precision-tool-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="precision-tool-title">Precision tool icon</title>
+  <desc id="precision-tool-desc">Newly constructed ARK Prefab outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[29],"family":"outline-utility","tone":"mono"}</metadata>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13h24"/>
+    <path d="M22 13v24"/>
+    <path d="M15 37h14"/>
+    <path d="M34 10v7"/>
+    <path d="M38 12h-4"/>
+    <path d="M38 18h-4"/>
+    <path d="M30 25h8"/>
+    <path d="M30 31h5"/>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+{
+  "page": 52,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\nTHANKS FOR\nWATCHING",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "THANKS FOR ",
+      "bbox": [
+        89.959,
+        49.887,
+        1119.859,
+        218.187
+      ],
+      "font": "Gotham-Medium",
+      "size": 150.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        89.959,
+        188.187
+      ]
+    },
+    {
+      "text": "WATCHING",
+      "bbox": [
+        89.959,
+        208.527,
+        917.209,
+        376.827
+      ],
+      "font": "Gotham-Medium",
+      "size": 150.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        89.959,
+        346.827
+      ]
+    }
+  ]
+}

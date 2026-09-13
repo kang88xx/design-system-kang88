@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Node import has no DOM side effects",
+      "passed": true
+    },
+    {
+      "name": "kit package exports runtime and types",
+      "passed": true
+    },
+    {
+      "name": "createSpring advances toward target",
+      "passed": true
+    },
+    {
+      "name": "createSpring reset returns value",
+      "passed": true
+    },
+    {
+      "name": "createSpring remains finite at frequency 60 and dt .064",
+      "passed": true
+    },
+    {
+      "name": "createSpring remains bounded at frequency 60 and dt .064",
+      "passed": true
+    },
+    {
+      "name": "snippets expose ten authored recipes",
+      "passed": true
+    },
+    {
+      "name": "same root mount is idempotent",
+      "passed": true
+    },
+    {
+      "name": "mount marks runtime ready",
+      "passed": true
+    },
+    {
+      "name": "initial tabs select first panel",
+      "passed": true
+    },
+    {
+      "name": "tabs arrow keyboard selects next own tab",
+      "passed": true
+    },
+    {
+      "name": "tabs Home keyboard selects first tab",
+      "passed": true
+    },
+    {
+      "name": "vertical tabs ignore horizontal arrow keys",
+      "passed": true
+    },
+    {
+      "name": "vertical tabs skip disabled tab",
+      "passed": true
+    },
+    {
+      "name": "dialog opens and focuses contained control",
+      "passed": true
+    },
+    {
+      "name": "dialog close restores opener focus",
+      "passed": true
+    },
+    {
+      "name": "toast actions stay isolated per root",
+      "passed": true
+    },
+    {
+      "name": "parent runtime ignores nested ds-root events",
+      "passed": true
+    },
+    {
+      "name": "setTheme writes root dataset",
+      "passed": true
+    },
+    {
+      "name": "magnetic button writes scoped CSS variables",
+      "passed": true
+    },
+    {
+      "name": "dynamic reduced motion reveals content and resets magnetic state",
+      "passed": true
+    },
+    {
+      "name": "destroy removes ready state",
+      "passed": true
+    },
+    {
+      "name": "destroy closes only runtime-owned dialogs",
+      "passed": true
+    },
+    {
+      "name": "destroy aborts delegated click listeners",
+      "passed": true
+    },
+    {
+      "name": "destroy clears magnetic inline state",
+      "passed": true
+    },
+    {
+      "name": "setTheme after destroy is a no-op",
+      "passed": true
+    },
+    {
+      "name": "mount init failure cleans instance for remount",
+      "passed": true
+    },
+    {
+      "name": "runtime snippets mount after innerHTML swaps",
+      "passed": true
+    },
+    {
+      "name": "invalid public API inputs throw bounded TypeErrors",
+      "passed": true
+    },
+    {
+      "name": "No page errors",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

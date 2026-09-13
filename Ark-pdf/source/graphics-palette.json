@@ -1,0 +1,1137 @@
+{
+  "summary": "Palette extracted from curated graphic PNG previews after excluding transparent and near-white source-background pixels. Counts are sampled/quantized for inspection, not a replacement for original vector gradients.",
+  "gradientObservation": "Line icons and quality/process glyphs use a violet-blue to deep navy range rather than one flat color; observed families include #5B5DD5 / #4E56D0 highlights and #061A58 / #132887 navy endpoints.",
+  "graphics": [
+    {
+      "id": "p01-ark-logo",
+      "name": "ARK Logo Lockup",
+      "page": 1,
+      "palette": [
+        {
+          "hex": "#2D39AA",
+          "count": 10440
+        },
+        {
+          "hex": "#2432A3",
+          "count": 7289
+        },
+        {
+          "hex": "#1E2D9D",
+          "count": 6805
+        },
+        {
+          "hex": "#2736A6",
+          "count": 6210
+        },
+        {
+          "hex": "#2130A0",
+          "count": 6074
+        },
+        {
+          "hex": "#2B37A8",
+          "count": 5793
+        },
+        {
+          "hex": "#1C2A9B",
+          "count": 3304
+        },
+        {
+          "hex": "#5D62A9",
+          "count": 2737
+        }
+      ]
+    },
+    {
+      "id": "p05-prefab-building",
+      "name": "Wireframe Prefab Building",
+      "page": 5,
+      "palette": [
+        {
+          "hex": "#081854",
+          "count": 3225046
+        },
+        {
+          "hex": "#051958",
+          "count": 1092925
+        },
+        {
+          "hex": "#5B668D",
+          "count": 83233
+        },
+        {
+          "hex": "#939AB4",
+          "count": 74593
+        },
+        {
+          "hex": "#243267",
+          "count": 63373
+        },
+        {
+          "hex": "#BEC1CE",
+          "count": 53551
+        },
+        {
+          "hex": "#D9DCE4",
+          "count": 45294
+        },
+        {
+          "hex": "#091955",
+          "count": 22706
+        }
+      ]
+    },
+    {
+      "id": "p09-character-sales",
+      "name": "Sales Department Character",
+      "page": 9,
+      "palette": [
+        {
+          "hex": "#EEC540",
+          "count": 18756
+        },
+        {
+          "hex": "#040000",
+          "count": 15297
+        },
+        {
+          "hex": "#182448",
+          "count": 13775
+        },
+        {
+          "hex": "#6E7971",
+          "count": 4248
+        },
+        {
+          "hex": "#D5D5D5",
+          "count": 3390
+        },
+        {
+          "hex": "#0F121D",
+          "count": 2184
+        },
+        {
+          "hex": "#EEC544",
+          "count": 144
+        },
+        {
+          "hex": "#F3DF9B",
+          "count": 119
+        }
+      ]
+    },
+    {
+      "id": "p09-character-technical",
+      "name": "Technical Department Character",
+      "page": 9,
+      "palette": [
+        {
+          "hex": "#EEC540",
+          "count": 35869
+        },
+        {
+          "hex": "#182448",
+          "count": 12065
+        },
+        {
+          "hex": "#040000",
+          "count": 11507
+        },
+        {
+          "hex": "#837959",
+          "count": 1920
+        },
+        {
+          "hex": "#DED8C5",
+          "count": 1492
+        },
+        {
+          "hex": "#0F121E",
+          "count": 1492
+        },
+        {
+          "hex": "#2B2417",
+          "count": 746
+        },
+        {
+          "hex": "#E1C56C",
+          "count": 136
+        }
+      ]
+    },
+    {
+      "id": "p09-character-quality",
+      "name": "Quality Inspection Character",
+      "page": 9,
+      "palette": [
+        {
+          "hex": "#E3E3E3",
+          "count": 42712
+        },
+        {
+          "hex": "#060304",
+          "count": 31964
+        },
+        {
+          "hex": "#EEC958",
+          "count": 30543
+        },
+        {
+          "hex": "#7CC6C6",
+          "count": 17097
+        },
+        {
+          "hex": "#F4E3D1",
+          "count": 4641
+        },
+        {
+          "hex": "#716E6F",
+          "count": 3189
+        },
+        {
+          "hex": "#F1E9E0",
+          "count": 314
+        },
+        {
+          "hex": "#E3E3E6",
+          "count": 288
+        }
+      ]
+    },
+    {
+      "id": "p09-character-affairs",
+      "name": "General Affairs Character",
+      "page": 9,
+      "palette": [
+        {
+          "hex": "#EEC540",
+          "count": 28940
+        },
+        {
+          "hex": "#182447",
+          "count": 16414
+        },
+        {
+          "hex": "#050305",
+          "count": 16056
+        },
+        {
+          "hex": "#A3442A",
+          "count": 10960
+        },
+        {
+          "hex": "#80A246",
+          "count": 7586
+        },
+        {
+          "hex": "#ACD082",
+          "count": 5180
+        },
+        {
+          "hex": "#F4DE9F",
+          "count": 1412
+        },
+        {
+          "hex": "#EEC543",
+          "count": 210
+        }
+      ]
+    },
+    {
+      "id": "p15-icon-fast",
+      "name": "Fast Icon",
+      "page": 15,
+      "palette": [
+        {
+          "hex": "#4550BC",
+          "count": 2675
+        },
+        {
+          "hex": "#031276",
+          "count": 2179
+        },
+        {
+          "hex": "#0C1A8A",
+          "count": 2047
+        },
+        {
+          "hex": "#132191",
+          "count": 1966
+        },
+        {
+          "hex": "#212F9E",
+          "count": 1842
+        },
+        {
+          "hex": "#2D3AA9",
+          "count": 1834
+        },
+        {
+          "hex": "#01107C",
+          "count": 1362
+        },
+        {
+          "hex": "#8A92D3",
+          "count": 1123
+        }
+      ]
+    },
+    {
+      "id": "p15-icon-flexible",
+      "name": "Flexible Icon",
+      "page": 15,
+      "palette": [
+        {
+          "hex": "#031274",
+          "count": 2827
+        },
+        {
+          "hex": "#2835A3",
+          "count": 2705
+        },
+        {
+          "hex": "#3C48B3",
+          "count": 2626
+        },
+        {
+          "hex": "#061661",
+          "count": 2300
+        },
+        {
+          "hex": "#172595",
+          "count": 2263
+        },
+        {
+          "hex": "#02117C",
+          "count": 1518
+        },
+        {
+          "hex": "#081780",
+          "count": 1238
+        },
+        {
+          "hex": "#7C84CC",
+          "count": 1152
+        }
+      ]
+    },
+    {
+      "id": "p15-icon-economy",
+      "name": "Economy Icon",
+      "page": 15,
+      "palette": [
+        {
+          "hex": "#3F4BB6",
+          "count": 4075
+        },
+        {
+          "hex": "#051468",
+          "count": 3796
+        },
+        {
+          "hex": "#2835A4",
+          "count": 3475
+        },
+        {
+          "hex": "#081858",
+          "count": 3241
+        },
+        {
+          "hex": "#162493",
+          "count": 3152
+        },
+        {
+          "hex": "#01107C",
+          "count": 3104
+        },
+        {
+          "hex": "#05147C",
+          "count": 2636
+        },
+        {
+          "hex": "#8189D1",
+          "count": 2256
+        }
+      ]
+    },
+    {
+      "id": "p15-icon-safety",
+      "name": "Safety Icon",
+      "page": 15,
+      "palette": [
+        {
+          "hex": "#3643AE",
+          "count": 3189
+        },
+        {
+          "hex": "#091854",
+          "count": 2444
+        },
+        {
+          "hex": "#01107E",
+          "count": 2022
+        },
+        {
+          "hex": "#15238F",
+          "count": 1584
+        },
+        {
+          "hex": "#051468",
+          "count": 1475
+        },
+        {
+          "hex": "#041381",
+          "count": 1088
+        },
+        {
+          "hex": "#7881C9",
+          "count": 1021
+        },
+        {
+          "hex": "#08185F",
+          "count": 953
+        }
+      ]
+    },
+    {
+      "id": "p26-icon-accommodations",
+      "name": "Accommodations Icon",
+      "page": 26,
+      "palette": [
+        {
+          "hex": "#5D68D0",
+          "count": 964
+        },
+        {
+          "hex": "#0B1989",
+          "count": 901
+        },
+        {
+          "hex": "#323EAB",
+          "count": 850
+        },
+        {
+          "hex": "#152293",
+          "count": 675
+        },
+        {
+          "hex": "#4450BB",
+          "count": 658
+        },
+        {
+          "hex": "#2330A0",
+          "count": 647
+        },
+        {
+          "hex": "#03127E",
+          "count": 610
+        },
+        {
+          "hex": "#A6ACDE",
+          "count": 553
+        }
+      ]
+    },
+    {
+      "id": "p26-icon-dining",
+      "name": "Dining And Hygiene Icon",
+      "page": 26,
+      "palette": [
+        {
+          "hex": "#6069D0",
+          "count": 818
+        },
+        {
+          "hex": "#1B2999",
+          "count": 745
+        },
+        {
+          "hex": "#515CC5",
+          "count": 691
+        },
+        {
+          "hex": "#404CB9",
+          "count": 619
+        },
+        {
+          "hex": "#031279",
+          "count": 604
+        },
+        {
+          "hex": "#2936A5",
+          "count": 585
+        },
+        {
+          "hex": "#0D1C8A",
+          "count": 561
+        },
+        {
+          "hex": "#A3A9DE",
+          "count": 509
+        }
+      ]
+    },
+    {
+      "id": "p26-icon-workspaces",
+      "name": "Workspaces Icon",
+      "page": 26,
+      "palette": [
+        {
+          "hex": "#1F2D9A",
+          "count": 1186
+        },
+        {
+          "hex": "#525CBD",
+          "count": 1041
+        },
+        {
+          "hex": "#02117F",
+          "count": 1002
+        },
+        {
+          "hex": "#06166D",
+          "count": 1001
+        },
+        {
+          "hex": "#3743AA",
+          "count": 777
+        },
+        {
+          "hex": "#B2B7D8",
+          "count": 702
+        },
+        {
+          "hex": "#0E1C7E",
+          "count": 655
+        },
+        {
+          "hex": "#031274",
+          "count": 408
+        }
+      ]
+    },
+    {
+      "id": "p26-icon-medical",
+      "name": "Medical And Health Icon",
+      "page": 26,
+      "palette": [
+        {
+          "hex": "#061668",
+          "count": 1336
+        },
+        {
+          "hex": "#02117D",
+          "count": 1318
+        },
+        {
+          "hex": "#323EAA",
+          "count": 1158
+        },
+        {
+          "hex": "#202E9A",
+          "count": 1069
+        },
+        {
+          "hex": "#535DC1",
+          "count": 1020
+        },
+        {
+          "hex": "#A9AFD8",
+          "count": 769
+        },
+        {
+          "hex": "#041370",
+          "count": 729
+        },
+        {
+          "hex": "#0C1B6F",
+          "count": 81
+        }
+      ]
+    },
+    {
+      "id": "p26-icon-recreation",
+      "name": "Recreation And Leisure Icon",
+      "page": 26,
+      "palette": [
+        {
+          "hex": "#01107D",
+          "count": 1326
+        },
+        {
+          "hex": "#626CD2",
+          "count": 1120
+        },
+        {
+          "hex": "#4954BF",
+          "count": 1118
+        },
+        {
+          "hex": "#3440AD",
+          "count": 1033
+        },
+        {
+          "hex": "#06166A",
+          "count": 1028
+        },
+        {
+          "hex": "#B6BBDC",
+          "count": 861
+        },
+        {
+          "hex": "#1C2997",
+          "count": 828
+        },
+        {
+          "hex": "#031273",
+          "count": 734
+        }
+      ]
+    },
+    {
+      "id": "p26-icon-storage",
+      "name": "Storage And Logistics Icon",
+      "page": 26,
+      "palette": [
+        {
+          "hex": "#061668",
+          "count": 1153
+        },
+        {
+          "hex": "#24319E",
+          "count": 978
+        },
+        {
+          "hex": "#3541AE",
+          "count": 894
+        },
+        {
+          "hex": "#02117E",
+          "count": 878
+        },
+        {
+          "hex": "#525CBA",
+          "count": 869
+        },
+        {
+          "hex": "#B3B8D9",
+          "count": 712
+        },
+        {
+          "hex": "#04136E",
+          "count": 510
+        },
+        {
+          "hex": "#0F1D7C",
+          "count": 484
+        }
+      ]
+    },
+    {
+      "id": "p29-icon-precision",
+      "name": "Precision Icon",
+      "page": 29,
+      "palette": [
+        {
+          "hex": "#4954C1",
+          "count": 2900
+        },
+        {
+          "hex": "#02117B",
+          "count": 2718
+        },
+        {
+          "hex": "#2E3BAA",
+          "count": 2646
+        },
+        {
+          "hex": "#182696",
+          "count": 2627
+        },
+        {
+          "hex": "#3945B3",
+          "count": 2586
+        },
+        {
+          "hex": "#2431A1",
+          "count": 2432
+        },
+        {
+          "hex": "#091884",
+          "count": 1771
+        },
+        {
+          "hex": "#7C84D7",
+          "count": 1721
+        }
+      ]
+    },
+    {
+      "id": "p29-icon-compliance",
+      "name": "Compliance Icon",
+      "page": 29,
+      "palette": [
+        {
+          "hex": "#4F5AC6",
+          "count": 2429
+        },
+        {
+          "hex": "#2A37A6",
+          "count": 1853
+        },
+        {
+          "hex": "#01107E",
+          "count": 1696
+        },
+        {
+          "hex": "#222F9F",
+          "count": 1575
+        },
+        {
+          "hex": "#3A46B4",
+          "count": 1378
+        },
+        {
+          "hex": "#152393",
+          "count": 1357
+        },
+        {
+          "hex": "#061583",
+          "count": 1255
+        },
+        {
+          "hex": "#8189D4",
+          "count": 840
+        }
+      ]
+    },
+    {
+      "id": "p29-icon-accountability",
+      "name": "Accountability Icon",
+      "page": 29,
+      "palette": [
+        {
+          "hex": "#4550BE",
+          "count": 3960
+        },
+        {
+          "hex": "#01107C",
+          "count": 3181
+        },
+        {
+          "hex": "#1A2898",
+          "count": 3176
+        },
+        {
+          "hex": "#122090",
+          "count": 3027
+        },
+        {
+          "hex": "#3743B1",
+          "count": 2791
+        },
+        {
+          "hex": "#2734A3",
+          "count": 2518
+        },
+        {
+          "hex": "#6D76D0",
+          "count": 1617
+        },
+        {
+          "hex": "#06157F",
+          "count": 1359
+        }
+      ]
+    },
+    {
+      "id": "p50-global-map",
+      "name": "Dotted Global Map",
+      "page": 50,
+      "palette": [
+        {
+          "hex": "#838382",
+          "count": 32837
+        },
+        {
+          "hex": "#D4D6D8",
+          "count": 32743
+        },
+        {
+          "hex": "#7F7F7E",
+          "count": 30111
+        },
+        {
+          "hex": "#A0A0A0",
+          "count": 26859
+        },
+        {
+          "hex": "#8C8C8C",
+          "count": 23656
+        },
+        {
+          "hex": "#B7B8B9",
+          "count": 23074
+        },
+        {
+          "hex": "#DDDEE0",
+          "count": 14584
+        },
+        {
+          "hex": "#CDCED0",
+          "count": 8992
+        }
+      ]
+    },
+    {
+      "id": "p06-timeline-diagram",
+      "name": "Timeline Diagram",
+      "page": 6,
+      "palette": [
+        {
+          "hex": "#051958",
+          "count": 194851
+        },
+        {
+          "hex": "#506086",
+          "count": 178567
+        },
+        {
+          "hex": "#1A2546",
+          "count": 51883
+        },
+        {
+          "hex": "#9C9FA6",
+          "count": 44439
+        },
+        {
+          "hex": "#C8C9CD",
+          "count": 33967
+        },
+        {
+          "hex": "#556081",
+          "count": 4656
+        },
+        {
+          "hex": "#333E60",
+          "count": 4600
+        },
+        {
+          "hex": "#0B1E5C",
+          "count": 1004
+        }
+      ]
+    },
+    {
+      "id": "p13-market-growth-step-chart",
+      "name": "Market Growth Step Chart",
+      "page": 13,
+      "palette": [
+        {
+          "hex": "#001086",
+          "count": 3870893
+        },
+        {
+          "hex": "#506086",
+          "count": 102143
+        },
+        {
+          "hex": "#0D1D8A",
+          "count": 8944
+        },
+        {
+          "hex": "#B4B8DB",
+          "count": 7592
+        },
+        {
+          "hex": "#868DC5",
+          "count": 6722
+        },
+        {
+          "hex": "#324096",
+          "count": 6399
+        },
+        {
+          "hex": "#011081",
+          "count": 3013
+        },
+        {
+          "hex": "#5560AE",
+          "count": 2574
+        }
+      ]
+    },
+    {
+      "id": "p14-modular-usage-volume-chart",
+      "name": "Modular Usage Soft Volume Chart",
+      "page": 14,
+      "palette": [
+        {
+          "hex": "#001086",
+          "count": 711001
+        },
+        {
+          "hex": "#6B75E1",
+          "count": 444394
+        },
+        {
+          "hex": "#303CAC",
+          "count": 438379
+        },
+        {
+          "hex": "#4C57C6",
+          "count": 432020
+        },
+        {
+          "hex": "#5B65D3",
+          "count": 431278
+        },
+        {
+          "hex": "#3E4AB9",
+          "count": 404758
+        },
+        {
+          "hex": "#212E9E",
+          "count": 402369
+        },
+        {
+          "hex": "#112090",
+          "count": 136335
+        }
+      ]
+    },
+    {
+      "id": "p25-overlapping-workflow-diagram",
+      "name": "Overlapping Workflow Diagram",
+      "page": 25,
+      "palette": [
+        {
+          "hex": "#C1C6D3",
+          "count": 2550001
+        },
+        {
+          "hex": "#9FA6BA",
+          "count": 198914
+        },
+        {
+          "hex": "#36405E",
+          "count": 61420
+        },
+        {
+          "hex": "#9EA6BA",
+          "count": 12782
+        },
+        {
+          "hex": "#B2B8C7",
+          "count": 6031
+        },
+        {
+          "hex": "#D4D7E0",
+          "count": 5143
+        },
+        {
+          "hex": "#C1C6D2",
+          "count": 3465
+        },
+        {
+          "hex": "#C2C6D3",
+          "count": 2559
+        }
+      ]
+    },
+    {
+      "id": "p46-arc-maintenance-process",
+      "name": "Arc Maintenance Process Diagram",
+      "page": 46,
+      "palette": [
+        {
+          "hex": "#A9A9A9",
+          "count": 28132
+        },
+        {
+          "hex": "#1A2546",
+          "count": 20765
+        },
+        {
+          "hex": "#DBDCE0",
+          "count": 16558
+        },
+        {
+          "hex": "#C0C0C3",
+          "count": 14784
+        },
+        {
+          "hex": "#011186",
+          "count": 13161
+        },
+        {
+          "hex": "#ADAEB0",
+          "count": 7534
+        },
+        {
+          "hex": "#5A638E",
+          "count": 3853
+        },
+        {
+          "hex": "#A4A9C5",
+          "count": 1493
+        }
+      ]
+    },
+    {
+      "id": "p51-social-facebook",
+      "name": "Facebook Symbol",
+      "page": 51,
+      "palette": [
+        {
+          "hex": "#001086",
+          "count": 43920
+        },
+        {
+          "hex": "#D7D9EC",
+          "count": 252
+        },
+        {
+          "hex": "#12218E",
+          "count": 234
+        },
+        {
+          "hex": "#6E77BA",
+          "count": 225
+        },
+        {
+          "hex": "#4F5AAC",
+          "count": 175
+        },
+        {
+          "hex": "#989FCE",
+          "count": 158
+        },
+        {
+          "hex": "#C2C5E1",
+          "count": 133
+        },
+        {
+          "hex": "#3744A0",
+          "count": 130
+        }
+      ]
+    },
+    {
+      "id": "p51-social-linkedin",
+      "name": "LinkedIn Symbol",
+      "page": 51,
+      "palette": [
+        {
+          "hex": "#001086",
+          "count": 43627
+        },
+        {
+          "hex": "#11208E",
+          "count": 257
+        },
+        {
+          "hex": "#535EAD",
+          "count": 237
+        },
+        {
+          "hex": "#DCDDEE",
+          "count": 222
+        },
+        {
+          "hex": "#9EA3D1",
+          "count": 208
+        },
+        {
+          "hex": "#C0C4E1",
+          "count": 163
+        },
+        {
+          "hex": "#7E86C1",
+          "count": 137
+        },
+        {
+          "hex": "#3744A0",
+          "count": 135
+        }
+      ]
+    },
+    {
+      "id": "p51-social-youtube",
+      "name": "YouTube Symbol",
+      "page": 51,
+      "palette": [
+        {
+          "hex": "#001086",
+          "count": 44285
+        },
+        {
+          "hex": "#9298CB",
+          "count": 243
+        },
+        {
+          "hex": "#6872B7",
+          "count": 169
+        },
+        {
+          "hex": "#B7BCDD",
+          "count": 162
+        },
+        {
+          "hex": "#D8DAEC",
+          "count": 149
+        },
+        {
+          "hex": "#273599",
+          "count": 138
+        },
+        {
+          "hex": "#4652A7",
+          "count": 132
+        },
+        {
+          "hex": "#0B1A8B",
+          "count": 117
+        }
+      ]
+    },
+    {
+      "id": "p51-social-mail",
+      "name": "Mail Symbol",
+      "page": 51,
+      "palette": [
+        {
+          "hex": "#001086",
+          "count": 51465
+        },
+        {
+          "hex": "#2C3A9B",
+          "count": 487
+        },
+        {
+          "hex": "#6670B7",
+          "count": 476
+        },
+        {
+          "hex": "#D2D5E9",
+          "count": 286
+        },
+        {
+          "hex": "#13228F",
+          "count": 233
+        },
+        {
+          "hex": "#969DCD",
+          "count": 210
+        },
+        {
+          "hex": "#3E4AA3",
+          "count": 154
+        },
+        {
+          "hex": "#5964B0",
+          "count": 129
+        }
+      ]
+    }
+  ]
+}

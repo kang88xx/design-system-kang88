@@ -1,0 +1,198 @@
+{
+  "page": 5,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n5\n\nARK PREFAB IS A TECH-DRIVEN\nMODULAR CONSTRUCTION\nCOMPANY.\n\nInnovation\n\nSustainability\n\nGlobalization",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "5",
+      "bbox": [
+        963.508,
+        1044.176,
+        969.808,
+        1055.496
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        963.508,
+        1053.496
+      ]
+    },
+    {
+      "text": "ARK PREFAB IS A TECH-DRIVEN ",
+      "bbox": [
+        52.213,
+        31.68,
+        1441.963,
+        127.05
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.213,
+        110.05
+      ]
+    },
+    {
+      "text": "MODULAR CONSTRUCTION ",
+      "bbox": [
+        52.213,
+        114.725,
+        1245.868,
+        210.095
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.213,
+        193.095
+      ]
+    },
+    {
+      "text": "COMPANY.",
+      "bbox": [
+        52.213,
+        197.77,
+        505.178,
+        293.14
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.213,
+        276.14
+      ]
+    },
+    {
+      "text": "Innovation",
+      "bbox": [
+        1646.283,
+        53.768,
+        1848.025,
+        96.404
+      ],
+      "font": "Gotham-Medium",
+      "size": 38.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1646.283,
+        88.804
+      ]
+    },
+    {
+      "text": "Sustainability",
+      "bbox": [
+        1586.456,
+        120.737,
+        1843.868,
+        163.373
+      ],
+      "font": "Gotham-Medium",
+      "size": 38.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1586.456,
+        155.773
+      ]
+    },
+    {
+      "text": "Globalization",
+      "bbox": [
+        1588.413,
+        187.706,
+        1841.911,
+        230.342
+      ],
+      "font": "Gotham-Medium",
+      "size": 38.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1588.413,
+        222.742
+      ]
+    }
+  ]
+}

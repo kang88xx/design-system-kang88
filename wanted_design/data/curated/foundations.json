@@ -1,0 +1,496 @@
+[
+  {
+    "path": "/docs/foundations/base-material/colors/atomic",
+    "name": "Colors",
+    "description": "원티드의 컬러시스템은 시각적 일관성을 유지하고 효율적인 디자인 작업을 돕습니다. 시멘틱 컬러를 통해 상황에 맞는 적절한 색상을 일관되게 사용할 수 있습니다.",
+    "sections": [
+      "Common",
+      "Neutral",
+      "Cool Neutral",
+      "Blue",
+      "Red",
+      "Green",
+      "Orange",
+      "Red Orange",
+      "Lime",
+      "Cyan",
+      "Light Blue",
+      "Violet",
+      "Purple",
+      "Pink",
+      "Opacity"
+    ],
+    "tables": [],
+    "images": [],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/colors/atomic"
+  },
+  {
+    "path": "/docs/foundations/base-material/colors/semantic",
+    "name": "Colors",
+    "description": "원티드의 컬러시스템은 시각적 일관성을 유지하고 효율적인 디자인 작업을 돕습니다. 시멘틱 컬러를 통해 상황에 맞는 적절한 색상을 일관되게 사용할 수 있습니다.",
+    "sections": [
+      "Primary",
+      "Label",
+      "Fill",
+      "Line - Normal",
+      "Line - Solid",
+      "Background - Normal",
+      "Background - Elevated",
+      "Background - Transparent",
+      "Static",
+      "Inverse",
+      "Interaction",
+      "Status",
+      "Accent - Foreground",
+      "Accent - Background",
+      "Material"
+    ],
+    "tables": [],
+    "images": [],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/colors/semantic"
+  },
+  {
+    "path": "/docs/foundations/base-material/elevation/normal",
+    "name": "Elevation",
+    "description": "Elevation은 Z축을 기준으로 두 표면 사이의 거리를 나타내는 시각적 체계로, 그림자와 빛 등의 요소들을 조합하여 UI 컴포넌트 간의 명확한 깊이감과 시각적 계층을 만들어냅니다. 원티드랩에서는 일관된 Elevation 규칙을 통해 사용자에게 직관적인 UI 구조를 전달하고 정교한 사용자 경험을 제공합니다.",
+    "sections": [
+      "Shadow type",
+      "Composition",
+      "Style"
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "rows": [
+          [
+            "레벨",
+            "명칭",
+            "적용"
+          ],
+          [
+            "1",
+            "Shadow Normal XSmall",
+            "평면에 가깝지만 미세한 구분이 필요한 경우"
+          ],
+          [
+            "2",
+            "Shadow Normal Small",
+            "페이지 위에 떠 있는 경우"
+          ],
+          [
+            "3",
+            "Shadow Normal Medium",
+            "상호작용 상태에서 강조가 필요한 경우"
+          ],
+          [
+            "4",
+            "Shadow Normal Large",
+            "일시적으로 주요한 정보를 표시하는 더 높은 레이어의 경우"
+          ],
+          [
+            "5",
+            "Shadow Normal XLarge",
+            "사용자의 시선을 완전히 집중시켜야 하는 주요한 오버레이인 경우"
+          ]
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/Image.png",
+        "alt": "Normal",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/Image-1.png",
+        "alt": "Spread",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/normal/none.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/normal/xsmall.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/normal/small.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/normal/medium.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/normal/large.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/normal/xlarge.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/Image-2.png",
+        "alt": "Composition",
+        "width": null,
+        "height": null
+      }
+    ],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/elevation/normal"
+  },
+  {
+    "path": "/docs/foundations/base-material/elevation/spread",
+    "name": "Elevation",
+    "description": "Elevation은 Z축을 기준으로 두 표면 사이의 거리를 나타내는 시각적 체계로, 그림자와 빛 등의 요소들을 조합하여 UI 컴포넌트 간의 명확한 깊이감과 시각적 계층을 만들어냅니다. 원티드랩에서는 일관된 Elevation 규칙을 통해 사용자에게 직관적인 UI 구조를 전달하고 정교한 사용자 경험을 제공합니다.",
+    "sections": [
+      "Shadow type",
+      "Style"
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "rows": [
+          [
+            "레벨",
+            "명칭",
+            "적용"
+          ],
+          [
+            "1",
+            "Shadow Spread Small",
+            "배경과 콘텐츠의 경계 사방에 구분이 필요한 경우"
+          ],
+          [
+            "2",
+            "Shadow Spread Medium",
+            "경계 분리와 함께, 보다 강조가 필요한 경우"
+          ]
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/Image.png",
+        "alt": "Normal",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/Image-1.png",
+        "alt": "Spread",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/spread/small.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/elevation/spread/medium.png",
+        "alt": "",
+        "width": null,
+        "height": null
+      }
+    ],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/elevation/spread"
+  },
+  {
+    "path": "/docs/foundations/base-material/grid",
+    "name": "Grid",
+    "description": "원티드의 그리드 시스템은 8px 기반의 일관된 간격 체계를 사용하여 모든 화면에서 조화로운 비율과 정렬을 만들어냅니다. 반응형 그리드는 다양한 디바이스 환경에서 콘텐츠가 자연스럽게 재배치되도록 지원함으로써 가독성과 시각적 안정감을 보장합니다.",
+    "sections": [
+      "Artboard size",
+      "Breakpoint",
+      "Spacing",
+      "Layout",
+      "Mobile",
+      "Tablet",
+      "Desktop"
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "rows": [
+          [
+            "환경",
+            "너비",
+            "높이",
+            "최대 너비"
+          ],
+          [
+            "Web desktop",
+            "1440px",
+            "960px",
+            "1100px"
+          ],
+          [
+            "Web Mobile",
+            "375px",
+            "635px",
+            "-"
+          ],
+          [
+            "iOS",
+            "375pt",
+            "812pt",
+            "-"
+          ],
+          [
+            "Android",
+            "360pp",
+            "800dp",
+            "-"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "rows": [
+          [
+            "명칭",
+            "대응 환경",
+            "너비",
+            "최대 너비"
+          ],
+          [
+            "xs",
+            "모바일",
+            "0-768px",
+            "-"
+          ],
+          [
+            "sm",
+            "태블릿 세로",
+            "768-992px",
+            "-"
+          ],
+          [
+            "md",
+            "태블릿 가로",
+            "992-1200px",
+            "-"
+          ],
+          [
+            "lg",
+            "데스크탑",
+            "1200-1600px",
+            "1100px(Padding 포함)"
+          ],
+          [
+            "xl",
+            "데스크탑 대형",
+            "1600px~",
+            "1440px(Padding 포함)"
+          ]
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "https://montage.wanted.co.kr/foundations/grid/Image.png",
+        "alt": "Spacing",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/grid/Image-1.png",
+        "alt": "Mobile layout",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/grid/Image-2.png",
+        "alt": "Tablet layout",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/grid/Image-3.png",
+        "alt": "Desktop layout",
+        "width": null,
+        "height": null
+      }
+    ],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/grid"
+  },
+  {
+    "path": "/docs/foundations/base-material/icons",
+    "name": "Icons",
+    "description": "원티드의 아이콘은 기능이나 콘텐츠를 시각적으로 표현하는 요소로, 사용자가 인터페이스를 빠르게 탐색할 수 있도록 돕습니다.",
+    "sections": [
+      "Search icons"
+    ],
+    "tables": [],
+    "images": [],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/icons"
+  },
+  {
+    "path": "/docs/foundations/base-material/typography",
+    "name": "Typography",
+    "description": "타이포그래피는 텍스트를 읽기 쉽고 아름답게 표현하는 시각적 체계로 폰트 선택, 크기, 굵기, 행간, 자간 등의 요소들을 조합하여 정보의 위계와 가독성을 만들어냅니다. 원티드랩에서는 일관된 타이포그래피 규칙을 통해 브랜드의 목소리를 전달하고 사용자 경험을 향상시킵니다.",
+    "sections": [
+      "Basic typography",
+      "Word break",
+      "Style"
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "rows": [
+          [
+            "명칭",
+            "크기",
+            "행간",
+            "자간"
+          ],
+          [
+            "Display 1",
+            "56px",
+            "72px (1.286)",
+            "-0.0319em"
+          ],
+          [
+            "Display 2",
+            "40px",
+            "52px (1.3)",
+            "-0.0282em"
+          ],
+          [
+            "Display 3",
+            "36px",
+            "48px (1.334)",
+            "-0.027em"
+          ],
+          [
+            "Title 1",
+            "32px",
+            "44px (1.375)",
+            "-0.0253em"
+          ],
+          [
+            "Title 2",
+            "28px",
+            "38px (1.358)",
+            "-0.0236em"
+          ],
+          [
+            "Title 3",
+            "24px",
+            "32px (1.334)",
+            "-0.023em"
+          ],
+          [
+            "Heading 1",
+            "22px",
+            "30px (1.364)",
+            "-0.0194em"
+          ],
+          [
+            "Heading 2",
+            "20px",
+            "28px (1.4)",
+            "-0.012em"
+          ],
+          [
+            "Headline 1",
+            "18px",
+            "26px (1.444)",
+            "-0.002em"
+          ],
+          [
+            "Headline 2",
+            "17px",
+            "26px (1.412)",
+            "0em"
+          ],
+          [
+            "Body 1/Normal",
+            "16px",
+            "24px (1.5)",
+            "0.0057em"
+          ],
+          [
+            "Body 1/Reading",
+            "16px",
+            "26px (1.625)",
+            "0.0057em"
+          ],
+          [
+            "Body 2/Normal",
+            "15px",
+            "22px (1.467)",
+            "0.0096em"
+          ],
+          [
+            "Body 2/Reading",
+            "15px",
+            "24px (1.6)",
+            "0.0096em"
+          ],
+          [
+            "Label 1/Normal",
+            "14px",
+            "20px (1.429)",
+            "0.0145em"
+          ],
+          [
+            "Label 1/Reading",
+            "14px",
+            "22px (1.571)",
+            "0.0145em"
+          ],
+          [
+            "Label 2",
+            "13px",
+            "18px (1.385)",
+            "0.0194em"
+          ],
+          [
+            "Caption 1",
+            "12px",
+            "16px (1.334)",
+            "0.0252em"
+          ],
+          [
+            "Caption 2",
+            "11px",
+            "14px (1.273)",
+            "0.0311em"
+          ]
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "https://montage.wanted.co.kr/foundations/typography/Image.png",
+        "alt": "Pretendard JP",
+        "width": null,
+        "height": null
+      },
+      {
+        "src": "https://montage.wanted.co.kr/foundations/typography/Image-1.png",
+        "alt": "Word break",
+        "width": null,
+        "height": null
+      }
+    ],
+    "url": "https://montage.wanted.co.kr/docs/foundations/base-material/typography"
+  }
+]

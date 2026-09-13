@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-06T15:21:34.686845+00:00",
+  "status": "passed",
+  "typescript": "Version 7.0.2",
+  "checks": [
+    "Copyable ZIP matches current package files, no reference/media/runtime dependency tree",
+    "Token generator validates in extracted standalone kit without original repository",
+    "Actual npm install in separate consumer: ESM export, CSS export path and SSR-safe import",
+    "Strict TypeScript consumer compiles CSS import, controller and typed element/document events; invalid root rejected",
+    "npm-installed files and copyable ZIP are byte-identical"
+  ],
+  "zipBytes": 30521,
+  "tarballBytes": 27722,
+  "fileCount": 14,
+  "errors": []
+}

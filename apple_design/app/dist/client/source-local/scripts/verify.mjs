@@ -1,0 +1,50 @@
+import {launchBrowser} from './browser-runtime.mjs';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const browser=await launchBrowser({headless:true});
+const context=await browser.newContext({viewport:{width:1440,height:1000},deviceScaleFactor:1,permissions:['clipboard-read','clipboard-write']});
+const page=await context.newPage();const errors=[];const failures=[];const checks=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400&&r.url().startsWith('http://localhost:4173'))failures.push({url:r.url(),status:r.status()});});
+await fs.mkdir('evidence/local',{recursive:true});
+const check=(name,value)=>{assert.ok(value,name);checks.push(name);};
+await page.goto('http://localhost:4173/',{waitUntil:'networkidle'});
+await page.screenshot({path:'evidence/local/studio-desktop.png',fullPage:true});
+check('Overview heading',await page.getByRole('heading',{name:'Apple.com',exact:true}).isVisible());
+await page.getByRole('button',{name:'Copy Ink #1d1d1f'}).click();
+check('Token copy',await page.evaluate(()=>navigator.clipboard.readText())==='#1d1d1f');
+const download=page.waitForEvent('download');await page.getByRole('button',{name:'Export tokens'}).click();check('Token export',(await download).suggestedFilename()==='apple-tokens.css');
+for(const width of [1440,768,390,320]){
+ await page.setViewportSize({width,height:width>800?1000:844});
+ for(const route of ['overview','colors','typography','layout','components','motion','reference','sources']){
+  await page.goto('http://localhost:4173/#'+route);await page.waitForTimeout(160);
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);
+  check(`No overflow ${route} at ${width}`,!overflow);
+  if(width===390||width===1440)await page.screenshot({path:`evidence/local/${route}-${width}.png`});
+ }
+}
+await page.setViewportSize({width:1440,height:1000});
+await page.goto('http://localhost:4173/#components');
+await page.getByRole('checkbox',{name:'Disabled'}).check();check('Disabled button state',await page.getByRole('button',{name:'Learn more',exact:true}).first().isDisabled());
+await page.getByRole('checkbox',{name:'Disabled'}).uncheck();
+await page.getByRole('tab',{name:'Carousel',exact:true}).click();
+await page.getByRole('button',{name:'Next slide',exact:true}).click();
+check('Carousel next',await page.locator('.ds-carousel-dot').nth(1).getAttribute('aria-current')==='true');
+await page.getByRole('button',{name:'Previous slide',exact:true}).click();
+check('Carousel previous',await page.locator('.ds-carousel-dot').first().getAttribute('aria-current')==='true');
+await page.getByRole('button',{name:'Pause carousel',exact:true}).click();check('Carousel pause',await page.getByRole('button',{name:'Resume carousel'}).isVisible());
+await page.getByRole('tab',{name:'Accordion',exact:true}).click();await page.locator('summary').filter({hasText:'Shop and Learn'}).click();check('Accordion expands',await page.locator('.accordion-links').isVisible());
+await page.goto('http://localhost:4173/#motion-presets');await page.waitForTimeout(500);
+const canvas=await page.locator('canvas').evaluate(c=>[...c.getContext('2d').getImageData(0,0,c.width,c.height).data].some((n,i)=>i%4===3&&n>0));check('Motion curve nonblank',canvas);
+await page.getByRole('checkbox',{name:'Reduce motion'}).check();check('Reduced motion preview',await page.locator('[data-animate]').first().evaluate(e=>e.getAnimations().every(a=>a.effect.getTiming().duration===0)));
+await page.goto('http://localhost:4173/#sources');await page.getByRole('textbox',{name:'Filter source files'}).fill('globalheader.css');await page.locator('.file-list button').click();await page.waitForFunction(()=>document.querySelector('.file-viewer pre')?.textContent.includes('globalnav'));check('Source viewer',true);
+await page.goto('http://localhost:4173/homepage.html');await page.waitForTimeout(1000);
+await page.screenshot({path:'evidence/local/home-desktop.png'});
+await page.locator('.globalnav-link-mac').first().hover();await page.waitForTimeout(450);check('Original desktop menu',await page.locator('#globalnav-menubutton-link-mac').getAttribute('aria-expanded')==='true');
+await page.screenshot({path:'evidence/local/home-menu.png'});await page.keyboard.press('Escape');await page.waitForTimeout(500);
+await page.locator('.globalnav-link-search').first().click();await page.getByRole('textbox',{name:'Search apple.com'}).waitFor({state:'visible'});check('Original search opens',true);await page.screenshot({path:'evidence/local/home-search.png'});await page.keyboard.press('Escape');await page.waitForTimeout(500);
+await page.locator('.globalnav-link-bag').first().click();await page.waitForTimeout(450);await page.screenshot({path:'evidence/local/home-bag.png'});await page.keyboard.press('Escape');
+await page.setViewportSize({width:390,height:844});await page.goto('http://localhost:4173/homepage.html');await page.waitForTimeout(600);await page.screenshot({path:'evidence/local/home-mobile.png'});await page.locator('#globalnav-menutrigger-button').click();await page.waitForTimeout(400);await page.screenshot({path:'evidence/local/home-mobile-menu.png'});check('Original mobile menu',await page.locator('.globalnav-link-mac').first().isVisible());
+check('No page errors',errors.length===0);
+check('No missing local resources',failures.length===0);
+await fs.writeFile('evidence/verification.json',JSON.stringify({checks,errors,failures,passed:true},null,2));
+console.log(JSON.stringify({passed:checks.length,errors,failures},null,2));await browser.close();

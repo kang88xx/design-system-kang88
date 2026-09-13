@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hero",
+    "title": "히어로 포커스 펄스",
+    "summary": "가느다란 축과 좌우 대칭 원을 유지하면서 중앙 원이 확장됐다가 돌아옵니다. 다시 재생과 속도로 움직임을 비교하세요.",
+    "sourceTime": "00:00-00:05",
+    "evidence": "00:00–00:05 중앙 검은 원의 확장·축소를 확인했습니다. 선 그리기와 반복 주기 4.8초는 재구성한 제안값입니다.",
+    "status": "video-observed",
+    "html": "<section class=\"rm-sample\" data-rm=\"hero\" aria-label=\"히어로 포커스 펄스\"><div class=\"rm-sample-head\"><div><h3>히어로 포커스 펄스</h3><p>관찰한 도형과 중앙 확장 효과. 시간과 easing은 재구성입니다.</p></div><button class=\"rm-button\" type=\"button\" data-rm-replay>다시 재생</button></div><div class=\"rm-stage rm-hero\" aria-hidden=\"true\"><svg class=\"rm-hero-grid\" viewBox=\"0 0 1000 410\" aria-hidden=\"true\"><path class=\"rm-hero-axis\" d=\"M60 205H940M500 35V375\"/><g><circle class=\"rm-hero-ring\" cx=\"270\" cy=\"205\" r=\"112\"/><circle class=\"rm-hero-ring\" cx=\"360\" cy=\"205\" r=\"86\"/><circle class=\"rm-hero-ring\" cx=\"452\" cy=\"205\" r=\"43\"/><circle class=\"rm-hero-ring\" cx=\"548\" cy=\"205\" r=\"43\"/><circle class=\"rm-hero-ring\" cx=\"640\" cy=\"205\" r=\"86\"/><circle class=\"rm-hero-ring\" cx=\"730\" cy=\"205\" r=\"112\"/></g><circle class=\"rm-hero-core rm-loop\" cx=\"500\" cy=\"205\" r=\"14\"/><g class=\"rm-hero-label\"><rect x=\"82\" y=\"52\" width=\"210\" height=\"32\"/><text x=\"96\" y=\"73\">Ideas become connections.</text><rect x=\"702\" y=\"326\" width=\"220\" height=\"32\"/><text x=\"716\" y=\"347\">Connections create impact.</text></g></svg></div></section>"
+  },
+  {
+    "id": "benefits",
+    "title": "6가지 기하 아이콘",
+    "summary": "선 그리기·원 확장·점 이동을 작은 카드에 적용합니다. hover·키보드 포커스·터치로 상태를 바꿔 보세요.",
+    "sourceTime": "00:05-00:09 and 00:46-00:48",
+    "evidence": "00:05–00:09에 작은 기하 도형 6종이 보입니다. hover·focus·touch에 따른 반응은 실제 적용을 위한 제안입니다.",
+    "status": "recommended",
+    "html": "<section class=\"rm-sample\" data-rm=\"benefits\" aria-label=\"6가지 기하 아이콘\"><div class=\"rm-sample-head\"><div><h3>6가지 기하 아이콘</h3><p>hover·포커스·터치로 도형 반응을 확인하세요.</p></div><button class=\"rm-button\" type=\"button\" data-rm-replay>다시 재생</button></div><div class=\"rm-benefits-grid\"><article class=\"rm-benefit\"><button type=\"button\" aria-label=\"Reach diagram replay\"><svg viewBox=\"0 0 220 124\" aria-hidden=\"true\"><circle data-rm-part=\"1\" cx=\"64\" cy=\"62\" r=\"32\" fill=\"none\" stroke=\"currentColor\"/><circle data-rm-part=\"2\" cx=\"124\" cy=\"62\" r=\"20\" fill=\"currentColor\"/><circle data-rm-part=\"3\" cx=\"164\" cy=\"62\" r=\"9\" fill=\"currentColor\" opacity=\".28\"/></svg></button><h4>Reach</h4><p>Expanding circles map audience growth.</p></article><article class=\"rm-benefit\"><button type=\"button\" aria-label=\"Targeting diagram replay\"><svg viewBox=\"0 0 220 124\" aria-hidden=\"true\"><rect data-rm-part=\"1\" x=\"38\" y=\"28\" width=\"58\" height=\"68\" fill=\"none\" stroke=\"currentColor\"/><circle data-rm-part=\"2\" cx=\"126\" cy=\"62\" r=\"30\" fill=\"none\" stroke=\"currentColor\"/><path data-rm-part=\"3\" d=\"M150 36l34 26-34 26z\" fill=\"currentColor\"/></svg></button><h4>Targeting</h4><p>Simple shapes show narrowed context.</p></article><article class=\"rm-benefit\"><button type=\"button\" aria-label=\"Creative diagram replay\"><svg viewBox=\"0 0 220 124\" aria-hidden=\"true\"><path data-rm-part=\"1\" d=\"M46 88L88 36l42 52z\" fill=\"none\" stroke=\"currentColor\"/><rect data-rm-part=\"2\" x=\"120\" y=\"32\" width=\"54\" height=\"54\" fill=\"currentColor\" opacity=\".18\"/><circle data-rm-part=\"3\" cx=\"148\" cy=\"62\" r=\"18\" fill=\"currentColor\"/></svg></button><h4>Creative</h4><p>Composed pieces preview ad assembly.</p></article><article class=\"rm-benefit\"><button type=\"button\" aria-label=\"Conversation diagram replay\"><svg viewBox=\"0 0 220 124\" aria-hidden=\"true\"><circle data-rm-part=\"1\" cx=\"76\" cy=\"54\" r=\"28\" fill=\"none\" stroke=\"currentColor\"/><path data-rm-part=\"2\" d=\"M104 48h70v36h-70z\" fill=\"none\" stroke=\"currentColor\"/><circle data-rm-part=\"3\" cx=\"126\" cy=\"66\" r=\"5\" fill=\"currentColor\"/><circle data-rm-part=\"3\" cx=\"146\" cy=\"66\" r=\"5\" fill=\"currentColor\"/></svg></button><h4>Conversation</h4><p>Small responses imply active posts.</p></article><article class=\"rm-benefit\"><button type=\"button\" aria-label=\"Measurement diagram replay\"><svg viewBox=\"0 0 220 124\" aria-hidden=\"true\"><rect data-rm-part=\"1\" x=\"48\" y=\"72\" width=\"28\" height=\"24\" fill=\"currentColor\" opacity=\".2\"/><rect data-rm-part=\"2\" x=\"96\" y=\"48\" width=\"28\" height=\"48\" fill=\"currentColor\" opacity=\".45\"/><rect data-rm-part=\"3\" x=\"144\" y=\"28\" width=\"28\" height=\"68\" fill=\"currentColor\"/><path d=\"M42 96h138\" stroke=\"currentColor\"/></svg></button><h4>Measure</h4><p>Bars step upward from observed metrics.</p></article><article class=\"rm-benefit\"><button type=\"button\" aria-label=\"Launch diagram replay\"><svg viewBox=\"0 0 220 124\" aria-hidden=\"true\"><ellipse data-rm-part=\"1\" cx=\"110\" cy=\"64\" rx=\"72\" ry=\"28\" fill=\"none\" stroke=\"currentColor\"/><circle data-rm-part=\"2\" cx=\"110\" cy=\"64\" r=\"18\" fill=\"currentColor\"/><circle data-rm-part=\"3\" cx=\"178\" cy=\"64\" r=\"8\" fill=\"currentColor\" opacity=\".28\"/></svg></button><h4>Launch</h4><p>An orbit motif connects to the CTA section.</p></article></div></section>"
+  },
+  {
+    "id": "orbit",
+    "title": "크레딧 궤도 효과",
+    "summary": "점선 궤도와 움직이는 위성이 중앙 CTA를 둘러쌉니다. 화면 밖에서는 반복 동작을 멈춥니다.",
+    "sourceTime": "00:08-00:11 and 00:46-00:47",
+    "evidence": "00:08–00:11의 크레딧 영역과 점선·실선 궤도를 바탕으로 구성했습니다. 위성 이동·선 그리기의 타이밍은 재구성입니다.",
+    "status": "video-observed",
+    "html": "<section class=\"rm-sample\" data-rm=\"orbit\" aria-label=\"크레딧 궤도 효과\"><div class=\"rm-sample-head\"><div><h3>크레딧 궤도 효과</h3><p>화면 밖·비활성 탭·일시정지 상태에서는 반복을 멈춥니다.</p></div><button class=\"rm-button\" type=\"button\" data-rm-replay>다시 재생</button></div><div class=\"rm-stage rm-orbit\"><div class=\"rm-orbit-wrap\"><svg viewBox=\"0 0 620 376\" aria-hidden=\"true\"><ellipse class=\"rm-orbit-ring\" cx=\"310\" cy=\"188\" rx=\"256\" ry=\"118\"/><ellipse class=\"rm-orbit-ring\" cx=\"310\" cy=\"188\" rx=\"196\" ry=\"76\"/><line x1=\"54\" y1=\"188\" x2=\"566\" y2=\"188\" stroke=\"currentColor\" opacity=\".18\"/></svg><span class=\"rm-satellite rm-loop\" aria-hidden=\"true\"></span><div class=\"rm-credit-card\"><span>Ad credit</span><strong>$500</strong><button class=\"rm-button\" type=\"button\">Start campaign</button></div></div></div></section>"
+  },
+  {
+    "id": "metrics",
+    "title": "계단형 지표 · 카운트업",
+    "summary": "높이가 다른 카드가 순서대로 나타나고 숫자가 목표값에 도달합니다. 수치는 예제 데이터입니다.",
+    "sourceTime": "00:11-00:13",
+    "evidence": "00:11–00:13에 계단형 지표 카드가 보입니다. 숫자 카운트업과 등장 시차는 영상에서 확정되지 않은 적용 제안입니다.",
+    "status": "recommended",
+    "html": "<section class=\"rm-sample\" data-rm=\"metrics\" aria-label=\"계단형 지표 · 카운트업\"><div class=\"rm-sample-head\"><div><h3>계단형 지표 · 카운트업</h3><p>Entrance and numbers are controlled by the kit API.</p></div><button class=\"rm-button\" type=\"button\" data-rm-replay>다시 재생</button></div><div class=\"rm-metrics-grid\"><article class=\"rm-metric\" style=\"--rm-height:150px\"><strong data-rm-count=\"42\" data-rm-suffix=\"%\">0</strong><p>More qualified reach</p></article><article class=\"rm-metric\" style=\"--rm-height:198px\"><strong data-rm-count=\"3.8\" data-rm-suffix=\"x\">0</strong><p>Campaign learning speed</p></article><article class=\"rm-metric\" style=\"--rm-height:246px\"><strong data-rm-count=\"1280\" data-rm-prefix=\"+\">0</strong><p>Measured actions</p></article></div></section>"
+  },
+  {
+    "id": "reveal",
+    "title": "스크롤 순차 등장",
+    "summary": "뷰포트 진입을 감지해 편집형 카드를 순서대로 보여줍니다. 모션 감소 환경에서는 콘텐츠를 즉시 표시합니다.",
+    "sourceTime": "00:00-00:49 scrolling behavior",
+    "evidence": "영상에서 긴 페이지의 스크롤은 확인되지만 fade-up은 확정할 수 없습니다. 이 샘플은 선택적으로 적용하는 효과입니다.",
+    "status": "recommended",
+    "html": "<section class=\"rm-sample\" data-rm=\"reveal\" aria-label=\"스크롤 순차 등장\"><div class=\"rm-sample-head\"><div><h3>스크롤 순차 등장</h3><p>Scroll-driven entrance for long-form sections.</p></div><button class=\"rm-button\" type=\"button\" data-rm-replay>다시 재생</button></div><div class=\"rm-reveal-list\"><article class=\"rm-editorial\"><span class=\"rm-index\">01</span><div><h4>Set one clear outcome</h4><p>Keep the first message and first action readable before details appear.</p></div></article><article class=\"rm-editorial\"><span class=\"rm-index\">02</span><div><h4>Show the mechanism</h4><p>Use compact diagrams to explain how targeting, formats, and feedback connect.</p></div></article><article class=\"rm-editorial\"><span class=\"rm-index\">03</span><div><h4>Measure and refine</h4><p>Bring metrics forward with a predictable, restrained motion rhythm.</p></div></article></div></section>"
+  },
+  {
+    "id": "formats",
+    "title": "6가지 광고 프리뷰 효과",
+    "summary": "이미지 공개, 재생 진행률, 슬라이드, 카드 반응, 상품 변경, 숫자 피드백을 코드로 재생합니다.",
+    "sourceTime": "00:19-00:27 and 00:39-00:43",
+    "evidence": "00:19–00:27의 광고 형식 그리드를 바탕으로 구성했습니다. 각 프리뷰 루프·hover·카운트는 원본 동작이 아닌 적용 예시입니다.",
+    "status": "recommended",
+    "html": "<section class=\"rm-sample\" data-rm=\"formats\" aria-label=\"6가지 광고 프리뷰 효과\"><div class=\"rm-sample-head\"><div><h3>6가지 광고 프리뷰 효과</h3><p>Six clear demo states with loops, hover, and numeric updates.</p></div><button class=\"rm-button\" type=\"button\" data-rm-replay>다시 재생</button></div><div class=\"rm-formats-grid\"><article class=\"rm-format\"><div class=\"rm-format-demo rm-image-reveal\"><span class=\"rm-photo\"></span><span class=\"rm-mask\"></span></div><h4>Image reveal</h4><p>Mask pass exposes creative.</p></article><article class=\"rm-format\"><div class=\"rm-format-demo rm-video-progress\"><span class=\"rm-video-box\"></span><span class=\"rm-play\"></span><span class=\"rm-progress\"></span></div><h4>Video progress</h4><p>Progress bar loops while visible.</p></article><article class=\"rm-format\"><div class=\"rm-format-demo rm-carousel\"><span class=\"rm-slide\">01</span></div><h4>Carousel slide</h4><p>Sequential panels rotate with WAAPI fallback.</p></article><article class=\"rm-format\"><button type=\"button\" class=\"rm-format-demo rm-promoted\" aria-label=\"Promoted post lift\"><span class=\"rm-post\"><span class=\"rm-line-a\"></span><span class=\"rm-line-b\"></span><span class=\"rm-line-c\"></span></span></button><h4>Promoted post</h4><p>Post lifts on hover, focus, or touch.</p></article><article class=\"rm-format\"><div class=\"rm-format-demo rm-product-cycle\"><span class=\"rm-product\"></span><span class=\"rm-price\"><span>Product</span><strong>$48</strong></span></div><h4>Product cycle</h4><p>Shape changes suggest catalog rotation.</p></article><article class=\"rm-format\"><div class=\"rm-format-demo rm-boost-counts\"><span class=\"rm-ping\"></span><span class=\"rm-count\">+1,240</span></div><h4>Boost counts</h4><p>Live-style count increments while active.</p></article></div></section>"
+  }
+]

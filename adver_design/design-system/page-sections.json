@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "name": "Observed landing reconstruction sections",
+    "date": "2026-09-06",
+    "source": "references/recording.mp4, references/contact-sheet.jpg, references/frames/t*.jpg, references/live-source.json",
+    "scope": "landing.html plus design-system/page-kit.css and design-system/page-kit.js",
+    "note": "관찰 기반 소스 메타데이터입니다. 독점 코드, 비공개 구조, 호스팅 글꼴, 원본 이미지를 실행 자산으로 포함했다고 주장하지 않습니다. 통합 소스 탐색기는 sources.html에서 처리합니다."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "title": "히어로, 고정 좌측 내비게이션, 기하 캔버스",
+      "evidence": "t00 프레임에서 좌측 X 내비게이션, 두 줄 헤드라인, 연회색 기하 캔버스, 두 개의 콜아웃, 본문 설명, 두 개의 pill CTA를 확인했습니다.",
+      "sourceTime": "00:00-00:04",
+      "html": "<section class=\"section hero-section\" id=\"hero\" data-section-id=\"hero\" aria-labelledby=\"hero-title\">\n        <div class=\"section-kicker\">Observed reconstruction / 00:00-00:04</div>\n        <h1 id=\"hero-title\">Real-time conversations.<br>Real results</h1>\n        <div class=\"hero-art\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 1080 420\" role=\"img\">\n            <path class=\"axis\" d=\"M70 210H1010M540 54V366\"></path>\n            <g class=\"rings\">\n              <circle cx=\"292\" cy=\"210\" r=\"112\"></circle>\n              <circle cx=\"392\" cy=\"210\" r=\"86\"></circle>\n              <circle cx=\"486\" cy=\"210\" r=\"43\"></circle>\n              <circle cx=\"594\" cy=\"210\" r=\"43\"></circle>\n              <circle cx=\"688\" cy=\"210\" r=\"86\"></circle>\n              <circle cx=\"788\" cy=\"210\" r=\"112\"></circle>\n            </g>\n            <circle class=\"hero-core\" cx=\"540\" cy=\"210\" r=\"16\"></circle>\n            <g class=\"hero-labels\">\n              <rect x=\"104\" y=\"84\" width=\"222\" height=\"38\"></rect>\n              <text x=\"120\" y=\"108\">Where ideas move forward.</text>\n              <rect x=\"778\" y=\"300\" width=\"236\" height=\"38\"></rect>\n              <text x=\"794\" y=\"324\">Where everything happens first.</text>\n            </g>\n          </svg>\n        </div>\n        <div class=\"hero-copy\">\n          <p>Reach high-intent audiences, participate in real-time conversations, and drive measurable business results with ads.</p>\n          <div class=\"button-row\">\n            <a class=\"button button-primary\" href=\"#contact\">Get started</a>\n            <a class=\"button button-secondary\" href=\"#contact\">Talk to an Ads expert</a>\n          </div>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [
+        "design-system/page-kit.js"
+      ],
+      "status": "영상 관찰 기반. 원본 비공개 아트와 마크는 SVG/코드 대체 구현입니다."
+    },
+    {
+      "id": "benefits",
+      "title": "6개 혜택 카드와 기하 아이콘",
+      "evidence": "t08과 t48 프레임에서 6개 광고 혜택 그리드, 짧은 설명, 작은 선형 아이콘이 라이트/다크 테마로 반복되는 구성을 확인했습니다.",
+      "sourceTime": "00:04-00:08; 00:48",
+      "html": "<section class=\"section\" id=\"benefits\" data-section-id=\"benefits\" aria-labelledby=\"benefits-title\">\n        <div class=\"section-head\">\n          <p class=\"section-kicker\">Why advertise / 00:04-00:08 and 00:48</p>\n          <h2 id=\"benefits-title\">The internet talks here first</h2>\n        </div>\n        <div class=\"benefit-grid\">\n          <article>\n            <div class=\"mini-icon orbit-lines\" aria-hidden=\"true\"></div>\n            <h3>Earn attention</h3>\n            <p>Enter active conversations while intent is still forming.</p>\n          </article>\n          <article>\n            <div class=\"mini-icon target-lines\" aria-hidden=\"true\"></div>\n            <h3>Precise targeting</h3>\n            <p>Use context, interests, and behavior to reach the right audience.</p>\n          </article>\n          <article>\n            <div class=\"mini-icon burst-lines\" aria-hidden=\"true\"></div>\n            <h3>Build momentum</h3>\n            <p>Launch simple campaigns and learn from responses quickly.</p>\n          </article>\n          <article>\n            <div class=\"mini-icon stack-lines\" aria-hidden=\"true\"></div>\n            <h3>Fit your format</h3>\n            <p>Match messages to posts, video, carousel, product, and app goals.</p>\n          </article>\n          <article>\n            <div class=\"mini-icon pulse-lines\" aria-hidden=\"true\"></div>\n            <h3>Measure outcomes</h3>\n            <p>Bring reach, engagement, and conversion signals into one flow.</p>\n          </article>\n          <article>\n            <div class=\"mini-icon ray-lines\" aria-hidden=\"true\"></div>\n            <h3>Scale with support</h3>\n            <p>Move from first launch to optimization with expert guidance.</p>\n          </article>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [],
+      "status": "레이아웃은 영상 관찰 기반이고 카피와 아이콘 내부 형태는 재구성했습니다."
+    },
+    {
+      "id": "credit",
+      "title": "궤도형 광고 크레딧 행동 영역",
+      "evidence": "t08 프레임에서 점선/실선 궤도, 중앙 CTA 카드, 넓은 여백을 가진 광고 크레딧 영역을 확인했습니다.",
+      "sourceTime": "00:08-00:11",
+      "html": "<section class=\"section credit-section\" id=\"credit\" data-section-id=\"credit\" aria-labelledby=\"credit-title\">\n        <div class=\"credit-orbit\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 860 390\">\n            <ellipse cx=\"430\" cy=\"195\" rx=\"310\" ry=\"128\"></ellipse>\n            <ellipse cx=\"430\" cy=\"195\" rx=\"226\" ry=\"88\"></ellipse>\n            <path d=\"M64 195H796\"></path>\n          </svg>\n          <span class=\"satellite\"></span>\n        </div>\n        <div class=\"credit-card\">\n          <p class=\"section-kicker\">Ad credit / 00:08-00:11</p>\n          <h2 id=\"credit-title\">Get $25 in free ad credit</h2>\n          <p>Start with a small, clearly bounded test campaign. This value is a local reconstruction from the reference frame.</p>\n          <a class=\"button button-primary\" href=\"#contact\">Claim credit</a>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [],
+      "status": "영상 관찰 기반. 위성 이동과 반복 타이밍은 접근 가능한 코드 대체 구현입니다."
+    },
+    {
+      "id": "results",
+      "title": "계단형 지표와 어두운 인용 카드",
+      "evidence": "t12 프레임에서 높이가 다른 지표 카드와 라이트 페이지 안의 어두운 quote 패널을 확인했습니다.",
+      "sourceTime": "00:11-00:13",
+      "html": "<section class=\"section results-section\" id=\"results\" data-section-id=\"results\" aria-labelledby=\"results-title\">\n        <div class=\"section-head\">\n          <p class=\"section-kicker\">Metrics and quote / 00:11-00:13</p>\n          <h2 id=\"results-title\">Proof points stay close to the action</h2>\n        </div>\n        <div class=\"metrics-layout\">\n          <article class=\"metric-card small\">\n            <strong data-count-to=\"18\" data-suffix=\"%\">18%</strong>\n            <span>more efficient reach in a sample campaign model</span>\n          </article>\n          <article class=\"metric-card medium\">\n            <strong data-count-to=\"2.4\" data-suffix=\"x\">2.4x</strong>\n            <span>more qualified visits after creative refinement</span>\n          </article>\n          <article class=\"metric-card large\">\n            <strong data-count-to=\"4.74\" data-suffix=\"x\">4.74x</strong>\n            <span>faster learning cycles from clear campaign steps</span>\n          </article>\n          <article class=\"metric-card large\">\n            <strong data-count-to=\"85\" data-suffix=\"%\">85%</strong>\n            <span>reference value shown as a local example, not a performance promise</span>\n          </article>\n          <figure class=\"quote-card\">\n            <blockquote>Campaigns work best when the message, format, and next action all point to the same outcome.</blockquote>\n            <figcaption>Observed quote-card substitute</figcaption>\n          </figure>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [
+        "design-system/page-kit.js"
+      ],
+      "status": "구성은 영상 관찰 기반입니다. 수치, 인용 문구, 카운트업 동작은 로컬 대체 데이터입니다."
+    },
+    {
+      "id": "campaign",
+      "title": "4단계 캠페인 탭",
+      "evidence": "t16과 t44 프레임에서 underline 선택 상태의 4단계 탭, 광고 관리자 형태의 미리보기, 우측 설명과 CTA를 확인했습니다.",
+      "sourceTime": "00:14-00:18; 00:44",
+      "html": "<section class=\"section campaign-section\" id=\"campaign\" data-section-id=\"campaign\" aria-labelledby=\"campaign-title\">\n        <div class=\"section-head\">\n          <p class=\"section-kicker\">Campaign tabs / 00:14-00:18 and 00:44</p>\n          <h2 id=\"campaign-title\">Start advertising in minutes</h2>\n          <p>Launch your campaign in minutes</p>\n        </div>\n        <div class=\"campaign-tabs\" role=\"tablist\" aria-label=\"캠페인 단계\">\n          <button id=\"campaign-tab-1\" role=\"tab\" type=\"button\" aria-selected=\"true\" aria-controls=\"campaign-panel\" data-tab-index=\"0\">01 Choose your objective</button>\n          <button id=\"campaign-tab-2\" role=\"tab\" type=\"button\" aria-selected=\"false\" aria-controls=\"campaign-panel\" data-tab-index=\"1\" tabindex=\"-1\">02 Define your targeting</button>\n          <button id=\"campaign-tab-3\" role=\"tab\" type=\"button\" aria-selected=\"false\" aria-controls=\"campaign-panel\" data-tab-index=\"2\" tabindex=\"-1\">03 Create your ad</button>\n          <button id=\"campaign-tab-4\" role=\"tab\" type=\"button\" aria-selected=\"false\" aria-controls=\"campaign-panel\" data-tab-index=\"3\" tabindex=\"-1\">04 Launch and optimize</button>\n        </div>\n        <div class=\"campaign-panel\" id=\"campaign-panel\" role=\"tabpanel\" aria-labelledby=\"campaign-tab-1\" tabindex=\"0\">\n          <div class=\"manager-mock\" aria-hidden=\"true\">\n            <div class=\"window-controls\"></div>\n            <div class=\"manager-sidebar\"></div>\n            <div class=\"manager-form\">\n              <svg viewBox=\"0 0 480 260\" fill=\"none\" stroke=\"currentColor\">\n              <ellipse cx=\"180\" cy=\"10\" rx=\"210\" ry=\"150\" stroke-dasharray=\"6 9\" opacity=\".35\"/>\n              <path d=\"M292 -20L386 250M316 -20L410 250M340 -20L434 250M0 170L480 50\" opacity=\".4\"/>\n              <circle cx=\"371\" cy=\"145\" r=\"20\" fill=\"var(--color-bg)\" stroke=\"currentColor\" opacity=\".6\"/>\n              <circle cx=\"371\" cy=\"145\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/>\n            </svg><span></span>\n            </div>\n            <div class=\"phone-preview\"></div>\n          </div>\n          <div class=\"panel-copy\">\n            <p class=\"section-kicker\" data-campaign-kicker>01 / Objective</p>\n            <h3 data-campaign-title>Choose the outcome that matters first.</h3>\n            <p data-campaign-copy>Awareness, traffic, or conversion goals shape the audience, creative, budget, and measurement path.</p>\n            <a class=\"button button-primary\" href=\"#contact\">Get started</a>\n            <a class=\"button button-secondary\" href=\"#formats\">View formats</a>\n          </div>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [
+        "design-system/page-kit.js"
+      ],
+      "status": "영상 관찰 기반. 비공개 광고 관리자 UI는 코드로 그린 개략 패널로 대체했습니다."
+    },
+    {
+      "id": "formats",
+      "title": "광고 형식 카드 그리드",
+      "evidence": "t20, t24, t40 프레임에서 광고 형식 섹션, 크기가 다른 미디어 카드, 설명 텍스트 조합을 확인했습니다.",
+      "sourceTime": "00:19-00:27; 00:40",
+      "html": "<section class=\"section formats-section\" id=\"formats\" data-section-id=\"formats\" aria-labelledby=\"formats-title\">\n        <div class=\"section-head\">\n          <p class=\"section-kicker\">Ad format grid / 00:19-00:27 and 00:40</p>\n          <h2 id=\"formats-title\">Find the right format<br>Built to drive results</h2>\n        </div>\n        <div class=\"format-grid\">\n          <article>\n            <div class=\"format-media image-format\" aria-hidden=\"true\"></div>\n            <h3>Image ads</h3>\n            <p>Tell the story in a focused visual surface with one clear action.</p>\n          </article>\n          <article>\n            <div class=\"format-media video-format\" aria-hidden=\"true\"></div>\n            <h3>Video ads</h3>\n            <p>Use motion and a progress cue for attention without heavy assets.</p>\n          </article>\n          <article>\n            <div class=\"format-media carousel-format\" aria-hidden=\"true\"></div>\n            <h3>Carousel ads</h3>\n            <p>Sequence multiple messages while keeping a compact footprint.</p>\n          </article>\n          <article>\n            <div class=\"format-media post-format\" aria-hidden=\"true\"></div>\n            <h3>Promoted posts</h3>\n            <p>Bring native conversation patterns into paid placements.</p>\n          </article>\n          <article>\n            <div class=\"format-media product-format\" aria-hidden=\"true\"></div>\n            <h3>Product ads</h3>\n            <p>Pair catalog context with clear price and purchase intent.</p>\n          </article>\n          <article>\n            <div class=\"format-media app-format\" aria-hidden=\"true\"></div>\n            <h3>Boost existing posts</h3>\n            <p>A code-drawn post card demonstrates the sixth format seen in the recording.</p>\n          </article>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [],
+      "status": "영상 관찰 기반 그리드입니다. 실제 미디어/이미지는 CSS 프리뷰로 대체했습니다."
+    },
+    {
+      "id": "contact",
+      "title": "전문가 문의 폼과 지도형 선 그래픽",
+      "evidence": "t28과 t32 프레임에서 전문가 안내 문구, 은은한 선 그래픽, 다중 입력 폼이 있는 2열 문의 영역을 확인했습니다.",
+      "sourceTime": "00:27-00:32",
+      "html": "<section class=\"section contact-section\" id=\"contact\" data-section-id=\"contact\" aria-labelledby=\"contact-title\">\n        <div class=\"contact-aside\">\n          <p class=\"section-kicker\">Specialist form / 00:27-00:32</p>\n          <h2 id=\"contact-title\">Connect with an X Ads specialist</h2>\n          <p>The original backend and private form structure are not available, so this local form recreates the observed two-column layout and adds accessible validation.</p>\n          <div class=\"map-lines\" aria-hidden=\"true\">\n            <svg viewBox=\"0 0 480 260\" fill=\"none\" stroke=\"currentColor\">\n              <ellipse cx=\"180\" cy=\"10\" rx=\"210\" ry=\"150\" stroke-dasharray=\"6 9\" opacity=\".35\"/>\n              <path d=\"M292 -20L386 250M316 -20L410 250M340 -20L434 250M0 170L480 50\" opacity=\".4\"/>\n              <circle cx=\"371\" cy=\"145\" r=\"20\" fill=\"var(--color-bg)\" stroke=\"currentColor\" opacity=\".6\"/>\n              <circle cx=\"371\" cy=\"145\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/>\n            </svg>\n          </div>\n        </div>\n        <form class=\"contact-form\" data-contact-form novalidate>\n          <label>\n            <span>First name *</span>\n            <input name=\"firstName\" autocomplete=\"given-name\" required aria-describedby=\"first-name-error\">\n            <small id=\"first-name-error\"></small>\n          </label>\n          <label>\n            <span>Last name *</span>\n            <input name=\"lastName\" autocomplete=\"family-name\" required aria-describedby=\"last-name-error\">\n            <small id=\"last-name-error\"></small>\n          </label>\n          <label>\n            <span>Business email *</span>\n            <input name=\"email\" type=\"email\" autocomplete=\"email\" required aria-describedby=\"email-error\">\n            <small id=\"email-error\"></small>\n          </label>\n          <label>\n            <span>Company *</span>\n            <input name=\"company\" autocomplete=\"organization\" required aria-describedby=\"company-error\">\n            <small id=\"company-error\"></small>\n          </label>\n          <label>\n            <span>Company handle</span>\n            <input name=\"handle\" placeholder=\"@company\" autocomplete=\"off\">\n          </label>\n          <label>\n            <span>Phone number</span>\n            <input name=\"phone\" type=\"tel\" autocomplete=\"tel\">\n          </label>\n          <label>\n            <span>Preferred payment method</span>\n            <select name=\"payment\"><option value=\"\">Select a method</option><option>Card</option><option>Other / discuss with support</option></select>\n          </label>\n          <label>\n            <span>Country</span>\n            <select name=\"country\" autocomplete=\"country-name\"><option value=\"\">Select a country</option><option>South Korea</option><option>United States</option><option>Other</option></select>\n          </label>\n          <label class=\"full\">\n            <span>Monthly ad budget</span>\n            <select name=\"budget\">\n              <option>Under $1,000</option>\n              <option>$1,000-$10,000</option>\n              <option>$10,000+</option>\n            </select>\n          </label>\n          <label class=\"full\">\n            <span>What do you want to promote?</span>\n            <textarea name=\"message\" rows=\"4\"></textarea>\n          </label>\n          <div class=\"form-actions full\">\n            <button class=\"button button-primary\" type=\"submit\" aria-busy=\"false\">Get started</button>\n            <p class=\"form-status\" role=\"status\" aria-live=\"polite\">No external request is made. Validation runs locally.</p>\n          </div>\n        </form>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [
+        "design-system/page-kit.js"
+      ],
+      "status": "영상 관찰 기반 레이아웃입니다. 비공개 백엔드와 원본 필드 규칙은 로컬 접근성 검증으로 대체했습니다."
+    },
+    {
+      "id": "faq",
+      "title": "FAQ 아코디언",
+      "evidence": "t32와 t36 프레임에서 하나의 답변이 열린 FAQ 목록, 여러 질문, plus 제어를 확인했습니다.",
+      "sourceTime": "00:31-00:36",
+      "html": "<section class=\"section faq-section\" id=\"faq\" data-section-id=\"faq\" aria-labelledby=\"faq-title\">\n        <div class=\"section-head\">\n          <p class=\"section-kicker\">FAQ and footer / 00:31-00:36</p>\n          <h2 id=\"faq-title\">Your questions, answered</h2>\n          <p>Everything you need to know</p>\n        </div>\n        <div class=\"faq-list\">\n          <details open>\n            <summary>Is there a minimum budget to advertise?</summary>\n            <p>This reconstruction keeps the answer generic because the current private eligibility logic is not available.</p>\n          </details>\n          <details>\n            <summary>How do I get started?</summary>\n            <p>Pick an objective, choose an audience, prepare a short creative, then launch and optimize from campaign feedback.</p>\n          </details>\n          <details>\n            <summary>When can a campaign begin running?</summary>\n            <p>This local example has no campaign review service. Production launch timing depends on the connected platform and its review process.</p>\n          </details>\n          <details>\n            <summary>Which businesses can use advertising?</summary>\n            <p>Eligibility is outside this reconstruction. This panel demonstrates the answer layout without reproducing private eligibility rules.</p>\n          </details>\n          <details>\n            <summary>Do I need marketing experience?</summary>\n            <p>The observed page positions the flow as fast to start. This local page adds guided states and validation for clarity.</p>\n          </details>\n          <details>\n            <summary>Where can I get help with my first campaign?</summary>\n            <p>The contact form above demonstrates the inquiry flow locally. It validates inputs and shows a confirmation without sending a request.</p>\n          </details>\n          <details>\n            <summary>What advertising formats are available?</summary>\n            <p>Image, video, carousel, promoted post, product, and app-style placements are represented as code/SVG substitutes.</p>\n          </details>\n        </div>\n      </section>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [],
+      "status": "영상 관찰 기반입니다. 답변 문구는 원본 정책 변경 가능성을 고려해 재구성했습니다."
+    },
+    {
+      "id": "footer",
+      "title": "링크 푸터와 테마 선택 버튼",
+      "evidence": "t36 프레임에서 링크 컬럼과 화면/해/달 형태의 테마 제어를 확인했고, 이후 프레임에서 전역 다크 테마 전환을 확인했습니다.",
+      "sourceTime": "00:35-00:37",
+      "html": "<footer class=\"link-footer\" id=\"footer\" data-section-id=\"footer\">\n        <div class=\"footer-tools\" role=\"group\" aria-label=\"테마 선택\">\n          <button type=\"button\" data-theme-choice=\"system\" aria-pressed=\"true\" title=\"시스템 테마\">▣</button>\n          <button type=\"button\" data-theme-choice=\"light\" aria-pressed=\"false\" title=\"라이트 테마\">☼</button>\n          <button type=\"button\" data-theme-choice=\"dark\" aria-pressed=\"false\" title=\"다크 테마\">☾</button>\n        </div>\n        <div class=\"footer-grid\">\n          <div>\n            <h2>X Platform</h2>\n            <a href=\"https://x.com\" target=\"_blank\" rel=\"noreferrer\">X.com</a>\n            <a href=\"https://status.x.com\" target=\"_blank\" rel=\"noreferrer\">Status</a>\n            <a href=\"https://help.x.com/resources/accessibility\" target=\"_blank\" rel=\"noreferrer\">Accessibility</a>\n          </div>\n          <div>\n            <h2>X Corp</h2>\n            <a href=\"https://about.x.com\" target=\"_blank\" rel=\"noreferrer\">About the company</a>\n            <a href=\"https://about.x.com/company/news\" target=\"_blank\" rel=\"noreferrer\">Company news</a>\n            <a href=\"https://about.x.com/brand-toolkit\" target=\"_blank\" rel=\"noreferrer\">Brand toolkit</a>\n          </div>\n          <div>\n            <h2>Help</h2>\n            <a href=\"https://help.x.com\" target=\"_blank\" rel=\"noreferrer\">Help Center</a>\n            <a href=\"https://business.x.com/en/help\" target=\"_blank\" rel=\"noreferrer\">Ads help center</a>\n            <a href=\"https://help.x.com/rules-and-policies\" target=\"_blank\" rel=\"noreferrer\">Rules and policies</a>\n          </div>\n          <div>\n            <h2>Local source</h2>\n            <a href=\"index.html\">Design catalog</a>\n            <a href=\"motion.html\">Motion lab</a>\n            <a href=\"design-system/page-sections.json\">Page sections JSON</a>\n          </div>\n        </div>\n        <p>Observation-based local reconstruction. Original proprietary code, private structure, hosted fonts, and video frames are not embedded as executable page assets.</p>\n      </footer>",
+      "cssFiles": [
+        "design-system/page-kit.css",
+        "design-system/tokens.css"
+      ],
+      "jsFiles": [
+        "design-system/page-kit.js"
+      ],
+      "status": "영상 관찰 기반입니다. 정확한 트리거는 불명확하여 명시적 접근성 버튼으로 구현했습니다."
+    }
+  ]
+}

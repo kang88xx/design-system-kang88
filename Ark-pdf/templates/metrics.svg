@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Metrics">
+  <title>Metrics</title>
+  <desc>ARK PDF p11/p13/p14/p50의 수치 강조와 여백 구조를 따른 성과 지표 마스터. Source pages: 11, 13, 14, 50. Icon adaptation guide: ../prompts/guide.md.</desc>
+  <metadata data-guide-ref="../prompts/guide.md"/>
+  <rect width="1920" height="1080" fill="white"/>
+
+  <text x="60" y="152" text-anchor="start" font-family="'Malgun Gothic', Arial, sans-serif" font-size="85" font-weight="500" fill="#1A2646"><tspan x="60" dy="0">PERFORMANCE</tspan><tspan x="60" dy="92">SNAPSHOT</tspan></text>
+  <text x="60" y="280" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">SAMPLE / 예시: 핵심 수치와 근거를 한 화면에 배치</text>
+  <text x="60" y="336" font-family="'Malgun Gothic', Arial, sans-serif" font-size="22" fill="#516086">예시 데이터 / SAMPLE</text>
+  <line x1="190" y1="374" x2="550" y2="374" stroke="#011187" stroke-width="4"/><text x="190" y="520" font-family="'Malgun Gothic', Arial, sans-serif" font-size="86" font-weight="500" fill="#1A2646">32%</text><text x="190" y="582" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">예시: 편집 가능한 지표 설명</text><text x="190" y="626" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">SAMPLE evidence / source</text><line x1="735" y1="374" x2="1095" y2="374" stroke="#011187" stroke-width="4"/><text x="735" y="520" font-family="'Malgun Gothic', Arial, sans-serif" font-size="86" font-weight="500" fill="#1A2646">4.8×</text><text x="735" y="582" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">예시: 편집 가능한 지표 설명</text><text x="735" y="626" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">SAMPLE evidence / source</text><line x1="1280" y1="374" x2="1640" y2="374" stroke="#011187" stroke-width="4"/><text x="1280" y="520" font-family="'Malgun Gothic', Arial, sans-serif" font-size="86" font-weight="500" fill="#1A2646">12w</text><text x="1280" y="582" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">예시: 편집 가능한 지표 설명</text><text x="1280" y="626" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">SAMPLE evidence / source</text>
+  
+  <line x1="60" y1="1032" x2="1860" y2="1032" stroke="#1A2646" stroke-opacity=".42" stroke-width="2"/>
+  <text x="60" y="1058" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#516086" opacity="1">ARK / PROJECT DOCUMENT SYSTEM</text>
+  <text x="1860" y="1058" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#516086" opacity="1">05</text>
+
+
+</svg>

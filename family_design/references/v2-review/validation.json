@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-13T04:11:34.806Z",
+  "status": "passed",
+  "checks": [
+    {
+      "claim": "9 product film cards, 14 original scene groups, 49 colors and 12 curated source assets rendered"
+    },
+    {
+      "claim": "Original send video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 5.133333
+      }
+    },
+    {
+      "claim": "Original receive video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 3.6
+      }
+    },
+    {
+      "claim": "Original swap video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 5.333333
+      }
+    },
+    {
+      "claim": "Original nft video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 6.033333
+      }
+    },
+    {
+      "claim": "Original watch video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 2.733333
+      }
+    },
+    {
+      "claim": "Original activity video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 5.516667
+      }
+    },
+    {
+      "claim": "Original onboarding video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 3.4
+      }
+    },
+    {
+      "claim": "Original missioncontrol video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 3.816667
+      }
+    },
+    {
+      "claim": "Original dragdropdone video plays, seeks, steps, changes speed and pauses on dialog close",
+      "data": {
+        "duration": 5.933333
+      }
+    },
+    {
+      "claim": "Film categories filter 3/9 correctly"
+    },
+    {
+      "claim": "Color clipboard still copies source token value"
+    },
+    {
+      "claim": "Every source scene resolves to an existing motion card or HTML layout recipe"
+    },
+    {
+      "claim": "Native layout recipes show feature6, stickyDetails4 and Bento5"
+    },
+    {
+      "claim": "All static source, asset and handoff links resolve to local files"
+    },
+    {
+      "claim": "Desktop/tablet/mobile views have no page horizontal overflow and are screenshot-captured",
+      "data": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "inner": 1440
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "scroll": 768,
+          "inner": 768
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "scroll": 390,
+          "inner": 390
+        }
+      ]
+    },
+    {
+      "claim": "Reduced-motion blocks hover autoplay and synchronizes global control"
+    },
+    {
+      "claim": "No local page runtime errors or failed HTTP resources"
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scroll": 1440,
+      "inner": 1440
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 768,
+      "inner": 768
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 390,
+      "inner": 390
+    }
+  ],
+  "errors": [],
+  "broken": []
+}

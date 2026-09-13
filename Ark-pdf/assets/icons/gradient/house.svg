@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="house-title house-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="house-title">House icon</title>
+  <desc id="house-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[26],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientHouse" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientHouse)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 23.5 24 11 38 23.5"/>
+    <path d="M14 22v17h20V22"/>
+    <path d="M21 39V28h6v11"/>
+    <path d="M30.5 28h4"/>
+    <path d="M8 39h32"/>
+  </g>
+</svg>

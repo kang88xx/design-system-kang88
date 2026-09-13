@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="logistics-title logistics-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="logistics-title">Logistics icon</title>
+  <desc id="logistics-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[26],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientLogistics" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientLogistics)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 18 24 12l11 6-11 6-11-6Z"/>
+    <path d="M13 18v13l11 6 11-6V18"/>
+    <path d="M24 24v13"/>
+    <path d="M9 36h11"/>
+    <path d="M28 10h6c4 0 7 3 7 7v1"/>
+    <path d="M36 14l5 4 3-5"/>
+  </g>
+</svg>

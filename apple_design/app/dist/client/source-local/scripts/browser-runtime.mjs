@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import {chromium} from '/apple_design/app/dist/client/home/kang/.claude/skills/gstack/node_modules/playwright/index.mjs';
+const cache=path.join(os.homedir(),'.cache/ms-playwright');
+const candidates=[process.env.CHROME_PATH,chromium.executablePath(),...fs.readdirSync(cache).filter(name=>/^chromium-\d+$/.test(name)).sort((a,b)=>Number(b.split('-')[1])-Number(a.split('-')[1])).map(name=>path.join(cache,name,'chrome-linux64/chrome'))].filter(Boolean);
+export const chromePath=candidates.find(file=>fs.existsSync(file));
+if(!chromePath)throw new Error('No local Chromium found. Set CHROME_PATH to an installed browser executable.');
+export {chromium};
+export const launchBrowser=(options={})=>chromium.launch({headless:true,...options,executablePath:chromePath});

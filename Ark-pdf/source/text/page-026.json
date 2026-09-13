@@ -1,0 +1,559 @@
+{
+  "page": 26,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n26\n\nAccommodations\nDining & Hygiene Facilities\n\nWorkspaces\nMedical & Health Units\n\nRecreation & Leisure\nStorage & Logistics\n\nSafe, comfortable, and tailored to meet diverse living\nneeds—from temporary housing to long-term\nresidences.\n\nDesigned to meet essential daily needs with functional,\nuser-friendly layouts that support everyday life.\n\nFlexible and efficient solutions for offices, meeting\nrooms, and collaborative environments.\n\nModular solutions for hospitals, clinics, and medical\nstations—prioritizing hygiene, functionality, and rapid\ndeployment.\n\nSpaces for fitness, recreation, and relaxation—\nenhancing quality of life both indoors and outdoors.\n\nSecure, scalable, and adaptable storage modules\ndesigned to optimize space and streamline logistics\noperations.\n\nCUSTOMIZED\nSOLUTIONS FOR\nDIFFERENT\nMARKETS",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "26",
+      "bbox": [
+        1852.508,
+        41.993,
+        1865.358,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1852.508,
+        51.313
+      ]
+    },
+    {
+      "text": "Accommodations",
+      "bbox": [
+        966.134,
+        137.418,
+        1186.534,
+        165.468
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.134,
+        160.468
+      ]
+    },
+    {
+      "text": "Dining & Hygiene Facilities",
+      "bbox": [
+        1424.134,
+        137.418,
+        1759.684,
+        165.468
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.134,
+        160.468
+      ]
+    },
+    {
+      "text": "Workspaces",
+      "bbox": [
+        966.134,
+        439.32,
+        1119.134,
+        467.37
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.134,
+        462.37
+      ]
+    },
+    {
+      "text": "Medical & Health Units",
+      "bbox": [
+        1424.134,
+        439.32,
+        1706.834,
+        467.37
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.134,
+        462.37
+      ]
+    },
+    {
+      "text": "Recreation & Leisure",
+      "bbox": [
+        966.134,
+        741.123,
+        1225.034,
+        769.173
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.134,
+        764.173
+      ]
+    },
+    {
+      "text": "Storage & Logistics",
+      "bbox": [
+        1424.134,
+        741.123,
+        1666.909,
+        769.173
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.134,
+        764.173
+      ]
+    },
+    {
+      "text": "Safe, comfortable, and tailored to meet diverse living ",
+      "bbox": [
+        969.074,
+        195.168,
+        1393.955,
+        212.88
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        209.68
+      ]
+    },
+    {
+      "text": "needs—from temporary housing to long-term ",
+      "bbox": [
+        969.074,
+        217.696,
+        1333.746,
+        235.408
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        232.208
+      ]
+    },
+    {
+      "text": "residences.",
+      "bbox": [
+        969.074,
+        240.224,
+        1057.058,
+        257.936
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        254.736
+      ]
+    },
+    {
+      "text": "Designed to meet essential daily needs with functional, ",
+      "bbox": [
+        1426.074,
+        195.168,
+        1867.547,
+        212.88
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        209.68
+      ]
+    },
+    {
+      "text": "user-friendly layouts that support everyday life.",
+      "bbox": [
+        1426.074,
+        217.696,
+        1801.003,
+        235.408
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        232.208
+      ]
+    },
+    {
+      "text": "Flexible and efficient solutions for offices, meeting ",
+      "bbox": [
+        969.074,
+        497.57,
+        1373.955,
+        515.282
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        512.082
+      ]
+    },
+    {
+      "text": "rooms, and collaborative environments.",
+      "bbox": [
+        969.074,
+        520.098,
+        1281.139,
+        537.81
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        534.61
+      ]
+    },
+    {
+      "text": "Modular solutions for hospitals, clinics, and medical ",
+      "bbox": [
+        1426.074,
+        497.57,
+        1837.387,
+        515.282
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        512.082
+      ]
+    },
+    {
+      "text": "stations—prioritizing hygiene, functionality, and rapid ",
+      "bbox": [
+        1426.074,
+        520.098,
+        1851.675,
+        537.81
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        534.61
+      ]
+    },
+    {
+      "text": "deployment.",
+      "bbox": [
+        1426.074,
+        542.626,
+        1525.242,
+        560.338
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        557.138
+      ]
+    },
+    {
+      "text": "Spaces for fitness, recreation, and relaxation—",
+      "bbox": [
+        969.074,
+        798.873,
+        1334.115,
+        816.585
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        813.385
+      ]
+    },
+    {
+      "text": "enhancing quality of life both indoors and outdoors.",
+      "bbox": [
+        969.074,
+        821.401,
+        1381.603,
+        839.113
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        969.074,
+        835.913
+      ]
+    },
+    {
+      "text": "Secure, scalable, and adaptable storage modules ",
+      "bbox": [
+        1426.074,
+        798.873,
+        1817.883,
+        816.585
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        813.385
+      ]
+    },
+    {
+      "text": "designed to optimize space and streamline logistics ",
+      "bbox": [
+        1426.074,
+        821.401,
+        1841.291,
+        839.113
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        835.913
+      ]
+    },
+    {
+      "text": "operations. ",
+      "bbox": [
+        1426.074,
+        843.929,
+        1519.322,
+        861.641
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.074,
+        858.441
+      ]
+    },
+    {
+      "text": "CUSTOMIZED ",
+      "bbox": [
+        47.77,
+        27.221,
+        644.385,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "SOLUTIONS FOR ",
+      "bbox": [
+        47.77,
+        110.265,
+        783.36,
+        205.635
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.635
+      ]
+    },
+    {
+      "text": "DIFFERENT ",
+      "bbox": [
+        47.77,
+        193.31,
+        560.49,
+        288.68
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        271.68
+      ]
+    },
+    {
+      "text": "MARKETS",
+      "bbox": [
+        47.77,
+        276.355,
+        466.735,
+        371.725
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        354.725
+      ]
+    }
+  ]
+}

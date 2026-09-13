@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-06",
+  "url": "http://127.0.0.1:40565",
+  "checks": [
+    "49 color swatches rendered",
+    "Original color fallbacks and P3 preserved",
+    "Local Family and Inter fonts loaded",
+    "Swatch copies actual fallback value to clipboard",
+    "Video timestamp navigation",
+    "Dropdown keyboard open, tab to link, Escape close and focus return",
+    "Form invalid/complete demo without transmission",
+    "FAQ expands",
+    "Motion replay and manual reduced-motion control",
+    "System reduced-motion respected",
+    "All local download/evidence links exist",
+    "1440, 768 and 390px layouts have no horizontal overflow; screenshots saved",
+    "No runtime JS errors or failed resources in local catalog",
+    "49 color variables include 39 original Display P3 overrides",
+    "Heading mobile breakpoint 420px and testimonial motion ownership cross-checked against source CSS",
+    "All required DESIGN.md sections present",
+    "Reference video HTTP byte range request returned 206 and expected Content-Range",
+    "Independent source review passed after correcting LFE Sans Medium file weight to original CSS 400"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scroll": 1440,
+      "inner": 1440
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 768,
+      "inner": 768
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 390,
+      "inner": 390
+    }
+  ],
+  "errors": [],
+  "broken": [],
+  "fonts": {
+    "family": true,
+    "inter": true,
+    "heading": "color(display-p3 0.20392156862745098 0.20392156862745098 0.2)"
+  },
+  "srgbContrastOnWhite": {
+    "heading": 12.46,
+    "body": 9.61,
+    "body-muted": 3.82,
+    "blue": 3.64,
+    "green": 2.18,
+    "orange": 3.23
+  },
+  "status": "passed"
+}

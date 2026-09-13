@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lusion 공개 소스에서 확인되지 않는 모션 구조를 근거와 한계를 분리해 재구성한 독립 스튜디오.">
+  <title>Reconstruction Studio — Lusion Reference</title>
+  <link rel="icon" href="research/rejected-project-relative-responses/meta/favicon.ico">
+  <link rel="stylesheet" href="studio-shell.css"><link rel="stylesheet" href="tokens/lusion.css">
+  <link rel="stylesheet" href="reconstruction.css">
+  <script src="studio-shell.js" defer></script><script src="reconstruction.js" defer></script>
+<link rel="stylesheet" href="studio-brand.css"></head>
+<body>
+<div class="as-studio">
+  <a class="skip as-skip-link" href="#main">본문으로 건너뛰기</a>
+  <aside id="as-nav" class="as-sidebar" aria-label="Navigation">
+    <a class="as-brand" href="index.html"><span class="as-brand-mark" aria-hidden="true"><svg viewBox="0 0 22 30" width="22" height="30" focusable="false"><path d="M11 3.5v23M1.5 15h19" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></span><div><strong>LUSION</strong> <span>REFERENCE / RECONSTRUCTION</span></div><span class="as-brand-badge">WEB</span></a>
+    <div class="as-sidebar-group">
+      <span class="as-sidebar-label">WORKSPACE</span>
+      <nav aria-label="디자인 시스템 페이지">
+        <a href="project-kit.html"><span class="as-nav-index">01</span>프로젝트에 적용</a>
+        <a href="index.html"><span class="as-nav-index">02</span>개요·토큰</a>
+        <a href="source-explorer.html"><span class="as-nav-index">03</span>소스 탐색</a>
+        <a href="components.html"><span class="as-nav-index">04</span>아이콘·컴포넌트</a>
+        <a href="motion-lab.html"><span class="as-nav-index">05</span>모션 실험실</a>
+        <a href="reconstruction.html" aria-current="page"><span class="as-nav-index">06</span>재구성 스튜디오</a>
+        <a href="video-analysis.html"><span class="as-nav-index">07</span>영상 분석</a>
+      </nav>
+    </div>
+    <div class="as-sidebar-bottom">
+      <span class="as-status-dot"></span>
+      <span>Local source capture<small>2026.09.06 · lusion.co</small></span>
+      <a href="https://lusion.co/" target="_blank" rel="noreferrer" aria-label="Open original website"><span aria-hidden="true">↗</span></a>
+    </div>
+  </aside>
+  <button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+  <div class="as-main-shell">
+    <header class="as-topbar">
+      <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="as-breadcrumb"><span>Design system</span><span>/</span><strong>재구성 스튜디오</strong></div>
+      <div class="as-topbar-tools"><a class="as-export-button" href="tokens/lusion.css" download>Export tokens <span aria-hidden="true">↧</span></a></div>
+    </header>
+
+    <main id="main" tabindex="-1" class="as-workspace as-page-reconstruction">
+    <div class="as-section-heading as-page-title">
+      <div>
+        <p class="kicker as-eyebrow">LIBRARY / 06 <span class="as-version">PUBLIC SOURCE → BOUNDED SUBSTITUTE</span></p>
+        <h1>재구성<br>스튜디오</h1>
+        <p class="lead">비공개 원본 코드와 씬 파일은 단정하지 않고, 공개 번들·수집 에셋·관측 화면으로 확인되는 구조만 기준으로 동작 가능한 대체 모션을 넣었습니다.</p>
+      </div>
+      <div class="claim-panel" aria-label="검증 기준">
+        <span>완료 기준</span>
+        <b>근거 · 대체 · 차이</b>
+        <p>각 데모는 원본 클래스/에셋 링크, 새 구현 파일 링크, 빠진 부분을 함께 보여줍니다.</p>
+      </div>
+    </div>
+    <nav class="as-view-tabs" aria-label="관련 자료">
+      <a href="project-kit.html">프로젝트에 적용 ↗</a>
+      <a href="source-explorer.html">소스 탐색기 ↗</a>
+      <a href="motion-lab.html">모션랩 ↗</a>
+      <a href="media/reconstruction-v3.md">근거 문서 ↗</a>
+    </nav>
+
+    <aside class="toolbar" aria-label="전체 제어">
+      <button id="toggle-motion" type="button" aria-pressed="false">일시정지</button>
+      <label><input id="reduce-motion" type="checkbox"> 동작 줄이기</label>
+      <label>속도 <input id="speed" type="range" min="0.25" max="1.75" step="0.05" value="1"><output id="speed-value">1.00×</output></label>
+      <span id="runtime-status" role="status">준비 중</span>
+    </aside>
+
+    <nav class="jump as-view-tabs" aria-label="재구성 데모">
+      <a href="#fluid">01 Fluid</a>
+      <a href="#morph">02 Morph</a>
+      <a href="#shatter">03 Shatter</a>
+      <a href="#spring">04 Spring</a>
+      <a href="#loader">05 Loader</a>
+      <a href="#models">06 Models</a>
+      <a href="#buf">BUF</a>
+    </nav>
+
+    <section class="studio" id="fluid" data-demo="fluid">
+      <div class="copy">
+        <p class="kicker as-eyebrow">01 / SCREEN PAINT SUBSTITUTE</p>
+        <h2>포인터 흔적을 유체처럼 읽기.</h2>
+        <p>원본의 ping-pong FBO 유체 solver를 복구하지 않고, 포인터 속도·감쇠·반경이라는 확인 가능한 계약만 Canvas 입자장으로 대체했습니다.</p>
+        <div class="links">
+          <a href="sources/site.js">source/site.js</a>
+          <a href="media/reconstruction-v3.md#01-fluid-like-pointer-trail">v3 근거</a>
+          <a href="reconstruction.js">구현 JS</a>
+        </div>
+      </div>
+      <div class="stage">
+        <canvas id="fluid-canvas" tabindex="0" role="img" aria-label="포인터 속도에 따라 번지는 유체형 흔적 대체 데모"></canvas>
+        <div class="hud"><span>ScreenPaint / 대체</span><output id="fluid-count">0 strokes</output></div>
+      </div>
+      <div class="controls">
+        <button data-action="fluid-burst" type="button">중앙 방출</button>
+        <button data-action="fluid-clear" type="button">초기화</button>
+        <span>방향키 이동 · Enter 방출 · pointer/touch 지원</span>
+      </div>
+    </section>
+
+    <section class="studio" id="morph" data-demo="morph">
+      <div class="copy">
+        <p class="kicker as-eyebrow">02 / FACE + ASTRONAUT MORPH SUBSTITUTE</p>
+        <h2>얼굴과 우주복을 점으로 왕복.</h2>
+        <p>공개 텍스처 <code>face.png</code>와 astronaut 관련 텍스처명, About particle 클래스 근거를 사용했습니다. 실제 rig·mesh·shader는 모르는 영역이라 절차형 실루엣으로 대체합니다.</p>
+        <div class="links">
+          <a href="sources/assets/lusion.dev/assets/textures/tunnels/astronaut/face.png">face.png</a>
+          <a href="sources/site.js">AboutHeroParticles</a>
+          <a href="media/reconstruction-v3.md#02-face--astronaut-particle-morph">v3 근거</a>
+        </div>
+      </div>
+      <div class="stage dark">
+        <canvas id="morph-canvas" tabindex="0" role="img" aria-label="얼굴 실루엣과 우주비행사 실루엣을 오가는 입자 대체 데모"></canvas>
+        <div class="hud"><span>procedural silhouette</span><output id="morph-label">FACE 0%</output></div>
+      </div>
+      <div class="controls">
+        <button data-action="morph-toggle" type="button">형태 전환</button>
+        <button data-action="morph-reset" type="button">초기화</button>
+        <label>블렌드 <input id="morph-range" type="range" min="0" max="100" value="0"><output id="morph-range-value">0%</output></label>
+      </div>
+    </section>
+
+    <section class="studio" id="shatter" data-demo="shatter">
+      <div class="copy">
+        <p class="kicker as-eyebrow">03 / GOAL TUNNEL GLASS SUBSTITUTE</p>
+        <h2>유리 파편의 타격감.</h2>
+        <p><code>GoalTunnelGlass</code>, <code>GoalTunnelEfx</code>, <code>glass_broken.ogg</code>는 공개 번들에서 확인됩니다. fracture solver와 원본 geometry는 확인되지 않아 polygon fragment로 대체했습니다.</p>
+        <div class="links">
+          <a href="sources/site.js">GoalTunnelGlass</a>
+          <a href="media/reconstruction-v3.md#03-glass-shatter-polygons">v3 근거</a>
+          <a href="reconstruction.css">스타일 소스</a>
+        </div>
+      </div>
+      <div class="stage blue">
+        <canvas id="shatter-canvas" tabindex="0" role="img" aria-label="다각형 유리 조각이 충격점에서 흩어지는 대체 데모"></canvas>
+        <div class="hud"><span>polygon fragments</span><output id="shatter-count">ready</output></div>
+      </div>
+      <div class="controls">
+        <button data-action="shatter-hit" type="button">충격 재생</button>
+        <button data-action="shatter-reset" type="button">재조립</button>
+        <span>클릭 위치가 충격 중심입니다</span>
+      </div>
+    </section>
+
+    <section class="studio" id="spring" data-demo="spring">
+      <div class="copy">
+        <p class="kicker as-eyebrow">04 / SECOND ORDER DYNAMICS</p>
+        <h2>원본 수치가 보이는 추종.</h2>
+        <p>프로젝트 focus/zoom/border에서 확인한 <code>(frequency, damping, response)</code> 조합을 그대로 선택지로 두고, follower 위치는 새 DOM 데모로 계산합니다.</p>
+        <div class="links">
+          <a href="research/coverage-v2.md">coverage-v2.md</a>
+          <a href="media/reconstruction-v3.md#04-secondorderdynamics-follower">v3 근거</a>
+          <a href="reconstruction.js">SecondOrderDynamics</a>
+        </div>
+      </div>
+      <div class="spring-stage" tabindex="0" role="application" aria-label="포인터 또는 방향키 목표점을 두 번째 차수 동역학으로 따라가는 데모">
+        <div id="spring-target" class="target"></div>
+        <div id="spring-follower" class="follower"></div>
+        <svg class="spring-grid" aria-hidden="true"><path id="spring-path"/></svg>
+        <div class="hud"><span id="spring-preset-name">focus (1, .6, 2)</span><output id="spring-readout">x 50 / y 50</output></div>
+      </div>
+      <div class="controls">
+        <label>프리셋
+          <select id="spring-preset">
+            <option value="focus">focus (1, .6, 2)</option>
+            <option value="zoom">zoom (2.2, .7, 3)</option>
+            <option value="border">border (2.5, .5, 2)</option>
+          </select>
+        </label>
+        <button data-action="spring-center" type="button">중앙 복귀</button>
+        <span>방향키로 target 이동</span>
+      </div>
+    </section>
+
+    <section class="studio" id="loader" data-demo="loader">
+      <div class="copy">
+        <p class="kicker as-eyebrow">05 / PRELOADER + TRANSITION</p>
+        <h2>로더 숫자에서 십자 와이프로.</h2>
+        <p>원본 <code>Preloader</code>와 <code>transition-overlay</code>의 rolling digits, loading rect, 회전·확대 마스크를 근거로 독립 전환을 구현했습니다. 실제 네트워크 진행률은 아닙니다.</p>
+        <div class="links">
+          <a href="sources/site.js">Preloader</a>
+          <a href="media/reconstruction-v3.md#05-loader--transition-wipe">v3 근거</a>
+          <a href="scripts/verify-reconstruction.cjs">검증 스크립트</a>
+        </div>
+      </div>
+      <div class="loader-stage">
+        <div class="loader-page" id="loader-page"><span>SCENE A</span><strong>OPEN THE SOURCE</strong></div>
+        <canvas id="loader-canvas" aria-hidden="true"></canvas>
+        <div class="digits" aria-label="전환 진행률"><span id="digit-a">0</span><span id="digit-b">0</span><span id="digit-c">0</span></div>
+      </div>
+      <div class="controls">
+        <button data-action="loader-play" type="button">전환 재생</button>
+        <button data-action="loader-reset" type="button">초기화</button>
+        <output id="loader-status">ready</output>
+      </div>
+    </section>
+
+    <section class="studio" id="models" data-demo="models">
+      <div class="copy">
+        <p class="kicker as-eyebrow">06 / DECODED BUF VIEWER</p>
+        <h2>실제 추출 좌표를 돌려보기.</h2>
+        <p>55개 <code>.buf</code>를 전수 파싱해 position/indices를 해석했습니다. 이 viewer는 생성된 JSON 좌표만 읽어 점 구름으로 투영하며, 원본 shader나 rig를 흉내 내지 않습니다.</p>
+        <div class="links">
+          <a href="sources/decoded/manifest.json">decoded manifest</a>
+          <a href="research/buf-analysis-v3.json">buf 감사 JSON</a>
+          <a href="scripts/decode-buf.cjs">디코더 스크립트</a>
+        </div>
+      </div>
+      <div class="stage model-stage">
+        <canvas id="model-canvas" tabindex="0" role="img" aria-label="공개 buf에서 추출한 실제 좌표를 점 구름으로 회전해 보는 뷰어"></canvas>
+        <div class="hud"><span id="model-name">decoded model</span><output id="model-readout">loading</output></div>
+      </div>
+      <div class="controls">
+        <label>모델
+          <select id="model-select" aria-label="decoded buf 모델 선택">
+            <option>manifest 로딩 중</option>
+          </select>
+        </label>
+        <button data-action="model-reset" type="button">시점 초기화</button>
+        <span>드래그 · 방향키 회전 · 실제 decoded position 좌표</span>
+      </div>
+    </section>
+
+    <section class="source-system" id="buf">
+      <div>
+        <p class="kicker as-eyebrow">BUF STRUCTURE / CONFIRMED HEADER</p>
+        <h2>확인 가능한 구조만 설명.</h2>
+        <p>수집된 <code>.buf</code>는 앞 4바이트 little-endian 길이와 JSON 헤더, 그 뒤 binary payload로 읽힙니다. 아래 표는 새 검증 스크립트가 직접 파싱하는 항목입니다.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>파일</th><th>vertex</th><th>index</th><th>attributes</th><th>상태</th></tr></thead>
+          <tbody id="buf-table">
+            <tr><td colspan="5">검증 스크립트와 화면 초기화 중</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="source-cards">
+        <article><span>원본 근거</span><a href="sources/site.js">sources/site.js</a><p>Three.js r158, BufItem 등록, ScreenPaint, Preloader, GoalTunnel 계열 클래스 문자열.</p></article>
+        <article><span>수집 커버리지</span><a href="research/coverage-v2.md">research/coverage-v2.md</a><p>P0/P1/P2 누락 기준과 모션 적용 요구. 새 화면은 P2의 일부를 대체 데모로 보강합니다.</p></article>
+        <article><span>현재 한계</span><a href="media/reconstruction-v3.md">media/reconstruction-v3.md</a><p>비공개 solver, shader, rig, DCC 원본 파일은 복원하지 않았고 원본과 동일하다고 쓰지 않습니다.</p></article>
+      </div>
+    </section>
+    <footer class="as-studio-footer"><span>LUSION / REFERENCE SYSTEM</span><span>Public source + reusable implementation</span></footer>
+    </main>
+  </div>
+  <div class="as-toast" role="status"></div>
+</div>
+</body>
+</html>

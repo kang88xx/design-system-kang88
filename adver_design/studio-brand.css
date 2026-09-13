@@ -1,0 +1,209 @@
+/* ==========================================================================
+   Studio Brand — X Advertising 레퍼런스 시스템의 토큰을 스튜디오 셸(--as-*)에 매핑.
+   규격: ../All/shell/SPEC.md · 뼈대: studio-shell.css / studio-shell.js
+   - 셸의 치수·간격·타입 크기는 studio-shell.css 값을 그대로 쓴다.
+   - 여기서는 (1) 브랜드 토큰 매핑, (2) 페이지별 기존 CSS와의 충돌 무력화만 한다.
+   - 매핑은 :root 가 아니라 body 에 선언한다. 다크 테마가 body[data-theme="dark"] 로
+     --color-* 를 바꾸므로, 같은 요소에서 var() 를 풀어야 --as-* 도 함께 전환된다.
+   ========================================================================== */
+body {
+  --as-font-display: var(--font-display, ui-sans-serif, system-ui, sans-serif);
+  --as-font-text: var(--font-body, ui-sans-serif, system-ui, sans-serif);
+  --as-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --as-ink: var(--color-text);
+  --as-ink-2: var(--color-text);
+  --as-ink-3: var(--color-muted);
+  --as-muted: var(--color-muted);
+  --as-faint: var(--color-muted);
+  --as-faint-2: var(--color-muted);
+
+  --as-line: var(--color-border);
+  --as-line-strong: var(--color-border);
+
+  --as-accent: var(--color-action);
+  --as-accent-hover: var(--color-action-hover);
+  --as-accent-active: var(--color-action-hover);
+  --as-link: var(--color-action);
+  --as-on-accent: var(--color-on-action);
+
+  --as-bg: var(--color-bg);
+  --as-surface: var(--color-surface);
+  --as-sidebar-bg: var(--color-bg);
+  --as-nav-hover: var(--color-surface);
+  --as-nav-active-bg: var(--color-text);
+  --as-nav-active-ink: var(--color-bg);
+
+  --as-status: var(--color-text);
+  --as-selection: var(--color-surface-hover);
+  --as-toast-bg: var(--color-text);
+  --as-toast-ink: var(--color-bg);
+
+  --as-radius: 0px;
+}
+
+/* 앵커가 sticky 상단바에 가리지 않도록 */
+html { scroll-padding-top: 85px; }
+
+/* ---------- 브랜드 마크: 기존 "A↗" 문자 마크 ---------- */
+.as-brand-mark {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  line-height: 1;
+  width: 22px;
+  min-width: 22px;
+  height: 30px;
+}
+.as-brand-mark span { font-weight: 400; font-size: 17px; letter-spacing: 0; margin-left: 3px; }
+.as-brand strong { letter-spacing: -0.02em; }
+.as-brand-badge { border-color: var(--as-line); color: var(--as-muted); font-family: var(--as-font-mono); }
+
+/* ---------- 모노스페이스 라벨 (기하학·흑백 대비 스타일) ---------- */
+.as-studio .as-eyebrow,
+.as-sidebar-label,
+.as-nav-index,
+.as-nav-count,
+.as-breadcrumb,
+.as-stats-strip span,
+.as-studio-footer { font-family: var(--as-font-mono); letter-spacing: .08em; }
+.as-studio .as-eyebrow { display: block; }
+.as-studio .as-eyebrow .as-status-dot { display: inline-block; margin-right: 8px; vertical-align: 1px; }
+.as-version { letter-spacing: .08em; }
+
+/* ---------- 사이드바 하단: 설명 2줄 + 판(edition) + 문서 링크 ---------- */
+.as-sidebar-bottom { align-items: flex-start; line-height: 1.6; }
+.as-sidebar-bottom > .as-status-dot { margin-top: 5px; }
+.as-sidebar-bottom small { font-family: var(--as-font-mono); letter-spacing: .06em; line-height: 1.6; }
+.as-sidebar-bottom small a { margin-left: 0; font-size: 9px; text-decoration: underline; text-underline-offset: 3px; }
+.as-sidebar-bottom > a { align-self: center; }
+
+/* ---------- 사이드바 내비: 옛 nav 규칙(space-between, 밑줄) 무력화 ---------- */
+.as-studio .as-sidebar nav { display: grid; gap: 4px; }
+.as-studio .as-sidebar nav a { justify-content: flex-start; padding: 12px; }
+.as-studio .as-sidebar a:hover,
+.as-studio .as-topbar a:hover,
+.as-studio .as-topbar button:hover,
+.as-studio .as-studio-footer a:hover { text-decoration: none; }
+.as-nav-arrow { margin-left: 4px; font-size: 11px; color: var(--as-faint-2); }
+
+/* ---------- 상단바 도구 ---------- */
+.as-icon-button { font-family: var(--as-font-text); }
+/* 페이지 CSS의 button{min-height:44px;border-radius:999px} 등에서 셸 치수를 되돌린다 */
+.as-studio .as-icon-button,
+.as-studio .as-export-button,
+.as-studio .as-mobile-nav-button {
+  min-height: 0; border-radius: var(--as-radius); font-size: 11px;
+}
+.as-studio .as-icon-button { width: 34px; height: 34px; padding: 0; border: 1px solid var(--as-line-strong); background: var(--as-bg); }
+.as-studio .as-export-button { padding: 9px 12px; border: 1px solid var(--as-line-strong); background: var(--as-bg); }
+.as-studio .as-mobile-nav-button { border: 0; background: none; padding: 7px; font-size: 20px; }
+.as-studio .as-toast { border-radius: 0; }
+/* shell.css 의 `@media(max-width:640px){.as-sidebar-scrim{display:block}}` 가
+   [hidden] 의 UA display:none 을 이기므로, 모바일에서 스크림이 항상 화면을 덮는다.
+   showcase.css 에는 `[hidden]{display:none!important}` 가 없어 index.html 에서 재현된다. */
+.as-studio .as-sidebar-scrim[hidden] { display: none; }
+.as-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* 기존 검색 입력을 상단바로 옮겼을 때의 치수 보정 */
+.as-topbar-search { position: relative; }
+.as-topbar-search .source-search-wrap { flex: 1; min-width: 0; display: flex; align-items: center; }
+.as-topbar-search input,
+.as-topbar-search .source-search-wrap input,
+.as-topbar-search .lab-search input {
+  width: 100%; min-height: 0; height: 32px; border: 0; border-radius: 0;
+  background: transparent; padding: 0 26px 0 0; font-size: 11px; color: var(--as-ink);
+}
+.as-topbar-search .source-search-wrap button {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  width: 22px; min-height: 0; height: 22px; padding: 0; border: 0; background: transparent; font-size: 15px;
+}
+.as-topbar-search.lab-search { width: auto; }
+.as-topbar-search .lab-search-inner { display: contents; }
+
+/* ---------- 개요 히어로 ---------- */
+.as-overview-title h1 { letter-spacing: -.055em; font-weight: 500; }
+.as-intro strong, .as-intro > span { font-family: var(--as-font-mono); font-size: 12px; letter-spacing: .08em; color: var(--as-ink); display: block; margin-bottom: 8px; }
+.as-page-title h1,
+.as-section-heading h1 {
+  font-family: var(--as-font-display); font-size: 36px; line-height: 1.15;
+  letter-spacing: -.045em; font-weight: 500; margin: 0;
+}
+.as-section-heading h2 { letter-spacing: -.02em; }
+.as-page-title { align-items: flex-end; }
+.as-page-title .as-eyebrow { margin-bottom: 13px; }
+.as-button { border-radius: var(--radius-pill, 9999px); min-height: 44px; padding: 10px 20px; }
+/* shell.css 의 `.as-studio a{color:inherit}` 가 `.as-button`/`.as-text-command` 보다
+   특이도가 높아 링크형 버튼의 색을 덮는다. 셸을 고치지 않고 여기서 되돌린다. */
+.as-studio a.as-button, .as-studio a.as-button:hover { color: var(--as-on-accent); }
+/* 같은 이유로 페이지 고유 버튼 클래스(.button/.primary)의 글자색도 되살린다. */
+.as-studio .button { color: var(--color-text); }
+.as-studio .primary { color: var(--color-bg); }
+.as-studio a.as-text-command { color: var(--as-ink-3); }
+.as-studio a.as-text-command:hover { color: var(--as-accent); }
+
+/* 통계 스트립: 기존 마크업이 <span><b>수치</b>라벨</span> 인 페이지도 같은 모양으로 */
+.as-stats-strip > span {
+  border-right: 1px solid var(--as-line); padding-left: 26px; min-width: 0;
+  display: block; font-size: 10px; color: var(--as-muted); line-height: 1.6;
+}
+.as-stats-strip > span:first-child { padding-left: 0; }
+.as-stats-strip > span:last-child { border-right: 0; }
+.as-stats-strip > span b {
+  display: block; font-family: var(--as-font-display); font-size: 27px; font-weight: 500;
+  line-height: 1.1; color: var(--as-ink); letter-spacing: -.03em; margin-bottom: 9px; padding: 0;
+}
+
+/* ---------- 옛 셸(사이드바/헤더) 규칙 무력화 + 본문 간격 정리 ---------- */
+.as-studio .as-workspace > section { padding-top: 24px; border-top: 1px solid var(--as-line); }
+.as-studio .as-workspace > section:first-child { border-top: 0; padding-top: 0; }
+.as-studio .as-workspace > header { padding-top: 0; }
+.as-studio .as-studio-footer { border-top: 1px solid var(--as-line); }
+.as-studio .lab-controls { top: var(--as-topbar-h, 65px); }
+.as-studio .source-coverage { padding-top: 0; }
+.as-studio .usage-section:first-of-type { padding-top: 0; }
+.as-studio .lab-intro { padding-top: 0; }
+.as-studio .source-intro { padding-top: 0; }
+
+/* ---------- 다크 테마에서의 셸 보정 ---------- */
+body[data-theme="dark"] .as-topbar,
+body[data-theme="dark"] .as-export-button,
+body[data-theme="dark"] .as-icon-button,
+body[data-theme="dark"] .as-topbar-search { background-color: var(--color-bg); }
+body[data-theme="dark"] .as-toast { box-shadow: 0 3px 20px rgba(255, 255, 255, .12); }
+
+/* sticky 요소는 상단바(65px) 아래에 붙는다 */
+@media (min-width: 1200px) {
+  .as-studio .source-sidebar { top: calc(var(--as-topbar-h, 65px) + 20px); }
+}
+
+@media (max-width: 640px) {
+  .as-stats-strip > span:nth-child(2n) { border-right: 0; padding-left: 20px; }
+  .as-stats-strip > span:nth-child(2n+1) { padding-left: 0; }
+  .as-page-title h1, .as-section-heading h1 { font-size: 30px; }
+  /* shell.css 는 섹션 머리를 좁은 화면에서도 2단 flex 로 두어 제목이 눌린다 */
+  .as-studio .as-section-heading { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .as-studio .as-section-heading > * { width: 100%; }
+  /* shell.css 는 좁은 화면에서 상단바 검색을 감추지만, 이 뷰어에서는 검색이
+     원래 본문에 있던 필수 기능이므로 계속 보이게 둔다 */
+  .as-studio .as-topbar-tools { flex: 1; min-width: 0; gap: 6px; }
+  .as-studio .as-topbar-search { display: flex; flex: 1; min-width: 0; max-width: none; padding: 0 8px; gap: 5px; }
+  .as-studio .as-topbar-search svg { width: 12px; height: 12px; }
+  .as-studio .as-breadcrumb { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+}
+
+@media (max-width: 400px) {
+  .as-studio .as-export-button { padding: 6px 8px; gap: 6px; font-size: 10px; }
+  .as-studio .as-export-button span { font-size: 13px; }
+}
+
+/* showcase.css 의 옛 셸 규칙 `#theme{…}` 와 700px 이하 `#theme{position:absolute;width:142px}` 가
+   ID 특이도로 셸 아이콘 버튼 규칙을 이기므로, 같은 ID 특이도로 셸 치수를 되돌린다. */
+.as-studio #theme.as-icon-button,
+.as-studio #source-theme.as-icon-button,
+.as-studio #lab-theme.as-icon-button {
+  position: static; inset: auto; width: 34px; height: 34px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--as-line-strong); border-block: 1px solid var(--as-line-strong);
+  background: var(--as-bg); font-size: 14px; flex: none;
+}

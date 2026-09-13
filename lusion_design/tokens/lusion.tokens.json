@@ -1,0 +1,254 @@
+{
+  "source": {
+    "site": "https://lusion.co/",
+    "css": "sources/site.css",
+    "js": "sources/site.js",
+    "classification": {
+      "extracted": "Values copied from browser-delivered public CSS/JS bundles.",
+      "recommended": "Alias or grouping inferred from repeated public values for design-system use."
+    }
+  },
+  "extracted": {
+    "colors": {
+      "error": "#e90000",
+      "offWhite": "#f0f1fa",
+      "white": "#fff",
+      "darkWhite": "#e4e6ef",
+      "offWhiteSemi": "rgba(240, 241, 250, .7)",
+      "black": "#000000",
+      "green": "#c1ff00",
+      "blue": "#1a2ffb",
+      "red": "#ff4c41",
+      "greyBlue": "#2b2e3a",
+      "darkBlue": "#071bdf",
+      "purple": "#8832f7",
+      "projectDetailsLogoColor": "#f0f",
+      "headerColor": "#0016ec",
+      "headerTextColor": "#000000",
+      "projectDetailsBg": "#000",
+      "projectDetailsHighlight": "#000",
+      "projectDetailsButtonBg": "#000",
+      "projectDetailsButtonText": "#000",
+      "projectDetailsIconBg": "#000",
+      "projectDetailsIconColor": "#000",
+      "projectDetailsText": "#000",
+      "projectDetailsButtonBgHover": "#000",
+      "projectDetailsButtonTextHover": "#fff",
+      "darkPanel": "#121416",
+      "darkRule": "#34393f",
+      "headerOverlayGradient": "linear-gradient(270deg,#0b0b1280,#0b0b1200)"
+    },
+    "fonts": {
+      "sans": {
+        "family": "Aeonik",
+        "faces": [
+          {
+            "weight": 400,
+            "style": "normal",
+            "sources": [
+              "/assets/fonts/Aeonik-Regular.woff2",
+              "/assets/fonts/Aeonik-Regular.woff"
+            ]
+          },
+          {
+            "weight": 500,
+            "style": "normal",
+            "sources": [
+              "/assets/fonts/Aeonik-Medium.woff2",
+              "/assets/fonts/Aeonik-Medium.woff"
+            ]
+          },
+          {
+            "weight": 400,
+            "style": "italic",
+            "sources": [
+              "/assets/fonts/Aeonik-RegularItalic.woff2",
+              "/assets/fonts/Aeonik-RegularItalic.woff"
+            ]
+          }
+        ]
+      },
+      "mono": {
+        "family": "IBMPlexMono",
+        "faces": [
+          {
+            "weight": 400,
+            "style": "normal",
+            "sources": [
+              "/assets/fonts/IBMPlexMono-Regular.woff2",
+              "/assets/fonts/IBMPlexMono-Regular.woff"
+            ]
+          },
+          {
+            "weight": 500,
+            "style": "normal",
+            "sources": [
+              "/assets/fonts/IBMPlexMono-Medium.woff2",
+              "/assets/fonts/IBMPlexMono-Medium.woff"
+            ]
+          }
+        ]
+      },
+      "symbolMono": {
+        "family": "LusionMono",
+        "faces": [
+          {
+            "weight": 400,
+            "style": "normal",
+            "sources": [
+              "/assets/fonts/LusionMono.woff2",
+              "/assets/fonts/LusionMono.woff"
+            ]
+          }
+        ]
+      }
+    },
+    "layout": {
+      "gridGap": "2vw",
+      "gridSpace": "calc((100% - 11 * var(--grid-gap)) / 12)",
+      "basePaddingX": "max(5vw, 40px)",
+      "basePaddingY": "clamp(30px, 4vw, 50px)",
+      "columns": 12,
+      "mobileColumns": 6,
+      "mobileBreakpoint": "812px",
+      "smallBreakpoint": "400px",
+      "narrowHeaderBreakpoint": "380px",
+      "wideAspectRatio": "21/9"
+    },
+    "radius": {
+      "global": "20px",
+      "mobileGlobal": "10px",
+      "card": ".625em",
+      "pill": "6.25em",
+      "circle": "100%",
+      "input": "1.125rem"
+    },
+    "typography": {
+      "baseSelector": "html,body,h1,h2,h3,h4,button,input",
+      "baseFamily": "Aeonik",
+      "baseWeight": 400,
+      "baseStyle": "normal",
+      "classes": {
+        ".text-xs": {
+          "fontSize": ".75em"
+        },
+        ".text-base": {
+          "fontSize": "clamp(1rem,1.5vw,2rem)",
+          "mobileFontSize": ".875em"
+        },
+        ".text-lg": {
+          "fontSize": "1.75em",
+          "mobileFontSize": "1.5em"
+        },
+        ".text-4xl": {
+          "fontSize": "clamp(7em,8vw,20em)",
+          "mobileFontSize": "13vw"
+        }
+      },
+      "notableSelectors": {
+        "#home-hero-title": {
+          "fontSize": "2.5vw",
+          "lineHeight": "1.1",
+          "mobileFontSize": "6vw"
+        },
+        "#home-reel-title": {
+          "fontSize": "10vw",
+          "lineHeight": "1",
+          "letterSpacing": "-.02em",
+          "mobileFontSize": "13.8vw"
+        },
+        "#project-details-title,#project-details-preview-title": {
+          "fontSize": "4.5em",
+          "lineHeight": ".95"
+        },
+        "#footer-section": {
+          "fontSize": "clamp(.875rem,1vw,2rem)"
+        }
+      }
+    },
+    "motion": {
+      "cssTimingFunctions": {
+        "standard": "cubic-bezier(.4,0,.1,1)",
+        "smooth": "cubic-bezier(.35,0,0,1)",
+        "loop": "cubic-bezier(.1,0,.1,1)"
+      },
+      "cssDurations": [
+        ".1s",
+        ".2s",
+        ".25s",
+        ".3s",
+        ".4s",
+        ".5s",
+        ".6s",
+        "3s"
+      ],
+      "jsEasingNames": [
+        "ease.backInOut",
+        "ease.backOut",
+        "ease.cubcInOut",
+        "ease.cubicIn",
+        "ease.cubicInOut",
+        "ease.cubicOut",
+        "ease.elasticOut",
+        "ease.expoIn",
+        "ease.expoInOut",
+        "ease.expoOut",
+        "ease.lusion",
+        "ease.quadInOut",
+        "ease.quadOut",
+        "ease.quartIn",
+        "ease.quintInOut",
+        "ease.sineIn",
+        "ease.sineInOut",
+        "ease.sineOut"
+      ],
+      "preloader": {
+        "delay": 1.5,
+        "minPreloadDuration": 1,
+        "percentBetweenInitAndStart": 0.3,
+        "minDurationBetweenInitAndStart": 0.25,
+        "hideDuration": 0.5
+      },
+      "runtime": {
+        "animationFrame": "requestAnimationFrame(loop)",
+        "maxDeltaSeconds": "1/20",
+        "mobileWidth": 812,
+        "maxPixelCount": "2560*1440",
+        "dpr": "Math.min(1.5,browser$1.devicePixelRatio)||1"
+      }
+    }
+  },
+  "recommended": {
+    "semanticColors": {
+      "canvas": "{colors.white}",
+      "ink": "{colors.black}",
+      "inkInverse": "{colors.white}",
+      "surfaceSoft": "{colors.offWhite}",
+      "surfaceMuted": "{colors.darkWhite}",
+      "brandElectric": "{colors.blue}",
+      "accentLime": "{colors.green}",
+      "accentRed": "{colors.red}",
+      "panelDark": "{colors.greyBlue}"
+    },
+    "typeScale": {
+      "xs": ".75em",
+      "base": "clamp(1rem, 1.5vw, 2rem)",
+      "lg": "1.75em",
+      "display": "clamp(7em, 8vw, 20em)"
+    },
+    "motion": {
+      "interaction": {
+        "duration": ".3s",
+        "easing": "cubic-bezier(.4,0,.1,1)"
+      },
+      "panel": {
+        "duration": ".5s",
+        "easing": "cubic-bezier(.4,0,.1,1)"
+      },
+      "lineReveal": {
+        "duration": ".6s",
+        "easing": "cubic-bezier(.35,0,0,1)"
+      }
+    }
+  }
+}

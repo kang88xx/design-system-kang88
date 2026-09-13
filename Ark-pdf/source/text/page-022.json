@@ -1,0 +1,521 @@
+{
+  "page": 22,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n22\nArk Pod Has Many Optional Materials,\nPerfectly Displaying Personalized Customization.\n\nMaterial Option 1\nMaterial Option 2\nMaterial Option 3\n\nStructure\nLight steel frane\n\nCeiling\nSuspended Alu ceiling\nWaterproof gypsun board\nCustonized suspended ceiling\n\nWall Finishes\nWaterproof gypsum board\nMarble tiles\nCeramic tiles\n\nFloor Finishes\nConcrete floor finishes\nMarble tiles\nCeramic tiles\n\nLighting\nWaterproof LED Lighting\n\nBATHROOM\nPOD",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "22",
+      "bbox": [
+        1854.231,
+        44.176,
+        1866.691,
+        55.496
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1854.231,
+        53.496
+      ]
+    },
+    {
+      "text": "Ark Pod Has Many Optional Materials,  ",
+      "bbox": [
+        738.364,
+        40.91,
+        1617.517,
+        91.418
+      ],
+      "font": "Gotham-Light",
+      "size": 46.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        738.364,
+        82.218
+      ]
+    },
+    {
+      "text": "Perfectly Displaying Personalized Customization.",
+      "bbox": [
+        738.364,
+        99.928,
+        1840.617,
+        150.436
+      ],
+      "font": "Gotham-Light",
+      "size": 46.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        738.364,
+        141.236
+      ]
+    },
+    {
+      "text": "Material Option 1",
+      "bbox": [
+        627.375,
+        489.35,
+        840.125,
+        517.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        627.375,
+        512.4
+      ]
+    },
+    {
+      "text": "Material Option 2",
+      "bbox": [
+        1077.162,
+        489.35,
+        1295.337,
+        517.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1077.162,
+        512.4
+      ]
+    },
+    {
+      "text": "Material Option 3",
+      "bbox": [
+        1529.6,
+        489.35,
+        1747.9,
+        517.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1529.6,
+        512.4
+      ]
+    },
+    {
+      "text": "Structure",
+      "bbox": [
+        244.242,
+        580.966,
+        318.258,
+        598.678
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        244.242,
+        595.478
+      ]
+    },
+    {
+      "text": "Light steel frane",
+      "bbox": [
+        1122.058,
+        580.966,
+        1250.442,
+        598.678
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1122.058,
+        595.478
+      ]
+    },
+    {
+      "text": "Ceiling",
+      "bbox": [
+        254.138,
+        661.04,
+        308.362,
+        678.752
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        254.138,
+        675.552
+      ]
+    },
+    {
+      "text": "Suspended Alu ceiling",
+      "bbox": [
+        645.494,
+        661.04,
+        822.006,
+        678.752
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        645.494,
+        675.552
+      ]
+    },
+    {
+      "text": "Waterproof gypsun board",
+      "bbox": [
+        1083.138,
+        661.04,
+        1289.362,
+        678.752
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1083.138,
+        675.552
+      ]
+    },
+    {
+      "text": "Custonized suspended ceiling",
+      "bbox": [
+        1520.558,
+        661.04,
+        1756.942,
+        678.752
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1520.558,
+        675.552
+      ]
+    },
+    {
+      "text": "Wall Finishes",
+      "bbox": [
+        229.698,
+        741.113,
+        332.802,
+        758.825
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        229.698,
+        755.625
+      ]
+    },
+    {
+      "text": "Waterproof gypsum board",
+      "bbox": [
+        627.958,
+        741.113,
+        839.542,
+        758.825
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        627.958,
+        755.625
+      ]
+    },
+    {
+      "text": "Marble tiles",
+      "bbox": [
+        1140.722,
+        741.113,
+        1231.778,
+        758.825
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1140.722,
+        755.625
+      ]
+    },
+    {
+      "text": "Ceramic tiles",
+      "bbox": [
+        1587.678,
+        741.113,
+        1689.822,
+        758.825
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1587.678,
+        755.625
+      ]
+    },
+    {
+      "text": "Floor Finishes",
+      "bbox": [
+        225.906,
+        821.187,
+        336.594,
+        838.899
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        225.906,
+        835.699
+      ]
+    },
+    {
+      "text": "Concrete floor finishes",
+      "bbox": [
+        644.494,
+        821.187,
+        823.006,
+        838.899
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        644.494,
+        835.699
+      ]
+    },
+    {
+      "text": "Marble tiles",
+      "bbox": [
+        1140.722,
+        821.187,
+        1231.778,
+        838.899
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1140.722,
+        835.699
+      ]
+    },
+    {
+      "text": "Ceramic tiles",
+      "bbox": [
+        1587.678,
+        821.187,
+        1689.822,
+        838.899
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1587.678,
+        835.699
+      ]
+    },
+    {
+      "text": "Lighting",
+      "bbox": [
+        248.378,
+        901.26,
+        314.122,
+        918.972
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        248.378,
+        915.772
+      ]
+    },
+    {
+      "text": "Waterproof LED Lighting",
+      "bbox": [
+        1086.386,
+        901.26,
+        1286.114,
+        918.972
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1086.386,
+        915.772
+      ]
+    },
+    {
+      "text": "BATHROOM ",
+      "bbox": [
+        47.77,
+        27.221,
+        579.955,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "POD",
+      "bbox": [
+        47.77,
+        110.249,
+        239.87,
+        205.619
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.619
+      ]
+    }
+  ]
+}

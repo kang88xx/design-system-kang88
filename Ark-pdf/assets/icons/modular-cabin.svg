@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="modular-cabin-title modular-cabin-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="modular-cabin-title">Modular cabin icon</title>
+  <desc id="modular-cabin-desc">Newly constructed ARK Prefab outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[5,26],"family":"outline-utility","tone":"mono"}</metadata>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 17h30v18H9z"/>
+    <path d="M12 13h24"/>
+    <path d="M15 35v5"/>
+    <path d="M33 35v5"/>
+    <path d="M19 35V24h8v11"/>
+    <path d="M31 23h4v5h-4z"/>
+    <path d="M9 40h30"/>
+  </g>
+</svg>

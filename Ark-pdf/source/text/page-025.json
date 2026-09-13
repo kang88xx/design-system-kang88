@@ -1,0 +1,692 @@
+{
+  "page": 25,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n25\nWORK FLOW\n\nAt ARK Prefab, we uphold the values of professionalism, integrity,\nand innovation.\nFrom the first conversation to final installation, every step of our\nprocess is driven by a deep sense of responsibility and precision.\n\nWe are committed to delivering high-quality modular solutions\nwith transparency, efficiency, and a sincere dedication to our\nclients’ needs.\n\nClient\nCommunication\n\nDesign\n\n&\nEngineering\n\nProduction\n\n&\nQuality Control\n\nDelivery\n\n&\nInstallation\n\nSales team collects\n\nrequirements and\nstarts the project.\n\nTechnical team\ndevelops detailed BIM\n\ndrawings.\n\nFactory manufactures\ncomponents; products\n\nare inspected and\n\npacked.\n\nGoods are shipped, and\n\nthe client completes\n\non-site installation.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "25",
+      "bbox": [
+        1854.196,
+        42.532,
+        1866.726,
+        53.852
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1854.196,
+        51.852
+      ]
+    },
+    {
+      "text": "WORK FLOW",
+      "bbox": [
+        47.77,
+        27.221,
+        615.485,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "At ARK Prefab, we uphold the values of professionalism, integrity, ",
+      "bbox": [
+        739.519,
+        42.75,
+        1264.319,
+        60.462
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        57.262
+      ]
+    },
+    {
+      "text": "and innovation. ",
+      "bbox": [
+        739.519,
+        65.278,
+        865.599,
+        82.99
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        79.79
+      ]
+    },
+    {
+      "text": "From the first conversation to final installation, every step of our ",
+      "bbox": [
+        739.519,
+        87.819,
+        1253.12,
+        105.531
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        102.331
+      ]
+    },
+    {
+      "text": "process is driven by a deep sense of responsibility and precision.",
+      "bbox": [
+        739.519,
+        110.347,
+        1251.887,
+        128.059
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        124.859
+      ]
+    },
+    {
+      "text": "We are committed to delivering high-quality modular solutions ",
+      "bbox": [
+        1307.654,
+        42.75,
+        1810.679,
+        60.462
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        57.262
+      ]
+    },
+    {
+      "text": "with transparency, efficiency, and a sincere dedication to our ",
+      "bbox": [
+        1307.654,
+        65.278,
+        1792.727,
+        82.99
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        79.79
+      ]
+    },
+    {
+      "text": "clients’ needs.",
+      "bbox": [
+        1307.654,
+        87.806,
+        1418.998,
+        105.518
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        102.318
+      ]
+    },
+    {
+      "text": "Client ",
+      "bbox": [
+        254.856,
+        433.96,
+        335.956,
+        462.01
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        254.856,
+        457.01
+      ]
+    },
+    {
+      "text": "Communication",
+      "bbox": [
+        192.431,
+        466.76,
+        390.856,
+        494.81
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        192.431,
+        489.81
+      ]
+    },
+    {
+      "text": "Design ",
+      "bbox": [
+        692.59,
+        423.96,
+        786.64,
+        452.01
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        692.59,
+        447.01
+      ]
+    },
+    {
+      "text": "& ",
+      "bbox": [
+        727.165,
+        456.76,
+        752.065,
+        484.81
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        727.165,
+        479.81
+      ]
+    },
+    {
+      "text": "Engineering",
+      "bbox": [
+        660.065,
+        489.56,
+        811.64,
+        517.61
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        660.065,
+        512.61
+      ]
+    },
+    {
+      "text": "Production ",
+      "bbox": [
+        1122.944,
+        423.96,
+        1269.294,
+        452.01
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1122.944,
+        447.01
+      ]
+    },
+    {
+      "text": "& ",
+      "bbox": [
+        1183.669,
+        456.76,
+        1208.569,
+        484.81
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1183.669,
+        479.81
+      ]
+    },
+    {
+      "text": "Quality Control",
+      "bbox": [
+        1096.269,
+        489.56,
+        1288.469,
+        517.61
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1096.269,
+        512.61
+      ]
+    },
+    {
+      "text": "Delivery ",
+      "bbox": [
+        1583.954,
+        423.96,
+        1694.854,
+        452.01
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1583.954,
+        447.01
+      ]
+    },
+    {
+      "text": "& ",
+      "bbox": [
+        1626.954,
+        456.76,
+        1651.854,
+        484.81
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1626.954,
+        479.81
+      ]
+    },
+    {
+      "text": "Installation",
+      "bbox": [
+        1566.254,
+        489.56,
+        1705.029,
+        517.61
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1566.254,
+        512.61
+      ]
+    },
+    {
+      "text": "Sales team collects ",
+      "bbox": [
+        176.356,
+        551.071,
+        418.456,
+        578.521
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        176.356,
+        573.521
+      ]
+    },
+    {
+      "text": "requirements and ",
+      "bbox": [
+        185.756,
+        582.772,
+        409.056,
+        610.222
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        185.756,
+        605.222
+      ]
+    },
+    {
+      "text": "starts the project.",
+      "bbox": [
+        185.356,
+        614.471,
+        401.956,
+        641.922
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        185.356,
+        636.922
+      ]
+    },
+    {
+      "text": "Technical team ",
+      "bbox": [
+        651.228,
+        551.071,
+        842.003,
+        578.521
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        651.228,
+        573.521
+      ]
+    },
+    {
+      "text": "develops detailed BIM ",
+      "bbox": [
+        607.553,
+        582.772,
+        885.677,
+        610.222
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        607.553,
+        605.222
+      ]
+    },
+    {
+      "text": "drawings.",
+      "bbox": [
+        684.128,
+        614.471,
+        801.603,
+        641.922
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        684.128,
+        636.922
+      ]
+    },
+    {
+      "text": "Factory manufactures ",
+      "bbox": [
+        1060.442,
+        551.071,
+        1337.967,
+        578.521
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1060.442,
+        573.521
+      ]
+    },
+    {
+      "text": "components; products ",
+      "bbox": [
+        1056.567,
+        582.772,
+        1341.817,
+        610.222
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1056.567,
+        605.222
+      ]
+    },
+    {
+      "text": "are inspected and ",
+      "bbox": [
+        1085.667,
+        614.471,
+        1312.742,
+        641.922
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1085.667,
+        636.922
+      ]
+    },
+    {
+      "text": "packed.",
+      "bbox": [
+        1147.767,
+        646.172,
+        1243.117,
+        673.622
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1147.767,
+        668.622
+      ]
+    },
+    {
+      "text": "Goods are shipped, and ",
+      "bbox": [
+        1490.979,
+        551.071,
+        1789.829,
+        578.521
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1490.979,
+        573.521
+      ]
+    },
+    {
+      "text": "the client completes ",
+      "bbox": [
+        1512.029,
+        582.772,
+        1768.754,
+        610.222
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1512.029,
+        605.222
+      ]
+    },
+    {
+      "text": "on-site installation.",
+      "bbox": [
+        1521.679,
+        614.471,
+        1751.629,
+        641.922
+      ],
+      "font": "Gotham-Light",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1521.679,
+        636.922
+      ]
+    }
+  ]
+}

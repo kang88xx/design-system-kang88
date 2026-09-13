@@ -1,0 +1,74 @@
+"""Bundle our dependency-free sample markup, styles and scripts into portable HTML."""
+from pathlib import Path
+import json
+import html
+import zipfile
+
+ROOT = Path(__file__).resolve().parents[1]
+DS = ROOT / 'design-system'
+OUT = ROOT / 'samples'
+OUT.mkdir(exist_ok=True)
+files = {name: (DS / name).read_text() for name in ['tokens.css', 'tokens.scoped.css', 'motion-kit.css', 'motion-kit.js', 'interaction-kit.css', 'interaction-kit.js']}
+samples = []
+for kind, filename in [('motion', 'motion-samples.json'), ('interaction', 'interaction-samples.json')]:
+    for sample in json.loads((DS / filename).read_text()):
+        samples.append({**sample, 'kind': kind})
+assert len({s['id'] for s in samples}) == len(samples), 'duplicate sample IDs'
+standalone = {}
+for sample in samples:
+    name = sample['id']
+    assert name.replace('-', '').isalnum(), 'unsafe sample ID'
+    kit = 'motion-kit' if sample['kind'] == 'motion' else 'interaction-kit'
+    api = 'ReferenceMotion' if sample['kind'] == 'motion' else 'ReferenceInteractions'
+    # Escaping script terminators keeps this safe for inline HTML and generated source maps.
+    kit_js = files[kit + '.js'].replace('</script', '<\\/script')
+    template = '''<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>__TITLE__ — Standalone example</title>
+<style>__TOKENS__\n__STYLE__\n
+*{box-sizing:border-box}body{margin:0;padding:32px 24px;color:var(--color-text);background:var(--color-bg);font:14px/1.6 var(--font-body)}main{max-width:1100px;margin:auto}h1{font-size:28px;font-weight:500;letter-spacing:-.03em}header>p{color:var(--color-muted);font-size:12px;max-width:80ch}.standalone-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:16px 0;margin:24px 0;border-block:1px solid var(--color-border)}.standalone-controls button,.standalone-controls select{font:inherit;min-height:44px;padding:8px 16px;color:inherit;background:var(--color-bg);border:1px solid var(--color-border);border-radius:999px;cursor:pointer}.standalone-stage{min-width:0;padding:24px 0}.standalone-note{margin-top:32px;color:var(--color-muted);font-size:11px} :focus-visible{outline:2px solid var(--color-focus);outline-offset:3px}@media(max-width:600px){body{padding:20px 16px}.standalone-stage{padding:12px 0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body><main><header><p>REFERENCE SYSTEM / INDEPENDENT EXAMPLE</p><h1>__TITLE__</h1><p>__SUMMARY__</p><p>__EVIDENCE__</p></header><div class="standalone-controls"><button id="replay">다시 재생 ↻</button><button id="pause" aria-pressed="false">일시정지</button><label for="speed">속도</label><select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select><button id="theme" aria-pressed="false">다크 테마</button></div><div id="example" class="standalone-stage">__HTML__</div><p id="state" class="standalone-note" role="status">외부 파일이나 패키지 없이 동작합니다. 폼은 로컬 시뮬레이션입니다.</p></main>
+<script>__SCRIPT__</script><script>
+const api = window.__API__;
+const example = document.querySelector('#example');
+const cleanup = api.mount(example);
+let paused = false;
+const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+function status() { document.querySelector('#state').textContent = reduce.matches ? '모션 감소 설정 적용: 이동을 줄이고 기능과 최종 상태를 유지합니다.' : paused ? '모션 일시정지. 입력과 조작은 계속 사용할 수 있습니다.' : '외부 파일이나 패키지 없이 동작합니다. 폼은 로컬 시뮬레이션입니다.'; }
+reduce.addEventListener('change', status); status();
+document.querySelector('#replay').addEventListener('click', () => api.replay(example));
+document.querySelector('#pause').addEventListener('click', e => { paused=!paused;api.setPaused(paused);e.currentTarget.setAttribute('aria-pressed',String(paused));e.currentTarget.textContent=paused?'재생':'일시정지';status(); });
+document.querySelector('#speed').addEventListener('change', e => api.setSpeed(Number(e.target.value)));
+document.querySelector('#theme').addEventListener('click', e => {const dark=document.body.dataset.theme!=='dark';document.body.dataset.theme=dark?'dark':'light';e.currentTarget.setAttribute('aria-pressed',String(dark));e.currentTarget.textContent=dark?'라이트 테마':'다크 테마';});
+addEventListener('pagehide', e => {if(!e.persisted && typeof cleanup==='function')cleanup();});
+</script></body></html>'''
+    replacements = {'TITLE': html.escape(sample['title']), 'SUMMARY': html.escape(sample['summary']), 'EVIDENCE': html.escape(sample['evidence']), 'TOKENS': files['tokens.css'], 'STYLE': files[kit + '.css'], 'HTML': sample['html'], 'SCRIPT': kit_js, 'API': api}
+    for key, value in replacements.items():
+        template = template.replace('__' + key + '__', value)
+    standalone[name] = template
+    (OUT / f'{name}.html').write_text(template)
+
+payload = {'samples': samples, 'files': files, 'standalone': standalone}
+(DS / 'lab-sources.js').write_text('/* Generated by scripts/build-samples.py. Edit kit files and sample JSON instead. */\nwindow.ReferenceLabData = ' + json.dumps(payload, ensure_ascii=False).replace('</script', '<\\/script') + ';\n')
+with zipfile.ZipFile(OUT / 'motion-library.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+    for name in files:
+        archive.writestr(f'design-system/{name}', files[name])
+    for name, content in standalone.items():
+        archive.writestr(f'samples/{name}.html', content)
+    for name in ['motion-samples.json', 'interaction-samples.json']:
+        archive.write(DS / name, f'design-system/{name}')
+    archive.write(DS / 'tokens.json', 'design-system/tokens.json')
+    archive.writestr('README.md', """# 실행 가능한 모션·인터랙션 샘플
+
+압축을 풀고 `samples/index.html`을 브라우저에서 여세요. 각 샘플은 CSS와 JS가 내장되어 외부 파일이나 네트워크 없이 실행됩니다.
+
+프로젝트에는 `design-system/tokens.css`와 필요한 `motion-kit.css/.js` 또는 `interaction-kit.css/.js`를 옮기세요. `*-samples.json`의 html을 DOM에 넣고 `ReferenceMotion.mount(container)` 또는 `ReferenceInteractions.mount(container)`를 호출합니다. 반환된 cleanup을 화면 제거 시 호출하세요.
+
+공통 API: mount(root), replay(root), setPaused(boolean), setSpeed(number). pause와 speed는 라이브러리 전체에 적용됩니다. 정확한 원본 타이밍과 미관찰 hover/로딩/오류 상태는 제안값입니다. 폼은 네트워크 전송 없는 데모입니다.
+
+이 ZIP은 재사용 코드와 독립 샘플 묶음입니다. 레퍼런스 원본 영상, Motion Lab 비교 UI, 브라우저 검증 캡처는 작업 폴더에 별도로 보관합니다.
+""")
+    sample_links = ''.join(f'<li><a href="{html.escape(item["id"])}.html">{html.escape(item["title"])}</a><p>{html.escape(item["summary"])}</p></li>' for item in samples)
+    sample_index = '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>모션·인터랙션 샘플</title><style>body{font:16px/1.6 system-ui,sans-serif;max-width:850px;margin:40px auto;padding:0 20px;color:#111}li{border-top:1px solid #ddd;padding:20px 0}ul{list-style:none;padding:0}a{color:inherit}p{color:#666;font-size:14px}</style><h1>모션·인터랙션 샘플</h1><p>13개 독립 실행 HTML. 설치 없이 브라우저에서 열어 보세요.</p><ul>' + sample_links + '</ul></html>'
+    archive.writestr('samples/index.html', sample_index)
+    (OUT / 'index.html').write_text(sample_index)
+print(f'Built {len(samples)} standalone samples, source map and ZIP.')

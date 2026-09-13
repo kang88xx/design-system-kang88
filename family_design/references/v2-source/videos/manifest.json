@@ -1,0 +1,77 @@
+{
+  "capturedAt": "2026-09-05T16:24:29.649Z",
+  "videos": [
+    {
+      "name": "send",
+      "source": "https://family.co/videos/send.mp4",
+      "local": "references/v2-source/videos/send.mp4",
+      "poster": "references/v2-source/videos/send-poster.jpg",
+      "bytes": 1028440,
+      "duration": "00:00:05.13"
+    },
+    {
+      "name": "receive",
+      "source": "https://family.co/videos/receive.mp4",
+      "local": "references/v2-source/videos/receive.mp4",
+      "poster": "references/v2-source/videos/receive-poster.jpg",
+      "bytes": 975057,
+      "duration": "00:00:03.60"
+    },
+    {
+      "name": "swap",
+      "source": "https://family.co/videos/swap.mp4",
+      "local": "references/v2-source/videos/swap.mp4",
+      "poster": "references/v2-source/videos/swap-poster.jpg",
+      "bytes": 757694,
+      "duration": "00:00:05.33"
+    },
+    {
+      "name": "nft",
+      "source": "https://family.co/videos/nft.mp4",
+      "local": "references/v2-source/videos/nft.mp4",
+      "poster": "references/v2-source/videos/nft-poster.jpg",
+      "bytes": 194611,
+      "duration": "00:00:06.03"
+    },
+    {
+      "name": "watch",
+      "source": "https://family.co/videos/watch.mp4",
+      "local": "references/v2-source/videos/watch.mp4",
+      "poster": "references/v2-source/videos/watch-poster.jpg",
+      "bytes": 1333121,
+      "duration": "00:00:02.73"
+    },
+    {
+      "name": "activity",
+      "source": "https://family.co/videos/activity.mp4",
+      "local": "references/v2-source/videos/activity.mp4",
+      "poster": "references/v2-source/videos/activity-poster.jpg",
+      "bytes": 988937,
+      "duration": "00:00:05.52"
+    },
+    {
+      "name": "onboarding",
+      "source": "https://family.co/videos/onboarding.mp4",
+      "local": "references/v2-source/videos/onboarding.mp4",
+      "poster": "references/v2-source/videos/onboarding-poster.jpg",
+      "bytes": 559372,
+      "duration": "00:00:03.40"
+    },
+    {
+      "name": "missioncontrol",
+      "source": "https://family.co/videos/missioncontrol.mp4",
+      "local": "references/v2-source/videos/missioncontrol.mp4",
+      "poster": "references/v2-source/videos/missioncontrol-poster.jpg",
+      "bytes": 714315,
+      "duration": "00:00:03.82"
+    },
+    {
+      "name": "dragdropdone",
+      "source": "https://family.co/videos/dragdropdone.mp4",
+      "local": "references/v2-source/videos/dragdropdone.mp4",
+      "poster": "references/v2-source/videos/dragdropdone-poster.jpg",
+      "bytes": 971316,
+      "duration": "00:00:05.93"
+    }
+  ]
+}

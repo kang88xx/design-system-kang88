@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-06T15:22:51.752Z",
+  "status": "passed",
+  "fixture": "/tmp/family-source-collector-HIn4lV",
+  "checks": [
+    "normal collection preserves current 404 status while linking cached path and sha256",
+    "dedupe does not replace current failure with cached downloaded item",
+    "successful public resource remains downloaded with fresh hash",
+    "--reindex-only retains failure record and cached fallback without calling fetch"
+  ],
+  "normal": {
+    "summary": {
+      "totalItems": 4,
+      "downloadedPublic": 2,
+      "includedExisting": 1,
+      "failedPublic": 1,
+      "gaps": 2,
+      "byStatus": {
+        "downloaded": 2,
+        "missing-public": 1,
+        "included": 1
+      },
+      "byCategory": {
+        "html": 1,
+        "image": 2,
+        "script": 1
+      },
+      "byProvenance": {
+        "original-public": 3,
+        "local-tool": 1
+      }
+    },
+    "failed": {
+      "id": "public-bbd0b627cecc",
+      "name": "example.png",
+      "category": "image",
+      "provenance": "original-public",
+      "status": "missing-public",
+      "path": "references/v3-source/public/family.co/assets/example.png",
+      "sourceUrl": "https://family.co/assets/example.png",
+      "bytes": 18,
+      "sha256": "305f76cb8c14f92974f774227457fda7c7a9e48ca5dff6074a0e6d2d36c45519",
+      "description": "Current public request failed; cached file is linked only as fallback when present."
+    },
+    "success": {
+      "id": "public-cf37d9ae5bbd",
+      "name": "ok.png",
+      "category": "image",
+      "provenance": "original-public",
+      "status": "downloaded",
+      "path": "references/v3-source/public/family.co/assets/ok.png",
+      "sourceUrl": "https://family.co/assets/ok.png",
+      "bytes": 17,
+      "sha256": "f980f8462362b87b3e9e64c44854ce8e579e504423d465f8669037f43c355069",
+      "description": "Publicly referenced landing-page resource, freshly verified."
+    }
+  },
+  "reindexed": {
+    "summary": {
+      "totalItems": 4,
+      "downloadedPublic": 2,
+      "includedExisting": 1,
+      "failedPublic": 1,
+      "gaps": 2,
+      "byStatus": {
+        "downloaded": 2,
+        "missing-public": 1,
+        "included": 1
+      },
+      "byCategory": {
+        "html": 1,
+        "image": 2,
+        "script": 1
+      },
+      "byProvenance": {
+        "original-public": 3,
+        "local-tool": 1
+      }
+    },
+    "failed": {
+      "id": "public-bbd0b627cecc",
+      "name": "example.png",
+      "category": "image",
+      "provenance": "original-public",
+      "status": "missing-public",
+      "path": "references/v3-source/public/family.co/assets/example.png",
+      "sourceUrl": "https://family.co/assets/example.png",
+      "bytes": 18,
+      "sha256": "305f76cb8c14f92974f774227457fda7c7a9e48ca5dff6074a0e6d2d36c45519",
+      "description": "Previously referenced public resource could not be downloaded.; cached file linked as fallback."
+    },
+    "success": {
+      "id": "public-cf37d9ae5bbd",
+      "name": "ok.png",
+      "category": "image",
+      "provenance": "original-public",
+      "status": "downloaded",
+      "path": "references/v3-source/public/family.co/assets/ok.png",
+      "sourceUrl": "https://family.co/assets/ok.png",
+      "bytes": 17,
+      "sha256": "f980f8462362b87b3e9e64c44854ce8e579e504423d465f8669037f43c355069",
+      "description": "Current public crawl cache from family.co and linked design resources."
+    }
+  }
+}

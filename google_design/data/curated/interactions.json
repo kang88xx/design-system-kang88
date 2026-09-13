@@ -1,0 +1,118 @@
+[
+  {
+    "id": "hover",
+    "trigger": "pointer hover",
+    "duration": "100ms",
+    "result": "surface tint appears; contextual actions may replace metadata",
+    "evidence": "Gmail row actions and icon-button state"
+  },
+  {
+    "id": "focus",
+    "trigger": "keyboard focus",
+    "duration": "instant",
+    "result": "2-3px high-contrast focus ring outside the component",
+    "evidence": "Meet primary action and Calendar dialog confirmation"
+  },
+  {
+    "id": "press",
+    "trigger": "pointer or keyboard activation",
+    "duration": "50-100ms",
+    "result": "state layer strengthens and elevation compresses",
+    "evidence": "Buttons and chips across all products"
+  },
+  {
+    "id": "selection",
+    "trigger": "navigation, tab, chip, or row selection",
+    "duration": "200ms",
+    "result": "tonal container plus stronger label/icon color",
+    "evidence": "Gmail inbox, Calendar today, Drive home, Finance region"
+  },
+  {
+    "id": "expand-collapse",
+    "trigger": "disclosure action",
+    "duration": "200-300ms",
+    "result": "height/width animates with content opacity and chevron rotation",
+    "evidence": "Navigation sections and Finance news accordion"
+  },
+  {
+    "id": "dialog",
+    "trigger": "modal action",
+    "duration": "200-300ms",
+    "result": "scrim fades, surface scales/fades in, focus moves inside",
+    "evidence": "Calendar first-run dialog"
+  },
+  {
+    "id": "snackbar",
+    "trigger": "background status or confirmation",
+    "duration": "300ms enter; 4-10s rest",
+    "result": "bottom surface appears with optional action and dismiss",
+    "evidence": "Gmail desktop notification prompt"
+  },
+  {
+    "id": "drag-drop",
+    "trigger": "pointer drag or keyboard/click fallback",
+    "duration": "continuous",
+    "result": "lifted preview, insertion target, auto-scroll, drop confirmation",
+    "evidence": "Calendar events and Drive files; local sample executes the shared contract"
+  },
+  {
+    "id": "switch",
+    "title": "설정 전환",
+    "trigger": "click / Space",
+    "duration": "150ms",
+    "result": "checked state and visible confirmation",
+    "evidence": "유사 구현 · Material Web 상태 계약 참고",
+    "evidenceType": "reconstructed",
+    "sourceUrl": "https://github.com/material-components/material-web"
+  },
+  {
+    "id": "checkbox",
+    "title": "다중 선택",
+    "trigger": "click / Space",
+    "duration": "100ms",
+    "result": "independent checked states and selected count",
+    "evidence": "유사 구현 · Material Web 상태 계약 참고",
+    "evidenceType": "reconstructed",
+    "sourceUrl": "https://github.com/material-components/material-web"
+  },
+  {
+    "id": "keyboard-tabs",
+    "title": "키보드 탭",
+    "trigger": "ArrowLeft / ArrowRight / Home / End",
+    "duration": "200ms",
+    "result": "roving focus and linked tabpanel",
+    "evidence": "유사 구현 · Material Web 상태 계약 참고",
+    "evidenceType": "reconstructed",
+    "sourceUrl": "https://github.com/material-components/material-web"
+  },
+  {
+    "id": "menu",
+    "title": "액션 메뉴",
+    "trigger": "click / ArrowDown / Escape",
+    "duration": "200ms",
+    "result": "menu focus, dismissal and focus return",
+    "evidence": "유사 구현 · Material Web 상태 계약 참고",
+    "evidenceType": "reconstructed",
+    "sourceUrl": "https://github.com/material-components/material-web"
+  },
+  {
+    "id": "text-field",
+    "title": "입력 검증",
+    "trigger": "input / submit",
+    "duration": "100ms",
+    "result": "helper text, error and valid state",
+    "evidence": "유사 구현 · Material Web 상태 계약 참고",
+    "evidenceType": "reconstructed",
+    "sourceUrl": "https://github.com/material-components/material-web"
+  },
+  {
+    "id": "progress",
+    "title": "진행 상태",
+    "trigger": "click",
+    "duration": "500ms",
+    "result": "determinate progress and completion announcement",
+    "evidence": "유사 구현 · Material Web 상태 계약 참고",
+    "evidenceType": "reconstructed",
+    "sourceUrl": "https://github.com/material-components/material-web"
+  }
+]

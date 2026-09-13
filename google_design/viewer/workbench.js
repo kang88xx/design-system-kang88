@@ -1,0 +1,67 @@
+/* Source workbench. Included by build-viewer; no runtime dependencies. */
+window.DesignWorkbench = (() => {
+  const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const labels = {observed:'제품 관찰값',documented:'공식 토큰',reconstructed:'유사 구현'};
+  const kinds = {color:'텍스트 색상',background:'배경색',borderColor:'테두리 색상',shadow:'그림자',radius:'모서리',spacing:'간격',fontFamily:'서체',fontSize:'글자 크기',fontWeight:'글자 굵기',lineHeight:'줄 높이',letterSpacing:'자간'};
+  let context, clean;
+  const badge = type => `<span class="wb-badge ${esc(type)}">${labels[type]||esc(type)}</span>`;
+  const heading = (title,copy) => `<div class="as-section-heading section-head"><div><h2>${title}</h2><p>${copy}</p></div></div>`;
+  const code = value => `<div class="wb-code"><pre><code>${esc(value)}</code></pre><button class="btn outlined" data-wb-copy="${esc(value)}">코드 복사</button></div>`;
+  const symbol = name => `<span class="material-symbols-rounded" aria-hidden="true">${esc(name)}</span>`;
+  const download = (id,label) => `<button class="btn ${id==='tokens'?'filled':'outlined'}" data-wb-download="${id}">${symbol('download')}${label}</button>`;
+  const sourceLink = item => {const source=context.data.designLibrary.sources.find(s=>s.id===item.sourceId);return source?`<a class="wb-source" href="${esc(source.url)}" target="_blank" rel="noreferrer">공식 근거 ↗</a>`:'';};
+  const matches = value => !context.query || JSON.stringify(value).toLowerCase().includes(context.query.toLowerCase());
+  function overview() {
+    const {data}=context,l=data.designLibrary;
+    return `<section class="section wb-intro">${heading('관찰에서 바로 구현으로','값을 찾고, 상태를 시험하고, 프로젝트에 가져오세요.')}<div class="wb-stats"><div><strong>${l.observations.length}</strong><span>출처가 연결된 시각 값</span></div><div><strong>${data.assets.openSource.icons.length}</strong><span>로컬 SVG 원본</span></div><div><strong>${l.shapes.length+l.containers.length+l.gradients.length}</strong><span>도형·표면·gradient</span></div><div><strong>${l.motion.recipes.length}</strong><span>재생 가능한 모션 recipe</span></div></div><div class="wb-downloads">${download('library','디자인 소스 JSON')}${download('catalog','전체 카탈로그 JSON')}<a class="btn outlined" href="../assets/upstream/material-design-icons/LICENSE" download>아이콘 라이선스</a></div><p class="wb-note">제품 관찰 기준 2026.09.01 · 공식 upstream 확인 2026.09.07 · 원본을 확인하지 못한 표현은 유사 구현으로 표시합니다.</p></section>`;
+  }
+  function shapes() {
+    const l=context.data.designLibrary;
+    return `<section class="section">${heading('도형과 컨테이너','같은 토큰에서 파생한 기본 도형과 제품별 표면 문법입니다.')}<div class="wb-shape-grid">${l.shapes.filter(matches).map(s=>`<article class="wb-tile"><div class="wb-shape-stage"><div class="wb-shape" style="border-radius:${s.radius};clip-path:${s.clipPath};${s.id==='circle'?'width:72px;':''}"></div></div><div class="wb-tile-head"><b>${esc(s.name)}</b>${badge(s.evidence)}</div><p>${esc(s.usage)}</p><code>${esc(s.radius)}</code><button class="wb-copy-link" data-wb-copy="${esc(s.css)}">CSS 복사</button></article>`).join('')}</div><div class="grid wb-container-grid">${l.containers.filter(matches).map(s=>`<article class="card wide"><div class="wb-container-stage"><div style="min-height:${s.height};border-radius:${s.radius};padding:${s.padding};background:var(--${s.background});color:var(--${s.foreground});">${symbol(s.icon)}<b>${esc(s.name)}</b></div></div><div class="wb-tile-head"><h3>${esc(s.name)}</h3>${badge(s.evidence)}</div><p>${esc(s.usage)}</p>${code(s.css)}</article>`).join('')}</div></section>`;
+  }
+  function observed() {
+    const entries=context.data.designLibrary.observations;
+    return `<section class="section" id="wb-observations">${heading('실제 화면에서 수집한 값','6개 캡처에 저장된 computed style을 통합했습니다. 횟수는 중복 관찰을 포함합니다.')}<div class="wb-toolbar"><label>분류<select id="wb-kind"><option value="all">모든 시각 값</option>${Object.entries(kinds).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></label><label>출처 제품<select id="wb-service"><option value="all">모든 제품</option>${context.data.services.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select></label><span id="wb-result-count" role="status">${entries.length}개</span>${download('observations','관찰값 JSON')}</div><div id="wb-observation-list" class="wb-observation-list"></div><button class="btn outlined" id="wb-more">더 보기</button></section>`;
+  }
+  function elevation() {
+    const {tokens,designLibrary:l}=context.data;
+    return `<section class="section">${heading('표면의 깊이와 상태 레이어','강한 장식 대신 명도·그림자·상태 opacity로 계층을 만듭니다.')}<div class="wb-elevation-grid">${Object.entries(tokens.elevation).map(([name,value])=>`<article class="wb-tile"><div class="wb-elevation-stage"><div style="box-shadow:${value}">${esc(name)}</div></div><button class="wb-copy-link" data-wb-copy="box-shadow: var(--gds-elevation-${name.replace(/([a-z])([0-9])/g,'$1$2')});">${esc(name)} CSS 복사</button></article>`).join('')}</div><div class="wb-state-grid">${Object.entries(l.states.opacity).map(([name,value])=>`<div class="wb-state" style="--wb-state-opacity:${value}"><span>${name}</span><b>${Math.round(value*100)}%</b>${badge('documented')}</div>`).join('')}</div><p class="wb-note">상태 레이어는 해당 표면의 on-color를 사용합니다. disabled opacity는 컴포넌트별 구현 규칙이며 상태 레이어와 별개입니다. ${sourceLink(l.states)}</p></section>`;
+  }
+  function gradients() {
+    return `<section class="section">${heading('재사용 가능한 그라데이션','기존 팔레트로 구성한 독립 CSS recipe입니다. 제품 원본으로 확인된 gradient와 구분합니다.')}<div class="grid">${context.data.designLibrary.gradients.filter(matches).map(g=>`<article class="card wide"><div class="wb-gradient" style="background:${g.css}"></div><div class="wb-tile-head"><h3>${esc(g.name)}</h3>${badge(g.evidence)}</div><p>${esc(g.usage)}</p>${code(`background: ${g.css};`)}</article>`).join('')}</div></section>`;
+  }
+  function icons() {
+    const entries=context.data.assets.openSource.icons.filter(matches);
+    return `<section class="section">${heading('공식 SVG 라이브러리','네트워크 없이 쓸 수 있는 Rounded 원본입니다. 아이콘을 선택하면 코드와 출처를 확인할 수 있습니다.')}<div class="wb-icon-layout"><div><p class="wb-note">${entries.length}개 · wght 500 / FILL 0 / opsz 24 · Apache-2.0</p><div class="wb-icon-grid">${entries.map((s,i)=>`<button class="wb-icon-tile" data-wb-icon="${esc(s.name)}" aria-pressed="false"><img src="../${esc(s.path)}" alt="" width="28" height="28" loading="lazy"><span>${esc(s.name)}</span></button>`).join('')||'<p>검색 결과가 없습니다.</p>'}</div></div><aside class="wb-icon-detail" id="wb-icon-detail"><div class="wb-icon-placeholder">${symbol('touch_app')}<h3>아이콘 선택</h3><p>SVG 복사·다운로드<br>원본 commit·SHA-256 확인</p></div></aside></div></section>`;
+  }
+  function components() {
+    const l=context.data.designLibrary;
+    const sample=l.observedComponents.filter(matches);
+    return `<section class="section">${heading('제품별 컴포넌트 측정값','원본 캡처에서 보존한 크기·모서리·표면·상태 그룹입니다. 아래 demo는 독립 구현입니다.')}<details class="wb-details"><summary>${sample.length}개 측정 그룹 살펴보기</summary><div class="wb-measurements">${sample.slice(0,60).map(s=>`<article><b>${esc(s.service)} · ${esc(s.family)}</b>${badge('observed')}<code>${s.width} × ${s.height} · radius ${esc(s.radius)}<br>${esc(s.background)}<br>${esc(s.border)}</code><small>${esc(s.captureId)} · ${s.count}회</small></article>`).join('')}</div><p class="wb-note">미리보기는 최대 60개, 전체 ${sample.length}개는 JSON에 포함됩니다.</p>${download('components','전체 측정값 JSON')}</details></section>`;
+  }
+  function sources() {
+    const l=context.data.designLibrary;
+    return `<section class="section">${heading('수집 근거와 범위','기존 제품 관찰과 이번에 수집한 공식 소스의 버전을 함께 보관합니다.')}<div class="wb-evidence-key">${badge('observed')}<span>날짜·제품이 있는 실측</span>${badge('documented')}<span>고정 upstream token</span>${badge('reconstructed')}<span>독립적으로 구현한 recipe</span></div><div class="wb-coverage">${l.sourceCoverage.map(s=>`<article><b>${esc(s.id)}</b><p>${esc(s.capturedAt.slice(0,10))} · ${s.visibleElements} visible nodes</p><span>${s.componentGroups}개 컴포넌트 그룹</span><p>disabled ${s.states.disabled} · selected ${s.states.selected} · expanded ${s.states.expanded}</p><small>모션 실측 미수집</small></article>`).join('')}</div><div class="wb-source-list">${l.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noreferrer"><b>${esc(s.name)}</b><span>${esc(s.license)} · ${esc(s.revision?.slice(0,12)||s.checkedAt)} ↗</span></a>`).join('')}</div><div class="wb-downloads">${download('manifest','원본 파일 manifest')}${download('library','디자인 라이브러리 JSON')}</div></section>`;
+  }
+  function render(section,data,query='') {
+    context={data,query};
+    return ({overview,foundations:()=>observed()+shapes()+elevation(),components,assets:()=>icons()+gradients(),sources}[section]||(()=>''))();
+  }
+  function notify(message) {let output=document.querySelector('#wb-status');if(output)output.textContent=message;}
+  async function copyText(value) {
+    try {await navigator.clipboard.writeText(value);notify('클립보드에 복사했습니다.');return true;}
+    catch {const dialog=document.querySelector('#wb-copy-dialog');dialog.querySelector('textarea').value=value;dialog.showModal();dialog.querySelector('textarea').select();notify('코드를 선택했습니다. 직접 복사하세요.');return false;}
+  }
+  function save(filename,value,type='application/json') {const blob=new Blob([value],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notify(`${filename} 다운로드를 시작했습니다.`);}
+  function bind() {
+    clean?.abort(); clean=new AbortController();const {signal}=clean;
+    if(!document.querySelector('#wb-status'))document.body.insertAdjacentHTML('beforeend','<output id="wb-status" class="wb-status" role="status" aria-live="polite"></output><dialog id="wb-copy-dialog"><form method="dialog"><h3>코드 복사</h3><textarea aria-label="복사할 코드" readonly></textarea><button class="btn filled">닫기</button></form></dialog>');
+    document.addEventListener('click',async event=>{
+      const copier=event.target.closest('[data-wb-copy]');if(copier)await copyText(copier.dataset.wbCopy);
+      const downloader=event.target.closest('[data-wb-download]');if(downloader){const id=downloader.dataset.wbDownload;const {data}=context;const values={library:data.designLibrary,catalog:data,observations:data.designLibrary.observations,components:data.designLibrary.observedComponents,manifest:data.assets.openSource};if(id==='tokens')save('google-design-tokens.css',document.querySelector('#gds-tokens').textContent,'text/css');else save(`google-design-${id}.json`,JSON.stringify(values[id],null,2));}
+      const button=event.target.closest('[data-wb-icon]');if(button){document.querySelectorAll('[data-wb-icon]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));const item=context.data.assets.openSource.icons.find(s=>s.name===button.dataset.wbIcon);const panel=document.querySelector('#wb-icon-detail');panel.innerHTML=`<img src="../${esc(item.path)}" alt="" class="wb-selected-icon"><h3>${esc(item.name)}</h3><span class="wb-badge documented">Apache-2.0 · 원본 SVG</span><p>viewBox ${esc(item.viewBox)}</p><p>${item.bytes} bytes · wght 500</p><div class="wb-downloads"><button class="btn filled" id="wb-copy-svg">SVG 복사</button><a class="btn outlined" href="../${esc(item.path)}" download="${esc(item.name)}.svg">다운로드</a></div><a class="wb-source" href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">공식 원본 ↗</a><details><summary>SHA-256</summary><code>${esc(item.sha256)}</code></details><pre id="wb-svg-source">소스를 불러오는 중…</pre>`;try{const response=await fetch(`../${item.path}`);if(!response.ok)throw Error();const svg=await response.text();if(!panel.isConnected||panel.querySelector('h3')?.textContent!==item.name)return;panel.querySelector('#wb-svg-source').textContent=svg;panel.querySelector('#wb-copy-svg').onclick=()=>copyText(svg);}catch{if(panel.isConnected)panel.querySelector('#wb-svg-source').textContent='소스를 불러오지 못했습니다. 로컬 HTTP 서버에서 열어 주세요.';}}
+    },{signal});
+    const list=document.querySelector('#wb-observation-list');if(list){let limit=24;const update=()=>{const kind=document.querySelector('#wb-kind').value,service=document.querySelector('#wb-service').value;const entries=context.data.designLibrary.observations.filter(s=>(kind==='all'||s.kind===kind)&&(service==='all'||s.services.includes(service))&&matches(s));list.innerHTML=entries.slice(0,limit).map(s=>`<article><div class="wb-observed-preview" style="${['color','background','borderColor'].includes(s.kind)?`background:${esc(s.value)};`:s.kind==='shadow'?`box-shadow:${esc(s.value)};`:s.kind==='radius'?`border:2px solid var(--primary);border-radius:${esc(s.value)};`:''}">${['color','background','borderColor','shadow','radius'].includes(s.kind)?'':symbol(s.kind==='spacing'?'space_bar':'text_fields')}</div><div><small>${kinds[s.kind]||esc(s.kind)} · ${s.count}회</small><code>${esc(s.value)}</code><span>${esc(s.services.join(' · '))}</span></div><button class="wb-copy-link" data-wb-copy="${esc(s.value)}" aria-label="${esc(s.value)} 값 복사">복사</button></article>`).join('')||'<p>일치하는 관찰값이 없습니다.</p>';document.querySelector('#wb-result-count').textContent=`${entries.length}개 · ${Math.min(limit,entries.length)}개 표시`;document.querySelector('#wb-more').hidden=entries.length<=limit;};for(const id of ['#wb-kind','#wb-service'])document.querySelector(id).addEventListener('change',()=>{limit=24;update();},{signal});document.querySelector('#wb-more').addEventListener('click',()=>{limit+=24;update();},{signal});update();}
+  }
+  return {render,bind,copyText};
+})();

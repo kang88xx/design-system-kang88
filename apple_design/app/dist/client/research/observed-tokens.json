@@ -1,0 +1,3984 @@
+{
+  "note": "Measured computed values, not Apple internal semantic token names.",
+  "tokens": [
+    {
+      "property": "font-size",
+      "value": "17px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        }
+      ],
+      "name": "--observed-font-size-1"
+    },
+    {
+      "property": "font-weight",
+      "value": "400",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-flyout"
+        }
+      ],
+      "name": "--observed-font-weight-1"
+    },
+    {
+      "property": "line-height",
+      "value": "25px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-flyout"
+        }
+      ],
+      "name": "--observed-line-height-1"
+    },
+    {
+      "property": "color",
+      "value": "rgb(29, 29, 31)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-flyout"
+        }
+      ],
+      "name": "--observed-color-1"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-flyout"
+        }
+      ],
+      "name": "--observed-transition-duration-1"
+    },
+    {
+      "property": "transition-timing-function",
+      "value": "ease",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".hero"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".ac-ln-wrapper"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-flyout"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-flyout"
+        }
+      ],
+      "name": "--observed-transition-timing-function-1"
+    },
+    {
+      "property": "padding",
+      "value": "0px 22px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-content"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-content"
+        }
+      ],
+      "name": "--observed-padding-1"
+    },
+    {
+      "property": "font-weight",
+      "value": "600",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-font-weight-2"
+    },
+    {
+      "property": "line-height",
+      "value": "21.0012px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        }
+      ],
+      "name": "--observed-line-height-2"
+    },
+    {
+      "property": "color",
+      "value": "rgba(0, 0, 0, 0.8)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        }
+      ],
+      "name": "--observed-color-2"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.32s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-transition-duration-2"
+    },
+    {
+      "property": "transition-timing-function",
+      "value": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-transition-timing-function-2"
+    },
+    {
+      "property": "padding",
+      "value": "0px 8px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-link"
+        }
+      ],
+      "name": "--observed-padding-2"
+    },
+    {
+      "property": "font-size",
+      "value": "24px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-font-size-2"
+    },
+    {
+      "property": "line-height",
+      "value": "28px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-line-height-3"
+    },
+    {
+      "property": "color",
+      "value": "rgb(51, 51, 54)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-color-3"
+    },
+    {
+      "property": "padding",
+      "value": "9px 11px 7px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://support.apple.com/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-padding-3"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(245, 245, 247)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/mac/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/ipad/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        }
+      ],
+      "name": "--observed-background-color-1"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(250, 250, 252)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        }
+      ],
+      "name": "--observed-background-color-2"
+    },
+    {
+      "property": "line-height",
+      "value": "20.0002px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        }
+      ],
+      "name": "--observed-line-height-4"
+    },
+    {
+      "property": "color",
+      "value": "rgb(255, 255, 255)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-color-4"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(0, 113, 227)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-background-color-3"
+    },
+    {
+      "property": "border-radius",
+      "value": "980px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-border-radius-1"
+    },
+    {
+      "property": "padding",
+      "value": "11px 21px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-padding-4"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(29, 29, 31)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".button-neutral"
+        }
+      ],
+      "name": "--observed-background-color-4"
+    },
+    {
+      "property": "padding",
+      "value": "60px 0px 0px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".section-hero"
+        }
+      ],
+      "name": "--observed-padding-5"
+    },
+    {
+      "property": "border-radius",
+      "value": "28px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        }
+      ],
+      "name": "--observed-border-radius-2"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.3s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        }
+      ],
+      "name": "--observed-transition-duration-3"
+    },
+    {
+      "property": "transition-timing-function",
+      "value": "cubic-bezier(0, 0, 0.5, 1)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        }
+      ],
+      "name": "--observed-transition-timing-function-3"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(255, 255, 255)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/watch/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        }
+      ],
+      "name": "--observed-background-color-5"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.4s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-transition-duration-4"
+    },
+    {
+      "property": "transition-timing-function",
+      "value": "ease-out",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-transition-timing-function-4"
+    },
+    {
+      "property": "padding",
+      "value": "16px 0px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".chapternav"
+        }
+      ],
+      "name": "--observed-padding-6"
+    },
+    {
+      "property": "font-size",
+      "value": "14px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tabnav"
+        }
+      ],
+      "name": "--observed-font-size-3"
+    },
+    {
+      "property": "line-height",
+      "value": "18.0008px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tabnav"
+        }
+      ],
+      "name": "--observed-line-height-5"
+    },
+    {
+      "property": "padding",
+      "value": "8px 15px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-padding-7"
+    },
+    {
+      "property": "border-radius",
+      "value": "18px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": ".card"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        }
+      ],
+      "name": "--observed-border-radius-3"
+    },
+    {
+      "property": "padding",
+      "value": "52px 0px 84px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"gallery\"]"
+        }
+      ],
+      "name": "--observed-padding-8"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.2s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        },
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-transition-duration-5"
+    },
+    {
+      "property": "padding",
+      "value": "48px 0px 0px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/airpods/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-padding-9"
+    },
+    {
+      "property": "color",
+      "value": "rgb(245, 245, 247)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".hero"
+        },
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        }
+      ],
+      "name": "--observed-color-5"
+    },
+    {
+      "property": "border-radius",
+      "value": "20px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "selector": ".card"
+        }
+      ],
+      "name": "--observed-border-radius-4"
+    },
+    {
+      "property": "background-color",
+      "value": "rgba(245, 245, 247, 0.6)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        }
+      ],
+      "name": "--observed-background-color-6"
+    },
+    {
+      "property": "padding",
+      "value": "8px 0px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".chapternav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        }
+      ],
+      "name": "--observed-padding-10"
+    },
+    {
+      "property": "padding",
+      "value": "12px 22px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        }
+      ],
+      "name": "--observed-padding-11"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(0, 0, 0)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/tv-home/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": "#globalnav"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".card"
+        }
+      ],
+      "name": "--observed-background-color-7"
+    },
+    {
+      "property": "color",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-link"
+        }
+      ],
+      "name": "--observed-color-6"
+    },
+    {
+      "property": "color",
+      "value": "rgb(232, 232, 237)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".globalnav-submenu-link"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".globalnav-submenu-link"
+        }
+      ],
+      "name": "--observed-color-7"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(1, 1, 1)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".chapternav"
+        }
+      ],
+      "name": "--observed-background-color-8"
+    },
+    {
+      "property": "font-weight",
+      "value": "500",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-font-weight-3"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.6s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-transition-duration-6"
+    },
+    {
+      "property": "transition-timing-function",
+      "value": "cubic-bezier(0.5, 1, 0.89, 1)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-transition-timing-function-5"
+    },
+    {
+      "property": "color",
+      "value": "rgb(0, 0, 0)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".button-neutral"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"gallery\"]"
+        }
+      ],
+      "name": "--observed-color-8"
+    },
+    {
+      "property": "padding",
+      "value": "91px 0px 100px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/services/",
+          "selector": ".section-hero"
+        }
+      ],
+      "name": "--observed-padding-12"
+    },
+    {
+      "property": "line-height",
+      "value": "20.0003px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".button"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"gallery\"]"
+        },
+        {
+          "url": "https://www.apple.com/store",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-line-height-6"
+    },
+    {
+      "property": "padding",
+      "value": "28px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/store",
+          "selector": ".tile"
+        }
+      ],
+      "name": "--observed-padding-13"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.04s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".tabnav"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tabnav"
+        }
+      ],
+      "name": "--observed-transition-duration-7"
+    },
+    {
+      "property": "font-size",
+      "value": "12px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-font-size-4"
+    },
+    {
+      "property": "line-height",
+      "value": "16.0005px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-line-height-7"
+    },
+    {
+      "property": "padding",
+      "value": "8px 10px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-padding-14"
+    },
+    {
+      "property": "padding",
+      "value": "0px 0px 56px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/shop/accessories/all",
+          "selector": "[class*=\"gallery\"]"
+        }
+      ],
+      "name": "--observed-padding-15"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.23s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".ac-ln-wrapper"
+        }
+      ],
+      "name": "--observed-transition-duration-8"
+    },
+    {
+      "property": "color",
+      "value": "rgb(134, 134, 139)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": ".tile"
+        },
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".tabnav"
+        }
+      ],
+      "name": "--observed-color-9"
+    },
+    {
+      "property": "font-size",
+      "value": "56px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        }
+      ],
+      "name": "--observed-font-size-5"
+    },
+    {
+      "property": "line-height",
+      "value": "60px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        }
+      ],
+      "name": "--observed-line-height-8"
+    },
+    {
+      "property": "padding",
+      "value": "0px 0px 5px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"gallery\"]"
+        }
+      ],
+      "name": "--observed-padding-16"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(232, 232, 237)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-background-color-9"
+    },
+    {
+      "property": "border-radius",
+      "value": "50%",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-border-radius-5"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.1s, 0.1s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-transition-duration-9"
+    },
+    {
+      "property": "transition-timing-function",
+      "value": "linear, linear",
+      "observations": [
+        {
+          "url": "https://www.apple.com/macbook-air/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-transition-timing-function-6"
+    },
+    {
+      "property": "font-size",
+      "value": "19px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-font-size-6"
+    },
+    {
+      "property": "line-height",
+      "value": "27.9412px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-line-height-9"
+    },
+    {
+      "property": "border-radius",
+      "value": "190px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-border-radius-6"
+    },
+    {
+      "property": "padding",
+      "value": "2px 14px 2px 0px",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": ".button"
+        }
+      ],
+      "name": "--observed-padding-17"
+    },
+    {
+      "property": "background-color",
+      "value": "rgb(18, 18, 18)",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-background-color-10"
+    },
+    {
+      "property": "transition-duration",
+      "value": "0.15s",
+      "observations": [
+        {
+          "url": "https://www.apple.com/iphone-17-pro/",
+          "selector": "[class*=\"paddlenav\"]"
+        }
+      ],
+      "name": "--observed-transition-duration-10"
+    },
+    {
+      "property": "background-color",
+      "value": "rgba(250, 250, 252, 0.8)",
+      "observations": [
+        {
+          "url": "https://support.apple.com/",
+          "selector": "#globalnav"
+        }
+      ],
+      "name": "--observed-background-color-11"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.ds-field, .ds-field *, .ds-dialog, .ds-dialog * { box-sizing: border-box; }
+.ds-field { display: grid; gap: var(--apple-space-2, 8px); min-width: 0; color: var(--apple-black); font-family: var(--apple-font-text); font-size: 15px; line-height: 1.5; }
+.ds-field-label { font-weight: 600; }
+.ds-field-input { appearance: none; width: 100%; min-width: 0; min-height: 44px; border: 1px solid var(--apple-border-strong); border-radius: var(--apple-radius-card); background: var(--apple-surface); color: var(--apple-black); font: inherit; padding: 10px 12px; }
+.ds-field-input::placeholder { color: var(--apple-muted); opacity: 1; }
+.ds-field-input:focus-visible { outline: 2px solid var(--apple-focus); outline-offset: 2px; }
+.ds-field-input[aria-invalid="true"] { border-color: var(--apple-danger, #b42318); }
+.ds-field-input:disabled { background: var(--apple-canvas); opacity: .65; cursor: not-allowed; }
+.ds-field-input:read-only { background: var(--apple-canvas); }
+.ds-field-hint, .ds-field-error { margin: 0; font-size: 13px; overflow-wrap: anywhere; }
+.ds-field-hint { color: var(--apple-muted); }
+.ds-field-error { color: var(--apple-danger, #b42318); }
+.ds-dialog { color: var(--apple-black); background: var(--apple-surface); border: 1px solid var(--apple-border); border-radius: 16px; padding: 24px; width: min(520px, calc(100vw - 32px)); max-width: calc(100vw - 32px); max-height: calc(100dvh - 32px); overflow-y: auto; overscroll-behavior: contain; margin: auto; font-family: var(--apple-font-text); font-size: 16px; line-height: 1.5; box-shadow: var(--apple-shadow-card); }
+.ds-dialog::backdrop { background: rgb(0 0 0 / .5); }
+.ds-dialog-header { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
+.ds-dialog-title { font: 600 24px/1.2 var(--apple-font-display); margin: 6px 0 0; overflow-wrap: anywhere; }
+.ds-dialog-close { display: grid; place-items: center; flex: 0 0 36px; min-height: 36px; border: 0; border-radius: 50%; background: var(--apple-canvas); color: var(--apple-black); font: 24px/1 var(--apple-font-text); cursor: pointer; }
+.ds-dialog-close:focus-visible { outline: 2px solid var(--apple-focus); outline-offset: 2px; }
+.ds-dialog-description { margin: 12px 0 0; color: var(--apple-muted); }
+.ds-dialog-body { margin-top: 20px; }
+.ds-dialog-footer { display: flex; flex-wrap: wrap; justify-content: end; gap: 12px; margin-top: 24px; }
+@media (max-width: 400px) { .ds-dialog { padding: 18px; } }
+@media (forced-colors: active) { .ds-field-input, .ds-dialog, .ds-dialog-close { border: 1px solid CanvasText; } }

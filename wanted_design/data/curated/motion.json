@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-09-06T16:09:10.493Z",
+  "source": {
+    "primary": "https://montage.wanted.co.kr/",
+    "docs": "https://montage.wanted.co.kr/docs",
+    "localEvidence": [
+      "data/curated/components.json",
+      "data/curated/utilities.json",
+      "data/curated/gradients.json",
+      "data/curated/shapes.json",
+      "data/curated/tokens.css",
+      "data/raw/live-home-evidence.json",
+      "data/raw/site-observations.json",
+      "docs/SOURCE_RESEARCH.md",
+      "assets/montage/source/montage-web-bfced87.tar.gz"
+    ],
+    "upstream": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "release": "v3.12.0"
+    },
+    "generatedBy": "scripts/build-reuse-library.mjs"
+  },
+  "counts": {
+    "motion": 10,
+    "observed": 2,
+    "documented": 7,
+    "approximation": 1
+  },
+  "motion": [
+    {
+      "id": "home-hero-enter",
+      "name": "Home hero enter",
+      "description": "Observed Montage home hero text/link enter: opacity 0 to 1 with 20px upward settle.",
+      "duration": 600,
+      "easing": "cubic-bezier(0.4, 0.14, 0.3, 1)",
+      "css": ".wds-motion-home-hero-enter {\n  animation: wds-enter-y-20 600ms cubic-bezier(0.4, 0.14, 0.3, 1) both;\n}",
+      "sourceUrl": "https://montage.wanted.co.kr/",
+      "evidence": "observed"
+    },
+    {
+      "id": "home-shapes-enter",
+      "name": "Home shapes enter",
+      "description": "Observed Montage home marquee/shapes region enter with delayed opacity and translateY reveal.",
+      "duration": 1000,
+      "easing": "cubic-bezier(0.4, 0.14, 0.3, 1)",
+      "css": ".wds-motion-home-shapes-enter {\n  animation: wds-enter-y-20 1000ms cubic-bezier(0.4, 0.14, 0.3, 1) 400ms both;\n}",
+      "sourceUrl": "https://montage.wanted.co.kr/",
+      "evidence": "observed"
+    },
+    {
+      "id": "presence-fade",
+      "name": "AnimationPresence fade",
+      "description": "Documented AnimationPresence fade mount/unmount pattern.",
+      "duration": 400,
+      "easing": "ease",
+      "css": ".wds-motion-presence-fade[data-status=\"open\"] {\n  animation: wds-fade-in 400ms ease both;\n}\n.wds-motion-presence-fade[data-status=\"close\"] {\n  animation: wds-fade-out 400ms ease both;\n}",
+      "sourceUrl": "https://montage.wanted.co.kr/docs/utilities/web-utility-components/animation-presence",
+      "evidence": "documented"
+    },
+    {
+      "id": "tooltip-slide",
+      "name": "Tooltip slide",
+      "description": "Documented tooltip example: fade with vertical 10px slide in and out.",
+      "duration": 400,
+      "easing": "ease",
+      "css": ".wds-motion-tooltip-slide[data-status=\"open\"] {\n  animation: wds-tooltip-in 400ms ease both;\n}\n.wds-motion-tooltip-slide[data-status=\"close\"] {\n  animation: wds-tooltip-out 400ms ease both;\n}",
+      "sourceUrl": "https://montage.wanted.co.kr/docs/utilities/web-utility-components/animation-presence",
+      "evidence": "documented"
+    },
+    {
+      "id": "press-feedback",
+      "name": "Press feedback",
+      "description": "Documented WithInteraction overlay feedback: opacity and transform transition over 0.15s ease with stronger active opacity.",
+      "duration": 150,
+      "easing": "ease",
+      "css": ".wds-motion-press {\n  position: relative;\n  overflow: hidden;\n}\n.wds-motion-press > .wds-motion-interaction-overlay {\n  position: absolute;\n  inset: 0;\n  border-radius: inherit;\n  background: currentColor;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 150ms ease, transform 150ms ease;\n  transform-origin: center;\n}\n.wds-motion-press:hover > .wds-motion-interaction-overlay {\n  opacity: 0.05;\n}\n.wds-motion-press:active > .wds-motion-interaction-overlay {\n  opacity: 0.12;\n}",
+      "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds/src/components/with-interaction/style.ts#L13-L96",
+      "evidence": "documented"
+    },
+    {
+      "id": "skeleton-shimmer",
+      "name": "Skeleton pulse",
+      "description": "Exact WDS Skeleton animation: pulse opacity 0.5 -> 1 -> 0.5 over 2s ease-in-out.",
+      "duration": 2000,
+      "easing": "ease-in-out",
+      "css": ".wds-motion-skeleton {\n  animation: wds-skeleton-pulse 2000ms ease-in-out infinite;\n}",
+      "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds/src/components/skeleton/style.ts#L8-L16",
+      "evidence": "documented"
+    },
+    {
+      "id": "toast-rise",
+      "name": "Toast stack mount",
+      "description": "Documented Toast/Snackbar mount/unmount pattern: opacity, height, and margin-top animate over 0.2s ease.",
+      "duration": 200,
+      "easing": "ease",
+      "css": ".wds-motion-toast[data-status=\"open\"] {\n  animation: wds-toast-in 200ms ease both;\n}\n.wds-motion-toast[data-status=\"close\"] {\n  animation: wds-toast-out 200ms ease both;\n}",
+      "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds/src/components/toast/style.ts#L8-L58",
+      "evidence": "documented"
+    },
+    {
+      "id": "circular-loading",
+      "name": "Circular loading",
+      "description": "Exact WDS circular loader motion: dash-array and dash-offset loop at 5.3333s ease, rotation at 2.2s linear.",
+      "duration": 5333,
+      "easing": "ease + linear",
+      "css": ".wds-motion-circular-loading circle {\n  fill: none;\n  stroke-width: 3;\n  stroke-linecap: round;\n  transform-origin: center center;\n  animation:\n    wds-loading-array 5333.3ms ease infinite,\n    wds-loading-offset 5333.3ms ease infinite,\n    wds-loading-rotate 2200ms linear infinite;\n}",
+      "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds/src/components/loading/style.ts#L30-L94",
+      "evidence": "documented"
+    },
+    {
+      "id": "wanted-loading",
+      "name": "Wanted loading",
+      "description": "Exact WDS branded loader timing expressed as public source recipe variables; keep brand usage behind product/brand approval.",
+      "duration": 3600,
+      "easing": "linear + cubic-bezier",
+      "css": ".wds-motion-wanted-loading {\n  --time: 0.9;\n  --wds-loader-accent-pink: var(--atomic-pink-60);\n  --wds-loader-accent-red-orange: var(--atomic-redOrange-50);\n  fill: var(--semantic-primary-normal);\n  animation: wds-wanted-loading-color calc(var(--time) * 4s) calc(var(--time) * 0.5s) linear infinite;\n}\n[data-theme=\"dark\"] .wds-motion-wanted-loading,\n.wds-motion-wanted-loading[data-theme=\"dark\"] {\n  --wds-loader-accent-pink: var(--atomic-pink-70);\n  --wds-loader-accent-red-orange: var(--atomic-redOrange-60);\n}\n.wds-motion-wanted-loading,\n.wds-motion-wanted-loading * {\n  transform-origin: center;\n}\n.wds-motion-wanted-loading g {\n  animation:\n    wds-wanted-loading-start calc(var(--time) * 0.5s) cubic-bezier(0.5, 0, 0.5, 1),\n    wds-loading-rotate calc(var(--time) * 2s) linear infinite;\n}\n.wds-motion-wanted-loading g path {\n  animation: wds-wanted-loading-bounce calc(var(--time) * 3s) cubic-bezier(0.8, 0, 0.2, 1) infinite;\n  transform: scale(0);\n}\n.wds-motion-wanted-loading g path.circle {\n  animation:\n    wds-wanted-loading-bounce calc(var(--time) * 3s) cubic-bezier(0.5, 0, 0.5, 1),\n    wds-wanted-loading-bounce calc(var(--time) * 3s) calc(var(--time) * 3s) cubic-bezier(0.8, 0, 0.2, 1) infinite;\n}\n.wds-motion-wanted-loading g path.triangle {\n  animation-delay: calc(var(--time) * 1s);\n}\n.wds-motion-wanted-loading g path.square {\n  animation-delay: calc(var(--time) * 2s);\n}",
+      "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds/src/components/loading/style.ts#L96-L188",
+      "evidence": "documented"
+    },
+    {
+      "id": "shape-marquee",
+      "name": "Shape marquee",
+      "description": "Continuous marquee for the collected Montage home shape tiles. Source assets are documented; loop timing is an implementation approximation.",
+      "duration": 30000,
+      "easing": "linear",
+      "css": ".wds-motion-shape-marquee {\n  display: flex;\n  gap: 20px;\n  width: max-content;\n  animation: wds-shape-marquee 30000ms linear infinite;\n}",
+      "sourceUrl": "https://montage.wanted.co.kr/",
+      "evidence": "approximation"
+    }
+  ]
+}

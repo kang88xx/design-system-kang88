@@ -1,0 +1,93 @@
+<!-- Studio Shell 골격. 각 뷰어는 이 DOM 순서·클래스·역할을 그대로 따른다.
+     { } 안은 뷰어별로 채우는 자리. 기존 콘텐츠·id·data-*·이벤트 대상은 그대로 옮겨 넣는다. -->
+<div class="as-studio">
+  <a class="as-skip-link" href="#as-workspace">Skip to content</a>
+
+  <aside id="as-nav" class="as-sidebar" aria-label="Navigation">
+    <a class="as-brand" href="#overview">
+      <span class="as-brand-mark">{브랜드 마크: 기존 로고 SVG/이미지}</span>
+      <div>
+        <strong>{브랜드명}</strong>
+        <span>Design system</span>
+      </div>
+      <span class="as-brand-badge">{WEB | DOCS | PROPOSAL}</span>
+    </a>
+    <div class="as-sidebar-group">
+      <span class="as-sidebar-label">WORKSPACE</span>
+      <nav aria-label="Design system">
+        <a href="#overview" aria-current="page"><span class="as-nav-index">01</span>{기존 메뉴 라벨}</a>
+        <a href="#..."><span class="as-nav-index">02</span>{기존 메뉴 라벨}<span class="as-nav-count">{기존 카운트가 있으면}</span></a>
+        <!-- 기존 메뉴 순서·라벨·href·id·data-* 유지. 번호만 01부터 부여. 라이브 항목은 <span class="as-live-dot"></span> -->
+      </nav>
+      <!-- 기존 메뉴가 그룹으로 나뉘어 있으면 그룹마다 .as-sidebar-label + nav 를 반복한다 (번호는 이어서 매김). -->
+    </div>
+    <div class="as-sidebar-bottom">
+      <span class="as-status-dot"></span>
+      <span>{수집 상태 한 줄: 예 "Local source capture"}<small>{날짜 · 방식}</small></span>
+      <a href="{원본 사이트 URL}" target="_blank" rel="noreferrer" aria-label="Open original website">↗</a>
+    </div>
+  </aside>
+  <button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+
+  <div class="as-main-shell">
+    <header class="as-topbar">
+      <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="as-breadcrumb">
+        <span>Design system</span>
+        <span>/</span>
+        <strong>{현재 페이지 라벨 — shell.js가 nav의 aria-current를 따라 갱신}</strong>
+      </div>
+      <div class="as-topbar-tools">
+        <!-- 뷰어에 검색이 있으면 여기로 옮긴다 (기존 input id·이벤트 유지) -->
+        <label class="as-topbar-search">{svg 돋보기}<input id="{기존 id}" type="search" placeholder="{기존 placeholder}"></label>
+        <!-- 다크 모드 등 기존 토글 버튼이 있으면 .as-icon-button 으로 여기에 -->
+        <a class="as-export-button" href="{tokens 파일}" download>Export tokens <span aria-hidden="true">↧</span></a>
+      </div>
+    </header>
+
+    <main id="as-workspace" tabindex="-1" class="as-workspace as-page-overview">
+      <!-- 개요 페이지 상단 -->
+      <div class="as-overview-title">
+        <div class="as-eyebrow"><span class="as-status-dot"></span> {KIND} DESIGN SYSTEM <span class="as-version">{YYYY.MM}</span></div>
+        <h1>{기존 제목 텍스트 그대로}</h1>
+        <p class="as-intro">{기존 부제 텍스트 그대로}</p>
+        <div class="as-title-actions">
+          <a class="as-button" href="{기존 1차 CTA href}">{기존 1차 CTA 라벨}</a>
+          <a class="as-text-command" href="{기존 2차 링크 href}">{기존 2차 라벨} <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="as-stats-strip">
+        <div><strong>{숫자}</strong><span>{라벨}</span></div>
+        <!-- 기존 통계를 순서대로. 4개 기준, 개수가 다르면 그대로 둔다(grid가 맞춘다). -->
+      </div>
+
+      <!-- 이후 기존 섹션들. 각 섹션 머리는 .as-section-heading 으로 통일 -->
+      <section id="{기존 id}">
+        <div class="as-section-heading">
+          <div>
+            <span class="as-eyebrow">{기존 eyebrow가 있으면}</span>
+            <h2>{기존 섹션 제목}</h2>
+            <p>{기존 섹션 설명}</p>
+          </div>
+          <a class="as-text-command" href="...">{기존 섹션 액션이 있으면} <span>↗</span></a>
+        </div>
+        {기존 섹션 본문: 그대로}
+      </section>
+
+      <footer class="as-studio-footer">
+        <span>{브랜드} · Design system study</span>
+        <span>{기존 푸터 문구 또는 "Public source + reusable implementation"}</span>
+      </footer>
+    </main>
+  </div>
+  <div class="as-toast" role="status"></div>
+</div>
+
+<!-- 개요가 아닌 페이지(별도 HTML이거나 JS로 전환되는 뷰)의 상단:
+<main class="as-workspace as-page-{id}">
+  <div class="as-section-heading">
+    <div><span class="as-eyebrow">LIBRARY / {번호}</span><h2>{페이지 제목}</h2><p>{설명}</p></div>
+  </div>
+  <div class="as-view-tabs" role="tablist"> ... 기존 하위 탭 ... </div>
+  {기존 본문}
+</main> -->

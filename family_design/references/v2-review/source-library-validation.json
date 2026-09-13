@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-06T14:01:04.639Z",
+  "status": "passed",
+  "summary": {
+    "totalItems": 536,
+    "downloadedPublic": 134,
+    "includedExisting": 402,
+    "failedPublic": 0,
+    "gaps": 15,
+    "byStatus": {
+      "downloaded": 134,
+      "included": 402
+    },
+    "byCategory": {
+      "asset": 12,
+      "data": 16,
+      "documentation": 6,
+      "font": 30,
+      "html": 5,
+      "image": 145,
+      "script-bundle": 13,
+      "script": 23,
+      "stylesheet": 7,
+      "svg": 257,
+      "video": 22
+    },
+    "byProvenance": {
+      "original-public": 162,
+      "local-tool": 21,
+      "reconstructed": 15,
+      "existing-derived": 53,
+      "existing-extracted": 285
+    }
+  },
+  "firstPageCards": 24,
+  "reconstructionSearchCards": 4,
+  "mobile": {
+    "scroll": 390,
+    "inner": 390
+  },
+  "errors": [],
+  "broken": []
+}

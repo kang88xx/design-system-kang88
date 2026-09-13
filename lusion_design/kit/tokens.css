@@ -1,0 +1,178 @@
+.ds-root,
+.ds-root[data-ds-theme="light"] {
+  color-scheme: light;
+  --ds-font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
+  --ds-font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ds-color-bg: #f0f1fa;
+  --ds-color-surface: #ffffff;
+  --ds-color-surface-raised: #f7f8fc;
+  --ds-color-text: #050608;
+  --ds-color-muted: #5f6675;
+  --ds-color-primary: #1a2ffb;
+  --ds-color-on-primary: #ffffff;
+  --ds-color-border: #cfd4df;
+  --ds-color-focus: #1a2ffb;
+  --ds-color-danger: #d92d20;
+  --ds-color-on-danger: #ffffff;
+  --ds-color-success: #16794c;
+  --ds-color-warning: #9a6700;
+  --ds-shadow-sm: 0 1px 0 rgba(7, 10, 20, .06), 0 14px 30px rgba(22, 30, 60, .08);
+  --ds-shadow-md: 0 24px 70px rgba(12, 18, 40, .14);
+  --ds-space-1: 4px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-5: 20px;
+  --ds-space-6: 24px;
+  --ds-space-7: 32px;
+  --ds-space-8: 40px;
+  --ds-space-9: 56px;
+  --ds-radius-1: 4px;
+  --ds-radius-2: 8px;
+  --ds-radius-3: 12px;
+  --ds-radius-pill: 999px;
+  --ds-type-xs: .75rem;
+  --ds-type-sm: .875rem;
+  --ds-type-md: 1rem;
+  --ds-type-lg: 1.125rem;
+  --ds-type-xl: 1.5rem;
+  --ds-type-2xl: 2rem;
+  --ds-type-display: clamp(2.625rem, 6vw, 6.75rem);
+  --ds-line-tight: 1.05;
+  --ds-line-ui: 1.25;
+  --ds-line-copy: 1.65;
+  --ds-weight-regular: 400;
+  --ds-weight-medium: 560;
+  --ds-weight-strong: 700;
+  /* Motion: durations. Public CSS uses .1/.2/.25/.3/.4/.5/.6/3s; aliases map to that set. */
+  --ds-motion-instant: 100ms;
+  --ds-motion-fast: 200ms;
+  --ds-motion-base: 300ms;
+  --ds-motion-slow: 400ms;
+  --ds-motion-panel: 500ms;
+  --ds-motion-line: 600ms;
+  --ds-motion-loop: 3000ms;
+  /* Motion: stagger. Menu items open at index*20ms and close in reverse order (extracted). */
+  --ds-stagger: 20ms;
+  --ds-stagger-word: 40ms;
+  /* Motion: easing. standard/smooth are the two dominant public curves; smooth is the JS ease.lusion. */
+  --ds-ease: cubic-bezier(.4, 0, .1, 1);
+  --ds-ease-standard: cubic-bezier(.4, 0, .1, 1);
+  --ds-ease-smooth: cubic-bezier(.35, 0, 0, 1);
+  --ds-ease-enter: cubic-bezier(.4, 0, 0, 1);
+  --ds-ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ds-ease-loop: cubic-bezier(.1, 0, .1, 1);
+  --ds-ease-expo: cubic-bezier(.19, 1, .22, 1);
+  /* Motion: displacement. Word reveal and menu panel rest states (extracted). */
+  --ds-rise: 1.5em;
+  --ds-rise-tilt: 15deg;
+  --ds-panel-rise: 5.5em;
+  --ds-panel-tilt: 3.5deg;
+  --ds-burst: 20;
+  --ds-swap-distance: 3em;
+  --ds-cross-size: clamp(.875rem, 1vw, 2rem);
+  --ds-cursor-size: 6.25em;
+  --ds-touch: 44px;
+  --ds-container: 1180px;
+  --ds-gutter: clamp(16px, 5vw, 72px);
+  --ds-grid-gap: clamp(12px, 2vw, 28px);
+}
+
+.ds-root[data-ds-theme="dark"] {
+  color-scheme: dark;
+  --ds-color-bg: #11141d;
+  --ds-color-surface: #191d29;
+  --ds-color-surface-raised: #232838;
+  --ds-color-text: #f7f8ff;
+  --ds-color-muted: #aeb6c8;
+  --ds-color-primary: #7c8cff;
+  --ds-color-on-primary: #08104f;
+  --ds-color-border: #363d50;
+  --ds-color-focus: #91a0ff;
+  --ds-color-danger: #ff6b61;
+  --ds-color-on-danger: #1b0706;
+  --ds-color-success: #5ee0a0;
+  --ds-color-warning: #ffd166;
+  --ds-shadow-sm: 0 1px 0 rgba(255, 255, 255, .06), 0 14px 30px rgba(0, 0, 0, .2);
+  --ds-shadow-md: 0 24px 70px rgba(0, 0, 0, .34);
+}
+
+.ds-root[data-ds-theme="system"] {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ds-root[data-ds-theme="system"] {
+    --ds-color-bg: #11141d;
+    --ds-color-surface: #191d29;
+    --ds-color-surface-raised: #232838;
+    --ds-color-text: #f7f8ff;
+    --ds-color-muted: #aeb6c8;
+    --ds-color-primary: #7c8cff;
+    --ds-color-on-primary: #08104f;
+    --ds-color-border: #363d50;
+    --ds-color-focus: #91a0ff;
+    --ds-color-danger: #ff6b61;
+    --ds-color-on-danger: #1b0706;
+    --ds-color-success: #5ee0a0;
+    --ds-color-warning: #ffd166;
+    --ds-shadow-sm: 0 1px 0 rgba(255, 255, 255, .06), 0 14px 30px rgba(0, 0, 0, .2);
+    --ds-shadow-md: 0 24px 70px rgba(0, 0, 0, .34);
+  }
+}
+
+.ds-root {
+  background: var(--ds-color-bg);
+  color: var(--ds-color-text);
+  font-family: var(--ds-font-sans);
+  font-size: var(--ds-type-md);
+  line-height: var(--ds-line-copy);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.ds-root,
+.ds-root::before,
+.ds-root::after,
+.ds-root *,
+.ds-root *::before,
+.ds-root *::after {
+  box-sizing: border-box;
+}
+
+.ds-root :where(h1, h2, h3, p, figure, blockquote, dl, dd) {
+  margin: 0;
+}
+
+.ds-root :where(button, input, textarea, select) {
+  font: inherit;
+}
+
+.ds-root :where(button, a, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--ds-color-focus);
+  outline-offset: 3px;
+}
+
+.ds-root :where(button, a) {
+  touch-action: manipulation;
+}
+
+.ds-root :where(a) {
+  color: inherit;
+}
+
+.ds-root :where([hidden]) {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-root,
+  .ds-root *,
+  .ds-root *::before,
+  .ds-root *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

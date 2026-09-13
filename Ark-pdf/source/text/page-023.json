@@ -1,0 +1,236 @@
+{
+  "page": 23,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n23\n\nSTORAGE\nCABIN\n\nARK storage boxes are designed with light steel, and the box\nbody is self-folding plate packaging. All storage support\ncomponents are automatically cut and welded on the production\nline.\n\nThe box is light and can be folded and stretched to complete the\ninstallation, which is convenient and quick",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "23",
+      "bbox": [
+        1853.508,
+        42.993,
+        1865.948,
+        54.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1853.508,
+        52.313
+      ]
+    },
+    {
+      "text": "STORAGE  ",
+      "bbox": [
+        47.77,
+        27.221,
+        510.935,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "CABIN",
+      "bbox": [
+        47.77,
+        110.249,
+        326.315,
+        205.619
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.619
+      ]
+    },
+    {
+      "text": "ARK storage boxes are designed with light steel, and the box ",
+      "bbox": [
+        739.519,
+        42.75,
+        1227.903,
+        60.462
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        57.262
+      ]
+    },
+    {
+      "text": "body is self-folding plate packaging. All storage support ",
+      "bbox": [
+        739.519,
+        65.278,
+        1190.144,
+        82.99
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        79.79
+      ]
+    },
+    {
+      "text": "components are automatically cut and welded on the production ",
+      "bbox": [
+        739.519,
+        87.806,
+        1260.159,
+        105.518
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        102.318
+      ]
+    },
+    {
+      "text": "line.",
+      "bbox": [
+        739.519,
+        110.334,
+        771.023,
+        128.046
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        124.846
+      ]
+    },
+    {
+      "text": "The box is light and can be folded and stretched to complete the ",
+      "bbox": [
+        1307.654,
+        42.75,
+        1827.431,
+        60.462
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        57.262
+      ]
+    },
+    {
+      "text": "installation, which is convenient and quick",
+      "bbox": [
+        1307.654,
+        65.278,
+        1640.326,
+        82.99
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        79.79
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+<svg data-inline-media-control="PlayProgress" class="play-progress-circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+				        					<circle class="progress-background" cx="50" cy="50" r="45"/>
+				        					<circle class="progress-circle" cx="50" cy="50" r="45" style="stroke-dasharray: 283; stroke-dashoffset: 283;"/>
+				        				</svg>

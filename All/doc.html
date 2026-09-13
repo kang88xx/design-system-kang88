@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>문서</title>
+<style>
+  :root { --bg:#fff; --ink:#17171a; --ink-2:#55555c; --line:#e6e4dd; --code:#f4f3ef; --link:#1f5eff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151518; --ink:#f0f0f2; --ink-2:#b0b0b8; --line:#2b2b31; --code:#1f1f24; --link:#7aa2ff; } }
+  html { color-scheme: light dark; }
+  body { margin:0; background:var(--bg); color:var(--ink); font: 15px/1.65 "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, "Noto Sans KR", sans-serif; -webkit-font-smoothing:antialiased; }
+  article { max-width: 820px; margin: 0 auto; padding: 40px 32px 80px; }
+  .path { font: 12px/1 ui-monospace, Menlo, monospace; color: var(--ink-2); margin-bottom: 24px; word-break: break-all; }
+  h1,h2,h3,h4 { letter-spacing:-.02em; line-height:1.25; margin: 1.6em 0 .5em; } h1 { font-size: 30px; margin-top: 0; } h2 { font-size: 22px; padding-top:.4em; border-top:1px solid var(--line); } h3 { font-size: 17px; }
+  p, ul, ol { margin: .6em 0; } li { margin: .2em 0; }
+  a { color: var(--link); }
+  code { font: 13px ui-monospace, Menlo, monospace; background: var(--code); padding: 1px 5px; border-radius: 4px; }
+  pre { background: var(--code); padding: 14px 16px; border-radius: 8px; overflow: auto; } pre code { background: none; padding: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 1em 0; display:block; overflow-x:auto; }
+  th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; vertical-align: top; } th { background: var(--code); }
+  blockquote { margin: 1em 0; padding: 4px 16px; border-left: 3px solid var(--line); color: var(--ink-2); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+  img { max-width: 100%; }
+  .err { color: #c0392b; }
+</style>
+</head>
+<body>
+<article id="a"><p class="path" id="p"></p><div id="c">불러오는 중…</div></article>
+<script>
+(async () => {
+  const src = new URLSearchParams(location.search).get("src") || "";
+  const p = document.getElementById("p"), c = document.getElementById("c");
+  p.textContent = decodeURIComponent(src.replace(/^\.\.\//, "02_Source/"));
+  if (!src) { c.innerHTML = '<p class="err">문서 경로가 없습니다.</p>'; return; }
+  document.title = decodeURIComponent(src.split("/").pop());
+  let text;
+  try { const r = await fetch(src); if (!r.ok) throw new Error(r.status + " " + r.statusText); text = await r.text(); }
+  catch (e) { c.innerHTML = '<p class="err">문서를 불러오지 못했습니다: ' + e.message + '</p>'; return; }
+  const base = src.replace(/[^/]*$/, "");
+  const esc = s => s.replace(/[&<>]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[ch]));
+  const inline = s => esc(s)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (m, a, u) => `<img alt="${a}" src="${/^(https?:|\/|data:)/.test(u) ? u : base + u}">`)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t, u) => { const abs = /^(https?:|mailto:|#)/.test(u) ? u : base + u; const md = /\.md(#|$)/.test(u) && !/^https?:/.test(u); return `<a href="${md ? "doc.html?src=" + encodeURIComponent(abs) : abs}"${/^https?:/.test(u) ? ' target="_blank" rel="noopener"' : ""}>${t}</a>`; })
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, "$1<em>$2</em>");
+  const lines = text.replace(/\r/g, "").split("\n"); let out = [], i = 0;
+  const listBlock = (ordered) => { const re = ordered ? /^\s*\d+\.\s+/ : /^\s*[-*+]\s+/; let items = []; while (i < lines.length && re.test(lines[i])) { items.push(lines[i].replace(re, "")); i++; } return `<${ordered ? "ol" : "ul"}>${items.map(x => `<li>${inline(x)}</li>`).join("")}</${ordered ? "ol" : "ul"}>`; };
+  while (i < lines.length) {
+    const l = lines[i];
+    if (/^```/.test(l)) { let buf = []; i++; while (i < lines.length && !/^```/.test(lines[i])) buf.push(lines[i++]); i++; out.push(`<pre><code>${esc(buf.join("\n"))}</code></pre>`); continue; }
+    const h = l.match(/^(#{1,6})\s+(.*)/); if (h) { out.push(`<h${h[1].length}>${inline(h[2])}</h${h[1].length}>`); i++; continue; }
+    if (/^\s*[-*_]{3,}\s*$/.test(l)) { out.push("<hr>"); i++; continue; }
+    if (/^\s*[-*+]\s+/.test(l)) { out.push(listBlock(false)); continue; }
+    if (/^\s*\d+\.\s+/.test(l)) { out.push(listBlock(true)); continue; }
+    if (/^\s*>/.test(l)) { let buf = []; while (i < lines.length && /^\s*>/.test(lines[i])) buf.push(lines[i++].replace(/^\s*>\s?/, "")); out.push(`<blockquote>${inline(buf.join(" "))}</blockquote>`); continue; }
+    if (/^\s*\|/.test(l) && i + 1 < lines.length && /^\s*\|?\s*:?-{2,}/.test(lines[i + 1])) {
+      const cells = r => r.trim().replace(/^\||\|$/g, "").split("|").map(x => inline(x.trim()));
+      const head = cells(l); i += 2; let rows = [];
+      while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(cells(lines[i++]));
+      out.push(`<table><thead><tr>${head.map(x => `<th>${x}</th>`).join("")}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(x => `<td>${x}</td>`).join("")}</tr>`).join("")}</tbody></table>`); continue;
+    }
+    if (!l.trim()) { i++; continue; }
+    let buf = []; while (i < lines.length && lines[i].trim() && !/^(#{1,6}\s|```|\s*[-*+]\s|\s*\d+\.\s|\s*>|\s*\|)/.test(lines[i])) buf.push(lines[i++]);
+    out.push(`<p>${inline(buf.join(" "))}</p>`);
+  }
+  c.innerHTML = out.join("\n");
+})();
+</script>
+</body>
+</html>

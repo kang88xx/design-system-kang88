@@ -1,0 +1,33 @@
+{
+  "checks": [
+    {
+      "name": "Arrow selection preserves keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "One tab stop in the source list",
+      "passed": true
+    },
+    {
+      "name": "Repeated arrow navigation works",
+      "passed": true
+    },
+    {
+      "name": "Code tab is keyboard selectable",
+      "passed": true
+    },
+    {
+      "name": "Code tab receives focus",
+      "passed": true
+    },
+    {
+      "name": "Mobile selection focuses detail heading",
+      "passed": true
+    },
+    {
+      "name": "Back to list restores selected source focus",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

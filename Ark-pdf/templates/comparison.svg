@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Comparison">
+  <title>Comparison</title>
+  <desc>ARK PDF p19/p22/p24의 병렬 정보 배치를 따른 옵션/전후 비교 마스터. Source pages: 19, 22, 24. Icon adaptation guide: ../prompts/guide.md.</desc>
+  <metadata data-guide-ref="../prompts/guide.md"/>
+  <rect width="1920" height="1080" fill="#F4F4F8"/>
+
+  <rect width="1920" height="1080" fill="#F4F4F8"/>
+  <text x="60" y="140" text-anchor="start" font-family="'Malgun Gothic', Arial, sans-serif" font-size="85" font-weight="500" fill="#1A2646"><tspan x="60" dy="0">OPTION</tspan><tspan x="60" dy="92">COMPARISON</tspan></text>
+  <text x="60" y="268" font-family="'Malgun Gothic', Arial, sans-serif" font-size="25" fill="#516086">SAMPLE / 예시: 차이를 빠르게 스캔하도록 규칙과 강조색을 제한</text>
+  <rect x="120" y="382" width="760" height="370" fill="#FFFFFF"/>
+  <rect x="1040" y="382" width="760" height="370" fill="#FFFFFF"/>
+  <text x="168" y="454" font-family="'Malgun Gothic', Arial, sans-serif" font-size="36" fill="#1A2646">SAMPLE Before / Option A</text>
+  <text x="1088" y="454" font-family="'Malgun Gothic', Arial, sans-serif" font-size="36" fill="#1A2646">SAMPLE After / Option B</text>
+  <line x1="168" y1="496" x2="832" y2="496" stroke="#F4F4F8" stroke-width="4"/>
+  <line x1="1088" y1="496" x2="1752" y2="496" stroke="#011187" stroke-width="4"/>
+  <text x="168" y="568" font-family="'Malgun Gothic', Arial, sans-serif" font-size="27" fill="#516086">예시: 비교 항목 01</text>
+  <text x="1088" y="568" font-family="'Malgun Gothic', Arial, sans-serif" font-size="27" fill="#516086">예시: 차별화 메시지 01</text>
+  <text x="168" y="636" font-family="'Malgun Gothic', Arial, sans-serif" font-size="27" fill="#516086">SAMPLE 비교 항목 02</text>
+  <text x="1088" y="636" font-family="'Malgun Gothic', Arial, sans-serif" font-size="27" fill="#516086">SAMPLE 차별화 메시지 02</text>
+  
+  <line x1="60" y1="1032" x2="1860" y2="1032" stroke="#1A2646" stroke-opacity=".42" stroke-width="2"/>
+  <text x="60" y="1058" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#516086" opacity="1">ARK / PROJECT DOCUMENT SYSTEM</text>
+  <text x="1860" y="1058" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#516086" opacity="1">06</text>
+
+
+</svg>

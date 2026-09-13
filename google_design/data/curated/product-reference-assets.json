@@ -1,0 +1,339 @@
+[
+  {
+    "id": "meet-product-mark",
+    "name": "Google Meet product mark",
+    "category": "ProductBrandMarks",
+    "evidenceId": "meet-product-navigation-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 38,
+      "y": 22,
+      "width": 350,
+      "height": 55
+    },
+    "sourceSize": {
+      "width": 420,
+      "height": 580
+    },
+    "colors": [
+      "#FBB100",
+      "#FECC05",
+      "#FECA03",
+      "#FECD06",
+      "#FAAD01",
+      "#212226",
+      "#212327",
+      "#FFFFFF"
+    ],
+    "gradientId": "meet-product-mark-yellow",
+    "officialObservedAssetId": "observed-b0ea9acd3ec6",
+    "paletteMethod": "exact-source-pixels",
+    "typography": {
+      "family": "Google Sans-like",
+      "weight": 500,
+      "approximateSize": "48px"
+    },
+    "sourceFidelity": "official-raster-reference",
+    "distributableSubstitute": {
+      "type": "none",
+      "name": "no-public-substitute",
+      "note": "Do not approximate or recreate the Google product mark."
+    }
+  },
+  {
+    "id": "meet-nav-meeting-selected",
+    "name": "Meeting navigation item, selected",
+    "category": "ProductNavigationIcons",
+    "evidenceId": "meet-product-navigation-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 44,
+      "y": 212,
+      "width": 112,
+      "height": 112
+    },
+    "sourceSize": {
+      "width": 420,
+      "height": 580
+    },
+    "colors": [
+      "#C9E6FD",
+      "#061C33",
+      "#1967D2",
+      "#FFFFFF"
+    ],
+    "containerId": "meet-nav-selected-pill",
+    "states": [
+      "selected"
+    ],
+    "sourceFidelity": "screenshot-measured-reference",
+    "distributableSubstitute": {
+      "type": "material-symbol",
+      "name": "calendar_today",
+      "axes": {
+        "fill": 0,
+        "weight": 500,
+        "grade": 0,
+        "opticalSize": 24
+      },
+      "renderSize": 36
+    }
+  },
+  {
+    "id": "meet-nav-call-inactive",
+    "name": "Call navigation item, inactive",
+    "category": "ProductNavigationIcons",
+    "evidenceId": "meet-product-navigation-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 72,
+      "y": 360,
+      "width": 70,
+      "height": 112
+    },
+    "sourceSize": {
+      "width": 420,
+      "height": 580
+    },
+    "colors": [
+      "#454746",
+      "#5F6368",
+      "#FFFFFF"
+    ],
+    "states": [
+      "inactive"
+    ],
+    "sourceFidelity": "screenshot-measured-reference",
+    "distributableSubstitute": {
+      "type": "material-symbol",
+      "name": "call",
+      "axes": {
+        "fill": 0,
+        "weight": 500,
+        "grade": 0,
+        "opticalSize": 24
+      },
+      "renderSize": 36
+    }
+  },
+  {
+    "id": "meet-security-shield-lock",
+    "name": "Security shield-lock status icon",
+    "category": "StatusAndTrustIcons",
+    "evidenceId": "meet-security-banner-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 80,
+      "y": 70,
+      "width": 56,
+      "height": 73
+    },
+    "sourceSize": {
+      "width": 640,
+      "height": 256
+    },
+    "colors": [
+      "#4285F4",
+      "#185ABC",
+      "#FFFFFF"
+    ],
+    "sourceFidelity": "official-svg-exact",
+    "officialObservedAssetId": "observed-d087ff35eeca",
+    "vector": {
+      "width": 58,
+      "height": 58,
+      "paths": 3,
+      "fills": [
+        "#4285F4",
+        "#185ABC",
+        "#FFFFFF"
+      ],
+      "stroke": "none"
+    },
+    "distributableSubstitute": {
+      "type": "material-symbol",
+      "name": "shield_lock",
+      "axes": {
+        "fill": 0,
+        "weight": 500,
+        "grade": 0,
+        "opticalSize": 24
+      },
+      "renderSize": 40
+    }
+  },
+  {
+    "id": "meet-security-banner",
+    "name": "Security / trust info banner",
+    "category": "ContainersAndSurfaces",
+    "evidenceId": "meet-security-banner-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 28,
+      "y": 42,
+      "width": 612,
+      "height": 128
+    },
+    "sourceSize": {
+      "width": 640,
+      "height": 256
+    },
+    "colors": [
+      "#D3E3FD",
+      "#454746",
+      "#4285F4",
+      "#185ABC",
+      "#FFFFFF"
+    ],
+    "containerId": "meet-security-banner-pill",
+    "anatomy": [
+      "shield-lock icon",
+      "bold title",
+      "supporting text",
+      "pill surface"
+    ],
+    "sourceFidelity": "computed-surface-plus-official-svg",
+    "distributableSubstitute": {
+      "type": "component",
+      "name": "banner",
+      "icon": "shield_lock",
+      "iconAxes": {
+        "fill": 0,
+        "weight": 500,
+        "grade": 0,
+        "opticalSize": 24
+      }
+    }
+  },
+  {
+    "id": "meet-empty-state-illustration",
+    "name": "Meet empty-schedule illustration",
+    "category": "EmptyStateIllustrations",
+    "evidenceId": "meet-empty-state-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 247,
+      "y": 123,
+      "width": 615,
+      "height": 325
+    },
+    "sourceSize": {
+      "width": 1126,
+      "height": 936
+    },
+    "colors": [
+      "#FFC6EF",
+      "#FFDB0F",
+      "#FDFD6D",
+      "#1F1F1F",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "gradientIds": [
+      "meet-cup-pink-yellow-exact"
+    ],
+    "stroke": {
+      "colors": [
+        "#1F1F1F",
+        "#000000"
+      ],
+      "nativeWidth": "1px default SVG stroke",
+      "observedScale": 1.95,
+      "approximateRenderedWidth": "1.95px",
+      "cap": "round",
+      "join": "round"
+    },
+    "sourceFidelity": "official-svg-exact",
+    "officialObservedAssetId": "observed-6c787294a44b",
+    "vector": {
+      "width": 315,
+      "height": 167,
+      "viewBox": [
+        0,
+        0,
+        315,
+        167
+      ],
+      "paths": 12,
+      "gradientCount": 1
+    },
+    "illustrationStyle": "thin black line, flat pastel geometry, isolated white stage",
+    "distributableSubstitute": {
+      "type": "none",
+      "name": "original-reference-only",
+      "note": "Do not collapse the illustration into a generic icon; use a separately commissioned or licensed illustration for public implementation."
+    }
+  },
+  {
+    "id": "meet-new-meeting-icon",
+    "name": "Video-plus action icon",
+    "category": "ActionIcons",
+    "evidenceId": "meet-empty-state-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 499,
+      "y": 726,
+      "width": 35,
+      "height": 33
+    },
+    "sourceSize": {
+      "width": 1126,
+      "height": 936
+    },
+    "colors": [
+      "#102613",
+      "#CDEDD2"
+    ],
+    "sourceFidelity": "screenshot-measured-reference",
+    "distributableSubstitute": {
+      "type": "material-symbol",
+      "name": "video_call",
+      "axes": {
+        "fill": 0,
+        "weight": 500,
+        "grade": 0,
+        "opticalSize": 24
+      },
+      "renderSize": 32
+    }
+  },
+  {
+    "id": "meet-new-meeting-button",
+    "name": "Soft-green new meeting CTA",
+    "category": "ContainersAndSurfaces",
+    "evidenceId": "meet-empty-state-source",
+    "referenceOnly": true,
+    "bbox": {
+      "x": 446,
+      "y": 686,
+      "width": 214,
+      "height": 111
+    },
+    "sourceSize": {
+      "width": 1126,
+      "height": 936
+    },
+    "colors": [
+      "#C4EED0",
+      "#072711"
+    ],
+    "containerId": "meet-new-meeting-pill",
+    "typography": {
+      "family": "Google Sans-like",
+      "weight": 500,
+      "approximateSize": "30px"
+    },
+    "sourceFidelity": "computed-surface-plus-screenshot-geometry",
+    "distributableSubstitute": {
+      "type": "component",
+      "name": "tonal-button",
+      "icon": "video_call",
+      "iconAxes": {
+        "fill": 0,
+        "weight": 500,
+        "grade": 0,
+        "opticalSize": 24
+      }
+    }
+  }
+]

@@ -1,0 +1,926 @@
+{
+  "checked_at": "2026-09-10T12:50:40.800Z",
+  "checks": [
+    {
+      "name": "All eighteen recipes available",
+      "passed": true
+    },
+    {
+      "name": "button: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: light 320px",
+      "passed": true
+    },
+    {
+      "name": "button: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: light 390px",
+      "passed": true
+    },
+    {
+      "name": "button: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: light 812px",
+      "passed": true
+    },
+    {
+      "name": "button: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: light 1440px",
+      "passed": true
+    },
+    {
+      "name": "button: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: dark 320px",
+      "passed": true
+    },
+    {
+      "name": "button: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: dark 390px",
+      "passed": true
+    },
+    {
+      "name": "button: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: dark 812px",
+      "passed": true
+    },
+    {
+      "name": "button: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Auto layout preserves readable button width: dark 1440px",
+      "passed": true
+    },
+    {
+      "name": "button: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "field: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "field: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "card: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "card: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "tabs: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tabs: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "accordion: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "accordion: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "dialog: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "dialog: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "toast: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "toast: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "progress: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "progress: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "layout: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "layout: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "motion: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "motion: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "cta: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cta: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "links: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "links: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "menu-panel: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "split: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "split: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "cursor: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "cursor: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "tilt: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "tilt: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "hints: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "hints: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: matching copy source",
+      "passed": true
+    },
+    {
+      "name": "flip: light 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: light 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: light 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: light 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: dark 320px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: dark 390px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: dark 812px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "flip: dark 1440px has usable preview/no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Recipe dialog opens modally",
+      "passed": true
+    },
+    {
+      "name": "Recipe dialog Escape restores opener focus",
+      "passed": true
+    },
+    {
+      "name": "Recipe tabs keyboard End selects last",
+      "passed": true
+    },
+    {
+      "name": "Recipe toast actually renders",
+      "passed": true
+    },
+    {
+      "name": "Search empty state visible",
+      "passed": true
+    },
+    {
+      "name": "Copied theme overrides explicit theme selector",
+      "passed": true
+    },
+    {
+      "name": "Standalone example light 320px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example light 390px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example light 812px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example light 1440px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example dark 320px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example dark 390px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example dark 812px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone example dark 1440px: no overflow",
+      "passed": true
+    },
+    {
+      "name": "Example error is linked to input",
+      "passed": true
+    },
+    {
+      "name": "Example error clears on correction",
+      "passed": true
+    },
+    {
+      "name": "Example reports local validation honestly",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion progress settles immediately",
+      "passed": true
+    },
+    {
+      "name": "Core CSS leaves unrelated host button alone",
+      "passed": true
+    },
+    {
+      "name": "Explicit nested light theme survives dark parent",
+      "passed": true,
+      "detail": {
+        "hostMin": "0px",
+        "childBg": "#f0f1fa",
+        "target": 44
+      }
+    },
+    {
+      "name": "Small button retains 44px target",
+      "passed": true
+    },
+    {
+      "name": "JSON tokens equal actual computed CSS in both themes",
+      "passed": true,
+      "detail": {
+        "failures": [],
+        "contrast": [
+          {
+            "name": "light text/bg",
+            "ratio": 18.01875580596472
+          },
+          {
+            "name": "light text/surface",
+            "ratio": 20.270089733027543
+          },
+          {
+            "name": "light muted/surface",
+            "ratio": 5.762900201671626
+          },
+          {
+            "name": "light muted/bg",
+            "ratio": 5.122833338960077
+          },
+          {
+            "name": "light on-primary/primary",
+            "ratio": 7.385172649155081
+          },
+          {
+            "name": "light on-danger/danger",
+            "ratio": 4.831413489227404
+          },
+          {
+            "name": "dark text/bg",
+            "ratio": 17.366090846409744
+          },
+          {
+            "name": "dark text/surface",
+            "ratio": 15.872066144169834
+          },
+          {
+            "name": "dark muted/surface",
+            "ratio": 8.2659056314223
+          },
+          {
+            "name": "dark muted/bg",
+            "ratio": 9.043968618783598
+          },
+          {
+            "name": "dark on-primary/primary",
+            "ratio": 5.889912691801994
+          },
+          {
+            "name": "dark on-danger/danger",
+            "ratio": 6.972514605626034
+          }
+        ],
+        "count": 71
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: light text/bg",
+      "passed": true,
+      "detail": {
+        "ratio": 18.01875580596472
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: light text/surface",
+      "passed": true,
+      "detail": {
+        "ratio": 20.270089733027543
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: light muted/surface",
+      "passed": true,
+      "detail": {
+        "ratio": 5.762900201671626
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: light muted/bg",
+      "passed": true,
+      "detail": {
+        "ratio": 5.122833338960077
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: light on-primary/primary",
+      "passed": true,
+      "detail": {
+        "ratio": 7.385172649155081
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: light on-danger/danger",
+      "passed": true,
+      "detail": {
+        "ratio": 4.831413489227404
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: dark text/bg",
+      "passed": true,
+      "detail": {
+        "ratio": 17.366090846409744
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: dark text/surface",
+      "passed": true,
+      "detail": {
+        "ratio": 15.872066144169834
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: dark muted/surface",
+      "passed": true,
+      "detail": {
+        "ratio": 8.2659056314223
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: dark muted/bg",
+      "passed": true,
+      "detail": {
+        "ratio": 9.043968618783598
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: dark on-primary/primary",
+      "passed": true,
+      "detail": {
+        "ratio": 5.889912691801994
+      }
+    },
+    {
+      "name": "Text contrast >=4.5: dark on-danger/danger",
+      "passed": true,
+      "detail": {
+        "ratio": 6.972514605626034
+      }
+    },
+    {
+      "name": "No browser runtime/HTTP errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

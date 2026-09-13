@@ -1,0 +1,174 @@
+/* Independent recipes; documented framework sources are in design-library.json. */
+.gds-shape-square {
+border-radius: 0;
+}
+
+.gds-shape-small {
+border-radius: 4px;
+}
+
+.gds-shape-chip {
+border-radius: 8px;
+}
+
+.gds-shape-medium {
+border-radius: 12px;
+}
+
+.gds-shape-card {
+border-radius: 16px;
+}
+
+.gds-shape-dialog {
+border-radius: 28px;
+}
+
+.gds-shape-pill {
+border-radius: 9999px;
+}
+
+.gds-shape-circle {
+border-radius: 50%;
+}
+
+.gds-shape-sheet {
+border-radius: 28px 28px 0 0;
+}
+
+.gds-shape-leaf {
+border-radius: 28px 4px 28px 4px;
+}
+
+.gds-shape-diamond {
+border-radius: 0;
+clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+}
+
+.gds-shape-hexagon {
+border-radius: 0;
+clip-path: polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);
+}
+
+.gds-container-search {
+min-height: 56px;
+border-radius: 9999px;
+padding: 16px;
+background: var(--gds-color-surface-container);
+color: var(--gds-color-on-surface);
+}
+
+.gds-container-selected-nav {
+min-height: 48px;
+border-radius: 9999px;
+padding: 12px 24px;
+background: var(--gds-color-primary-container);
+color: var(--gds-color-on-primary-container);
+}
+
+.gds-container-tonal-action {
+min-height: 56px;
+border-radius: 28px;
+padding: 16px 24px;
+background: var(--gds-color-tertiary-container);
+color: var(--gds-color-on-tertiary-container);
+}
+
+.gds-container-content-card {
+min-height: 120px;
+border-radius: 16px;
+padding: 24px;
+background: var(--gds-color-surface);
+color: var(--gds-color-on-surface);
+}
+
+.gds-container-info-banner {
+min-height: 96px;
+border-radius: 28px;
+padding: 24px;
+background: var(--gds-color-primary-container);
+color: var(--gds-color-on-primary-container);
+}
+
+.gds-container-side-sheet {
+min-height: 160px;
+border-radius: 16px;
+padding: 24px;
+background: var(--gds-color-surface-container-low);
+color: var(--gds-color-on-surface);
+}
+
+.gds-container-data-tile {
+min-height: 112px;
+border-radius: 12px;
+padding: 16px;
+background: var(--gds-color-surface);
+color: var(--gds-color-on-surface);
+}
+
+.gds-container-empty-canvas {
+min-height: 160px;
+border-radius: 28px;
+padding: 24px;
+background: var(--gds-color-secondary-container);
+color: var(--gds-color-on-secondary-container);
+}
+
+.gds-gradient-tonal-blue {
+background: linear-gradient(135deg, #d3e3fd 0%, #c2e7ff 100%);
+}
+
+.gds-gradient-calm-green {
+background: linear-gradient(135deg, #c4eed0 0%, #c2e7ff 100%);
+}
+
+.gds-gradient-warm-paper {
+background: linear-gradient(120deg, #fff8e1 0%, #f9dedc 100%);
+}
+
+.gds-gradient-soft-orbit {
+background: radial-gradient(ellipse at 25% 25%, #d3e3fd 0%, #f2f6fc 65%, #ffffff 100%);
+}
+
+.gds-gradient-tonal-spectrum {
+background: conic-gradient(from 45deg, #d3e3fd, #c2e7ff, #c4eed0, #d3e3fd);
+}
+
+.gds-gradient-dark-depth {
+background: linear-gradient(145deg, #131314 0%, #282a2c 55%, #303134 100%);
+}
+
+.gds-motion-state-layer {
+transition: opacity 100ms cubic-bezier(0.2,0,0,1);
+}
+
+.gds-motion-selection {
+transition: transform 200ms cubic-bezier(0.2,0,0,1);
+}
+
+.gds-motion-menu-enter {
+transition: opacity 200ms cubic-bezier(0.05,0.7,0.1,1), transform 200ms cubic-bezier(0.05,0.7,0.1,1);
+}
+
+.gds-motion-dialog-enter {
+transition: opacity 300ms cubic-bezier(0.05,0.7,0.1,1), transform 300ms cubic-bezier(0.05,0.7,0.1,1);
+}
+
+.gds-motion-exit {
+transition: opacity 150ms cubic-bezier(0.3,0,0.8,0.15), transform 150ms cubic-bezier(0.3,0,0.8,0.15);
+}
+
+.gds-motion-expand {
+transition: grid-template-rows 250ms cubic-bezier(0.2,0,0,1), opacity 250ms cubic-bezier(0.2,0,0,1);
+}
+
+.gds-motion-snackbar-enter {
+transition: opacity 200ms cubic-bezier(0,0,0,1), transform 200ms cubic-bezier(0,0,0,1);
+}
+
+.gds-motion-icon-state {
+transition: font-variation-settings 150ms cubic-bezier(0.2,0,0,1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+[class*="gds-motion-"] { transition: none; }
+}

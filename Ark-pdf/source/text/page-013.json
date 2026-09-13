@@ -1,0 +1,483 @@
+{
+  "page": 13,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n13\n\n38.30\n40.54\n\nGlobal Modular Construction\nMarket Growth Rate\n(Consider The Asia-Pacific Region)\n\n(USD Billion)\n\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n\nInformation Source：\n\nhttps://www.fortunebusinessinsights.com/zh/industry-reports/modular-construction-market-101662\n\n6.2%",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "13",
+      "bbox": [
+        1855.246,
+        43.114,
+        1865.676,
+        54.434
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#E8E8E8",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1855.246,
+        52.434
+      ]
+    },
+    {
+      "text": "38.30",
+      "bbox": [
+        988.224,
+        438.05,
+        1113.285,
+        487.283
+      ],
+      "font": "Gotham-Medium",
+      "size": 45.002,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.172,
+      "origin": [
+        988.224,
+        479.542
+      ]
+    },
+    {
+      "text": "40.54",
+      "bbox": [
+        1166.792,
+        405.109,
+        1296.263,
+        454.341
+      ],
+      "font": "Gotham-Medium",
+      "size": 45.002,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.172,
+      "origin": [
+        1166.792,
+        446.601
+      ]
+    },
+    {
+      "text": "Global Modular Construction ",
+      "bbox": [
+        52.652,
+        38.815,
+        775.549,
+        93.793
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        83.993
+      ]
+    },
+    {
+      "text": "Market Growth Rate ",
+      "bbox": [
+        52.652,
+        103.304,
+        559.557,
+        158.282
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        148.482
+      ]
+    },
+    {
+      "text": "(Consider The Asia-Pacific Region)",
+      "bbox": [
+        52.652,
+        168.522,
+        862.426,
+        221.883
+      ],
+      "font": "Gotham-Thin",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.889,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        212.083
+      ]
+    },
+    {
+      "text": "(USD Billion)",
+      "bbox": [
+        966.652,
+        40.759,
+        1129.202,
+        68.809
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.652,
+        63.809
+      ]
+    },
+    {
+      "text": "2018",
+      "bbox": [
+        74.086,
+        827.869,
+        110.838,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        74.086,
+        842.381
+      ]
+    },
+    {
+      "text": "2019",
+      "bbox": [
+        259.836,
+        827.869,
+        296.86,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        259.836,
+        842.381
+      ]
+    },
+    {
+      "text": "2020",
+      "bbox": [
+        441.587,
+        827.869,
+        483.475,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        441.587,
+        842.381
+      ]
+    },
+    {
+      "text": "2021",
+      "bbox": [
+        624.338,
+        827.869,
+        660.514,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        624.338,
+        842.381
+      ]
+    },
+    {
+      "text": "2022",
+      "bbox": [
+        808.088,
+        827.869,
+        848.12,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        808.088,
+        842.381
+      ]
+    },
+    {
+      "text": "2023",
+      "bbox": [
+        991.839,
+        827.869,
+        1032.095,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        991.839,
+        842.381
+      ]
+    },
+    {
+      "text": "2024",
+      "bbox": [
+        1166.59,
+        827.869,
+        1207.358,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1166.59,
+        842.381
+      ]
+    },
+    {
+      "text": "2025",
+      "bbox": [
+        1348.34,
+        827.869,
+        1388.58,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1348.34,
+        842.381
+      ]
+    },
+    {
+      "text": "2026",
+      "bbox": [
+        1531.091,
+        827.869,
+        1571.891,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1531.091,
+        842.381
+      ]
+    },
+    {
+      "text": "2027",
+      "bbox": [
+        1714.842,
+        827.869,
+        1754.634,
+        845.581
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1714.842,
+        842.381
+      ]
+    },
+    {
+      "text": "Information Source",
+      "bbox": [
+        60.226,
+        947.644,
+        212.258,
+        965.356
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        60.226,
+        962.156
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        212.258,
+        945.196,
+        228.258,
+        967.596
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        212.258,
+        962.156
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        228.258,
+        947.644,
+        233.058,
+        965.356
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        228.258,
+        962.156
+      ]
+    },
+    {
+      "text": "https://www.fortunebusinessinsights.com/zh/industry-reports/modular-construction-market-101662",
+      "bbox": [
+        60.226,
+        973.276,
+        850.546,
+        990.988
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        60.226,
+        987.788
+      ]
+    },
+    {
+      "text": "6.2%",
+      "bbox": [
+        961.918,
+        110.22,
+        1241.158,
+        244.86
+      ],
+      "font": "Gotham-Medium",
+      "size": 120.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        961.918,
+        220.86
+      ]
+    }
+  ]
+}

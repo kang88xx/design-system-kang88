@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-01",
+  "url": "http://127.0.0.1:8000/index.html",
+  "designScore": "A",
+  "aiSlopScore": "A",
+  "categoryGrades": {
+    "hierarchy": "A",
+    "typography": "A",
+    "spacing": "A",
+    "color": "A",
+    "interaction": "A",
+    "responsive": "A",
+    "content": "A",
+    "aiSlop": "A",
+    "motion": "A",
+    "performance": "A"
+  },
+  "findings": [
+    { "id": "FINDING-001", "title": "Core visual languages are absent", "impact": "high", "category": "content", "status": "resolved" },
+    { "id": "FINDING-002", "title": "Interaction coverage is too shallow", "impact": "high", "category": "interaction", "status": "resolved" },
+    { "id": "FINDING-003", "title": "Navigation does not represent the system", "impact": "medium", "category": "responsive", "status": "resolved" },
+    { "id": "FINDING-004", "title": "Motion is specified but not demonstrated", "impact": "medium", "category": "motion", "status": "resolved" }
+  ]
+}

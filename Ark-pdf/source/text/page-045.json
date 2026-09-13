@@ -1,0 +1,122 @@
+{
+  "page": 45,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\nAFTER-SALES SERVICES\n& SUPPORT\n\n06",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "AFTER-SALES SERVICES ",
+      "bbox": [
+        96.215,
+        666.396,
+        1703.925,
+        812.256
+      ],
+      "font": "Gotham-Medium",
+      "size": 130.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        96.215,
+        786.256
+      ]
+    },
+    {
+      "text": "& SUPPORT",
+      "bbox": [
+        96.215,
+        809.916,
+        838.125,
+        955.776
+      ],
+      "font": "Gotham-Medium",
+      "size": 130.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        96.215,
+        929.776
+      ]
+    },
+    {
+      "text": "06",
+      "bbox": [
+        1347.445,
+        0.4,
+        1880.245,
+        439.6
+      ],
+      "font": "Gotham-Light",
+      "size": 400.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1347.445,
+        359.6
+      ]
+    }
+  ]
+}

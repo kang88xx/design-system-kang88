@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Closing">
+  <title>Closing</title>
+  <desc>종결 메시지와 다음 행동을 남기는 클로징/컨택 마스터. Source pages: 50, 51, 52. Icon adaptation guide: ../prompts/guide.md.</desc>
+  <metadata data-guide-ref="../prompts/guide.md"/>
+  <rect width="1920" height="1080" fill="#011187"/>
+
+  <rect width="1920" height="1080" fill="#011187"/>
+  <text x="60" y="134" font-family="'Malgun Gothic', Arial, sans-serif" font-size="28" fill="#FFFFFF" opacity=".82">SAMPLE ARK / PROJECT</text>
+  <text x="60" y="430" text-anchor="start" font-family="'Malgun Gothic', Arial, sans-serif" font-size="118" font-weight="500" fill="#FFFFFF"><tspan x="60" dy="0">THANK</tspan><tspan x="60" dy="132">YOU</tspan></text>
+  <text x="60" y="728" font-family="'Malgun Gothic', Arial, sans-serif" font-size="30" fill="#FFFFFF" opacity=".82">SAMPLE Next discussion / Contact / Appendix</text>
+  <line x1="1230" y1="368" x2="1730" y2="368" stroke="#FFFFFF" stroke-width="4" opacity=".52"/>
+  <line x1="1230" y1="508" x2="1730" y2="508" stroke="#FFFFFF" stroke-width="4" opacity=".52"/>
+  <line x1="1230" y1="648" x2="1730" y2="648" stroke="#FFFFFF" stroke-width="4" opacity=".52"/>
+  
+  <line x1="60" y1="1032" x2="1860" y2="1032" stroke="#FFFFFF" stroke-opacity=".42" stroke-width="2"/>
+  <text x="60" y="1058" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity=".72">ARK / PROJECT DOCUMENT SYSTEM</text>
+  <text x="1860" y="1058" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity=".72">10</text>
+
+
+</svg>

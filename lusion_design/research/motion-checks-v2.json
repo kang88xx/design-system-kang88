@@ -1,0 +1,106 @@
+{
+  "checked_at": "2026-09-06T13:41:05.240Z",
+  "checks": [
+    {
+      "name": "native 3D WebGL renderer available",
+      "passed": true
+    },
+    {
+      "name": "2400 point cloud mode",
+      "passed": true
+    },
+    {
+      "name": "global pause state",
+      "passed": true
+    },
+    {
+      "name": "paused cloud exact pixel stability",
+      "passed": true
+    },
+    {
+      "name": "depth texture WebGL loaded",
+      "passed": true
+    },
+    {
+      "name": "depth map toggle",
+      "passed": true
+    },
+    {
+      "name": "impact emits actual particles",
+      "passed": true
+    },
+    {
+      "name": "impact clears",
+      "passed": true
+    },
+    {
+      "name": "tunnel progress updates view",
+      "passed": true
+    },
+    {
+      "name": "portal mode",
+      "passed": true
+    },
+    {
+      "name": "reduced type replay instantly settled",
+      "passed": true
+    },
+    {
+      "name": "infographic data sums to100",
+      "passed": true
+    },
+    {
+      "name": "reduced page wipe changes scene",
+      "passed": true
+    },
+    {
+      "name": "magnetic CTA keyboard state",
+      "passed": true
+    },
+    {
+      "name": "mobile kinetic no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile depth no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile impact no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile tunnel no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile type no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile data no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile wipe no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile magnet no overflow",
+      "passed": true
+    },
+    {
+      "name": "3D fallback with WebGL unavailable",
+      "passed": true
+    },
+    {
+      "name": "RGB poster fallback visible",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

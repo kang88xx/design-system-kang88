@@ -1,0 +1,1231 @@
+:where(.ds-root) .ds-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:where(.ds-root) .ds-shell {
+  min-height: 100%;
+  background:
+    linear-gradient(180deg, rgba(26, 47, 251, .06), transparent 360px),
+    var(--ds-color-bg);
+}
+
+:where(.ds-root) .ds-container {
+  width: min(100%, var(--ds-container));
+  margin-inline: auto;
+  padding-inline: var(--ds-gutter);
+}
+
+:where(.ds-root) .ds-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--ds-grid-gap);
+}
+
+:where(.ds-root) .ds-grid.ds-grid--auto {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+}
+
+:where(.ds-root) .ds-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-stack-gap, var(--ds-space-4));
+}
+
+:where(.ds-root) .ds-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ds-space-3);
+}
+
+:where(.ds-root) .ds-section {
+  padding-block: clamp(36px, 7vw, 88px);
+}
+
+:where(.ds-root) .ds-eyebrow {
+  font: var(--ds-weight-medium) var(--ds-type-xs) / var(--ds-line-ui) var(--ds-font-mono);
+  color: var(--ds-color-muted);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+:where(.ds-root) .ds-heading {
+  font-size: var(--ds-type-display);
+  font-weight: var(--ds-weight-regular);
+  line-height: var(--ds-line-tight);
+  letter-spacing: 0;
+  max-width: 11ch;
+}
+
+:where(.ds-root) .ds-title {
+  font-size: clamp(1.6rem, 3vw, 3rem);
+  font-weight: var(--ds-weight-regular);
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+:where(.ds-root) .ds-copy {
+  color: var(--ds-color-muted);
+  max-width: 68ch;
+}
+
+:where(.ds-root) .ds-button {
+  --_button-bg: var(--ds-color-surface);
+  --_button-color: var(--ds-color-text);
+  --_button-border: var(--ds-color-border);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ds-space-2);
+  min-height: var(--ds-touch);
+  min-width: var(--ds-touch);
+  max-width: 100%;
+  border: 1px solid var(--_button-border);
+  border-radius: var(--ds-radius-pill);
+  padding: 0 var(--ds-space-5);
+  background: var(--_button-bg);
+  color: var(--_button-color);
+  font-weight: var(--ds-weight-medium);
+  line-height: var(--ds-line-ui);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background var(--ds-motion-slow) var(--ds-ease-smooth), border-color var(--ds-motion-slow) var(--ds-ease-smooth), color var(--ds-motion-slow) var(--ds-ease-smooth), transform var(--ds-motion-instant) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-button:hover {
+  border-color: color-mix(in srgb, var(--ds-color-primary) 42%, var(--_button-border));
+}
+
+:where(.ds-root) .ds-button:active {
+  transform: translateY(1px) scale(.99);
+}
+
+:where(.ds-root) .ds-button[disabled],
+:where(.ds-root) .ds-button[aria-disabled="true"] {
+  opacity: .48;
+  cursor: not-allowed;
+  transform: none;
+}
+
+:where(.ds-root) .ds-button[data-loading="true"],
+:where(.ds-root) .ds-button[aria-busy="true"] {
+  color: transparent;
+  pointer-events: none;
+}
+
+:where(.ds-root) .ds-button[data-loading="true"]::after,
+:where(.ds-root) .ds-button[aria-busy="true"]::after {
+  content: "";
+  position: absolute;
+  width: 1.1em;
+  height: 1.1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  color: var(--_button-color);
+  animation: ds-spin .7s linear infinite;
+}
+
+:where(.ds-root) .ds-button--primary {
+  --_button-bg: var(--ds-color-primary);
+  --_button-color: var(--ds-color-on-primary);
+  --_button-border: var(--ds-color-primary);
+}
+
+:where(.ds-root) .ds-button--secondary {
+  --_button-bg: var(--ds-color-text);
+  --_button-color: var(--ds-color-bg);
+  --_button-border: var(--ds-color-text);
+}
+
+:where(.ds-root) .ds-button--ghost {
+  --_button-bg: transparent;
+  --_button-border: transparent;
+}
+
+:where(.ds-root) .ds-button--danger {
+  --_button-bg: var(--ds-color-danger);
+  --_button-color: var(--ds-color-on-danger);
+  --_button-border: var(--ds-color-danger);
+}
+
+:where(.ds-root) .ds-button--sm {
+  min-height: var(--ds-touch);
+  min-width: var(--ds-touch);
+  padding-inline: var(--ds-space-4);
+  font-size: var(--ds-type-sm);
+}
+
+:where(.ds-root) .ds-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 1.05em;
+  height: 1.05em;
+  flex: 0 0 auto;
+}
+
+:where(.ds-root) .ds-icon::before {
+  content: "";
+  width: .62em;
+  height: .62em;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+:where(.ds-root) .ds-card {
+  min-width: 0;
+  border: 1px solid var(--ds-color-border);
+  border-radius: var(--ds-radius-2);
+  background: var(--ds-color-surface);
+  box-shadow: var(--ds-shadow-sm);
+  overflow: clip;
+}
+
+:where(.ds-root) .ds-card.ds-stack,
+:where(.ds-root) .ds-card > .ds-stack {
+  padding: clamp(18px, 3vw, 28px);
+}
+
+:where(.ds-root) .ds-card__body {
+  padding: clamp(18px, 3vw, 28px);
+}
+
+:where(.ds-root) .ds-card__media {
+  min-height: 154px;
+  background:
+    radial-gradient(circle at 22% 22%, color-mix(in srgb, var(--ds-color-primary) 22%, transparent), transparent 34%),
+    linear-gradient(135deg, var(--ds-color-surface-raised), color-mix(in srgb, var(--ds-color-primary) 12%, var(--ds-color-surface)));
+  border-bottom: 1px solid var(--ds-color-border);
+}
+
+:where(.ds-root) .ds-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  border: 1px solid var(--ds-color-border);
+  border-radius: var(--ds-radius-pill);
+  padding: 0 var(--ds-space-3);
+  background: var(--ds-color-surface-raised);
+  color: var(--ds-color-muted);
+  font: var(--ds-weight-medium) var(--ds-type-xs) / var(--ds-line-ui) var(--ds-font-mono);
+}
+
+:where(.ds-root) .ds-badge[data-tone="success"],
+:where(.ds-root) .ds-badge--success {
+  border-color: color-mix(in srgb, var(--ds-color-success) 40%, var(--ds-color-border));
+  color: var(--ds-color-success);
+}
+
+:where(.ds-root) .ds-badge[data-tone="danger"],
+:where(.ds-root) .ds-badge--danger {
+  border-color: color-mix(in srgb, var(--ds-color-danger) 45%, var(--ds-color-border));
+  color: var(--ds-color-danger);
+}
+
+:where(.ds-root) .ds-field {
+  display: grid;
+  gap: var(--ds-space-2);
+  min-width: 0;
+}
+
+:where(.ds-root) .ds-field label,
+:where(.ds-root) .ds-label {
+  font-weight: var(--ds-weight-medium);
+  line-height: var(--ds-line-ui);
+}
+
+:where(.ds-root) .ds-hint {
+  color: var(--ds-color-muted);
+  font-size: var(--ds-type-sm);
+  line-height: 1.45;
+}
+
+:where(.ds-root) .ds-field small:not(.ds-error) {
+  color: var(--ds-color-muted);
+  font-size: var(--ds-type-sm);
+  line-height: 1.45;
+}
+
+:where(.ds-root) .ds-input,
+:where(.ds-root) .ds-select,
+:where(.ds-root) .ds-textarea {
+  width: 100%;
+  min-height: var(--ds-touch);
+  border: 1px solid var(--ds-color-border);
+  border-radius: var(--ds-radius-2);
+  padding: 0 var(--ds-space-4);
+  background: var(--ds-color-surface);
+  color: var(--ds-color-text);
+  line-height: var(--ds-line-ui);
+}
+
+:where(.ds-root) .ds-textarea {
+  min-height: 120px;
+  padding-block: var(--ds-space-3);
+  resize: vertical;
+}
+
+:where(.ds-root) .ds-input::placeholder,
+:where(.ds-root) .ds-textarea::placeholder {
+  color: color-mix(in srgb, var(--ds-color-muted) 70%, transparent);
+}
+
+:where(.ds-root) .ds-input:user-invalid,
+:where(.ds-root) .ds-input[aria-invalid="true"],
+:where(.ds-root) .ds-select[aria-invalid="true"],
+:where(.ds-root) .ds-textarea[aria-invalid="true"] {
+  border-color: var(--ds-color-danger);
+}
+
+:where(.ds-root) .ds-error {
+  display: none;
+  color: var(--ds-color-danger);
+  font-size: var(--ds-type-sm);
+  line-height: 1.45;
+}
+
+:where(.ds-root) .ds-field:has(:user-invalid) .ds-error,
+:where(.ds-root) .ds-field:has([aria-invalid="true"]) .ds-error,
+:where(.ds-root) .ds-error[data-visible="true"] {
+  display: block;
+}
+
+:where(.ds-root) .ds-tabs {
+  display: grid;
+  gap: var(--ds-space-5);
+}
+
+:where(.ds-root) .ds-tabs [role="tablist"] {
+  display: flex;
+  gap: var(--ds-space-2);
+  padding: var(--ds-space-1);
+  border: 1px solid var(--ds-color-border);
+  border-radius: var(--ds-radius-pill);
+  background: var(--ds-color-surface);
+  overflow-x: auto;
+}
+
+:where(.ds-root) .ds-tabs [role="tab"] {
+  min-height: 40px;
+  border: 0;
+  border-radius: var(--ds-radius-pill);
+  padding: 0 var(--ds-space-4);
+  background: transparent;
+  color: var(--ds-color-muted);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+:where(.ds-root) .ds-tabs [role="tab"][aria-selected="true"] {
+  background: var(--ds-color-text);
+  color: var(--ds-color-bg);
+}
+
+:where(.ds-root) .ds-tabs [role="tabpanel"] {
+  min-width: 0;
+}
+
+:where(.ds-root) .ds-accordion:not(details) {
+  display: grid;
+  gap: var(--ds-space-2);
+}
+
+:where(.ds-root) .ds-accordion details,
+:where(.ds-root) details.ds-accordion {
+  border: 1px solid var(--ds-color-border);
+  border-radius: var(--ds-radius-2);
+  background: var(--ds-color-surface);
+}
+
+:where(.ds-root) .ds-accordion summary,
+:where(.ds-root) details.ds-accordion summary {
+  min-height: var(--ds-touch);
+  padding: var(--ds-space-4);
+  cursor: pointer;
+  font-weight: var(--ds-weight-medium);
+}
+
+:where(.ds-root) .ds-accordion details > div,
+:where(.ds-root) details.ds-accordion > div {
+  padding: 0 var(--ds-space-4) var(--ds-space-4);
+  color: var(--ds-color-muted);
+}
+
+:where(.ds-root) .ds-dialog {
+  width: min(560px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  border: 0;
+  border-radius: var(--ds-radius-2);
+  padding: 0;
+  background: var(--ds-color-surface);
+  color: var(--ds-color-text);
+  box-shadow: var(--ds-shadow-md);
+}
+
+:where(.ds-root) .ds-dialog::backdrop {
+  background: rgba(7, 10, 20, .58);
+  backdrop-filter: blur(8px);
+}
+
+:where(.ds-root) .ds-dialog__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ds-space-4);
+  padding: var(--ds-space-5);
+  border-bottom: 1px solid var(--ds-color-border);
+}
+
+:where(.ds-root) .ds-dialog__body {
+  padding: var(--ds-space-5);
+}
+
+:where(.ds-root) .ds-dialog > .ds-stack {
+  padding: var(--ds-space-5);
+}
+
+:where(.ds-root) .ds-toast-region {
+  position: fixed;
+  right: var(--ds-space-4);
+  bottom: var(--ds-space-4);
+  z-index: 1000;
+  display: grid;
+  gap: var(--ds-space-2);
+  width: min(360px, calc(100vw - 32px));
+}
+
+:where(.ds-root) .ds-toast,
+:where(.ds-root) .ds-toast-item {
+  border: 1px solid color-mix(in srgb, var(--ds-color-primary) 32%, var(--ds-color-border));
+  border-radius: var(--ds-radius-2);
+  padding: var(--ds-space-3) var(--ds-space-4);
+  background: var(--ds-color-text);
+  color: var(--ds-color-bg);
+  box-shadow: var(--ds-shadow-md);
+}
+
+:where(.ds-root) .ds-toast[data-ds-toast-region]:empty {
+  display: none;
+}
+
+:where(.ds-root) .ds-progress {
+  width: 100%;
+  height: 10px;
+  border: 0;
+  border-radius: var(--ds-radius-pill);
+  overflow: hidden;
+  background: var(--ds-color-surface-raised);
+}
+
+:where(.ds-root) .ds-progress::-webkit-progress-bar {
+  background: var(--ds-color-surface-raised);
+}
+
+:where(.ds-root) .ds-progress::-webkit-progress-value {
+  border-radius: var(--ds-radius-pill);
+  background: var(--ds-color-primary);
+}
+
+:where(.ds-root) .ds-progress::-moz-progress-bar {
+  border-radius: var(--ds-radius-pill);
+  background: var(--ds-color-primary);
+}
+
+/* ------------------------------------------------------------------
+   Interaction layer.
+   Rest states and rules follow research/interaction-evidence.md.
+   Every animated property is transform/opacity; the runtime only sets
+   data-ds-* state attributes and --ds-* custom properties.
+------------------------------------------------------------------ */
+
+/* Reveal. Variants: rise (default), fade, scale, mask, line. */
+:where(.ds-root) .ds-reveal,
+:where(.ds-root) [data-ds-reveal][data-ds-reveal-state="ready"] {
+  opacity: 0;
+  transform: translate3d(0, var(--ds-reveal-distance, 16px), 0);
+  transition: opacity var(--ds-motion-slow) var(--ds-ease-out), transform var(--ds-motion-slow) var(--ds-ease-out);
+  transition-delay: calc(var(--ds-i, 0) * var(--ds-stagger-word));
+}
+
+:where(.ds-root) [data-ds-reveal="fade"][data-ds-reveal-state="ready"] {
+  transform: none;
+}
+
+:where(.ds-root) [data-ds-reveal="scale"][data-ds-reveal-state="ready"] {
+  opacity: 1;
+  transform: scale(0);
+  transition: transform var(--ds-motion-panel) var(--ds-ease-smooth);
+  transition-delay: calc(var(--ds-i, 0) * var(--ds-stagger-word));
+}
+
+:where(.ds-root) [data-ds-reveal="mask"][data-ds-reveal-state="ready"] {
+  opacity: 1;
+  transform: translate3d(0, 110%, 0);
+  transition: transform var(--ds-motion-line) var(--ds-ease-smooth);
+  transition-delay: calc(var(--ds-i, 0) * var(--ds-stagger-word));
+}
+
+:where(.ds-root) [data-ds-reveal="line"][data-ds-reveal-state="ready"] {
+  opacity: 1;
+  transform: scale3d(0, 1, 1);
+  transform-origin: left;
+  transition: transform var(--ds-motion-line) var(--ds-ease-smooth);
+  transition-delay: calc(var(--ds-i, 0) * var(--ds-stagger-word));
+}
+
+:where(.ds-root) .ds-reveal[data-visible="true"],
+:where(.ds-root) [data-ds-reveal][data-ds-reveal-state="visible"] {
+  opacity: 1;
+  transform: none;
+}
+
+:where(.ds-root) .ds-mask {
+  display: block;
+  overflow: hidden;
+}
+
+/* Split text. Runtime wraps words/chars; rest state mirrors #home-hero-title .word. */
+:where(.ds-root) [data-ds-split] {
+  --ds-split-rise: var(--ds-rise);
+  --ds-split-tilt: var(--ds-rise-tilt);
+}
+
+:where(.ds-root) .ds-split__word {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+  padding-bottom: .12em;
+  margin-bottom: -.12em;
+}
+
+:where(.ds-root) .ds-split__inner {
+  display: inline-block;
+  position: relative;
+  top: -.1em;
+  will-change: transform;
+  transform-origin: 0 100%;
+  transition: transform var(--ds-motion-line) var(--ds-ease-smooth), opacity var(--ds-motion-slow) var(--ds-ease-out);
+  transition-delay: calc(var(--ds-i, 0) * var(--ds-stagger-word));
+}
+
+:where(.ds-root) [data-ds-split][data-ds-reveal-state="ready"] {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+:where(.ds-root) [data-ds-split][data-ds-reveal-state="ready"] .ds-split__inner {
+  transform: translate3d(0, var(--ds-split-rise), 0) rotate(var(--ds-split-tilt));
+  opacity: 0;
+}
+
+:where(.ds-root) [data-ds-split][data-ds-reveal-state="visible"] .ds-split__inner {
+  transform: translate3d(0, 0, 0) rotate(0);
+  opacity: 1;
+}
+
+/* Stagger container. Runtime writes --ds-i / --ds-n on direct children. */
+:where(.ds-root) [data-ds-stagger] > * {
+  --ds-i: 0;
+}
+
+/* Panel (menu). Rest state mirrors #header-menu-links: rise 5.5em, rotate 3.5deg, opacity 0. */
+:where(.ds-root) [data-ds-panel] {
+  --ds-panel-duration: var(--ds-motion-panel);
+  visibility: hidden;
+  transition: visibility 0s calc(var(--ds-panel-duration) + var(--ds-n, 6) * var(--ds-stagger));
+}
+
+:where(.ds-root) [data-ds-panel][data-ds-panel-state="open"] {
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+:where(.ds-root) [data-ds-panel] > [data-ds-stagger] > *,
+:where(.ds-root) [data-ds-panel] > .ds-panel__item {
+  opacity: 0;
+  transform: translate3d(0, var(--ds-panel-rise), 0) rotate(var(--ds-panel-tilt));
+  transition: transform var(--ds-panel-duration) var(--ds-ease), opacity var(--ds-panel-duration) var(--ds-ease);
+  transition-delay: calc((var(--ds-n, 1) - var(--ds-i, 0)) * var(--ds-stagger));
+}
+
+:where(.ds-root) [data-ds-panel][data-ds-panel-state="open"] > [data-ds-stagger] > *,
+:where(.ds-root) [data-ds-panel][data-ds-panel-state="open"] > .ds-panel__item {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) rotate(0);
+  transition-delay: calc(var(--ds-i, 0) * var(--ds-stagger));
+}
+
+:where(.ds-root) .ds-panel {
+  display: grid;
+  gap: var(--ds-space-3);
+  width: min(100%, 19.375em);
+}
+
+:where(.ds-root) .ds-panel__box {
+  border-radius: var(--ds-radius-3);
+  background: var(--ds-color-surface);
+  box-shadow: var(--ds-shadow-md);
+}
+
+:where(.ds-root) .ds-backdrop {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(270deg, rgba(11, 11, 18, .5), rgba(11, 11, 18, 0));
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--ds-motion-slow) var(--ds-ease) var(--ds-motion-slow);
+}
+
+:where(.ds-root) .ds-backdrop[data-ds-panel-state="open"],
+:where(.ds-root) [data-ds-panel-state="open"] + .ds-backdrop {
+  opacity: 1;
+  pointer-events: auto;
+  transition-delay: 0s;
+}
+
+/* Menu link. Text swap + dot + pill background + arrow (mirrors .header-menu-link). */
+:where(.ds-root) .ds-menu-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: var(--ds-touch);
+  padding: .55em 2.75em .55em 1.1em;
+  border-radius: var(--ds-radius-pill);
+  color: var(--ds-color-text);
+  font-size: var(--ds-type-xl);
+  font-weight: var(--ds-weight-regular);
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+:where(.ds-root) .ds-menu-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--ds-color-primary);
+  opacity: 0;
+  transform: scale(.85);
+  transition: opacity var(--ds-motion-base) var(--ds-ease), transform var(--ds-motion-slow) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-menu-link::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - .25em);
+  right: 1.2em;
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background: currentColor;
+  transform: scale(0);
+  transition: transform var(--ds-motion-base) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-menu-link[aria-current]::after {
+  transform: scale(1);
+}
+
+:where(.ds-root) .ds-menu-link:hover::before,
+:where(.ds-root) .ds-menu-link:focus-visible::before {
+  opacity: .1;
+  transform: scale(1);
+}
+
+:where(.ds-root) .ds-menu-link:hover[aria-current]::after {
+  transform: scale(0);
+}
+
+:where(.ds-root) .ds-menu-link .ds-swap {
+  position: relative;
+  z-index: 1;
+}
+
+/* Text swap. Give the element data-swap (defaults to its own text). */
+:where(.ds-root) .ds-swap {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+:where(.ds-root) .ds-swap > .ds-swap__text {
+  display: inline-block;
+  transition: transform var(--ds-motion-slow) var(--ds-ease), color var(--ds-motion-slow) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-swap::after {
+  content: attr(data-swap);
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  transform: translate3d(0, 100%, 0);
+  transition: transform var(--ds-motion-slow) var(--ds-ease), color var(--ds-motion-slow) var(--ds-ease);
+}
+
+:where(.ds-root) :is(.ds-swap, a, button, .ds-menu-link):is(:hover, :focus-visible) > .ds-swap > .ds-swap__text,
+:where(.ds-root) .ds-swap:is(:hover, :focus-visible) > .ds-swap__text {
+  transform: translate3d(0, -100%, 0);
+}
+
+:where(.ds-root) :is(.ds-swap, a, button, .ds-menu-link):is(:hover, :focus-visible) > .ds-swap::after,
+:where(.ds-root) .ds-swap:is(:hover, :focus-visible)::after {
+  transform: translate3d(0, 0, 0);
+}
+
+/* Icon swap. Two icons; first leaves upward, second enters from below (mirrors #footer-bottom-up). */
+:where(.ds-root) .ds-icon-swap {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+:where(.ds-root) .ds-icon-swap > * {
+  grid-area: 1 / 1;
+  transition: transform var(--ds-motion-slow) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-icon-swap > :last-child {
+  transform: translate3d(0, var(--ds-swap-distance), 0);
+}
+
+:where(.ds-root) :is(a, button):is(:hover, :focus-visible) .ds-icon-swap > :first-child,
+:where(.ds-root) .ds-icon-swap:is(:hover, :focus-visible) > :first-child {
+  transform: translate3d(0, calc(var(--ds-swap-distance) * -1), 0);
+}
+
+:where(.ds-root) :is(a, button):is(:hover, :focus-visible) .ds-icon-swap > :last-child,
+:where(.ds-root) .ds-icon-swap:is(:hover, :focus-visible) > :last-child {
+  transform: translate3d(0, 0, 0);
+}
+
+/* Underline link. scaleX from the left; default .3s expo-like, --slow .6s smooth. */
+:where(.ds-root) .ds-link {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: .1em;
+}
+
+:where(.ds-root) .ds-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: var(--ds-link-weight, 1px);
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: transform var(--ds-motion-base) var(--ds-ease-out);
+}
+
+:where(.ds-root) .ds-link--slow {
+  --ds-link-weight: .125em;
+}
+
+:where(.ds-root) .ds-link--slow::after {
+  transition-duration: var(--ds-motion-line);
+  transition-timing-function: var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-link:hover::after,
+:where(.ds-root) .ds-link:focus-visible::after {
+  transform: scaleX(1);
+}
+
+:where(.ds-root) .ds-link--static::after {
+  transform: scaleX(1);
+  transform-origin: 100% 0;
+}
+
+:where(.ds-root) .ds-link--static:hover::after,
+:where(.ds-root) .ds-link--static:focus-visible::after {
+  transform: scaleX(0);
+}
+
+/* CTA pill with dot burst (mirrors #home-reel-cta / #home-featured-cta). */
+:where(.ds-root) .ds-cta {
+  --_cta-bg: var(--ds-color-surface);
+  --_cta-color: var(--ds-color-text);
+  --_cta-accent: var(--ds-color-primary);
+  --_cta-on-accent: var(--ds-color-on-primary);
+  --_cta-delay: var(--ds-motion-base);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
+  min-height: 3.375em;
+  padding: 0 1.5em 0 1.625em;
+  border: 0;
+  border-radius: var(--ds-radius-pill);
+  background: var(--_cta-bg);
+  color: var(--_cta-color);
+  font-size: clamp(.875rem, 1vw, 1.125rem);
+  font-weight: var(--ds-weight-medium);
+  letter-spacing: .02em;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  isolation: isolate;
+  transition: background var(--ds-motion-panel) var(--ds-ease-smooth) var(--_cta-delay), color var(--ds-motion-panel) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-cta__dot {
+  display: inline-block;
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background: currentColor;
+  flex: 0 0 auto;
+  transition: background var(--ds-motion-panel) var(--ds-ease-smooth), transform var(--ds-motion-slow) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-cta__label {
+  position: relative;
+  z-index: 1;
+  transition: color var(--ds-motion-panel) var(--ds-ease-smooth), transform var(--ds-motion-slow) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-cta__arrow {
+  position: absolute;
+  right: 1em;
+  top: calc(50% - .6em);
+  display: grid;
+  place-items: center;
+  width: 1.2em;
+  height: 1.2em;
+  z-index: 1;
+  color: var(--_cta-accent);
+  transform: translate3d(3em, 0, 0);
+  transition: transform var(--ds-motion-slow) var(--ds-ease-enter), color var(--ds-motion-panel) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-cta__arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+:where(.ds-root) .ds-cta:hover,
+:where(.ds-root) .ds-cta:focus-visible,
+:where(.ds-root) .ds-cta[data-active="true"] {
+  background: var(--_cta-accent);
+  color: var(--_cta-on-accent);
+}
+
+:where(.ds-root) .ds-cta:is(:hover, :focus-visible, [data-active="true"]) .ds-cta__dot {
+  background: var(--_cta-accent);
+  transform: translate3d(3em, 0, 0) scale(var(--ds-burst));
+}
+
+:where(.ds-root) .ds-cta:is(:hover, :focus-visible, [data-active="true"]) .ds-cta__label {
+  transform: translate3d(-1.5em, 0, 0);
+}
+
+:where(.ds-root) .ds-cta:is(:hover, :focus-visible, [data-active="true"]) .ds-cta__arrow {
+  color: var(--_cta-on-accent);
+  transform: translate3d(0, 0, 0);
+}
+
+:where(.ds-root) .ds-cta--dark {
+  --_cta-bg: var(--ds-color-text);
+  --_cta-color: var(--ds-color-bg);
+}
+
+:where(.ds-root) .ds-cta--sm {
+  min-height: 3.2em;
+  padding-inline: 1.625em 1.125em;
+  font-size: var(--ds-type-sm);
+}
+
+/* Compact header button: label slides right, dots shrink, arrow enters (mirrors #header-right-talk-btn). */
+:where(.ds-root) .ds-talk {
+  --_talk-bg: var(--ds-color-text);
+  --_talk-color: var(--ds-color-bg);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .625em;
+  height: 3.2em;
+  min-width: var(--ds-touch);
+  padding: 0 1.125em 0 1.625em;
+  border: 0;
+  border-radius: var(--ds-radius-pill);
+  background: var(--_talk-bg);
+  color: var(--_talk-color);
+  font-size: var(--ds-type-sm);
+  font-weight: var(--ds-weight-medium);
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color var(--ds-motion-slow) var(--ds-ease-smooth), background var(--ds-motion-slow) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-talk__label {
+  transition: transform var(--ds-motion-base) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-talk__dot {
+  width: .3125em;
+  height: .3125em;
+  border-radius: 50%;
+  background: currentColor;
+  transform: scale(.9);
+  transition: transform var(--ds-motion-instant) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-talk__arrow {
+  position: absolute;
+  top: calc(50% - .5em);
+  left: 1.2em;
+  width: 1em;
+  height: 1em;
+  transform: translate3d(-2.5em, 0, 0);
+  transition: transform var(--ds-motion-base) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-talk__arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+:where(.ds-root) .ds-talk:is(:hover, :focus-visible) .ds-talk__label {
+  transform: translate3d(1.5em, 0, 0);
+}
+
+:where(.ds-root) .ds-talk:is(:hover, :focus-visible) .ds-talk__dot {
+  transform: scale(0);
+}
+
+:where(.ds-root) .ds-talk:is(:hover, :focus-visible) .ds-talk__arrow {
+  transform: translate3d(0, 0, 0);
+}
+
+/* Two-dot menu glyph; rotates 180 -> 270deg on parent hover (mirrors #header-right-menu-btn-dots). */
+:where(.ds-root) .ds-dots {
+  position: relative;
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  flex: 0 0 auto;
+  transform: translateZ(0) rotate(180deg);
+  transition: transform var(--ds-motion-slow) var(--ds-ease);
+}
+
+:where(.ds-root) .ds-dots::before,
+:where(.ds-root) .ds-dots::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - .15625em);
+  width: .3125em;
+  height: .3125em;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+:where(.ds-root) .ds-dots::before {
+  left: .1em;
+}
+
+:where(.ds-root) .ds-dots::after {
+  right: .1em;
+}
+
+:where(.ds-root) :is(a, button):is(:hover, :focus-visible) .ds-dots,
+:where(.ds-root) [aria-expanded="true"] .ds-dots {
+  transform: translateY(-.1em) translateZ(0) rotate(270deg);
+}
+
+:where(.ds-root) [aria-expanded="true"] .ds-dots {
+  transform: translateZ(0) rotate(225deg);
+}
+
+/* Loop hints (mirrors arrow-animation / text-animation: 0 -> 33% then hold, 3s). */
+:where(.ds-root) .ds-loop {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+:where(.ds-root) .ds-loop > * {
+  display: block;
+  animation: ds-loop-text var(--ds-motion-loop) var(--ds-motion-fast) infinite var(--ds-ease-loop);
+}
+
+:where(.ds-root) .ds-loop--arrow > * {
+  animation-name: ds-loop-arrow;
+  animation-delay: var(--ds-motion-base);
+}
+
+@keyframes ds-loop-arrow {
+  0% { transform: translate3d(0, -1em, 0); }
+  33% { transform: translate3d(0, 0, 0); }
+  66% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(0, 1em, 0); }
+}
+
+@keyframes ds-loop-text {
+  0% { transform: translate3d(0, -1.5em, 0); }
+  33% { transform: translate3d(0, 0, 0); }
+  66% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(0, 1.5em, 0); }
+}
+
+/* Grid cross (mirrors .home-hero-scroll-container-cross). */
+:where(.ds-root) .ds-cross {
+  position: relative;
+  display: inline-block;
+  width: var(--ds-cross-size);
+  height: var(--ds-cross-size);
+  flex: 0 0 auto;
+  color: inherit;
+}
+
+:where(.ds-root) .ds-cross::before,
+:where(.ds-root) .ds-cross::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: calc(var(--ds-cross-size) * .125);
+  height: 100%;
+  margin-left: calc(var(--ds-cross-size) * -.0625);
+  background: currentColor;
+}
+
+:where(.ds-root) .ds-cross::after {
+  transform: rotate(90deg);
+}
+
+/* Progress bar. Fill scales with --ds-progress (0..1); transform-origin 0 0 as in the source. */
+:where(.ds-root) .ds-bar {
+  position: relative;
+  width: 100%;
+  height: var(--ds-bar-size, 3px);
+  border-radius: var(--ds-radius-pill);
+  background: color-mix(in srgb, currentColor 18%, transparent);
+  overflow: hidden;
+}
+
+:where(.ds-root) .ds-bar--vertical {
+  width: var(--ds-bar-size, 3px);
+  height: 100%;
+}
+
+:where(.ds-root) .ds-bar__fill {
+  position: absolute;
+  inset: 0;
+  background: currentColor;
+  transform-origin: 0 0;
+  transform: scaleX(var(--ds-progress, 0));
+}
+
+:where(.ds-root) .ds-bar--vertical .ds-bar__fill {
+  transform: scaleY(var(--ds-progress, 0));
+}
+
+:where(.ds-root) [data-ds-scroll-progress] {
+  transition: opacity var(--ds-motion-slow) var(--ds-ease);
+}
+
+:where(.ds-root) [data-ds-scroll-progress][data-ds-scroll-state="idle"].ds-bar--auto-hide {
+  opacity: 0;
+}
+
+/* Cursor follower (mirrors #video-overlay-cursor). Runtime writes position/scale/rotation/stretch. */
+:where(.ds-root) .ds-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  width: var(--ds-cursor-size);
+  height: var(--ds-cursor-size);
+  margin: calc(var(--ds-cursor-size) / -2) 0 0 calc(var(--ds-cursor-size) / -2);
+  color: var(--ds-color-text);
+  font: var(--ds-weight-medium) var(--ds-type-xs) / 1 var(--ds-font-mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  pointer-events: none;
+  transform: translate3d(var(--ds-cursor-x, -100px), var(--ds-cursor-y, -100px), 0) scale(var(--ds-cursor-scale, 0));
+  will-change: transform;
+}
+
+:where(.ds-root) .ds-cursor::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 50%;
+  background: var(--ds-color-surface);
+  transform: rotate(var(--ds-cursor-rotate, 0deg)) scaleX(var(--ds-cursor-stretch, 1));
+}
+
+:where(.ds-root) .ds-cursor--accent {
+  color: var(--ds-color-on-primary);
+}
+
+:where(.ds-root) .ds-cursor--accent::before {
+  background: var(--ds-color-primary);
+}
+
+@media (hover: none) {
+  :where(.ds-root) .ds-cursor {
+    display: none;
+  }
+}
+
+/* Tilt / pointer parallax. Runtime writes --ds-tilt-x/y (deg) and --ds-tilt-px/py (-1..1). */
+:where(.ds-root) [data-ds-tilt] {
+  transform: perspective(1000px) rotateX(var(--ds-tilt-x, 0deg)) rotateY(var(--ds-tilt-y, 0deg));
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+:where(.ds-root) [data-ds-tilt-layer] {
+  --_depth: var(--ds-depth, 1);
+  transform: translate3d(calc(var(--ds-tilt-px, 0) * var(--_depth) * 12px), calc(var(--ds-tilt-py, 0) * var(--_depth) * 12px), 0);
+  will-change: transform;
+}
+
+/* Flip card (mirrors .about-capability-card). */
+:where(.ds-root) .ds-flip {
+  position: relative;
+  aspect-ratio: 314 / 438;
+  transform-style: preserve-3d;
+  transition: transform var(--ds-motion-line) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) .ds-flip[aria-pressed="true"],
+:where(.ds-root) .ds-flip[data-flipped="true"] {
+  transform: rotateY(180deg);
+}
+
+:where(.ds-root) .ds-flip__face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25em 1.875em;
+  border-radius: .8em;
+  background: var(--ds-color-surface);
+  backface-visibility: hidden;
+}
+
+:where(.ds-root) .ds-flip__face--back {
+  transform: rotateY(180deg);
+  background: var(--ds-color-primary);
+  color: var(--ds-color-on-primary);
+}
+
+/* Magnetic. Runtime drives --ds-magnetic-x/y with second-order dynamics. */
+:where(.ds-root) [data-ds-magnetic] {
+  transform: translate3d(var(--ds-magnetic-x, 0px), var(--ds-magnetic-y, 0px), 0);
+  will-change: transform;
+}
+
+/* Hover media zoom for cards (mirrors .project-item-image hover scale). */
+:where(.ds-root) .ds-zoom {
+  overflow: hidden;
+}
+
+:where(.ds-root) .ds-zoom > * {
+  transition: transform var(--ds-motion-line) var(--ds-ease-smooth);
+}
+
+:where(.ds-root) :is(a, .ds-card):is(:hover, :focus-within) .ds-zoom > *,
+:where(.ds-root) .ds-zoom:is(:hover, :focus-within) > * {
+  transform: scale(1.04);
+}
+
+@keyframes ds-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 760px) {
+  :where(.ds-root) .ds-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  :where(.ds-root) .ds-heading {
+    max-width: 9ch;
+  }
+
+  :where(.ds-root) .ds-tabs [role="tablist"] {
+    border-radius: var(--ds-radius-2);
+  }
+}
+
+@media (max-width: 420px) {
+  :where(.ds-root) .ds-container {
+    padding-inline: 14px;
+  }
+
+  :where(.ds-root) .ds-card__body,
+  :where(.ds-root) .ds-dialog__header,
+  :where(.ds-root) .ds-dialog__body {
+    padding: var(--ds-space-4);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.ds-root) .ds-button[data-loading="true"],
+  :where(.ds-root) .ds-button[aria-busy="true"] {
+    color: var(--_button-color);
+  }
+
+  :where(.ds-root) .ds-button[data-loading="true"]::after,
+  :where(.ds-root) .ds-button[aria-busy="true"]::after {
+    content: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.ds-root) [data-ds-split] .ds-split__inner,
+  :where(.ds-root) [data-ds-reveal][data-ds-reveal-state="ready"],
+  :where(.ds-root) [data-ds-panel] > [data-ds-stagger] > *,
+  :where(.ds-root) [data-ds-panel] > .ds-panel__item {
+    transition-delay: 0s !important;
+  }
+
+  :where(.ds-root) .ds-loop > * {
+    animation: none;
+  }
+
+  :where(.ds-root) .ds-cursor {
+    display: none;
+  }
+
+  :where(.ds-root) [data-ds-tilt],
+  :where(.ds-root) [data-ds-tilt-layer],
+  :where(.ds-root) [data-ds-magnetic] {
+    transform: none;
+  }
+}

@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Product Design System Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+  <style id="gds-tokens">__TOKENS_CSS__</style>
+  <link rel="stylesheet" href="studio-shell.css">
+  <style>
+    :root {
+      color-scheme: light;
+      --primary:var(--gds-color-primary);--on-primary:var(--gds-color-on-primary);--primary-container:var(--gds-color-primary-container);--on-primary-container:var(--gds-color-on-primary-container);
+      --secondary:var(--gds-color-secondary);--on-secondary:var(--gds-color-on-secondary);--secondary-container:var(--gds-color-secondary-container);--on-secondary-container:var(--gds-color-on-secondary-container);
+      --tertiary:var(--gds-color-tertiary);--tertiary-container:var(--gds-color-tertiary-container);--on-tertiary-container:var(--gds-color-on-tertiary-container);
+      --surface:var(--gds-color-surface);--surface-dim:var(--gds-color-surface-dim);--surface-low:var(--gds-color-surface-container-low);--surface-container:var(--gds-color-surface-container);--surface-high:var(--gds-color-surface-container-high);
+      --on-surface:var(--gds-color-on-surface);--on-surface-variant:var(--gds-color-on-surface-variant);--outline:var(--gds-color-outline);--outline-variant:var(--gds-color-outline-variant);
+      --error:var(--gds-color-error);--positive:var(--gds-color-positive);--negative:var(--gds-color-negative);--info:var(--gds-color-info);--shadow:rgba(60,64,67,.18);--nav:256px;
+    }
+    [data-theme="dark"] {color-scheme:dark;--shadow:rgba(0,0,0,.44)}
+    * { box-sizing:border-box; }
+    html { background:var(--surface-dim); }
+    body { margin:0; font-family:"Google Sans","Google Sans Text",Roboto,Arial,sans-serif; color:var(--on-surface); background:var(--surface-dim); }
+    button,input { font:inherit; }
+    button { color:inherit; }
+    .material-symbols-rounded { font-variation-settings:'FILL' 0,'wght' 500,'GRAD' 0,'opsz' 24; font-size:22px; line-height:1; }
+    .shell { min-height:100vh; display:grid; grid-template-columns:var(--nav) minmax(0,1fr); }
+    .sidebar { position:sticky; top:0; height:100vh; padding:20px 16px; border-right:1px solid var(--outline-variant); background:var(--surface-low); overflow:auto; }
+    .brand { display:flex; align-items:center; gap:12px; padding:8px 12px 22px; }
+    .brand-mark { width:40px; height:40px; display:grid; place-items:center; border-radius:14px; background:var(--primary-container); color:var(--on-primary-container); }
+    .brand h1 { margin:0; font-size:18px; line-height:22px; font-weight:600; }
+    .brand p { margin:2px 0 0; color:var(--on-surface-variant); font:500 11px/16px Roboto,Arial,sans-serif; letter-spacing:.4px; }
+    .nav { display:grid; gap:4px; }
+    .nav button { width:100%; min-height:44px; border:0; border-radius:22px; background:transparent; display:flex; align-items:center; gap:14px; padding:0 16px; cursor:pointer; text-align:left; font-weight:500; }
+    .nav button:hover { background:color-mix(in srgb,var(--on-surface) 8%,transparent); }
+    .nav button.active { background:var(--primary-container); color:var(--on-primary-container); }
+    .sidebar-note { margin:24px 8px 0; padding:16px; border-radius:16px; background:var(--surface); color:var(--on-surface-variant); font:400 12px/18px Roboto,Arial,sans-serif; }
+    main { min-width:0; }
+    .topbar { position:sticky; z-index:20; top:0; min-height:72px; display:flex; align-items:center; gap:12px; padding:12px 28px; background:color-mix(in srgb,var(--surface-dim) 92%,transparent); backdrop-filter:blur(18px); }
+    .search { flex:1; max-width:720px; position:relative; }
+    .search .material-symbols-rounded { position:absolute; left:18px; top:15px; color:var(--on-surface-variant); }
+    .search input { width:100%; height:52px; border:0; outline:0; border-radius:26px; padding:0 48px; color:var(--on-surface); background:var(--surface-container); }
+    .search input:focus { box-shadow:0 0 0 2px var(--primary); background:var(--surface); }
+    .icon-button { width:44px; height:44px; border:0; border-radius:50%; background:transparent; display:grid; place-items:center; cursor:pointer; }
+    .icon-button:hover { background:color-mix(in srgb,var(--on-surface) 8%,transparent); }
+    .icon-button:focus-visible,.btn:focus-visible,.chip:focus-visible { outline:3px solid var(--secondary); outline-offset:2px; }
+    .content { max-width:1500px; margin:0 auto; padding:12px 28px 80px; }
+    .hero { padding:34px; border-radius:28px; background:var(--surface); border:1px solid var(--outline-variant); display:grid; gap:24px; }
+    .eyebrow { color:var(--primary); font:600 12px/16px Roboto,Arial,sans-serif; letter-spacing:.9px; text-transform:uppercase; }
+    .hero h2 { margin:6px 0 10px; max-width:920px; font-size:40px; line-height:48px; font-weight:500; letter-spacing:0; }
+    .hero p { margin:0; max-width:820px; color:var(--on-surface-variant); font:400 16px/25px Roboto,Arial,sans-serif; }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .metric { min-height:112px; padding:18px; border-radius:20px; background:var(--surface-low); }
+    .metric strong { display:block; margin-top:12px; font-size:28px; font-weight:500; }
+    .metric span:last-child { color:var(--on-surface-variant); font:400 12px/16px Roboto,Arial,sans-serif; }
+    .section { margin-top:34px; }
+    /* Studio shell: 섹션 머리 기하·타입은 .as-section-heading(studio-shell.css)가 담당합니다. */
+    .section-head h2 { margin:0; font-weight:500; }
+    .section-head p { color:var(--on-surface-variant); }
+    .grid { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:16px; }
+    .card { grid-column:span 4; min-width:0; padding:20px; border-radius:20px; background:var(--surface); border:1px solid var(--outline-variant); }
+    .card.wide { grid-column:span 6; }
+    .card.full { grid-column:1/-1; }
+    .card h3 { margin:0 0 8px; font-size:18px; line-height:24px; font-weight:500; }
+    .card p { margin:0; color:var(--on-surface-variant); font:400 13px/20px Roboto,Arial,sans-serif; }
+    .service-top { display:flex; justify-content:space-between; gap:12px; align-items:start; }
+    .service-icon { width:46px; height:46px; border-radius:16px; display:grid; place-items:center; color:var(--on-primary-container); background:var(--primary-container); }
+    .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:16px; }
+    .tag,.chip { min-height:28px; display:inline-flex; align-items:center; gap:6px; padding:0 11px; border:0; border-radius:999px; background:var(--surface-container); color:var(--on-surface-variant); font:500 11px/16px Roboto,Arial,sans-serif; }
+    button.chip { cursor:pointer; }
+    .chip:hover { background:var(--surface-high); }
+    .chip.active { background:var(--primary-container); color:var(--on-primary-container); }
+    .filter-row { display:flex; flex-wrap:wrap; gap:8px; }
+    .swatch-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:10px; margin-top:14px; }
+    .swatch { overflow:hidden; border-radius:16px; border:1px solid var(--outline-variant); background:var(--surface); }
+    .swatch-color { height:74px; }
+    .swatch-label { padding:10px 12px; font:500 11px/16px Roboto,Arial,sans-serif; }
+    .swatch-label code { display:block; margin-top:2px; color:var(--on-surface-variant); font:400 11px/16px ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .type-row { display:grid; grid-template-columns:180px 1fr 110px; align-items:baseline; gap:16px; padding:16px 0; border-bottom:1px solid var(--outline-variant); }
+    .type-row:last-child { border-bottom:0; }
+    .type-name { color:var(--on-surface-variant); font:500 12px/16px Roboto,Arial,sans-serif; }
+    .type-meta { color:var(--on-surface-variant); font:400 11px/16px ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .scale-bars { display:grid; gap:10px; margin-top:18px; }
+    .scale-bar { display:grid; grid-template-columns:52px minmax(0,1fr) 58px; align-items:center; gap:8px; min-width:0; font:500 12px/16px Roboto,Arial,sans-serif; }
+    .scale-bar i { display:block; max-width:100%; height:14px; border-radius:7px; background:var(--primary-container); }
+    .scale-bar code { overflow-wrap:anywhere; }
+    .component-card { grid-column:span 6; padding:0; overflow:hidden; }
+    .component-demo { min-height:210px; display:grid; place-items:center; padding:26px; background:var(--surface-low); border-bottom:1px solid var(--outline-variant); }
+    .component-body { padding:20px; }
+    .component-meta { display:flex; align-items:start; justify-content:space-between; gap:12px; }
+    .btn { min-height:44px; border-radius:22px; padding:0 20px; border:0; display:inline-flex; align-items:center; justify-content:center; gap:8px; cursor:pointer; font-weight:500; }
+    .btn.filled { background:var(--primary); color:var(--on-primary); }
+    .btn.tonal { background:var(--primary-container); color:var(--on-primary-container); }
+    .btn.outlined { background:transparent; border:1px solid var(--outline); }
+    .btn:hover { filter:brightness(.96); box-shadow:0 1px 3px var(--shadow); }
+    .demo-stack { display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; width:100%; }
+    .demo-app-bar { width:min(620px,100%); min-height:64px; padding:8px 12px; display:grid; grid-template-columns:44px auto minmax(140px,1fr) 44px 44px; align-items:center; gap:8px; border-radius:18px; background:var(--surface); border:1px solid var(--outline-variant); }
+    .demo-app-bar strong { white-space:nowrap; }
+    .demo-app-bar-search { min-width:0; height:44px; padding:0 14px; display:flex; align-items:center; gap:8px; border-radius:22px; background:var(--surface-container); color:var(--on-surface-variant); }
+    .demo-drawer { width:min(310px,100%); padding:12px; display:grid; gap:8px; border-radius:20px; background:var(--surface); border:1px solid var(--outline-variant); }
+    .demo-drawer .drawer-action { justify-self:start; min-height:52px; border-radius:16px; }
+    .demo-drawer .drawer-item { min-height:44px; padding:0 14px; display:flex; align-items:center; gap:12px; border-radius:22px; color:var(--on-surface-variant); }
+    .demo-drawer .drawer-item.active { background:var(--primary-container); color:var(--on-primary-container); font-weight:600; }
+    .demo-rail { width:96px; padding:10px; display:grid; gap:10px; border-radius:22px; background:var(--surface); border:1px solid var(--outline-variant); }
+    .demo-rail .rail-item { min-height:64px; display:grid; place-items:center; gap:3px; border-radius:22px; color:var(--on-surface-variant); font:500 10px/14px Roboto,Arial,sans-serif; }
+    .demo-rail .rail-item.active { background:var(--primary-container); color:var(--on-primary-container); }
+    .demo-search { width:min(520px,100%); height:52px; border-radius:26px; display:flex; align-items:center; gap:12px; padding:0 18px; background:var(--surface-container); color:var(--on-surface-variant); }
+    .demo-list { width:min(620px,100%); border-radius:16px; background:var(--surface); overflow:hidden; }
+    .demo-list-row { height:52px; display:grid; grid-template-columns:24px 24px 140px 1fr 80px; align-items:center; gap:10px; padding:0 14px; border-bottom:1px solid var(--outline-variant); font:400 13px/18px Roboto,Arial,sans-serif; }
+    .demo-list-row:hover { box-shadow:0 1px 3px var(--shadow); position:relative; z-index:1; }
+    .demo-data { width:180px; padding:16px; border-radius:18px; background:var(--surface); }
+    .demo-data strong { display:block; margin:8px 0; font-size:24px; font-weight:500; }
+    .spark { height:38px; display:flex; align-items:end; gap:3px; }
+    .spark i { flex:1; border-radius:2px; background:var(--info); opacity:.75; }
+    .calendar-demo { width:min(620px,100%); display:grid; grid-template-columns:48px repeat(7,minmax(0,1fr)); border:1px solid var(--outline-variant); border-radius:16px; overflow:hidden; background:var(--surface); }
+    .calendar-demo span { position:relative; min-height:48px; padding:7px; border-right:1px solid var(--outline-variant); border-bottom:1px solid var(--outline-variant); font:500 10px/14px Roboto,Arial,sans-serif; }
+    .calendar-demo span:nth-child(8n) { border-right:0; }
+    .calendar-demo .cal-head { min-height:34px; text-align:center; color:var(--on-surface-variant); background:var(--surface-low); }
+    .calendar-demo .cal-time { color:var(--on-surface-variant); text-align:right; background:var(--surface-low); }
+    .calendar-demo .today::before { content:""; position:absolute; inset:5px auto auto 50%; width:26px; height:26px; border-radius:50%; transform:translateX(-50%); background:var(--primary); }
+    .calendar-demo .today b { position:relative; z-index:1; color:var(--on-primary); }
+    .calendar-demo .event-chip { margin-top:18px; padding:3px 5px; border-radius:6px; background:var(--primary-container); color:var(--on-primary-container); font-weight:600; }
+    .banner-demo { width:min(620px,100%); padding:16px; border-radius:20px; display:flex; align-items:center; gap:14px; background:var(--primary-container); color:var(--on-primary-container); }
+    .snackbar-demo { width:min(520px,100%); padding:14px 16px; border-radius:8px; display:flex; align-items:center; justify-content:space-between; gap:14px; background:#303134; color:#fff; box-shadow:0 4px 10px rgba(0,0,0,.28); }
+    .dialog-demo { width:min(440px,100%); padding:24px; border-radius:28px; background:var(--surface); box-shadow:0 8px 24px var(--shadow); }
+    .dialog-demo h4 { margin:0 0 10px; font-size:24px; font-weight:400; }
+    .empty-demo { text-align:center; }
+    .empty-illustration { width:140px; height:100px; margin:0 auto 18px; border-radius:28px; background:var(--secondary-container); color:var(--on-secondary-container); display:grid; place-items:center; }
+    .empty-illustration .material-symbols-rounded { font-size:58px; font-variation-settings:'FILL' 0,'wght' 500,'GRAD' 0,'opsz' 48; }
+    .interaction { grid-column:span 6; min-height:360px; display:flex; flex-direction:column; }
+    .interaction-head { display:flex; align-items:start; justify-content:space-between; gap:12px; }
+    .interaction .trigger { display:inline-flex; margin:10px 0; padding:6px 10px; border-radius:8px; background:var(--surface-container); font:500 11px/16px ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .contract-sample { min-height:148px; margin:14px 0; padding:18px; display:grid; place-items:center; gap:12px; border-radius:18px; background:var(--surface-low); overflow:hidden; }
+    .contract-sample output { color:var(--on-surface-variant); font:500 11px/16px ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .mini-hover-row { width:100%; display:grid; grid-template-columns:24px 1fr 74px; gap:10px; align-items:center; padding:10px 12px; border-radius:12px; background:var(--surface); transition:box-shadow 100ms,background 100ms; }
+    .mini-hover-row:hover { background:var(--surface-high); box-shadow:0 1px 3px var(--shadow); }
+    .mini-focus-button:focus-visible { outline:3px solid var(--primary); outline-offset:3px; }
+    .mini-press-button:active { transform:translateY(1px); filter:brightness(.92); box-shadow:none; }
+    .mini-selection { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .mini-selection button { min-height:44px; display:inline-flex; align-items:center; gap:6px; padding:0 14px; border:0; border-radius:22px; background:transparent; color:var(--on-surface-variant); cursor:pointer; }
+    .mini-selection button:hover { background:var(--surface-high); }
+    .mini-selection button.active { background:var(--primary-container); color:var(--on-primary-container); font-weight:600; }
+    .mini-expand { width:100%; border:1px solid var(--outline-variant); border-radius:14px; overflow:hidden; background:var(--surface); }
+    .mini-expand button { width:100%; min-height:48px; display:flex; align-items:center; justify-content:space-between; padding:0 14px; border:0; background:transparent; color:inherit; cursor:pointer; }
+    .mini-expand button[aria-expanded="true"] .material-symbols-rounded { transform:rotate(180deg); }
+    .mini-expand button .material-symbols-rounded { transition:transform 200ms cubic-bezier(.2,0,0,1); }
+    .mini-expand-panel { padding:0 14px 14px; color:var(--on-surface-variant); font-size:12px; }
+    .mini-snackbar { width:100%; display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px; border-radius:8px; background:#303134; color:#fff; font-size:12px; }
+    .mini-snackbar button { min-height:44px; padding:0 8px; border:0; background:transparent; color:#a8c7fa; font-weight:600; cursor:pointer; }
+    .mini-drag { width:100%; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:12px; }
+    .mini-drag-item,.mini-drop-zone { min-height:76px; border-radius:16px; display:flex; align-items:center; justify-content:center; gap:8px; cursor:pointer; }
+    .mini-drag-item { border:1px solid var(--outline-variant); background:var(--surface); color:var(--on-surface); }
+    .mini-drag-item[aria-pressed="true"] { transform:translateY(-3px); border-color:var(--primary); box-shadow:0 6px 16px var(--shadow); }
+    .mini-drop-zone { border:2px dashed var(--outline-variant); background:transparent; color:var(--on-surface-variant); }
+    .mini-drop-zone.over,.mini-drop-zone.done { border-color:var(--primary); background:var(--primary-container); color:var(--on-primary-container); }
+    .demo-tabs { width:min(440px,100%); }
+    .demo-tab-list { display:flex; border-bottom:1px solid var(--outline-variant); }
+    .demo-tab-list button { flex:1; min-height:44px; border:0; border-bottom:3px solid transparent; background:transparent; cursor:pointer; color:var(--on-surface-variant); }
+    .demo-tab-list button[aria-selected="true"] { color:var(--primary); border-color:var(--primary); font-weight:600; }
+    .demo-tab-panel { min-height:72px; padding:18px; background:var(--surface); }
+    #interaction-dialog { width:min(520px,calc(100% - 32px)); border:0; border-radius:28px; padding:0; color:var(--on-surface); background:var(--surface); box-shadow:0 12px 32px rgba(0,0,0,.34); }
+    #interaction-dialog::backdrop { background:rgba(0,0,0,.38); }
+    #interaction-dialog form { padding:26px; }
+    #interaction-dialog h3 { margin:0 0 10px; font-size:24px; font-weight:500; }
+    #interaction-dialog p { color:var(--on-surface-variant); }
+    #interaction-dialog .dialog-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:24px; }
+    .icon-grid,.emoji-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(92px,1fr)); gap:8px; margin-top:16px; }
+    .asset-tile { min-height:88px; padding:10px 6px; display:grid; place-items:center; gap:6px; text-align:center; border-radius:14px; background:var(--surface-low); color:var(--on-surface-variant); font:500 10px/14px Roboto,Arial,sans-serif; }
+    .asset-tile .material-symbols-rounded { font-size:28px; color:var(--on-surface); }
+    .reference-preview { min-height:112px; display:grid; place-items:center; border-radius:18px; background:var(--surface-low); }
+    .reference-preview .material-symbols-rounded { font-size:42px; color:var(--primary); }
+    .reference-preview.policy { align-content:center; gap:8px; text-align:center; color:var(--on-surface-variant); }
+    .reference-preview.policy .material-symbols-rounded { color:var(--on-surface-variant); }
+    .reference-preview.policy b { font:600 12px/16px Roboto,Arial,sans-serif; letter-spacing:.5px; }
+    .color-dots { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+    .color-dot { width:26px; height:26px; border-radius:50%; border:1px solid var(--outline-variant); }
+    .gradient-preview { height:96px; border-radius:20px; border:1px solid var(--outline-variant); }
+    .source-row { display:grid; grid-template-columns:1fr 150px 180px; align-items:center; gap:16px; padding:16px 0; border-bottom:1px solid var(--outline-variant); }
+    .source-row:last-child { border-bottom:0; }
+    .source-row a { min-height:44px; display:inline-flex; align-items:center; color:var(--primary); text-decoration:none; }
+    .status { justify-self:start; padding:5px 9px; border-radius:999px; font:600 10px/14px Roboto,Arial,sans-serif; }
+    .status.redistributable { background:var(--tertiary-container); color:#0f5223; }
+    .status.reference-only { background:#f9dedc; color:#8c1d18; }
+    .status.redistributable-with-file-check,.status.redistributable-with-bundle-license { background:#fef3c7; color:#78350f; }
+    .notice { padding:18px; border-radius:16px; background:var(--surface-container); color:var(--on-surface-variant); font:400 13px/20px Roboto,Arial,sans-serif; }
+    .registry-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .registry-card { min-height:220px; padding:20px; border:1px solid var(--outline-variant); border-radius:20px; background:var(--surface); display:grid; grid-template-columns:minmax(0,1fr) 80px; gap:18px; align-items:stretch; }
+    .registry-card h3 { margin:5px 0 5px; font-size:18px; line-height:24px; }
+    .registry-card p { margin:0; color:var(--on-surface-variant); font:400 13px/19px Roboto,Arial,sans-serif; }
+    .registry-status { width:max-content; max-width:100%; padding:4px 8px; border-radius:8px; background:var(--primary-container); color:var(--on-primary-container); font:600 10px/14px Roboto,Arial,sans-serif; }
+    .registry-symbol { width:80px; height:80px; border-radius:22px; display:grid; place-items:center; align-self:start; background:var(--surface-low); border:1px solid var(--outline-variant); overflow:hidden; }
+    .registry-symbol img { display:block; object-fit:contain; }
+    .registry-symbol.symbol-crop .symbol-crop-frame { position:relative; width:40px; height:40px; overflow:hidden; }
+    .registry-symbol.symbol-crop img { position:absolute; left:0; top:0; width:auto; height:40px; max-width:none; max-height:none; }
+    .registry-symbol.product-finance { background:#fff; }
+    .registry-copy { min-width:0; display:flex; flex-direction:column; }
+    .registry-meta { display:flex; flex-wrap:wrap; gap:6px; margin-top:13px; }
+    .registry-meta .tag { min-height:26px; }
+    .source-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:auto; padding-top:16px; }
+    .source-action { min-height:40px; display:inline-flex; align-items:center; gap:7px; padding:0 12px; border-radius:20px; color:var(--primary); background:var(--primary-container); text-decoration:none; font:600 11px/16px Roboto,Arial,sans-serif; white-space:nowrap; }
+    .source-action.secondary { color:var(--on-surface-variant); background:transparent; border:1px solid var(--outline-variant); }
+    .source-action:hover { filter:brightness(.97); box-shadow:0 1px 3px var(--shadow); }
+    .source-action:focus-visible { outline:3px solid var(--secondary); outline-offset:2px; }
+    .source-action .material-symbols-rounded { font-size:18px; }
+    .hidden { display:none!important; }
+    @media (max-width:1050px) { :root{--nav:86px}.metrics{grid-template-columns:repeat(2,1fr)}.card,.card.wide,.component-card,.interaction{grid-column:span 6}.registry-grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+    @media (max-width:720px) { .shell{display:block}.sidebar{position:fixed;z-index:30;bottom:0;top:auto;width:100%;height:72px;padding:8px;border-right:0;border-top:1px solid var(--outline-variant);overflow:hidden}.topbar{padding:10px 14px}.content{padding:8px 14px 96px}.hero{padding:24px}.hero h2{font-size:30px;line-height:38px}.metrics{grid-template-columns:1fr 1fr}.card,.card.wide,.component-card,.interaction{grid-column:1/-1}.type-row{grid-template-columns:110px 1fr}.type-meta{display:none}.source-row{grid-template-columns:1fr}.status{justify-self:start}.section-head{display:grid;align-items:start}.section-head .filter-row{width:100%;overflow-x:auto;flex-wrap:nowrap;padding:2px 0 6px}.section-head .chip{flex:0 0 auto}.registry-grid{grid-template-columns:1fr}.registry-card{min-height:0;padding:16px;grid-template-columns:minmax(0,1fr) 72px;gap:12px}.registry-symbol{width:72px;height:72px;border-radius:20px}.source-actions{grid-column:1/-1}.demo-app-bar{grid-template-columns:44px 1fr 44px}.demo-app-bar strong,.demo-app-bar>.icon-button:last-child{display:none}.mini-drag{grid-template-columns:1fr} }
+  </style>
+  <style>__WORKBENCH_CSS__
+__INTERACTION_WORKBENCH_CSS__</style>
+  <style id="gds-studio-brand">
+    /* Studio shell 브랜드 매핑 — 뼈대는 studio-shell.css(../All/shell/SPEC.md), 색·서체만 Google 토큰으로 연결합니다.
+       --gds-* 가 [data-theme="dark"] 에서 다시 정의되므로 아래 매핑은 다크 모드에서 그대로 따라갑니다. */
+    :root {
+      --as-font-display:"Google Sans","Google Sans Text",Roboto,Arial,sans-serif;
+      --as-font-text:"Google Sans","Google Sans Text",Roboto,Arial,sans-serif;
+      --as-font-mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+      --as-ink:var(--on-surface); --as-ink-2:var(--on-surface); --as-ink-3:var(--on-surface-variant);
+      --as-muted:var(--on-surface-variant); --as-faint:var(--on-surface-variant); --as-faint-2:var(--on-surface-variant);
+      --as-line:var(--outline-variant); --as-line-strong:var(--outline-variant);
+      --as-accent:var(--primary); --as-accent-hover:var(--primary); --as-accent-active:var(--primary);
+      --as-link:var(--primary); --as-on-accent:var(--on-primary);
+      --as-bg:var(--surface-dim); --as-surface:var(--surface-container); --as-sidebar-bg:var(--surface-low);
+      --as-nav-hover:color-mix(in srgb,var(--on-surface) 8%,transparent);
+      --as-nav-active-bg:var(--primary-container); --as-nav-active-ink:var(--on-primary-container);
+      --as-status:var(--tertiary); --as-selection:var(--secondary-container);
+      --as-toast-bg:#303134; --as-toast-ink:#ffffff;
+    }
+    [data-theme="dark"] { --as-toast-bg:var(--surface-high); --as-toast-ink:var(--on-surface); }
+    .as-studio { background:var(--surface-dim); }
+    .as-brand-badge { border-color:var(--outline-variant); }
+    .as-brand { padding:0 18px; gap:10px; }
+    .as-brand > div { flex:1; min-width:0; }
+    .as-brand strong { font-size:15px; }
+    .as-brand-mark { width:30px; height:30px; border-radius:10px; }
+    .as-brand-mark .material-symbols-rounded { font-size:18px; }
+    .as-topbar-search .material-symbols-rounded { font-size:17px; }
+    .as-sidebar nav .material-symbols-rounded { font-size:20px; flex:none; }
+    .as-sidebar nav button > span:last-child { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .as-sidebar .sidebar-note { margin:22px 4px 0; }
+    .as-stats-strip span { display:flex; align-items:center; gap:6px; }
+    .as-stats-strip .material-symbols-rounded { font-size:15px; color:var(--as-faint); }
+    .as-title-actions .as-text-command { cursor:pointer; padding:0; }
+    .as-page-title h2 { font-weight:500; }
+    /* studio-shell.css 640px 규칙이 [hidden] 스크림을 display:block 으로 되살려 모바일 화면 전체를 덮습니다.
+       셸 파일은 그대로 두고 여기서만 무력화합니다(상위 shell.css 수정 제안은 보고서 참조). */
+    .as-sidebar-scrim[hidden] { display:none; }
+    /* 기존 카탈로그 검색은 모든 폭에서 유지합니다(셸 기본값은 640px 이하에서 숨김). */
+    @media (max-width:640px) {
+      .as-topbar-tools { min-width:0; flex:1 1 auto; }
+      .as-topbar-search { display:flex; min-width:0; flex:1 1 auto; padding:0 10px; }
+      .as-export-button { flex:none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="as-studio">
+    <a class="as-skip-link" href="#as-workspace">Skip to content</a>
+    <aside id="as-nav" class="as-sidebar" aria-label="Navigation">
+      <a class="as-brand" href="#overview">
+        <span class="as-brand-mark brand-mark"><span class="material-symbols-rounded">design_services</span></span>
+        <div><strong>Google Product UI</strong><span>Design system</span></div>
+        <span class="as-brand-badge">DOCS</span>
+      </a>
+      <div class="as-sidebar-group">
+        <span class="as-sidebar-label">WORKSPACE</span>
+        <nav id="nav" aria-label="Design system"></nav>
+        <div class="sidebar-note">원본 제품 캡처는 로컬 참고 전용입니다. 배포 가능한 자산은 Apache-2.0 또는 OFL-1.1 공식 소스만 포함합니다.</div>
+      </div>
+      <div class="as-sidebar-bottom">
+        <span class="as-status-dot"></span>
+        <span>OBSERVATION CATALOG<small>2026-09-01 제품 관찰 · 2026-09-07 upstream 확인</small></span>
+        <a href="https://m3.material.io" target="_blank" rel="noreferrer" aria-label="Open original website">↗</a>
+      </div>
+    </aside>
+    <button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+    <div class="as-main-shell">
+      <header class="as-topbar">
+        <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+        <div class="as-breadcrumb"><span>Design system</span><span>/</span><strong>개요</strong></div>
+        <div class="as-topbar-tools">
+          <label class="as-topbar-search"><span class="material-symbols-rounded" aria-hidden="true">search</span><input id="search" aria-label="카탈로그 검색" placeholder="토큰, 컴포넌트, 서비스 검색"></label>
+          <button class="as-icon-button" id="theme" aria-label="테마 전환"><span class="material-symbols-rounded">dark_mode</span></button>
+          <a class="as-export-button" href="../data/curated/tokens.css" download>Export tokens <span aria-hidden="true">↧</span></a>
+        </div>
+      </header>
+      <main id="as-workspace" tabindex="-1" class="as-workspace as-page-overview">
+        <div id="app"></div>
+        <footer class="as-studio-footer">
+          <span>Google Product UI · Design system study</span>
+          <span>Public source + reusable implementation</span>
+        </footer>
+      </main>
+    </div>
+    <div class="as-toast" role="status"></div>
+  </div>
+  <script src="studio-shell.js"></script>
+  <script>__WORKBENCH_JS__</script>
+  <script>__INTERACTION_WORKBENCH_JS__</script>
+  <script>window.__GOOGLE_DESIGN_DATA__ = __CATALOG_JSON__;</script>
+  <script>
+    const data = window.__GOOGLE_DESIGN_DATA__;
+    const sectionIds=['overview','foundations','components','interactions','assets','sources'];
+    const sectionFromHash=()=>sectionIds.includes(location.hash.slice(1))?location.hash.slice(1):'overview';
+    const initialSection=sectionFromHash();
+    const state = { section: initialSection, query: '', service: 'all' };
+    const sections = [
+      ['overview','space_dashboard','개요'],['foundations','palette','파운데이션'],['components','widgets','컴포넌트'],
+      ['interactions','gesture','인터랙션'],['assets','category','아이콘·일러스트'],['sources','source','출처·라이선스']
+    ];
+    const app = document.querySelector('#app');
+    const nav = document.querySelector('#nav');
+    const esc = (value) => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+    const icon = (name) => `<span class="material-symbols-rounded" aria-hidden="true">${esc(name)}</span>`;
+    const symbolSpec=(name,spec={})=>`<span class="material-symbols-rounded" aria-hidden="true" style="font-size:${spec.renderSize||40}px;font-variation-settings:'FILL' ${spec.axes?.fill??0},'wght' ${spec.axes?.weight??500},'GRAD' ${spec.axes?.grade??0},'opsz' ${spec.axes?.opticalSize??24}">${esc(name)}</span>`;
+    const sectionHead = (title, subtitle, extra='') => `<div class="as-section-heading section-head"><div><h2>${title}</h2><p>${subtitle}</p></div>${extra}</div>`;
+    const matches = (value) => !state.query || JSON.stringify(value).toLowerCase().includes(state.query.toLowerCase());
+    const serviceMatches = (value) => state.service === 'all' || value.services?.includes(state.service) || value.id === state.service;
+    const serviceFilters = () => `<div class="filter-row"><button class="chip ${state.service==='all'?'active':''}" data-service="all">전체</button>${data.services.map(s=>`<button class="chip ${state.service===s.id?'active':''}" data-service="${s.id}">${esc(s.name)}</button>`).join('')}</div>`;
+
+    function renderNav(){ nav.innerHTML = sections.map(([id,symbol,label],index) => `<button class="${state.section===id?'active is-active':''}" data-section="${id}" aria-label="${label}" ${state.section===id?'aria-current="page"':''}><span class="as-nav-index">${String(index+1).padStart(2,'0')}</span>${icon(symbol)}<span>${label}</span></button>`).join(''); }
+    const registryStatusLabel=status=>({
+      'official-observed-reference':'공식 소스',
+      'conditional-attribution-reference':'조건부 출처',
+    }[status]||status);
+    const registryCategoryLabel=category=>({
+      'product-logo':'제품 로고',
+      'companion-app-icon':'사이드 패널 앱 아이콘',
+      'official-app-icon':'공식 앱 아이콘',
+    }[category]||'공식 이미지 원본');
+    const registryPolicyLabel=policy=>({
+      'ask-first':'사용 전 정책 확인',
+      'general-brand-guidance':'브랜드 가이드 적용',
+      'maps-api-context-only':'지도 맥락에서만 사용',
+    }[policy]||policy);
+    function registrySymbol(item){
+      const representative=item.representative;
+      if(!representative?.sourceUrl) return `<div class="registry-symbol" title="${esc(item.name)} reference unavailable">${icon('hide_image')}</div>`;
+      const crop=representative.displayMode==='leading-symbol-crop';
+      const display=representative.displaySize||{width:48,height:48};
+      const image=`<img src="${esc(representative.sourceUrl)}" alt="${esc(item.name)} 공식 대표 심볼, 참고 전용" width="${representative.width||48}" height="${representative.height||48}" ${crop?'':`style="width:${display.width}px;height:${display.height}px"`} loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+      return `<div class="registry-symbol product-${esc(item.id)} ${crop?'symbol-crop':''}" title="${esc(item.name)} 공식 호스팅 이미지 · 참고 전용">${crop?`<span class="symbol-crop-frame">${image}</span>`:image}</div>`;
+    }
+    function contractSample(id){
+      const samples={
+        hover:`<div class="contract-sample"><div class="mini-hover-row" id="contract-hover-row" tabindex="0">${icon('inbox')}<span>받은편지함 항목</span><span>${icon('archive')}${icon('more_vert')}</span></div><output id="contract-hover-output" aria-live="polite">rest</output></div>`,
+        focus:`<div class="contract-sample"><button class="btn tonal mini-focus-button" id="contract-focus-button">${icon('video_call')} 포커스 이동</button><output id="contract-focus-output" aria-live="polite">not focused</output></div>`,
+        press:`<div class="contract-sample"><button class="btn filled mini-press-button" id="contract-press-button">${icon('add')} 길게 누르기</button><output id="contract-press-output" aria-live="polite">rest</output></div>`,
+        selection:`<div class="contract-sample"><div class="mini-selection" role="navigation" aria-label="선택 상태 예시"><button data-contract-selection="홈">${icon('home')} 홈</button><button class="active" data-contract-selection="오늘" aria-current="page">${icon('calendar_month')} 오늘</button><button data-contract-selection="파일">${icon('folder')} 파일</button></div><output id="contract-selection-output" aria-live="polite">오늘 selected</output></div>`,
+        'expand-collapse':`<div class="contract-sample"><div class="mini-expand"><button id="contract-expand-button" aria-expanded="false" aria-controls="contract-expand-panel"><b>세부정보</b>${icon('expand_more')}</button><div class="mini-expand-panel hidden" id="contract-expand-panel">콘텐츠 opacity와 chevron 회전이 함께 바뀝니다.</div></div><output id="contract-expand-output" aria-live="polite">collapsed</output></div>`,
+        dialog:`<div class="contract-sample"><button class="btn tonal" id="contract-dialog-open">Dialog 열기</button><output id="contract-dialog-output" aria-live="polite">closed</output></div>`,
+        snackbar:`<div class="contract-sample"><button class="btn filled" id="contract-snackbar-trigger">저장</button><div class="mini-snackbar hidden" id="contract-snackbar" role="status"><span>저장했습니다.</span><button id="contract-snackbar-undo">실행 취소</button><button id="contract-snackbar-close" aria-label="스낵바 닫기">${icon('close')}</button></div><output id="contract-snackbar-output" aria-live="polite">hidden</output></div>`,
+        'drag-drop':`<div class="contract-sample"><div class="mini-drag"><button class="mini-drag-item" id="contract-drag-item" draggable="true" aria-pressed="false">${icon('description')} 보고서 파일</button><button class="mini-drop-zone" id="contract-drop-zone">${icon('folder')} 대상 폴더</button></div><output id="contract-drag-output" aria-live="polite">rest · 파일을 끌거나 선택하세요</output></div>`,
+      };
+      return samples[id]||window.InteractionWorkbench.sample(id);
+    }
+
+    function renderOverview(){
+      const totalVisible = data.services.reduce((sum,s)=>sum+s.metrics.visibleElementCount,0);
+      const registryById=Object.fromEntries(data.assets.productSourceRegistry.map(item=>[item.id,item]));
+      const serviceCards = data.services.filter(matches).map(s=>`<article class="card"><div class="service-top"><div><h3>${esc(s.name)}</h3><p>${esc(s.page)} · ${s.viewport.width}×${s.viewport.height} 기준 화면 · ${s.captureCount}개 캡처</p></div>${registrySymbol(registryById[s.id]||{id:s.id,name:s.name,representative:null})}</div><div class="tags">${s.states.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div><div class="tags"><span class="tag">${s.metrics.visibleElementCount.toLocaleString()} visible nodes</span><span class="tag">${s.metrics.svgCount} SVG</span><span class="tag">${s.interactionStates.focusable} focusable</span></div></article>`).join('');
+      return `<div class="as-overview-title"><div class="as-eyebrow"><span class="as-status-dot"></span>SOURCE LIBRARY · VERSION 2.0<span class="as-version">2026.09</span></div><h1>제품의 디테일을 모아,<br>바로 쓰는 디자인 시스템으로.</h1><p class="as-intro">Gmail·Calendar·Drive·Meet·Finance의 관찰값과 공식 Material 소스를 함께 탐색하세요. 모션을 재생하고, 도형과 색을 비교하고, 필요한 코드를 가져갈 수 있습니다.</p><div class="as-title-actions"><a class="as-button" href="downloads/google-design-source-kit.zip" download>전체 소스 ZIP</a><button class="as-text-command" data-wb-download="tokens">토큰 CSS <span aria-hidden="true">↗</span></button></div></div><div class="as-stats-strip"><div><strong>${data.services.length}</strong><span>${icon('apps')}제품 서비스</span></div><div><strong>${data.components.length}</strong><span>${icon('widgets')}컴포넌트 패턴</span></div><div><strong>${data.interactions.length}</strong><span>${icon('gesture')}인터랙션 계약</span></div><div><strong>${totalVisible.toLocaleString()}</strong><span>${icon('data_object')}분석한 visible nodes</span></div></div><section class="section" id="service-map">${sectionHead('서비스 맵','Gmail에서 시작해 Calendar, Drive, Meet, Finance를 같은 스키마로 수집했습니다.')}<div class="grid">${serviceCards}</div></section><section class="section">${sectionHead('시스템 원칙','제품 간 차이를 유지하면서 반복되는 Google UI 문법만 공통 계약으로 승격합니다.')}<div class="grid"><div class="card wide"><h3>작고 빠른 상태 변화</h3><p>48px 터치 타깃, 100–200ms 상태 레이어, selected container와 focus ring을 우선합니다.</p></div><div class="card wide"><h3>표면보다 정보 계층</h3><p>강한 그림자 대신 surface tint, 구분선, 여백, 타입 웨이트로 밀도를 조절합니다.</p></div><div class="card wide"><h3>콘텐츠는 제품별, 뼈대는 공통</h3><p>메일 행, 달력 슬롯, 파일 카드, 시장 카드가 같은 action·state·spacing 언어를 공유합니다.</p></div><div class="card wide"><h3>브랜드와 구현을 분리</h3><p>Google 로고·제품 아이콘·스크린샷은 참고 전용입니다. 구현 자산은 오픈 라이선스 upstream만 사용합니다.</p></div></div></section>`;
+    }
+
+    function swatches(theme){ return Object.entries(data.tokens.color[theme]).filter(([_,value])=>!value.startsWith('rgba')).map(([name,value])=>`<div class="swatch"><div class="swatch-color" style="background:${value}"></div><div class="swatch-label">${esc(name)}<code>${esc(value)}</code></div></div>`).join(''); }
+    function renderFoundations(){
+      const type = Object.entries(data.tokens.typography.scale).map(([name,t])=>`<div class="type-row"><span class="type-name">${esc(name)}</span><span style="font-size:${t.size};line-height:${t.lineHeight};font-weight:${t.weight};letter-spacing:${t.tracking}">Google 제품은 명확하고 빠르게 읽힙니다.</span><span class="type-meta">${t.size}/${t.lineHeight} · ${t.weight}</span></div>`).join('');
+      const spaces = Object.entries(data.tokens.spacing.scale).map(([name,value])=>`<div class="scale-bar"><span>${name}</span><i style="width:${Math.max(value*4,2)}px"></i><code>${value}px</code></div>`).join('');
+      const radii = Object.entries(data.tokens.radius).map(([name,value])=>`<div class="asset-tile"><div style="width:56px;height:40px;border:2px solid var(--primary);border-radius:${value}"></div><span>${name} · ${value}</span></div>`).join('');
+      return `<section>${sectionHead('파운데이션','관찰값과 Material 3 semantic role을 합쳐 구현 가능한 토큰으로 정리했습니다.')}<div class="grid"><div class="card full"><h3>Light semantic color</h3><p>파랑은 선택·행동, 옅은 blue container는 내비게이션과 tonal action에 사용합니다.</p><div class="swatch-grid">${swatches('light')}</div></div><div class="card full"><h3>Dark semantic color</h3><p>단순 반전이 아니라 표면 명도와 채도를 다시 배치한 역할 기반 다크 테마입니다.</p><div class="swatch-grid">${swatches('dark')}</div></div><div class="card full"><h3>Typography</h3><p>Google Sans 계열이 브랜드·UI 위계를 만들고, Roboto/Arial이 호환 fallback을 담당합니다.</p>${type}</div><div class="card wide"><h3>Spacing</h3><p>4px 기반, 실제 제품에서 8·12·16·24px가 가장 자주 반복됩니다.</p><div class="scale-bars">${spaces}</div></div><div class="card wide"><h3>Shape & elevation</h3><p>작은 제어는 20–28px pill, 큰 surface는 16–28px radius를 사용합니다.</p><div class="icon-grid">${radii}</div></div></div></section>`;
+    }
+
+    function demo(component){
+      const fallback = `<div class="notice">${esc(component.title)}의 anatomy와 상태 정의를 확인하세요.</div>`;
+      const demos = {
+        'top-app-bar':`<div class="demo-app-bar"><button class="icon-button" aria-label="메뉴">${icon('menu')}</button><strong>Product</strong><div class="demo-app-bar-search">${icon('search')}<span>검색</span></div><button class="icon-button" aria-label="도움말">${icon('help')}</button><button class="icon-button" aria-label="계정">${icon('account_circle')}</button></div>`,
+        'navigation-drawer':`<div class="demo-drawer"><button class="btn tonal drawer-action">${icon('add')} 새 항목</button><div class="drawer-item active">${icon('inbox')} 받은편지함</div><div class="drawer-item">${icon('star')} 중요</div><div class="drawer-item">${icon('schedule')} 최근</div></div>`,
+        'navigation-rail':`<div class="demo-rail"><div class="rail-item active">${icon('calendar_today')}<span>회의</span></div><div class="rail-item">${icon('call')}<span>통화</span></div></div>`,
+        'tabs':`<div class="demo-tabs"><div class="demo-tab-list" role="tablist" aria-label="컴포넌트 탭 예시"><button role="tab" aria-selected="true">메일</button><button role="tab" aria-selected="false">일정</button><button role="tab" aria-selected="false" disabled>비활성</button></div><div class="demo-tab-panel">선택된 탭의 콘텐츠</div></div>`,
+        'search-bar': `<div class="demo-search">${icon('search')}<span>메일, 파일, 종목 검색</span><span style="margin-left:auto">${icon('tune')}</span></div>`,
+        'filter-chip': `<div class="demo-stack"><button class="chip active">${icon('check')} 선택됨</button><button class="chip">${icon('calendar_today')} 날짜</button><button class="chip">${icon('person')} 사용자</button></div>`,
+        'filled-button':`<div class="demo-stack"><button class="btn filled">${icon('check')} 확인</button><button class="btn filled" disabled style="opacity:.38;cursor:not-allowed">비활성</button></div>`,
+        'tonal-button':`<div class="demo-stack"><button class="btn tonal">${icon('video_call')} 신규 회의</button><button class="btn tonal" style="background:#C4EED0;color:#072711">${icon('add')} Meet CTA</button></div>`,
+        'outlined-button':`<div class="demo-stack"><button class="btn outlined">${icon('calendar_today')} 날짜 선택</button><button class="btn outlined">${icon('link')} 링크 복사</button></div>`,
+        'icon-button':`<div class="demo-stack"><button class="icon-button" aria-label="새로고침">${icon('refresh')}</button><button class="icon-button" aria-label="더보기">${icon('more_vert')}</button><button class="icon-button active" style="background:var(--primary-container);color:var(--on-primary-container)" aria-label="선택됨">${icon('star')}</button></div>`,
+        'fab':`<div class="demo-stack"><button class="btn tonal" style="height:56px;border-radius:18px;box-shadow:var(--gds-elevation-level1,0 1px 3px var(--shadow))">${icon('add')} 새로 만들기</button></div>`,
+        'list-row':`<div class="demo-list">${[1,2,3].map((n,i)=>`<div class="demo-list-row"><span>□</span>${icon('star')}<b>${i?'발신자':'새 발신자'}</b><span>메일 제목 ${n} · 미리보기 내용</span><span>8월 31일</span></div>`).join('')}</div>`,
+        'data-card':`<div class="demo-stack"><div class="demo-data"><span>시장 지수</span><strong>1,234.56</strong><small style="color:var(--positive)">+1.24%</small><div class="spark">${[14,22,18,30,26,38,32,45,40,52].map(h=>`<i style="height:${h}px"></i>`).join('')}</div></div><div class="demo-data"><span>시장 지수</span><strong>987.65</strong><small style="color:var(--negative)">−0.42%</small><div class="spark">${[48,42,46,30,34,24,28,18,22,12].map(h=>`<i style="height:${h}px;background:var(--negative)"></i>`).join('')}</div></div></div>`,
+        'calendar-grid':`<div class="calendar-demo"><span class="cal-head"></span>${['월 1','화 2','수 3','목 4','금 5','토 6','일 7'].map((day,index)=>`<span class="cal-head ${index===2?'today':''}">${index===2?`<b>${day}</b>`:day}</span>`).join('')}${['09:00','10:00'].map((time,row)=>`<span class="cal-time">${time}</span>${Array.from({length:7},(_,day)=>`<span>${row===0&&day===1?'<div class="event-chip">팀 일정</div>':''}</span>`).join('')}`).join('')}</div>`,
+        'banner':`<div class="banner-demo">${icon('shield_lock')}<div><b>안전한 작업</b><div style="font:400 12px/18px Roboto">허용된 사용자만 접근할 수 있습니다.</div></div><button class="btn outlined" style="margin-left:auto">자세히</button></div>`,
+        'snackbar':`<div class="snackbar-demo"><span>변경사항을 저장했습니다.</span><button class="btn" style="color:#a8c7fa;padding:0">실행 취소</button></div>`,
+        'dialog':`<div class="dialog-demo"><h4>새로운 기능을 확인하세요</h4><p>계속하기 전에 동작과 데이터 범위를 확인합니다.</p><div class="demo-stack" style="justify-content:flex-end;margin-top:22px"><button class="btn outlined">나중에</button><button class="btn filled">확인</button></div></div>`,
+        'empty-state':`<div class="empty-demo"><div class="empty-illustration">${icon('event_busy')}</div><h3>예정된 항목이 없습니다.</h3><p>새 항목을 만들거나 다른 날짜를 선택하세요.</p><button class="btn tonal" style="margin-top:16px">${icon('add')} 새로 만들기</button></div>`,
+      };
+      if (demos[component.id]) return demos[component.id];
+      if (component.id==='side-panel') return `<div style="width:min(620px,100%);display:grid;grid-template-columns:1fr 64px;border-radius:18px;overflow:hidden;border:1px solid var(--outline-variant)"><div style="min-height:130px;background:var(--surface)"></div><div style="display:grid;place-items:center;gap:8px;padding:12px;background:var(--surface-low)">${icon('calendar_today')}${icon('lightbulb')}${icon('task_alt')}</div></div>`;
+      return fallback;
+    }
+
+    function renderComponents(){
+      const cards = data.components.filter(c=>matches(c)&&serviceMatches(c)).map(c=>`<article class="card component-card"><div class="component-demo">${demo(c)}</div><div class="component-body"><div class="component-meta"><div><h3>${esc(c.title)}</h3><p>${esc(c.category)} · ${c.services.map(id=>data.services.find(s=>s.id===id)?.name).join(', ')}</p></div><span class="tag">${c.states.length} states</span></div><div class="tags">${c.family?`<span class="tag">family: ${esc(c.family)}</span>`:''}${c.variant?`<span class="tag">variant: ${esc(c.variant)}</span>`:''}${c.states.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div></div></article>`).join('');
+      const duplicateNote = `<div class="notice" style="margin-top:16px"><b>중복 점검 완료:</b> 19개 ID는 모두 고유합니다. 같은 family의 variant는 관계를 표시하고, 각 카드에는 해당 컴포넌트만의 구조와 상태를 보여줍니다.</div>`;
+      return `<section id="component-catalog">${sectionHead('컴포넌트','제품별 모양을 복사하지 않고 반복되는 anatomy와 상태를 공통 패턴으로 정리했습니다.',serviceFilters())}${duplicateNote}<div class="grid" style="margin-top:16px">${cards||'<div class="notice">검색 조건과 일치하는 컴포넌트가 없습니다.</div>'}</div></section>`;
+    }
+
+    function renderInteractions(){
+      const sampleByContract=Object.fromEntries(data.interactionSamples.map(sample=>[sample.contractId,sample]));
+      const cards=data.interactions.filter(matches).map(x=>{const sample=sampleByContract[x.id];return `<article class="card interaction"><div class="interaction-head"><div><h3>${esc(x.title||x.id)}</h3><span class="trigger">${esc(x.trigger)}</span></div><span class="tag">${esc(x.duration)}</span></div><p>${esc(sample?.behavior||x.result)}</p>${contractSample(x.id)}<p>${esc(x.result)}</p><div class="tags"><span class="tag">sample: ${esc(sample?.title||x.id)}</span><span class="tag">${esc(x.evidence)}</span></div></article>`}).join('');
+      const dialog=`<dialog id="interaction-dialog"><form method="dialog"><h3>Modal interaction sample</h3><p>포커스가 dialog 내부로 이동하고, 닫힌 뒤 trigger로 복원됩니다.</p><div class="dialog-actions"><button class="btn outlined" value="cancel">취소</button><button class="btn filled" value="confirm">확인</button></div></form></dialog>`;
+      return `<section id="interaction-contracts">${sectionHead('Interaction contracts','14개 계약을 직접 조작하세요. 새로 추가한 설정·선택·탭·메뉴·입력·진행 표본은 공식 상태 규칙에 기반한 유사 구현입니다.')}<div class="grid">${cards}</div>${dialog}</section>`;
+    }
+
+    function renderAssets(){
+      const icons=data.assets.iconNames.filter(matches).map(name=>`<div class="asset-tile">${icon(name)}<span>${esc(name)}</span></div>`).join('');
+      const substitutePreview=item=>{
+        const substitute=item.distributableSubstitute;
+        if(substitute.type==='material-symbol') return `<div class="reference-preview">${symbolSpec(substitute.name,substitute)}</div>`;
+        if(substitute.type==='component'&&substitute.name==='banner') return `<div class="reference-preview"><div class="banner-demo" style="background:#D3E3FD">${symbolSpec(substitute.icon||'shield_lock',{axes:substitute.iconAxes,renderSize:40})}<div><b>안전한 회의</b><div style="font:400 12px/18px Roboto">구조와 surface만 구현한 공개 대체입니다.</div></div></div></div>`;
+        if(substitute.type==='component'&&substitute.name==='tonal-button') return `<div class="reference-preview"><button class="btn tonal" style="height:56px;background:#C4EED0;color:#072711">${symbolSpec(substitute.icon||'video_call',{axes:substitute.iconAxes,renderSize:28})} 신규</button></div>`;
+        return `<div class="reference-preview policy">${icon('photo_library')}<b>원본 전용 · 공개 대체 없음</b></div>`;
+      };
+      const productReferences=data.assets.productReferenceAssets.filter(matches).map(item=>`<article class="card wide">${substitutePreview(item)}<div style="margin-top:16px"><span class="eyebrow">${esc(item.category)}</span><h3>${esc(item.name)}</h3><p>Source ${item.sourceSize.width}×${item.sourceSize.height} · bbox ${item.bbox.x},${item.bbox.y},${item.bbox.width}×${item.bbox.height} · ${esc(item.sourceFidelity||'reference-only')}</p><div class="color-dots">${item.colors.map(color=>`<span class="color-dot" style="background:${color}" title="${color}"></span>`).join('')}</div><div class="tags"><span class="tag">대체: ${esc(item.distributableSubstitute.name)}</span>${item.distributableSubstitute.axes?`<span class="tag">wght ${item.distributableSubstitute.axes.weight} · FILL ${item.distributableSubstitute.axes.fill} · opsz ${item.distributableSubstitute.axes.opticalSize}</span>`:''}${item.containerId?`<span class="tag">box: ${esc(item.containerId)}</span>`:''}</div></div></article>`).join('');
+      const containerCards=data.assets.containerReferences.map(item=>`<article class="card"><h3>${esc(item.name)}</h3><div class="reference-preview"><div style="width:${typeof item.dimensions.width==='number'?Math.min(item.dimensions.width,220)+'px':'88%'};height:${Math.min(item.dimensions.height,128)}px;border-radius:${item.radius};background:${item.background};border:${item.border}"></div></div><p style="margin-top:14px">${esc(item.usage)}</p><div class="tags"><span class="tag">${esc(item.radius)} radius</span><span class="tag">${esc(item.background)}</span><span class="tag">${esc(String(item.dimensions.width))}×${esc(item.dimensions.height)}</span></div></article>`).join('');
+      const gradientCards=data.assets.gradientReferences.map(item=>`<article class="card"><h3>${esc(item.name)}</h3><div class="gradient-preview" style="background:${item.css}"></div><div class="tags">${item.stops.map(stop=>`<span class="tag">${stop.offset}% ${esc(stop.color)}</span>`).join('')}</div><p>Observed reference gradient. Do not reuse Google product branding as-is.</p></article>`).join('');
+      const illustrationCards=data.assets.illustrations.map(item=>`<article class="card wide"><div class="service-top"><div><h3>${esc(item.name)}</h3><p>${esc(item.observation)}</p></div>${item.distributableSubstitute.type==='material-symbol'?`<div class="service-icon">${icon(item.distributableSubstitute.name)}</div>`:`<div class="service-icon">${icon('photo_library')}</div>`}</div><div class="tags"><span class="status ${esc(item.reuse)}">${esc(item.reuse)}</span><span class="tag">대체: ${esc(item.distributableSubstitute.name)}</span></div></article>`).join('');
+      const infographicCards=data.assets.infographics.map(item=>`<article class="card wide"><h3>${esc(item.name)}</h3><p>${esc(item.rule)}</p><div class="tags">${item.anatomy.map(part=>`<span class="tag">${esc(part)}</span>`).join('')}</div><div class="tags"><span class="status ${esc(item.reuse)}">${esc(item.reuse)}</span></div></article>`).join('');
+      const registryCards=data.assets.productSourceRegistry.map(item=>{const representative=item.representative||{};const display=representative.displaySize||{};const showDisplay=representative.displayMode==='leading-symbol-crop'||display.width!==representative.width||display.height!==representative.height;return `<article class="registry-card"><div class="registry-copy"><span class="registry-status">${esc(registryStatusLabel(item.status))}</span><h3>${esc(item.name)}</h3><p>관찰 이미지 ${item.observedImageCount}개 · ${esc(registryPolicyLabel(item.redistribution))}</p><div class="registry-meta"><span class="tag">${esc(registryCategoryLabel(representative.category))}</span><span class="tag">원본 크기 ${representative.width||'?'}×${representative.height||'?'}</span>${showDisplay?`<span class="tag">표시 크기 ${display.width||'?'}×${display.height||'?'}</span>`:''}<span class="tag">참고 전용</span></div><div class="source-actions"><a class="source-action" href="${esc(item.productUrl)}" target="_blank" rel="noreferrer">${icon('open_in_new')}제품 페이지</a><a class="source-action secondary" href="${esc(item.policyUrl)}" target="_blank" rel="noreferrer">${icon('policy')}사용 정책</a></div></div>${registrySymbol(item)}</article>`}).join('');
+      const observed=data.assets.observedPlatformAssetSummary;
+      const observedCards=observed.available?`<div class="grid"><article class="card"><h3>${observed.total}</h3><p>정확한 관찰 원본 이미지</p></article><article class="card"><h3>${observed.vectorAssetCount}</h3><p>SVG 벡터 원본</p></article><article class="card"><h3>${observed.gradientAssetCount}</h3><p>정확한 그라데이션을 포함한 SVG</p></article><article class="card full"><h3>수집 범위</h3><div class="tags">${Object.entries(observed.byService).map(([name,count])=>`<span class="tag">${esc(name)} ${count}</span>`).join('')}</div><div class="tags">${Object.entries(observed.byCategory).map(([name,count])=>`<span class="tag">${esc(name)} ${count}</span>`).join('')}</div></article></div>`:'';
+      return `<section>${sectionHead('아이콘·일러스트·시각 자산','Material Symbols는 공개 구현용입니다. Google 제품 대표 심볼은 공식 호스팅 URL에서 불러오는 참고 전용 미리보기이며, 원본 파일과 상세 벡터 분석은 비공개 카탈로그에 보관합니다.')}<div class="section" id="product-source-registry">${sectionHead('공식 제품 소스 레지스트리','제품별 공식 대표 심볼과 출처, 원본 크기, 표시 크기, 사용 정책을 한 곳에서 확인합니다. 이미지는 로컬에 복사하지 않습니다.')}<div class="registry-grid">${registryCards}</div></div><div class="section">${sectionHead('관찰된 플랫폼 이미지 수집 현황','인증 화면에서 관찰된 공식 Google 이미지 URL을 수집하고 SHA-256, 크기, 팔레트, 벡터 정보를 추출했습니다.')} ${observedCards}</div><div class="grid"><div class="card full"><h3>Material Symbols implementation set</h3><p>24px optical size, weight 500, fill 0을 기본으로 하며 실제 화면의 render size를 각 reference asset에 별도로 기록합니다.</p><details class="wb-details"><summary>폰트 기반 아이콘 이름 목록</summary><div class="icon-grid">${icons}</div></details></div></div><div class="section">${sectionHead('Meet product icon types','제품 마크는 근사 구현하지 않습니다. 내비게이션·action icon만 공식 Material Symbols axes를 고정해 공개 대체합니다.')}<div class="grid">${productReferences}</div></div><div class="section">${sectionHead('Box & surface types','선택 capsule, security banner, soft tonal CTA의 실제 치수·radius·computed fill 정보입니다.')}<div class="grid">${containerCards}</div></div><div class="section">${sectionHead('Gradient tokens','SVG는 공식 vector stop을 정확히 기록하고, raster logo gradient는 sampled approximation으로 구분합니다.')}<div class="grid">${gradientCards}</div></div><div class="section">${sectionHead('Illustration sources','원본 Google 제품 일러스트는 exact source로 비공개 보관합니다. 단일 아이콘으로 축약하지 않고 공개 구현에는 별도 라이선스 일러스트를 사용합니다.')}<div class="grid">${illustrationCards}</div></div><div class="section">${sectionHead('Infographic & data patterns','이미지 파일이 아니라 재구현 가능한 정보 구조와 semantic color 규칙으로 기록합니다.')}<div class="grid">${infographicCards}</div></div></section>`;
+    }
+
+    function renderSources(){
+      const rows=data.assets.sources.map(s=>`<div class="source-row"><div><a href="${esc(s.url)}" target="_blank" rel="noreferrer"><b>${esc(s.name)}</b></a><p>${esc(s.notes)}</p></div><span class="tag">${esc(s.license)}</span><span class="status ${esc(s.reuse)}">${esc(s.reuse)}</span></div>`).join('');
+      return `<section>${sectionHead('출처·라이선스','구현 가능한 오픈 자산과 참고만 가능한 Google 제품 화면·브랜드를 명확히 분리했습니다.')}<div class="notice"><b>배포 경계:</b> 화면 캡처와 Google 제품 이미지 파일은 공개 catalog와 분리합니다. 공개 화면의 제품 심볼은 official-hosted reference-only URL이며, 배포용 로컬 assets에는 Apache-2.0/OFL-1.1 공식 upstream만 포함합니다.</div><div class="card full" style="margin-top:16px">${rows}</div><div class="grid" style="margin-top:16px"><div class="card wide"><h3>개인정보</h3><p>메일 제목·발신자·본문, 일정 제목, 파일명·썸네일, 관심 종목·계정 이름은 저장 전에 일반 텍스트로 치환했습니다. raw JSON에는 텍스트 콘텐츠를 수집하지 않습니다.</p></div><div class="card wide"><h3>브랜드</h3><p>제품 로고·아이콘·Doodle·원본 일러스트는 reference-only로 명시하고 로컬 배포 자산에 복사하지 않습니다. 원본 파일과 화면 캡처는 비공개 카탈로그에서만 확인합니다.</p></div></div></section>`;
+    }
+
+    function render(){ renderNav(); const workspace=document.querySelector('#as-workspace'); if(workspace)workspace.className=`as-workspace as-page-${state.section}`; app.innerHTML = ({overview:renderOverview,foundations:renderFoundations,components:renderComponents,interactions:renderInteractions,assets:renderAssets,sources:renderSources}[state.section])(); const extra=window.DesignWorkbench.render(state.section,data,state.query); if(state.section==='overview')app.querySelector('.as-stats-strip').insertAdjacentHTML('afterend',extra); else app.insertAdjacentHTML('afterbegin',extra); if(state.section!=='overview'){const pageTitle=app.querySelector('.as-section-heading'); if(pageTitle){pageTitle.classList.add('as-page-title'); const box=pageTitle.firstElementChild; if(box&&!box.querySelector('.as-eyebrow'))box.insertAdjacentHTML('afterbegin',`<span class="as-eyebrow">LIBRARY / ${String(sections.findIndex(([id])=>id===state.section)+1).padStart(2,'0')}</span>`);}} if(state.section==='interactions'){const motionLab=window.InteractionWorkbench.motionLab(data); const anchor=app.querySelector('.as-page-title'); if(anchor)anchor.insertAdjacentHTML('afterend',motionLab); else app.insertAdjacentHTML('afterbegin',motionLab);} bind(); window.DesignWorkbench.bind(); window.InteractionWorkbench.bind(); }
+    function bindInteractionPlayground(){
+      const setOutput=(selector,message)=>{const output=document.querySelector(selector);if(output)output.textContent=message;};
+      const hoverRow=document.querySelector('#contract-hover-row');
+      hoverRow?.addEventListener('mouseenter',()=>setOutput('#contract-hover-output','hover · actions revealed'));
+      hoverRow?.addEventListener('mouseleave',()=>setOutput('#contract-hover-output','rest'));
+      hoverRow?.addEventListener('focus',()=>setOutput('#contract-hover-output','keyboard focus · hover-equivalent'));
+      hoverRow?.addEventListener('blur',()=>setOutput('#contract-hover-output','rest'));
+
+      const focusButton=document.querySelector('#contract-focus-button');
+      focusButton?.addEventListener('focus',()=>setOutput('#contract-focus-output','focused · 3px exterior ring'));
+      focusButton?.addEventListener('blur',()=>setOutput('#contract-focus-output','not focused'));
+
+      const pressButton=document.querySelector('#contract-press-button');
+      const setPressed=pressed=>setOutput('#contract-press-output',pressed?'pressed · elevation compressed':'released');
+      pressButton?.addEventListener('pointerdown',()=>setPressed(true));
+      pressButton?.addEventListener('pointerup',()=>setPressed(false));
+      pressButton?.addEventListener('pointercancel',()=>setPressed(false));
+      pressButton?.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')setPressed(true)});
+      pressButton?.addEventListener('keyup',event=>{if(event.key==='Enter'||event.key===' ')setPressed(false)});
+
+      const selectionButtons=[...document.querySelectorAll('[data-contract-selection]')];
+      selectionButtons.forEach(button=>button.addEventListener('click',()=>{selectionButtons.forEach(item=>{const active=item===button;item.classList.toggle('active',active);if(active)item.setAttribute('aria-current','page');else item.removeAttribute('aria-current')});setOutput('#contract-selection-output',`${button.dataset.contractSelection} selected`);}));
+
+      const expandButton=document.querySelector('#contract-expand-button');
+      expandButton?.addEventListener('click',()=>{const expanded=expandButton.getAttribute('aria-expanded')!=='true';expandButton.setAttribute('aria-expanded',String(expanded));document.querySelector('#contract-expand-panel')?.classList.toggle('hidden',!expanded);setOutput('#contract-expand-output',expanded?'expanded':'collapsed');});
+
+      const snackbar=document.querySelector('#contract-snackbar');const snackbarTrigger=document.querySelector('#contract-snackbar-trigger');
+      const hideSnackbar=(message='dismissed')=>{snackbar?.classList.add('hidden');snackbarTrigger?.classList.remove('hidden');setOutput('#contract-snackbar-output',message);};
+      snackbarTrigger?.addEventListener('click',()=>{snackbar?.classList.remove('hidden');snackbarTrigger.classList.add('hidden');setOutput('#contract-snackbar-output','rest · role=status');});
+      document.querySelector('#contract-snackbar-close')?.addEventListener('click',()=>hideSnackbar('dismissed'));
+      document.querySelector('#contract-snackbar-undo')?.addEventListener('click',()=>hideSnackbar('action: undo'));
+
+      const dialog=document.querySelector('#interaction-dialog');const dialogOpen=document.querySelector('#contract-dialog-open');
+      dialogOpen?.addEventListener('click',()=>{dialog?.showModal();setOutput('#contract-dialog-output','open · focus trapped');});
+      dialog?.addEventListener('close',()=>{setOutput('#contract-dialog-output',`closed · ${dialog.returnValue||'dismissed'}`);dialogOpen?.focus();});
+
+      const dragItem=document.querySelector('#contract-drag-item');const dropZone=document.querySelector('#contract-drop-zone');let dragPicked=false;
+      const setDragPicked=picked=>{dragPicked=picked;dragItem?.setAttribute('aria-pressed',String(picked));setOutput('#contract-drag-output',picked?'picked · 대상 폴더를 선택하세요':'rest · 파일을 끌거나 선택하세요');};
+      const completeDrop=()=>{dragPicked=false;dragItem?.setAttribute('aria-pressed','false');dropZone?.classList.remove('over');dropZone?.classList.add('done');setOutput('#contract-drag-output','dropped · confirmation complete');};
+      dragItem?.addEventListener('click',()=>setDragPicked(!dragPicked));
+      dragItem?.addEventListener('dragstart',event=>{event.dataTransfer.effectAllowed='move';event.dataTransfer.setData('text/plain','report-file');setDragPicked(true);});
+      dragItem?.addEventListener('dragend',()=>dropZone?.classList.remove('over'));
+      dropZone?.addEventListener('dragover',event=>{event.preventDefault();event.dataTransfer.dropEffect='move';dropZone.classList.add('over');setOutput('#contract-drag-output','over target · release to drop');});
+      dropZone?.addEventListener('dragleave',()=>dropZone.classList.remove('over'));
+      dropZone?.addEventListener('drop',event=>{event.preventDefault();completeDrop();});
+      dropZone?.addEventListener('click',()=>{if(dragPicked)completeDrop();else setOutput('#contract-drag-output','대상 선택 전 파일을 먼저 선택하세요');});
+    }
+    function bind(){ document.querySelectorAll('[data-section]').forEach(el=>el.onclick=()=>{const next=el.dataset.section;if(location.hash!==`#${next}`)location.hash=next;else{state.section=next;render();scrollTo(0,0)}}); document.querySelectorAll('[data-service]').forEach(el=>el.onclick=()=>{state.service=el.dataset.service;render()}); if(state.section==='interactions')bindInteractionPlayground(); }
+    document.querySelector('#search').addEventListener('input',event=>{state.query=event.target.value;render()});
+    const applyTheme=(theme,{persist=true}={})=>{const normalized=theme==='dark'?'dark':'light';document.documentElement.dataset.theme=normalized;const button=document.querySelector('#theme');const symbol=button?.querySelector('span');if(symbol)symbol.textContent=normalized==='dark'?'light_mode':'dark_mode';if(button)button.setAttribute('aria-label',normalized==='dark'?'라이트 테마로 전환':'다크 테마로 전환');if(persist)localStorage.setItem('gds-theme',normalized);};
+    document.querySelector('#theme').onclick=()=>applyTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+    const savedTheme=localStorage.getItem('gds-theme'); applyTheme(savedTheme||'light',{persist:false});
+    window.addEventListener('hashchange',()=>{const next=sectionFromHash();if(next===state.section)return;state.section=next;render();scrollTo(0,0);});
+    render();
+  </script>
+</body>
+</html>

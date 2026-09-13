@@ -1,0 +1,9 @@
+.gstack/
+references-private/
+viewer-private/
+.omx/
+node_modules/
+.DS_Store
+._*
+.omc/
+dist/

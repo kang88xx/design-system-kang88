@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-06T13:50:29.770Z",
+  "url": "http://127.0.0.1:40565",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "library API and complete card set",
+      "status": "passed"
+    },
+    {
+      "name": "all cards expose visual stage, explanation, code note, and control actions",
+      "status": "passed"
+    },
+    {
+      "name": "all primary, replay, reset, and expand actions run without runtime errors",
+      "status": "passed"
+    },
+    {
+      "name": "hero ornament drag moves then snaps back",
+      "status": "passed"
+    },
+    {
+      "name": "urgency selector cycles numeric semantic states",
+      "status": "passed"
+    },
+    {
+      "name": "backup loop has three observable states and reduced hero stays visible",
+      "status": "passed"
+    },
+    {
+      "name": "fun carousel advances through multiple visual states",
+      "status": "passed"
+    },
+    {
+      "name": "Easy preview exposes send, receive, swap, and purchase semantics",
+      "status": "passed"
+    },
+    {
+      "name": "NFT media progress and star toggle are visible and stateful",
+      "status": "passed"
+    },
+    {
+      "name": "FAQ spring expansion keeps one open row and toggles plus/minus",
+      "status": "passed"
+    },
+    {
+      "name": "activity action prepends row and caps list length",
+      "status": "passed"
+    },
+    {
+      "name": "wallet reorder supports keyboard buttons and native drag/drop",
+      "status": "passed"
+    },
+    {
+      "name": "wallet grouping selection changes labels",
+      "status": "passed"
+    },
+    {
+      "name": "filter, search, and reveal expose discoverable card navigation",
+      "status": "passed"
+    },
+    {
+      "name": "expanded dialog keeps interactive parity for representative cards",
+      "status": "passed"
+    },
+    {
+      "name": "offscreen/pause/reduced motion suspend autonomous animation",
+      "status": "passed"
+    },
+    {
+      "name": "global page has no local resource failures or JS errors",
+      "status": "passed"
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "failedResponses": []
+}

@@ -1,0 +1,104 @@
+{
+  "page": 15,
+  "width": 1920.0,
+  "height": 1080.0,
+  "drawings": [
+    {
+      "type": "f",
+      "bbox": [
+        0.0,
+        0.0,
+        1920.0,
+        1080.0
+      ],
+      "fill": "#F4F4F8",
+      "stroke": null,
+      "fillOpacity": 1.0,
+      "strokeOpacity": null,
+      "width": null,
+      "lineCap": null,
+      "lineJoin": null,
+      "dashes": null,
+      "items": [
+        [
+          "re",
+          [
+            0.0,
+            0.0,
+            1920.0,
+            1080.0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        54.151,
+        1011.844,
+        1865.849,
+        1011.844
+      ],
+      "fill": null,
+      "stroke": "#516086",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 0.5,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            54.151,
+            1011.844
+          ],
+          [
+            1865.849,
+            1011.844
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        1767.889,
+        1037.558,
+        1865.929,
+        1037.558
+      ],
+      "fill": null,
+      "stroke": "#516086",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 0.2,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            1767.889,
+            1037.558
+          ],
+          [
+            1865.929,
+            1037.558
+          ]
+        ]
+      ]
+    }
+  ]
+}

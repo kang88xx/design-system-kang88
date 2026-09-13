@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-13T04:11:45.659Z",
+  "status": "passed",
+  "checks": [
+    "All manifest entries are available through the source browser",
+    "Every category filter matches inventory counts",
+    "Pagination reaches every source exactly once across 24 pages",
+    "Empty state reset restores full inventory",
+    "Code inspector copies complete source larger than 30KB and Escape returns focus",
+    "Keyboard activates source download without opening inspector",
+    "Previously malformed standalone SVG renders in inspector",
+    "All 402 unique image/SVG files decode in the browser",
+    "Source grid and inspector fit desktop/tablet/mobile",
+    "file:// embedded inventory, filters and code fallback"
+  ],
+  "errors": [],
+  "broken": []
+}

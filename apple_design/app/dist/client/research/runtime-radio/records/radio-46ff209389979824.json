@@ -1,0 +1,561 @@
+{
+  "id": "radio-46ff209389979824",
+  "pageId": "11-www-apple-com-macbook-air",
+  "pageTitle": "MacBook Air 13-inch and MacBook Air 15-inch - Apple",
+  "sourceUrl": "https://www.apple.com/macbook-air/",
+  "label": "Silver",
+  "selector": "#finishes-gallery-item-2-trigger",
+  "trigger": "click",
+  "kind": "animation",
+  "viewport": "mobile",
+  "status": "observed",
+  "properties": [
+    "transform",
+    "clipPath",
+    "height"
+  ],
+  "tracks": [
+    {
+      "target": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, -0.0356476)"
+        },
+        {
+          "offset": 0.1907051282051282,
+          "transform": "matrix(1, 0, 0, 1, 0, -0.0170502)"
+        },
+        {
+          "offset": 0.453525641025641,
+          "transform": "matrix(1, 0, 0, 1, 0, -0.00660558)"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "timing": {
+        "duration": 624,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 624,
+      "id": "track-da586a36ea70e985"
+    },
+    {
+      "target": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0637881)"
+        },
+        {
+          "offset": 0.1907051282051282,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0305096)"
+        },
+        {
+          "offset": 0.453525641025641,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0118201)"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "timing": {
+        "duration": 624,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 624,
+      "id": "track-b7eac4e5851b6da6"
+    },
+    {
+      "target": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "clipPath": "none",
+          "height": "16px"
+        },
+        {
+          "offset": 0.1907051282051282,
+          "clipPath": "inset(0px 0px 99.9% 99.9%)",
+          "height": "1px"
+        },
+        {
+          "offset": 0.453525641025641,
+          "clipPath": "inset(0px 0px 99.9% 99.9%)",
+          "height": "1px"
+        },
+        {
+          "offset": 1,
+          "clipPath": "inset(0px 0px 99.9% 99.9%)",
+          "height": "1px"
+        }
+      ],
+      "timing": {
+        "duration": 624,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 624,
+      "id": "track-b381cd19feec482d"
+    },
+    {
+      "target": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "clipPath": "inset(0px 0px 99.9% 99.9%)",
+          "height": "1px"
+        },
+        {
+          "offset": 0.1907051282051282,
+          "clipPath": "none",
+          "height": "16px"
+        },
+        {
+          "offset": 0.453525641025641,
+          "clipPath": "none",
+          "height": "16px"
+        },
+        {
+          "offset": 1,
+          "clipPath": "none",
+          "height": "16px"
+        }
+      ],
+      "timing": {
+        "duration": 624,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 624,
+      "id": "track-fc959df1d5b924e5"
+    }
+  ],
+  "summary": "Native input / associated label follow-up",
+  "sourceRefs": [
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-04057c6f1314.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fcc65a1f662.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-097a86ba2314.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-188c938f104c.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-3be19abfee91.js",
+    "/apple_design/app/dist/client/research/runtime-sources/06-www-apple-com-apple-vision-pro-d3c9a23cd17f.js",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-1500b626a6ba.css",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-cc4649d01a59.css",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-a35519adda09.js",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-950cfb6f8bf2.css",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-2e5d9ce97148.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-5d0d07c5ecfa-46cb73c281d4.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-cc1ee1bcba53-721fc3d2e4c1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-9fcc65a1f662-d40ac7756e83.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-e294186e3f21-5afac158df6b.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-0b8b4b148b25-95cc4e593b80.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-04057c6f1314-a9d2a8f8d325.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-46c6298737ce-731c003a8950.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d42b552a7854-d8166e1bcf72.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-067f3fc9933a-0143d2dc99f0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-c999b0b330cd-b05926ff64d2.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-097a86ba2314-72152331836b.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d9efb267a3c0-a443c235ec6a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d66ca6484df1-86c7b6cc8988.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-188c938f104c-53b47c5c0705.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-3be19abfee91-949bb77614fa.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d3c9a23cd17f-962fceac9b9e.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-cc4649d01a59-d337b819f31f.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-a35519adda09-5f775b3daa6b.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-1500b626a6ba-9137fd5d5aaa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-950cfb6f8bf2-b7d949547014.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-2e5d9ce97148-cc98fb871c0e.js"
+  ],
+  "before": {
+    "scrollY": 3007,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "target": {
+      "selector": "#finishes-gallery-item-2-trigger",
+      "state": {
+        "checked": false,
+        "value": "silver"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -0.0356476)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "25px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0637881)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "104px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "16px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "inset(0px 0px 99.9% 99.9%)",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": []
+  },
+  "frames": [
+    {
+      "scrollY": 3007,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#finishes-gallery-item-2-trigger",
+        "state": {
+          "checked": true,
+          "value": "silver"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0170502)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0305096)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "104px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "inset(0px 0px 99.9% 99.9%)",
+            "filter": "none",
+            "height": "1px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "16px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 119
+    },
+    {
+      "scrollY": 3007,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#finishes-gallery-item-2-trigger",
+        "state": {
+          "checked": true,
+          "value": "silver"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -0.00660558)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0118201)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "104px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "inset(0px 0px 99.9% 99.9%)",
+            "filter": "none",
+            "height": "1px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "16px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 283
+    },
+    {
+      "scrollY": 3007,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#finishes-gallery-item-2-trigger",
+        "state": {
+          "checked": true,
+          "value": "silver"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "104px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "inset(0px 0px 99.9% 99.9%)",
+            "filter": "none",
+            "height": "1px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "16px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 624
+    }
+  ],
+  "after": {
+    "scrollY": 3007,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "target": {
+      "selector": "#finishes-gallery-item-2-trigger",
+      "state": {
+        "checked": true,
+        "value": "silver"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "25px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "104px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "inset(0px 0px 99.9% 99.9%)",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#finishes-gallery > div:nth-of-type(1) > fieldset:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "16px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": [],
+    "elapsed": 624
+  }
+}

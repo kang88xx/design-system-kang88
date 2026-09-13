@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="dining-title dining-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="dining-title">Dining icon</title>
+  <desc id="dining-desc">Newly constructed ARK Prefab outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[26],"family":"outline-utility","tone":"mono"}</metadata>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 8v13"/>
+    <path d="M10 8v8c0 3 2 5 5 5s5-2 5-5V8"/>
+    <path d="M15 21v19"/>
+    <path d="M33 8c-4 5-5 10-2 14h5"/>
+    <path d="M36 8v32"/>
+  </g>
+</svg>

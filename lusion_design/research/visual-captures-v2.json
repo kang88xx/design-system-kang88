@@ -1,0 +1,76 @@
+[
+  {
+    "url": "index.html",
+    "target": "#working-system",
+    "local": "screenshots/system-hub-v2.png"
+  },
+  {
+    "url": "index.html",
+    "target": "#sequences",
+    "local": "screenshots/sequence-demos-v2.png"
+  },
+  {
+    "url": "components.html",
+    "target": "#spec-team",
+    "local": "screenshots/team-component-v2.png"
+  },
+  {
+    "url": "components.html",
+    "target": "#spec-clients",
+    "local": "screenshots/client-carousel-v2.png"
+  },
+  {
+    "url": "components.html",
+    "target": "#spec-capability",
+    "local": "screenshots/capability-cards-v2.png"
+  },
+  {
+    "url": "motion-lab.html",
+    "target": "#kinetic",
+    "local": "screenshots/motion-kinetic-v2.png"
+  },
+  {
+    "url": "motion-lab.html",
+    "target": "#depth",
+    "local": "screenshots/motion-depth-v2.png"
+  },
+  {
+    "url": "motion-lab.html",
+    "target": "#impact",
+    "local": "screenshots/motion-impact-v2.png"
+  },
+  {
+    "url": "motion-lab.html",
+    "target": "#tunnel",
+    "local": "screenshots/motion-tunnel-v2.png"
+  },
+  {
+    "url": "motion-lab.html",
+    "target": "#data",
+    "local": "screenshots/motion-infographic-v2.png"
+  },
+  {
+    "url": "index.html",
+    "local": "screenshots/index-mobile-v2.png",
+    "viewport": "390x844",
+    "overflow": false
+  },
+  {
+    "url": "components.html",
+    "local": "screenshots/components-mobile-v2.png",
+    "viewport": "390x844",
+    "overflow": false
+  },
+  {
+    "url": "motion-lab.html",
+    "local": "screenshots/motion-lab-mobile-v2.png",
+    "viewport": "390x844",
+    "overflow": false
+  },
+  {
+    "url": "video-analysis.html",
+    "local": "screenshots/video-analysis-mobile-v2.png",
+    "viewport": "390x844",
+    "overflow": false
+  }
+]

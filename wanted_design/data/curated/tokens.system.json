@@ -1,0 +1,22 @@
+{
+  "--font-family-wanted-sans": {
+    "light": "\"Wanted Sans Variable\",\"Wanted Sans\",-apple-system,BlinkMacSystemFont,system-ui,\"Segoe UI\",\"Apple SD Gothic Neo\",\"Noto Sans KR\",\"Malgun Gothic\",\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",sans-serif",
+    "dark": "\"Wanted Sans Variable\",\"Wanted Sans\",-apple-system,BlinkMacSystemFont,system-ui,\"Segoe UI\",\"Apple SD Gothic Neo\",\"Noto Sans KR\",\"Malgun Gothic\",\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",sans-serif",
+    "changesWithTheme": false
+  },
+  "--gnb-height": {
+    "light": "62px",
+    "dark": "62px",
+    "changesWithTheme": false
+  },
+  "--layout-max-width": {
+    "light": "1060px",
+    "dark": "1060px",
+    "changesWithTheme": false
+  },
+  "--layout-padding-inline": {
+    "light": "40px",
+    "dark": "40px",
+    "changesWithTheme": false
+  }
+}

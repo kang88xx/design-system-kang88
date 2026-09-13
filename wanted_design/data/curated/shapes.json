@@ -1,0 +1,442 @@
+{
+  "source": "https://montage.wanted.co.kr",
+  "collectedAt": "2026-09-01T05:27:13.156Z",
+  "counts": {
+    "marquee": 21,
+    "behind": 3,
+    "resources": 3
+  },
+  "marquee": [
+    {
+      "id": "shape-01",
+      "name": "Shape 01",
+      "order": 1,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image.png",
+      "alt": "marquee-image-1",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image.png",
+      "sha256": "7a739e7628e8b5bf1c693614c6547475b0f2c1b144bb0e35fa5c2590a588d544",
+      "byteSize": 32722,
+      "status": "ok"
+    },
+    {
+      "id": "shape-02",
+      "name": "Shape 02",
+      "order": 2,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-1.png",
+      "alt": "marquee-image-2",
+      "dimensions": {
+        "width": 286,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-1.png",
+      "sha256": "b266153d30a3c07907e1d7038fb59b3fb5cb623f246da290dd1ac20b138c52b3",
+      "byteSize": 45274,
+      "status": "ok"
+    },
+    {
+      "id": "shape-03",
+      "name": "Shape 03",
+      "order": 3,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-2.png",
+      "alt": "marquee-image-3",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-2.png",
+      "sha256": "f46b123791e8daf256e2391b3a86f40de368162b89b824796c0b247293b3ae34",
+      "byteSize": 45047,
+      "status": "ok"
+    },
+    {
+      "id": "shape-04",
+      "name": "Shape 04",
+      "order": 4,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-3.png",
+      "alt": "marquee-image-4",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-3.png",
+      "sha256": "53852f54c73ae567c76a1d38ac2d9f3eb0f5e802f51a4d9ebac3139f29d8f7cc",
+      "byteSize": 43839,
+      "status": "ok"
+    },
+    {
+      "id": "shape-05",
+      "name": "Shape 05",
+      "order": 5,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-4.png",
+      "alt": "marquee-image-5",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-4.png",
+      "sha256": "30eb7bbd4533cb33e910fea9f5a42ec6c2e61d475c665267a0bc35c8145168b2",
+      "byteSize": 45268,
+      "status": "ok"
+    },
+    {
+      "id": "shape-06",
+      "name": "Shape 06",
+      "order": 6,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-5.png",
+      "alt": "marquee-image-6",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-5.png",
+      "sha256": "73c21c0dfca99b601f7e5de9175e7c9c9a19c9b22525ceb21cd35cef59b2cff7",
+      "byteSize": 48546,
+      "status": "ok"
+    },
+    {
+      "id": "shape-07",
+      "name": "Shape 07",
+      "order": 7,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-6.png",
+      "alt": "marquee-image-7",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-6.png",
+      "sha256": "2bbf46bf0423069cc3f09d45523874985cfd2d4f0312b1ffed4a274d951279f4",
+      "byteSize": 37407,
+      "status": "ok"
+    },
+    {
+      "id": "shape-08",
+      "name": "Shape 08",
+      "order": 8,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-7.png",
+      "alt": "marquee-image-8",
+      "dimensions": {
+        "width": 286,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-7.png",
+      "sha256": "bd2311781d47c2d8c6a644593dbbdfd0aeb8dc56e2db0a12b141f9c72e367ef6",
+      "byteSize": 31722,
+      "status": "ok"
+    },
+    {
+      "id": "shape-09",
+      "name": "Shape 09",
+      "order": 9,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-8.png",
+      "alt": "marquee-image-9",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-8.png",
+      "sha256": "b15c0fe16ba5b7dabcf7be126e0e599cbbe295506f8e72563b8ad34e000cc152",
+      "byteSize": 33526,
+      "status": "ok"
+    },
+    {
+      "id": "shape-10",
+      "name": "Shape 10",
+      "order": 10,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-9.png",
+      "alt": "marquee-image-10",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-9.png",
+      "sha256": "8ec43b7c6bffeab27ca11a623d26dc510a337bee897aa5d1093d7e371868fea3",
+      "byteSize": 47402,
+      "status": "ok"
+    },
+    {
+      "id": "shape-11",
+      "name": "Shape 11",
+      "order": 11,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-10.png",
+      "alt": "marquee-image-11",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-10.png",
+      "sha256": "f250e0f380d8db6a30ee3d1c0e1160bd6a7e45db9569aa10588d567181b46460",
+      "byteSize": 28641,
+      "status": "ok"
+    },
+    {
+      "id": "shape-12",
+      "name": "Shape 12",
+      "order": 12,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-11.png",
+      "alt": "marquee-image-12",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-11.png",
+      "sha256": "829a8423adee6e449f8a1d6ecb33ae0bd0bd933cf92c7504d3524c449a92f3ac",
+      "byteSize": 31813,
+      "status": "ok"
+    },
+    {
+      "id": "shape-13",
+      "name": "Shape 13",
+      "order": 13,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-12.png",
+      "alt": "marquee-image-13",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-12.png",
+      "sha256": "dd058b775ec0d28481644f7225f5de33d264c226ea706f7cd08dae9064702dcd",
+      "byteSize": 36722,
+      "status": "ok"
+    },
+    {
+      "id": "shape-14",
+      "name": "Shape 14",
+      "order": 14,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-13.png",
+      "alt": "marquee-image-14",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-13.png",
+      "sha256": "7b6e59c07f863c2156dd00b8cf8eb34d11433f99fee0d0ce2e0cdad494bcb399",
+      "byteSize": 31771,
+      "status": "ok"
+    },
+    {
+      "id": "shape-15",
+      "name": "Shape 15",
+      "order": 15,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-14.png",
+      "alt": "marquee-image-15",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-14.png",
+      "sha256": "58e6213ee572673ea8e678cd8913bdd7184df762c536bf823227379d490b4996",
+      "byteSize": 27463,
+      "status": "ok"
+    },
+    {
+      "id": "shape-16",
+      "name": "Shape 16",
+      "order": 16,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-15.png",
+      "alt": "marquee-image-16",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-15.png",
+      "sha256": "abec95edf4f244afd956a6a7de06cf74d67967593f780ecbf86a67fc162f293b",
+      "byteSize": 33993,
+      "status": "ok"
+    },
+    {
+      "id": "shape-17",
+      "name": "Shape 17",
+      "order": 17,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-16.png",
+      "alt": "marquee-image-17",
+      "dimensions": {
+        "width": 446,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-16.png",
+      "sha256": "2db108adf877bcf280e74a39c90e85cac4a68e932ce399dd87f4c0dd299d9189",
+      "byteSize": 61177,
+      "status": "ok"
+    },
+    {
+      "id": "shape-18",
+      "name": "Shape 18",
+      "order": 18,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-17.png",
+      "alt": "marquee-image-18",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-17.png",
+      "sha256": "52f2d7dc6ec88a1306c19f629d354eafe47d66ea72ff14d12a4e28da05bfd4dd",
+      "byteSize": 46067,
+      "status": "ok"
+    },
+    {
+      "id": "shape-19",
+      "name": "Shape 19",
+      "order": 19,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-18.png",
+      "alt": "marquee-image-19",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-18.png",
+      "sha256": "7a441bf79e6ff801546d48f410af52a4d5f7f167b9aa3a28d9080ca2b4cf4390",
+      "byteSize": 37812,
+      "status": "ok"
+    },
+    {
+      "id": "shape-20",
+      "name": "Shape 20",
+      "order": 20,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-19.png",
+      "alt": "marquee-image-20",
+      "dimensions": {
+        "width": 288,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-19.png",
+      "sha256": "4031c19c067fa48186b744b2d6fb6ee9378767423c455cf029641b80ec309dfb",
+      "byteSize": 46474,
+      "status": "ok"
+    },
+    {
+      "id": "shape-21",
+      "name": "Shape 21",
+      "order": 21,
+      "sourceUrl": "https://montage.wanted.co.kr/home/marquee/Image-20.png",
+      "alt": "marquee-image-21",
+      "dimensions": {
+        "width": 448,
+        "height": 288
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/marquee/Image-20.png",
+      "sha256": "5a1c84e05fd8f3b55b03125cfc80fbe2673d1db23194a454410b637a6c7f071a",
+      "byteSize": 72071,
+      "status": "ok"
+    }
+  ],
+  "behind": [
+    {
+      "id": "behind-01",
+      "name": "Behind 01",
+      "order": 1,
+      "sourceUrl": "https://montage.wanted.co.kr/home/behind/Image.png",
+      "alt": "Wanted Design System 제작기를 소개해요.",
+      "dimensions": {
+        "width": 248,
+        "height": 248
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/behind/Image.png",
+      "sha256": "d4287ec7403d4454d0828ecdf29325d4d2bf3b25a259b2c0cac10173312c5aae",
+      "byteSize": 51947,
+      "status": "ok"
+    },
+    {
+      "id": "behind-02",
+      "name": "Behind 02",
+      "order": 2,
+      "sourceUrl": "https://montage.wanted.co.kr/home/behind/Image-1.png",
+      "alt": "원티드의 목소리, 원티드 산스를 소개해요.",
+      "dimensions": {
+        "width": 248,
+        "height": 248
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/behind/Image-1.png",
+      "sha256": "f7de62dd2aff35747368dcde9138fa250241580ab5deb47207e75f220c4661db",
+      "byteSize": 44760,
+      "status": "ok"
+    },
+    {
+      "id": "behind-03",
+      "name": "Behind 03",
+      "order": 3,
+      "sourceUrl": "https://montage.wanted.co.kr/home/behind/Image-2.png",
+      "alt": "메이커를 위한 메이커들의 인터뷰를 소개해요.",
+      "dimensions": {
+        "width": 248,
+        "height": 248
+      },
+      "localPath": "assets/montage/images/montage.wanted.co.kr/home/behind/Image-2.png",
+      "sha256": "36bcba64f64fd89c9285f8df4772372d4e604fac7cd1611a227e667d7d7f6c89",
+      "byteSize": 43021,
+      "status": "ok"
+    }
+  ],
+  "resources": [
+    {
+      "id": "resource-1",
+      "name": "Resource 01",
+      "order": 1,
+      "title": "Wanted Design System UI KIT for Figma",
+      "lastUpdated": "2026.03.09",
+      "href": "https://www.figma.com/community/file/1355516515676178246",
+      "jsonUrl": "https://montage.wanted.co.kr/home/resources/1.json",
+      "jsonLocalPath": "assets/montage/shapes/resources/resource-1.json",
+      "previewLocalPath": "assets/montage/shapes/resources/resource-1.svg",
+      "jsonSha256": "5560c5258580a4f607be0605e93ba666dc5ffc6a8a93916d667c990e681f232d",
+      "jsonByteSize": 6329,
+      "previewSha256": "27974935ea4df6e581fc946e0195992b51d7fa2a36c84783c0a267460216a76f",
+      "previewByteSize": 3218,
+      "width": 250,
+      "height": 250,
+      "frameRate": 30,
+      "frames": 120,
+      "layers": 2,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "id": "resource-2",
+      "name": "Resource 02",
+      "order": 2,
+      "title": "Native Platform UI KIT for Figma",
+      "lastUpdated": "2026.03.09",
+      "href": "https://www.figma.com/community/file/1509019654708670821",
+      "jsonUrl": "https://montage.wanted.co.kr/home/resources/2.json",
+      "jsonLocalPath": "assets/montage/shapes/resources/resource-2.json",
+      "previewLocalPath": "assets/montage/shapes/resources/resource-2.svg",
+      "jsonSha256": "d47a8afa5b1bbc29c55647d729c709d38188b6c75636435ca15a074a4c878acd",
+      "jsonByteSize": 10669,
+      "previewSha256": "9788ddd39a4f697fcb48a5599099175c1fa2906f8c90ca035b4580a19e8f0e6d",
+      "previewByteSize": 3895,
+      "width": 250,
+      "height": 250,
+      "frameRate": 30,
+      "frames": 120,
+      "layers": 2,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "id": "resource-3",
+      "name": "Resource 03",
+      "order": 3,
+      "title": "Pretendard JP Dynamic Font",
+      "lastUpdated": "2021.06.28",
+      "href": "https://github.com/orioncactus/pretendard",
+      "jsonUrl": "https://montage.wanted.co.kr/home/resources/3.json",
+      "jsonLocalPath": "assets/montage/shapes/resources/resource-3.json",
+      "previewLocalPath": "assets/montage/shapes/resources/resource-3.svg",
+      "jsonSha256": "0d6d2af19f1d534ffe7e3c75f14587678e4ce2e71a26434df1a11000725726ba",
+      "jsonByteSize": 13308,
+      "previewSha256": "ba545e52b15d8c97956dfcf651d36f67a91e3b6f97b1c2bb157713ccf62cdb58",
+      "previewByteSize": 8844,
+      "width": 250,
+      "height": 250,
+      "frameRate": 30,
+      "frames": 120,
+      "layers": 2,
+      "status": "ok",
+      "error": null
+    }
+  ],
+  "failures": []
+}

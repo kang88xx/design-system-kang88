@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="recreation-title recreation-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="recreation-title">Recreation icon</title>
+  <desc id="recreation-desc">Newly constructed ARK Prefab outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[26],"family":"outline-utility","tone":"mono"}</metadata>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="19" cy="15" r="7"/>
+    <path d="M14 10c3 4 7 7 12 8"/>
+    <path d="M12 17c4-2 8-5 10-9"/>
+    <path d="M11 34h20l5-13"/>
+    <path d="M17 34l-3 6"/>
+    <path d="M31 34l3 6"/>
+    <path d="M30 21h6"/>
+  </g>
+</svg>

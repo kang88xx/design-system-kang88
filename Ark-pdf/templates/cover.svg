@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Cover">
+  <title>Cover</title>
+  <desc>ARK PDF p4/p7/p10의 코발트 풀블리드, 넓은 여백, 하단 레일을 따른 표지 마스터. Source pages: 4, 7, 10. Icon adaptation guide: ../prompts/guide.md.</desc>
+  <metadata data-guide-ref="../prompts/guide.md"/>
+  <rect width="1920" height="1080" fill="#011187"/>
+
+  <rect width="1920" height="1080" fill="#011187"/>
+  <rect x="60" y="60" width="1800" height="4" fill="#FFFFFF" opacity=".85"/>
+  <text x="60" y="132" font-family="'Malgun Gothic', Arial, sans-serif" font-size="28" fill="#FFFFFF" opacity=".82">SAMPLE ARK / PROJECT</text>
+  <text x="60" y="430" text-anchor="start" font-family="'Malgun Gothic', Arial, sans-serif" font-size="118" font-weight="500" fill="#FFFFFF"><tspan x="60" dy="0">PROJECT</tspan><tspan x="60" dy="132">PROPOSAL</tspan></text>
+  <text x="60" y="728" font-family="'Malgun Gothic', Arial, sans-serif" font-size="30" fill="#FFFFFF" opacity=".82">SAMPLE Business document system</text>
+  <rect x="1330" y="348" width="420" height="420" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".42"/>
+  <path d="M1420 680 L1660 420 M1420 420 L1660 680" stroke="#FFFFFF" stroke-width="4" opacity=".38"/>
+  
+  <line x1="60" y1="1032" x2="1860" y2="1032" stroke="#FFFFFF" stroke-opacity=".42" stroke-width="2"/>
+  <text x="60" y="1058" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity=".72">ARK / PROJECT DOCUMENT SYSTEM</text>
+  <text x="1860" y="1058" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity=".72">01</text>
+
+
+</svg>

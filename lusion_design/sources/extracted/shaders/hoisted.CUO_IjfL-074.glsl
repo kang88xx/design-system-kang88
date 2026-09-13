@@ -1,0 +1,2 @@
+#define GLSLIFY 1
+uniform sampler2D u_cardTexture;uniform sampler2D u_cardLedTexture;uniform vec2 u_cardUvOffset;uniform vec2 u_cardTextureSize;uniform vec3 u_cardColor;uniform float u_cardOpacity;uniform float u_time;varying vec2 v_uv;void main(){vec2 uv=v_uv/u_cardTextureSize;vec4 texel=texture2D(u_cardTexture,uv+u_cardUvOffset);vec3 ledTexture=pow(texture2D(u_cardLedTexture,fract(v_uv*vec2(20.,15.))).rgb,vec3(2.2));float ledMask=dot(ledTexture,u_cardColor*texel.r);gl_FragColor.rgb=pow(ledTexture,vec3(1./2.2))*ledMask*2.5;gl_FragColor.a=texel.r*0.35;}

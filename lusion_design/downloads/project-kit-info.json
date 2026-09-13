@@ -1,0 +1,34 @@
+{
+  "version": "1.1.0",
+  "files": 15,
+  "zip_crc_verified": true,
+  "artifacts": [
+    {
+      "path": "downloads/project-design-system-1.1.0.zip",
+      "bytes": 51355,
+      "sha256": "707dafc3350757c4ec8b3eba8a68f845d6b2caf5d7081a26cc24eeb8bac754ef"
+    },
+    {
+      "path": "downloads/local-project-design-system-1.1.0.tgz",
+      "bytes": 46021,
+      "sha256": "8ee990beedb85ec254a3c5edad185c19b89388f1cf9b36464810a527315fa669"
+    }
+  ],
+  "contents": [
+    "kit/CHANGELOG.md",
+    "kit/README.md",
+    "kit/components.css",
+    "kit/examples/example.css",
+    "kit/examples/example.js",
+    "kit/examples/home.css",
+    "kit/examples/home.html",
+    "kit/examples/home.js",
+    "kit/examples/index.html",
+    "kit/package.json",
+    "kit/snippets.js",
+    "kit/system.d.ts",
+    "kit/system.js",
+    "kit/tokens.css",
+    "kit/tokens.json"
+  ]
+}

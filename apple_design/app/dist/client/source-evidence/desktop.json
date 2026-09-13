@@ -1,0 +1,3903 @@
+{
+  "title": "Apple",
+  "url": "https://www.apple.com/",
+  "stylesheets": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+    "https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+    "https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css",
+    "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3",
+    "https://www.apple.com/v/home/a/styles/main.built.css",
+    "https://www.apple.com/v/home/a/styles/home.built.css",
+    "https://www.apple.com/v/home/a/built/styles/home-gallery.built.css",
+    "https://www.apple.com/v/home/a/styles/inline-media.built.css",
+    "https://www.apple.com/home/built/styles/home_1qb7owdk.built.css",
+    "https://www.apple.com/ac/localeswitcher/4/ko_KR/styles/localeswitcher.built.css"
+  ],
+  "scripts": [
+    "https://www.apple.com/v/home/a/scripts/head.built.js",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js",
+    "https://www.apple.com/metrics/ac-analytics/2.30.0/scripts/ac-analytics.js",
+    "https://www.apple.com/metrics/ac-analytics/2.30.0/scripts/auto-init.js",
+    "https://www.apple.com/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js",
+    "https://www.apple.com/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js",
+    "https://www.apple.com/v/home/a/scripts/bts2026.built.js",
+    "https://www.apple.com/v/home/a/built/scripts/endless-entertainment-gallery.built.js",
+    "https://www.apple.com/v/home/a/scripts/inline-media.built.js",
+    "https://www.apple.com/v/home/a/scripts/main.built.js",
+    "https://www.apple.com/v/home/a/scripts/home.built.js",
+    "https://www.apple.com/metrics/data-relay/1.2.0/scripts/data-relay.js",
+    "https://www.apple.com/metrics/data-relay/1.2.0/scripts/auto-relay.js",
+    "https://www.apple.com/ac/includes/acmi-handler/scripts/autopricing-toggle.built.js",
+    "https://www.apple.com/ac/pricing/latest-1/scripts/autopricing.built.js"
+  ],
+  "media": [
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall.jpg",
+      "srcset": "",
+      "alt": "Apple logo with a glowing neon effect in blue and pink hues, a bright white flare at its center, on a gradient background"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/largetall.webm"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall.jpg",
+      "srcset": "",
+      "alt": "Students carrying various MacBook and iPad models, along with dorm room essentials in rectangular containers"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall.jpg",
+      "srcset": "",
+      "alt": "iPhone 17 Pro, back exterior, deep blue color, Pro Fusion camera system in top left corner, Apple logo in center, iPhone 17, back exterior, white color, Dual Fusion camera system in top left corner, Apple logo in center, iPhone 17e, back exterior, soft pink color, Fusion camera system in top left corner, Apple logo in center, iPhone Air, side, titanium frame profile, Fusion camera system in top left corner"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small.jpg, /apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium.jpg, /apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg, /apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg",
+      "srcset": "",
+      "alt": "Front view of Mac mini balanced on the fingertips of an up-stretched hand, front shows two Thunderbolt ports, status indicator light and headphone jack, tapered black base at bottom, flat top, rounded sides, straight edges, silver color"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small.jpg, /apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium.jpg, /apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg, /apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg",
+      "srcset": "",
+      "alt": "Two open MacBook Air laptops in sky blue color forming arrow shape, emphasizing narrow profile"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small.png, /apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium.png, /apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png, /apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small.jpg, /apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium.jpg, /apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg, /apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg",
+      "srcset": "",
+      "alt": "iPad Air models floating, back exterior, single-lens camera, front exterior, rounded corners, black display bezel"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small.jpg, /apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium.jpg, /apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg, /apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg",
+      "srcset": "",
+      "alt": "Two iPad Pro devices, front exterior, portrait orientation, black display bezel, display showing multicolored, curved line art, side exterior, thin profile, volume-up button, volume-down button, raised Pro Camera System"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small.png, /apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium.png, /apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png, /apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small.jpg, /apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium.jpg, /apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg, /apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg",
+      "srcset": "",
+      "alt": "Side-by-side, hand holding iPhone 13 in silicon case with stickers on back exterior, trade-in with hand holding new iPhone box for iPhone 17 Pro"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small.png, /apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium.png, /apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png, /apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small.jpg, /apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium.jpg, /apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium_2x.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg, /apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large_2x.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg",
+      "srcset": "",
+      "alt": "Apple Card, front, Apple logo in top left, cardholder name in middle left Marisa Robertson, card chip in middle right."
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/274x496nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/548x992nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/688x368sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1376x736sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/980x522sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1960x1044sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1250x668sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/2500x1336sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/980x522sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png, /apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/440x108.png 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/220x54.png, https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/440x108.png 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/220x54.png",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/122x122sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/244x244sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/196x196sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/392x392sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/452x452sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/122x122sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/244x244sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/196x196sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/392x392sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/452x452sr.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/196x196sr.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/188x254nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/376x508nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/188x254nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/376x508nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/417x234.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/188x254sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/376x508sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/188x254sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/376x508sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/417x234.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/122x122SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/244x244SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/196x196SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/392x392SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/226x226SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/452x452SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/122x122SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/244x244SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/196x196SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/392x392SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/226x226SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/452x452SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/196x196SC.DN01.jpg?l=en-US",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/188x254nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/376x508nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/188x254nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/376x508nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/417x234.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/188x254sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/376x508sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/188x254sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/376x508sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/417x234.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/122x122SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/244x244SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/196x196SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/392x392SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/226x226SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/452x452SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/122x122SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/244x244SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/196x196SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/392x392SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/226x226SC.DN01.jpg?l=en-US, https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/452x452SC.DN01.jpg?l=en-US 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/196x196SC.DN01.jpg?l=en-US",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/188x254nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/376x508nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/188x254nr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/376x508nr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/417x234.jpg",
+      "srcset": "",
+      "alt": ""
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/188x254sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/376x508sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/188x254sr.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/376x508sr.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/417x234.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/834x468.jpg 2x"
+    },
+    {
+      "tag": "SOURCE",
+      "src": "",
+      "srcset": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/470x264.jpg, https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/940x528.jpg 2x"
+    },
+    {
+      "tag": "IMG",
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/417x234.jpg",
+      "srcset": "",
+      "alt": ""
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "label": "국가 또는 지역 선택 도구 닫기",
+      "text": "",
+      "id": "ac-ls-close",
+      "class": "ac-ls-close ac-ls-actions-item ac-ls-icon"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Main menu",
+      "text": "",
+      "id": "",
+      "class": "globalnav-menuback-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Store menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-store",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Mac menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-mac",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "iPad menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-ipad",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "iPhone menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-iphone",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Watch menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-watch",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Vision menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-vision",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "AirPods menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-airpods",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "TV and Home menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-tv-home",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Entertainment menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-entertainment",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Accessories menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-accessories",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Support menu",
+      "text": "",
+      "id": "globalnav-menubutton-link-support",
+      "class": "globalnav-submenu-trigger-button"
+    },
+    {
+      "tag": "INPUT",
+      "label": "Search apple.com",
+      "text": "",
+      "id": "",
+      "class": "globalnav-searchfield-input"
+    },
+    {
+      "tag": "INPUT",
+      "label": null,
+      "text": "",
+      "id": "globalnav-searchfield-src",
+      "class": ""
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Clear search",
+      "text": "",
+      "id": "",
+      "class": "globalnav-searchfield-reset"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Submit search",
+      "text": "",
+      "id": "",
+      "class": "globalnav-searchfield-submit"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Menu",
+      "text": "",
+      "id": "globalnav-menutrigger-button",
+      "class": "globalnav-menutrigger-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": "Play endless entertainment gallery",
+      "text": "",
+      "id": "",
+      "class": "media-gallery-dotnav-iconcontrol dotnav-iconcontrol"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Shop and Learn",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Apple Wallet",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Account",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Entertainment",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Apple Store",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "For Business",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "For Education",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "For Healthcare",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "For Government",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Apple Values",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    },
+    {
+      "tag": "BUTTON",
+      "label": null,
+      "text": "About Apple",
+      "id": "",
+      "class": "ac-gf-directory-column-section-title-button"
+    }
+  ],
+  "headings": [
+    {
+      "text": "Apple",
+      "class": "visuallyhidden",
+      "size": "34px",
+      "line": "50px",
+      "weight": "600",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 0,
+        "y": -5003,
+        "width": 1,
+        "height": 1,
+        "top": -5003,
+        "right": 1,
+        "bottom": -5002,
+        "left": 0
+      }
+    },
+    {
+      "text": "Shop",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 174.46875,
+        "height": 16,
+        "top": 150,
+        "right": 404.46875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Quick Links",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 492.46875,
+        "y": 150,
+        "width": 125.484375,
+        "height": 16,
+        "top": 150,
+        "right": 617.953125,
+        "bottom": 166,
+        "left": 492.46875
+      }
+    },
+    {
+      "text": "Shop Special Stores",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 661.953125,
+        "y": 150,
+        "width": 124.484375,
+        "height": 16,
+        "top": 150,
+        "right": 786.4375,
+        "bottom": 166,
+        "left": 661.953125
+      }
+    },
+    {
+      "text": "Explore Mac",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 164.25,
+        "height": 16,
+        "top": 150,
+        "right": 394.25,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop Mac",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 482.25,
+        "y": 150,
+        "width": 125.484375,
+        "height": 16,
+        "top": 150,
+        "right": 607.734375,
+        "bottom": 166,
+        "left": 482.25
+      }
+    },
+    {
+      "text": "More from Mac",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 651.734375,
+        "y": 150,
+        "width": 149.765625,
+        "height": 16,
+        "top": 150,
+        "right": 801.5,
+        "bottom": 166,
+        "left": 651.734375
+      }
+    },
+    {
+      "text": "Explore iPad",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 163.46875,
+        "height": 16,
+        "top": 150,
+        "right": 393.46875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop iPad",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 481.46875,
+        "y": 150,
+        "width": 125.484375,
+        "height": 16,
+        "top": 150,
+        "right": 606.953125,
+        "bottom": 166,
+        "left": 481.46875
+      }
+    },
+    {
+      "text": "More from iPad",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 650.953125,
+        "y": 150,
+        "width": 149.765625,
+        "height": 16,
+        "top": 150,
+        "right": 800.71875,
+        "bottom": 166,
+        "left": 650.953125
+      }
+    },
+    {
+      "text": "Explore iPhone",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 190.890625,
+        "height": 16,
+        "top": 150,
+        "right": 420.890625,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop iPhone",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 508.890625,
+        "y": 150,
+        "width": 127.375,
+        "height": 16,
+        "top": 150,
+        "right": 636.265625,
+        "bottom": 166,
+        "left": 508.890625
+      }
+    },
+    {
+      "text": "More from iPhone",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 680.265625,
+        "y": 150,
+        "width": 149.765625,
+        "height": 16,
+        "top": 150,
+        "right": 830.03125,
+        "bottom": 166,
+        "left": 680.265625
+      }
+    },
+    {
+      "text": "Explore Watch",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 255.96875,
+        "height": 16,
+        "top": 150,
+        "right": 485.96875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop Watch",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 573.96875,
+        "y": 150,
+        "width": 148.25,
+        "height": 16,
+        "top": 150,
+        "right": 722.21875,
+        "bottom": 166,
+        "left": 573.96875
+      }
+    },
+    {
+      "text": "More from Watch",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 766.21875,
+        "y": 150,
+        "width": 152.015625,
+        "height": 16,
+        "top": 150,
+        "right": 918.234375,
+        "bottom": 166,
+        "left": 766.21875
+      }
+    },
+    {
+      "text": "Explore Vision",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 260.1875,
+        "height": 16,
+        "top": 150,
+        "right": 490.1875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop Vision",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 578.1875,
+        "y": 150,
+        "width": 168.640625,
+        "height": 16,
+        "top": 150,
+        "right": 746.828125,
+        "bottom": 166,
+        "left": 578.1875
+      }
+    },
+    {
+      "text": "More from Vision",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 790.828125,
+        "y": 150,
+        "width": 176.28125,
+        "height": 16,
+        "top": 150,
+        "right": 967.109375,
+        "bottom": 166,
+        "left": 790.828125
+      }
+    },
+    {
+      "text": "Explore AirPods",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 201.109375,
+        "height": 16,
+        "top": 150,
+        "right": 431.109375,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop AirPods",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 519.109375,
+        "y": 150,
+        "width": 120.734375,
+        "height": 16,
+        "top": 150,
+        "right": 639.84375,
+        "bottom": 166,
+        "left": 519.109375
+      }
+    },
+    {
+      "text": "More from AirPods",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 683.84375,
+        "y": 150,
+        "width": 102.96875,
+        "height": 16,
+        "top": 150,
+        "right": 786.8125,
+        "bottom": 166,
+        "left": 683.84375
+      }
+    },
+    {
+      "text": "Explore TV & Home",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 207.671875,
+        "height": 16,
+        "top": 150,
+        "right": 437.671875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop TV & Home",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 525.671875,
+        "y": 150,
+        "width": 138.484375,
+        "height": 16,
+        "top": 150,
+        "right": 664.15625,
+        "bottom": 166,
+        "left": 525.671875
+      }
+    },
+    {
+      "text": "More from TV & Home",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 708.15625,
+        "y": 150,
+        "width": 140.484375,
+        "height": 16,
+        "top": 150,
+        "right": 848.640625,
+        "bottom": 166,
+        "left": 708.15625
+      }
+    },
+    {
+      "text": "Explore Entertainment",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 238.546875,
+        "height": 16,
+        "top": 150,
+        "right": 468.546875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Support",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 556.546875,
+        "y": 150,
+        "width": 121.734375,
+        "height": 16,
+        "top": 150,
+        "right": 678.28125,
+        "bottom": 166,
+        "left": 556.546875
+      }
+    },
+    {
+      "text": "Shop by Product",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 226.328125,
+        "height": 16,
+        "top": 150,
+        "right": 456.328125,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop by Category",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 544.328125,
+        "y": 150,
+        "width": 142.484375,
+        "height": 16,
+        "top": 150,
+        "right": 686.8125,
+        "bottom": 166,
+        "left": 544.328125
+      }
+    },
+    {
+      "text": "More to Explore",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 730.8125,
+        "y": 150,
+        "width": 132.375,
+        "height": 16,
+        "top": 150,
+        "right": 863.1875,
+        "bottom": 166,
+        "left": 730.8125
+      }
+    },
+    {
+      "text": "Explore Support",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 150,
+        "width": 174.46875,
+        "height": 16,
+        "top": 150,
+        "right": 404.46875,
+        "bottom": 166,
+        "left": 230
+      }
+    },
+    {
+      "text": "Get Help",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 492.46875,
+        "y": 150,
+        "width": 95.328125,
+        "height": 16,
+        "top": 150,
+        "right": 587.796875,
+        "bottom": 166,
+        "left": 492.46875
+      }
+    },
+    {
+      "text": "Helpful Topics",
+      "class": "globalnav-submenu-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 631.796875,
+        "y": 150,
+        "width": 170.890625,
+        "height": 16,
+        "top": 150,
+        "right": 802.6875,
+        "bottom": 166,
+        "left": 631.796875
+      }
+    },
+    {
+      "text": "Quick Links",
+      "class": "globalnav-searchresults-header",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "rect": {
+        "x": 230,
+        "y": 218,
+        "width": 980,
+        "height": 16,
+        "top": 218,
+        "right": 1210,
+        "bottom": 234,
+        "left": 230
+      }
+    },
+    {
+      "text": "Surprise and shine.",
+      "class": "tile-headline typography-tile-headline",
+      "size": "56px",
+      "line": "60px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(245, 245, 247)",
+      "rect": {
+        "x": 391,
+        "y": -4419,
+        "width": 657.984375,
+        "height": 60,
+        "top": -4419,
+        "right": 1048.984375,
+        "bottom": -4359,
+        "left": 391
+      }
+    },
+    {
+      "text": "College, sorted.",
+      "class": "tile-headline typography-tile-headline",
+      "size": "56px",
+      "line": "60px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 435,
+        "y": -4129,
+        "width": 570,
+        "height": 60,
+        "top": -4129,
+        "right": 1005,
+        "bottom": -4069,
+        "left": 435
+      }
+    },
+    {
+      "text": "iPhone",
+      "class": "tile-headline typography-tile-headline",
+      "size": "56px",
+      "line": "60px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 547.046875,
+        "y": -3425,
+        "width": 345.890625,
+        "height": 60,
+        "top": -3425,
+        "right": 892.9375,
+        "bottom": -3365,
+        "left": 547.046875
+      }
+    },
+    {
+      "text": "Mac mini",
+      "class": "tile-headline typography-tile-headline",
+      "size": "40px",
+      "line": "44px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 249.328125,
+        "y": -2724,
+        "width": 227.328125,
+        "height": 44,
+        "top": -2724,
+        "right": 476.65625,
+        "bottom": -2680,
+        "left": 249.328125
+      }
+    },
+    {
+      "text": "MacBook Air",
+      "class": "tile-headline typography-tile-headline",
+      "size": "40px",
+      "line": "44px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 958.828125,
+        "y": -2724,
+        "width": 236.328125,
+        "height": 44,
+        "top": -2724,
+        "right": 1195.15625,
+        "bottom": -2680,
+        "left": 958.828125
+      }
+    },
+    {
+      "text": "iPad Air",
+      "class": "tile-headline logo-image",
+      "size": "40px",
+      "line": "44px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 244.328125,
+        "y": -2128,
+        "width": 237.328125,
+        "height": 49,
+        "top": -2128,
+        "right": 481.65625,
+        "bottom": -2079,
+        "left": 244.328125
+      }
+    },
+    {
+      "text": "iPad Pro",
+      "class": "tile-headline typography-tile-headline",
+      "size": "40px",
+      "line": "44px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(245, 245, 247)",
+      "rect": {
+        "x": 929.5,
+        "y": -2132,
+        "width": 295,
+        "height": 44,
+        "top": -2132,
+        "right": 1224.5,
+        "bottom": -2088,
+        "left": 929.5
+      }
+    },
+    {
+      "text": "Apple Trade In",
+      "class": "tile-headline logo-image",
+      "size": "40px",
+      "line": "44px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 230.5,
+        "y": -1536,
+        "width": 265,
+        "height": 49,
+        "top": -1536,
+        "right": 495.5,
+        "bottom": -1487,
+        "left": 230.5
+      }
+    },
+    {
+      "text": "Apple Card",
+      "class": "tile-headline logo-image",
+      "size": "40px",
+      "line": "44px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "rect": {
+        "x": 932,
+        "y": -1536,
+        "width": 290,
+        "height": 49,
+        "top": -1536,
+        "right": 1222,
+        "bottom": -1487,
+        "left": 932
+      }
+    },
+    {
+      "text": "Endless entertainment.",
+      "class": "media-gallery-headline",
+      "size": "56px",
+      "line": "60px",
+      "weight": "600",
+      "font": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": -948,
+        "width": 1440,
+        "height": 60,
+        "top": -948,
+        "right": 1440,
+        "bottom": -888,
+        "left": 0
+      }
+    },
+    {
+      "text": "Apple Footer",
+      "class": "ac-gf-label",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 230,
+        "y": -44,
+        "width": 1,
+        "height": 1,
+        "top": -44,
+        "right": 231,
+        "bottom": -43,
+        "left": 230
+      }
+    },
+    {
+      "text": "Shop and Learn\n\t\t\t\t\t\n\t\t\t\t\t\tShop and Learn",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 230,
+        "y": 433.75,
+        "width": 196,
+        "height": 16,
+        "top": 433.75,
+        "right": 426,
+        "bottom": 449.75,
+        "left": 230
+      }
+    },
+    {
+      "text": "Apple Wallet\n\t\t\t\t\t\n\t\t\t\t\t\tApple Wallet",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 230,
+        "y": 755.28125,
+        "width": 196,
+        "height": 16,
+        "top": 755.28125,
+        "right": 426,
+        "bottom": 771.28125,
+        "left": 230
+      }
+    },
+    {
+      "text": "Account\n\t\t\t\t\t\n\t\t\t\t\t\tAccount",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 426,
+        "y": 433.75,
+        "width": 196,
+        "height": 16,
+        "top": 433.75,
+        "right": 622,
+        "bottom": 449.75,
+        "left": 426
+      }
+    },
+    {
+      "text": "Entertainment\n\t\t\t\t\t\n\t\t\t\t\t\tEntertainment",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 426,
+        "y": 550.53125,
+        "width": 196,
+        "height": 16,
+        "top": 550.53125,
+        "right": 622,
+        "bottom": 566.53125,
+        "left": 426
+      }
+    },
+    {
+      "text": "Apple Store\n\t\t\t\t\t\n\t\t\t\t\t\tApple Store",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 622,
+        "y": 433.75,
+        "width": 196,
+        "height": 16,
+        "top": 433.75,
+        "right": 818,
+        "bottom": 449.75,
+        "left": 622
+      }
+    },
+    {
+      "text": "For Business\n\t\t\t\t\t\n\t\t\t\t\t\tFor Business",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 818,
+        "y": 433.75,
+        "width": 196,
+        "height": 16,
+        "top": 433.75,
+        "right": 1014,
+        "bottom": 449.75,
+        "left": 818
+      }
+    },
+    {
+      "text": "For Education\n\t\t\t\t\t\n\t\t\t\t\t\tFor Education",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 818,
+        "y": 524.9375,
+        "width": 196,
+        "height": 16,
+        "top": 524.9375,
+        "right": 1014,
+        "bottom": 540.9375,
+        "left": 818
+      }
+    },
+    {
+      "text": "For Healthcare\n\t\t\t\t\t\n\t\t\t\t\t\tFor Healthcare",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 818,
+        "y": 641.71875,
+        "width": 196,
+        "height": 16,
+        "top": 641.71875,
+        "right": 1014,
+        "bottom": 657.71875,
+        "left": 818
+      }
+    },
+    {
+      "text": "For Government\n\t\t\t\t\t\n\t\t\t\t\t\tFor Government",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 818,
+        "y": 707.3125,
+        "width": 196,
+        "height": 16,
+        "top": 707.3125,
+        "right": 1014,
+        "bottom": 723.3125,
+        "left": 818
+      }
+    },
+    {
+      "text": "Apple Values\n\t\t\t\t\t\n\t\t\t\t\t\tApple Values",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 1014,
+        "y": 433.75,
+        "width": 196,
+        "height": 16,
+        "top": 433.75,
+        "right": 1210,
+        "bottom": 449.75,
+        "left": 1014
+      }
+    },
+    {
+      "text": "About Apple\n\t\t\t\t\t\n\t\t\t\t\t\tAbout Apple",
+      "class": "ac-gf-directory-column-section-title",
+      "size": "12px",
+      "line": "16.0005px",
+      "weight": "400",
+      "font": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "rect": {
+        "x": 1014,
+        "y": 652.90625,
+        "width": 196,
+        "height": 16,
+        "top": 652.90625,
+        "right": 1210,
+        "bottom": 668.90625,
+        "left": 1014
+      }
+    }
+  ],
+  "backgrounds": [
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "radial-gradient(100% 33% at 0% 100%, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0))"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    },
+    {
+      "class": "media-gallery-contents",
+      "image": "linear-gradient(rgba(29, 29, 31, 0.4) 0%, rgba(29, 29, 31, 0) 70px, rgba(29, 29, 31, 0) calc(100% - 70px), rgba(29, 29, 31, 0.4) 100%)"
+    }
+  ],
+  "navigation": [
+    {
+      "text": "Apple",
+      "label": "Apple",
+      "href": "https://www.apple.com/"
+    },
+    {
+      "text": "Store",
+      "label": "Store",
+      "href": "https://www.apple.com/us/shop/goto/store"
+    },
+    {
+      "text": "Shop the Latest",
+      "label": "Shop the latest Apple products",
+      "href": "https://www.apple.com/us/shop/goto/store"
+    },
+    {
+      "text": "Mac",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_mac"
+    },
+    {
+      "text": "iPad",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_ipad"
+    },
+    {
+      "text": "iPhone",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_iphone"
+    },
+    {
+      "text": "Apple Watch",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_watch"
+    },
+    {
+      "text": "Apple Vision Pro",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_vision"
+    },
+    {
+      "text": "AirPods",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/airpods/accessories"
+    },
+    {
+      "text": "Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_accessories"
+    },
+    {
+      "text": "Find a Store",
+      "label": null,
+      "href": "https://www.apple.com/retail/"
+    },
+    {
+      "text": "Order Status",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/order/list"
+    },
+    {
+      "text": "Apple Upgrade",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/apple_upgrade"
+    },
+    {
+      "text": "Apple Trade In",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/trade_in"
+    },
+    {
+      "text": "Financing",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/payment_plan"
+    },
+    {
+      "text": "Personal Setup",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/personal_setup"
+    },
+    {
+      "text": "College Student Offer",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/edu_store"
+    },
+    {
+      "text": "Certified Refurbished",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/special_deals"
+    },
+    {
+      "text": "Education",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/educationrouting"
+    },
+    {
+      "text": "Business",
+      "label": null,
+      "href": "https://www.apple.com/retail/business/"
+    },
+    {
+      "text": "Veterans and Military",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary"
+    },
+    {
+      "text": "Government",
+      "label": null,
+      "href": "https://www.apple.com/r/store/government/"
+    },
+    {
+      "text": "Mac",
+      "label": "Mac",
+      "href": "https://www.apple.com/mac/"
+    },
+    {
+      "text": "Explore All Mac",
+      "label": null,
+      "href": "https://www.apple.com/mac/"
+    },
+    {
+      "text": "MacBook Neo",
+      "label": null,
+      "href": "https://www.apple.com/macbook-neo/"
+    },
+    {
+      "text": "MacBook Air",
+      "label": null,
+      "href": "https://www.apple.com/macbook-air/"
+    },
+    {
+      "text": "MacBook Pro",
+      "label": null,
+      "href": "https://www.apple.com/macbook-pro/"
+    },
+    {
+      "text": "iMac",
+      "label": "iMac",
+      "href": "https://www.apple.com/imac/"
+    },
+    {
+      "text": "Mac mini",
+      "label": null,
+      "href": "https://www.apple.com/mac-mini/"
+    },
+    {
+      "text": "Mac Studio",
+      "label": null,
+      "href": "https://www.apple.com/mac-studio/"
+    },
+    {
+      "text": "Displays",
+      "label": null,
+      "href": "https://www.apple.com/displays/"
+    },
+    {
+      "text": "Compare Mac",
+      "label": null,
+      "href": "https://www.apple.com/mac/compare/"
+    },
+    {
+      "text": "Switch from PC to Mac",
+      "label": null,
+      "href": "https://www.apple.com/mac/mac-does-that/"
+    },
+    {
+      "text": "Shop Mac",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_mac"
+    },
+    {
+      "text": "Help Me Choose",
+      "label": null,
+      "href": "https://www.apple.com/mac/best-mac/"
+    },
+    {
+      "text": "Mac Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/mac/accessories"
+    },
+    {
+      "text": "Apple Upgrade",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/apple_upgrade"
+    },
+    {
+      "text": "Apple Trade In",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/trade_in#mac"
+    },
+    {
+      "text": "Financing",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/payment_plan"
+    },
+    {
+      "text": "Personal Setup",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/personal_setup"
+    },
+    {
+      "text": "College Student Offer",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/edu_store"
+    },
+    {
+      "text": "Mac Support",
+      "label": null,
+      "href": "https://support.apple.com/mac?cid=gn-ols-mac-psp-prodfly"
+    },
+    {
+      "text": "AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=mac"
+    },
+    {
+      "text": "macOS 27 Preview",
+      "label": null,
+      "href": "https://www.apple.com/os/macos/"
+    },
+    {
+      "text": "Apple Intelligence and Siri",
+      "label": null,
+      "href": "https://www.apple.com/apple-intelligence/"
+    },
+    {
+      "text": "Apps by Apple",
+      "label": null,
+      "href": "https://www.apple.com/apps/"
+    },
+    {
+      "text": "Apple Creator Studio",
+      "label": null,
+      "href": "https://www.apple.com/apple-creator-studio/"
+    },
+    {
+      "text": "Better with iPhone",
+      "label": null,
+      "href": "https://www.apple.com/macos/continuity/"
+    },
+    {
+      "text": "iCloud+",
+      "label": null,
+      "href": "https://www.apple.com/icloud/"
+    },
+    {
+      "text": "Mac for Business",
+      "label": null,
+      "href": "https://www.apple.com/business/mac/"
+    },
+    {
+      "text": "Education",
+      "label": null,
+      "href": "https://www.apple.com/education/"
+    },
+    {
+      "text": "Apple at Work",
+      "label": null,
+      "href": "https://www.apple.com/business/"
+    },
+    {
+      "text": "iPad",
+      "label": "iPad",
+      "href": "https://www.apple.com/ipad/"
+    },
+    {
+      "text": "Explore All iPad",
+      "label": null,
+      "href": "https://www.apple.com/ipad/"
+    },
+    {
+      "text": "iPad Pro",
+      "label": null,
+      "href": "https://www.apple.com/ipad-pro/"
+    },
+    {
+      "text": "iPad Air",
+      "label": null,
+      "href": "https://www.apple.com/ipad-air/"
+    },
+    {
+      "text": "iPad",
+      "label": "iPad-11",
+      "href": "https://www.apple.com/ipad-11/"
+    },
+    {
+      "text": "iPad mini",
+      "label": null,
+      "href": "https://www.apple.com/ipad-mini/"
+    },
+    {
+      "text": "Apple Pencil",
+      "label": null,
+      "href": "https://www.apple.com/apple-pencil/"
+    },
+    {
+      "text": "Keyboards",
+      "label": null,
+      "href": "https://www.apple.com/ipad-keyboards/"
+    },
+    {
+      "text": "Compare iPad",
+      "label": null,
+      "href": "https://www.apple.com/ipad/compare/"
+    },
+    {
+      "text": "Shop iPad",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_ipad"
+    },
+    {
+      "text": "iPad Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/ipad/accessories"
+    },
+    {
+      "text": "Apple Upgrade",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/apple_upgrade"
+    },
+    {
+      "text": "Apple Trade In",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/trade_in#ipad"
+    },
+    {
+      "text": "Financing",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/payment_plan"
+    },
+    {
+      "text": "Personal Setup",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/personal_setup"
+    },
+    {
+      "text": "College Student Offer",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/edu_store"
+    },
+    {
+      "text": "iPad Support",
+      "label": null,
+      "href": "https://support.apple.com/ipad?cid=gn-ols-ipad-psp-prodfly"
+    },
+    {
+      "text": "AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=ipad"
+    },
+    {
+      "text": "iPadOS 27 Preview",
+      "label": null,
+      "href": "https://www.apple.com/os/ipados/"
+    },
+    {
+      "text": "Apple Intelligence and Siri",
+      "label": null,
+      "href": "https://www.apple.com/apple-intelligence/"
+    },
+    {
+      "text": "Apps by Apple",
+      "label": null,
+      "href": "https://www.apple.com/apps/"
+    },
+    {
+      "text": "Apple Creator Studio",
+      "label": null,
+      "href": "https://www.apple.com/apple-creator-studio/"
+    },
+    {
+      "text": "iCloud+",
+      "label": null,
+      "href": "https://www.apple.com/icloud/"
+    },
+    {
+      "text": "Education",
+      "label": null,
+      "href": "https://www.apple.com/education/"
+    },
+    {
+      "text": "Apple at Work",
+      "label": null,
+      "href": "https://www.apple.com/business/"
+    },
+    {
+      "text": "iPhone",
+      "label": "iPhone",
+      "href": "https://www.apple.com/iphone/"
+    },
+    {
+      "text": "Explore All iPhone",
+      "label": null,
+      "href": "https://www.apple.com/iphone/"
+    },
+    {
+      "text": "iPhone 17 Pro",
+      "label": null,
+      "href": "https://www.apple.com/iphone-17-pro/"
+    },
+    {
+      "text": "iPhone Air",
+      "label": null,
+      "href": "https://www.apple.com/iphone-air/"
+    },
+    {
+      "text": "iPhone 17",
+      "label": null,
+      "href": "https://www.apple.com/iphone-17/"
+    },
+    {
+      "text": "iPhone 17e",
+      "label": null,
+      "href": "https://www.apple.com/iphone-17e/"
+    },
+    {
+      "text": "iPhone 16",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_iphone/iphone_16"
+    },
+    {
+      "text": "Compare iPhone",
+      "label": null,
+      "href": "https://www.apple.com/iphone/compare/"
+    },
+    {
+      "text": "Switch from Android",
+      "label": null,
+      "href": "https://www.apple.com/iphone/switch/"
+    },
+    {
+      "text": "Shop iPhone",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_iphone"
+    },
+    {
+      "text": "iPhone Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/iphone/accessories"
+    },
+    {
+      "text": "Apple Upgrade",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/apple_upgrade"
+    },
+    {
+      "text": "Apple Trade In",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/trade_in#iphone"
+    },
+    {
+      "text": "Carrier Deals at Apple",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers"
+    },
+    {
+      "text": "Financing",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/payment_plan"
+    },
+    {
+      "text": "Personal Setup",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/personal_setup"
+    },
+    {
+      "text": "iPhone Support",
+      "label": null,
+      "href": "https://support.apple.com/iphone?cid=gn-ols-iphone-psp-prodfly"
+    },
+    {
+      "text": "AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=iphone"
+    },
+    {
+      "text": "iOS 27 Preview",
+      "label": null,
+      "href": "https://www.apple.com/os/ios/"
+    },
+    {
+      "text": "Apple Intelligence and Siri",
+      "label": null,
+      "href": "https://www.apple.com/apple-intelligence/"
+    },
+    {
+      "text": "Apps by Apple",
+      "label": null,
+      "href": "https://www.apple.com/apps/"
+    },
+    {
+      "text": "iPhone Privacy",
+      "label": null,
+      "href": "https://www.apple.com/privacy/"
+    },
+    {
+      "text": "Better with Mac",
+      "label": null,
+      "href": "https://www.apple.com/macos/continuity/"
+    },
+    {
+      "text": "iCloud+",
+      "label": null,
+      "href": "https://www.apple.com/icloud/"
+    },
+    {
+      "text": "Wallet, Pay, Card",
+      "label": null,
+      "href": "https://www.apple.com/wallet/"
+    },
+    {
+      "text": "Apple at Work",
+      "label": null,
+      "href": "https://www.apple.com/business/"
+    },
+    {
+      "text": "Watch",
+      "label": "Watch",
+      "href": "https://www.apple.com/watch/"
+    },
+    {
+      "text": "Explore All Apple Watch",
+      "label": null,
+      "href": "https://www.apple.com/watch/"
+    },
+    {
+      "text": "Apple Watch Series 11",
+      "label": null,
+      "href": "https://www.apple.com/apple-watch-series-11/"
+    },
+    {
+      "text": "Apple Watch SE 3",
+      "label": null,
+      "href": "https://www.apple.com/apple-watch-se-3/"
+    },
+    {
+      "text": "Apple Watch Ultra 3",
+      "label": null,
+      "href": "https://www.apple.com/apple-watch-ultra-3/"
+    },
+    {
+      "text": "Apple Watch Nike",
+      "label": null,
+      "href": "https://www.apple.com/apple-watch-nike/"
+    },
+    {
+      "text": "Apple Watch Hermès",
+      "label": null,
+      "href": "https://www.apple.com/apple-watch-hermes/"
+    },
+    {
+      "text": "Compare Watch",
+      "label": null,
+      "href": "https://www.apple.com/watch/compare/"
+    },
+    {
+      "text": "Why Apple Watch",
+      "label": null,
+      "href": "https://www.apple.com/watch/why-apple-watch/"
+    },
+    {
+      "text": "Shop Apple Watch",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_watch"
+    },
+    {
+      "text": "Apple Watch Bands",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/watch/bands"
+    },
+    {
+      "text": "Apple Watch Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/watch/accessories"
+    },
+    {
+      "text": "Apple Upgrade",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/apple_upgrade"
+    },
+    {
+      "text": "Apple Trade In",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/trade_in#watch"
+    },
+    {
+      "text": "Financing",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/payment_plan"
+    },
+    {
+      "text": "Personal Setup",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/personal_setup"
+    },
+    {
+      "text": "Apple Watch Support",
+      "label": null,
+      "href": "https://support.apple.com/watch?cid=gn-ols-watch-psp-prodfly"
+    },
+    {
+      "text": "AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=watch"
+    },
+    {
+      "text": "watchOS 27 Preview",
+      "label": null,
+      "href": "https://www.apple.com/os/watchos/"
+    },
+    {
+      "text": "Apple Watch For Your Kids",
+      "label": null,
+      "href": "https://www.apple.com/apple-watch-for-your-kids/"
+    },
+    {
+      "text": "Apps by Apple",
+      "label": null,
+      "href": "https://www.apple.com/apps/"
+    },
+    {
+      "text": "Apple Fitness+",
+      "label": null,
+      "href": "https://www.apple.com/apple-fitness-plus/"
+    },
+    {
+      "text": "Education",
+      "label": null,
+      "href": "https://www.apple.com/education/"
+    },
+    {
+      "text": "Vision",
+      "label": "Vision",
+      "href": "https://www.apple.com/apple-vision-pro/"
+    },
+    {
+      "text": "Explore Apple Vision Pro",
+      "label": null,
+      "href": "https://www.apple.com/apple-vision-pro/"
+    },
+    {
+      "text": "Tech Specs",
+      "label": null,
+      "href": "https://www.apple.com/apple-vision-pro/specs/"
+    },
+    {
+      "text": "Shop Apple Vision Pro",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_vision"
+    },
+    {
+      "text": "Apple Vision Pro Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/vision/accessories"
+    },
+    {
+      "text": "Book a Demo",
+      "label": null,
+      "href": "https://www.apple.com/retail/instore-shopping-session/session-selection/?topic=visionpro"
+    },
+    {
+      "text": "Financing",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/payment_plan"
+    },
+    {
+      "text": "Personal Setup",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/personal_setup"
+    },
+    {
+      "text": "Apple Vision Pro Support",
+      "label": null,
+      "href": "https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-prodfly"
+    },
+    {
+      "text": "AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=apple-vision-pro"
+    },
+    {
+      "text": "visionOS 27 Preview",
+      "label": null,
+      "href": "https://www.apple.com/os/visionos/"
+    },
+    {
+      "text": "Apple Vision Pro for Enterprise",
+      "label": null,
+      "href": "https://www.apple.com/business/enterprise/apple-vision-pro/"
+    },
+    {
+      "text": "AirPods",
+      "label": "AirPods",
+      "href": "https://www.apple.com/airpods/"
+    },
+    {
+      "text": "Explore All AirPods",
+      "label": null,
+      "href": "https://www.apple.com/airpods/"
+    },
+    {
+      "text": "AirPods 4",
+      "label": null,
+      "href": "https://www.apple.com/airpods-4/"
+    },
+    {
+      "text": "AirPods Pro 3",
+      "label": null,
+      "href": "https://www.apple.com/airpods-pro/"
+    },
+    {
+      "text": "AirPods Max 2",
+      "label": null,
+      "href": "https://www.apple.com/airpods-max/"
+    },
+    {
+      "text": "Compare AirPods",
+      "label": null,
+      "href": "https://www.apple.com/airpods/compare/"
+    },
+    {
+      "text": "Shop AirPods",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all_accessories/headphones_speakers?fh=47d1%2B3214%2B45aa%2B45ab&f=apple-overear-sport&page=1"
+    },
+    {
+      "text": "AirPods Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/airpods/accessories"
+    },
+    {
+      "text": "AirPods Support",
+      "label": null,
+      "href": "https://support.apple.com/airpods?cid=gn-ols-airpods-psp-prodfly"
+    },
+    {
+      "text": "AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=headphones"
+    },
+    {
+      "text": "Hearing Health",
+      "label": null,
+      "href": "https://www.apple.com/airpods-pro/hearing-health/"
+    },
+    {
+      "text": "Apple Music",
+      "label": null,
+      "href": "https://www.apple.com/apple-music/"
+    },
+    {
+      "text": "Apple Fitness+",
+      "label": null,
+      "href": "https://www.apple.com/apple-fitness-plus/"
+    },
+    {
+      "text": "TV & Home",
+      "label": "TV and Home",
+      "href": "https://www.apple.com/tv-home/"
+    },
+    {
+      "text": "Explore TV & Home",
+      "label": null,
+      "href": "https://www.apple.com/tv-home/"
+    },
+    {
+      "text": "Apple TV 4K",
+      "label": null,
+      "href": "https://www.apple.com/apple-tv-4k/"
+    },
+    {
+      "text": "HomePod",
+      "label": null,
+      "href": "https://www.apple.com/homepod-2nd-generation/"
+    },
+    {
+      "text": "HomePod mini",
+      "label": null,
+      "href": "https://www.apple.com/homepod-mini/"
+    },
+    {
+      "text": "Shop Apple TV 4K",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_tv/apple_tv_4k"
+    },
+    {
+      "text": "Shop HomePod",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_homepod/homepod"
+    },
+    {
+      "text": "Shop HomePod mini",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/buy_homepod/homepod_mini"
+    },
+    {
+      "text": "Shop Siri Remote",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/product/MW5G3"
+    },
+    {
+      "text": "TV & Home Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/smart_home/accessories"
+    },
+    {
+      "text": "Apple TV Support",
+      "label": null,
+      "href": "https://support.apple.com/apple-tv?cid=gn-ols-appletv-psp-prodfly"
+    },
+    {
+      "text": "HomePod Support",
+      "label": null,
+      "href": "https://support.apple.com/homepod?cid=gn-ols-homepod-psp-prodfly"
+    },
+    {
+      "text": "AppleCare for Apple TV",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=tv"
+    },
+    {
+      "text": "AppleCare for HomePod",
+      "label": null,
+      "href": "https://www.apple.com/applecare/?filter=homepod"
+    },
+    {
+      "text": "Apple TV app",
+      "label": null,
+      "href": "https://www.apple.com/apple-tv-app/"
+    },
+    {
+      "text": "Apple TV",
+      "label": null,
+      "href": "https://www.apple.com/apple-tv/"
+    },
+    {
+      "text": "Home app",
+      "label": null,
+      "href": "https://www.apple.com/home-app/"
+    },
+    {
+      "text": "Apple Music",
+      "label": null,
+      "href": "https://www.apple.com/apple-music/"
+    },
+    {
+      "text": "AirPlay",
+      "label": null,
+      "href": "https://www.apple.com/airplay/"
+    },
+    {
+      "text": "Entertainment",
+      "label": "Entertainment",
+      "href": "https://www.apple.com/entertainment/"
+    },
+    {
+      "text": "Explore Entertainment",
+      "label": null,
+      "href": "https://www.apple.com/services/"
+    },
+    {
+      "text": "Apple One",
+      "label": null,
+      "href": "https://www.apple.com/apple-one/"
+    },
+    {
+      "text": "Apple TV",
+      "label": null,
+      "href": "https://www.apple.com/apple-tv/"
+    },
+    {
+      "text": "Apple Music",
+      "label": null,
+      "href": "https://www.apple.com/apple-music/"
+    },
+    {
+      "text": "Apple Arcade",
+      "label": null,
+      "href": "https://www.apple.com/apple-arcade/"
+    },
+    {
+      "text": "Apple Fitness+",
+      "label": null,
+      "href": "https://www.apple.com/apple-fitness-plus/"
+    },
+    {
+      "text": "Apple News+",
+      "label": null,
+      "href": "https://www.apple.com/apple-news/"
+    },
+    {
+      "text": "Apple Podcasts",
+      "label": null,
+      "href": "https://www.apple.com/apple-podcasts/"
+    },
+    {
+      "text": "Apple Books",
+      "label": null,
+      "href": "https://www.apple.com/apple-books/"
+    },
+    {
+      "text": "App Store",
+      "label": null,
+      "href": "https://www.apple.com/app-store/"
+    },
+    {
+      "text": "Apple TV Support",
+      "label": null,
+      "href": "https://support.apple.com/tv?cid=gn-ols-tv-psp-prodfly"
+    },
+    {
+      "text": "Apple Music Support",
+      "label": null,
+      "href": "https://support.apple.com/music?cid=gn-ols-music-psp-prodfly"
+    },
+    {
+      "text": "Accessories",
+      "label": "Accessories",
+      "href": "https://www.apple.com/us/shop/goto/buy_accessories"
+    },
+    {
+      "text": "Shop All Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all"
+    },
+    {
+      "text": "iPhone",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/iphone/accessories"
+    },
+    {
+      "text": "iPad",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/ipad/accessories"
+    },
+    {
+      "text": "Mac",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/mac/accessories"
+    },
+    {
+      "text": "Apple Watch",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/watch/accessories"
+    },
+    {
+      "text": "Apple Vision Pro",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/vision/accessories"
+    },
+    {
+      "text": "AirPods",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/airpods/accessories"
+    },
+    {
+      "text": "TV & Home",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/tv/accessories"
+    },
+    {
+      "text": "AirTag",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/airtag/accessories"
+    },
+    {
+      "text": "Beats",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/beats/accessories"
+    },
+    {
+      "text": "Headphones & Speakers",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/headphones_speakers"
+    },
+    {
+      "text": "Chargers & Adapters",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/chargers_adapters"
+    },
+    {
+      "text": "Smart Home Essentials",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/homekit"
+    },
+    {
+      "text": "Cases & Protection",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/cases_protection"
+    },
+    {
+      "text": "Content Creation",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/content_creation"
+    },
+    {
+      "text": "Gaming",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/gaming"
+    },
+    {
+      "text": "Hard Drives & Storage",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/drives_storage"
+    },
+    {
+      "text": "Mice & Keyboards",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/mice_keyboards"
+    },
+    {
+      "text": "Health & Fitness",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/health_fitness"
+    },
+    {
+      "text": "Office Accessories",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/office"
+    },
+    {
+      "text": "Software",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/software"
+    },
+    {
+      "text": "New Arrivals",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/new_arrivals"
+    },
+    {
+      "text": "Made by Apple",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/made_by_apple"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/accessories/all/accessibility"
+    },
+    {
+      "text": "Assistive Technologies",
+      "label": null,
+      "href": "https://www.apple.com/accessibility/assistive-technologies/"
+    },
+    {
+      "text": "Support",
+      "label": "Support",
+      "href": "https://support.apple.com/?cid=gn-ols-home-hp-tab"
+    },
+    {
+      "text": "iPhone",
+      "label": null,
+      "href": "https://support.apple.com/iphone?cid=gn-ols-iphone-psp-explore"
+    },
+    {
+      "text": "Mac",
+      "label": null,
+      "href": "https://support.apple.com/mac?cid=gn-ols-mac-psp-explore"
+    },
+    {
+      "text": "iPad",
+      "label": null,
+      "href": "https://support.apple.com/ipad?cid=gn-ols-ipad-psp-explore"
+    },
+    {
+      "text": "Watch",
+      "label": null,
+      "href": "https://support.apple.com/watch?cid=gn-ols-watch-psp-explore"
+    },
+    {
+      "text": "Apple Vision Pro",
+      "label": null,
+      "href": "https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-explore"
+    },
+    {
+      "text": "AirPods",
+      "label": null,
+      "href": "https://support.apple.com/airpods?cid=gn-ols-airpods-psp-explore"
+    },
+    {
+      "text": "Music",
+      "label": null,
+      "href": "https://support.apple.com/music?cid=gn-ols-music-psp-explore"
+    },
+    {
+      "text": "TV",
+      "label": null,
+      "href": "https://support.apple.com/tv?cid=gn-ols-tv-psp-explore"
+    },
+    {
+      "text": "Explore Support",
+      "label": null,
+      "href": "https://support.apple.com/?cid=gn-ols-home-hp-explore"
+    },
+    {
+      "text": "Community",
+      "label": null,
+      "href": "https://discussions.apple.com/welcome?cid=gn-com-community-lp-get_help"
+    },
+    {
+      "text": "Check Coverage",
+      "label": null,
+      "href": "https://checkcoverage.apple.com/us/en?cid=gn-ols-checkcoverage-lp-get_help"
+    },
+    {
+      "text": "Genius Bar",
+      "label": null,
+      "href": "https://www.apple.com/retail/geniusbar/"
+    },
+    {
+      "text": "Repair",
+      "label": null,
+      "href": "https://support.apple.com/repair?cid=gn-ols-repair-lp-get_help"
+    },
+    {
+      "text": "Get AppleCare",
+      "label": null,
+      "href": "https://www.apple.com/applecare/"
+    },
+    {
+      "text": "Apple Account and Password",
+      "label": null,
+      "href": "https://support.apple.com/apple-account?cid=gn-ols-appleaccount-psp-helpful_topics"
+    },
+    {
+      "text": "Billing & Subscriptions",
+      "label": null,
+      "href": "https://support.apple.com/billing?cid=gn-ols-billing-collection-helpful_topics"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "href": "https://support.apple.com/accessibility?cid=gn-ols-accessibility-psp-helpful_topics"
+    },
+    {
+      "text": "",
+      "label": "Search apple.com",
+      "href": "https://www.apple.com/us/search"
+    },
+    {
+      "text": "Find a Store",
+      "label": null,
+      "href": "https://www.apple.com/retail/"
+    },
+    {
+      "text": "Apple Vision Pro",
+      "label": null,
+      "href": "https://www.apple.com/apple-vision-pro/"
+    },
+    {
+      "text": "AirPods",
+      "label": null,
+      "href": "https://www.apple.com/airpods/"
+    },
+    {
+      "text": "Apple Intelligence",
+      "label": null,
+      "href": "https://www.apple.com/apple-intelligence/"
+    },
+    {
+      "text": "Apple Trade In",
+      "label": null,
+      "href": "https://www.apple.com/us/shop/goto/trade_in"
+    },
+    {
+      "text": "0+",
+      "label": "Shopping Bag",
+      "href": "https://www.apple.com/us/shop/goto/bag"
+    }
+  ],
+  "footer": "Apple Footer\n* Available for Qualified Purchasers only. Qualified Purchasers receive an Apple Gift Card when they purchase an eligible Mac or iPad (“Eligible Product”) at a Qualifying Location through September 24, 2026. Gift card values may vary by Eligible Product. Customers will receive a discount equal to the value of the Apple Gift Card off the price of the Eligible Product, but will be charged for all items in their cart, including the Apple Gift Card. Only one Apple Gift Card per Eligible Product per Qualified Purchaser. Offer subject to availability. While supplies last. Additional restrictions apply. View full offer terms here.\nTrade‑in values will vary based on the condition, year, and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit or for an Apple Gift Card. Trade‑in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In‑store trade‑in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores and may vary between in‑store and online trade‑in. Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade-in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.\n\nTo access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.\n\nApple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Goldman Sachs Bank USA for Apple Card and Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC is a bank.\n\nAll communications from Apple and Goldman Sachs Bank USA about Apple Card (including transactional and marketing communications) and customer service support are available in English. Certain communications about Apple Card can be viewed in another language depending on your device language settings. If you reside in the U.S. Virgin Islands, American Samoa, Guam, Northern Mariana Islands, or U.S. Minor Outlying Islands, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.\n\nLearn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.\nA subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV.\nFeatures are subject to change. Some features, applications, and services may not be available in all regions or all languages.\nShop and Learn\nStore\nMac\niPad\niPhone\nWatch\nVision\nAirPods\nTV & Home\nAirTag\nAccessories\nGift Cards\nApple Wallet\nWallet\nApple Card\nApple Pay\nApple Cash\nAccount\nManage Your Apple Account\nApple Store Account\niCloud.com\nEntertainment\nApple One\nApple TV\nApple Music\nApple Arcade\nApple Fitness+\nApple News+\nApple Podcasts\nApple Books\nApp Store\nApple Store\nFind a Store\nGenius Bar\nToday at Apple\nGroup Reservations\nApple Camp\nApple Store App\nCertified Refurbished\nApple Upgrade\nApple Trade In\nFinancing\nCarrier Deals at Apple\nOrder Status\nShopping Help\nFor Business\nApple and Business\nShop for Business\nFor Education\nApple and Education\nShop for K-12\nShop for College\nFor Healthcare\nApple and Healthcare\nFor Government\nApple and Government\nShop for Veterans and Military\nShop for State and Local Employees\nShop for Federal Employees\nApple Values\nAccessibility\nEducation\nEnvironment\nInclusion and Diversity\nPrivacy\nRacial Equity and Justice\nSupply Chain Innovation\nAbout Apple\nNewsroom\nApple Leadership\nCareer Opportunities\nInvestors\nEthics & Compliance\nEvents\nContact Apple\nMore ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE (1-800-692-7753).\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy Terms of Use Sales and Refunds Legal Site Map\nUnited States"
+}

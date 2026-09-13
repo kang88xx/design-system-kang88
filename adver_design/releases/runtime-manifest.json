@@ -1,0 +1,135 @@
+{
+  "name": "adver-design-system",
+  "version": "1.0.0",
+  "entry": "starter/index.html",
+  "runtime": "Vanilla DOM/CSS, no package dependencies",
+  "scope": "Authored runtime, scoped tokens, component fragments and starter. No page-kit, original X/Recent assets, proprietary fonts, recording or source-browser research data.",
+  "components": 13,
+  "files": [
+    {
+      "path": "design-system/tokens.scoped.css",
+      "bytes": 2790,
+      "sha256": "a5a472dda6a58641959acb77feaebed5f189b1d847cdb27ad6f443d79b328e86"
+    },
+    {
+      "path": "design-system/tokens.json",
+      "bytes": 7140,
+      "sha256": "907f796966909c29fa74b2b71cfd9709ce1982cc78e3e42b16aa59947271306f"
+    },
+    {
+      "path": "design-system/motion-kit.css",
+      "bytes": 16152,
+      "sha256": "626e315f8399fd7ed167a30606bfe11a6ef2ec971761563fc8d2b756b3d9aef7"
+    },
+    {
+      "path": "design-system/motion-kit.js",
+      "bytes": 19712,
+      "sha256": "3dfc0cbaa3371c7687c98e47ec2b1c9317cfc12d2a16021aa089a29e50197415"
+    },
+    {
+      "path": "design-system/interaction-kit.css",
+      "bytes": 16708,
+      "sha256": "9b11e3c900c536afe319793e61d6bcca9aee6dfe93f633a4de33ef00fe80fe9e"
+    },
+    {
+      "path": "design-system/interaction-kit.js",
+      "bytes": 34528,
+      "sha256": "5aa92d96706b6150d7f2d40089fbfd458ab4b9f55fa957d007be175cb7c57a71"
+    },
+    {
+      "path": "design-system/components.js",
+      "bytes": 29850,
+      "sha256": "1fcf83c2a9760c43e0f296411390137064c3ca22d7933ba5917fc41dcd744837"
+    },
+    {
+      "path": "design-system/components.json",
+      "bytes": 30848,
+      "sha256": "d61d3a965b76fbb149e3c5a66fabc43122faf4d4e8173423feb3f676a249f7e9"
+    },
+    {
+      "path": "starter/index.html",
+      "bytes": 2338,
+      "sha256": "10e57b9f93508914bfee0e6fa3ebb0c689934fa7afd4c4bf62658ee0e2020b5d"
+    },
+    {
+      "path": "starter/app.css",
+      "bytes": 3554,
+      "sha256": "8bc84ad75008b2ab961e393c2a481f3bfdf33413ff9ac80ce735b7eb12a65a18"
+    },
+    {
+      "path": "starter/app.js",
+      "bytes": 3164,
+      "sha256": "82c3fceabe64d8195e3e6242c41c9946fb3b90346dd28f53be6abc035e535837"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 9426,
+      "sha256": "dd96ad52173a7a50c02ed81a72dae9568d357c2b599eecef1a8e5fbed4779e15"
+    },
+    {
+      "path": "components/hero.html",
+      "bytes": 1152,
+      "sha256": "23af3bded011880b6baf717d9b6aeaa3184b26bec353cd7006fb707e630b4098"
+    },
+    {
+      "path": "components/benefits.html",
+      "bytes": 3271,
+      "sha256": "25a723fe5f9ad713b0c2cfc111c40c60686e3bbee5812278fa0044079a3e136c"
+    },
+    {
+      "path": "components/orbit.html",
+      "bytes": 867,
+      "sha256": "7d3f52a3395daab090e54a53b1c6fa2ffe166b495cf4b696cb88bc17a94146d9"
+    },
+    {
+      "path": "components/metrics.html",
+      "bytes": 798,
+      "sha256": "9eab91b38d31170c81db0488496e1bb9a02bd0bec6fc5bb261073242b65ed9f9"
+    },
+    {
+      "path": "components/reveal.html",
+      "bytes": 902,
+      "sha256": "d6635fcb62abab1c01137c63235b10da53eb186138b589253781f7a60c3d8d8a"
+    },
+    {
+      "path": "components/formats.html",
+      "bytes": 1807,
+      "sha256": "a74c5343d0e2eeae8cce541db3d2d780f3c9c444da16f7d7a560f1ed8bd2eb44"
+    },
+    {
+      "path": "components/buttons.html",
+      "bytes": 1098,
+      "sha256": "cc7fdb3998f4caa602f0c3605871031370699f21fc7ccc7677f0b86cbc319ffd"
+    },
+    {
+      "path": "components/tabs.html",
+      "bytes": 2874,
+      "sha256": "c230299dc96f5a6d320b19679a758891c4f5ca441393c59e42f4dd4a4d764aa4"
+    },
+    {
+      "path": "components/carousel.html",
+      "bytes": 2127,
+      "sha256": "914b75917213297be51635b0ac75f9b797a771d2f9c6d3b41d41fab84b36dd8b"
+    },
+    {
+      "path": "components/form.html",
+      "bytes": 1784,
+      "sha256": "7a35ce04dc578b28c0331ebc154020fbae6c6d2202966d6b86b3b87b4f0debeb"
+    },
+    {
+      "path": "components/faq.html",
+      "bytes": 1889,
+      "sha256": "e8fcf7f4edb06bccc4ab819e7a63c2fb65b4ef1714c04754ac27587d4bc10ebd"
+    },
+    {
+      "path": "components/theme.html",
+      "bytes": 1343,
+      "sha256": "6a805ccf0c1579ece6f4d60c7af5f7a50f7309790a0e679aa3b2161566cff316"
+    },
+    {
+      "path": "components/navigation.html",
+      "bytes": 4135,
+      "sha256": "d8ab1625f97aab22c939c9dd4d0db6df5bdcf4230858045e119db023faf1a270"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "page": 21,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n21\nBATHROOM\nPOD\n\nArk Pods use light steel stud as frame and GRC floor tray, this\nsystem engineered for superior strength and accuracy.\nAll plumbing and electrical will be integrated and pretested code\ncompliant and ready for hookup.\n\nInternal finished by Tiles or paintings, various textures and colors\nof tiles/painting are available as per clients requirements.\nArk have common POD models as well as special designed for\ndifferent projects, according to the site research and client\nrequests.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "21",
+      "bbox": [
+        1855.508,
+        41.993,
+        1865.958,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1855.508,
+        51.313
+      ]
+    },
+    {
+      "text": "BATHROOM ",
+      "bbox": [
+        47.77,
+        27.221,
+        579.955,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "POD",
+      "bbox": [
+        47.77,
+        110.265,
+        239.87,
+        205.635
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.635
+      ]
+    },
+    {
+      "text": "Ark Pods use light steel stud as frame and GRC floor tray, this ",
+      "bbox": [
+        739.519,
+        42.75,
+        1232.303,
+        60.462
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        57.262
+      ]
+    },
+    {
+      "text": "system engineered for superior strength and accuracy. ",
+      "bbox": [
+        739.519,
+        65.278,
+        1175.823,
+        82.99
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        79.79
+      ]
+    },
+    {
+      "text": "All plumbing and electrical will be integrated and pretested code ",
+      "bbox": [
+        739.519,
+        87.806,
+        1259.168,
+        105.518
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        102.318
+      ]
+    },
+    {
+      "text": "compliant and ready for hookup.",
+      "bbox": [
+        739.519,
+        110.334,
+        998.719,
+        128.046
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        739.519,
+        124.846
+      ]
+    },
+    {
+      "text": "Internal finished by Tiles or paintings, various textures and colors ",
+      "bbox": [
+        1307.654,
+        42.75,
+        1826.295,
+        60.462
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        57.262
+      ]
+    },
+    {
+      "text": "of tiles/painting are available as per clients requirements. ",
+      "bbox": [
+        1307.654,
+        65.278,
+        1764.967,
+        82.99
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        79.79
+      ]
+    },
+    {
+      "text": "Ark have common POD models as well as special designed for ",
+      "bbox": [
+        1307.654,
+        87.806,
+        1806.327,
+        105.518
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        102.318
+      ]
+    },
+    {
+      "text": "different projects, according to the site research and client ",
+      "bbox": [
+        1307.654,
+        110.334,
+        1776.503,
+        128.046
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        124.846
+      ]
+    },
+    {
+      "text": "requests.",
+      "bbox": [
+        1307.654,
+        132.862,
+        1379.366,
+        150.574
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1307.654,
+        147.374
+      ]
+    }
+  ]
+}

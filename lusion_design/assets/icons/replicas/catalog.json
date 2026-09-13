@@ -1,0 +1,110 @@
+[
+  {
+    "id": "css-menu-dots",
+    "name": "메뉴 두 점",
+    "category": "replica",
+    "shape": "dots",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 18.4 18.4",
+    "path": "assets/icons/replicas/css-menu-dots.svg",
+    "source": "sources/site.css",
+    "selector": "#header-right-menu-btn-dots .header-right-menu-btn-dot",
+    "note": "1.15em 틀, .3125em 점. 원본 마지막 점 right:.1 은 단위 없는 무효값이므로 SVG 위치는 대칭으로 제안."
+  },
+  {
+    "id": "css-cta-dot",
+    "name": "CTA / 활성 표시 점",
+    "category": "replica",
+    "shape": "dot",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 16 16",
+    "path": "assets/icons/replicas/css-cta-dot.svg",
+    "source": "sources/site.css",
+    "selector": "#home-reel-cta-dot; .header-menu-link:before",
+    "note": ".5em 원; CTA hover 확대는 CSS 샘플에서 재현."
+  },
+  {
+    "id": "css-cross",
+    "name": "그리드 십자 표식",
+    "category": "replica",
+    "shape": "cross",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 16 16",
+    "path": "assets/icons/replicas/css-cross.svg",
+    "source": "sources/site.css",
+    "selector": ".home-reel-video-container-cross:before; .home-reel-video-container-cross:after",
+    "note": "원본 두 의사 요소: 길이 cross-size, 두께 .125 × cross-size."
+  },
+  {
+    "id": "css-team-dot-matrix",
+    "name": "팀 정보 11 × 3 점",
+    "category": "replica",
+    "shape": "dot-matrix",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 100 14",
+    "path": "assets/icons/replicas/css-team-dot-matrix.svg",
+    "source": "sources/site.css",
+    "selector": ".about-who-team-dot; #about-who-team-dots",
+    "note": "점 .125em, 컨테이너 6.25em × .875em. 11열 × 3행은 JS 생성 근거."
+  },
+  {
+    "id": "css-compass-ticks",
+    "name": "팀 나침반 눈금",
+    "category": "replica",
+    "shape": "ticks",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 100 12",
+    "path": "assets/icons/replicas/css-compass-ticks.svg",
+    "source": "sources/site.css",
+    "selector": ".about-who-team-top-compass-long; .about-who-team-top-compass-small",
+    "note": "긴 눈금 .75em / 짧은 눈금 .375em / 폭 .125em. 이 정적 샘플의 개수·간격은 제안."
+  },
+  {
+    "id": "css-dotted-rule",
+    "name": "서비스 점선 연결",
+    "category": "replica",
+    "shape": "dotted-line",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 120 8",
+    "path": "assets/icons/replicas/css-dotted-rule.svg",
+    "source": "sources/site.css",
+    "selector": ".about-capability-list-item:not(:last-child):before",
+    "note": "원본은 30개의 마침표 문자열, letter-spacing .125em, blue / opacity .2. SVG 원형 치환은 제안."
+  },
+  {
+    "id": "css-progress-track",
+    "name": "상세 진행 트랙",
+    "category": "replica",
+    "shape": "progress",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 120 4",
+    "path": "assets/icons/replicas/css-progress-track.svg",
+    "source": "sources/site.css",
+    "selector": "#project-details-preview-footer-bar-background; #project-details-preview-footer-bar-inner",
+    "note": "원본 3px 높이, scaleX 진행. 40% 상태는 샘플 제안."
+  },
+  {
+    "id": "canvas-sound-wave",
+    "name": "사운드 파형 · 켜짐",
+    "category": "replica",
+    "shape": "wave",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 48 48",
+    "path": "assets/icons/replicas/canvas-sound-wave.svg",
+    "source": "sources/site.js",
+    "selector": "#header-right-sound-btn canvas → Header.updateSoundWave",
+    "note": "원본 32분할 sin 파형, 폭 .4r, 진폭 .28r×volume, 선 .05r. time=0 / volume=1 정적 SVG 변환."
+  },
+  {
+    "id": "canvas-sound-muted",
+    "name": "사운드 파형 · 꺼짐",
+    "category": "replica",
+    "shape": "wave",
+    "evidence": "inferred-replica",
+    "viewBox": "0 0 48 48",
+    "path": "assets/icons/replicas/canvas-sound-muted.svg",
+    "source": "sources/site.js",
+    "selector": "#header-right-sound-btn canvas → Header.updateSoundWave",
+    "note": "원본 volume=0이면 진폭 0. 정적 SVG 변환."
+  }
+]

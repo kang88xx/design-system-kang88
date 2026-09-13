@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="economy-coins-title economy-coins-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="economy-coins-title">Economy coins icon</title>
+  <desc id="economy-coins-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[15],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientEconomyCoins" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientEconomyCoins)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="24" cy="16" rx="12" ry="5"/>
+    <path d="M12 16v17c0 2.8 5.4 5 12 5s12-2.2 12-5V16"/>
+    <path d="M12 24c0 2.8 5.4 5 12 5s12-2.2 12-5"/>
+    <path d="M12 31c0 2.8 5.4 5 12 5s12-2.2 12-5"/>
+    <path d="M24 12v8"/>
+    <path d="M20 17h8"/>
+  </g>
+</svg>

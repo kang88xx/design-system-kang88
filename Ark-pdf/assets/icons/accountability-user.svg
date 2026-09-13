@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="accountability-user-title accountability-user-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="accountability-user-title">Accountability user icon</title>
+  <desc id="accountability-user-desc">Newly constructed ARK Prefab outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[29],"family":"outline-utility","tone":"mono"}</metadata>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="21" cy="16" r="7"/>
+    <path d="M10 39c1.6-7 6.2-11 11-11 3.2 0 6.2 1.3 8.3 3.8"/>
+    <circle cx="34" cy="32" r="7"/>
+    <path d="m30.5 32 2.5 2.5 5-5"/>
+  </g>
+</svg>

@@ -1,0 +1,844 @@
+{
+  "page": 9,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\nConnects with clients around the world and ensures\nsmooth communication throughout the entire sales\nprocess. Represents the company’s image and delivers\nbrand value.\n\n9\nArk’s Shanghai Headquarters Is\nHome To Four Core Departments:\nSales, Technical, Quality Control,\nAnd General Affairs. Our\nBranches Operate With Sales At\nThe Core, Working Closely With\nHeadquarters To Seamlessly Meet\nThe Needs Of Customers\nWorldwide.\n\nTechnical\nDep.\n\nSales\nDep.\n\nQuality\nInspection\nDep.\n\nGeneral Affairs\nDep.\n\nResponsible for refining technical drawings and\ndeveloping innovative structures and products.\nDrives modular construction with expertise and\ninnovation.\n\nStrictly controls product quality to ensure every\nshipment meets company standards.\nPursues excellence and safeguards customer trust.\n\nManages the entire supply chain and controls\nproduction costs. Operates efficiently to support\nsustainable business growth.\n\nSERVICE\nTRUST\n\nINNOVATION\nEXPERTISE\n\nPRECISION\nSTANDARDS\n\nCOORDINATION\nEFFICIENCY",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "Connects with clients around the world and ensures ",
+      "bbox": [
+        1425.29,
+        41.51,
+        1841.386,
+        59.222
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        56.022
+      ]
+    },
+    {
+      "text": "smooth communication throughout the entire sales ",
+      "bbox": [
+        1425.29,
+        64.038,
+        1837.082,
+        81.75
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        78.55
+      ]
+    },
+    {
+      "text": "process. Represents the company’s image and delivers ",
+      "bbox": [
+        1425.29,
+        86.566,
+        1863.419,
+        104.278
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        101.078
+      ]
+    },
+    {
+      "text": "brand value.",
+      "bbox": [
+        1425.29,
+        109.094,
+        1522.09,
+        126.806
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        123.606
+      ]
+    },
+    {
+      "text": "9",
+      "bbox": [
+        1859.151,
+        43.672,
+        1865.771,
+        54.992
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1859.151,
+        52.992
+      ]
+    },
+    {
+      "text": "Ark’s Shanghai Headquarters Is ",
+      "bbox": [
+        53.641,
+        39.589,
+        677.797,
+        83.347
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        75.547
+      ]
+    },
+    {
+      "text": "Home To Four Core Departments: ",
+      "bbox": [
+        53.641,
+        90.952,
+        724.675,
+        134.71
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        126.91
+      ]
+    },
+    {
+      "text": "Sales, Technical, Quality Control, ",
+      "bbox": [
+        53.641,
+        142.315,
+        704.589,
+        186.073
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        178.273
+      ]
+    },
+    {
+      "text": "And General Affairs. Our ",
+      "bbox": [
+        53.641,
+        193.678,
+        544.963,
+        237.436
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        229.636
+      ]
+    },
+    {
+      "text": "Branches Operate With Sales At ",
+      "bbox": [
+        53.641,
+        245.041,
+        693.592,
+        288.799
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        280.999
+      ]
+    },
+    {
+      "text": "The Core, Working Closely With ",
+      "bbox": [
+        53.641,
+        296.404,
+        692.149,
+        340.162
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        332.362
+      ]
+    },
+    {
+      "text": "Headquarters To Seamlessly Meet ",
+      "bbox": [
+        53.641,
+        347.767,
+        726.118,
+        391.525
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        383.725
+      ]
+    },
+    {
+      "text": "The Needs Of Customers ",
+      "bbox": [
+        53.641,
+        399.13,
+        553.894,
+        442.888
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        435.088
+      ]
+    },
+    {
+      "text": "Worldwide.",
+      "bbox": [
+        53.641,
+        450.493,
+        278.164,
+        494.251
+      ],
+      "font": "Gotham-Medium",
+      "size": 39.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.641,
+        486.451
+      ]
+    },
+    {
+      "text": "Technical ",
+      "bbox": [
+        966.641,
+        286.148,
+        1091.116,
+        314.198
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        309.198
+      ]
+    },
+    {
+      "text": "Dep.",
+      "bbox": [
+        966.641,
+        318.948,
+        1024.516,
+        346.998
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        341.998
+      ]
+    },
+    {
+      "text": "Sales ",
+      "bbox": [
+        966.641,
+        39.743,
+        1039.566,
+        67.793
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        62.793
+      ]
+    },
+    {
+      "text": "Dep.",
+      "bbox": [
+        966.641,
+        72.543,
+        1024.516,
+        100.593
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        95.593
+      ]
+    },
+    {
+      "text": "Quality ",
+      "bbox": [
+        966.641,
+        532.554,
+        1065.016,
+        560.604
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        555.604
+      ]
+    },
+    {
+      "text": "Inspection ",
+      "bbox": [
+        966.641,
+        565.354,
+        1105.516,
+        593.404
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        588.404
+      ]
+    },
+    {
+      "text": "Dep.",
+      "bbox": [
+        966.641,
+        598.154,
+        1024.516,
+        626.203
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        621.203
+      ]
+    },
+    {
+      "text": "General Affairs ",
+      "bbox": [
+        966.641,
+        778.958,
+        1160.791,
+        807.008
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        802.008
+      ]
+    },
+    {
+      "text": "Dep.",
+      "bbox": [
+        966.641,
+        811.758,
+        1024.516,
+        839.808
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.641,
+        834.808
+      ]
+    },
+    {
+      "text": "Responsible for refining technical drawings and ",
+      "bbox": [
+        1425.29,
+        291.329,
+        1806.17,
+        309.041
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        305.841
+      ]
+    },
+    {
+      "text": "developing innovative structures and products. ",
+      "bbox": [
+        1425.29,
+        313.857,
+        1802.666,
+        331.569
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        328.369
+      ]
+    },
+    {
+      "text": "Drives modular construction with expertise and ",
+      "bbox": [
+        1425.29,
+        336.385,
+        1806.234,
+        354.097
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        350.897
+      ]
+    },
+    {
+      "text": "innovation.",
+      "bbox": [
+        1425.29,
+        358.913,
+        1512.026,
+        376.625
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        373.425
+      ]
+    },
+    {
+      "text": "Strictly controls product quality to ensure every ",
+      "bbox": [
+        1425.29,
+        534.309,
+        1809.611,
+        552.021
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        548.821
+      ]
+    },
+    {
+      "text": "shipment meets company standards. ",
+      "bbox": [
+        1425.29,
+        556.837,
+        1722.09,
+        574.549
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        571.349
+      ]
+    },
+    {
+      "text": "Pursues excellence and safeguards customer trust.",
+      "bbox": [
+        1425.29,
+        579.365,
+        1825.914,
+        597.077
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        593.877
+      ]
+    },
+    {
+      "text": "Manages the entire supply chain and controls ",
+      "bbox": [
+        1425.29,
+        780.708,
+        1789.61,
+        798.42
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        795.22
+      ]
+    },
+    {
+      "text": "production costs. Operates efficiently to support ",
+      "bbox": [
+        1425.29,
+        803.236,
+        1816.811,
+        820.948
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        817.748
+      ]
+    },
+    {
+      "text": "sustainable business growth.",
+      "bbox": [
+        1425.29,
+        825.764,
+        1652.346,
+        843.477
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1425.29,
+        840.276
+      ]
+    },
+    {
+      "text": "SERVICE",
+      "bbox": [
+        1452.131,
+        189.796,
+        1524.163,
+        207.908
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1452.131,
+        204.708
+      ]
+    },
+    {
+      "text": "TRUST",
+      "bbox": [
+        1597.472,
+        189.796,
+        1652.336,
+        207.908
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1597.472,
+        204.708
+      ]
+    },
+    {
+      "text": "INNOVATION",
+      "bbox": [
+        1449.151,
+        431.034,
+        1555.568,
+        449.146
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1449.151,
+        445.946
+      ]
+    },
+    {
+      "text": "EXPERTISE",
+      "bbox": [
+        1607.844,
+        432.034,
+        1700.068,
+        450.146
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1607.844,
+        446.946
+      ]
+    },
+    {
+      "text": "PRECISION",
+      "bbox": [
+        1441.755,
+        687.191,
+        1533.051,
+        705.303
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1441.755,
+        702.103
+      ]
+    },
+    {
+      "text": "STANDARDS",
+      "bbox": [
+        1572.815,
+        687.191,
+        1675.503,
+        705.303
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1572.815,
+        702.103
+      ]
+    },
+    {
+      "text": "COORDINATION",
+      "bbox": [
+        1442.462,
+        942.087,
+        1574.879,
+        960.199
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1442.462,
+        956.999
+      ]
+    },
+    {
+      "text": "EFFICIENCY",
+      "bbox": [
+        1617.586,
+        942.087,
+        1717.298,
+        960.199
+      ],
+      "font": "Gotham-Black",
+      "size": 16.0,
+      "color": "#EEC12B",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1617.586,
+        956.999
+      ]
+    }
+  ]
+}

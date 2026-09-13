@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-13T04:11:51.819Z",
+  "status": "passed",
+  "checks": [
+    "Send validation, escaped input, back preserves amount, confirm completion",
+    "Swap selected token, deterministic calculation, confirm",
+    "Receive sample-address copy",
+    "Collectibles keyboard favorite toggle and metadata",
+    "Watch input to sample read-only balances",
+    "Activity filters preserved when new item added",
+    "Onboarding all three methods complete without sensitive input",
+    "Mission control selection and group validation",
+    "Drag reorder and keyboard/touch alternative",
+    "All nine flows at desktop/tablet/mobile, correct original film mappings and no overflow",
+    "file:// direct-open interaction"
+  ],
+  "errors": [],
+  "failures": []
+}

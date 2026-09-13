@@ -1,0 +1,521 @@
+{
+  "page": 8,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n• Project managers bring insights from real-world\ninstallations to refine our processes.\n\nAt ARK, we take pride in every project we deliver.\nThank you for your trust—we’ll keep innovating to build\na better future together.\n\n8\nOUR TEAM\n\nGuided by product innovation and customer service\nexcellence, every ARKer collaborates to achieve the\nbest.\n• CAD designers craft precise and customer-centric\nbuilding solutions.\n• QC managers & R&D teams continuously innovate to\nenhance product quality and space efficiency.\n• Purchasing engineers source the best materials to\noptimize performance.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1426.556,
+        39.783,
+        1435.963,
+        61.569
+      ],
+      "font": "Gotham-Book",
+      "size": 19.68,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.556,
+        57.633
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1435.963,
+        41.51,
+        1442.556,
+        60.833
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1435.963,
+        57.633
+      ]
+    },
+    {
+      "text": "Project managers bring insights from real-world ",
+      "bbox": [
+        1442.556,
+        41.51,
+        1826.892,
+        59.222
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 5,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1442.556,
+        56.022
+      ]
+    },
+    {
+      "text": "installations to refine our processes. ",
+      "bbox": [
+        1442.556,
+        64.038,
+        1731.421,
+        81.75
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1442.556,
+        78.55
+      ]
+    },
+    {
+      "text": "At ARK, we take pride in every project we deliver. ",
+      "bbox": [
+        1426.556,
+        109.113,
+        1823.501,
+        126.825
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.556,
+        123.625
+      ]
+    },
+    {
+      "text": "Thank you for your trust—we’ll keep innovating to build ",
+      "bbox": [
+        1426.556,
+        131.641,
+        1869.229,
+        149.353
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.556,
+        146.153
+      ]
+    },
+    {
+      "text": "a better future together.",
+      "bbox": [
+        1426.556,
+        154.169,
+        1618.012,
+        171.881
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1426.556,
+        168.681
+      ]
+    },
+    {
+      "text": "8",
+      "bbox": [
+        1858.508,
+        41.993,
+        1864.808,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1858.508,
+        51.313
+      ]
+    },
+    {
+      "text": "OUR TEAM",
+      "bbox": [
+        52.364,
+        26.68,
+        516.974,
+        122.05
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.364,
+        105.05
+      ]
+    },
+    {
+      "text": "Guided by product innovation and customer service ",
+      "bbox": [
+        967.002,
+        41.51,
+        1383.755,
+        59.222
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.002,
+        56.022
+      ]
+    },
+    {
+      "text": "excellence, every ARKer collaborates to achieve the ",
+      "bbox": [
+        967.002,
+        64.038,
+        1380.107,
+        81.75
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.002,
+        78.55
+      ]
+    },
+    {
+      "text": "best. ",
+      "bbox": [
+        967.002,
+        86.566,
+        1010.09,
+        104.278
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.002,
+        101.078
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        967.002,
+        107.387,
+        976.409,
+        129.173
+      ],
+      "font": "Gotham-Book",
+      "size": 19.68,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.002,
+        125.237
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        976.409,
+        109.113,
+        983.002,
+        128.437
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        976.409,
+        125.237
+      ]
+    },
+    {
+      "text": "CAD designers craft precise and customer-centric ",
+      "bbox": [
+        983.002,
+        109.113,
+        1384.57,
+        126.825
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 5,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        983.002,
+        123.625
+      ]
+    },
+    {
+      "text": "building solutions. ",
+      "bbox": [
+        983.002,
+        131.641,
+        1131.93,
+        149.353
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        983.002,
+        146.153
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        967.002,
+        152.456,
+        976.409,
+        174.241
+      ],
+      "font": "Gotham-Book",
+      "size": 19.68,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.002,
+        170.305
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        976.409,
+        154.182,
+        983.002,
+        173.505
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        976.409,
+        170.305
+      ]
+    },
+    {
+      "text": "QC managers & R&D teams continuously innovate to ",
+      "bbox": [
+        983.002,
+        154.182,
+        1404.955,
+        171.894
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 5,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        983.002,
+        168.694
+      ]
+    },
+    {
+      "text": "enhance product quality and space efficiency. ",
+      "bbox": [
+        983.002,
+        176.71,
+        1350.859,
+        194.422
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        983.002,
+        191.222
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        967.002,
+        197.524,
+        976.409,
+        219.31
+      ],
+      "font": "Gotham-Book",
+      "size": 19.68,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.002,
+        215.374
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        976.409,
+        199.251,
+        983.002,
+        218.574
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        976.409,
+        215.374
+      ]
+    },
+    {
+      "text": "Purchasing engineers source the best materials to ",
+      "bbox": [
+        983.002,
+        199.251,
+        1383.275,
+        216.963
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 5,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        983.002,
+        213.763
+      ]
+    },
+    {
+      "text": "optimize performance.",
+      "bbox": [
+        983.002,
+        221.779,
+        1162.554,
+        239.491
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        983.002,
+        236.291
+      ]
+    }
+  ]
+}

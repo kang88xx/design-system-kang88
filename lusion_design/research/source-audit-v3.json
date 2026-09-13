@@ -1,0 +1,904 @@
+{
+  "summary": {
+    "generated_at": "2026-09-06T15:22:51Z",
+    "items": 1983,
+    "captured_items": 416,
+    "captured_derived_items": 1435,
+    "reconstructed_items": 83,
+    "official_public_items": 416,
+    "derived_items": 1439,
+    "manifest_entries": 417,
+    "manifest_pages": 22,
+    "manifest_assets": 394,
+    "bytes": 182841093,
+    "by_kind": {
+      "page": 32,
+      "media": 392,
+      "icon": 112,
+      "json": 94,
+      "css": 16,
+      "js": 1028,
+      "font": 12,
+      "binary": 55,
+      "doc": 19,
+      "asset": 35,
+      "script": 33,
+      "shader": 155
+    },
+    "by_status": {
+      "captured": 416,
+      "html_fallback": 1,
+      "captured-derived": 1435,
+      "analysis": 48,
+      "reconstructed": 83
+    },
+    "missing_public_refs": 0,
+    "unresolved_public_refs": 1,
+    "explicit_source_maps": 0,
+    "validation_failures": 0,
+    "html_fallbacks": 1,
+    "fresh_snapshot_changes": 0,
+    "fresh_snapshot_errors": 0,
+    "uncaptured_current_bundles": 0,
+    "runtime_ref_candidates": 39,
+    "runtime_ref_unresolved": 0,
+    "scope": "공식 공개 lusion.co/lusion.dev 페이지, 배포 HTML/CSS/JS, 정적/런타임 발견 에셋, 명시 sourceMappingURL 대상만 포함하고 비공개 구조 대체물은 reconstructed로 표시한다."
+  },
+  "missing_public_refs": [],
+  "unresolved_public_refs": [
+    {
+      "url": "https://lusion.co/sitemap-index.xml",
+      "referenced_by": [
+        "https://lusion.co/",
+        "https://lusion.co/about",
+        "https://lusion.co/projects",
+        "https://lusion.co/projects/atlas_motion",
+        "https://lusion.co/projects/choo_choo_world",
+        "https://lusion.co/projects/ddd_2024",
+        "https://lusion.co/projects/devin_ai",
+        "https://lusion.co/projects/everswap",
+        "https://lusion.co/projects/infinite_passerella",
+        "https://lusion.co/projects/lusion_labs",
+        "https://lusion.co/projects/maxmara_bearings_gifts",
+        "https://lusion.co/projects/my_little_story_book",
+        "https://lusion.co/projects/of_the_oak",
+        "https://lusion.co/projects/oryzo_ai",
+        "https://lusion.co/projects/porsche_dream_machine",
+        "https://lusion.co/projects/soda_experience",
+        "https://lusion.co/projects/spaace",
+        "https://lusion.co/projects/spatial_fusion",
+        "https://lusion.co/projects/synthetic_human",
+        "https://lusion.co/projects/the_turn_of_the_screw",
+        "https://lusion.co/projects/worldcoin",
+        "https://lusion.co/projects/zero_tech"
+      ]
+    }
+  ],
+  "source_maps": [],
+  "validation_failures": [],
+  "html_fallbacks": [
+    {
+      "url": "https://lusion.co/sitemap-index.xml",
+      "local": "",
+      "status": "html_fallback",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "exists": false
+    }
+  ],
+  "fresh_snapshot_compare": {
+    "comparisons": [
+      {
+        "url": "https://lusion.co/",
+        "local": "sources/pages/home.html",
+        "snapshot_bytes": 59671,
+        "snapshot_sha256": "7d8c4682c32d604d58f5a0773989e5c1ea9819c23976aff6b9ff83ffd338e9cd",
+        "fresh": {
+          "url": "https://lusion.co/",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 59671,
+          "sha256": "7d8c4682c32d604d58f5a0773989e5c1ea9819c23976aff6b9ff83ffd338e9cd",
+          "is_html_fallback": false
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/about",
+        "local": "sources/pages/about.html",
+        "snapshot_bytes": 59787,
+        "snapshot_sha256": "5131161c8ea06623eff3b2b84cbb0018ceae692b2663d0c9022e04327da8bb47",
+        "fresh": {
+          "url": "https://lusion.co/about",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 59787,
+          "sha256": "5131161c8ea06623eff3b2b84cbb0018ceae692b2663d0c9022e04327da8bb47",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects",
+        "local": "sources/pages/projects.html",
+        "snapshot_bytes": 31779,
+        "snapshot_sha256": "2283d7b717be4f741556e8adeb06c3b2ac5e9ae10f030ed1d8dd71bf370ea6e0",
+        "fresh": {
+          "url": "https://lusion.co/projects",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 31779,
+          "sha256": "2283d7b717be4f741556e8adeb06c3b2ac5e9ae10f030ed1d8dd71bf370ea6e0",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/oryzo_ai",
+        "local": "sources/pages/projects__oryzo_ai.html",
+        "snapshot_bytes": 27935,
+        "snapshot_sha256": "38822ca88981f9991614a4af15b048f2911099a0fd18afce0a87ffd19fd3142c",
+        "fresh": {
+          "url": "https://lusion.co/projects/oryzo_ai",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27935,
+          "sha256": "38822ca88981f9991614a4af15b048f2911099a0fd18afce0a87ffd19fd3142c",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/atlas_motion",
+        "local": "sources/pages/projects__atlas_motion.html",
+        "snapshot_bytes": 27071,
+        "snapshot_sha256": "3bdff2f5f6f591cf9ad57d0d5f0e2ba0b306082388627e9121e4bea9d7670998",
+        "fresh": {
+          "url": "https://lusion.co/projects/atlas_motion",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27071,
+          "sha256": "3bdff2f5f6f591cf9ad57d0d5f0e2ba0b306082388627e9121e4bea9d7670998",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/devin_ai",
+        "local": "sources/pages/projects__devin_ai.html",
+        "snapshot_bytes": 26616,
+        "snapshot_sha256": "70ee6741fe6129f35a27c8d3d56043a04da33c8cf4276a4c14d7620cd1c7cc63",
+        "fresh": {
+          "url": "https://lusion.co/projects/devin_ai",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 26616,
+          "sha256": "70ee6741fe6129f35a27c8d3d56043a04da33c8cf4276a4c14d7620cd1c7cc63",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/of_the_oak",
+        "local": "sources/pages/projects__of_the_oak.html",
+        "snapshot_bytes": 27516,
+        "snapshot_sha256": "c4539b0783878bf113fb34df7d62c39ad3681236d92972654d3ff5446e0a963e",
+        "fresh": {
+          "url": "https://lusion.co/projects/of_the_oak",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27516,
+          "sha256": "c4539b0783878bf113fb34df7d62c39ad3681236d92972654d3ff5446e0a963e",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/everswap",
+        "local": "sources/pages/projects__everswap.html",
+        "snapshot_bytes": 27535,
+        "snapshot_sha256": "52a4a5fb8f92cbca79626566321e7775cf851f043c3669dea4d93fd32917169f",
+        "fresh": {
+          "url": "https://lusion.co/projects/everswap",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27535,
+          "sha256": "52a4a5fb8f92cbca79626566321e7775cf851f043c3669dea4d93fd32917169f",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/porsche_dream_machine",
+        "local": "sources/pages/projects__porsche_dream_machine.html",
+        "snapshot_bytes": 29219,
+        "snapshot_sha256": "554ca92fe0c25cf27bac04e43f85ba854ea04290101e0bec8e9acbdd7b933a01",
+        "fresh": {
+          "url": "https://lusion.co/projects/porsche_dream_machine",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 29219,
+          "sha256": "554ca92fe0c25cf27bac04e43f85ba854ea04290101e0bec8e9acbdd7b933a01",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/synthetic_human",
+        "local": "sources/pages/projects__synthetic_human.html",
+        "snapshot_bytes": 27091,
+        "snapshot_sha256": "e8ab93d5156b608ff7c4859fdb78aab281c30ff558c3a7fd5c06c7c6ebba4bf5",
+        "fresh": {
+          "url": "https://lusion.co/projects/synthetic_human",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27091,
+          "sha256": "e8ab93d5156b608ff7c4859fdb78aab281c30ff558c3a7fd5c06c7c6ebba4bf5",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/spatial_fusion",
+        "local": "sources/pages/projects__spatial_fusion.html",
+        "snapshot_bytes": 29031,
+        "snapshot_sha256": "aa37865c941c105090d39a25c18600c55ad817151dfd7c3ef42c7fd77ef1741c",
+        "fresh": {
+          "url": "https://lusion.co/projects/spatial_fusion",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 29031,
+          "sha256": "aa37865c941c105090d39a25c18600c55ad817151dfd7c3ef42c7fd77ef1741c",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/spaace",
+        "local": "sources/pages/projects__spaace.html",
+        "snapshot_bytes": 26915,
+        "snapshot_sha256": "4e1d2715890bbd0a21632c4d96b06cc270e3cee82d8c86ae3d39deb83d8740d8",
+        "fresh": {
+          "url": "https://lusion.co/projects/spaace",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 26915,
+          "sha256": "4e1d2715890bbd0a21632c4d96b06cc270e3cee82d8c86ae3d39deb83d8740d8",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/ddd_2024",
+        "local": "sources/pages/projects__ddd_2024.html",
+        "snapshot_bytes": 26269,
+        "snapshot_sha256": "93724ee562c0b636e8d78b87a712e8ac261a2c450b8f3ed1a584459f569fa643",
+        "fresh": {
+          "url": "https://lusion.co/projects/ddd_2024",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 26269,
+          "sha256": "93724ee562c0b636e8d78b87a712e8ac261a2c450b8f3ed1a584459f569fa643",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/choo_choo_world",
+        "local": "sources/pages/projects__choo_choo_world.html",
+        "snapshot_bytes": 29371,
+        "snapshot_sha256": "a275c6e4811badf706db57b773e6477ec7940962cf1bab26f1e0d20eda682079",
+        "fresh": {
+          "url": "https://lusion.co/projects/choo_choo_world",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 29371,
+          "sha256": "a275c6e4811badf706db57b773e6477ec7940962cf1bab26f1e0d20eda682079",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/soda_experience",
+        "local": "sources/pages/projects__soda_experience.html",
+        "snapshot_bytes": 27301,
+        "snapshot_sha256": "ffac4aade1000e0eced1400eb2e2fa85d6c40cef88fea273a5473fb86ae01ced",
+        "fresh": {
+          "url": "https://lusion.co/projects/soda_experience",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27301,
+          "sha256": "ffac4aade1000e0eced1400eb2e2fa85d6c40cef88fea273a5473fb86ae01ced",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/zero_tech",
+        "local": "sources/pages/projects__zero_tech.html",
+        "snapshot_bytes": 28288,
+        "snapshot_sha256": "baebba8ab6ab90f22fbe921fd47200ca12348b94f6812dd23d6ebd31d5bfd66d",
+        "fresh": {
+          "url": "https://lusion.co/projects/zero_tech",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 28288,
+          "sha256": "baebba8ab6ab90f22fbe921fd47200ca12348b94f6812dd23d6ebd31d5bfd66d",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/worldcoin",
+        "local": "sources/pages/projects__worldcoin.html",
+        "snapshot_bytes": 27081,
+        "snapshot_sha256": "58a2b32a0a224b65642456b780c58cad3e98e6a38ab571792dca0a7c536ae889",
+        "fresh": {
+          "url": "https://lusion.co/projects/worldcoin",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27081,
+          "sha256": "58a2b32a0a224b65642456b780c58cad3e98e6a38ab571792dca0a7c536ae889",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/lusion_labs",
+        "local": "sources/pages/projects__lusion_labs.html",
+        "snapshot_bytes": 28957,
+        "snapshot_sha256": "199b40a86d94a85bbe00fd2d3066c8048bc2e1700eabca7942ad14e9619befcf",
+        "fresh": {
+          "url": "https://lusion.co/projects/lusion_labs",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 28957,
+          "sha256": "199b40a86d94a85bbe00fd2d3066c8048bc2e1700eabca7942ad14e9619befcf",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/my_little_story_book",
+        "local": "sources/pages/projects__my_little_story_book.html",
+        "snapshot_bytes": 29321,
+        "snapshot_sha256": "2857f3aca82024facea57fd3aca89624df67ac4c798b7efefa060c62dcde4635",
+        "fresh": {
+          "url": "https://lusion.co/projects/my_little_story_book",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 29321,
+          "sha256": "2857f3aca82024facea57fd3aca89624df67ac4c798b7efefa060c62dcde4635",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/infinite_passerella",
+        "local": "sources/pages/projects__infinite_passerella.html",
+        "snapshot_bytes": 27892,
+        "snapshot_sha256": "413e13178319f46feb383cfe8ab6b6933692d94bd63cc7a1718e874d932fa7d3",
+        "fresh": {
+          "url": "https://lusion.co/projects/infinite_passerella",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 27892,
+          "sha256": "413e13178319f46feb383cfe8ab6b6933692d94bd63cc7a1718e874d932fa7d3",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/the_turn_of_the_screw",
+        "local": "sources/pages/projects__the_turn_of_the_screw.html",
+        "snapshot_bytes": 28621,
+        "snapshot_sha256": "681473a9ed92a1a09ea4f76e95997e6f7bd0f067d4acf0eb3b965b910e055c9b",
+        "fresh": {
+          "url": "https://lusion.co/projects/the_turn_of_the_screw",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 28621,
+          "sha256": "681473a9ed92a1a09ea4f76e95997e6f7bd0f067d4acf0eb3b965b910e055c9b",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/projects/maxmara_bearings_gifts",
+        "local": "sources/pages/projects__maxmara_bearings_gifts.html",
+        "snapshot_bytes": 29046,
+        "snapshot_sha256": "79bb291fc679f9cf32bad7eb0c9b1a492f193bf14ed6946286a4dab0b30ee646",
+        "fresh": {
+          "url": "https://lusion.co/projects/maxmara_bearings_gifts",
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 29046,
+          "sha256": "79bb291fc679f9cf32bad7eb0c9b1a492f193bf14ed6946286a4dab0b30ee646",
+          "is_html_fallback": true
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/_astro/about.CNa9RfUh.css",
+        "local": "sources/assets/lusion.co/_astro/about.CNa9RfUh.css",
+        "snapshot_bytes": 90367,
+        "snapshot_sha256": "f88b2a61d89b451fdc3e130e25050602c0c377482dd14fc404bf1a59cf6258b4",
+        "fresh": {
+          "url": "https://lusion.co/_astro/about.CNa9RfUh.css",
+          "status": 200,
+          "content_type": "text/css; charset=UTF-8",
+          "bytes": 90367,
+          "sha256": "f88b2a61d89b451fdc3e130e25050602c0c377482dd14fc404bf1a59cf6258b4",
+          "is_html_fallback": false
+        },
+        "matches_snapshot": true
+      },
+      {
+        "url": "https://lusion.co/_astro/hoisted.CUO_IjfL.js",
+        "local": "sources/assets/lusion.co/_astro/hoisted.CUO_IjfL.js",
+        "snapshot_bytes": 1251728,
+        "snapshot_sha256": "b453312bc9b3ae3bdd64b4e57231ed06cd2cef222a26379288925afb4ae57a37",
+        "fresh": {
+          "url": "https://lusion.co/_astro/hoisted.CUO_IjfL.js",
+          "status": 200,
+          "content_type": "application/javascript; charset=UTF-8",
+          "bytes": 1251728,
+          "sha256": "b453312bc9b3ae3bdd64b4e57231ed06cd2cef222a26379288925afb4ae57a37",
+          "is_html_fallback": false
+        },
+        "matches_snapshot": true
+      }
+    ],
+    "changed": [],
+    "errors": [],
+    "current_bundles": [
+      {
+        "url": "https://lusion.co/_astro/about.CNa9RfUh.css",
+        "captured": true
+      },
+      {
+        "url": "https://lusion.co/_astro/hoisted.CUO_IjfL.js",
+        "captured": true
+      }
+    ],
+    "uncaptured_current_bundles": [],
+    "offline_reused": true
+  },
+  "runtime_path_audit": {
+    "settings_paths": {
+      "TEAM_PATH": "/assets/team/",
+      "PROJECT_PATH": "/assets/projects/",
+      "MODEL_PATH": "/assets/models/",
+      "IMAGE_PATH": "/assets/images/",
+      "TEXTURE_PATH": "/assets/textures/",
+      "AUDIO_PATH": "/assets/audios/",
+      "SPRITE_PATH": "/assets/sprites/"
+    },
+    "candidate_count": 39,
+    "resolved": [
+      "https://lusion.dev/assets/models/about/bg_box.buf",
+      "https://lusion.dev/assets/models/about/camera_spline.buf",
+      "https://lusion.dev/assets/models/about/letter_placements.buf",
+      "https://lusion.dev/assets/models/about/logo_text.buf",
+      "https://lusion.dev/assets/models/about/person.buf",
+      "https://lusion.dev/assets/models/about/person_idle.buf",
+      "https://lusion.dev/assets/models/about/terrain.buf",
+      "https://lusion.dev/assets/models/about/terrain_lines.buf",
+      "https://lusion.dev/assets/models/plant.buf",
+      "https://lusion.dev/assets/models/playground/tunnel.buf",
+      "https://lusion.dev/assets/models/tunnels/astronaut_animations.buf",
+      "https://lusion.dev/assets/models/tunnels/astronaut_in_animation.buf",
+      "https://lusion.dev/assets/models/tunnels/astronaut_out_animation.buf",
+      "https://lusion.dev/assets/models/tunnels/broken_glass.buf",
+      "https://lusion.dev/assets/models/tunnels/broken_glass_animation.buf",
+      "https://lusion.dev/assets/models/tunnels/diamond.buf",
+      "https://lusion.dev/assets/models/tunnels/earth_card.buf",
+      "https://lusion.dev/assets/models/tunnels/tunnel_block_base.buf",
+      "https://lusion.dev/assets/models/tunnels/tunnel_block_wall.buf",
+      "https://lusion.dev/assets/team/team.json",
+      "https://lusion.dev/assets/textures//tunnels/desktop.png",
+      "https://lusion.dev/assets/textures//tunnels/tablet.png",
+      "https://lusion.dev/assets/textures/LDR_RGB1_0.png",
+      "https://lusion.dev/assets/textures/about/fog.png",
+      "https://lusion.dev/assets/textures/about/ground_person_shadow.webp",
+      "https://lusion.dev/assets/textures/about/person.webp",
+      "https://lusion.dev/assets/textures/about/person_light.webp",
+      "https://lusion.dev/assets/textures/about/rocks.webp",
+      "https://lusion.dev/assets/textures/about/terrain_shadow_light_height.webp",
+      "https://lusion.dev/assets/textures/award_gradient.png",
+      "https://lusion.dev/assets/textures/flip_texture.png",
+      "https://lusion.dev/assets/textures/font.png",
+      "https://lusion.dev/assets/textures/smaa-area.png",
+      "https://lusion.dev/assets/textures/smaa-search.png",
+      "https://lusion.dev/assets/textures/tunnels/astronaut/face.png",
+      "https://lusion.dev/assets/textures/tunnels/earth.webp",
+      "https://lusion.dev/assets/textures/tunnels/earth_landscape.jpg",
+      "https://lusion.dev/assets/textures/tunnels/white_block.webp",
+      "https://lusion.dev/assets/textures/tunnels/white_matcap.jpg"
+    ],
+    "unresolved": [],
+    "outside_manifest": []
+  },
+  "validation_sample": [
+    {
+      "url": "https://lusion.co/",
+      "local": "sources/pages/home.html",
+      "status": "captured",
+      "expected_bytes": 59671,
+      "expected_sha256": "7d8c4682c32d604d58f5a0773989e5c1ea9819c23976aff6b9ff83ffd338e9cd",
+      "exists": true,
+      "actual_bytes": 59671,
+      "actual_sha256": "7d8c4682c32d604d58f5a0773989e5c1ea9819c23976aff6b9ff83ffd338e9cd",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/about",
+      "local": "sources/pages/about.html",
+      "status": "captured",
+      "expected_bytes": 59787,
+      "expected_sha256": "5131161c8ea06623eff3b2b84cbb0018ceae692b2663d0c9022e04327da8bb47",
+      "exists": true,
+      "actual_bytes": 59787,
+      "actual_sha256": "5131161c8ea06623eff3b2b84cbb0018ceae692b2663d0c9022e04327da8bb47",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects",
+      "local": "sources/pages/projects.html",
+      "status": "captured",
+      "expected_bytes": 31779,
+      "expected_sha256": "2283d7b717be4f741556e8adeb06c3b2ac5e9ae10f030ed1d8dd71bf370ea6e0",
+      "exists": true,
+      "actual_bytes": 31779,
+      "actual_sha256": "2283d7b717be4f741556e8adeb06c3b2ac5e9ae10f030ed1d8dd71bf370ea6e0",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/oryzo_ai",
+      "local": "sources/pages/projects__oryzo_ai.html",
+      "status": "captured",
+      "expected_bytes": 27935,
+      "expected_sha256": "38822ca88981f9991614a4af15b048f2911099a0fd18afce0a87ffd19fd3142c",
+      "exists": true,
+      "actual_bytes": 27935,
+      "actual_sha256": "38822ca88981f9991614a4af15b048f2911099a0fd18afce0a87ffd19fd3142c",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/atlas_motion",
+      "local": "sources/pages/projects__atlas_motion.html",
+      "status": "captured",
+      "expected_bytes": 27071,
+      "expected_sha256": "3bdff2f5f6f591cf9ad57d0d5f0e2ba0b306082388627e9121e4bea9d7670998",
+      "exists": true,
+      "actual_bytes": 27071,
+      "actual_sha256": "3bdff2f5f6f591cf9ad57d0d5f0e2ba0b306082388627e9121e4bea9d7670998",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/devin_ai",
+      "local": "sources/pages/projects__devin_ai.html",
+      "status": "captured",
+      "expected_bytes": 26616,
+      "expected_sha256": "70ee6741fe6129f35a27c8d3d56043a04da33c8cf4276a4c14d7620cd1c7cc63",
+      "exists": true,
+      "actual_bytes": 26616,
+      "actual_sha256": "70ee6741fe6129f35a27c8d3d56043a04da33c8cf4276a4c14d7620cd1c7cc63",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/of_the_oak",
+      "local": "sources/pages/projects__of_the_oak.html",
+      "status": "captured",
+      "expected_bytes": 27516,
+      "expected_sha256": "c4539b0783878bf113fb34df7d62c39ad3681236d92972654d3ff5446e0a963e",
+      "exists": true,
+      "actual_bytes": 27516,
+      "actual_sha256": "c4539b0783878bf113fb34df7d62c39ad3681236d92972654d3ff5446e0a963e",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/everswap",
+      "local": "sources/pages/projects__everswap.html",
+      "status": "captured",
+      "expected_bytes": 27535,
+      "expected_sha256": "52a4a5fb8f92cbca79626566321e7775cf851f043c3669dea4d93fd32917169f",
+      "exists": true,
+      "actual_bytes": 27535,
+      "actual_sha256": "52a4a5fb8f92cbca79626566321e7775cf851f043c3669dea4d93fd32917169f",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/porsche_dream_machine",
+      "local": "sources/pages/projects__porsche_dream_machine.html",
+      "status": "captured",
+      "expected_bytes": 29219,
+      "expected_sha256": "554ca92fe0c25cf27bac04e43f85ba854ea04290101e0bec8e9acbdd7b933a01",
+      "exists": true,
+      "actual_bytes": 29219,
+      "actual_sha256": "554ca92fe0c25cf27bac04e43f85ba854ea04290101e0bec8e9acbdd7b933a01",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/synthetic_human",
+      "local": "sources/pages/projects__synthetic_human.html",
+      "status": "captured",
+      "expected_bytes": 27091,
+      "expected_sha256": "e8ab93d5156b608ff7c4859fdb78aab281c30ff558c3a7fd5c06c7c6ebba4bf5",
+      "exists": true,
+      "actual_bytes": 27091,
+      "actual_sha256": "e8ab93d5156b608ff7c4859fdb78aab281c30ff558c3a7fd5c06c7c6ebba4bf5",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/spatial_fusion",
+      "local": "sources/pages/projects__spatial_fusion.html",
+      "status": "captured",
+      "expected_bytes": 29031,
+      "expected_sha256": "aa37865c941c105090d39a25c18600c55ad817151dfd7c3ef42c7fd77ef1741c",
+      "exists": true,
+      "actual_bytes": 29031,
+      "actual_sha256": "aa37865c941c105090d39a25c18600c55ad817151dfd7c3ef42c7fd77ef1741c",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/spaace",
+      "local": "sources/pages/projects__spaace.html",
+      "status": "captured",
+      "expected_bytes": 26915,
+      "expected_sha256": "4e1d2715890bbd0a21632c4d96b06cc270e3cee82d8c86ae3d39deb83d8740d8",
+      "exists": true,
+      "actual_bytes": 26915,
+      "actual_sha256": "4e1d2715890bbd0a21632c4d96b06cc270e3cee82d8c86ae3d39deb83d8740d8",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/ddd_2024",
+      "local": "sources/pages/projects__ddd_2024.html",
+      "status": "captured",
+      "expected_bytes": 26269,
+      "expected_sha256": "93724ee562c0b636e8d78b87a712e8ac261a2c450b8f3ed1a584459f569fa643",
+      "exists": true,
+      "actual_bytes": 26269,
+      "actual_sha256": "93724ee562c0b636e8d78b87a712e8ac261a2c450b8f3ed1a584459f569fa643",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/choo_choo_world",
+      "local": "sources/pages/projects__choo_choo_world.html",
+      "status": "captured",
+      "expected_bytes": 29371,
+      "expected_sha256": "a275c6e4811badf706db57b773e6477ec7940962cf1bab26f1e0d20eda682079",
+      "exists": true,
+      "actual_bytes": 29371,
+      "actual_sha256": "a275c6e4811badf706db57b773e6477ec7940962cf1bab26f1e0d20eda682079",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/soda_experience",
+      "local": "sources/pages/projects__soda_experience.html",
+      "status": "captured",
+      "expected_bytes": 27301,
+      "expected_sha256": "ffac4aade1000e0eced1400eb2e2fa85d6c40cef88fea273a5473fb86ae01ced",
+      "exists": true,
+      "actual_bytes": 27301,
+      "actual_sha256": "ffac4aade1000e0eced1400eb2e2fa85d6c40cef88fea273a5473fb86ae01ced",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/zero_tech",
+      "local": "sources/pages/projects__zero_tech.html",
+      "status": "captured",
+      "expected_bytes": 28288,
+      "expected_sha256": "baebba8ab6ab90f22fbe921fd47200ca12348b94f6812dd23d6ebd31d5bfd66d",
+      "exists": true,
+      "actual_bytes": 28288,
+      "actual_sha256": "baebba8ab6ab90f22fbe921fd47200ca12348b94f6812dd23d6ebd31d5bfd66d",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/worldcoin",
+      "local": "sources/pages/projects__worldcoin.html",
+      "status": "captured",
+      "expected_bytes": 27081,
+      "expected_sha256": "58a2b32a0a224b65642456b780c58cad3e98e6a38ab571792dca0a7c536ae889",
+      "exists": true,
+      "actual_bytes": 27081,
+      "actual_sha256": "58a2b32a0a224b65642456b780c58cad3e98e6a38ab571792dca0a7c536ae889",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/lusion_labs",
+      "local": "sources/pages/projects__lusion_labs.html",
+      "status": "captured",
+      "expected_bytes": 28957,
+      "expected_sha256": "199b40a86d94a85bbe00fd2d3066c8048bc2e1700eabca7942ad14e9619befcf",
+      "exists": true,
+      "actual_bytes": 28957,
+      "actual_sha256": "199b40a86d94a85bbe00fd2d3066c8048bc2e1700eabca7942ad14e9619befcf",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/my_little_story_book",
+      "local": "sources/pages/projects__my_little_story_book.html",
+      "status": "captured",
+      "expected_bytes": 29321,
+      "expected_sha256": "2857f3aca82024facea57fd3aca89624df67ac4c798b7efefa060c62dcde4635",
+      "exists": true,
+      "actual_bytes": 29321,
+      "actual_sha256": "2857f3aca82024facea57fd3aca89624df67ac4c798b7efefa060c62dcde4635",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "url": "https://lusion.co/projects/infinite_passerella",
+      "local": "sources/pages/projects__infinite_passerella.html",
+      "status": "captured",
+      "expected_bytes": 27892,
+      "expected_sha256": "413e13178319f46feb383cfe8ab6b6933692d94bd63cc7a1718e874d932fa7d3",
+      "exists": true,
+      "actual_bytes": 27892,
+      "actual_sha256": "413e13178319f46feb383cfe8ab6b6933692d94bd63cc7a1718e874d932fa7d3",
+      "bytes_match": true,
+      "sha256_match": true
+    }
+  ],
+  "official_route_sample": {
+    "https://lusion.co/": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 59671,
+      "sha256_sample": "7d8c4682c32d604d58f5a0773989e5c1ea9819c23976aff6b9ff83ffd338e9cd"
+    },
+    "https://lusion.co/about": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 59787,
+      "sha256_sample": "5131161c8ea06623eff3b2b84cbb0018ceae692b2663d0c9022e04327da8bb47"
+    },
+    "https://lusion.co/projects": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 31779,
+      "sha256_sample": "2283d7b717be4f741556e8adeb06c3b2ac5e9ae10f030ed1d8dd71bf370ea6e0"
+    },
+    "https://lusion.co/projects/atlas_motion": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27071,
+      "sha256_sample": "3bdff2f5f6f591cf9ad57d0d5f0e2ba0b306082388627e9121e4bea9d7670998"
+    },
+    "https://lusion.co/projects/choo_choo_world": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 29371,
+      "sha256_sample": "a275c6e4811badf706db57b773e6477ec7940962cf1bab26f1e0d20eda682079"
+    },
+    "https://lusion.co/projects/ddd_2024": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 26269,
+      "sha256_sample": "93724ee562c0b636e8d78b87a712e8ac261a2c450b8f3ed1a584459f569fa643"
+    },
+    "https://lusion.co/projects/devin_ai": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 26616,
+      "sha256_sample": "70ee6741fe6129f35a27c8d3d56043a04da33c8cf4276a4c14d7620cd1c7cc63"
+    },
+    "https://lusion.co/projects/everswap": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27535,
+      "sha256_sample": "52a4a5fb8f92cbca79626566321e7775cf851f043c3669dea4d93fd32917169f"
+    },
+    "https://lusion.co/projects/infinite_passerella": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27892,
+      "sha256_sample": "413e13178319f46feb383cfe8ab6b6933692d94bd63cc7a1718e874d932fa7d3"
+    },
+    "https://lusion.co/projects/lusion_labs": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 28957,
+      "sha256_sample": "199b40a86d94a85bbe00fd2d3066c8048bc2e1700eabca7942ad14e9619befcf"
+    },
+    "https://lusion.co/projects/maxmara_bearings_gifts": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 29046,
+      "sha256_sample": "79bb291fc679f9cf32bad7eb0c9b1a492f193bf14ed6946286a4dab0b30ee646"
+    },
+    "https://lusion.co/projects/my_little_story_book": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 29321,
+      "sha256_sample": "2857f3aca82024facea57fd3aca89624df67ac4c798b7efefa060c62dcde4635"
+    },
+    "https://lusion.co/projects/of_the_oak": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27516,
+      "sha256_sample": "c4539b0783878bf113fb34df7d62c39ad3681236d92972654d3ff5446e0a963e"
+    },
+    "https://lusion.co/projects/oryzo_ai": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27935,
+      "sha256_sample": "38822ca88981f9991614a4af15b048f2911099a0fd18afce0a87ffd19fd3142c"
+    },
+    "https://lusion.co/projects/porsche_dream_machine": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 29219,
+      "sha256_sample": "554ca92fe0c25cf27bac04e43f85ba854ea04290101e0bec8e9acbdd7b933a01"
+    },
+    "https://lusion.co/projects/soda_experience": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27301,
+      "sha256_sample": "ffac4aade1000e0eced1400eb2e2fa85d6c40cef88fea273a5473fb86ae01ced"
+    },
+    "https://lusion.co/projects/spaace": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 26915,
+      "sha256_sample": "4e1d2715890bbd0a21632c4d96b06cc270e3cee82d8c86ae3d39deb83d8740d8"
+    },
+    "https://lusion.co/projects/spatial_fusion": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 29031,
+      "sha256_sample": "aa37865c941c105090d39a25c18600c55ad817151dfd7c3ef42c7fd77ef1741c"
+    },
+    "https://lusion.co/projects/synthetic_human": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27091,
+      "sha256_sample": "e8ab93d5156b608ff7c4859fdb78aab281c30ff558c3a7fd5c06c7c6ebba4bf5"
+    },
+    "https://lusion.co/projects/the_turn_of_the_screw": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 28621,
+      "sha256_sample": "681473a9ed92a1a09ea4f76e95997e6f7bd0f067d4acf0eb3b965b910e055c9b"
+    },
+    "https://lusion.co/projects/worldcoin": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 27081,
+      "sha256_sample": "58a2b32a0a224b65642456b780c58cad3e98e6a38ab571792dca0a7c536ae889"
+    },
+    "https://lusion.co/projects/zero_tech": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sampled": 28288,
+      "sha256_sample": "baebba8ab6ab90f22fbe921fd47200ca12348b94f6812dd23d6ebd31d5bfd66d"
+    }
+  },
+  "notes": [
+    "비공개 경로나 숨은 라우트 brute force는 수행하지 않았다.",
+    "source map은 명시 sourceMappingURL 참조만 인정한다.",
+    "HTML fallback 응답은 captured asset으로 보지 않고 별도 unresolved/fallback으로 분리한다.",
+    "공개되지 않은 원본 내부 구조 대체물은 status='reconstructed'로 표시한다."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "checked_at": "2026-09-10T12:58:07.702Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Loader counts to 100 and hides",
+      "passed": true
+    },
+    {
+      "name": "Hero title split into masked words with aria-label",
+      "passed": true
+    },
+    {
+      "name": "Manual reveals staged after loader",
+      "passed": true
+    },
+    {
+      "name": "Header stagger indexes written",
+      "passed": true
+    },
+    {
+      "name": "No external requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Panel closed by default is inert",
+      "passed": true
+    },
+    {
+      "name": "Panel opens with aria-expanded and focus inside",
+      "passed": true
+    },
+    {
+      "name": "Panel items open in order at 20ms steps",
+      "passed": true
+    },
+    {
+      "name": "Open panel item reaches rest transform",
+      "passed": true
+    },
+    {
+      "name": "Escape closes panel and returns focus to trigger",
+      "passed": true
+    },
+    {
+      "name": "Closed panel items close in reverse order",
+      "passed": true
+    },
+    {
+      "name": "Backdrop click closes panel",
+      "passed": true
+    },
+    {
+      "name": "CTA hover bursts dot and shifts label",
+      "passed": true
+    },
+    {
+      "name": "CTA hover fills accent background",
+      "passed": true
+    },
+    {
+      "name": "Cursor follower activates with label on reel frame",
+      "passed": true
+    },
+    {
+      "name": "Cursor follower shrinks away from targets",
+      "passed": true
+    },
+    {
+      "name": "Tilt writes rotation from pointer position",
+      "passed": true
+    },
+    {
+      "name": "Tilt settles and clears inline variables",
+      "passed": true
+    },
+    {
+      "name": "Object click cycles tone",
+      "passed": true
+    },
+    {
+      "name": "Scroll progress reaches 1 and goes idle",
+      "passed": true
+    },
+    {
+      "name": "Work cards revealed after scroll",
+      "passed": true
+    },
+    {
+      "name": "Newsletter invalid state is announced",
+      "passed": true
+    },
+    {
+      "name": "Split title exposes one accessible name",
+      "passed": true
+    },
+    {
+      "name": "home 320px: no horizontal overflow",
+      "passed": true,
+      "detail": 320
+    },
+    {
+      "name": "home 390px: no horizontal overflow",
+      "passed": true,
+      "detail": 390
+    },
+    {
+      "name": "home 812px: no horizontal overflow",
+      "passed": true,
+      "detail": 812
+    },
+    {
+      "name": "home 1440px: no horizontal overflow",
+      "passed": true,
+      "detail": 1440
+    },
+    {
+      "name": "Reduced motion skips loader",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion shows all reveals immediately",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion hides cursor and stops loops",
+      "passed": true
+    },
+    {
+      "name": "destroy restores split markup",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

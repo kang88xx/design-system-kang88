@@ -1,0 +1,1756 @@
+{
+  "page": 50,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n50\n\nThe company's business scope\ncovers countries all over the world.\nIt has carried out business in\nOntario in Canada, Dubai in the\nUnited Arab Emirates, Nigeria,\n60+\nCountries\n\n7\nRegional\nagents\n\nShanghai\nHongkong\nDoha\nBrisbane\n\nGLOBAL\nARK PREFAB\n\nGhana, Niger, Nouméa, Mauritania,\nColombia, Argentina, Peru,\nAfghanistan, Australia, Papua New\nGuinea, Singapore, Siberia in Russia,\nGermany, Belgium, etc. many times.\n\n4\nGlobal\nOffices\n\n• United Kingdom\n• Southern Africa\n• Papua New Guinea\n\n• Solomon Islands\n• Argentina\n• Mexico\n• UAE, Kuwait, Oman & Bahrain\n\nAddress：Unit 904, Building A,\nChuansha Enterprise Center, 5788\nChuansha Road, Pudong New\nArea, Shanghai\nPhone：+86 21 6083 8082\n\nE-mail：info@arkprefab.com\n\nAddress：Room 2105 JSH1355\nTrend Centre 29-31 Cheung Lee\nStreet Chai Wan,Hongkong\nPhone：+852 5804 9088\n\nE-mail：info@arkprefab.com\n\nAddress：C Ring Road, No336,\nAlnoor Building,Ground floor\nPhone：+97 466556271\n\nE-mail：arkme@arkprefab.com\n\nAddress：PO Box 2140\nBurleigh Waters Queensland,\n4220 Australia\nPhone：+61 478683781\n\nE-mail：\ncassius.ruka@arkprefab.com",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "50",
+      "bbox": [
+        1852.508,
+        41.993,
+        1866.108,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1852.508,
+        51.313
+      ]
+    },
+    {
+      "text": "The company's business scope ",
+      "bbox": [
+        350.862,
+        282.712,
+        599.87,
+        300.424
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        350.862,
+        297.224
+      ]
+    },
+    {
+      "text": "covers countries all over the world. ",
+      "bbox": [
+        350.862,
+        305.24,
+        631.918,
+        322.952
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        350.862,
+        319.752
+      ]
+    },
+    {
+      "text": "It has carried out business in ",
+      "bbox": [
+        350.862,
+        327.768,
+        582.014,
+        345.48
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        350.862,
+        342.28
+      ]
+    },
+    {
+      "text": "Ontario in Canada, Dubai in the ",
+      "bbox": [
+        350.862,
+        350.296,
+        604.255,
+        368.008
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        350.862,
+        364.808
+      ]
+    },
+    {
+      "text": "United Arab Emirates, Nigeria,",
+      "bbox": [
+        350.862,
+        372.824,
+        590.206,
+        390.536
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        350.862,
+        387.336
+      ]
+    },
+    {
+      "text": "60+ ",
+      "bbox": [
+        50.927,
+        262.191,
+        243.027,
+        357.561
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        50.927,
+        340.561
+      ]
+    },
+    {
+      "text": "Countries",
+      "bbox": [
+        50.927,
+        345.635,
+        287.989,
+        400.613
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        50.927,
+        390.813
+      ]
+    },
+    {
+      "text": "7 ",
+      "bbox": [
+        52.927,
+        512.224,
+        128.492,
+        607.594
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.927,
+        590.594
+      ]
+    },
+    {
+      "text": "Regional ",
+      "bbox": [
+        52.927,
+        595.552,
+        218.232,
+        634.822
+      ],
+      "font": "Gotham-Medium",
+      "size": 35.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.927,
+        627.822
+      ]
+    },
+    {
+      "text": "agents",
+      "bbox": [
+        52.927,
+        629.747,
+        171.612,
+        669.017
+      ],
+      "font": "Gotham-Medium",
+      "size": 35.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.927,
+        662.017
+      ]
+    },
+    {
+      "text": "Shanghai",
+      "bbox": [
+        281.862,
+        783.217,
+        355.943,
+        801.169
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        281.862,
+        797.969
+      ]
+    },
+    {
+      "text": "Hongkong",
+      "bbox": [
+        470.862,
+        783.217,
+        554.238,
+        801.169
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        470.862,
+        797.969
+      ]
+    },
+    {
+      "text": "Doha",
+      "bbox": [
+        649.862,
+        783.217,
+        692.199,
+        801.169
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        649.862,
+        797.969
+      ]
+    },
+    {
+      "text": "Brisbane",
+      "bbox": [
+        820.862,
+        783.217,
+        891.294,
+        801.169
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        820.862,
+        797.969
+      ]
+    },
+    {
+      "text": "GLOBAL ",
+      "bbox": [
+        47.77,
+        27.221,
+        432.31,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "ARK PREFAB",
+      "bbox": [
+        47.77,
+        110.265,
+        600.865,
+        205.635
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.635
+      ]
+    },
+    {
+      "text": "Ghana, Niger, Nouméa, Mauritania, ",
+      "bbox": [
+        681.797,
+        282.712,
+        958.981,
+        300.424
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        297.224
+      ]
+    },
+    {
+      "text": "Colombia, Argentina, Peru, ",
+      "bbox": [
+        681.797,
+        305.24,
+        898.741,
+        322.952
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        319.752
+      ]
+    },
+    {
+      "text": "Afghanistan, Australia, Papua New ",
+      "bbox": [
+        681.797,
+        327.768,
+        958.725,
+        345.48
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        342.28
+      ]
+    },
+    {
+      "text": "Guinea, Singapore, Siberia in Russia, ",
+      "bbox": [
+        681.797,
+        350.296,
+        972.581,
+        368.008
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        364.808
+      ]
+    },
+    {
+      "text": "Germany, Belgium, etc. many times.",
+      "bbox": [
+        681.797,
+        372.824,
+        964.213,
+        390.536
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        387.336
+      ]
+    },
+    {
+      "text": "4 ",
+      "bbox": [
+        52.927,
+        766.931,
+        134.612,
+        862.301
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.927,
+        845.301
+      ]
+    },
+    {
+      "text": "Global ",
+      "bbox": [
+        52.927,
+        850.259,
+        177.877,
+        889.529
+      ],
+      "font": "Gotham-Medium",
+      "size": 35.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.927,
+        882.529
+      ]
+    },
+    {
+      "text": "Offices",
+      "bbox": [
+        52.927,
+        884.454,
+        177.107,
+        923.724
+      ],
+      "font": "Gotham-Medium",
+      "size": 35.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.927,
+        916.724
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        349.509,
+        526.75,
+        359.171,
+        548.831
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        349.509,
+        544.895
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        359.171,
+        528.534,
+        365.509,
+        548.095
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        359.171,
+        544.895
+      ]
+    },
+    {
+      "text": "United Kingdom ",
+      "bbox": [
+        365.509,
+        528.534,
+        501.669,
+        546.486
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        365.509,
+        543.286
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        349.509,
+        549.281,
+        359.171,
+        571.362
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        349.509,
+        567.426
+      ]
+    },
+    {
+      "text": " Southern Africa ",
+      "bbox": [
+        365.509,
+        551.065,
+        501.301,
+        569.017
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        365.509,
+        565.817
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        349.509,
+        571.812,
+        359.171,
+        593.893
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        349.509,
+        589.957
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        359.171,
+        573.596,
+        365.509,
+        593.157
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        359.171,
+        589.957
+      ]
+    },
+    {
+      "text": "Papua New Guinea",
+      "bbox": [
+        365.509,
+        573.596,
+        516.757,
+        591.548
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        365.509,
+        588.348
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        681.797,
+        526.75,
+        691.46,
+        548.831
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        544.895
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        691.46,
+        528.534,
+        697.797,
+        548.095
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        691.46,
+        544.895
+      ]
+    },
+    {
+      "text": "Solomon Islands ",
+      "bbox": [
+        697.797,
+        528.534,
+        834.549,
+        546.486
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        697.797,
+        543.286
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        681.797,
+        549.281,
+        691.46,
+        571.362
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        567.426
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        691.46,
+        551.065,
+        697.797,
+        570.626
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        691.46,
+        567.426
+      ]
+    },
+    {
+      "text": "Argentina ",
+      "bbox": [
+        697.797,
+        551.065,
+        782.357,
+        569.017
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        697.797,
+        565.817
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        681.797,
+        571.812,
+        691.46,
+        593.893
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        589.957
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        691.46,
+        573.596,
+        697.797,
+        593.157
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        691.46,
+        589.957
+      ]
+    },
+    {
+      "text": "Mexico ",
+      "bbox": [
+        697.797,
+        573.596,
+        758.933,
+        591.548
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        697.797,
+        588.348
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        681.797,
+        594.344,
+        691.46,
+        616.425
+      ],
+      "font": "Gotham-Medium",
+      "size": 19.68,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        681.797,
+        612.489
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        691.46,
+        596.127,
+        697.797,
+        615.689
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        691.46,
+        612.489
+      ]
+    },
+    {
+      "text": "UAE, Kuwait, Oman & Bahrain",
+      "bbox": [
+        697.797,
+        596.127,
+        936.069,
+        614.079
+      ],
+      "font": "Gotham-Medium",
+      "size": 16.0,
+      "color": "#1A2646",
+      "flags": 5,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        697.797,
+        610.879
+      ]
+    },
+    {
+      "text": "Address",
+      "bbox": [
+        282.509,
+        827.199,
+        322.789,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        282.509,
+        836.179
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        322.789,
+        825.579,
+        332.789,
+        839.579
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        322.789,
+        836.179
+      ]
+    },
+    {
+      "text": "Unit 904, Building A, ",
+      "bbox": [
+        332.789,
+        827.199,
+        437.819,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        332.789,
+        836.179
+      ]
+    },
+    {
+      "text": "Chuansha Enterprise Center, 5788 ",
+      "bbox": [
+        282.509,
+        841.999,
+        451.739,
+        852.979
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        282.509,
+        850.979
+      ]
+    },
+    {
+      "text": "Chuansha Road, Pudong New ",
+      "bbox": [
+        282.509,
+        855.119,
+        431.719,
+        866.099
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        282.509,
+        864.099
+      ]
+    },
+    {
+      "text": "Area, Shanghai ",
+      "bbox": [
+        282.509,
+        868.239,
+        359.399,
+        879.219
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        282.509,
+        877.219
+      ]
+    },
+    {
+      "text": "Phone",
+      "bbox": [
+        282.509,
+        882.779,
+        313.689,
+        893.759
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        282.509,
+        891.759
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        313.689,
+        881.159,
+        323.689,
+        895.159
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        313.689,
+        891.759
+      ]
+    },
+    {
+      "text": "+86 21 6083 8082 ",
+      "bbox": [
+        323.689,
+        882.779,
+        415.579,
+        893.759
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        323.689,
+        891.759
+      ]
+    },
+    {
+      "text": "E-mail",
+      "bbox": [
+        282.509,
+        898.999,
+        313.519,
+        909.979
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        282.509,
+        907.979
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        313.519,
+        897.379,
+        323.519,
+        911.379
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        313.519,
+        907.979
+      ]
+    },
+    {
+      "text": "info@arkprefab.com",
+      "bbox": [
+        323.519,
+        898.999,
+        422.669,
+        909.979
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        323.519,
+        907.979
+      ]
+    },
+    {
+      "text": "Address",
+      "bbox": [
+        471.509,
+        827.199,
+        511.789,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        471.509,
+        836.179
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        511.789,
+        825.579,
+        521.789,
+        839.579
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        511.789,
+        836.179
+      ]
+    },
+    {
+      "text": "Room 2105 JSH1355 ",
+      "bbox": [
+        521.789,
+        827.199,
+        623.619,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        521.789,
+        836.179
+      ]
+    },
+    {
+      "text": "Trend Centre 29-31 Cheung Lee ",
+      "bbox": [
+        471.509,
+        841.999,
+        628.879,
+        852.979
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        471.509,
+        850.979
+      ]
+    },
+    {
+      "text": "Street Chai Wan,Hongkong ",
+      "bbox": [
+        471.509,
+        855.119,
+        607.729,
+        866.099
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        471.509,
+        864.099
+      ]
+    },
+    {
+      "text": "Phone",
+      "bbox": [
+        471.509,
+        869.659,
+        502.689,
+        880.639
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        471.509,
+        878.639
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        502.689,
+        868.039,
+        512.689,
+        882.039
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        502.689,
+        878.639
+      ]
+    },
+    {
+      "text": "+852 5804 9088 ",
+      "bbox": [
+        512.689,
+        869.659,
+        598.449,
+        880.639
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.689,
+        878.639
+      ]
+    },
+    {
+      "text": "E-mail",
+      "bbox": [
+        471.509,
+        885.879,
+        502.519,
+        896.859
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        471.509,
+        894.859
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        502.519,
+        884.259,
+        512.519,
+        898.259
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        502.519,
+        894.859
+      ]
+    },
+    {
+      "text": "info@arkprefab.com",
+      "bbox": [
+        512.519,
+        885.879,
+        611.669,
+        896.859
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.519,
+        894.859
+      ]
+    },
+    {
+      "text": "Address",
+      "bbox": [
+        650.674,
+        827.199,
+        690.954,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        650.674,
+        836.179
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        690.954,
+        825.579,
+        700.954,
+        839.579
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        690.954,
+        836.179
+      ]
+    },
+    {
+      "text": "C Ring Road, No336, ",
+      "bbox": [
+        700.954,
+        827.199,
+        806.174,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        700.954,
+        836.179
+      ]
+    },
+    {
+      "text": "Alnoor Building,Ground floor ",
+      "bbox": [
+        650.674,
+        841.999,
+        794.804,
+        852.979
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        650.674,
+        850.979
+      ]
+    },
+    {
+      "text": "Phone",
+      "bbox": [
+        650.674,
+        856.539,
+        681.854,
+        867.519
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        650.674,
+        865.519
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        681.854,
+        854.919,
+        691.854,
+        868.919
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        681.854,
+        865.519
+      ]
+    },
+    {
+      "text": "+97 466556271 ",
+      "bbox": [
+        691.854,
+        856.539,
+        769.364,
+        867.519
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        691.854,
+        865.519
+      ]
+    },
+    {
+      "text": "E-mail",
+      "bbox": [
+        650.674,
+        872.759,
+        681.684,
+        883.739
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        650.674,
+        881.739
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        681.684,
+        871.139,
+        691.684,
+        885.139
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        681.684,
+        881.739
+      ]
+    },
+    {
+      "text": "arkme@arkprefab.com",
+      "bbox": [
+        691.684,
+        872.759,
+        802.984,
+        883.739
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        691.684,
+        881.739
+      ]
+    },
+    {
+      "text": "Address",
+      "bbox": [
+        821.339,
+        827.199,
+        861.619,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        821.339,
+        836.179
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        861.619,
+        825.579,
+        871.619,
+        839.579
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        861.619,
+        836.179
+      ]
+    },
+    {
+      "text": "PO Box 2140 ",
+      "bbox": [
+        871.619,
+        827.199,
+        937.759,
+        838.179
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        871.619,
+        836.179
+      ]
+    },
+    {
+      "text": "Burleigh Waters Queensland, ",
+      "bbox": [
+        821.339,
+        841.999,
+        966.579,
+        852.979
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        821.339,
+        850.979
+      ]
+    },
+    {
+      "text": "4220 Australia ",
+      "bbox": [
+        821.339,
+        855.119,
+        895.889,
+        866.099
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        821.339,
+        864.099
+      ]
+    },
+    {
+      "text": "Phone",
+      "bbox": [
+        821.339,
+        869.659,
+        852.519,
+        880.639
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        821.339,
+        878.639
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        852.519,
+        868.039,
+        862.519,
+        882.039
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        852.519,
+        878.639
+      ]
+    },
+    {
+      "text": "+61 478683781 ",
+      "bbox": [
+        862.519,
+        869.659,
+        936.789,
+        880.639
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        862.519,
+        878.639
+      ]
+    },
+    {
+      "text": "E-mail",
+      "bbox": [
+        821.339,
+        885.879,
+        852.349,
+        896.859
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        821.339,
+        894.859
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        852.349,
+        884.259,
+        862.349,
+        898.259
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        852.349,
+        894.859
+      ]
+    },
+    {
+      "text": "cassius.ruka@arkprefab.com",
+      "bbox": [
+        821.339,
+        900.679,
+        960.499,
+        911.659
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        821.339,
+        909.659
+      ]
+    }
+  ]
+}

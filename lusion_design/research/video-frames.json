@@ -1,0 +1,730 @@
+[
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/main.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/main.mp4",
+    "bytes": 8557639,
+    "type": "video/mp4",
+    "width": 1250,
+    "height": 720,
+    "duration": 27.310617,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--oryzo_ai--main-1.jpg",
+        "time": 1.365918,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--oryzo_ai--main-2.jpg",
+        "time": 10.924492,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--oryzo_ai--main-3.jpg",
+        "time": 21.848822,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/launch.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/launch.mp4",
+    "bytes": 7831918,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 31.291667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--oryzo_ai--launch-1.jpg",
+        "time": 1.572985,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--oryzo_ai--launch-2.jpg",
+        "time": 12.524452,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--oryzo_ai--launch-3.jpg",
+        "time": 25.053725,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/bts.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/bts.mp4",
+    "bytes": 8005057,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 31.966667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--oryzo_ai--bts-1.jpg",
+        "time": 1.599895,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--oryzo_ai--bts-2.jpg",
+        "time": 12.799688,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--oryzo_ai--bts-3.jpg",
+        "time": 25.586515,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/main.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/main.mp4",
+    "bytes": 4054196,
+    "type": "video/mp4",
+    "width": 1234,
+    "height": 720,
+    "duration": 5.4,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--atlas_motion--main-1.jpg",
+        "time": 0.275522,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--atlas_motion--main-2.jpg",
+        "time": 2.174936,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--atlas_motion--main-3.jpg",
+        "time": 4.336908,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/video0.mp4",
+    "bytes": 4476999,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 12.679333,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--devin_ai--video0-1.jpg",
+        "time": 0.634492,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--devin_ai--video0-2.jpg",
+        "time": 5.071949,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--devin_ai--video0-3.jpg",
+        "time": 10.143694,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/video2.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/video2.mp4",
+    "bytes": 6583074,
+    "type": "video/mp4",
+    "width": 1920,
+    "height": 1920,
+    "duration": 17.633333,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--devin_ai--video2-1.jpg",
+        "time": 0.882479,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--devin_ai--video2-2.jpg",
+        "time": 7.075499,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--devin_ai--video2-3.jpg",
+        "time": 14.12955,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/video3.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/video3.mp4",
+    "bytes": 1683345,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 6.4064,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--devin_ai--video3-1.jpg",
+        "time": 0.337713,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--devin_ai--video3-2.jpg",
+        "time": 2.562876,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--devin_ai--video3-3.jpg",
+        "time": 5.157017,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/video0.mp4",
+    "bytes": 5951768,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 11.75,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--of_the_oak--video0-1.jpg",
+        "time": 0.599425,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--of_the_oak--video0-2.jpg",
+        "time": 4.712286,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--of_the_oak--video0-3.jpg",
+        "time": 9.416964,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/main.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/main.mp4",
+    "bytes": 8599201,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 33.55,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--everswap--main-1.jpg",
+        "time": 1.679582,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--everswap--main-2.jpg",
+        "time": 13.431433,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--everswap--main-3.jpg",
+        "time": 26.845132,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/video1.mp4",
+    "bytes": 4509145,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 19.37,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--porsche_dream_machine--video1-1.jpg",
+        "time": 0.986563,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--porsche_dream_machine--video1-2.jpg",
+        "time": 7.766193,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--porsche_dream_machine--video1-3.jpg",
+        "time": 15.501701,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/video0.mp4",
+    "bytes": 4941006,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 21.76,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--porsche_dream_machine--video0-1.jpg",
+        "time": 1.098195,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--porsche_dream_machine--video0-2.jpg",
+        "time": 8.719238,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--porsche_dream_machine--video0-3.jpg",
+        "time": 17.422189,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/video0.mp4",
+    "bytes": 3543387,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 13.997317,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--synthetic_human--video0-1.jpg",
+        "time": 0.700288,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--synthetic_human--video0-2.jpg",
+        "time": 5.599143,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--synthetic_human--video0-3.jpg",
+        "time": 11.222242,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/video0.mp4",
+    "bytes": 2583370,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 721,
+    "duration": 10,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--spatial_fusion--video0-1.jpg",
+        "time": 0.506409,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--spatial_fusion--video0-2.jpg",
+        "time": 4.001946,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--spatial_fusion--video0-3.jpg",
+        "time": 8.014925,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/video0.mp4",
+    "bytes": 4911083,
+    "type": "video/mp4",
+    "width": 1146,
+    "height": 714,
+    "duration": 10,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--spaace--video0-1.jpg",
+        "time": 0.501099,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--spaace--video0-2.jpg",
+        "time": 4.013813,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--spaace--video0-3.jpg",
+        "time": 8.001425,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/video0.mp4",
+    "bytes": 2714543,
+    "type": "video/mp4",
+    "width": 1152,
+    "height": 720,
+    "duration": 8.5,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--ddd_2024--video0-1.jpg",
+        "time": 0.438346,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--ddd_2024--video0-2.jpg",
+        "time": 3.408788,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--ddd_2024--video0-3.jpg",
+        "time": 6.821271,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/video1.mp4",
+    "bytes": 1762592,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 8.016667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--choo_choo_world--video1-1.jpg",
+        "time": 0.417974,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--choo_choo_world--video1-2.jpg",
+        "time": 3.217757,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--choo_choo_world--video1-3.jpg",
+        "time": 6.413722,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/video2.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/video2.mp4",
+    "bytes": 849637,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 4,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--choo_choo_world--video2-1.jpg",
+        "time": 0.204003,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--choo_choo_world--video2-2.jpg",
+        "time": 1.610038,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--choo_choo_world--video2-3.jpg",
+        "time": 3.206202,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/video0.mp4",
+    "bytes": 2234174,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 10.016667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--soda_experience--video0-1.jpg",
+        "time": 0.506969,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--soda_experience--video0-2.jpg",
+        "time": 4.01937,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--soda_experience--video0-3.jpg",
+        "time": 8.013783,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/video0.mp4",
+    "bytes": 4669086,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 20.833333,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--worldcoin--video0-1.jpg",
+        "time": 1.05423,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--worldcoin--video0-2.jpg",
+        "time": 8.333826,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--worldcoin--video0-3.jpg",
+        "time": 16.667109,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/video0.mp4",
+    "bytes": 4593621,
+    "type": "video/mp4",
+    "width": 1281,
+    "height": 720,
+    "duration": 20.016667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--lusion_labs--video0-1.jpg",
+        "time": 1.012252,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--lusion_labs--video0-2.jpg",
+        "time": 8.021538,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--lusion_labs--video0-3.jpg",
+        "time": 16.013827,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/video0.mp4",
+    "bytes": 4522636,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 20.166667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--my_little_story_book--video0-1.jpg",
+        "time": 1.011292,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--my_little_story_book--video0-2.jpg",
+        "time": 8.067431,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--my_little_story_book--video0-3.jpg",
+        "time": 16.13495,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/video0.mp4",
+    "bytes": 1652435,
+    "type": "video/mp4",
+    "width": 1282,
+    "height": 720,
+    "duration": 7.4,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--infinite_passerella--video0-1.jpg",
+        "time": 0.372096,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--infinite_passerella--video0-2.jpg",
+        "time": 2.961142,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--infinite_passerella--video0-3.jpg",
+        "time": 5.924517,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/video1.mp4",
+    "bytes": 3546826,
+    "type": "video/mp4",
+    "width": 1308,
+    "height": 656,
+    "duration": 15.8,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--infinite_passerella--video1-1.jpg",
+        "time": 0.802624,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--infinite_passerella--video1-2.jpg",
+        "time": 6.3281,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--infinite_passerella--video1-3.jpg",
+        "time": 12.646522,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/video0.mp4",
+    "bytes": 2846228,
+    "type": "video/mp4",
+    "width": 1419,
+    "height": 720,
+    "duration": 13.016667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--the_turn_of_the_screw--video0-1.jpg",
+        "time": 0.656994,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--the_turn_of_the_screw--video0-2.jpg",
+        "time": 5.220248,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--the_turn_of_the_screw--video0-3.jpg",
+        "time": 10.414663,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/video0.mp4",
+    "bytes": 2631625,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 11.516667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--maxmara_bearings_gifts--video0-1.jpg",
+        "time": 0.576231,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--maxmara_bearings_gifts--video0-2.jpg",
+        "time": 4.609922,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--maxmara_bearings_gifts--video0-3.jpg",
+        "time": 9.213903,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/video1.mp4",
+    "bytes": 2491610,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 11.016667,
+    "frames": [
+      {
+        "local": "media/video-frames/projects--maxmara_bearings_gifts--video1-1.jpg",
+        "time": 0.553557,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/projects--maxmara_bearings_gifts--video1-2.jpg",
+        "time": 4.419545,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/projects--maxmara_bearings_gifts--video1-3.jpg",
+        "time": 8.813815,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/reel/desktop.mp4",
+    "local": "sources/assets/lusion.dev/assets/textures/reel/desktop.mp4",
+    "bytes": 4980580,
+    "type": "video/mp4",
+    "width": 1920,
+    "height": 960,
+    "duration": 11.516667,
+    "frames": [
+      {
+        "local": "media/video-frames/textures--reel--desktop-1.jpg",
+        "time": 0.576403,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/textures--reel--desktop-2.jpg",
+        "time": 4.610193,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/textures--reel--desktop-3.jpg",
+        "time": 9.213849,
+        "ratio": 0.8
+      }
+    ]
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/reel/mobile.mp4",
+    "local": "sources/assets/lusion.dev/assets/textures/reel/mobile.mp4",
+    "bytes": 2267388,
+    "type": "video/mp4",
+    "width": 720,
+    "height": 960,
+    "duration": 11.516667,
+    "frames": [
+      {
+        "local": "media/video-frames/textures--reel--mobile-1.jpg",
+        "time": 0.576273,
+        "ratio": 0.05
+      },
+      {
+        "local": "media/video-frames/textures--reel--mobile-2.jpg",
+        "time": 4.615341,
+        "ratio": 0.4
+      },
+      {
+        "local": "media/video-frames/textures--reel--mobile-3.jpg",
+        "time": 9.21375,
+        "ratio": 0.8
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="shield-title shield-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="shield-title">Shield icon</title>
+  <desc id="shield-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[15,29],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientShield" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientShield)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 7 38 13v9.5c0 9-5.6 15.1-14 18.5-8.4-3.4-14-9.5-14-18.5V13l14-6Z"/>
+    <path d="m17.5 24.5 4.5 4.5 9-10"/>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+{
+  "source": "https://montage.wanted.co.kr/docs/utilities/web-utilities/gradient",
+  "collectedAt": "2026-09-01T03:22:38.257Z",
+  "easingStops": [
+    {
+      "position": 0,
+      "alpha": 0
+    },
+    {
+      "position": 14,
+      "alpha": 0.14
+    },
+    {
+      "position": 26,
+      "alpha": 0.27
+    },
+    {
+      "position": 37,
+      "alpha": 0.38
+    },
+    {
+      "position": 46,
+      "alpha": 0.48
+    },
+    {
+      "position": 54,
+      "alpha": 0.57
+    },
+    {
+      "position": 60,
+      "alpha": 0.65
+    },
+    {
+      "position": 66,
+      "alpha": 0.71
+    },
+    {
+      "position": 71,
+      "alpha": 0.77
+    },
+    {
+      "position": 76,
+      "alpha": 0.82
+    },
+    {
+      "position": 80,
+      "alpha": 0.86
+    },
+    {
+      "position": 83,
+      "alpha": 0.9
+    },
+    {
+      "position": 87,
+      "alpha": 0.93
+    },
+    {
+      "position": 91,
+      "alpha": 0.96
+    },
+    {
+      "position": 95,
+      "alpha": 0.98
+    },
+    {
+      "position": 100,
+      "alpha": 1
+    }
+  ],
+  "modes": [
+    {
+      "id": "solid",
+      "name": "Solid",
+      "description": "배경 경계를 자연스럽게 표현합니다.",
+      "direction": "right",
+      "size": "100%",
+      "colorToken": "--semantic-inverse-background",
+      "baseToken": "--semantic-background-normal-normal",
+      "code": "import { Box, css, gradient } from '@wanteddev/wds';\n\nconst Demo = () => {\n return (\n <Box\n sx={[\n theme => gradient(theme.semantic.inverse.background, 'right', '100%', 'solid'),\n {\n width: '100%',\n height: '200px',\n },\n ]}\n />\n )\n}\n\nexport default Demo;"
+    },
+    {
+      "id": "multiple",
+      "name": "Multiple",
+      "description": "두 가지 색을 그라디언트로 표현합니다.",
+      "direction": "right",
+      "size": "100%",
+      "colorToken": "--semantic-inverse-background",
+      "baseToken": "--semantic-primary-normal",
+      "code": "import { Box, css, gradient } from '@wanteddev/wds';\n\nimport type { Theme } from '@wanteddev/wds';\n\nconst demoStyle = (theme: Theme) => css`\nposition: relative;\nwidth: 100%;\nheight: 200px;\nbackground-color: ${theme.semantic.primary.normal};\n&::before {\n width: 100%;\n height: 100%;\n content: '';\n position: absolute;\n left: 0px;\n top: 0px;\n ${gradient(theme.semantic.inverse.background, 'right', '100%', 'multiple')}\n}\n`;\n\nconst Demo = () => {\nreturn (\n <Box\n sx={demoStyle}\n />\n)\n}\n\nexport default Demo;"
+    },
+    {
+      "id": "mask",
+      "name": "Mask",
+      "description": "요소에 마스크를 씌워 경계를 매끄럽게 표현합니다.",
+      "direction": "right",
+      "size": "80px",
+      "colorToken": "--semantic-inverse-background",
+      "baseToken": "--semantic-background-normal-normal",
+      "code": "import { Box, css, gradient } from '@wanteddev/wds';\n\nconst Demo = () => {\n return (\n <Box\n sx={[\n theme => gradient(theme.semantic.inverse.background, 'right', '80px', 'mask'),\n {\n width: '100%',\n height: '200px',\n },\n ]}\n />\n )\n}\n\nexport default Demo;"
+    }
+  ]
+}

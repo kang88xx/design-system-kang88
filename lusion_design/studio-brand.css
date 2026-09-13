@@ -1,0 +1,219 @@
+/* ==========================================================================
+   Studio Shell — Lusion 브랜드 매핑 + 옛 셸(고정 헤더·가로 탭 바) 무력화.
+   studio-shell.css 의 뼈대는 그대로 두고, 색·서체만 --as-* 로 연결한다.
+   이 파일은 각 페이지에서 "마지막"에 읽어 기존 페이지 CSS 보다 뒤에 온다.
+   ========================================================================== */
+
+:root {
+  /* 서체: tokens/lusion.css 의 @font-face (Aeonik / IBMPlexMono) */
+  --as-font-display: "Aeonik", system-ui, Arial, "Noto Sans KR", sans-serif;
+  --as-font-text: "Aeonik", system-ui, Arial, "Noto Sans KR", sans-serif;
+  --as-font-mono: "IBMPlexMono", ui-monospace, Consolas, monospace;
+
+  /* 색: tokens/lusion.css 의 extracted 팔레트 */
+  --as-ink: #000000;              /* --color-black */
+  --as-ink-2: #16171d;
+  --as-ink-3: #2b2e3a;            /* --color-grey-blue */
+  --as-muted: #5d6070;
+  --as-faint: #656773;
+  --as-faint-2: #8a8ea0;
+  --as-line: #d8dae5;
+  --as-line-strong: #c8cbd8;
+  --as-accent: #1a2ffb;           /* --color-blue */
+  --as-accent-hover: #071bdf;     /* --color-dark-blue */
+  --as-accent-active: #0016ec;    /* --header-color */
+  --as-link: #1a2ffb;
+  --as-on-accent: #ffffff;
+  --as-bg: #f0f1fa;               /* --color-off-white */
+  --as-surface: #e4e6ef;          /* --color-dark-white */
+  --as-sidebar-bg: #e8eaf4;
+  --as-nav-hover: #e0e3f0;
+  --as-nav-active-bg: #1a2ffb;
+  --as-nav-active-ink: #ffffff;
+  --as-status: #1a2ffb;
+  --as-selection: #c1ff00;        /* --color-green */
+  --as-toast-bg: #161923;
+  --as-toast-ink: #ffffff;
+}
+
+/* 스크롤 앵커: 옛 고정 헤더(92~130px) 대신 새 상단바 65px 기준 */
+html { scroll-padding-top: 86px; }
+
+/* ---------- 셸 스킨(밝은 판 위의 흰 컨트롤) ---------- */
+.as-topbar-search,
+.as-export-button,
+.as-icon-button { background: #fff; }
+.as-brand-badge { border-color: var(--as-line-strong); }
+.as-studio a:hover { text-decoration: none; }
+
+.as-visually-hidden {
+  position: absolute; width: 1px; height: 1px; margin: -1px;
+  padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* ---------- 셸 규칙 재확인 ----------
+   studio-shell.css 는 각 페이지 CSS 보다 먼저 읽히므로, 같은 우선순위로 덮이는
+   항목만 여기서 다시 선언한다(치수·간격은 shell.css 와 동일한 값). */
+.as-studio { font-family: var(--as-font-text); background: var(--as-bg); }
+.as-brand { height: 104px; display: flex; align-items: center; gap: 12px; padding: 0 25px; font-size: 14px; letter-spacing: 0; }
+.as-brand strong { display: block; font-size: 19px; font-weight: 600; line-height: 1.15; letter-spacing: -.02em; }
+.as-brand > div { min-width: 0; }
+.as-brand div > span { display: block; font-size: 9px; line-height: 1.35; color: var(--as-muted); margin-top: 4px; font-family: var(--as-font-mono); letter-spacing: .02em; }
+.as-brand div > span > span { font-size: inherit; }
+.as-brand-mark { width: 22px; height: 30px; color: var(--as-accent); }
+.as-sidebar nav a { display: flex; align-items: center; gap: 13px; min-height: 42px; padding: 12px; font-size: 13px; border-radius: 6px; border: 0; white-space: normal; }
+.as-sidebar nav a[aria-current] { background: var(--as-nav-active-bg); color: var(--as-nav-active-ink); }
+.as-sidebar nav a[aria-current] .as-nav-index { color: var(--as-nav-active-ink); }
+.as-sidebar-label { font-family: var(--as-font-mono); font-size: 10px; letter-spacing: .06em; }
+.as-nav-index { font-family: var(--as-font-mono); font-size: 10px; }
+.as-sidebar-bottom { font-size: 10px; padding: 22px 18px; }
+.as-sidebar-bottom > a { margin-left: auto; font-size: 17px; text-decoration: none; }
+
+.as-topbar { height: 65px; padding: 0 42px; display: flex; align-items: center; gap: 16px; border-bottom: 1px solid var(--as-line); background: color-mix(in srgb, var(--as-bg) 93%, transparent); }
+.as-breadcrumb { font-family: var(--as-font-mono); font-size: 11px; letter-spacing: .025em; gap: 15px; }
+.as-breadcrumb strong { font-weight: 400; color: var(--as-ink-2); }
+.as-export-button { font-family: var(--as-font-mono); font-size: 11px; padding: 9px 12px; min-height: 0; border-radius: 6px; }
+.as-topbar-search { min-height: 0; height: 34px; padding: 0 12px; border-radius: 6px; }
+.as-topbar .as-topbar-search input { min-height: 0 !important; height: 22px !important; flex: 1; width: auto !important; min-width: 0; border: 0 !important; border-radius: 0 !important; padding: 0 !important; margin: 0 !important; background: transparent !important; box-shadow: none; color: var(--as-ink); font: inherit; font-size: 12px !important; outline: 0; }
+.as-topbar-search > span[aria-hidden] { font-size: 15px; color: var(--as-faint); flex: none; }
+.as-topbar-search kbd { font-family: var(--as-font-mono); font-size: 9px; color: var(--as-faint-2); border: 1px solid var(--as-line); border-radius: 3px; padding: 1px 4px; flex: none; }
+
+.as-workspace { max-width: 1400px; margin: 0 auto; padding: 43px 48px 0; }
+/* 옛 좌우 거터는 .as-workspace 가 대신한다 */
+.as-workspace { --base-padding-x: 0px; --gutter: 0px; --sx-gutter: 0px; }
+.as-workspace > section,
+.as-workspace > div,
+.as-workspace > nav,
+.as-workspace > figure,
+.as-workspace > article,
+.as-workspace > aside,
+.as-workspace > footer,
+.as-workspace > dl,
+.as-workspace > ol,
+.as-workspace > p { padding-left: 0 !important; padding-right: 0 !important; }
+
+.as-eyebrow { font-family: var(--as-font-mono); font-size: 10px; font-weight: 500; color: var(--as-muted); display: flex; align-items: center; gap: 8px; letter-spacing: .06em; text-transform: uppercase; }
+.as-version { margin-left: 7px; color: var(--as-faint-2); }
+.as-overview-title { padding-top: 0; padding-bottom: 0; }
+.as-overview-title h1 { font-family: var(--as-font-display); font-size: 56px; line-height: 1.1; font-weight: 600; letter-spacing: -.045em; margin: 20px 0 0; }
+.as-overview-title h1 > span { color: var(--as-faint); }
+.as-intro { font-size: 19px; line-height: 1.55; letter-spacing: -.02em; color: var(--as-muted); font-family: var(--as-font-display); margin: 10px 0 0; max-width: 720px; word-break: keep-all; }
+.as-intro strong { font-weight: 400; color: var(--as-ink-2); }
+.as-overview-copy { max-width: 720px; margin: 18px 0 0; display: grid; gap: 6px; }
+.as-overview-copy > p:first-child { font-size: 15px; line-height: 1.55; letter-spacing: -.02em; color: var(--as-ink-2); }
+.as-overview-copy > .muted { font-size: 13px; color: var(--as-faint); word-break: keep-all; }
+.as-title-actions { display: flex; align-items: center; gap: 23px; margin-top: 27px; flex-wrap: wrap; }
+.as-button { border-radius: 980px; min-height: 36px; padding: 8px 16px; font-size: 13px; gap: 8px; background: var(--as-accent); color: var(--as-on-accent); justify-content: center; transform: none !important; }
+.as-button:hover { background: var(--as-accent-hover); color: var(--as-on-accent); }
+.as-text-command { font-size: 12px; display: inline-flex; align-items: center; gap: 11px; color: var(--as-ink-3); border: 0; padding: 0; flex: none; }
+.as-text-command:hover { color: var(--as-accent); }
+.as-text-command > span { font-size: 16px; }
+
+.as-stats-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: 36px 0 35px; padding: 23px 0; border-top: 1px solid var(--as-line); border-bottom: 1px solid var(--as-line); }
+.as-stats-strip > div { display: flex; flex-direction: column-reverse; justify-content: flex-end; border-right: 1px solid var(--as-line); padding-left: 26px; min-width: 0; }
+.as-stats-strip > div:first-child { padding-left: 0; }
+.as-stats-strip > div:last-child { border-right: 0; }
+.as-stats-strip dd,
+.as-stats-strip strong { font-family: var(--as-font-display); font-size: 27px; font-weight: 500; line-height: 1.1; letter-spacing: -.03em; display: block; margin: 0; }
+.as-stats-strip dt,
+.as-stats-strip > div > span { display: block; font-size: 10px; color: var(--as-muted); margin: 9px 0 0; }
+.as-stats-strip dd span,
+.as-stats-strip dd b,
+.as-stats-strip > div > span b { font-size: 12px; letter-spacing: 0; display: inline; margin: 0; color: inherit; }
+
+.as-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+.as-section-heading h2 { font-family: var(--as-font-display); font-size: 22px; font-weight: 600; line-height: 1.2; letter-spacing: -.03em; margin: 0; }
+.as-section-heading .as-eyebrow,
+.as-section-heading .eyebrow { margin-bottom: 13px; }
+.as-section-heading p { font-size: 14px; color: var(--as-muted); margin: 12px 0 0; line-height: 1.6; }
+.as-workspace:not(.as-page-overview) > .as-section-heading:first-child h2,
+.as-page-title h2 { font-size: 36px; }
+/* 하위 페이지의 제목은 기존 <h1> 을 그대로 두고 페이지 제목 크기만 맞춘다 */
+.as-page-title h1 { font-family: var(--as-font-display); font-size: 36px; font-weight: 600; line-height: 1.15; letter-spacing: -.04em; margin: 0; }
+.as-page-title h1 > span { color: var(--as-faint); }
+.as-page-title h1 em { color: var(--as-accent); font-style: normal; }
+.as-page-title .intro-cross { position: static; font-size: 28px; margin-left: 12px; color: var(--as-accent); }
+.as-page-title > div > p,
+.as-page-title > div > .hero-bottom,
+.as-page-title .hero-bottom > p,
+.as-page-title .hero-copy > p,
+.as-page-title .pk-intro-copy > p,
+.as-page-title .intro-bottom > p,
+.as-page-title .intro-bottom .lead,
+.as-page-title > div > .lead { font-size: 14px; color: var(--as-muted); margin: 12px 0 0; line-height: 1.6; max-width: 760px; }
+.as-page-title .hero-copy,
+.as-page-title .pk-intro-copy,
+.as-page-title .intro-bottom,
+.as-page-title .hero-bottom { display: block; max-width: 760px; }
+.as-page-title .as-eyebrow,
+.as-page-title .eyebrow,
+.as-page-title .kicker,
+.as-page-title .pk-eyebrow { margin-bottom: 13px; }
+
+.as-view-tabs { display: flex; flex-wrap: nowrap; gap: 25px; align-items: stretch; border-bottom: 1px solid var(--as-line); margin: 30px 0 24px; overflow-x: auto; position: static; top: auto; min-height: 0; background: none; backdrop-filter: none; padding: 0; }
+.as-view-tabs > a,
+.as-view-tabs > button { padding: 12px 0 15px; min-height: 0; color: var(--as-muted); border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none; font-size: 12px; flex: none; display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.as-view-tabs > a:hover,
+.as-view-tabs > button:hover { color: var(--as-ink); background: none; }
+.as-view-tabs > a[aria-current],
+.as-view-tabs > button[aria-selected="true"],
+.as-view-tabs > .is-active { color: var(--as-ink); border-bottom-color: var(--as-ink); }
+
+.as-studio-footer { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding: 26px 0; margin-top: 34px; border-top: 1px solid var(--as-line); background: none; color: var(--as-faint-2); font-size: 10px; }
+.as-studio-footer > p,
+.as-studio-footer > span,
+.as-studio-footer > a,
+.as-studio-footer small { font-size: 10px; color: inherit; }
+.as-studio-footer em { font-style: italic; }
+
+@media (max-width: 1200px) {
+  .as-workspace { padding: 35px 30px 0; }
+  .as-topbar { padding: 0 30px; }
+}
+@media (max-width: 900px) {
+  .as-brand { padding: 0 18px; }
+  .as-workspace { padding: 30px 22px 0; }
+  .as-topbar { padding: 0 22px; }
+  .as-overview-title h1 { font-size: 48px; }
+}
+@media (max-width: 640px) {
+  .as-topbar { height: 58px; padding: 0 16px; }
+  .as-workspace { padding: 29px 20px 0; }
+  .as-overview-title h1 { font-size: 40px; }
+  .as-intro { font-size: 17px; }
+  .as-stats-strip { grid-template-columns: 1fr 1fr; row-gap: 22px; }
+  .as-stats-strip > div:nth-child(2n) { border-right: 0; padding-left: 20px; }
+  .as-stats-strip > div:nth-child(2n+1) { padding-left: 0; }
+  .as-workspace:not(.as-page-overview) > .as-section-heading:first-child h2,
+  .as-page-title h2 { font-size: 30px; }
+  .as-studio-footer { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+
+/* 하위 페이지: 옛 히어로 상단 여백은 페이지 제목이 대신한다 */
+.as-workspace > section.hero,
+.as-workspace > section.intro { padding-top: 0; }
+
+/* 영상 분석: <span><b>28</b> 영상</span> 형태의 요약 줄을 stats strip 형식으로 */
+.review-summary.as-stats-strip { grid-template-columns: repeat(3, 1fr); gap: 0; }
+.review-summary.as-stats-strip > div { display: block; }
+.review-summary.as-stats-strip > div > span { display: flex; flex-direction: column; align-items: flex-start; font-size: 10px; color: var(--as-muted); margin: 0; }
+.review-summary.as-stats-strip > div > span b { font-family: var(--as-font-display); font-size: 27px; font-weight: 500; line-height: 1.1; letter-spacing: -.03em; margin: 0 0 9px; }
+@media (max-width: 640px) {
+  .review-summary.as-stats-strip { grid-template-columns: 1fr 1fr; row-gap: 22px; }
+}
+
+/* SPEC 5: 워크스페이스 안의 모든 섹션 제목을 같은 크기로 */
+.as-workspace > section h2,
+.as-workspace > section .copy > h2 {
+  font-family: var(--as-font-display); font-size: 22px; font-weight: 600;
+  line-height: 1.2; letter-spacing: -.03em;
+}
+
+/* 서브탭 바로 아래 섹션의 중복 구분선 제거 */
+.as-view-tabs + section.ruled,
+.as-view-tabs + section.section { border-top: 0; }
+
+/* shell.css 버그 보완: 640px 이하에서 .as-sidebar-scrim { display:block } 이
+   UA 의 [hidden] 규칙을 이겨 스크림이 항상 화면을 덮고 클릭을 가로챈다.
+   (원본 수정 대신 여기서 무력화 — 보고서에 shell.css 수정 제안으로 기록) */
+.as-sidebar-scrim[hidden] { display: none !important; }

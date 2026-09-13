@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="clock-fast-title clock-fast-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="clock-fast-title">Fast deployment clock icon</title>
+  <desc id="clock-fast-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[15],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientClockFast" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientClockFast)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="28" cy="23" r="13"/>
+    <path d="M28 15v8l5 4"/>
+    <path d="M8 18h8"/>
+    <path d="M7 24h8"/>
+    <path d="M10 30h7"/>
+  </g>
+</svg>

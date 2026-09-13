@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-06",
+  "scope": "Edition02 thumbnail library usability and source coverage; not pixel-identical page reproduction",
+  "score": 93,
+  "verdict": "pass",
+  "category_match": true,
+  "differences": [
+    "Native HTML/SVG reconstructions preserve observed states/source parameters; not the original Framer runtime.",
+    "Current public graphic assets differ from the older Recent capture; source/version labels retained."
+  ],
+  "suggestions": [],
+  "reasoning": "Thumbnail-first previews now show actual controls, source graphics, concise descriptions and replay/expand actions. Original9 videos preserve actual native-app motion. Desktop and390px captures inspected; reduced-motion final-state invisibility and wrapping search label corrected.",
+  "reviewed": [
+    "references/v2-review/motion-final-1440.png",
+    "references/v2-review/motion-final-390.png",
+    "references/v2-review/films-1440.png"
+  ]
+}

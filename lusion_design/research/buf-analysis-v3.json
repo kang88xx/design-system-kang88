@@ -1,0 +1,3574 @@
+{
+  "checked_at": "2026-09-06T13:54:19.470Z",
+  "source": "sources/readable/classes/BufItem-1203837.js",
+  "total": 55,
+  "statuses": {
+    "mesh-decoded": 34,
+    "points-animation-decoded": 10,
+    "points-decoded": 11
+  },
+  "unpack_formula": "(raw + signedNeutral) / 2^bits * packedComponent.delta + packedComponent.from; signedNeutral is half range for Int* arrays and 0 for Uint*/Float arrays.",
+  "rows": [
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/bg_box.buf",
+      "sha256": "2c2b4afd860eed3215af1afbed279e714cc1f452be189c9be6c63b173dee422f",
+      "bytes": 454,
+      "headerBytes": 372,
+      "payloadBytesRead": 78,
+      "trailingBytes": 0,
+      "vertexCount": 8,
+      "indexCount": 30,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -187.141113,
+          -1.01878357,
+          -200
+        ],
+        "max": [
+          267.04378958262635,
+          998.965942211173,
+          65.39261026834873
+        ]
+      },
+      "finitePosition": {
+        "finite": 24,
+        "total": 24,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 30,
+        "total": 30,
+        "min": 0,
+        "max": 7,
+        "triangles": 10,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__bg_box.obj",
+        "points": "sources/decoded/models__about__bg_box.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/camera_spline.buf",
+      "sha256": "80249a7d29069e6f31d8cd9669273ceb292d8ed14d375a2ae76bbdb0cbe5c64a",
+      "bytes": 4784,
+      "headerBytes": 380,
+      "payloadBytesRead": 4400,
+      "trailingBytes": 0,
+      "vertexCount": 200,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -19.1331158,
+          5.46889019,
+          -75.1132812
+        ],
+        "max": [
+          -0.00029194817810207496,
+          49.99932050918869,
+          -5.001069843768306
+        ]
+      },
+      "finitePosition": {
+        "finite": 600,
+        "total": 600,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__about__camera_spline.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/letter_placements.buf",
+      "sha256": "3444250a0ce1bbb285ebc6f2a50dfefbc82c7f82b1994919e1b46a040bf07650",
+      "bytes": 2272,
+      "headerBytes": 504,
+      "payloadBytesRead": 1764,
+      "trailingBytes": 0,
+      "vertexCount": 196,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "dof",
+          "componentSize": 1,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "density",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -86.8225632,
+          -0.851168454,
+          -8.06794453
+        ],
+        "max": [
+          82.60938363421324,
+          16.10874810826181,
+          97.01552452904464
+        ]
+      },
+      "finitePosition": {
+        "finite": 588,
+        "total": 588,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/models__about__letter_placements.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/logo_text.buf",
+      "sha256": "18a123ef46422bb3b67321d255ea8da3da98cd9b1c317ee94ec6209555863f5b",
+      "bytes": 22748,
+      "headerBytes": 404,
+      "payloadBytesRead": 22340,
+      "trailingBytes": 0,
+      "vertexCount": 1400,
+      "indexCount": 6270,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "char",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0.9999847412109375,
+          0.20095369564315796,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 4200,
+        "total": 4200,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 6270,
+        "total": 6270,
+        "min": 0,
+        "max": 1399,
+        "triangles": 2090,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__logo_text.obj",
+        "points": "sources/decoded/models__about__logo_text.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/person.buf",
+      "sha256": "0b5d623b78d3000d2dae46b014eeee6aef27effe7283aafd7b25bfd13eaa72e3",
+      "bytes": 86170,
+      "headerBytes": 944,
+      "payloadBytesRead": 85222,
+      "trailingBytes": 0,
+      "vertexCount": 2666,
+      "indexCount": 11952,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "boneWeights",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "boneIndices",
+          "componentSize": 2,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.645396411,
+          -0.0127250003,
+          -0.307410419
+        ],
+        "max": [
+          0.6453757620791473,
+          1.84537662718658,
+          0.15882492870462034
+        ]
+      },
+      "finitePosition": {
+        "finite": 7998,
+        "total": 7998,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 11952,
+        "total": 11952,
+        "min": 0,
+        "max": 2665,
+        "triangles": 3984,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__person.obj",
+        "points": "sources/decoded/models__about__person.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/person_idle.buf",
+      "sha256": "c1efc427813a116f1a7c4f2ab2689972e04e6be8a0cb6a277de04831f9f92945",
+      "bytes": 101372,
+      "headerBytes": 388,
+      "payloadBytesRead": 100980,
+      "trailingBytes": 0,
+      "vertexCount": 4590,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.865180433,
+          -0.0100133419,
+          -0.505082548
+        ],
+        "max": [
+          0.7567091455514069,
+          0.988006860187883,
+          0.16802899097628776
+        ]
+      },
+      "finitePosition": {
+        "finite": 13770,
+        "total": 13770,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__about__person_idle.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_0.buf",
+      "sha256": "e9c1ce5bde3d91d2b7fc7971906b9bc59412d726deb21e9da19ca08eaeb081c2",
+      "bytes": 33891,
+      "headerBytes": 868,
+      "payloadBytesRead": 33019,
+      "trailingBytes": 0,
+      "vertexCount": 1475,
+      "indexCount": 3972,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.164157987,
+          -0.192200661,
+          -0.17882745
+        ],
+        "max": [
+          0.1801189996699219,
+          0.217788400967926,
+          0.19051807814849853
+        ]
+      },
+      "finitePosition": {
+        "finite": 4425,
+        "total": 4425,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 3972,
+        "total": 3972,
+        "min": 0,
+        "max": 1474,
+        "triangles": 1324,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_0.obj",
+        "points": "sources/decoded/models__about__rock_0.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_0_low.buf",
+      "sha256": "c160a38544d6144b35f64320149240ee16d99dacca0e73893cdc2c43fc27ec92",
+      "bytes": 2205,
+      "headerBytes": 456,
+      "payloadBytesRead": 1745,
+      "trailingBytes": 0,
+      "vertexCount": 149,
+      "indexCount": 702,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.143146366,
+          -0.162654132,
+          -0.162766412
+        ],
+        "max": [
+          0.15358011624411014,
+          0.17157537898457337,
+          0.15241416165272523
+        ]
+      },
+      "finitePosition": {
+        "finite": 447,
+        "total": 447,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 702,
+        "total": 702,
+        "min": 0,
+        "max": 148,
+        "triangles": 234,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_0_low.obj",
+        "points": "sources/decoded/models__about__rock_0_low.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_1.buf",
+      "sha256": "6705e31547a506e3e3e3ecb825aec714d2e49e2af4f32c865d1aeb97f50ed253",
+      "bytes": 38409,
+      "headerBytes": 880,
+      "payloadBytesRead": 37525,
+      "trailingBytes": 0,
+      "vertexCount": 1649,
+      "indexCount": 4746,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.208166197,
+          -0.151821375,
+          -0.166100681
+        ],
+        "max": [
+          0.21814205395306396,
+          0.16617361270751954,
+          0.1846111694801941
+        ]
+      },
+      "finitePosition": {
+        "finite": 4947,
+        "total": 4947,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 4746,
+        "total": 4746,
+        "min": 0,
+        "max": 1648,
+        "triangles": 1582,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_1.obj",
+        "points": "sources/decoded/models__about__rock_1.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_1_low.buf",
+      "sha256": "c160a38544d6144b35f64320149240ee16d99dacca0e73893cdc2c43fc27ec92",
+      "bytes": 2205,
+      "headerBytes": 456,
+      "payloadBytesRead": 1745,
+      "trailingBytes": 0,
+      "vertexCount": 149,
+      "indexCount": 702,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.143146366,
+          -0.162654132,
+          -0.162766412
+        ],
+        "max": [
+          0.15358011624411014,
+          0.17157537898457337,
+          0.15241416165272523
+        ]
+      },
+      "finitePosition": {
+        "finite": 447,
+        "total": 447,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 702,
+        "total": 702,
+        "min": 0,
+        "max": 148,
+        "triangles": 234,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_1_low.obj",
+        "points": "sources/decoded/models__about__rock_1_low.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_2.buf",
+      "sha256": "a08861bb795be9278fa20a8dddadf603ad9a80d9116799b57e5d4cdb6ba46659",
+      "bytes": 39145,
+      "headerBytes": 888,
+      "payloadBytesRead": 38253,
+      "trailingBytes": 0,
+      "vertexCount": 1689,
+      "indexCount": 4770,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.165039808,
+          -0.151074409,
+          -0.181701079
+        ],
+        "max": [
+          0.18357564546916205,
+          0.18157832904458618,
+          0.1694121723552094
+        ]
+      },
+      "finitePosition": {
+        "finite": 5067,
+        "total": 5067,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 4770,
+        "total": 4770,
+        "min": 0,
+        "max": 1688,
+        "triangles": 1590,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_2.obj",
+        "points": "sources/decoded/models__about__rock_2.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_2_low.buf",
+      "sha256": "c160a38544d6144b35f64320149240ee16d99dacca0e73893cdc2c43fc27ec92",
+      "bytes": 2205,
+      "headerBytes": 456,
+      "payloadBytesRead": 1745,
+      "trailingBytes": 0,
+      "vertexCount": 149,
+      "indexCount": 702,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.143146366,
+          -0.162654132,
+          -0.162766412
+        ],
+        "max": [
+          0.15358011624411014,
+          0.17157537898457337,
+          0.15241416165272523
+        ]
+      },
+      "finitePosition": {
+        "finite": 447,
+        "total": 447,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 702,
+        "total": 702,
+        "min": 0,
+        "max": 148,
+        "triangles": 234,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_2_low.obj",
+        "points": "sources/decoded/models__about__rock_2_low.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_3.buf",
+      "sha256": "f5886c9249cf3d00943e9806da334e66d19b46195cc600ed3432d7348085352a",
+      "bytes": 40024,
+      "headerBytes": 888,
+      "payloadBytesRead": 39132,
+      "trailingBytes": 0,
+      "vertexCount": 1728,
+      "indexCount": 4878,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.16596882,
+          -0.154101849,
+          -0.182813063
+        ],
+        "max": [
+          0.18098458183044433,
+          0.1850462659314881,
+          0.16985478763354495
+        ]
+      },
+      "finitePosition": {
+        "finite": 5184,
+        "total": 5184,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 4878,
+        "total": 4878,
+        "min": 0,
+        "max": 1727,
+        "triangles": 1626,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_3.obj",
+        "points": "sources/decoded/models__about__rock_3.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_3_low.buf",
+      "sha256": "c160a38544d6144b35f64320149240ee16d99dacca0e73893cdc2c43fc27ec92",
+      "bytes": 2205,
+      "headerBytes": 456,
+      "payloadBytesRead": 1745,
+      "trailingBytes": 0,
+      "vertexCount": 149,
+      "indexCount": 702,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.143146366,
+          -0.162654132,
+          -0.162766412
+        ],
+        "max": [
+          0.15358011624411014,
+          0.17157537898457337,
+          0.15241416165272523
+        ]
+      },
+      "finitePosition": {
+        "finite": 447,
+        "total": 447,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 702,
+        "total": 702,
+        "min": 0,
+        "max": 148,
+        "triangles": 234,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__rock_3_low.obj",
+        "points": "sources/decoded/models__about__rock_3_low.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_0.buf",
+      "sha256": "d511d0c44154886e124a9652581eb293a84719604655040295a10b7fc011fc9c",
+      "bytes": 42624,
+      "headerBytes": 380,
+      "payloadBytesRead": 42240,
+      "trailingBytes": 0,
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -2.32860303,
+          0.024312973,
+          -1.60352397
+        ],
+        "max": [
+          3.051604433296508,
+          2.367979047948044,
+          1.508771489415436
+        ]
+      },
+      "finitePosition": {
+        "finite": 5760,
+        "total": 5760,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__about__rock_animation_0.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_1.buf",
+      "sha256": "7d3c56f988086d8cb08d8c7d6dbb574381d4d086df788a6a00dad87bf1731124",
+      "bytes": 42628,
+      "headerBytes": 384,
+      "payloadBytesRead": 42240,
+      "trailingBytes": 0,
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -4.24548864,
+          0.0216202736,
+          -3.23615146
+        ],
+        "max": [
+          2.5425344814065554,
+          2.3766115351367736,
+          1.756619085204926
+        ]
+      },
+      "finitePosition": {
+        "finite": 5760,
+        "total": 5760,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__about__rock_animation_1.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_2.buf",
+      "sha256": "0664834f6fab1a744ef7a0eaa532b6fc8017df5208825b92755ee04a85e96a2e",
+      "bytes": 42628,
+      "headerBytes": 384,
+      "payloadBytesRead": 42240,
+      "trailingBytes": 0,
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -2.06668139,
+          0.025696516,
+          -0.989508092
+        ],
+        "max": [
+          1.8962225599618527,
+          2.438069249551636,
+          3.547921563261536
+        ]
+      },
+      "finitePosition": {
+        "finite": 5760,
+        "total": 5760,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__about__rock_animation_2.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/rock_animation_3.buf",
+      "sha256": "b3adcb935763d68a4f62af7b137cfc8a851250a3c058784e10dc8e1b7256538f",
+      "bytes": 42620,
+      "headerBytes": 376,
+      "payloadBytesRead": 42240,
+      "trailingBytes": 0,
+      "vertexCount": 1920,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -2.3261683,
+          0.0300257206,
+          -1.71099913
+        ],
+        "max": [
+          1.1388764968055725,
+          2.3201545348742765,
+          2.326958794711608
+        ]
+      },
+      "finitePosition": {
+        "finite": 5760,
+        "total": 5760,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__about__rock_animation_3.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_l.buf",
+      "sha256": "ae0a2df5ec21a10119ab5e7b275bcca71b28cd0f8c2aa4f1663a6e054fd88a2e",
+      "bytes": 1732,
+      "headerBytes": 492,
+      "payloadBytesRead": 1236,
+      "trailingBytes": 0,
+      "vertexCount": 73,
+      "indexCount": 360,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "max": [
+          0.4999847412109375,
+          0.4999847412109375,
+          -0.00000762939453125
+        ]
+      },
+      "finitePosition": {
+        "finite": 219,
+        "total": 219,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 360,
+        "total": 360,
+        "min": 0,
+        "max": 72,
+        "triangles": 120,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__sphere_l.obj",
+        "points": "sources/decoded/models__about__sphere_l.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_m.buf",
+      "sha256": "95e63b79957ccc9f0fb54808e78c9c715d3b14ed124a19a862e563719a10c990",
+      "bytes": 1036,
+      "headerBytes": 492,
+      "payloadBytesRead": 540,
+      "trailingBytes": 0,
+      "vertexCount": 33,
+      "indexCount": 144,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "max": [
+          0.4999847412109375,
+          0.4999847412109375,
+          -0.00000762939453125
+        ]
+      },
+      "finitePosition": {
+        "finite": 99,
+        "total": 99,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 144,
+        "total": 144,
+        "min": 0,
+        "max": 32,
+        "triangles": 48,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__sphere_m.obj",
+        "points": "sources/decoded/models__about__sphere_m.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_s.buf",
+      "sha256": "f036a954645191305a1348362af4a22c3a87b6cc93c6b4cecbc57dbca9ec5bde",
+      "bytes": 744,
+      "headerBytes": 488,
+      "payloadBytesRead": 252,
+      "trailingBytes": 0,
+      "vertexCount": 17,
+      "indexCount": 48,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "max": [
+          0.4999847412109375,
+          0.4999847412109375,
+          -0.00000762939453125
+        ]
+      },
+      "finitePosition": {
+        "finite": 51,
+        "total": 51,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 48,
+        "total": 48,
+        "min": 0,
+        "max": 16,
+        "triangles": 16,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__sphere_s.obj",
+        "points": "sources/decoded/models__about__sphere_s.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/sphere_xs.buf",
+      "sha256": "9dd73c11126cfffda37b9d4759569043a1eee3d356a35cc62db7c61e333e4ab7",
+      "bytes": 624,
+      "headerBytes": 488,
+      "payloadBytesRead": 132,
+      "trailingBytes": 0,
+      "vertexCount": 9,
+      "indexCount": 24,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "max": [
+          0.4999847412109375,
+          0.4999847412109375,
+          -0.00000762939453125
+        ]
+      },
+      "finitePosition": {
+        "finite": 27,
+        "total": 27,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 24,
+        "total": 24,
+        "min": 0,
+        "max": 8,
+        "triangles": 8,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__sphere_xs.obj",
+        "points": "sources/decoded/models__about__sphere_xs.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/terrain.buf",
+      "sha256": "44018abc47fa75ac5e78795528406b07300d7d6981abcbe7ebb640bff6e25052",
+      "bytes": 396996,
+      "headerBytes": 692,
+      "payloadBytesRead": 396300,
+      "trailingBytes": 0,
+      "vertexCount": 13872,
+      "indexCount": 80238,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -37.4282227,
+          -1.01878357,
+          -26.8102531
+        ],
+        "max": [
+          53.408751116627506,
+          19.450716455450898,
+          65.39525293416443
+        ]
+      },
+      "finitePosition": {
+        "finite": 41616,
+        "total": 41616,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 80238,
+        "total": 80238,
+        "min": 0,
+        "max": 13871,
+        "triangles": 26746,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__about__terrain.obj",
+        "points": "sources/decoded/models__about__terrain.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/terrain_lines.buf",
+      "sha256": "ea3800cbe1090f3381aa26d863fbd6abbc680d5e778e2f4077691faf2a093754",
+      "bytes": 71276,
+      "headerBytes": 280,
+      "payloadBytesRead": 70992,
+      "trailingBytes": 0,
+      "vertexCount": 11832,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -63.2222748,
+          1,
+          -24.5342274
+        ],
+        "max": [
+          58.13758296727294,
+          18.999725341796875,
+          91.46546935808715
+        ]
+      },
+      "finitePosition": {
+        "finite": 35496,
+        "total": 35496,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/models__about__terrain_lines.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/home/cross.buf",
+      "sha256": "948be63d94e36ee324ebfedfe9ede698f3142b1d1ee4d7ddf1b9039e9accdecc",
+      "bytes": 282676,
+      "headerBytes": 1116,
+      "payloadBytesRead": 281556,
+      "trailingBytes": 0,
+      "vertexCount": 4940,
+      "indexCount": 29628,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "daoN",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "SN",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "ao",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "daoP",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "thickness",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1,
+          -1,
+          -1
+        ],
+        "max": [
+          0.999969482421875,
+          0.999969482421875,
+          0.999969482421875
+        ]
+      },
+      "finitePosition": {
+        "finite": 14820,
+        "total": 14820,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 29628,
+        "total": 29628,
+        "min": 0,
+        "max": 4939,
+        "triangles": 9876,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__home__cross.obj",
+        "points": "sources/decoded/models__home__cross.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_capability.buf",
+      "sha256": "40d33adb9a8696e468fb1477f86c8dca7d5751b296189bf7e7b47eaa4798cc4e",
+      "bytes": 12844,
+      "headerBytes": 692,
+      "payloadBytesRead": 12148,
+      "trailingBytes": 0,
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "CP",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "Cd",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999986351,
+          -0.999999642,
+          0
+        ],
+        "max": [
+          0.9999558338384094,
+          0.9999691244328003,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 1920,
+        "total": 1920,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 1914,
+        "total": 1914,
+        "min": 0,
+        "max": 639,
+        "triangles": 638,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__lines__line_capability.obj",
+        "points": "sources/decoded/models__lines__line_capability.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_goal.buf",
+      "sha256": "f3fbba0bdd4dc0b8c1e672deaaa8a7d49e50b62cea76b18271714ff461df7631",
+      "bytes": 12840,
+      "headerBytes": 688,
+      "payloadBytesRead": 12148,
+      "trailingBytes": 0,
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "CP",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "Cd",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999999881,
+          -0.999998152,
+          0
+        ],
+        "max": [
+          0.9999693634255066,
+          0.9999676344782714,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 1920,
+        "total": 1920,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 1914,
+        "total": 1914,
+        "min": 0,
+        "max": 639,
+        "triangles": 638,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__lines__line_goal.obj",
+        "points": "sources/decoded/models__lines__line_goal.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_office.buf",
+      "sha256": "ae84325d351f0071988441a3e3c408f7e27d6228a7a8687c929a81786e985fac",
+      "bytes": 12832,
+      "headerBytes": 680,
+      "payloadBytesRead": 12148,
+      "trailingBytes": 0,
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "CP",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "Cd",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999972224,
+          -0.999984562,
+          0
+        ],
+        "max": [
+          0.9999417072695311,
+          0.9999540448930054,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 1920,
+        "total": 1920,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 1914,
+        "total": 1914,
+        "min": 0,
+        "max": 639,
+        "triangles": 638,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__lines__line_office.obj",
+        "points": "sources/decoded/models__lines__line_office.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/lines/line_reel.buf",
+      "sha256": "9913246e3873c23db8a97ad35f96b57515f72403a28695bb3d79967349f2d51d",
+      "bytes": 12840,
+      "headerBytes": 688,
+      "payloadBytesRead": 12148,
+      "trailingBytes": 0,
+      "vertexCount": 640,
+      "indexCount": 1914,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "CP",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "Cd",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999999881,
+          -0.999999523,
+          0
+        ],
+        "max": [
+          0.9999693634255066,
+          0.9999690054364317,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 1920,
+        "total": 1920,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 1914,
+        "total": 1914,
+        "min": 0,
+        "max": 639,
+        "triangles": 638,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__lines__line_reel.obj",
+        "points": "sources/decoded/models__lines__line_reel.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/plant.buf",
+      "sha256": "3e3a769101a88b0c9d35ab7ffb7e2e3eaace7ca6ee8ba4ca7842a8bb66381c89",
+      "bytes": 177002,
+      "headerBytes": 1192,
+      "payloadBytesRead": 175806,
+      "trailingBytes": 0,
+      "vertexCount": 5990,
+      "indexCount": 25008,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "branchSplinePos",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "leafAxis",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "branchRatio",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        },
+        {
+          "id": "leafRatio",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        },
+        {
+          "id": "meshId",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.0143064791,
+          -0.000403881073,
+          -0.55399996
+        ],
+        "max": [
+          0.5567983264992661,
+          0.9277106758796528,
+          0.008304590412552715
+        ]
+      },
+      "finitePosition": {
+        "finite": 17970,
+        "total": 17970,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 25008,
+        "total": 25008,
+        "min": 0,
+        "max": 5989,
+        "triangles": 8336,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__plant.obj",
+        "points": "sources/decoded/models__plant.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/playground/tunnel.buf",
+      "sha256": "58bc10fb4dad62e097d4cfc899492029cccf0030819f144f3d12ca32a371682c",
+      "bytes": 900,
+      "headerBytes": 320,
+      "payloadBytesRead": 576,
+      "trailingBytes": 0,
+      "vertexCount": 64,
+      "indexCount": 192,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -10,
+          -0.5,
+          -1
+        ],
+        "max": [
+          9.99969482421875,
+          0.4999847412109375,
+          0.999969482421875
+        ]
+      },
+      "finitePosition": {
+        "finite": 192,
+        "total": 192,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 192,
+        "total": 192,
+        "min": 0,
+        "max": 63,
+        "triangles": 64,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__playground__tunnel.obj",
+        "points": "sources/decoded/models__playground__tunnel.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_animations.buf",
+      "sha256": "e4ec2a089fd4942970208f4499f87e0cd9cd8835b475d6df5b1213ffccbf596d",
+      "bytes": 336188,
+      "headerBytes": 376,
+      "payloadBytesRead": 335808,
+      "trailingBytes": 0,
+      "vertexCount": 15264,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.36564612,
+          -1.16697264,
+          -1.02878809
+        ],
+        "max": [
+          1.3251699907780456,
+          2.0221125876786803,
+          1.5309417710260007
+        ]
+      },
+      "finitePosition": {
+        "finite": 45792,
+        "total": 45792,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__tunnels__astronaut_animations.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_glove_shoes.buf",
+      "sha256": "9e40450f6f895befb151f20de6f1b4d178dcdf8b65cffd61916bd94d7b84ecf8",
+      "bytes": 120976,
+      "headerBytes": 1152,
+      "payloadBytesRead": 119820,
+      "trailingBytes": 0,
+      "vertexCount": 2328,
+      "indexCount": 9858,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "boneWeights",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "ao",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        },
+        {
+          "id": "boneIndices",
+          "componentSize": 2,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.644576013,
+          -0.0147080002,
+          -0.308501989
+        ],
+        "max": [
+          0.6445563421011657,
+          1.4735452507110565,
+          0.15905785849404908
+        ]
+      },
+      "finitePosition": {
+        "finite": 6984,
+        "total": 6984,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 9858,
+        "total": 9858,
+        "min": 0,
+        "max": 2327,
+        "triangles": 3286,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__astronaut_glove_shoes.obj",
+        "points": "sources/decoded/models__tunnels__astronaut_glove_shoes.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_helmet.buf",
+      "sha256": "845e2d914f93b2668a86fd2da0c1e61a14a23e030a7ce4b53da01b82c08ea13f",
+      "bytes": 172619,
+      "headerBytes": 1092,
+      "payloadBytesRead": 171523,
+      "trailingBytes": 0,
+      "vertexCount": 3403,
+      "indexCount": 12597,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "boneWeights",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "ao",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        },
+        {
+          "id": "boneIndices",
+          "componentSize": 2,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.240886003,
+          0.759455979,
+          -0.223095998
+        ],
+        "max": [
+          0.24090964526965333,
+          1.8453884097332611,
+          0.18834770777148438
+        ]
+      },
+      "finitePosition": {
+        "finite": 10209,
+        "total": 10209,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 12597,
+        "total": 12597,
+        "min": 0,
+        "max": 3402,
+        "triangles": 4199,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__astronaut_helmet.obj",
+        "points": "sources/decoded/models__tunnels__astronaut_helmet.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_helmet_glass.buf",
+      "sha256": "d0a887139d51896f507626fe8a4a61063a6def586d43a92fe91d42e34f826864",
+      "bytes": 5979,
+      "headerBytes": 1140,
+      "payloadBytesRead": 4835,
+      "trailingBytes": 0,
+      "vertexCount": 101,
+      "indexCount": 492,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "boneWeights",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "ao",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        },
+        {
+          "id": "boneIndices",
+          "componentSize": 2,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.162275001,
+          1.56932795,
+          0.0566359982
+        ],
+        "max": [
+          0.16235404547827145,
+          1.8022023665641784,
+          0.19245192258183594
+        ]
+      },
+      "finitePosition": {
+        "finite": 303,
+        "total": 303,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 492,
+        "total": 492,
+        "min": 0,
+        "max": 100,
+        "triangles": 164,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__astronaut_helmet_glass.obj",
+        "points": "sources/decoded/models__tunnels__astronaut_helmet_glass.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_in_animation.buf",
+      "sha256": "8d93587dbee3e033ac5b1268dc9866110310e89228d6e2c01b5a9b549a730e01",
+      "bytes": 1960,
+      "headerBytes": 556,
+      "payloadBytesRead": 1400,
+      "trailingBytes": 0,
+      "vertexCount": 100,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.158061206,
+          -0.801183939,
+          13
+        ],
+        "max": [
+          -0.0000024118226013281063,
+          -0.000012225096725493323,
+          22.999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 300,
+        "total": 300,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__tunnels__astronaut_in_animation.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_out_animation.buf",
+      "sha256": "27c2dfbdf34f602634eaa708e2c7e153c57a5e5b28fb20c1d9a6bb65be2616fc",
+      "bytes": 2564,
+      "headerBytes": 360,
+      "payloadBytesRead": 2200,
+      "trailingBytes": 0,
+      "vertexCount": 100,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          0,
+          -0.25,
+          13
+        ],
+        "max": [
+          0.010941576942237853,
+          0.09999466042381289,
+          23.099846286224363
+        ]
+      },
+      "finitePosition": {
+        "finite": 300,
+        "total": 300,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__tunnels__astronaut_out_animation.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/astronaut_wearpack.buf",
+      "sha256": "b7b0eb8eb8ea6d968808936ae60fc03cd767da067e8f5082f04164ef055c0b3a",
+      "bytes": 193065,
+      "headerBytes": 1164,
+      "payloadBytesRead": 191897,
+      "trailingBytes": 0,
+      "vertexCount": 3683,
+      "indexCount": 16764,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "boneWeights",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "ao",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        },
+        {
+          "id": "boneIndices",
+          "componentSize": 2,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.562554061,
+          0.184717998,
+          -0.217847988
+        ],
+        "max": [
+          0.5626497834898988,
+          1.6004212877525026,
+          0.16913309304721075
+        ]
+      },
+      "finitePosition": {
+        "finite": 11049,
+        "total": 11049,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 16764,
+        "total": 16764,
+        "min": 0,
+        "max": 3682,
+        "triangles": 5588,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__astronaut_wearpack.obj",
+        "points": "sources/decoded/models__tunnels__astronaut_wearpack.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/broken_glass.buf",
+      "sha256": "5c055aea28cc2185b647a1963065494b3fc00fd7f24158ffe4b438afdab904e8",
+      "bytes": 135904,
+      "headerBytes": 464,
+      "payloadBytesRead": 135436,
+      "trailingBytes": 0,
+      "vertexCount": 7907,
+      "indexCount": 36090,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "piece",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.316414565,
+          -0.181550741,
+          -0.0119461156
+        ],
+        "max": [
+          0.35635827614448545,
+          0.1729252640428772,
+          0.013158037035185243
+        ]
+      },
+      "finitePosition": {
+        "finite": 23721,
+        "total": 23721,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 36090,
+        "total": 36090,
+        "min": 0,
+        "max": 7906,
+        "triangles": 12030,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__broken_glass.obj",
+        "points": "sources/decoded/models__tunnels__broken_glass.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/broken_glass_animation.buf",
+      "sha256": "1c78a671ae1abdc563f7ace98dd524dd8c24be1e7015a1d2ed95cd1cb0546516",
+      "bytes": 312576,
+      "headerBytes": 392,
+      "payloadBytesRead": 312180,
+      "trailingBytes": 0,
+      "vertexCount": 14190,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "orient",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.46573234,
+          -2.24635649,
+          -0.0113055753
+        ],
+        "max": [
+          3.67689153858963,
+          2.370657088888702,
+          2.0674910395969346
+        ]
+      },
+      "finitePosition": {
+        "finite": 42570,
+        "total": 42570,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-animation-decoded",
+      "reason": "position decoded; orient suggests animation/spline point data, semantic playback not reconstructed",
+      "output": {
+        "points": "sources/decoded/models__tunnels__broken_glass_animation.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/diamond.buf",
+      "sha256": "862f81db85bec6c1d3b8728b0e4aa6045702502f8fdb7900dda3234aa430b5da",
+      "bytes": 5104,
+      "headerBytes": 772,
+      "payloadBytesRead": 4328,
+      "trailingBytes": 0,
+      "vertexCount": 217,
+      "indexCount": 1290,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "edge",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "thickness",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.497540891,
+          -0.329558492,
+          -0.497540891
+        ],
+        "max": [
+          0.4975257072569885,
+          0.3443293261310273,
+          0.4975257072569885
+        ]
+      },
+      "finitePosition": {
+        "finite": 651,
+        "total": 651,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 1290,
+        "total": 1290,
+        "min": 0,
+        "max": 216,
+        "triangles": 430,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__diamond.obj",
+        "points": "sources/decoded/models__tunnels__diamond.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/earth_card.buf",
+      "sha256": "b036bd6cbc72039e4d32eda0b955881132966336f6a21c01ff9725670b2aaa9e",
+      "bytes": 14156,
+      "headerBytes": 752,
+      "payloadBytesRead": 13400,
+      "trailingBytes": 0,
+      "vertexCount": 584,
+      "indexCount": 2904,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Int8Array",
+          "needsPack": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.400000006,
+          -0.200000003,
+          -2.61388156e-9
+        ],
+        "max": [
+          0.3999877989685669,
+          0.19999389948428345,
+          0.9897029181014616
+        ]
+      },
+      "finitePosition": {
+        "finite": 1752,
+        "total": 1752,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 2904,
+        "total": 2904,
+        "min": 0,
+        "max": 583,
+        "triangles": 968,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__earth_card.obj",
+        "points": "sources/decoded/models__tunnels__earth_card.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_base_hd.buf",
+      "sha256": "ef91591f9d7d26ac1fd57348162f82dc1065c38f735a4bca6bf076a24cb671c3",
+      "bytes": 90628,
+      "headerBytes": 1024,
+      "payloadBytesRead": 89600,
+      "trailingBytes": 0,
+      "vertexCount": 1280,
+      "indexCount": 1920,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "center",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "ao",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "areaRatio",
+          "componentSize": 1,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "height",
+          "componentSize": 1,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        },
+        {
+          "id": "cluster",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.02500000037252903,
+          0,
+          -0.5
+        ],
+        "max": [
+          3.0250000953674316,
+          1.0000001192092896,
+          0.5
+        ]
+      },
+      "finitePosition": {
+        "finite": 3840,
+        "total": 3840,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 1920,
+        "total": 1920,
+        "min": 0,
+        "max": 1279,
+        "triangles": 640,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__grid_base_hd.obj",
+        "points": "sources/decoded/models__tunnels__grid_base_hd.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_base_ld.buf",
+      "sha256": "7f3debda982440d493e74b98482399affef8e93b3467d9691827705f43771be2",
+      "bytes": 1636,
+      "headerBytes": 632,
+      "payloadBytesRead": 1000,
+      "trailingBytes": 0,
+      "vertexCount": 16,
+      "indexCount": 24,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "center",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "cluster",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.02500000037252903,
+          -0.02500000037252903,
+          -0.5
+        ],
+        "max": [
+          0.02500000037252903,
+          0.02500000037252903,
+          0.5
+        ]
+      },
+      "finitePosition": {
+        "finite": 48,
+        "total": 48,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 24,
+        "total": 24,
+        "min": 0,
+        "max": 15,
+        "triangles": 8,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__grid_base_ld.obj",
+        "points": "sources/decoded/models__tunnels__grid_base_ld.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_structure_hd.buf",
+      "sha256": "95a98715c7d2f1b2f69b7106a5e92f022aba782d5fb5bfe9baa0b45be2baf097",
+      "bytes": 2912,
+      "headerBytes": 316,
+      "payloadBytesRead": 2592,
+      "trailingBytes": 0,
+      "vertexCount": 96,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "rotAxis",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "gridIds",
+          "componentSize": 3,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -20,
+          -20,
+          -110
+        ],
+        "max": [
+          20,
+          20,
+          0
+        ]
+      },
+      "finitePosition": {
+        "finite": 288,
+        "total": 288,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/models__tunnels__grid_structure_hd.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/grid_structure_ld.buf",
+      "sha256": "82dbd86872768285c8c4585b60a04eab53e0021ff64b639d0d771dee86ece5b1",
+      "bytes": 12632,
+      "headerBytes": 316,
+      "payloadBytesRead": 12312,
+      "trailingBytes": 0,
+      "vertexCount": 456,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "rotAxis",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "gridIds",
+          "componentSize": 3,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -60,
+          -60,
+          -110
+        ],
+        "max": [
+          60,
+          60,
+          0
+        ]
+      },
+      "finitePosition": {
+        "finite": 1368,
+        "total": 1368,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/models__tunnels__grid_structure_ld.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/tunnel_block_base.buf",
+      "sha256": "fb1623095cc901aedc7de35dae8ea5ba3307c32774ade9b0b0cb40c282fde8cf",
+      "bytes": 8760,
+      "headerBytes": 552,
+      "payloadBytesRead": 8204,
+      "trailingBytes": 0,
+      "vertexCount": 142,
+      "indexCount": 252,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv2",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.6303039789199829,
+          -0.5,
+          -1
+        ],
+        "max": [
+          0.6303039789199829,
+          0.5,
+          0
+        ]
+      },
+      "finitePosition": {
+        "finite": 426,
+        "total": 426,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 252,
+        "total": 252,
+        "min": 0,
+        "max": 141,
+        "triangles": 84,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__tunnel_block_base.obj",
+        "points": "sources/decoded/models__tunnels__tunnel_block_base.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/tunnels/tunnel_block_wall.buf",
+      "sha256": "e46a4c99bd8ba2d811e11f9693e928de2e1db61820966e20555c0fb08fa4aabb",
+      "bytes": 363860,
+      "headerBytes": 556,
+      "payloadBytesRead": 363300,
+      "trailingBytes": 0,
+      "vertexCount": 5865,
+      "indexCount": 17430,
+      "meshType": "Mesh",
+      "attributes": [
+        {
+          "id": "normal",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "tangent",
+          "componentSize": 4,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "uv2",
+          "componentSize": 2,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "indices",
+          "componentSize": 1,
+          "storageType": "Uint16Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.6303039789199829,
+          -0.5,
+          -1
+        ],
+        "max": [
+          0.6303039789199829,
+          0.5,
+          0
+        ]
+      },
+      "finitePosition": {
+        "finite": 17595,
+        "total": 17595,
+        "ok": true
+      },
+      "indexStats": {
+        "finite": 17430,
+        "total": 17430,
+        "min": 0,
+        "max": 5864,
+        "triangles": 5810,
+        "inRange": true
+      },
+      "consumedAllBytes": true,
+      "status": "mesh-decoded",
+      "reason": "position and indices decoded",
+      "output": {
+        "obj": "sources/decoded/models__tunnels__tunnel_block_wall.obj",
+        "points": "sources/decoded/models__tunnels__tunnel_block_wall.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/andrii.buf",
+      "sha256": "b894747fc805829ba64e6e164d455bc9623533eec45a79c6e190afd83edb04f3",
+      "bytes": 131308,
+      "headerBytes": 232,
+      "payloadBytesRead": 131072,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Float32Array",
+          "needsPack": false
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.99853515625,
+          -0.99951171875,
+          0
+        ],
+        "max": [
+          0.99853515625,
+          0.9990234375,
+          1
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__andrii.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/edan.buf",
+      "sha256": "f048a2d59e6e66ee5cf607c875ac4bbcdf52c48733ffdf2d265a2497540b3061",
+      "bytes": 82280,
+      "headerBytes": 356,
+      "payloadBytesRead": 81920,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999023438,
+          -0.999511719,
+          0
+        ],
+        "max": [
+          0.9994812237736053,
+          0.9989929427736053,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__edan.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/ffi.buf",
+      "sha256": "d159178799e30609ad16486fc85fca32d7b969039f69adfcaf63abeccf8ea8a2",
+      "bytes": 82280,
+      "headerBytes": 356,
+      "payloadBytesRead": 81920,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999511719,
+          -0.999511719,
+          0
+        ],
+        "max": [
+          0.9994812163230287,
+          0.9989929427736053,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__ffi.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/paul.buf",
+      "sha256": "2a8d1db3d19b4e3225bdc79305d45da91a299f8ac60e97b8ce74a07884bd1436",
+      "bytes": 82280,
+      "headerBytes": 356,
+      "payloadBytesRead": 81920,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Int16Array",
+          "needsPack": true
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.999511719,
+          -0.999511719,
+          0
+        ],
+        "max": [
+          0.9994812163230287,
+          0.9994812163230287,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__paul.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/pierre.buf",
+      "sha256": "37fc16f389268c277eca6a9b04f40e7aae14e82375d763bae2e09657ad562fbb",
+      "bytes": 82464,
+      "headerBytes": 540,
+      "payloadBytesRead": 81920,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.99755859375,
+          -0.998046875,
+          0
+        ],
+        "max": [
+          0.9994812458753586,
+          0.9989929646253586,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__pierre.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/sunny.buf",
+      "sha256": "83a7e5461dfe6e9fc9a2fdd145f446471ed8b85696f611e379feb9f91aa65610",
+      "bytes": 82280,
+      "headerBytes": 356,
+      "payloadBytesRead": 81920,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.774621546,
+          -0.87386477,
+          0
+        ],
+        "max": [
+          0.77157063261969,
+          0.6727058338452911,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__sunny.points.json"
+      }
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/team/yannic.buf",
+      "sha256": "bda01157a76f884b37ab1f304b82e58f2258111e68e8ed9ccd09ad1486b437cd",
+      "bytes": 82468,
+      "headerBytes": 544,
+      "payloadBytesRead": 81920,
+      "trailingBytes": 0,
+      "vertexCount": 8192,
+      "indexCount": 0,
+      "meshType": "Points",
+      "attributes": [
+        {
+          "id": "position",
+          "componentSize": 3,
+          "storageType": "Uint16Array",
+          "needsPack": true
+        },
+        {
+          "id": "nShade",
+          "componentSize": 4,
+          "storageType": "Uint8Array",
+          "needsPack": false
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.9873046875,
+          -0.99267578125,
+          0
+        ],
+        "max": [
+          0.9858097359538078,
+          0.9994813203811646,
+          0.9999847412109375
+        ]
+      },
+      "finitePosition": {
+        "finite": 24576,
+        "total": 24576,
+        "ok": true
+      },
+      "indexStats": null,
+      "consumedAllBytes": true,
+      "status": "points-decoded",
+      "reason": "position decoded; no triangle indices",
+      "output": {
+        "points": "sources/decoded/team__yannic.points.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "theme": "light",
+  "primaryOverride": {
+    "before": "rgb(52, 52, 51)",
+    "after": "rgb(36, 91, 184)",
+    "afterColor": "rgb(255, 255, 255)",
+    "changed": true
+  },
+  "body": {
+    "color": "rgb(52, 52, 51)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(52, 52, 51)",
+    "display": "block",
+    "width": "1440px",
+    "height": "2290.5px",
+    "outline": "rgb(52, 52, 51)"
+  },
+  "primary": {
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(52, 52, 51)",
+    "border": "rgb(52, 52, 51)",
+    "display": "flex",
+    "width": "157.453px",
+    "height": "44px",
+    "outline": "rgb(255, 255, 255)"
+  },
+  "secondary": {
+    "color": "rgb(52, 52, 51)",
+    "background": "rgb(246, 244, 239)",
+    "border": "rgb(246, 244, 239)",
+    "display": "flex",
+    "width": "107.234px",
+    "height": "44px",
+    "outline": "rgb(52, 52, 51)"
+  },
+  "ghost": {
+    "color": "rgb(52, 52, 51)",
+    "background": "rgb(242, 240, 237)",
+    "border": "rgba(0, 0, 0, 0)",
+    "display": "flex",
+    "width": "92.2344px",
+    "height": "44px",
+    "outline": "rgb(52, 52, 51)"
+  },
+  "danger": {
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(180, 35, 24)",
+    "border": "rgb(180, 35, 24)",
+    "display": "flex",
+    "width": "72px",
+    "height": "44px",
+    "outline": "rgb(255, 255, 255)"
+  },
+  "input": {
+    "color": "rgb(52, 52, 51)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(138, 133, 128)",
+    "display": "block",
+    "width": "514px",
+    "height": "48px",
+    "outline": "rgb(52, 52, 51)"
+  },
+  "invalidInput": {
+    "color": "rgb(52, 52, 51)",
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(143, 29, 22)",
+    "display": "block",
+    "width": "514px",
+    "height": "48px",
+    "outline": "rgb(52, 52, 51)"
+  },
+  "checkbox": {
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "rgb(0, 0, 0)",
+    "display": "inline-block",
+    "width": "18.6875px",
+    "height": "18.6875px",
+    "outline": "rgb(0, 0, 0)"
+  },
+  "radio": {
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "rgb(0, 0, 0)",
+    "display": "inline-block",
+    "width": "18.6875px",
+    "height": "18.6875px",
+    "outline": "rgb(0, 0, 0)"
+  },
+  "selectedTab": {
+    "color": "rgb(52, 52, 51)",
+    "background": "rgb(246, 244, 239)",
+    "border": "rgb(217, 213, 208)",
+    "display": "block",
+    "width": "102px",
+    "height": "44px",
+    "outline": "rgb(52, 52, 51)"
+  },
+  "tablistDisplay": "flex",
+  "panelHiddenCount": 2,
+  "alertSuccess": {
+    "color": "rgb(19, 92, 55)",
+    "background": "rgb(231, 247, 237)",
+    "border": "color(srgb 0.0745098 0.360784 0.215686 / 0.24)",
+    "display": "grid",
+    "width": "514px",
+    "height": "124px",
+    "outline": "rgb(19, 92, 55)"
+  },
+  "alertWarning": {
+    "color": "rgb(109, 67, 0)",
+    "background": "rgb(254, 250, 230)",
+    "border": "color(srgb 0.427451 0.262745 0 / 0.24)",
+    "display": "grid",
+    "width": "514px",
+    "height": "124px",
+    "outline": "rgb(109, 67, 0)"
+  },
+  "alertDanger": {
+    "color": "rgb(143, 29, 22)",
+    "background": "rgb(255, 240, 240)",
+    "border": "color(srgb 0.560784 0.113725 0.0862745 / 0.24)",
+    "display": "grid",
+    "width": "514px",
+    "height": "124px",
+    "outline": "rgb(143, 29, 22)"
+  },
+  "contrast": {
+    "primary": {
+      "ratio": 12.46,
+      "min": 4.5,
+      "pass": true
+    },
+    "secondary": {
+      "ratio": 11.34,
+      "min": 4.5,
+      "pass": true
+    },
+    "danger": {
+      "ratio": 6.57,
+      "min": 4.5,
+      "pass": true
+    },
+    "selectedTab": {
+      "ratio": 11.34,
+      "min": 4.5,
+      "pass": true
+    },
+    "inputBorder": {
+      "ratio": 3.65,
+      "min": 3,
+      "pass": true
+    },
+    "invalidInputBorder": {
+      "ratio": 8.92,
+      "min": 3,
+      "pass": true
+    },
+    "successAlert": {
+      "ratio": 7.24,
+      "min": 4.5,
+      "pass": true
+    },
+    "warningAlert": {
+      "ratio": 8.17,
+      "min": 4.5,
+      "pass": true
+    },
+    "dangerAlert": {
+      "ratio": 8.06,
+      "min": 4.5,
+      "pass": true
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "screenshots": [
+    "style-light-desktop.png",
+    "style-dark-desktop.png",
+    "style-light-mobile.png",
+    "style-hover-focus.png"
+  ],
+  "verdict": "pass"
+}

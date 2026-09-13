@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design Systems Hub</title>
+<meta name="description" content="세션별로 만든 디자인 시스템을 한 곳에서 고르고 바로 열어보는 개인 허브">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23fff'/%3E%3Ccircle cx='21' cy='11' r='4' fill='%23fff' opacity='.6'/%3E%3Ccircle cx='11' cy='21' r='4' fill='%23fff' opacity='.6'/%3E%3Ccircle cx='21' cy='21' r='4' fill='%23fff' opacity='.3'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #f4f3ef;
+    --bg-elev: #ffffff;
+    --bg-sunk: #ebe9e3;
+    --ink: #17171a;
+    --ink-2: #55555c;
+    --ink-3: #8a8a92;
+    --line: #dedcd5;
+    --line-strong: #c9c7bf;
+    --accent: #17171a;
+    --accent-ink: #ffffff;
+    --focus: #2f6bff;
+    --radius: 14px;
+    --radius-sm: 8px;
+    --shadow: 0 1px 2px rgba(20,20,25,.05), 0 8px 24px -12px rgba(20,20,25,.18);
+    --shadow-lg: 0 24px 60px -20px rgba(20,20,25,.35);
+    --font: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+    --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214; --bg-elev: #1b1b1f; --bg-sunk: #0d0d0f;
+      --ink: #f2f2f4; --ink-2: #b5b5bd; --ink-3: #7c7c86;
+      --line: #2a2a30; --line-strong: #3a3a42;
+      --accent: #f2f2f4; --accent-ink: #121214;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+      --shadow-lg: 0 24px 60px -20px rgba(0,0,0,.8);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--font); font-size: 15px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  }
+  a { color: inherit; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  [hidden] { display: none !important; }
+
+  /* ---------- Header ---------- */
+  .top {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: saturate(160%) blur(14px); -webkit-backdrop-filter: saturate(160%) blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  .top-in {
+    max-width: 1440px; margin: 0 auto; padding: 10px 32px;
+    display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+  }
+  .wordmark { display: flex; align-items: center; gap: 8px; font-weight: 700; letter-spacing: -.01em; font-size: 16px; }
+  .wordmark .mark { display: block; width: 30px; height: 30px; flex: none; shape-rendering: crispEdges; }
+  .wordmark .mark rect { fill: var(--ink); opacity: .22; animation: bar-blink 3s ease-in-out infinite; }
+  .wordmark .mark rect.accent { fill: #e4552b; }
+  .wordmark .mark rect:nth-child(1) { animation-delay: 0.0s; }
+  .wordmark .mark rect:nth-child(2) { animation-delay: 0.3s; }
+  .wordmark .mark rect:nth-child(3) { animation-delay: 0.6s; }
+  .wordmark .mark rect:nth-child(4) { animation-delay: 0.9s; }
+  .wordmark .mark rect:nth-child(5) { animation-delay: 1.2s; }
+  .wordmark .mark rect:nth-child(6) { animation-delay: 1.5s; }
+  .wordmark .mark rect:nth-child(7) { animation-delay: 1.8s; }
+  .wordmark .mark rect:nth-child(8) { animation-delay: 2.1s; }
+  .wordmark .mark rect:nth-child(9) { animation-delay: 2.4s; }
+  .wordmark .mark rect:nth-child(10) { animation-delay: 2.7s; }
+  @keyframes bar-blink { 0%, 20%, 100% { opacity: .22; } 7% { opacity: 1; } }
+  .wordmark .word { display: block; height: 15px; width: auto; flex: none; shape-rendering: crispEdges; margin-left: 2px; }
+  .wordmark .word .sixty { fill: #e4552b; } .wordmark .word .base { fill: var(--ink); }
+  .wordmark .label { color: var(--ink-3); font-weight: 500; font-size: 13px; padding-left: 10px; border-left: 1px solid var(--line); margin-left: 2px; }
+  @media (prefers-reduced-motion: reduce) {
+    .wordmark .mark rect { animation: none; opacity: 1; }
+  }
+  .wordmark small { font-weight: 500; color: var(--ink-3); font-size: 13px; margin-left: 2px; }
+  .search {
+    flex: 1 1 260px; max-width: 420px; display: flex; align-items: center; gap: 8px;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px;
+  }
+  .search:focus-within { border-color: var(--line-strong); box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 20%, transparent); }
+  .search svg { width: 16px; height: 16px; color: var(--ink-3); flex: none; }
+  .search input { border: 0; background: transparent; flex: 1; font: inherit; color: inherit; outline: 0; min-width: 0; }
+  .search kbd { font: 11px/1 var(--mono); color: var(--ink-3); border: 1px solid var(--line); border-radius: 5px; padding: 3px 5px; }
+  .filters { display: flex; gap: 6px; margin-left: auto; }
+  .chip {
+    border: 1px solid var(--line); background: transparent; border-radius: 999px;
+    padding: 6px 12px; font-size: 13px; font-weight: 500; color: var(--ink-2);
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .chip:hover { border-color: var(--line-strong); color: var(--ink); }
+  .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+  /* ---------- Hero ---------- */
+  .hero { max-width: 1440px; margin: 0 auto; padding: 28px 32px 12px; }
+  .hero h1 { font-size: clamp(26px, 3.2vw, 38px); line-height: 1.08; letter-spacing: -.035em; margin: 0 0 10px; font-weight: 750; }
+  .hero h1 em { font-style: normal; color: var(--ink-3); }
+  .hero p { max-width: 640px; color: var(--ink-2); margin: 0; font-size: 15px; }
+  .hero-meta { display: flex; gap: 22px; margin-top: 14px; color: var(--ink-3); font-size: 13px; flex-wrap: wrap; }
+  .hero-meta b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  /* ---------- Grid ---------- */
+  #grid { max-width: 1440px; margin: 0 auto; padding: 4px 32px 80px; }
+  .group { padding: 20px 0 8px; }
+  .group + .group { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 36px; }
+  .group-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
+  .group-head h2 { margin: 0; font-size: 22px; letter-spacing: -.025em; font-weight: 700; display: flex; align-items: baseline; gap: 10px; }
+  .group-head h2 .n { font-family: var(--mono); font-size: 12px; color: var(--ink-3); font-weight: 500; }
+  .group-head p { margin: 0; color: var(--ink-3); font-size: 13.5px; }
+  .grid {
+    display: grid; gap: 22px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .empty { text-align: center; color: var(--ink-3); padding: 60px 0; }
+  .card {
+    position: relative; display: flex; flex-direction: column; text-align: left;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 0; overflow: hidden; box-shadow: var(--shadow);
+    transition: transform .22s cubic-bezier(.2,.7,.2,1), box-shadow .22s, border-color .22s;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--line-strong); }
+  .card:active { transform: translateY(-1px); }
+  .thumb {
+    aspect-ratio: 16 / 10; background: var(--bg-sunk); position: relative; overflow: hidden;
+    border-bottom: 1px solid var(--line);
+  }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;
+    transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+  .card:hover .thumb img { transform: scale(1.025); }
+  .thumb .fallback { position: absolute; inset: 0; display: grid; place-items: center; font-size: 42px; font-weight: 800; letter-spacing: -.04em; color: rgba(255,255,255,.9); }
+  .thumb .kind {
+    position: absolute; top: 12px; left: 12px; font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+    background: rgba(17,17,20,.72); color: #fff; padding: 4px 8px; border-radius: 6px; backdrop-filter: blur(6px);
+  }
+  .card-body { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .brand { font-size: 12px; font-weight: 600; color: var(--ink-3); letter-spacing: .02em; }
+  .date { font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; flex: none; }
+  .card h2 { margin: 0; font-size: 19px; letter-spacing: -.02em; line-height: 1.25; font-weight: 700; }
+  .card p { margin: 0; color: var(--ink-2); font-size: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-foot { margin-top: auto; padding-top: 10px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .palette { display: flex; gap: 4px; }
+  .palette i { width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(0,0,0,.12); display: block; box-shadow: inset 0 0 0 1px rgba(255,255,255,.25); }
+  .pages-count { font-size: 12px; color: var(--ink-3); }
+  .stats { display: flex; gap: 6px; flex-wrap: wrap; }
+  .stats span { font-size: 11.5px; color: var(--ink-2); background: var(--bg-sunk); border-radius: 6px; padding: 3px 7px; font-variant-numeric: tabular-nums; }
+
+  /* ---------- Viewer ---------- */
+  .viewer {
+    position: fixed; inset: 0; z-index: 50; background: var(--bg);
+    display: grid; grid-template-columns: 340px 1fr; grid-template-rows: 100%;
+    transform: translateY(8px); opacity: 0; pointer-events: none;
+    transition: opacity .2s, transform .2s;
+  }
+  .viewer.open { opacity: 1; transform: none; pointer-events: auto; }
+  .side { border-right: 1px solid var(--line); background: var(--bg-elev); display: flex; flex-direction: column; min-height: 0; }
+  .side-top { padding: 14px 16px; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 8px; }
+  .icon-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    border: 1px solid var(--line); background: var(--bg-elev); border-radius: 8px; height: 32px; padding: 0 10px; font-size: 13px; font-weight: 500;
+    transition: background .15s, border-color .15s;
+  }
+  .icon-btn:hover { background: var(--bg-sunk); border-color: var(--line-strong); }
+  .icon-btn svg { width: 15px; height: 15px; }
+  .side-top .spacer { flex: 1; }
+  .side-scroll { overflow: auto; padding: 20px 20px 24px; flex: 1; min-height: 0; }
+  .side h2 { margin: 0 0 4px; font-size: 20px; letter-spacing: -.02em; line-height: 1.25; }
+  .side .brand-line { display: flex; gap: 8px; align-items: center; color: var(--ink-3); font-size: 12.5px; margin-bottom: 14px; }
+  .side .brand-line i { width: 4px; height: 4px; border-radius: 50%; background: var(--ink-3); }
+  .side p.desc { color: var(--ink-2); font-size: 13.5px; margin: 0 0 16px; }
+  .side .palette { margin-bottom: 20px; gap: 6px; }
+  .side .palette i { width: 22px; height: 22px; border-radius: 7px; }
+  .side h3 { font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin: 18px 0 8px; font-weight: 600; }
+  .nav { display: flex; flex-direction: column; gap: 2px; }
+  .nav a, .nav button {
+    display: flex; align-items: center; gap: 10px; text-decoration: none; text-align: left; width: 100%;
+    padding: 8px 10px; border-radius: 8px; border: 0; background: transparent; font-size: 13.5px; color: var(--ink);
+    transition: background .12s;
+  }
+  .nav a:hover, .nav button:hover { background: var(--bg-sunk); }
+  .nav .unavail, .nav button:disabled { opacity: .5; cursor: not-allowed; display: flex; align-items: center; gap: 10px; }
+  .nav .unavail { padding: 9px 10px; border-radius: 8px; font-size: 13.5px; color: var(--ink-2); }
+  .nav em { margin-left: auto; font-style: normal; font-size: 10.5px; letter-spacing: .04em; color: var(--ink-3); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+  .nav [aria-current="true"] { background: var(--accent); color: var(--accent-ink); }
+  .nav .n { font: 11px/1 var(--mono); color: var(--ink-3); width: 18px; flex: none; }
+  .nav [aria-current="true"] .n { color: inherit; opacity: .7; }
+  .nav .ext { margin-left: auto; opacity: .45; width: 13px; height: 13px; flex: none; }
+  .primary {
+    display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%;
+    background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 10px; height: 40px; font-weight: 600; font-size: 14px; text-decoration: none;
+    margin-top: 18px; transition: opacity .15s;
+  }
+  .primary:hover { opacity: .88; }
+  .primary svg { width: 15px; height: 15px; }
+  .stage { position: relative; min-width: 0; min-height: 0; display: flex; flex-direction: column; }
+  .stage-bar { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--bg-elev); font-size: 12.5px; color: var(--ink-3); }
+  .stage-bar .url { font-family: var(--mono); font-size: 11.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; color: var(--ink-2); }
+  .stage-bar .sizes { display: flex; gap: 4px; }
+  .stage-bar .sizes button { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 3px 8px; font-size: 11.5px; color: var(--ink-2); }
+  .stage-bar .sizes button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .frame-wrap { flex: 1; min-height: 0; background: var(--bg-sunk); display: flex; justify-content: center; overflow: auto; }
+  .frame-wrap iframe { border: 0; width: 100%; height: 100%; background: #fff; display: block; transition: width .25s; }
+  .frame-wrap[data-size="tablet"] iframe { width: 768px; }
+  .frame-wrap[data-size="mobile"] iframe { width: 390px; }
+  .frame-wrap[data-size="tablet"] iframe, .frame-wrap[data-size="mobile"] iframe { box-shadow: 0 0 0 1px var(--line); }
+  .stage-loading { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); color: var(--ink-3); font-size: 13px; pointer-events: none; }
+  .pn { display: flex; gap: 6px; }
+
+  @media (max-width: 900px) {
+    .top-in { padding: 12px 18px; } .hero, .grid { padding-left: 18px; padding-right: 18px; }
+    .filters { margin-left: 0; }
+    .viewer { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+    .side { border-right: 0; border-bottom: 1px solid var(--line); max-height: 46vh; }
+    .stage-bar .sizes { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <a class="wordmark" href="#" id="home" style="text-decoration:none">
+      <svg class="mark" viewBox="40 60 340 280" aria-hidden="true">
+        <rect x="46.4" y="72" width="19.2" height="256"/><rect x="78.4" y="72" width="19.2" height="256"/><rect x="110.4" y="72" width="19.2" height="256"/><rect x="142.4" y="72" width="19.2" height="256"/><rect x="174.4" y="72" width="19.2" height="256"/><rect class="accent" x="206.4" y="72" width="19.2" height="256"/><rect x="238.4" y="283.2" width="19.2" height="44.8"/><rect x="270.4" y="283.2" width="19.2" height="44.8"/><rect x="302.4" y="283.2" width="19.2" height="44.8"/><rect x="334.4" y="283.2" width="19.2" height="44.8"/>
+      </svg>
+      <svg class="word" viewBox="160 160 1400 240" role="img" aria-label="60BASE"><path class="sixty" d="M200 160h120v40h-120z M160 200h40v40h-40z M160 240h40v40h-40z M160 280h160v40h-160z M160 320h40v40h-40z M320 320h40v40h-40z M160 360h40v40h-40z M320 360h40v40h-40z M440 160h120v40h-120z M400 200h40v40h-40z M560 200h40v40h-40z M400 240h40v40h-40z M560 240h40v40h-40z M400 280h40v40h-40z M560 280h40v40h-40z M400 320h40v40h-40z M560 320h40v40h-40z M400 360h40v40h-40z M560 360h40v40h-40z"/><path class="base" d="M640 160h160v40h-160z M640 200h40v40h-40z M800 200h40v40h-40z M640 240h40v40h-40z M800 240h40v40h-40z M640 280h160v40h-160z M640 320h40v40h-40z M800 320h40v40h-40z M640 360h40v40h-40z M800 360h40v40h-40z M920 160h120v40h-120z M880 200h40v40h-40z M1040 200h40v40h-40z M880 240h40v40h-40z M1040 240h40v40h-40z M880 280h200v40h-200z M880 320h40v40h-40z M1040 320h40v40h-40z M880 360h40v40h-40z M1040 360h40v40h-40z M1160 160h160v40h-160z M1120 200h40v40h-40z M1120 240h40v40h-40z M1160 280h120v40h-120z M1280 320h40v40h-40z M1280 360h40v40h-40z M1360 160h200v40h-200z M1360 200h40v40h-40z M1360 240h40v40h-40z M1360 280h160v40h-160z M1360 320h40v40h-40z M1360 360h40v40h-40z M160 400h1400v40h-1400z"/></svg>
+      <span class="label">Design Systems <small id="count"></small></span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="브랜드, 이름, 설명 검색" autocomplete="off" aria-label="디자인 시스템 검색">
+      <kbd>/</kbd>
+    </label>
+    <div class="filters" role="group" aria-label="종류 필터">
+      <button class="chip" data-kind="all" aria-pressed="true">전체</button>
+      <button class="chip" data-kind="web" aria-pressed="false">웹사이트</button>
+      <button class="chip" data-kind="proposal" aria-pressed="false">제안서</button>
+      <button class="chip" data-kind="docs" aria-pressed="false">공식문서</button>
+      <button class="chip" data-kind="icons" aria-pressed="false">아이콘 · 일러스트</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>세션마다 만든 디자인 시스템,<br><em>한 곳에서 고르고 바로 열기</em></h1>
+  <p>웹사이트, 제안서, 공식문서, 아이콘·일러스트 소스 네 섹션으로 나눈 로컬 디자인 시스템 모음입니다. 카드를 누르면 카탈로그를 바로 미리 보고, 하위 화면과 문서, 다운로드로 이동할 수 있습니다.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</section>
+
+<main id="grid" aria-live="polite"></main>
+
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="v-title" aria-hidden="true">
+  <aside class="side">
+    <div class="side-top">
+      <button class="icon-btn" id="close" aria-label="닫기 (Esc)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m15 6-6 6 6 6"/></svg> 목록
+      </button>
+      <span class="spacer"></span>
+      <div class="pn">
+        <button class="icon-btn" id="prev" aria-label="이전 시스템 (←)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m14 6-6 6 6 6"/></svg></button>
+        <button class="icon-btn" id="next" aria-label="다음 시스템 (→)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m10 6 6 6-6 6"/></svg></button>
+      </div>
+    </div>
+    <div class="side-scroll" id="side"></div>
+  </aside>
+  <section class="stage">
+    <div class="stage-bar">
+      <span class="url" id="url"></span>
+      <div class="sizes" role="group" aria-label="미리보기 너비">
+        <button data-size="desktop" aria-pressed="true">데스크톱</button>
+        <button data-size="tablet" aria-pressed="false">768</button>
+        <button data-size="mobile" aria-pressed="false">390</button>
+      </div>
+    </div>
+    <div class="frame-wrap" id="frame-wrap" data-size="desktop">
+      <div class="stage-loading" id="loading" hidden>불러오는 중…</div>
+      <iframe id="frame" title="디자인 시스템 미리보기" src="about:blank"></iframe>
+    </div>
+  </section>
+</div>
+
+<script src="systems.js"></script>
+<script>
+(() => {
+  const SYSTEMS = window.DESIGN_SYSTEMS || [];
+  const SECTIONS = [
+    { id: "web", label: "웹사이트", desc: "실제 사이트의 공개 코드와 화면을 관찰해 토큰·컴포넌트·모션으로 정리" },
+    { id: "proposal", label: "제안서", desc: "회사소개서·제안서 문서를 근거로 만든 문서 디자인 시스템과 템플릿" },
+    { id: "docs", label: "공식문서", desc: "제품의 공개 디자인 문서와 셸을 같은 스키마로 정리한 카탈로그" },
+    { id: "icons", label: "아이콘 · 일러스트 소스", desc: "수집·제작한 SVG/PNG 아이콘과 그래픽을 세트별로 검색·복사·다운로드" }
+  ];
+  const KIND_LABEL = Object.fromEntries(SECTIONS.map(s => [s.id, s.label]));
+  const $ = (s, r = document) => r.querySelector(s);
+  const grid = $("#grid"), q = $("#q"), viewer = $("#viewer"), side = $("#side"), frame = $("#frame"), urlEl = $("#url"), loading = $("#loading"), frameWrap = $("#frame-wrap");
+  let kind = "all", query = "", current = null, pageIdx = 0;
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const isMd = h => /\.md(#|$)/i.test(h);
+  const isDownload = h => /\.(zip|tgz|tar\.gz|pptx|css|json)(#|$)/i.test(h);
+  const frameSrc = h => isMd(h) ? "doc.html?src=" + encodeURIComponent(h) : h;
+
+  // ----- Grid -----
+  function visible() {
+    const t = query.trim().toLowerCase();
+    return SYSTEMS.filter(s => (kind === "all" || s.kind === kind) &&
+      (!t || [s.name, s.brand, s.origin, s.tagline, s.description, s.slug].join(" ").toLowerCase().includes(t)));
+  }
+  function gradient(p) { return `linear-gradient(135deg, ${p[0]} 0%, ${p[Math.min(1, p.length - 1)]} 60%, ${p[Math.min(2, p.length - 1)]} 100%)`; }
+  function card(s) { return `
+      <button class="card" data-slug="${s.slug}" aria-label="${esc(s.name)} 열기">
+        <div class="thumb" style="background:${gradient(s.palette)}">
+          <img src="thumbs/${s.slug}.jpg" alt="" loading="lazy" onerror="if(!this.dataset.alt){this.dataset.alt=1;this.src='thumbs/${s.slug}.png'}else this.remove()">
+          <div class="fallback" aria-hidden="true">${esc(s.brand)}</div>
+          <span class="kind">${KIND_LABEL[s.kind] || s.kind}</span>
+        </div>
+        <div class="card-body">
+          <div class="card-head"><span class="brand">${esc(s.brand)} · ${esc(s.origin)}</span><span class="date">${esc(s.date)}</span></div>
+          <h2>${esc(s.name)}</h2>
+          <p>${esc(s.tagline)}</p>
+          <div class="stats">${(s.stats || []).map(x => `<span>${esc(x)}</span>`).join("")}</div>
+          <div class="card-foot">
+            <div class="palette" aria-label="팔레트">${s.palette.map(c => `<i style="background:${c}" title="${c}"></i>`).join("")}</div>
+            <span class="pages-count">화면 ${s.pages.length}${s.docs.length ? " · 문서 " + s.docs.length : ""}</span>
+          </div>
+        </div>
+      </button>`; }
+  function renderGrid() {
+    const list = visible();
+    $("#count").textContent = SYSTEMS.length;
+    const groups = SECTIONS.map(sec => ({ sec, items: list.filter(s => s.kind === sec.id) })).filter(g => g.items.length);
+    grid.innerHTML = groups.length ? groups.map(g => `
+      <section class="group" id="sec-${g.sec.id}" aria-labelledby="h-${g.sec.id}">
+        <div class="group-head"><h2 id="h-${g.sec.id}">${esc(g.sec.label)}<span class="n">${String(g.items.length).padStart(2, "0")}</span></h2><p>${esc(g.sec.desc)}</p></div>
+        <div class="grid">${g.items.map(card).join("")}</div>
+      </section>`).join("") : `<div class="empty">조건에 맞는 디자인 시스템이 없습니다.</div>`;
+    // 썸네일이 있으면 fallback 글자 숨김
+    grid.querySelectorAll(".thumb img").forEach(img => {
+      const hide = () => { const f = img.parentElement && img.parentElement.querySelector(".fallback"); if (f) f.hidden = true; };
+      if (img.complete && img.naturalWidth) hide(); else img.addEventListener("load", hide);
+    });
+    $("#hero-meta").innerHTML = `
+      <span><b>${SYSTEMS.length}</b> 디자인 시스템</span>
+      <span><b>${SYSTEMS.reduce((n, s) => n + s.pages.length, 0)}</b> 화면</span>
+      <span><b>${SYSTEMS.reduce((n, s) => n + s.docs.length, 0)}</b> 문서</span>
+      <span><b>${SYSTEMS.reduce((n, s) => n + (s.downloads || []).length, 0)}</b> 다운로드</span>`;
+  }
+
+  // ----- Viewer -----
+  function openSystem(slug, idx = 0, push = true) {
+    const s = SYSTEMS.find(x => x.slug === slug);
+    if (!s) return;
+    current = s; pageIdx = Math.min(Math.max(0, idx), s.pages.length - 1);
+    renderSide();
+    load(s.pages[pageIdx].href);
+    viewer.classList.add("open"); viewer.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+    if (push) history.replaceState(null, "", `#${slug}${pageIdx ? "/" + (pageIdx + 1) : ""}`);
+    $("#close").focus();
+  }
+  function closeViewer() {
+    viewer.classList.remove("open"); viewer.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    frame.src = "about:blank";
+    history.replaceState(null, "", location.pathname + location.search);
+    const card = current && grid.querySelector(`[data-slug="${current.slug}"]`);
+    current = null; if (card) card.focus();
+  }
+  function load(href) {
+    loading.hidden = false;
+    urlEl.textContent = decodeURIComponent(href.replace(/^\.\.\//, "02_Source/"));
+    frame.src = frameSrc(href);
+    frame.onload = () => { loading.hidden = true; };
+  }
+  function renderSide() {
+    const s = current;
+    const ext = `<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg>`;
+    const dl = `<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 4v11m0 0 4-4m-4 4-4-4M4 19h16"/></svg>`;
+    side.innerHTML = `
+      <h2 id="v-title">${esc(s.name)}</h2>
+      <div class="brand-line"><span>${esc(s.brand)}</span><i></i><span>${esc(s.origin)}</span><i></i><span>${KIND_LABEL[s.kind] || s.kind}</span><i></i><span>${esc(s.date)}</span></div>
+      <p class="desc">${esc(s.description)}</p>
+      <div class="palette">${s.palette.map(c => `<i style="background:${c}" title="${c}"></i>`).join("")}</div>
+      <h3>화면</h3>
+      <div class="nav" id="nav-pages">${s.pages.map((p, i) => `
+        <button data-i="${i}" aria-current="${i === pageIdx}" ${p.unavailable ? 'disabled title="이 사이트에는 포함되지 않은 화면입니다"' : ""}><span class="n">${String(i + 1).padStart(2, "0")}</span>${esc(p.label)}${p.unavailable ? "<em>로컬 전용</em>" : ""}</button>`).join("")}</div>
+      <h3>문서</h3>
+      <div class="nav" id="nav-docs">${s.docs.map(d => `
+        <button data-href="${esc(d.href)}" ${d.unavailable ? 'disabled title="이 사이트에는 포함되지 않은 문서입니다"' : ""}><span class="n">md</span>${esc(d.label)}${d.unavailable ? "<em>로컬 전용</em>" : ""}</button>`).join("")}</div>
+      ${(s.downloads || []).length ? `<h3>다운로드</h3><div class="nav">${s.downloads.map(d => `
+        ${d.unavailable ? `<span class="unavail" title="배포 용량 제한으로 이 사이트에는 포함되지 않은 파일입니다 (로컬 원본에만 있음)"><span class="n">↓</span>${esc(d.label)}<em>로컬 전용</em></span>` : `<a href="${esc(d.href)}" download><span class="n">↓</span>${esc(d.label)}${dl}</a>`}`).join("")}</div>` : ""}
+      <h3>폴더</h3>
+      <div class="nav"><a href="../${s.folder.split("/").map(encodeURIComponent).join("/")}/" target="_blank" rel="noopener"><span class="n">/</span>02_Source/${esc(s.folder)}${ext}</a></div>
+      <a class="primary" id="open-new" href="${esc(s.pages[pageIdx].href)}" target="_blank" rel="noopener">새 탭에서 열기 ${ext.replace('class="ext"', "")}</a>`;
+    side.scrollTop = 0;
+  }
+  side.addEventListener("click", e => {
+    const b = e.target.closest("button[data-i], button[data-href]");
+    if (!b) return;
+    if (b.dataset.i !== undefined) {
+      pageIdx = +b.dataset.i;
+      side.querySelectorAll("#nav-pages button").forEach(x => x.setAttribute("aria-current", x === b));
+      side.querySelectorAll("#nav-docs button").forEach(x => x.setAttribute("aria-current", "false"));
+      $("#open-new").href = current.pages[pageIdx].href;
+      history.replaceState(null, "", `#${current.slug}${pageIdx ? "/" + (pageIdx + 1) : ""}`);
+      load(current.pages[pageIdx].href);
+    } else {
+      side.querySelectorAll("#nav-pages button, #nav-docs button").forEach(x => x.setAttribute("aria-current", x === b));
+      $("#open-new").href = frameSrc(b.dataset.href);
+      load(b.dataset.href);
+    }
+  });
+  function step(d) {
+    if (!current) return;
+    const list = visible().length ? visible() : SYSTEMS;
+    let i = list.findIndex(s => s.slug === current.slug); if (i < 0) i = 0;
+    openSystem(list[(i + d + list.length) % list.length].slug);
+  }
+
+  // ----- Events -----
+  grid.addEventListener("click", e => { const c = e.target.closest(".card"); if (c) openSystem(c.dataset.slug); });
+  $("#close").addEventListener("click", closeViewer);
+  $("#prev").addEventListener("click", () => step(-1));
+  $("#next").addEventListener("click", () => step(1));
+  $("#home").addEventListener("click", e => { e.preventDefault(); if (current) closeViewer(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+  q.addEventListener("input", () => { query = q.value; renderGrid(); });
+  document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+    kind = c.dataset.kind; document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === c)); renderGrid();
+  }));
+  document.querySelectorAll(".sizes button").forEach(b => b.addEventListener("click", () => {
+    frameWrap.dataset.size = b.dataset.size; document.querySelectorAll(".sizes button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  }));
+  document.addEventListener("keydown", e => {
+    if (e.key === "/" && !current && document.activeElement !== q) { e.preventDefault(); q.focus(); return; }
+    if (!current) return;
+    if (e.key === "Escape") closeViewer();
+    else if (e.key === "ArrowLeft" && !e.metaKey && !e.altKey) step(-1);
+    else if (e.key === "ArrowRight" && !e.metaKey && !e.altKey) step(1);
+  });
+  window.addEventListener("hashchange", route);
+  function route() {
+    const m = location.hash.match(/^#([\w-]+)(?:\/(\d+))?$/);
+    if (m && SYSTEMS.some(s => s.slug === m[1])) openSystem(m[1], (+m[2] || 1) - 1, false);
+    else if (current) closeViewer();
+  }
+
+  renderGrid();
+  route();
+})();
+</script>
+</body>
+</html>

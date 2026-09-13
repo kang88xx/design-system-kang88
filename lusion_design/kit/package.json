@@ -1,0 +1,18 @@
+{
+  "name": "@local/project-design-system",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Scoped design tokens and accessible DOM components for local project use.",
+  "type": "module",
+  "main": "./system.js",
+  "types": "./system.d.ts",
+  "exports": {
+    ".": { "types": "./system.d.ts", "default": "./system.js" },
+    "./tokens.css": "./tokens.css",
+    "./components.css": "./components.css",
+    "./tokens.json": "./tokens.json",
+    "./snippets.js": "./snippets.js"
+  },
+  "files": ["system.js", "system.d.ts", "tokens.css", "components.css", "tokens.json", "snippets.js", "examples", "README.md", "CHANGELOG.md"],
+  "sideEffects": ["./tokens.css", "./components.css"]
+}

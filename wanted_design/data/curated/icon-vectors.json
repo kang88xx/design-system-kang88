@@ -1,0 +1,3392 @@
+[
+  {
+    "name": "IconAgent",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAgent.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "951a625510c8451766108b1bfd28bda92b4011db0d84c0929d1fb912f5398f29",
+    "byteSize": 1640
+  },
+  {
+    "name": "IconAgentSearch",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAgentSearch.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e3b9a74f6a80ea17659adca63da5344588712195cbb3106431d7715ac539a443",
+    "byteSize": 2193
+  },
+  {
+    "name": "IconAiReview",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAiReview.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "48fb894504b6c2b98ec2a555860d1e14158efcd32c9981c50b0a4a522466a08b",
+    "byteSize": 3575
+  },
+  {
+    "name": "IconAlignCenter",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAlignCenter.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3c70aa4cd3fc49a2528436d031845eabdcce11c4011a5536bf2776ac3bfeb96c",
+    "byteSize": 1056
+  },
+  {
+    "name": "IconAlignJustify",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAlignJustify.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e2e6814e2c0c2a25a37515c7ce66126f9c438ab977a54aa1a40fd9b7f00a5ca3",
+    "byteSize": 1073
+  },
+  {
+    "name": "IconAlignLeft",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAlignLeft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2cf89348a9997a0b4920e0323be3fccec0da263e295171cb65217a006c6694ca",
+    "byteSize": 1131
+  },
+  {
+    "name": "IconAlignRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAlignRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "660f678c8e42bec4def25e1c23a52e519457b489c2b42fe10d3b24a18120bccf",
+    "byteSize": 1133
+  },
+  {
+    "name": "IconAndroid",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAndroid.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ffe1c686969298fd805db1e40badaa5738b2b94a7e6bb8531a338121b308a5b4",
+    "byteSize": 1602
+  },
+  {
+    "name": "IconApps",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconApps.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "135212ea7d367258dab6a4026dbce23d7994b78a3736c09b2fb0f5cb18f6625b",
+    "byteSize": 2042
+  },
+  {
+    "name": "IconArrowDown",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowDown.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "75cc371b881f1577b71b49c9853231f79096926b36c8f69ba5bbd25a355618f6",
+    "byteSize": 611
+  },
+  {
+    "name": "IconArrowDownThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowDownThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1ee9975a5e9d9e898cc79268f7ec226063b8090c3633e0793f8483f14d46978a",
+    "byteSize": 566
+  },
+  {
+    "name": "IconArrowLeft",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowLeft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "728b8e402db4f8e376b21eeefd33f4deaa1ddde3048cc88da6b345319b312362",
+    "byteSize": 613
+  },
+  {
+    "name": "IconArrowLeftThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowLeftThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "bad172ea059f5c32420e9bd2c9983db31d82d8eb73471aceb80af5a898bbbb0d",
+    "byteSize": 574
+  },
+  {
+    "name": "IconArrowRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "86ff4fb041d8f30173773ae8485574ccd2a76ffca3f6cce5de8ec2961e9890c5",
+    "byteSize": 611
+  },
+  {
+    "name": "IconArrowRightThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowRightThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "12e66d13da6b0fadcc857e9011112b778161cf5341f7a64d45ad5594498aab60",
+    "byteSize": 550
+  },
+  {
+    "name": "IconArrowTurnDownLeft",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowTurnDownLeft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "18755287091cb46ba4cf2b0b39810b4d725d0a99f490016550ca3d177bafd60a",
+    "byteSize": 1057
+  },
+  {
+    "name": "IconArrowTurnDownRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowTurnDownRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b5508f8033439248f75e49b37bed938db629dbe9b63c4e250196e0704cbcf611",
+    "byteSize": 1056
+  },
+  {
+    "name": "IconArrowUp",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowUp.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c74fe7324b9af1cf3fa2062eb22a80589a3f7e46c1ea6cf19d3019be677f762c",
+    "byteSize": 609
+  },
+  {
+    "name": "IconArrowUpRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowUpRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fccb4a9187f0fa280567608e904792fe47871ae35fe5e4e55367c2511f5e378f",
+    "byteSize": 623
+  },
+  {
+    "name": "IconArrowUpRightThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowUpRightThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6df2691e0037f094c9305e59ad86e863ae91875f72f3b0cd1f3cef0aed640a1b",
+    "byteSize": 587
+  },
+  {
+    "name": "IconArrowUpThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconArrowUpThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b139e0bba7832b7e46c373c336991423fedca0f443c79a61e56479bd68f3c051",
+    "byteSize": 570
+  },
+  {
+    "name": "IconAttachment",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconAttachment.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "11b42783ebca621a4d7c7c962fefe4537d2e6ed7edfd3a6ab532bcc909e1f630",
+    "byteSize": 960
+  },
+  {
+    "name": "IconBell",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBell.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "23d3fd92055dc0814d9c1e0e750882c9a8c8fb5842b27f5be784573aa11de74c",
+    "byteSize": 1307
+  },
+  {
+    "name": "IconBellFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBellFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "baf87ec8da4a629f17192d56e37a3697e6d651337467eb6d6927cfc461fdce30",
+    "byteSize": 924
+  },
+  {
+    "name": "IconBellPlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBellPlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a58a1872332910880d42768b336a7bfb07fd2522c96759e03c6f61781ef040bd",
+    "byteSize": 1787
+  },
+  {
+    "name": "IconBlank",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBlank.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "bb3d26db440144782f8ace88ba7817ff3777157064046dacadf8582d672b163a",
+    "byteSize": 3356
+  },
+  {
+    "name": "IconBold",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBold.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d13fb336f2f04f3e86cffde8b30fb0c7355088854b07852dcaeeb863b7867a25",
+    "byteSize": 966
+  },
+  {
+    "name": "IconBook",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBook.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5ff11a32b9cc20b5da5e8b41f8d14aeb8ce84725d25fa21c819b0cc6312cf8ee",
+    "byteSize": 3127
+  },
+  {
+    "name": "IconBookFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBookFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1c2f3ff0e04be65a3470cb5446a633f21f4353d8915b8bb6def7a948787a5663",
+    "byteSize": 2252
+  },
+  {
+    "name": "IconBookmark",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBookmark.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b28901a35ee0abed4f615f15df3232734eba60cd37975124b52140b1004076e7",
+    "byteSize": 1329
+  },
+  {
+    "name": "IconBookmarkFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBookmarkFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4b0692dd55bc63b95d6a5d9ec07627b967b11493a161c381e1af63ba4ad61d61",
+    "byteSize": 881
+  },
+  {
+    "name": "IconBubble",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBubble.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d254c1ef15533c425e0518f5f6d385a94e92030dc2d40e9c4c54829b4a766830",
+    "byteSize": 1318
+  },
+  {
+    "name": "IconBubbleFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBubbleFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7998250f557169dd4b26b7405fe449aa9fcafa1c46f6883156c372a0430bb7d0",
+    "byteSize": 650
+  },
+  {
+    "name": "IconBubblePlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBubblePlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7cfdc2811c343b65c705634898aab4c3b90393aa33f3bc5deb0b3a916f7a971b",
+    "byteSize": 1759
+  },
+  {
+    "name": "IconBubblePlusFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBubblePlusFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "61295882b7ae991f9ee6b5b46275c65d8a56a6114c34a7efc4beb7d231b06c78",
+    "byteSize": 1163
+  },
+  {
+    "name": "IconBulb",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBulb.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "38bbd0f28ec5da7ecae00a257b9304c9d8d7de71cff4474875b04fd262f50a22",
+    "byteSize": 1752
+  },
+  {
+    "name": "IconBulbFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBulbFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "42f97cc3171cd6ac9d53c0d9dedb7d1c1a9816755afee5ea72c76be985970592",
+    "byteSize": 1075
+  },
+  {
+    "name": "IconBusinessBag",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBusinessBag.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1eb2b558c64a9de7621a1c2e7a353a5775db137064322351cda1dac1b8666c08",
+    "byteSize": 2655
+  },
+  {
+    "name": "IconBusinessBagFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconBusinessBagFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "74892ededaba49a852816ef46fa69f0791642183bee2eec9162ebb807ee5f91b",
+    "byteSize": 2027
+  },
+  {
+    "name": "IconCalendar",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCalendar.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "eaefe0f5fe45d3a3a5c1a70726bda491323c17b1f06f8d124fe47f0699cca74c",
+    "byteSize": 2245
+  },
+  {
+    "name": "IconCalendarFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCalendarFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f8280178123961a18679116aa8f413baa200110c4264c73b38506071ec93d9e1",
+    "byteSize": 1971
+  },
+  {
+    "name": "IconCalendarPerson",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCalendarPerson.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e447fe55a11e48d61ecd5684020c51ff9b920f75c6ae3d148c3af81346d44924",
+    "byteSize": 2680
+  },
+  {
+    "name": "IconCamera",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCamera.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ece135b4e2f223c20dadd9e283d61be95908c96fd6b0d77efb27d075ef2a0ba4",
+    "byteSize": 3293
+  },
+  {
+    "name": "IconCameraFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCameraFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d80d5b92a8e92dd7ca8e1d50aad88f78d0eac48797d433f33c3892f01952725a",
+    "byteSize": 1932
+  },
+  {
+    "name": "IconCaretDown",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCaretDown.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5aa751563dec188394815865dde3c220c51a539e3c170b25b568ab7a9829ba5d",
+    "byteSize": 594
+  },
+  {
+    "name": "IconCaretUp",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCaretUp.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ad692c608a500ade0909a892079a65e167d66b563136a8d571dc8fd84c1df990",
+    "byteSize": 625
+  },
+  {
+    "name": "IconCertificate",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCertificate.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b68ff88101fc0507852d9afa41de061235ed14f7ce3dfd3fb8a4e14aae45fc96",
+    "byteSize": 3770
+  },
+  {
+    "name": "IconChange",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChange.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a1a110c580fc7f9c2bc4b5eb5fe3ba5deca26c705d1efb9240983e5e9399e6b1",
+    "byteSize": 1031
+  },
+  {
+    "name": "IconChat",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChat.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "98322367c248523f286cef0e665ad2d8420d8bda2999577af35789e049da4996",
+    "byteSize": 2053
+  },
+  {
+    "name": "IconCheck",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCheck.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0282eede1cc43063859741b294563591ed43cd8b8c82f1e151f798359c1ced0b",
+    "byteSize": 457
+  },
+  {
+    "name": "IconCheckThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCheckThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "235886143a6e1a0d0b3d9d23a96babde224109d1ed512af4d0879ece6604bc5a",
+    "byteSize": 458
+  },
+  {
+    "name": "IconChevronDoubleLeft",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleLeft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "955b691b1b24e897072ac80377e2a129802c3b23703752edb27929bb02553d6d",
+    "byteSize": 815
+  },
+  {
+    "name": "IconChevronDoubleLeftSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleLeftSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7b08e92ec1a2559ef5266427574fd072e17319f13c22d62a8ed351def81c7f5f",
+    "byteSize": 913
+  },
+  {
+    "name": "IconChevronDoubleLeftThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleLeftThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "305dc0a41d82d8f81420618725b506b49eb781d73dc7d0802d853a9fe3d53c59",
+    "byteSize": 807
+  },
+  {
+    "name": "IconChevronDoubleLeftThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleLeftThickSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e9fdb3c8d038f37b20e420324fbcf647fc131b63fa1cb363ea53f299e05e2371",
+    "byteSize": 804
+  },
+  {
+    "name": "IconChevronDoubleRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "cf028e3a802c0e056dc70bf176477ff6cae541b149e54c1e0544dfd499fdde9e",
+    "byteSize": 820
+  },
+  {
+    "name": "IconChevronDoubleRightSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleRightSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ea8c055e7233c91dacd51ffc661dfc02498478ed230425fc9c8cb31a95e441f6",
+    "byteSize": 907
+  },
+  {
+    "name": "IconChevronDoubleRightThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleRightThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "aa40c6cee15e15b71359a11e6c597f6a11e146658b40624b92cc226c16c0e4e6",
+    "byteSize": 803
+  },
+  {
+    "name": "IconChevronDoubleRightThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDoubleRightThickSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4efeed2f852d6757525c4079f9862e2a4b760ee67b754769640b9f91f4c1d4b4",
+    "byteSize": 902
+  },
+  {
+    "name": "IconChevronDown",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDown.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "db2933d6d51fd0bf5638b3fa60fb2ef7da3b105848e64f2287bb67852d8b50c5",
+    "byteSize": 454
+  },
+  {
+    "name": "IconChevronDownSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDownSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a87a1210a91218aa8557c5cb1a8aba3e89f110026e552c9a5124026202c93ab5",
+    "byteSize": 454
+  },
+  {
+    "name": "IconChevronDownThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDownThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b42f9973e9c9abb9da04ca671c086a9361c9d29fbbddcc08a9ee9e9da2f6c81a",
+    "byteSize": 460
+  },
+  {
+    "name": "IconChevronDownThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronDownThickSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2e46d3f40dc86df9e5ad72e0b07108a062f23d1a323dad20390952638f4ff6f5",
+    "byteSize": 459
+  },
+  {
+    "name": "IconChevronLeft",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "63e632068a363e67f86aa28e1c3e69c3acc2523d8012f4086697d1482ad1d3e1",
+    "byteSize": 455
+  },
+  {
+    "name": "IconChevronLeftSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f4ac20401768236cc5a272cbe8c50048712607ce2ecc3dde598a1442173b7dbc",
+    "byteSize": 454
+  },
+  {
+    "name": "IconChevronLeftThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2ad5c28d61a8a136ae413516b37d06d9ec753d940aa765ee86214537eb58d92d",
+    "byteSize": 455
+  },
+  {
+    "name": "IconChevronLeftThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftThickSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "8950f359da8472a3e61fd3b72781379aa406a9416cf28f793db93d0a245bb95e",
+    "byteSize": 453
+  },
+  {
+    "name": "IconChevronLeftTight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftTight.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d3dbd4d6d6646d6832e79b07376be275053f6ef9060997d8d23a130765876682",
+    "byteSize": 461
+  },
+  {
+    "name": "IconChevronLeftTightSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftTightSmall.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c630f55b0729952727ca9aa2631e314eef5b6f742ec85d8a4b488902a7534d51",
+    "byteSize": 450
+  },
+  {
+    "name": "IconChevronLeftTightThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftTightThick.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "11206bf6ed77745396c9a631058a7684fc420d46fef85d7a9b6737184929fd58",
+    "byteSize": 460
+  },
+  {
+    "name": "IconChevronLeftTightThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronLeftTightThickSmall.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "910cccd20c6bbb50d29e3d694e4b72ccfad8c8d15e05d7166b6a9323a682f53f",
+    "byteSize": 458
+  },
+  {
+    "name": "IconChevronRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ccb372575737d5cb0af56ad4c02b6d476a4824e907968563b0f0076aadf4176d",
+    "byteSize": 455
+  },
+  {
+    "name": "IconChevronRightSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a06738d94eabfcf1c71597511dcb7567a61a646e8a15b4f3be026dbba3d4afd7",
+    "byteSize": 459
+  },
+  {
+    "name": "IconChevronRightThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c65a01a7aa3881fc8d4d9e5d1bfec53cddbf3a3d3216362b5a4beb58e5ec8a73",
+    "byteSize": 458
+  },
+  {
+    "name": "IconChevronRightThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightThickSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "78f247f1b0c82c483edbfb6652777319a6d69bc677ce60acd815f7d11970c680",
+    "byteSize": 459
+  },
+  {
+    "name": "IconChevronRightTight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightTight.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "71a51ac6dc4ac4cf1827b10fc2485b9b1174fc67b6e251365e5c13e0b379ebb0",
+    "byteSize": 456
+  },
+  {
+    "name": "IconChevronRightTightSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightTightSmall.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "08c393123837a98009f498ddde736c1a172f9f9e3f92c9671b7bc8c4418e5b6a",
+    "byteSize": 461
+  },
+  {
+    "name": "IconChevronRightTightThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightTightThick.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b3398be83e1f462a73cfd708319e96608f2dee153234598bacddf3a82f03cf88",
+    "byteSize": 455
+  },
+  {
+    "name": "IconChevronRightTightThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronRightTightThickSmall.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ed4d81eefd8f5f642af3c04e245e5a0161465e8e2c03051a9529733c69e60e3e",
+    "byteSize": 459
+  },
+  {
+    "name": "IconChevronUp",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronUp.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e80185518de8673d6a55e69175d433af95d651b28cd261e1e982df643e8066c9",
+    "byteSize": 449
+  },
+  {
+    "name": "IconChevronUpSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronUpSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0015520e4989982896eeb27a1e88638ef9d614ec4dcf282f7cc12a465b90228d",
+    "byteSize": 450
+  },
+  {
+    "name": "IconChevronUpThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronUpThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "25f66130d74633256433537201b01c437e02d128334c743e692d9feb0eb8e8a7",
+    "byteSize": 459
+  },
+  {
+    "name": "IconChevronUpThickSmall",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconChevronUpThickSmall.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fb6d7bd01c32cc83829887d2e515afbd6ebb1cfa89eaadae42e13887d70be767",
+    "byteSize": 461
+  },
+  {
+    "name": "IconCircle",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircle.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9f5c744bbb73ec78b3abd9820dbac4b453f0e5fef3b3b3d88ca818a02b7aef52",
+    "byteSize": 591
+  },
+  {
+    "name": "IconCircleBlock",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleBlock.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "186b7bbd15e93c1704c73188152830198465758e79ebfd195eada5c6129c5a1e",
+    "byteSize": 687
+  },
+  {
+    "name": "IconCircleCheck",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleCheck.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ad3863c7707b52d804da9aa8ec4f029e50bf40364fa85b2c93e0f82851598c61",
+    "byteSize": 1002
+  },
+  {
+    "name": "IconCircleCheckFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleCheckFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c3e2bd02d66e7849332f9e778fc200a011d4a85c1ff80f4485fbc5cb9b746257",
+    "byteSize": 755
+  },
+  {
+    "name": "IconCircleCheckOpaque",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleCheckOpaque.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9a642df37000bf50a51fbb975329269baa95db6f8f9b11d5e91273c1f6c69c7e",
+    "byteSize": 816
+  },
+  {
+    "name": "IconCircleClose",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleClose.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fbf68944c226cef9a47593841c7fcefc33facfed343b39c71d76ac6886991733",
+    "byteSize": 1140
+  },
+  {
+    "name": "IconCircleCloseFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleCloseFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fa29377f7fc61b17cc3a7f5d415f4ccb0f8497b93c7c86d14e093f520e270397",
+    "byteSize": 912
+  },
+  {
+    "name": "IconCircleCloseOpaque",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleCloseOpaque.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f2981f2710419aa0c2a1fa90921c28a32bc04a2269ecc4f4b385e7a005e33724",
+    "byteSize": 973
+  },
+  {
+    "name": "IconCircleDot",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleDot.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "dc35214666e8b3cd825b969143253b0d7e24df156a66b2eca7f025caa654469d",
+    "byteSize": 724
+  },
+  {
+    "name": "IconCircleExclamation",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleExclamation.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a755f2cebd6fa52cef5a802b1588fb1b2b1b50dbc646030c542370fca9d6f63d",
+    "byteSize": 1075
+  },
+  {
+    "name": "IconCircleExclamationFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleExclamationFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1d956e1e123bcb7065d4cabae31fe50be40f9c59ff3de3167aae536dce16ea20",
+    "byteSize": 788
+  },
+  {
+    "name": "IconCircleExclamationOpaque",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleExclamationOpaque.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "60add9c72b3b866cc7e2820cdff58f28fed85738fa898faf93b90173e5d8d6b3",
+    "byteSize": 849
+  },
+  {
+    "name": "IconCircleFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fc26443a3673c608b142f8a7fb8754415cdea5acba38f96b12aed13d803451e8",
+    "byteSize": 386
+  },
+  {
+    "name": "IconCircleInfo",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleInfo.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3b549cbc811b7b08dc1fd470fa572164dfc8cb8dc5d591947ccf81ab129694cf",
+    "byteSize": 1069
+  },
+  {
+    "name": "IconCircleInfoFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleInfoFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7ccfaca8d49dab1936e41bef52b6156c0fe71bfd9ff25160d933463865edfd40",
+    "byteSize": 786
+  },
+  {
+    "name": "IconCircleInfoOpaque",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleInfoOpaque.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a92bf413525580598ecfae41864f2b6c1c44dd6a1357804b1f6302ff06f3999a",
+    "byteSize": 847
+  },
+  {
+    "name": "IconCirclePlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCirclePlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9c1f3ec8ca4d45d03f5fa19b93bd87eb32f5244f91007f6b358a1fc004a290e5",
+    "byteSize": 1093
+  },
+  {
+    "name": "IconCirclePlusFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCirclePlusFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "282b799d42c0e94a5572cc544aabdbbc0fb8b11c7824bf4d537dafa3beb545ac",
+    "byteSize": 848
+  },
+  {
+    "name": "IconCirclePlusOpaque",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCirclePlusOpaque.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c926e742d749bc9d9b1070cb66bd22d6bcac35761bdd0f236daab46f533eeeeb",
+    "byteSize": 909
+  },
+  {
+    "name": "IconCirclePoint",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCirclePoint.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "96de83cb45373d887368e690bb6fcba16b15a1fe39c802e70a9db6c823b77bde",
+    "byteSize": 1190
+  },
+  {
+    "name": "IconCirclePointFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCirclePointFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f0e0940ace3d58abd56fca334b8560bf725635bb3ca49371893fa07fef639afc",
+    "byteSize": 910
+  },
+  {
+    "name": "IconCircleQuestion",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleQuestion.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "94e35f532345ab987a2174eba9bb13d731ab8e099164f6b17b9c140d60f9e681",
+    "byteSize": 1455
+  },
+  {
+    "name": "IconCircleQuestionFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleQuestionFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5a9b06ed19ca444da13cfa62cb63202664df28e0d17dee56114ce4391c06a2c1",
+    "byteSize": 1167
+  },
+  {
+    "name": "IconCircleQuestionOpaque",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleQuestionOpaque.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "433f72a9ff63f66618a3b429dc5c8834c3e50f8c664e56ba3c62ae79897eec31",
+    "byteSize": 1228
+  },
+  {
+    "name": "IconCircleUpRight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleUpRight.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e047d1f7bc80d70901260a8bdd34c8315c9427f64bb396e3a18962dd9f7f41cf",
+    "byteSize": 1016
+  },
+  {
+    "name": "IconCircleUpRightFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCircleUpRightFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0edb382443dc4d0d8e8ed116db5781d9c4e211f94b2f3b39011e13c77a01978c",
+    "byteSize": 793
+  },
+  {
+    "name": "IconClock",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconClock.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "af6c9462e4807a47812014b664f18ae4bee787a4261d559dc505d65464173199",
+    "byteSize": 883
+  },
+  {
+    "name": "IconClockFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconClockFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e391e219f24229b85339ba222709e428315abb966fbd20a87cf735ce7afcc9e3",
+    "byteSize": 661
+  },
+  {
+    "name": "IconClose",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconClose.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "39c1a46cf7eab66f120385d1007c033b9d1c8225a4f80e4e676b5b021e9c2cb0",
+    "byteSize": 669
+  },
+  {
+    "name": "IconCloseThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCloseThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "31611596db33e4bcf7efb571663d7b2afe8c48047a272dc037a354ef6d93a402",
+    "byteSize": 657
+  },
+  {
+    "name": "IconCode",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCode.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d39b110a26b6fe32976637b209503fddec3ac3ccfc202ca0557212ae85df9f2f",
+    "byteSize": 1086
+  },
+  {
+    "name": "IconCoffee",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCoffee.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "612595334e986b05cb7025961f9ab59044be7a85e98abc1d8d49034d19c30c0b",
+    "byteSize": 1771
+  },
+  {
+    "name": "IconCoffeeFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCoffeeFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fd17b4b7a2495d4cd1cf256187c7efec8bddb0a31bbb69a28060b9f920109fcb",
+    "byteSize": 1281
+  },
+  {
+    "name": "IconCoins",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCoins.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "afd726d72df5a33f540e2781526b2e2e99a7229086ac7e2d86e8e6b3f6dec211",
+    "byteSize": 2479
+  },
+  {
+    "name": "IconCoinsFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCoinsFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6f03339f3391cda65a984dd7422140235ce369a04771ab83755d90bb2a3cbc97",
+    "byteSize": 2065
+  },
+  {
+    "name": "IconColumn",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconColumn.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3de756b7ec7bd0473a1449b0c802e03835ae0e21ee1f11d3740d3f9494bce393",
+    "byteSize": 2241
+  },
+  {
+    "name": "IconCompany",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompany.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "01fbba40274689426e670062317d7926665ed9ebe1b827d69eb3494b709d4b57",
+    "byteSize": 2240
+  },
+  {
+    "name": "IconCompanyCheck",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompanyCheck.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2b4c6ffc525efca7e2a07fc15f7b7fa4654bbb1f40c6ac1dbc5a01a19316b297",
+    "byteSize": 2445
+  },
+  {
+    "name": "IconCompanyCheckFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompanyCheckFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e3428f82ad1a9b219154c5aeb32ca629b403ae9cd1670fd9575e84e9ebd3b1bd",
+    "byteSize": 1749
+  },
+  {
+    "name": "IconCompanyFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompanyFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7d93de3e1ee7e603e71a44835986340a76cf27ed8864f78f20e771eb3095095c",
+    "byteSize": 1343
+  },
+  {
+    "name": "IconCompanyPlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompanyPlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f46af9a0db6f3d56b353080632b092c616a85453f9e0cf491a5b1bfde4fb744e",
+    "byteSize": 2550
+  },
+  {
+    "name": "IconCompanyPlusFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompanyPlusFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b3c53578ac08e179faefcaa717564bf7112af7e8790df4aa51d72fb2c6b4a34f",
+    "byteSize": 1837
+  },
+  {
+    "name": "IconCompass",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompass.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b9adeb41869a982d94c7747e2c8ce2d1ccecbc527d3bba573149cbcab4ef10bd",
+    "byteSize": 1738
+  },
+  {
+    "name": "IconCompassFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCompassFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c651976feefb37f0b9d1814a9beae61aff60439f77676ec53be8cd440fe493a1",
+    "byteSize": 1602
+  },
+  {
+    "name": "IconComponent",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconComponent.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9f7ac4ba94141b3dcd13380b818d8676445d14cab710ce1b1330f2eeb439709f",
+    "byteSize": 7135
+  },
+  {
+    "name": "IconComponentFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconComponentFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d8799d047a6ad2ef95d944ac7befed5ecbe248aef4b0affa348a66148bff75a7",
+    "byteSize": 1338
+  },
+  {
+    "name": "IconCopy",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCopy.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4dae2d2ce49778f8badc0de393198800f2bb44b268aa13780f5c09c17056a2e0",
+    "byteSize": 2403
+  },
+  {
+    "name": "IconCrop",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCrop.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a19fcb43e28cc205719b6429f180f65e53ffb6de9f62b82028b5bf309007c556",
+    "byteSize": 1679
+  },
+  {
+    "name": "IconCrown",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCrown.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "818b943b5f6e0957124aacd39c6c3ee9c23bffbe37c7ed76ebfadb7d91d35116",
+    "byteSize": 1797
+  },
+  {
+    "name": "IconCrownFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconCrownFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6d2d43dfa4c949dbc67e285678e22ba605c32eecb8d481ebbe1bc92422efd0c4",
+    "byteSize": 1377
+  },
+  {
+    "name": "IconDeepSearch",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDeepSearch.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "19fe4749c3264823bb6098cf5c0e5ab0672c5c34c523d150398900e72437960a",
+    "byteSize": 2625
+  },
+  {
+    "name": "IconDesktop",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDesktop.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "956a2796cc369d29e48ba0bf8bc61e42a79ed005331df913b5cbdf26fdf7d034",
+    "byteSize": 2052
+  },
+  {
+    "name": "IconDesktopFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDesktopFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "54bb091f0918a31907fd1b5fbf5713d140ae475b26f4bfe50b65bb762fcd0d07",
+    "byteSize": 1395
+  },
+  {
+    "name": "IconDiamond",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDiamond.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a7452252edd25bf3ca1986ce9faec1610e2062ede31cccc1f752a6c12065195b",
+    "byteSize": 1360
+  },
+  {
+    "name": "IconDiamondFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDiamondFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d81a833750043f89c7cfb1a8a4845548e86febbb9ab0718b8689cc8d4cc40bde",
+    "byteSize": 1381
+  },
+  {
+    "name": "IconDislike",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDislike.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "28af109967d5489a35a6e87374f2d7cf1916b811f45b9ffe40df8aaff73e10c1",
+    "byteSize": 1976
+  },
+  {
+    "name": "IconDislikeFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDislikeFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "780d583f55ed8f4b03ac8bb0eb4f247be1f4ad5d0d8936e46c2ef2a16b624f66",
+    "byteSize": 1370
+  },
+  {
+    "name": "IconDocument",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocument.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9073f94b0e6231a7bc0d9336a8dfbca5a67e0d03b8eb3ad1a42ab8a834d5d831",
+    "byteSize": 2466
+  },
+  {
+    "name": "IconDocumentFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocumentFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4cd1cfde3144dedb7f43cdccb350010fd54e0ec0e648c4e2e2e16bb61b649220",
+    "byteSize": 1384
+  },
+  {
+    "name": "IconDocumentPerson",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocumentPerson.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "595effb9e559e1d77dd1628fa55b626de269b6c50c3591fd793595560202fb12",
+    "byteSize": 3024
+  },
+  {
+    "name": "IconDocumentPersonFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocumentPersonFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ff2b95aa4f265550e69a4df01850fdc2916a4a945b1bf02c539d38a804dcb19e",
+    "byteSize": 1880
+  },
+  {
+    "name": "IconDocumentSearch",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocumentSearch.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b90db2a55187223f49649fe5a9ac182abf316b6213cfdb21f591948dbdb76cde",
+    "byteSize": 4624
+  },
+  {
+    "name": "IconDocumentText",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocumentText.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "88b434a360be9ab5895734c22937ac12f7d5e7553328014095b00d4235d5dd13",
+    "byteSize": 2996
+  },
+  {
+    "name": "IconDocumentTextFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDocumentTextFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "125fbffa139129e8d6007a08b7c957b85f7b52a8adb89c5807cc3cdf34fc776d",
+    "byteSize": 1804
+  },
+  {
+    "name": "IconDot",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDot.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "dc74eb798cd9686c5579a4d7b5bd9feacc6b83c0d9fd0c2ffb34240190ea3669",
+    "byteSize": 354
+  },
+  {
+    "name": "IconDownload",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconDownload.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a31f0837d9665aac1f05397aafe6bfcee0479a10db3a4ff61f4f757ad5bc56b1",
+    "byteSize": 1594
+  },
+  {
+    "name": "IconExclamation",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconExclamation.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "acb2bcf01b76c4133ae2a566be4a92a00bf031828d56278bf651c5dd46949744",
+    "byteSize": 573
+  },
+  {
+    "name": "IconExternalLink",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconExternalLink.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "342c0a00483de4aad93704de2ebc1d12a3de821a29ba709f2dcb1eb96f992ebd",
+    "byteSize": 2273
+  },
+  {
+    "name": "IconEye",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconEye.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0c9f4173ed908fbc4fd912be386af9249212d2edf69641ec15e6cec96615c41a",
+    "byteSize": 1179
+  },
+  {
+    "name": "IconEyeFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconEyeFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "15e05cb291a69324126a6c7ef5c6ef2097826a8a48fca63f23d869aa614edbf3",
+    "byteSize": 929
+  },
+  {
+    "name": "IconEyeSlash",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconEyeSlash.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d6d57f7cf5450dc266d14cd5affb8d02e78b002724badc12a076e16a31271620",
+    "byteSize": 1722
+  },
+  {
+    "name": "IconEyeSlashFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconEyeSlashFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2792458df3c6bebd052ec0ac4ade12645736dbeca79d8373bea2b3f4180f67b0",
+    "byteSize": 1317
+  },
+  {
+    "name": "IconFaceSmile",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFaceSmile.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "dac14388b171414036b8417d069ad74506dabcff8b853ffb7ff8d21e3581ec8a",
+    "byteSize": 1429
+  },
+  {
+    "name": "IconFaceSmileFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFaceSmileFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9b7a68970125038a529b372ab04f9544ab0629055eb5e525ad4942302e82def6",
+    "byteSize": 1102
+  },
+  {
+    "name": "IconFilter",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFilter.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "be2b446348eb148c08c857059738d2b08b376b0cd3803f8140bee3fc4ad49b91",
+    "byteSize": 1436
+  },
+  {
+    "name": "IconFilterFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFilterFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e2a858a9264f6d30873fa94050e1fd8864f37bdaa44d1264acc09b24ba78c08a",
+    "byteSize": 1122
+  },
+  {
+    "name": "IconFire",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFire.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "36a2b828484028f2938fcb6517bec97d0925262ddecbe19a2c53033d79ba3867",
+    "byteSize": 1191
+  },
+  {
+    "name": "IconFireFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFireFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "035722d2596119710c020a16820e133e5c9dd279915b814e45fb1197943a3a80",
+    "byteSize": 770
+  },
+  {
+    "name": "IconFlag",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFlag.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5fdedcf3e61fd8691b06f5d1a618c47d2b0002e09dd39225e68648f0aeee55ed",
+    "byteSize": 1212
+  },
+  {
+    "name": "IconFlagFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFlagFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "8236f12f067a0c9a12705f93da9dfdd7d4c2501474abc3e47a0291d51a500cfc",
+    "byteSize": 824
+  },
+  {
+    "name": "IconFlip",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFlip.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4d31c93ddaf775999b0017329e6d62ebf72a91400bcbcddcf673a4b906271e04",
+    "byteSize": 1768
+  },
+  {
+    "name": "IconFlipBackward",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFlipBackward.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b169f73a9bd86fd8ee388643a41d6cf5d260ebc9d4567a602ec237e53703111a",
+    "byteSize": 769
+  },
+  {
+    "name": "IconFolder",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFolder.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "596c5ba70b35dd90c0584b0b3462a33359661e9f5e7226028136c2a9e845f2b1",
+    "byteSize": 2188
+  },
+  {
+    "name": "IconFolderFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFolderFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "30136d7f7e3674e07a6b5249d6c219657f787808c9da3184a4c739f3473ff5bc",
+    "byteSize": 1312
+  },
+  {
+    "name": "IconFolderJob",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFolderJob.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5d93dc0147c8181c66b0962e971d07b8cd342d943772530d548b94c7ea91b8b1",
+    "byteSize": 2770
+  },
+  {
+    "name": "IconFolderJobFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFolderJobFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a2a2bd93ade07d8c1bffed2e14726e59535bd466c8f93dd40fca3d24404f0680",
+    "byteSize": 1868
+  },
+  {
+    "name": "IconFolderStar",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFolderStar.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "747c63efbbf9318517f02ee3162d6fb4acfa0dde7396951f96df8d59ead3633d",
+    "byteSize": 3554
+  },
+  {
+    "name": "IconFolderStarFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFolderStarFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "8e4c1b3849b534d63f6450a80b2906eafe7da45f700b5241db401601e810f97c",
+    "byteSize": 3013
+  },
+  {
+    "name": "IconFull",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconFull.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a953db50f45bfa80b635e45bf0fd16049e3765ad82596157793286962f1ea9f1",
+    "byteSize": 957
+  },
+  {
+    "name": "IconGlobe",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconGlobe.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e0dc612e2f9eae21790a8b591be3800bd1e069fd50c6a4bd3335893a3dc86ffc",
+    "byteSize": 1871
+  },
+  {
+    "name": "IconGlobeFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconGlobeFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "212401f72964b3c270e505c422fbd6c1516f39e661a2080a21fad8a1b9fb3166",
+    "byteSize": 1802
+  },
+  {
+    "name": "IconGraduation",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconGraduation.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "69a354b2489d41eeba1795d081fa020a89e007470a346d078ff367617c5a4d7b",
+    "byteSize": 1908
+  },
+  {
+    "name": "IconGraduationFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconGraduationFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "15a93511d2b546bb1f46e45d58951a78b959284cebf8b77d68e35aaeceba80a3",
+    "byteSize": 1479
+  },
+  {
+    "name": "IconHandle",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHandle.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d4e5591a08439b20ba6bdb7ad2de7b741da5c7476f34d2897df266f632078428",
+    "byteSize": 620
+  },
+  {
+    "name": "IconHandleDesktop",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHandleDesktop.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "520c045938a274aad8e279b1a23357afaa598f4aa3256fcf4747242cea070eed",
+    "byteSize": 1384
+  },
+  {
+    "name": "IconHeart",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHeart.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "198b43c566669ab376cbe494c198abaced54efcd2959e008e1fabfbda978ac3e",
+    "byteSize": 1391
+  },
+  {
+    "name": "IconHeartFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHeartFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "37303da57d1676ead5ba9f5cd8b7d90f39a8119479e1b5e0ef728f3a02a36301",
+    "byteSize": 805
+  },
+  {
+    "name": "IconHeartInHeart",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHeartInHeart.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "678746c77a16c6f267be879b3c1b556de4462f636dfcbd2df2fda0f248c363e0",
+    "byteSize": 2293
+  },
+  {
+    "name": "IconHeartInHeartFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHeartInHeartFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "353709b3d9ff9910be05cfe44a1f6050bef8aecbedeacb8d24956514fe79580c",
+    "byteSize": 1593
+  },
+  {
+    "name": "IconHistory",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHistory.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f6e93a216be1d3f1af00615a1d9f133e30556e814f5e2d184bb84503afd87c5a",
+    "byteSize": 1695
+  },
+  {
+    "name": "IconHome",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHome.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "44033804ee6ffffca131ba784a274e889f059e7bb0ddf0b17aa914ab7c03dcf6",
+    "byteSize": 2054
+  },
+  {
+    "name": "IconHomeFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHomeFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b97889f02f8245dba552cad2a0e825e3eb1446475cccb2c8b37b120725e8eb0a",
+    "byteSize": 1262
+  },
+  {
+    "name": "IconHourglass",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconHourglass.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "764fb57a16254456a0c480e9fe265f9b64de2af5311b506f8aa2deac575c787e",
+    "byteSize": 1657
+  },
+  {
+    "name": "IconImage",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconImage.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ef36a24815576042e6bdcadce74842e5ff5d864540a3788aacf18a0897745c47",
+    "byteSize": 3167
+  },
+  {
+    "name": "IconImageFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconImageFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "585273d4876d86d1fc9bd73ac68ac5a75afa4cec99567c51cbad7357e3c9a9c6",
+    "byteSize": 1988
+  },
+  {
+    "name": "IconInbox",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconInbox.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5350581f7a3704b18075f5c2ba99ee96a8cbf5b6776df290ee6fd923c6b94832",
+    "byteSize": 2372
+  },
+  {
+    "name": "IconInstance",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconInstance.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5f90216b5859eea12282bda099b54b0b9d402d14b931aef5f8df47d267e37381",
+    "byteSize": 1856
+  },
+  {
+    "name": "IconKeyboard",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconKeyboard.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5ba61b12a428ef05d41e136e2028813fc3088be476895974472c3086ec4633e0",
+    "byteSize": 3509
+  },
+  {
+    "name": "IconLeftSide",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLeftSide.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0586ae81cefeac44d88499ddd09bb4e92e126c087bbe308618a0223078bb2f6b",
+    "byteSize": 2409
+  },
+  {
+    "name": "IconLike",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLike.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "bd4c2cbf216c1981c0d0460a8e8af38f3ea2d6e2499ba77db3f1d36806af6966",
+    "byteSize": 1987
+  },
+  {
+    "name": "IconLikeFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLikeFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "137e1bc56828f0f3640743fd2025a022c8436c8fd644d6e134e186ac2d250998",
+    "byteSize": 1372
+  },
+  {
+    "name": "IconLineHorizontal",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLineHorizontal.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "09df7700b36de0e7cfcb04103cb5c2eabe0f7f09d944d29a76f29ec682a5ad69",
+    "byteSize": 384
+  },
+  {
+    "name": "IconLineHorizontalThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLineHorizontalThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c942fee40721a2ed246a80335374094559f0177a4a4f679c4c28cb83daa5a974",
+    "byteSize": 384
+  },
+  {
+    "name": "IconLink",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLink.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a8c422bcbb7a60c7789887d1292b52298d28a0f3821bce391f66e0c0d53b8f9c",
+    "byteSize": 2257
+  },
+  {
+    "name": "IconList",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconList.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "77a004d3f817666b465fdedfb9623934614cb2a789ca767f71bd8edee25cb485",
+    "byteSize": 1439
+  },
+  {
+    "name": "IconListCategory",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconListCategory.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6ee5f854c31813a73745296645bec2c7da460c046cd20a17ea1d9730310fb7d6",
+    "byteSize": 872
+  },
+  {
+    "name": "IconListOrdered",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconListOrdered.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0507668893cdbf02bfac828d30b4ce6a33d4c7449be570b57e4eee2eba2c47ba",
+    "byteSize": 2846
+  },
+  {
+    "name": "IconLocation",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLocation.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5c98d194ac76d126ac7dd460da89295fffa97704b4e718eb67c86a478d216e35",
+    "byteSize": 1424
+  },
+  {
+    "name": "IconLocationFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLocationFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9c984259695526b1628dc0f7ee29be660bc3f283175706d1fe8b73c559dcbd0c",
+    "byteSize": 833
+  },
+  {
+    "name": "IconLock",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLock.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5b13c9c0992ac900805c65118e2edca186b6cb0274db9239db97af4d17c1eec2",
+    "byteSize": 2413
+  },
+  {
+    "name": "IconLockFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLockFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4fa4a8b9c16a2bf32029d185d8182544cd75153c5e2ffd7fb703e795a3edd6bd",
+    "byteSize": 1832
+  },
+  {
+    "name": "IconLockOpen",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLockOpen.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "973483e5fff56a64b21e55fd5d5fee2b177862a1d1f8654bbbed9e0194b1cac6",
+    "byteSize": 2421
+  },
+  {
+    "name": "IconLockOpenFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLockOpenFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4a2794ee8fa4f902a8c354796a1e49180ef52f87601b08538fa184d9a5ac4b61",
+    "byteSize": 1765
+  },
+  {
+    "name": "IconLogin",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogin.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "69d1673b766a66ec1b9a5cf0ebd8ce53d060825a6ab6b4711f42026ffc4f72ea",
+    "byteSize": 1814
+  },
+  {
+    "name": "IconLogoApple",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoApple.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4e5a5f47bd8cd2374f0b223deb8d771a947a2964dc8734aa7e89217541b6d0e3",
+    "byteSize": 1087
+  },
+  {
+    "name": "IconLogoBrunch",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoBrunch.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b1156e4ec6f04fbee0e627f7901a3ed5eec334705091224a03235ae58f8e535c",
+    "byteSize": 2023
+  },
+  {
+    "name": "IconLogoFacebook",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoFacebook.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "918550b72bbca9393a32505601e321758ffd659a3e70e3bf4b45b96b436009cf",
+    "byteSize": 585
+  },
+  {
+    "name": "IconLogoGooglePlay",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoGooglePlay.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3d74c29531d1220b5abdcb4210c91205a8e407d314b93a1172a98d1702a469eb",
+    "byteSize": 921
+  },
+  {
+    "name": "IconLogoInstagram",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoInstagram.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4bfad03bdb0f2a34304ab677a7c2f084c42cc0b3d6528737bf0397f4e3b4002e",
+    "byteSize": 3065
+  },
+  {
+    "name": "IconLogoKakao",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoKakao.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "53607d726ac3ee0491f03b303041a9fca7e5479d48b4224c183015bd662620c7",
+    "byteSize": 651
+  },
+  {
+    "name": "IconLogoLinkedIn",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoLinkedIn.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a95deddc17b2eec7db76f5d20d677a2983b7fecef2a88e81654b6b106e50be91",
+    "byteSize": 1698
+  },
+  {
+    "name": "IconLogoMicrosoft",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoMicrosoft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e036c44a9dc868c2dddc161fcf9aa85b3353eb62aa6d707900d29883edf4d230",
+    "byteSize": 389
+  },
+  {
+    "name": "IconLogoNaverBlog",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoNaverBlog.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5ee711dbdab804e6e73734321686135f6131a9399eec7e511ec729712014b1fa",
+    "byteSize": 2067
+  },
+  {
+    "name": "IconLogout",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogout.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ff8edf450a12afe57c018ff7db28bea7eadb865980a0f59eb0b3cef4fdbd517a",
+    "byteSize": 1812
+  },
+  {
+    "name": "IconLogoX",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoX.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3e4001363525dfa297136ce5d6b3f79330d17f0b2f9138458fe7f99ae527c356",
+    "byteSize": 369
+  },
+  {
+    "name": "IconLogoYoutube",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconLogoYoutube.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c84824aa923744a90198429ee939ab91e5cb1658d42e25db150b2bbddd39bbea",
+    "byteSize": 830
+  },
+  {
+    "name": "IconMagicWand",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMagicWand.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "37a84449814aac48dd41745c6b34580b060156e6fc77339a34db7aef8384dd8c",
+    "byteSize": 3346
+  },
+  {
+    "name": "IconMail",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMail.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "86326647e5144d492e5520de8ce895ddd99c432da1f1744686681b86ff0104a5",
+    "byteSize": 2167
+  },
+  {
+    "name": "IconMailOpen",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMailOpen.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5de7e108c5aa9ae15319258b704d3ee46dabf2858c0e010867261aee81500571",
+    "byteSize": 2029
+  },
+  {
+    "name": "IconMedal",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMedal.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a549bcfe40a677d3460fd61bcf362fd5169b5ae9e3e32f1f37195ce44be996cc",
+    "byteSize": 1508
+  },
+  {
+    "name": "IconMegaphone",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMegaphone.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ac9e5108bc624c0687026cf58088b8f073d77204a75856f0cd5ba5072197919c",
+    "byteSize": 2016
+  },
+  {
+    "name": "IconMegaphoneFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMegaphoneFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "542bbaa5fb052bc3333c1ce49e682feb0aee5d8a11a19c69aad8d28615ec8f71",
+    "byteSize": 1306
+  },
+  {
+    "name": "IconMenu",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMenu.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ec40ab45a8eb48bb9389785f03931835a3929ba4dbbd1d1791e59544476c4da6",
+    "byteSize": 891
+  },
+  {
+    "name": "IconMenuThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMenuThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "bf1bfb7604029120ac766972721c42f817bc2f1ac397ba2e378cdb6c947ca497",
+    "byteSize": 891
+  },
+  {
+    "name": "IconMessage",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMessage.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e7ded4b051bb314aea3cf28dc29eada4723ee5442a135cc253f39f0c28cc106d",
+    "byteSize": 1795
+  },
+  {
+    "name": "IconMessageFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMessageFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1ff37d5453112288365a40b03dc49cf0d03306300d25666dc4e0969167c7727c",
+    "byteSize": 1147
+  },
+  {
+    "name": "IconMicrophone",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMicrophone.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ddbcc134699071c97ab53f50236cafd914285e04abf961a58f9bf887b3a5bdde",
+    "byteSize": 2284
+  },
+  {
+    "name": "IconMicrophoneFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMicrophoneFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b0c19e04124d854a27c8a650bf64909036a7a91b77eec13dc28e0f06e1cf8b7d",
+    "byteSize": 1643
+  },
+  {
+    "name": "IconMicrophoneSlash",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMicrophoneSlash.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "97c183d48793e57c779ee37a9d55d2abd08e0737517813b75da94af48055fda4",
+    "byteSize": 2418
+  },
+  {
+    "name": "IconMicrophoneSlashFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMicrophoneSlashFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3f08e625bda4a96d2e8f66bb1901cf0c410dab06be3d9b81bffd3aaeafd6f64d",
+    "byteSize": 1822
+  },
+  {
+    "name": "IconMinus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMinus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f841ab2b354c1e04e7858aa6f5a0bc52575e89bf4d307a050a2b75e63e7ae161",
+    "byteSize": 365
+  },
+  {
+    "name": "IconMinusThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMinusThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0d2a3e2d34df4a74d5556d956cb63f6d27a8a8f382242cc26d5caa5386b7da1f",
+    "byteSize": 363
+  },
+  {
+    "name": "IconMobile",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMobile.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a54df19b8aa1a4f0a840b8099051a3b41d674e8f9f003cafddd28642fe3546ca",
+    "byteSize": 2025
+  },
+  {
+    "name": "IconMobileFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMobileFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "cabdee48369042706dd4f3c2bf0a7911b5706dabf4917ef9141a4558315e1b0f",
+    "byteSize": 1407
+  },
+  {
+    "name": "IconMoon",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMoon.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a5a986f4a7d2ab15fac1757ba9f78cef79b539ed1a3add70563dd8c187db15ac",
+    "byteSize": 963
+  },
+  {
+    "name": "IconMoreHorizontal",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMoreHorizontal.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2877ddfae718485daa2be91e1c599e21baa1c4c44b3e7f81d3f20419bd9784d9",
+    "byteSize": 765
+  },
+  {
+    "name": "IconMoreVertical",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMoreVertical.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f77897dac32c32a0dd0b0e118e75b8b38b8275aeb97357b97e3eeae734a09904",
+    "byteSize": 745
+  },
+  {
+    "name": "IconMoreVerticalTight",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMoreVerticalTight.svg",
+    "viewBox": "0 0 12 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fe5de846dccd17dd9da2229d29757d0a8e821f1824b88d8a6d80eb0c26f1b4f5",
+    "byteSize": 745
+  },
+  {
+    "name": "IconMusicMicrophone",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconMusicMicrophone.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b1d034536a17d84d5a3cf4fde396d4ef9b784435cd8fd28242546607afe044ef",
+    "byteSize": 974
+  },
+  {
+    "name": "IconPalette",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPalette.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d31ed13aeb680e33f7521641bac4791f9f068bb778ea43bdf5db99dc9af23a91",
+    "byteSize": 3269
+  },
+  {
+    "name": "IconPaletteFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPaletteFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0ac0b230608e2b38a97f6dfda71c464b926219d5792c5dacb1feab24160dbde5",
+    "byteSize": 1615
+  },
+  {
+    "name": "IconPassport",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPassport.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "83ea54697c98f71f1ab7f5f274a60b2507c232a706ef5867aeb3b571058539d4",
+    "byteSize": 2829
+  },
+  {
+    "name": "IconPassportFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPassportFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a2e3d99565edc49453fc831e1d12669430a4754206c85fc5100f3391062137a3",
+    "byteSize": 2135
+  },
+  {
+    "name": "IconPause",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPause.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "06e7fccb30ab4b25e4b341c8dc226a458018554d16fbc8a2d7d65c70a6f3afa1",
+    "byteSize": 1228
+  },
+  {
+    "name": "IconPencil",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPencil.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1e4cc6bd60f047bdc3ddcd48c8b818a58b055cb3c5ff3b68e17e6b4de697a876",
+    "byteSize": 643
+  },
+  {
+    "name": "IconPencilFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPencilFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "59eec3e02a3d3cd441e512723d4af98ebf775b84abb7e7f379e62ad009d4e602",
+    "byteSize": 441
+  },
+  {
+    "name": "IconPerson",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPerson.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f58f18c69575a1aeba69f377700120b1c638b4c1a542f0ca708accc52b5d5eae",
+    "byteSize": 1602
+  },
+  {
+    "name": "IconPersonFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPersonFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9a4715751d5e038d0a385f8ecfc9e355f2000a7b2d516ae4bad3286fc4662c3e",
+    "byteSize": 1099
+  },
+  {
+    "name": "IconPersonPlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPersonPlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b0189e13f855c19566e56596c89f91ac7d35e29f7bc63a84195b08e62e84b70f",
+    "byteSize": 2039
+  },
+  {
+    "name": "IconPersonPlusFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPersonPlusFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5f336014f1f94dbbc399d67f5c7b5bf164530e8657aa736da0b13fc9724cc636",
+    "byteSize": 1524
+  },
+  {
+    "name": "IconPersons",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPersons.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fac43321b7595fc604ab478224678b8bc2f9d1e86fb2be895a0f549f1cd12bf2",
+    "byteSize": 2684
+  },
+  {
+    "name": "IconPersonsFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPersonsFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6f6aee2143a5c50bd295d122060794b0e4f83cf2733ef98077367316de5147c2",
+    "byteSize": 1538
+  },
+  {
+    "name": "IconPhone",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPhone.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fc61177d0787d920e7c76547da963fb88c472c780fceb1a913dfefce8b6135eb",
+    "byteSize": 1453
+  },
+  {
+    "name": "IconPhoneFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPhoneFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f24e97eac2d2d040145f0f875e7b003af4bb76317b7dad41800ad5281386a4e5",
+    "byteSize": 728
+  },
+  {
+    "name": "IconPin",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPin.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3eb4ac75b4c5c9094d47b0ea96060df3bfe748fa772356ad7a293e3db39dcb15",
+    "byteSize": 2435
+  },
+  {
+    "name": "IconPinFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPinFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d77cc802c91a185b67e1ae4e9bc6aa6056c054b9f9b3655bceba04467c9c9261",
+    "byteSize": 1338
+  },
+  {
+    "name": "IconPlay",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPlay.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "dc54e765ae9c6994f02761ad126b73e4b0de95bdf902da5dcd4e72e9f75aa513",
+    "byteSize": 626
+  },
+  {
+    "name": "IconPlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6c52333c379e0028622e4cd948897f78c85e0188e7db71e05f78d7028b0b2a1c",
+    "byteSize": 605
+  },
+  {
+    "name": "IconPlusThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPlusThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6d2881d95a3973de157a5fbd8f11acdb829f9a190ec9383c18bb2ccebb808658",
+    "byteSize": 605
+  },
+  {
+    "name": "IconPositionReview",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPositionReview.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "43a2d88cd67de39d64848e74494aef3033acc1e9c1f9a9b9ea1fea23592380fb",
+    "byteSize": 3306
+  },
+  {
+    "name": "IconPouch",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPouch.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "8ee0fbf6708e6696c044ffe40ab65e1a5a1625fec43e2e1e9def4b1e8017ad48",
+    "byteSize": 2229
+  },
+  {
+    "name": "IconPouchFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPouchFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "306d092665864a50b831c049a8534403f7dc63a1cd45681cb2702cdd535855e2",
+    "byteSize": 2168
+  },
+  {
+    "name": "IconPresentation",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPresentation.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2c4e9d52ac39bef0c66020fdf828083ab4c0536149fdcffb63c2a201fb0edd75",
+    "byteSize": 2734
+  },
+  {
+    "name": "IconPrinter",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconPrinter.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "95281708bbadf727008907f8efdb3d3c7c07509ecdeb57cf1a5a689a91affdb2",
+    "byteSize": 4579
+  },
+  {
+    "name": "IconQuestion",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconQuestion.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "8ad8e608731af757d76e1ac988ae41f39cc1dc44fa6efbc6f815bd3df9c3da64",
+    "byteSize": 875
+  },
+  {
+    "name": "IconQuote",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconQuote.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d0c9bb06134976260836e8e31fa1f5268a9ba040b8e66b99ea8662a653b4c8f0",
+    "byteSize": 1455
+  },
+  {
+    "name": "IconRefresh",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconRefresh.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ff87daa4ef78905a892c4ab6b2775993ffd776b772e8e10f53ecd2838d4ce009",
+    "byteSize": 1643
+  },
+  {
+    "name": "IconRegex",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconRegex.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7ca0cea962fbf01afbd9401663e62657d0fe00018d9ad01a6796af76253098c9",
+    "byteSize": 1941
+  },
+  {
+    "name": "IconReplace",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconReplace.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "82ed2aa3cf8679c631e712e8a15147dcae957df000cc53de476f464001f11dbc",
+    "byteSize": 4056
+  },
+  {
+    "name": "IconReplaceAll",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconReplaceAll.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4e8855fc37d1951e32af9544b3ba2c951459fa6a48969e95ed3af57b9c85f0c1",
+    "byteSize": 5332
+  },
+  {
+    "name": "IconReset",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconReset.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7ff36899fc8c96b473ab567b791af45e0d110e1c5226f84fabf813e392c22a5a",
+    "byteSize": 970
+  },
+  {
+    "name": "IconRightSide",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconRightSide.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2ccf91ce00af6b06a58825e3f4ed79805dfaa5ed7114c9abb3b4a7dc2ac5331c",
+    "byteSize": 2411
+  },
+  {
+    "name": "IconRotate",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconRotate.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b1b192895d4ec63b4032228573efd172904c8a31debbf94a61cf14b82330ff83",
+    "byteSize": 1977
+  },
+  {
+    "name": "IconSearch",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSearch.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e28847dc0d6726b8128430222f6411781af0c4b2283b8d1fc6f395d21ad3b5a6",
+    "byteSize": 769
+  },
+  {
+    "name": "IconSearchThick",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSearchThick.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "21b78115f14c3bf6d279c15b405f69e5ceda4a4955f43dad5b039d6445c52507",
+    "byteSize": 766
+  },
+  {
+    "name": "IconSend",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSend.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d5bd58be04a5d2fa9db944c8cf12356ad1959ffbfd37d78f259a87c5881c733e",
+    "byteSize": 1436
+  },
+  {
+    "name": "IconSendFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSendFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5666ba1f75427ca14838c9d75d6ffba300e37e00ccb5f33577421288aedff49e",
+    "byteSize": 1047
+  },
+  {
+    "name": "IconSetting",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSetting.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2e9794ede1919b4418f28811bdf45119ad569b80bb3c157cb676b0ef79b1f49b",
+    "byteSize": 4432
+  },
+  {
+    "name": "IconShare",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconShare.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5b6522dd195bfee98d7af0f8cdf7b1b885e9b973e197cd569a5b6f57ff6edd40",
+    "byteSize": 1645
+  },
+  {
+    "name": "IconShareIos",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconShareIos.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4bf64315704ebc403bc76ef3803e26c4670fbe524a85a7129ad8a454c352c6b4",
+    "byteSize": 2455
+  },
+  {
+    "name": "IconSparkle",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSparkle.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ab9974f5f162b688e2b29a31b6c6ade03c6ae3b4f902e1e71fab621a473bc49d",
+    "byteSize": 5061
+  },
+  {
+    "name": "IconSparkleFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSparkleFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e640614f432298abe25760a4d9e1eb1686652e2734539debda4c0f230ad041c6",
+    "byteSize": 3873
+  },
+  {
+    "name": "IconSquare",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquare.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6f2e4408b24d5b5165023296d985d1aa5f83ada4d89e2feac459e361cd13e45e",
+    "byteSize": 2157
+  },
+  {
+    "name": "IconSquareCaret",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareCaret.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4918e0d028ef5d39b15baf7919ea2d73abd60d0e19f802db4bee84e1557e4dcb",
+    "byteSize": 2685
+  },
+  {
+    "name": "IconSquareCheck",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareCheck.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "1e2934e9854e02716bba1c01f30437d378d72aaa6aaa77469987819225b6bf7b",
+    "byteSize": 2567
+  },
+  {
+    "name": "IconSquareFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e414be97e6f224679915824415e3e1ea3aafe560b55f5c6d8e7a9ede7ffc51dd",
+    "byteSize": 1128
+  },
+  {
+    "name": "IconSquareHan",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareHan.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d892b09df2e27ee97f0bf04e47cb2f327fc77f507dda770facc95ac4e99e538b",
+    "byteSize": 3200
+  },
+  {
+    "name": "IconSquareHangul",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareHangul.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "84da41ee6056e96459cfa6ff62458f0201af8d4d68ef8fcbc37eb25644589ee8",
+    "byteSize": 3746
+  },
+  {
+    "name": "IconSquareKana",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareKana.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "97ed736d255ae96a93834155455c5bcb8c67276194b43bc9ad8930ccdb064af1",
+    "byteSize": 3436
+  },
+  {
+    "name": "IconSquareLatin",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareLatin.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "44274da1ecd128b35dbfc07a0b21879a671a1f76eb1f8ffaa538330dbea11424",
+    "byteSize": 2694
+  },
+  {
+    "name": "IconSquareLatinFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareLatinFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "8f51af40f3763ac226be68ab804fe54a449fa6bccb1271fb10a5da68a1aa5d58",
+    "byteSize": 1643
+  },
+  {
+    "name": "IconSquareMore",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquareMore.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "104dce5b748e9eed749c84e59591a70fee1117417bbab318fc17b645638f5007",
+    "byteSize": 2780
+  },
+  {
+    "name": "IconSquarePlay",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquarePlay.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "42765acc925a3858a353a795eeb8f9c56bd5b666e386e69ab88db71288cb1626",
+    "byteSize": 2964
+  },
+  {
+    "name": "IconSquarePlus",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquarePlus.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fa06f30e779f0f73d260b49f978985f6d4189a69cd1a935ba68e4b76b0b91234",
+    "byteSize": 2542
+  },
+  {
+    "name": "IconSquarePlusFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSquarePlusFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6f5480693c3c958c38f7ea9eb5026f18dc5a6ff71648248c4b62549c2a341cc7",
+    "byteSize": 1552
+  },
+  {
+    "name": "IconStar",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconStar.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a9456305a7230d4e6d091ecd86035e63de176596b3c696d64816f6da92a7758a",
+    "byteSize": 4091
+  },
+  {
+    "name": "IconStarFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconStarFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7d858f71b714e92be7676ded55bce9557e5c764fe43a7682bf581156c49999b8",
+    "byteSize": 2686
+  },
+  {
+    "name": "IconStorage",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconStorage.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "e534becd63eb6932b57ee32a68cf31a4be5b9a59c6805c7bd957d9308f8919eb",
+    "byteSize": 2093
+  },
+  {
+    "name": "IconStrikethrough",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconStrikethrough.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c4c6872b0cb0c23c1998becbdda7796b6f81a34347f9de846dd4d516a23803c8",
+    "byteSize": 1186
+  },
+  {
+    "name": "IconSun",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconSun.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "dae8bc03362f2ae5062bb495f60d6f4422367546698a793e497343aba8072884",
+    "byteSize": 2735
+  },
+  {
+    "name": "IconTag",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTag.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "397c4397b75530292a860a9016e1e675309de284fb95e876602bdfbcc67a78d1",
+    "byteSize": 2713
+  },
+  {
+    "name": "IconTagFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTagFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "cd30f267cc94eb54b996221b4283eef2d26bf43670c7264a59235c408f15d95b",
+    "byteSize": 1500
+  },
+  {
+    "name": "IconTelescope",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTelescope.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9c68a0cdcb078da8b4b918fdc6a0bc49680865b41adcaadb473c321f065fa969",
+    "byteSize": 4298
+  },
+  {
+    "name": "IconTemplate",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTemplate.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b9cda7335c80476a735fde53ef33a30feeab061c1152134a51feffc52f7c7461",
+    "byteSize": 2254
+  },
+  {
+    "name": "IconTemplateFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTemplateFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "59addc5963c843b82035bdac47497b3cc3d303833197927b5555229113afddda",
+    "byteSize": 1314
+  },
+  {
+    "name": "IconTextFormat",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTextFormat.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7300de11f80867fbad83e4ddf6e95de7d8e4a1b5b79531a6997b503ebd3bb83c",
+    "byteSize": 1453
+  },
+  {
+    "name": "IconTextVariable",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTextVariable.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "317aec0e06ebc741008ad0bdcae08b9d42a620479a94027561d863fba64ca912",
+    "byteSize": 1541
+  },
+  {
+    "name": "IconThumbnail",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconThumbnail.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "bc0ebe5c90f64e61050ec78827706e5c253b6a0045729f3fbe12ebcbea55e967",
+    "byteSize": 5334
+  },
+  {
+    "name": "IconThunder",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconThunder.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3e2643b7b9f4e8090700ad7f69c2e951f7b00cde61712b9800ab9492e4210c56",
+    "byteSize": 1623
+  },
+  {
+    "name": "IconThunderFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconThunderFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d7bb6ed0b8964af62383332437da4569677d00ddf138f0cc6fd70d88bf849d24",
+    "byteSize": 915
+  },
+  {
+    "name": "IconTicket",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTicket.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "02dee3379f9f25bd01cc99ad54857649d570531a9eee5a0e45536dfd12ad9fa9",
+    "byteSize": 2719
+  },
+  {
+    "name": "IconTicketFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTicketFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "72d00cf4660af46e6211c888e1b1e1bba7ccf6ccff2b5eb05ed772beee718e76",
+    "byteSize": 1837
+  },
+  {
+    "name": "IconTrash",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTrash.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "958f39479d473d88f1ac207e6e80f378e106a7439f03697d3b95eb1f2738ede8",
+    "byteSize": 2539
+  },
+  {
+    "name": "IconTriangle",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTriangle.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7f5c07d96fb121d5f0ba219e776e96dff744561f023c5184742e091f01257e1e",
+    "byteSize": 1144
+  },
+  {
+    "name": "IconTriangleExclamation",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTriangleExclamation.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "aa950871b0be3fd4d9fc3f7083334673191c84ba7360e02c0c9d2e7b4575dc2d",
+    "byteSize": 1619
+  },
+  {
+    "name": "IconTriangleExclamationFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTriangleExclamationFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c1b11f7c03bf15ec3c94b08d50494b584d0b92e88c6136c38fff3bc891e409b2",
+    "byteSize": 1347
+  },
+  {
+    "name": "IconTriangleFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTriangleFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "55377b88ade7309e9cb7a8ab437915bb45274d81f363acbdf1cae52eea0316b2",
+    "byteSize": 908
+  },
+  {
+    "name": "IconTrophy",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTrophy.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fcbab1b7c0f99c10ca0e267d395d6ac4354ec601fb995484b65850af77d3234d",
+    "byteSize": 1555
+  },
+  {
+    "name": "IconTrophyFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTrophyFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fc38b87c1ee2e0a8dad4e30820941182e66c88664cc2d5475ebc8f4e44bcc58d",
+    "byteSize": 1213
+  },
+  {
+    "name": "IconTune",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconTune.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "fca782f19626814a5e453a890a914545029b606f8320e8691621bbb1b27a2dc6",
+    "byteSize": 1535
+  },
+  {
+    "name": "IconUmbrella",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconUmbrella.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0adedd305260fb6b8c786282a18ac1cb223d6faec55db66fe9d4608cb33d7388",
+    "byteSize": 1628
+  },
+  {
+    "name": "IconUmbrellaFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconUmbrellaFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "63dba8831e8bca5ba3945d8ca244f7149be0b482a779673f2877cdedd0b40cf4",
+    "byteSize": 1191
+  },
+  {
+    "name": "IconUnderline",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconUnderline.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4aa5ec36f45d99c9c003d92928778eae5a323bceac9f424ec58fb1c6ee9880b9",
+    "byteSize": 744
+  },
+  {
+    "name": "IconUpload",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconUpload.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "55747dbebf4e8c3c636f818731c2d407771f2b8314071ad494a322b518f351e1",
+    "byteSize": 1667
+  },
+  {
+    "name": "IconUtility",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconUtility.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "86360a9861068619a2aef02068e15aec80a33b06b856a8e7c6af8c40d7c73d77",
+    "byteSize": 1590
+  },
+  {
+    "name": "IconUtilityFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconUtilityFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "6b3b96de65a9170c273d45c2e9c312081065fa4228f8df21311fc13f2b763ab5",
+    "byteSize": 708
+  },
+  {
+    "name": "IconVerifiedCheck",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconVerifiedCheck.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "7300d5bd270556e5dd8c2fd71dab87b70f29d0e6b1cf8566c5cbe130cff8a562",
+    "byteSize": 2619
+  },
+  {
+    "name": "IconVerifiedCheckFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconVerifiedCheckFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0c9503072b4a1eb331adaa31ae1099b6244ccfa9c05d7b0d3b5f838c4b3effc5",
+    "byteSize": 1562
+  },
+  {
+    "name": "IconVerifiedStar",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconVerifiedStar.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "2f220382daf807d2857682384f23a01df817175d67e2deec236632fa101816bf",
+    "byteSize": 4906
+  },
+  {
+    "name": "IconVerifiedStarFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconVerifiedStarFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "038408831f3a8b5ba7239bbe749f7f1f178f578ef3ac1bce20c691cc9947cdbd",
+    "byteSize": 3799
+  },
+  {
+    "name": "IconVideo",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconVideo.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "0b7af54c075dc2a8c5ac4d6784002ac274637119f9e9b8cfc4b21cbef985851d",
+    "byteSize": 3830
+  },
+  {
+    "name": "IconWebinar",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconWebinar.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "63bc5c6fed6e2289cef52fa34371b8025fd1343b954715f97bcf4afae3d8ecd7",
+    "byteSize": 2396
+  },
+  {
+    "name": "IconWholeWord",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconWholeWord.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "b35bfd0ce7b02f6c8e96bdbbb244fe4f1747ba69f721d61876ec9830d119aeba",
+    "byteSize": 3868
+  },
+  {
+    "name": "IconWrite",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconWrite.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "46243d2b1ddbef1461ac1bd27055b8e84c78547668686504cc56d6bf3c333d95",
+    "byteSize": 2070
+  },
+  {
+    "name": "IconZepFast",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconZepFast.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "88b31b26e54adf87c314d95e9ca69f8327e392131c26bd6394763fb2145a5769",
+    "byteSize": 1995
+  },
+  {
+    "name": "IconZepFastFill",
+    "source": "data/raw/montage.json#iconVectors",
+    "localPath": "assets/montage/icons/IconZepFastFill.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f7e7a5b19dbf132f0b5de2f514c5bc54a14f0725345e3e1688c879da19093f57",
+    "byteSize": 1135
+  }
+]

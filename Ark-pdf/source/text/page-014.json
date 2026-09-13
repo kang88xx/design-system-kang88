@@ -1,0 +1,654 @@
+{
+  "page": 14,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n14\nThe Percentage\nOf Buildings\nUsing Modular\nConstruction\n\nIn Spain, only 2% of delivered homes follow a\nmodular construction system, which allows for a\nbuilding to be erected in just a few months.\nHowever, some studies predict that this number\ncould reach 10% by 2030.\n\nWhereas in Sweden or the Netherlands, as many\nas 50% of buildings are constructed using this\nindustrial method.\n2%-10%\n50%\n\nInformation Source：\n\nhttps://elpais.com/extra/infraestructuras/\n2025-02-23/el-futuro-de-las-obras-es-\nmodular.html?utm_source=chatgpt.com\n\n2%\n\n10%\n\n50%",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "14",
+      "bbox": [
+        1853.906,
+        45.176,
+        1865.016,
+        56.496
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#E8E8E8",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1853.906,
+        54.496
+      ]
+    },
+    {
+      "text": "The Percentage ",
+      "bbox": [
+        52.652,
+        38.815,
+        453.423,
+        93.793
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        83.993
+      ]
+    },
+    {
+      "text": "Of Buildings ",
+      "bbox": [
+        52.652,
+        103.299,
+        370.466,
+        158.277
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        148.477
+      ]
+    },
+    {
+      "text": "Using Modular ",
+      "bbox": [
+        52.652,
+        167.783,
+        421.818,
+        222.761
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        212.961
+      ]
+    },
+    {
+      "text": "Construction",
+      "bbox": [
+        52.652,
+        232.267,
+        370.27,
+        287.245
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.652,
+        277.445
+      ]
+    },
+    {
+      "text": "In Spain, only 2% of delivered homes follow a ",
+      "bbox": [
+        580.748,
+        173.96,
+        942.972,
+        191.672
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        580.748,
+        188.472
+      ]
+    },
+    {
+      "text": "modular construction system, which allows for a ",
+      "bbox": [
+        580.748,
+        196.488,
+        967.276,
+        214.2
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        580.748,
+        211.0
+      ]
+    },
+    {
+      "text": "building to be erected in just a few months. ",
+      "bbox": [
+        580.748,
+        219.016,
+        929.18,
+        236.728
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        580.748,
+        233.528
+      ]
+    },
+    {
+      "text": "However, some studies predict that this number ",
+      "bbox": [
+        580.748,
+        241.544,
+        964.252,
+        259.256
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        580.748,
+        256.056
+      ]
+    },
+    {
+      "text": "could reach 10% by 2030.",
+      "bbox": [
+        580.748,
+        264.072,
+        783.628,
+        281.784
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        580.748,
+        278.584
+      ]
+    },
+    {
+      "text": "Whereas in Sweden or the Netherlands, as many ",
+      "bbox": [
+        1272.207,
+        173.96,
+        1661.04,
+        191.672
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1272.207,
+        188.472
+      ]
+    },
+    {
+      "text": "as 50% of buildings are constructed using this ",
+      "bbox": [
+        1272.207,
+        196.488,
+        1641.823,
+        214.2
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1272.207,
+        211.0
+      ]
+    },
+    {
+      "text": "industrial method.",
+      "bbox": [
+        1272.207,
+        219.016,
+        1415.871,
+        236.728
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1272.207,
+        233.528
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        574.748,
+        23.1,
+        648.308,
+        157.74
+      ],
+      "font": "Gotham-Medium",
+      "size": 120.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        574.748,
+        133.74
+      ]
+    },
+    {
+      "text": "%",
+      "bbox": [
+        645.908,
+        69.2,
+        705.338,
+        147.74
+      ],
+      "font": "Gotham-Medium",
+      "size": 70.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        645.908,
+        133.74
+      ]
+    },
+    {
+      "text": "-10",
+      "bbox": [
+        703.938,
+        23.1,
+        878.898,
+        157.74
+      ],
+      "font": "Gotham-Medium",
+      "size": 120.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        703.938,
+        133.74
+      ]
+    },
+    {
+      "text": "%",
+      "bbox": [
+        876.498,
+        69.2,
+        935.928,
+        147.74
+      ],
+      "font": "Gotham-Medium",
+      "size": 70.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        876.498,
+        133.74
+      ]
+    },
+    {
+      "text": "50",
+      "bbox": [
+        1268.207,
+        23.1,
+        1427.327,
+        157.74
+      ],
+      "font": "Gotham-Medium",
+      "size": 120.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1268.207,
+        133.74
+      ]
+    },
+    {
+      "text": "%",
+      "bbox": [
+        1424.927,
+        69.2,
+        1484.357,
+        147.74
+      ],
+      "font": "Gotham-Medium",
+      "size": 70.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.927,
+        133.74
+      ]
+    },
+    {
+      "text": "Information Source",
+      "bbox": [
+        57.04,
+        900.596,
+        209.072,
+        918.308
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        57.04,
+        915.108
+      ]
+    },
+    {
+      "text": "：",
+      "bbox": [
+        209.072,
+        898.148,
+        225.072,
+        920.548
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        209.072,
+        915.108
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        225.072,
+        900.596,
+        229.872,
+        918.308
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        225.072,
+        915.108
+      ]
+    },
+    {
+      "text": "https://elpais.com/extra/infraestructuras/",
+      "bbox": [
+        57.04,
+        926.228,
+        385.808,
+        943.94
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        57.04,
+        940.74
+      ]
+    },
+    {
+      "text": "2025-02-23/el-futuro-de-las-obras-es-",
+      "bbox": [
+        57.04,
+        948.756,
+        361.888,
+        966.468
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        57.04,
+        963.268
+      ]
+    },
+    {
+      "text": "modular.html?utm_source=chatgpt.com",
+      "bbox": [
+        57.04,
+        971.284,
+        374.032,
+        988.996
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        57.04,
+        985.796
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        843.972,
+        826.567,
+        868.785,
+        870.851
+      ],
+      "font": "Gotham-Medium",
+      "size": 40.479,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.172,
+      "origin": [
+        843.972,
+        863.889
+      ]
+    },
+    {
+      "text": "%",
+      "bbox": [
+        870.405,
+        834.409,
+        898.841,
+        869.551
+      ],
+      "font": "Gotham-Black",
+      "size": 31.631,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.932,
+      "descender": -0.179,
+      "origin": [
+        870.405,
+        863.889
+      ]
+    },
+    {
+      "text": "10",
+      "bbox": [
+        831.0,
+        715.22,
+        882.315,
+        766.255
+      ],
+      "font": "Gotham-Medium",
+      "size": 46.65,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.172,
+      "origin": [
+        831.0,
+        758.231
+      ]
+    },
+    {
+      "text": "%",
+      "bbox": [
+        884.181,
+        728.751,
+        912.617,
+        763.893
+      ],
+      "font": "Gotham-Black",
+      "size": 31.631,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.932,
+      "descender": -0.179,
+      "origin": [
+        884.181,
+        758.231
+      ]
+    },
+    {
+      "text": "50",
+      "bbox": [
+        1511.603,
+        513.701,
+        1578.37,
+        568.786
+      ],
+      "font": "Gotham-Medium",
+      "size": 50.353,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.172,
+      "origin": [
+        1511.603,
+        560.126
+      ]
+    },
+    {
+      "text": "%",
+      "bbox": [
+        1580.385,
+        530.646,
+        1608.821,
+        565.788
+      ],
+      "font": "Gotham-Black",
+      "size": 31.631,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.932,
+      "descender": -0.179,
+      "origin": [
+        1580.385,
+        560.126
+      ]
+    }
+  ]
+}

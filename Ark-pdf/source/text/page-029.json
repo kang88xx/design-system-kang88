@@ -1,0 +1,502 @@
+{
+  "page": 29,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n29\n\nAt ARK Prefab, quality and safety\nare not just requirements—they\nare the foundation of everything\nwe build.\n\nWe implement strict quality\ncontrol procedures and adhere to\ninternational safety standards at\nevery stage of the project.\nOur goal is to deliver products\nthat are not only durable and\nreliable, but also safe for all users.\n\nEvery module is manufactured and assembled with exacting standards, ensuring\nconsistent quality and seamless integration on-site.\n\nWe strictly follow global construction codes and safety regulations, from material\nsourcing to final inspection.\n\nOur teams take full responsibility at each phase of the process—tracking quality\nmetrics, conducting regular audits, and ensuring full transparency with clients.\n\nPrecision\n\nCompliance\n\nAccountability\n\nQUALITY CONTROL\nAND SAFETY STANDARDS",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "29",
+      "bbox": [
+        1853.508,
+        41.993,
+        1866.358,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1853.508,
+        51.313
+      ]
+    },
+    {
+      "text": "At ARK Prefab, quality and safety ",
+      "bbox": [
+        53.529,
+        344.319,
+        482.204,
+        372.369
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        367.369
+      ]
+    },
+    {
+      "text": "are not just requirements—they ",
+      "bbox": [
+        53.529,
+        377.119,
+        454.529,
+        405.169
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        400.169
+      ]
+    },
+    {
+      "text": "are the foundation of everything ",
+      "bbox": [
+        53.529,
+        409.919,
+        468.629,
+        437.969
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        432.969
+      ]
+    },
+    {
+      "text": "we build. ",
+      "bbox": [
+        53.529,
+        442.719,
+        174.554,
+        470.769
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        465.769
+      ]
+    },
+    {
+      "text": "We implement strict quality ",
+      "bbox": [
+        53.529,
+        508.294,
+        410.279,
+        536.344
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        531.344
+      ]
+    },
+    {
+      "text": "control procedures and adhere to ",
+      "bbox": [
+        53.529,
+        541.094,
+        482.554,
+        569.144
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        564.144
+      ]
+    },
+    {
+      "text": "international safety standards at ",
+      "bbox": [
+        53.529,
+        573.894,
+        467.354,
+        601.944
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        596.944
+      ]
+    },
+    {
+      "text": "every stage of the project. ",
+      "bbox": [
+        53.529,
+        606.694,
+        392.204,
+        634.744
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        629.744
+      ]
+    },
+    {
+      "text": "Our goal is to deliver products ",
+      "bbox": [
+        53.529,
+        639.494,
+        444.579,
+        667.544
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        662.544
+      ]
+    },
+    {
+      "text": "that are not only durable and ",
+      "bbox": [
+        53.529,
+        672.294,
+        427.429,
+        700.344
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        695.344
+      ]
+    },
+    {
+      "text": "reliable, but also safe for all users.",
+      "bbox": [
+        53.529,
+        705.094,
+        480.154,
+        733.143
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.529,
+        728.143
+      ]
+    },
+    {
+      "text": "Every module is manufactured and assembled with exacting standards, ensuring ",
+      "bbox": [
+        968.529,
+        391.428,
+        1610.514,
+        409.141
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        968.529,
+        405.94
+      ]
+    },
+    {
+      "text": "consistent quality and seamless integration on-site.",
+      "bbox": [
+        968.529,
+        413.957,
+        1373.682,
+        431.669
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        968.529,
+        428.469
+      ]
+    },
+    {
+      "text": "We strictly follow global construction codes and safety regulations, from material ",
+      "bbox": [
+        968.529,
+        562.628,
+        1618.242,
+        580.34
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        968.529,
+        577.14
+      ]
+    },
+    {
+      "text": "sourcing to final inspection.",
+      "bbox": [
+        968.529,
+        585.156,
+        1187.057,
+        602.868
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        968.529,
+        599.668
+      ]
+    },
+    {
+      "text": "Our teams take full responsibility at each phase of the process—tracking quality ",
+      "bbox": [
+        968.529,
+        740.546,
+        1604.962,
+        758.258
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        968.529,
+        755.058
+      ]
+    },
+    {
+      "text": "metrics, conducting regular audits, and ensuring full transparency with clients.",
+      "bbox": [
+        968.529,
+        763.074,
+        1588.018,
+        780.786
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        968.529,
+        777.586
+      ]
+    },
+    {
+      "text": "Precision",
+      "bbox": [
+        968.5,
+        344.679,
+        1083.175,
+        372.729
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        968.5,
+        367.729
+      ]
+    },
+    {
+      "text": "Compliance",
+      "bbox": [
+        968.5,
+        524.597,
+        1117.1,
+        552.647
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        968.5,
+        547.647
+      ]
+    },
+    {
+      "text": "Accountability",
+      "bbox": [
+        968.5,
+        704.515,
+        1151.125,
+        732.565
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        968.5,
+        727.565
+      ]
+    },
+    {
+      "text": "QUALITY CONTROL ",
+      "bbox": [
+        47.77,
+        27.221,
+        912.22,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "AND SAFETY STANDARDS",
+      "bbox": [
+        47.77,
+        110.265,
+        1162.035,
+        205.635
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.635
+      ]
+    }
+  ]
+}

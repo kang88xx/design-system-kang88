@@ -1,0 +1,16 @@
+/* remove topic content when badge exists */
+.re-creative-card-badge + .re-creative-card-topic-label-container {
+    display: none;
+}
+
+@media only screen and (min-width: 393px) and (max-width: 734px) {
+    .re-sticky-bar .re-sticky-title {
+        --font-size-collapsed: 19px;
+    }
+}
+
+.re-productcard-content-violatortext {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

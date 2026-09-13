@@ -1,0 +1,12 @@
+{
+  "name": "google-product-design-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs && node scripts/build-source-kit.mjs && node scripts/build-viewer.mjs && node scripts/build-private-reference-viewer.mjs && node scripts/index-private-qa-artifacts.mjs",
+    "collect:platform-assets": "node scripts/export-observed-reference-assets.mjs && npm run build",
+    "validate": "node scripts/validate-capture.mjs",
+    "check": "npm run build && node scripts/test-collector.mjs && node scripts/test-source-kit.mjs && npm run validate",
+    "collect:open-assets": "node scripts/collect-open-design-assets.mjs && npm run check"
+  }
+}

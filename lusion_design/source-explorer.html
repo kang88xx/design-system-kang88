@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lusion 공개 소스와 재구성 대체 항목을 안전하게 탐색하는 로컬 소스 뷰어.">
+  <title>Lusion — Source Explorer</title>
+  <link rel="stylesheet" href="studio-shell.css"><link rel="stylesheet" href="tokens/lusion.css">
+  <link rel="stylesheet" href="source-explorer.css">
+  <script src="studio-shell.js" defer></script><script src="source-index.js" defer></script>
+  <script src="source-explorer.js" defer></script>
+<link rel="stylesheet" href="studio-brand.css"></head>
+<body>
+<div class="as-studio">
+  <a class="skip-link as-skip-link" href="#main">본문으로 건너뛰기</a>
+  <aside id="as-nav" class="as-sidebar" aria-label="Navigation">
+    <a class="as-brand" href="index.html" aria-label="Lusion Reference System 홈"><span class="as-brand-mark" aria-hidden="true"><svg viewBox="0 0 22 30" width="22" height="30" focusable="false"><path d="M11 3.5v23M1.5 15h19" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></span><div><strong>LUSION</strong> <span>REFERENCE SYSTEM</span></div><span class="as-brand-badge">WEB</span></a>
+    <div class="as-sidebar-group">
+      <span class="as-sidebar-label">WORKSPACE</span>
+      <nav aria-label="디자인 시스템 페이지">
+        <a href="project-kit.html"><span class="as-nav-index">01</span>프로젝트에 적용</a>
+        <a href="index.html"><span class="as-nav-index">02</span>개요·토큰</a>
+        <a href="source-explorer.html" aria-current="page"><span class="as-nav-index">03</span>소스 탐색</a>
+        <a href="components.html"><span class="as-nav-index">04</span>아이콘·컴포넌트</a>
+        <a href="motion-lab.html"><span class="as-nav-index">05</span>모션 실험실</a>
+        <a href="reconstruction.html"><span class="as-nav-index">06</span>재구성 스튜디오</a>
+        <a href="video-analysis.html"><span class="as-nav-index">07</span>영상 분석</a>
+      </nav>
+    </div>
+    <div class="as-sidebar-bottom">
+      <span class="as-status-dot"></span>
+      <span>Local source capture<small>2026.09.06 · lusion.co</small></span>
+      <a href="https://lusion.co/" target="_blank" rel="noreferrer" aria-label="Open original website"><span aria-hidden="true">↗</span></a>
+    </div>
+  </aside>
+  <button class="as-sidebar-scrim" aria-label="Close navigation" hidden></button>
+  <div class="as-main-shell">
+    <header class="as-topbar">
+      <button class="as-mobile-nav-button" aria-controls="as-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <div class="as-breadcrumb"><span>Design system</span><span>/</span><strong>소스 탐색</strong></div>
+      <div class="as-topbar-tools"><label class="as-topbar-search"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14.5 14.5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg><span class="as-visually-hidden">검색</span><input id="source-search" type="search" autocomplete="off" placeholder="파일명, 설명, 경로, URL"></label><a class="as-export-button" href="tokens/lusion.css" download>Export tokens <span aria-hidden="true">↧</span></a></div>
+    </header>
+
+    <main id="main" tabindex="-1" class="as-workspace as-page-source">
+    <div class="as-section-heading as-page-title" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow as-eyebrow">LIBRARY / 03 <span class="as-version">PUBLIC SOURCE INDEX / SAFE VIEWER</span></p>
+        <h1 id="page-title">All sources.<br><span>Clearly separated.</span></h1>
+        <div class="hero-copy">
+          <p>수집된 공개 파일, 추출 근거, 재구성 대체 항목을 한 화면에서 확인합니다.</p>
+          <p class="note">HTML, CSS, JavaScript 원문은 안전한 읽기 화면으로 확인합니다. 비공개 또는 구조가 확인되지 않은 항목은 대체 구현 상태로 구분합니다.</p>
+        </div>
+        <div class="as-title-actions">
+          <a class="as-button" href="#source-list-title">소스 검색으로 이동</a>
+          <a class="as-text-command" href="downloads/lusion-source-system-v4.zip" download>전체 소스 패키지 다운로드 ↓</a>
+        </div>
+      </div>
+    </div>
+    <nav class="as-view-tabs" aria-label="참조 화면">
+      <a href="project-kit.html">프로젝트에 적용 ↗</a>
+      <a href="index.html">컬렉션</a>
+      <a href="components.html">아이콘·박스</a>
+      <a href="motion-lab.html">모션 실험실</a>
+      <a href="video-analysis.html">영상 분석</a>
+      <a href="reconstruction.html#models">재구성 스튜디오</a>
+      <a href="source-explorer.html" aria-current="page">소스 탐색</a>
+    </nav>
+    <section class="hero" aria-label="소스 요약">
+      <dl class="summary-strip" id="summary-strip" aria-label="소스 요약">
+        <div><dt>전체</dt><dd data-summary="total">0</dd></div>
+        <div><dt>공식 원본</dt><dd data-summary="extracted">0</dd></div>
+        <div><dt>원본 파생</dt><dd data-summary="derived">0</dd></div>
+        <div><dt>재구성</dt><dd data-summary="reconstructed">0</dd></div>
+        <div><dt>분석 문서</dt><dd data-summary="analysis">0</dd></div>
+        <div><dt>원본 응답 예외</dt><dd data-summary="fallback">0</dd></div>
+      </dl>
+      <p id="summary-note" class="summary-note">source-index.js 요약을 기다리는 중입니다.</p>
+    </section>
+
+    <section class="workspace" aria-label="소스 탐색 작업 영역">
+      <aside class="source-panel" aria-labelledby="source-list-title">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow as-eyebrow">01 / INDEX</p>
+            <h2 id="source-list-title">소스 목록</h2>
+          </div>
+          <p id="result-count" class="count" role="status" aria-live="polite">데이터 확인 중</p>
+        </div>
+
+        <form class="controls" role="search">
+          <div class="filter-row">
+            <label>
+              <span>종류</span>
+              <select id="kind-filter">
+                <option value="all">전체 종류</option>
+                <option value="image">이미지</option>
+                <option value="video">영상</option>
+                <option value="audio">오디오</option>
+                <option value="font">폰트</option>
+                <option value="text">텍스트·코드</option>
+                <option value="data">데이터·모델</option>
+                <option value="document">문서</option>
+                <option value="other">기타</option>
+              </select>
+            </label>
+            <label>
+              <span>상태</span>
+              <select id="status-filter">
+                <option value="all">전체 상태</option>
+                <option value="extracted">추출</option>
+                <option value="derived">추출·분리</option>
+                <option value="reconstructed">재구성</option>
+                <option value="analysis">분석 문서</option>
+                <option value="substitute">대체</option>
+                <option value="private">비공개</option>
+                <option value="unknown">미확인</option>
+                <option value="error">오류</option>
+              </select>
+            </label>
+          </div>
+        </form>
+
+        <div id="source-list" class="source-list" role="listbox" aria-label="전체 소스 목록"></div>
+        <div id="empty-list" class="empty-state" hidden>
+          <strong>일치하는 소스가 없습니다.</strong>
+          <span>검색어 또는 필터를 조정하세요.</span>
+        </div>
+        <div id="data-state" class="data-state" hidden></div>
+      </aside>
+
+      <section class="detail-panel" aria-labelledby="detail-title">
+        <div class="detail-top">
+          <button id="back-to-list" class="plain-button back-button" type="button">← 목록으로</button>
+          <div>
+            <p id="detail-kicker" class="eyebrow">02 / SELECT SOURCE</p>
+            <h2 id="detail-title">소스를 선택하세요</h2>
+          </div>
+          <div id="detail-actions" class="detail-actions" aria-label="선택한 소스 작업"></div>
+        </div>
+
+        <div class="meta-grid" id="meta-grid"></div>
+
+        <div class="viewer-tabs" role="tablist" aria-label="소스 상세 보기">
+          <button id="preview-tab" type="button" role="tab" aria-selected="true" aria-controls="preview-pane">미리보기</button>
+          <button id="code-tab" type="button" role="tab" aria-selected="false" aria-controls="code-pane">코드 / 원문</button>
+        </div>
+
+        <div class="viewer-layout">
+          <article id="preview-pane" class="preview-card viewer-pane active" role="tabpanel" aria-labelledby="preview-tab">
+            <div class="card-heading">
+              <h3 id="preview-title">미리보기</h3>
+              <span id="preview-note" class="badge">대기</span>
+            </div>
+            <div id="preview-stage" class="preview-stage">
+              <p class="empty-preview">왼쪽 목록에서 소스를 선택하면 이미지, 영상, 오디오, 폰트 또는 대체 미리보기를 표시합니다.</p>
+            </div>
+          </article>
+
+          <article id="code-pane" class="code-card viewer-pane" role="tabpanel" aria-labelledby="code-tab" hidden>
+            <div class="card-heading">
+              <h3 id="code-title">코드 / 원문</h3>
+              <div class="code-actions">
+                <button id="copy-code" type="button" disabled>복사</button>
+                <button id="reload-code" type="button" disabled>다시 읽기</button>
+              </div>
+            </div>
+            <pre id="code-view" tabindex="0"><code>텍스트로 읽을 수 있는 파일은 이 영역에 표시됩니다.</code></pre>
+            <p id="code-status" class="code-status">원본 HTML/JS는 안전한 읽기 화면으로만 확인합니다.</p>
+          </article>
+        </div>
+      </section>
+    </section>
+    <footer class="as-studio-footer"><span>LUSION / REFERENCE SYSTEM</span><span>Public source + reusable implementation</span></footer>
+    </main>
+  </div>
+  <div class="as-toast" role="status"></div>
+</div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="noscript">소스 탐색에는 JavaScript가 필요합니다. 데이터 원장은 source-index.js를 확인하세요.</p></noscript>
+</body>
+</html>

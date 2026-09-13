@@ -1,0 +1,157 @@
+[
+  {
+    "id": "hover-row",
+    "contractId": "hover",
+    "title": "Hover row actions",
+    "behavior": "Hover or focus the row to reveal the tonal state and contextual actions.",
+    "states": [
+      "rest",
+      "hover",
+      "focus"
+    ]
+  },
+  {
+    "id": "focus-ring",
+    "contractId": "focus",
+    "title": "Keyboard focus ring",
+    "behavior": "Tab to or click the action to show the high-contrast exterior focus ring.",
+    "states": [
+      "rest",
+      "focused"
+    ]
+  },
+  {
+    "id": "press-state",
+    "contractId": "press",
+    "title": "Press state layer",
+    "behavior": "Press and hold the action to compress elevation and strengthen the state layer.",
+    "states": [
+      "rest",
+      "pressed",
+      "released"
+    ]
+  },
+  {
+    "id": "navigation-selection",
+    "contractId": "selection",
+    "title": "Selected navigation",
+    "behavior": "Choose a destination to move the tonal container and aria-current.",
+    "states": [
+      "default",
+      "hover",
+      "selected",
+      "focus"
+    ]
+  },
+  {
+    "id": "disclosure",
+    "contractId": "expand-collapse",
+    "title": "Expand and collapse",
+    "behavior": "Toggle aria-expanded, rotate the chevron, and reveal supporting content.",
+    "states": [
+      "collapsed",
+      "expanded"
+    ]
+  },
+  {
+    "id": "dialog",
+    "contractId": "dialog",
+    "title": "Modal dialog",
+    "behavior": "Open a native modal, move focus inside, then restore it on close.",
+    "states": [
+      "closed",
+      "open",
+      "focus-trap"
+    ]
+  },
+  {
+    "id": "snackbar",
+    "contractId": "snackbar",
+    "title": "Snackbar feedback",
+    "behavior": "Trigger a snackbar with action and dismiss controls.",
+    "states": [
+      "hidden",
+      "enter",
+      "rest",
+      "dismissed"
+    ]
+  },
+  {
+    "id": "drag-drop",
+    "contractId": "drag-drop",
+    "title": "Drag and drop",
+    "behavior": "Drag the file to the destination, or use the click fallback for keyboard and touch access.",
+    "states": [
+      "rest",
+      "picked",
+      "over-target",
+      "dropped"
+    ]
+  },
+  {
+    "id": "switch-control",
+    "contractId": "switch",
+    "title": "설정 전환",
+    "behavior": "checked state and visible confirmation",
+    "states": [
+      "rest",
+      "active",
+      "complete"
+    ]
+  },
+  {
+    "id": "checkbox-group",
+    "contractId": "checkbox",
+    "title": "다중 선택",
+    "behavior": "independent checked states and selected count",
+    "states": [
+      "rest",
+      "active",
+      "complete"
+    ]
+  },
+  {
+    "id": "keyboard-tabs",
+    "contractId": "keyboard-tabs",
+    "title": "키보드 탭",
+    "behavior": "roving focus and linked tabpanel",
+    "states": [
+      "rest",
+      "active",
+      "complete"
+    ]
+  },
+  {
+    "id": "action-menu",
+    "contractId": "menu",
+    "title": "액션 메뉴",
+    "behavior": "menu focus, dismissal and focus return",
+    "states": [
+      "rest",
+      "active",
+      "complete"
+    ]
+  },
+  {
+    "id": "validated-field",
+    "contractId": "text-field",
+    "title": "입력 검증",
+    "behavior": "helper text, error and valid state",
+    "states": [
+      "rest",
+      "active",
+      "complete"
+    ]
+  },
+  {
+    "id": "determinate-progress",
+    "contractId": "progress",
+    "title": "진행 상태",
+    "behavior": "determinate progress and completion announcement",
+    "states": [
+      "rest",
+      "active",
+      "complete"
+    ]
+  }
+]

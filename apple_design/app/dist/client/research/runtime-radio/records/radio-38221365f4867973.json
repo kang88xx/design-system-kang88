@@ -1,0 +1,4199 @@
+{
+  "id": "radio-38221365f4867973",
+  "pageId": "05-www-apple-com-airpods",
+  "pageTitle": "AirPods - Apple",
+  "sourceUrl": "https://www.apple.com/airpods/",
+  "label": "Read more about Heart Rate Sensing",
+  "selector": "#tile-overlay-toggle-heart-rate-sensing",
+  "trigger": "click",
+  "kind": "animation",
+  "viewport": "mobile",
+  "status": "observed",
+  "properties": [
+    "color",
+    "backgroundColor",
+    "transform",
+    "opacity",
+    "visibility",
+    "height"
+  ],
+  "tracks": [
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(214, 214, 215)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(255, 255, 255)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 100,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-67740bdaf33e39c8"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "backgroundColor": "rgb(51, 51, 54)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 100,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-6f25ea599c42d999"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "none",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "rotate(45deg)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 500,
+        "easing": "cubic-bezier(0.66, 0, 0.2, 1)",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-460cb66776bef3d4"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 500,
+        "easing": "ease-in-out",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-dbf056b01dcf2897"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "opacity": "0",
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-2e8438329a232ab7"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-17b21f68cf1955c8"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-85260d955025e8a0"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-606a046269c23d71"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "visibility": "visible",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "visibility": "hidden",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-3e5951f777551a7b"
+    },
+    {
+      "target": "#overview-consider-card-heart-rate-sensing-1",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-ef429d59ab23d905"
+    },
+    {
+      "target": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-ba4539fd86b07216"
+    },
+    {
+      "target": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-cb4617a1530c9f87"
+    },
+    {
+      "target": "#overview-consider-card-heart-rate-sensing-1 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-992cbdf28d93f29f"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-162adf168e353f98"
+    },
+    {
+      "target": "#content-toggle-heart-rate-sensing",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-ae43138525652d8e"
+    },
+    {
+      "target": "#content-toggle-heart-rate-sensing > h4:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-ceb5f181a995bc51"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-aa6dfd3b7c149f50"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-5ac5d3ad9fcf508d"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-318ad7f55fbe69bd"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-352a959ecd3ce395"
+    },
+    {
+      "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1) > a:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-3cb550b753f0b920"
+    },
+    {
+      "target": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-cd0473bd7a1c4f74"
+    },
+    {
+      "target": "#overview-consider-card-live-translation-1",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-ee8f395f3f07ea74"
+    },
+    {
+      "target": "#overview-consider-card-live-translation-1 > source:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-28cfbc5c12b236af"
+    },
+    {
+      "target": "#overview-consider-card-live-translation-1 > source:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-67db7a1d41b17c9c"
+    },
+    {
+      "target": "#overview-consider-card-live-translation-1 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-6ce8eb806b6e66ee"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-3f232458fe4e810e"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-93d4d4bcd7047f89"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-e8cf963f3f51eda5"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-3b2269ffefd41781"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-75ef9fc2e795c24e"
+    },
+    {
+      "target": "#scroll-gallery-item-4 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-20ce38c0500d5180"
+    },
+    {
+      "target": "#overview-consider-card-hearing-health-1",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-79128e21e7118cb0"
+    },
+    {
+      "target": "#overview-consider-card-hearing-health-1 > source:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-9e1cd04972c85328"
+    },
+    {
+      "target": "#overview-consider-card-hearing-health-1 > source:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-1c0ae32b41ddb0d6"
+    },
+    {
+      "target": "#overview-consider-card-hearing-health-1 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-e4543b7ea24541dd"
+    },
+    {
+      "target": "#scroll-gallery-item-5 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-9535f77db14d6c26"
+    },
+    {
+      "target": "#overview-consider-card-personalized-spatial-audio-1",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-7fc80150c0f4f704"
+    },
+    {
+      "target": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-49f73aeae68c183f"
+    },
+    {
+      "target": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-cd772d1a7b730a0b"
+    },
+    {
+      "target": "#overview-consider-card-personalized-spatial-audio-1 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.16803953871499178,
+          "height": "476px"
+        },
+        {
+          "offset": 0.4464579901153213,
+          "height": "476px"
+        },
+        {
+          "offset": 1,
+          "height": "476px"
+        }
+      ],
+      "timing": {
+        "duration": 607,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 607,
+      "id": "track-4d395f8d11fc61c5"
+    }
+  ],
+  "summary": "Native input / associated label follow-up",
+  "sourceRefs": [
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-04057c6f1314.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-ba129f605ce0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-8a47caaa6c2e.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fcc65a1f662.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-2b5da0c42d8a.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-f52c2f48451b.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-fed73df3c65c.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-a7daf26fe14e.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-66eaf5902e6b.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-8a2307e11a53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-704c3e9515d0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-bdb4460c6fed.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-5d0d07c5ecfa-46cb73c281d4.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-cc1ee1bcba53-721fc3d2e4c1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-9fcc65a1f662-d40ac7756e83.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-e294186e3f21-5afac158df6b.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-0b8b4b148b25-95cc4e593b80.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-04057c6f1314-a9d2a8f8d325.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-46c6298737ce-731c003a8950.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d42b552a7854-d8166e1bcf72.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-067f3fc9933a-0143d2dc99f0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-c999b0b330cd-b05926ff64d2.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d9efb267a3c0-a443c235ec6a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d66ca6484df1-86c7b6cc8988.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-2b5da0c42d8a-41f2ade09a40.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-f52c2f48451b-406213d5cc9d.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-a7daf26fe14e-ac2e178abde0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-66eaf5902e6b-3bf387d1bbf7.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-8a2307e11a53-88ea0ad09faa.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-704c3e9515d0-3bfab1844a7f.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-ba129f605ce0-202a2016c552.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-8a47caaa6c2e-9c9d99a54561.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-bdb4460c6fed-84bc8e3db253.js"
+  ],
+  "before": {
+    "scrollY": 6627,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "target": {
+      "selector": "#tile-overlay-toggle-heart-rate-sensing",
+      "state": {
+        "checked": false,
+        "value": "on"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "416px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "18px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "75px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "25px",
+          "max-height": "none",
+          "background-color": "rgb(51, 51, 54)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "0",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgb(245, 245, 247)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#content-toggle-heart-rate-sensing",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "42px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#content-toggle-heart-rate-sensing > h4:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "18px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "283.188px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "273px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "273px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1) > a:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-4 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-5 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -0.5, -0.5)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": []
+  },
+  "frames": [
+    {
+      "scrollY": 6627,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#tile-overlay-toggle-heart-rate-sensing",
+        "state": {
+          "checked": true,
+          "value": "on"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "416px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "18px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "75px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.999976, 0.00699556, -0.00699556, 0.999976, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(28, 28, 30, 0.9)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0.0197184",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgb(245, 245, 247)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-heart-rate-sensing",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "42px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-heart-rate-sensing > h4:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "18px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "283.188px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "273px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "273px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1) > a:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-4 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-5 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [
+        {
+          "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "color": "rgb(214, 214, 215)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 100,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "backgroundColor": "rgb(51, 51, 54)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "backgroundColor": "rgba(0, 0, 0, 0.8)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 100,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "rotate(45deg)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "cubic-bezier(0.66, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "ease-in-out",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ],
+      "elapsed": 102
+    },
+    {
+      "scrollY": 6627,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#tile-overlay-toggle-heart-rate-sensing",
+        "state": {
+          "checked": true,
+          "value": "on"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "416px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "18px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "75px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.938877, 0.344254, -0.344254, 0.938877, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0.8)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0.386542",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgb(245, 245, 247)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-heart-rate-sensing",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "42px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-heart-rate-sensing > h4:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "18px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "283.188px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "273px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "273px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1) > a:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-4 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-5 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [
+        {
+          "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "rotate(45deg)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "cubic-bezier(0.66, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "ease-in-out",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ],
+      "elapsed": 271
+    },
+    {
+      "scrollY": 6627,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#tile-overlay-toggle-heart-rate-sensing",
+        "state": {
+          "checked": true,
+          "value": "on"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "416px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "18px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "75px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-heart-rate-sensing-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0.8)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgb(245, 245, 247)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-heart-rate-sensing",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "42px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-heart-rate-sensing > h4:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "18px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "283.188px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "273px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "273px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1) > a:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-live-translation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-4 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-hearing-health-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-5 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -130, -238)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-personalized-spatial-audio-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "476px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 607
+    }
+  ],
+  "after": {
+    "scrollY": 6627,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "target": {
+      "selector": "#tile-overlay-toggle-heart-rate-sensing",
+      "state": {
+        "checked": true,
+        "value": "on"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "0",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "416px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "18px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "75px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-heart-rate-sensing-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "25px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgb(245, 245, 247)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#content-toggle-heart-rate-sensing",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "42px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#content-toggle-heart-rate-sensing > h4:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "18px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "283.188px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "273px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "273px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > sup:nth-of-type(1) > a:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-live-translation-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-4 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-hearing-health-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-5 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -130, -238)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-personalized-spatial-audio-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "476px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": [],
+    "elapsed": 607
+  }
+}

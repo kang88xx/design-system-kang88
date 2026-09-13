@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portable Design System Starter</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="../tokens.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./example.css">
+  </head>
+  <body>
+    <div class="ds-root project-app" data-ds-theme="system">
+      <div class="ds-shell workspace">
+        <aside class="workspace-sidebar" aria-label="프로젝트 탐색">
+          <a class="brand-mark" href="#">
+            <span class="brand-symbol" aria-hidden="true">DS</span>
+            <span>프로젝트<br>워크스페이스</span>
+          </a>
+          <nav class="side-nav">
+            <a href="#overview" aria-current="page">개요 <span aria-hidden="true">01</span></a>
+            <a href="#projects">프로젝트 <span aria-hidden="true">02</span></a>
+            <a href="#settings">설정 <span aria-hidden="true">03</span></a>
+          </nav>
+          <div class="ds-stack" style="--ds-stack-gap: var(--ds-space-3);">
+            <span class="ds-eyebrow">Theme</span>
+            <label class="ds-field">
+              <span class="ds-sr-only">테마 선택</span>
+              <select id="theme-select" class="ds-select">
+                <option value="system">시스템</option>
+                <option value="light">라이트</option>
+                <option value="dark">다크</option>
+              </select>
+            </label>
+          </div>
+        </aside>
+
+        <main class="workspace-main">
+          <section id="overview" class="ds-container ds-section ds-stack" style="--ds-stack-gap: var(--ds-space-8);">
+            <header class="workspace-header" data-ds-reveal>
+              <div class="ds-stack">
+                <p class="ds-eyebrow">Real project starter</p>
+                <h1 class="ds-heading">팀이 바로 쓰는 작업 화면</h1>
+              </div>
+              <div class="ds-cluster">
+                <button class="ds-button ds-button--ghost" type="button" data-ds-toast="공유 기능을 연결할 수 있는 데모입니다.">
+                  <span class="ds-icon" aria-hidden="true"></span>공유
+                </button>
+                <button class="ds-button ds-button--primary" type="button" data-ds-dialog-open="new-project-dialog" data-ds-magnetic>
+                  새 프로젝트
+                </button>
+              </div>
+            </header>
+
+            <div class="metric-strip" data-ds-reveal>
+              <article class="ds-card metric-card">
+                <div class="ds-card__body ds-stack">
+                  <span class="ds-badge" data-tone="success">진행 정상</span>
+                  <strong>74%</strong>
+                  <progress id="project-progress" aria-label="프로젝트 완료율" class="ds-progress" max="100" value="16">74%</progress>
+                  <p class="ds-copy">브랜드 시스템 정리와 화면 적용 검수가 같은 보드에서 진행됩니다.</p>
+                </div>
+              </article>
+              <article class="ds-card metric-card">
+                <div class="ds-card__body ds-stack">
+                  <span class="ds-badge">이번 주</span>
+                  <strong>12</strong>
+                  <p class="ds-copy">컴포넌트 결정, 접근성 수정, 반응형 이슈를 작업 단위로 관리합니다.</p>
+                </div>
+              </article>
+              <article class="ds-card metric-card">
+                <div class="ds-card__body ds-stack">
+                  <span class="ds-badge" data-tone="danger">주의</span>
+                  <strong>3</strong>
+                  <p class="ds-copy">릴리즈 전 확인해야 할 폼 오류, 빈 상태, 권한 메시지가 남아 있습니다.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="projects" class="ds-container ds-section ds-stack">
+            <div class="ds-stack" data-ds-reveal>
+              <p class="ds-eyebrow">Project cards</p>
+              <h2 class="ds-title">반복 사용 가능한 카드와 상태</h2>
+            </div>
+            <div class="ds-grid project-grid">
+              <article class="ds-card project-card" data-ds-reveal>
+                <div class="ds-card__media">
+                  <span class="ds-badge">웹 리뉴얼</span>
+                </div>
+                <div class="ds-card__body ds-stack">
+                  <div class="project-status">
+                    <h3>브랜드 허브</h3>
+                    <span class="ds-badge" data-tone="success">승인됨</span>
+                  </div>
+                  <p class="ds-copy">콘텐츠 구조, 제품 메시지, 접근 가능한 CTA 흐름을 하나의 표준으로 정리합니다.</p>
+                </div>
+              </article>
+              <article class="ds-card project-card" data-ds-reveal>
+                <div class="ds-card__media">
+                  <span class="ds-badge">제품 화면</span>
+                </div>
+                <div class="ds-card__body ds-stack">
+                  <div class="project-status">
+                    <h3>운영 콘솔</h3>
+                    <span class="ds-badge">검토 중</span>
+                  </div>
+                  <p class="ds-copy">밀도 높은 정보 화면에서도 44px 액션, 명확한 포커스, 오류 상태를 유지합니다.</p>
+                </div>
+              </article>
+              <article class="ds-card project-card" data-ds-reveal>
+                <div class="ds-card__media">
+                  <span class="ds-badge" data-tone="danger">수정 필요</span>
+                </div>
+                <div class="ds-card__body ds-stack">
+                  <div class="project-status">
+                    <h3>결제 설정</h3>
+                    <span class="ds-badge" data-tone="danger">차단</span>
+                  </div>
+                  <p class="ds-copy">권한 안내와 실패 복구 문구가 실제 배포 전 검수 항목으로 남아 있습니다.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="settings" class="ds-container ds-section ds-stack">
+            <div class="ds-tabs" data-ds-tabs data-ds-reveal>
+              <div role="tablist" aria-label="설정 범주">
+                <button id="tab-profile" role="tab" type="button" aria-selected="true" aria-controls="panel-profile">프로젝트 정보</button>
+                <button id="tab-tokens" role="tab" type="button" aria-selected="false" aria-controls="panel-tokens">토큰</button>
+                <button id="tab-faq" role="tab" type="button" aria-selected="false" aria-controls="panel-faq">검수</button>
+              </div>
+
+              <section id="panel-profile" role="tabpanel" aria-labelledby="tab-profile">
+                <div class="settings-panel">
+                  <form id="settings-form" class="ds-card">
+                    <div class="ds-card__body ds-stack">
+                      <label class="ds-field">
+                        <span>프로젝트 이름</span>
+                        <input class="ds-input" name="project" required minlength="2" value="브랜드 허브">
+                        <span class="ds-error">두 글자 이상 입력하세요.</span>
+                      </label>
+                      <label class="ds-field">
+                        <span>담당 팀</span>
+                        <select class="ds-select" name="team" required>
+                          <option>디자인 시스템</option>
+                          <option>프로덕트 디자인</option>
+                          <option>프런트엔드</option>
+                        </select>
+                      </label>
+                      <label class="ds-field">
+                        <span>월 예산</span>
+                        <input id="project-budget" aria-describedby="budget-error" class="ds-input" name="budget" type="number" min="100" max="9000" value="4200" required>
+                        <span id="budget-error" class="ds-error">100 이상 9000 이하의 숫자를 입력하세요.</span>
+                      </label>
+                      <label class="ds-field">
+                        <span>메모</span>
+                        <textarea class="ds-textarea" name="memo" placeholder="릴리즈 전 공유할 참고 사항"></textarea>
+                      </label>
+                      <div class="form-actions">
+                        <button id="simulate-error" class="ds-button ds-button--ghost" type="button">오류 상태 보기</button>
+                        <button class="ds-button ds-button--primary" type="submit">입력 확인</button>
+                      </div>
+                    </div>
+                  </form>
+
+                  <aside class="ds-card">
+                    <div class="ds-card__body ds-stack">
+                      <span class="ds-badge">API</span>
+                      <p class="ds-copy">예제는 <code>mount(root, { motion: true })</code>로 초기화하고, 반환된 객체의 <code>notify</code>, <code>openDialog</code>, <code>setTheme</code>, <code>destroy</code>를 사용합니다.</p>
+                      <button class="ds-button ds-button--secondary" type="button" data-ds-toast="런타임 API가 정상 연결되었습니다.">
+                        토스트 테스트
+                      </button>
+                    </div>
+                  </aside>
+                </div>
+              </section>
+
+              <section id="panel-tokens" role="tabpanel" aria-labelledby="tab-tokens" hidden>
+                <div class="ds-card">
+                  <div class="ds-card__body ds-stack">
+                    <div class="token-row">
+                      <span class="ds-eyebrow">Primary</span>
+                      <span class="swatch" style="--swatch: var(--ds-color-primary);"></span>
+                    </div>
+                    <div class="token-row">
+                      <span class="ds-eyebrow">Surface</span>
+                      <span class="swatch" style="--swatch: var(--ds-color-surface);"></span>
+                    </div>
+                    <div class="token-row">
+                      <span class="ds-eyebrow">Text</span>
+                      <span class="swatch" style="--swatch: var(--ds-color-text);"></span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="panel-faq" role="tabpanel" aria-labelledby="tab-faq" hidden>
+                <div class="ds-accordion">
+                  <details open>
+                    <summary>독립적으로 가져다 쓸 수 있나요?</summary>
+                    <div>네. 토큰, 컴포넌트 CSS, 런타임 JS는 외부 폰트, 원본 미디어, 네트워크 요청 없이 동작합니다.</div>
+                  </details>
+                  <details>
+                    <summary>기존 프로젝트 스타일과 충돌하지 않나요?</summary>
+                    <div>스타일은 `.ds-root` 범위에서만 적용됩니다. 필요한 경우 `.ds-root`에 커스텀 속성을 덮어쓰면 브랜드 색과 간격을 바꿀 수 있습니다.</div>
+                  </details>
+                  <details>
+                    <summary>접근성 상태는 어디까지 포함되나요?</summary>
+                    <div>키보드 탭, ARIA 탭 패턴, 네이티브 폼 검증, 다이얼로그, 토스트 상태, 모션 감소 설정을 기본으로 포함합니다.</div>
+                  </details>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <footer class="ds-container footer-line">
+            <span>Portable Design System Kit</span>
+            <a href="../README.md">프로젝트 README 보기</a>
+          </footer>
+        </main>
+      </div>
+
+      <dialog id="new-project-dialog" class="ds-dialog" aria-labelledby="new-project-title">
+        <div class="ds-dialog__header">
+          <h2 id="new-project-title" class="ds-title">새 프로젝트 만들기</h2>
+          <button class="ds-button ds-button--ghost ds-button--sm" type="button" data-ds-dialog-close="new-project-dialog">닫기</button>
+        </div>
+        <div class="ds-dialog__body ds-stack">
+          <p class="ds-copy">실제 제품에서는 이 흐름에 템플릿 선택, 권한, 초기 일정 설정을 연결하면 됩니다.</p>
+          <button class="ds-button ds-button--primary" type="button" data-ds-toast="초안 생성 흐름을 확인했습니다. 실제 저장은 프로젝트 API에 연결하세요." data-ds-dialog-close="new-project-dialog">초안 생성</button>
+        </div>
+      </dialog>
+
+      <div class="ds-toast-region" data-ds-toast-region aria-live="polite" aria-atomic="true"></div>
+    </div>
+
+    <script type="module" src="./example.js"></script>
+  </body>
+</html>

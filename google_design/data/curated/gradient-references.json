@@ -1,0 +1,50 @@
+[
+  {
+    "id": "meet-product-mark-yellow",
+    "name": "Meet product mark yellow-orange",
+    "css": "linear-gradient(135deg, #FFD00A 0%, #FECC05 48%, #FBB100 100%)",
+    "stops": [
+      {
+        "offset": 0,
+        "color": "#FFD00A"
+      },
+      {
+        "offset": 48,
+        "color": "#FECC05"
+      },
+      {
+        "offset": 100,
+        "color": "#FBB100"
+      }
+    ],
+    "measurement": "raster-sampled-approximation",
+    "confidence": 0.78,
+    "referenceOnly": true
+  },
+  {
+    "id": "meet-cup-pink-yellow-exact",
+    "name": "Empty-state cup official SVG gradient",
+    "css": "linear-gradient(258deg, #FFC6EF 45%, #FFDB0F 61%)",
+    "stops": [
+      {
+        "offset": 45,
+        "color": "#FFC6EF"
+      },
+      {
+        "offset": 61,
+        "color": "#FFDB0F"
+      }
+    ],
+    "vector": {
+      "id": "a",
+      "gradientUnits": "userSpaceOnUse",
+      "x1": 257.5,
+      "y1": 104.033,
+      "x2": 10.96,
+      "y2": 157.859
+    },
+    "measurement": "official-svg-exact",
+    "confidence": 1,
+    "referenceOnly": true
+  }
+]

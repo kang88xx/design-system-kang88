@@ -1,0 +1,127 @@
+{
+  "checked_at": "2026-09-06T13:56:54.273Z",
+  "checks": [
+    {
+      "name": "28 video studies",
+      "passed": true
+    },
+    {
+      "name": "84 frame targets",
+      "passed": true
+    },
+    {
+      "name": "video metadata not loaded until interaction",
+      "passed": true
+    },
+    {
+      "name": "video effect filtering",
+      "passed": true
+    },
+    {
+      "name": "video empty count",
+      "passed": true
+    },
+    {
+      "name": "frame button seeks correct decoded timestamp and plays",
+      "passed": true
+    },
+    {
+      "name": "video page mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "video study works file protocol",
+      "passed": true
+    },
+    {
+      "name": "icon gallery exists",
+      "passed": true
+    },
+    {
+      "name": "icon empty state",
+      "passed": true
+    },
+    {
+      "name": "CSS drawn icon subset",
+      "passed": true
+    },
+    {
+      "name": "menu dialog open",
+      "passed": true
+    },
+    {
+      "name": "menu escape and focus restored",
+      "passed": true
+    },
+    {
+      "name": "invalid email feedback",
+      "passed": true
+    },
+    {
+      "name": "local valid email feedback",
+      "passed": true
+    },
+    {
+      "name": "project theme selection",
+      "passed": true
+    },
+    {
+      "name": "grid state toggles",
+      "passed": true
+    },
+    {
+      "name": "team member and compass selection",
+      "passed": true
+    },
+    {
+      "name": "client carousel moves",
+      "passed": true
+    },
+    {
+      "name": "capability card flips",
+      "passed": true
+    },
+    {
+      "name": "clay button changes state",
+      "passed": true
+    },
+    {
+      "name": "components mobile no overflow",
+      "passed": true
+    },
+    {
+      "name": "component reduced motion media",
+      "passed": true
+    },
+    {
+      "name": "thumbnail to reel interpolation",
+      "passed": true
+    },
+    {
+      "name": "ending type reduced-motion settles",
+      "passed": true
+    },
+    {
+      "name": "keyboard overscroll progress",
+      "passed": true
+    },
+    {
+      "name": "overscroll deactivates Escape",
+      "passed": true
+    },
+    {
+      "name": "next-scene preview",
+      "passed": true
+    },
+    {
+      "name": "no page JavaScript exceptions",
+      "passed": true
+    },
+    {
+      "name": "no failed resource responses",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

@@ -1,0 +1,3538 @@
+{
+  "id": "iphone-pro-highlight-camera",
+  "name": "highlight-camera",
+  "sourceUrl": "https://www.apple.com/iphone-17-pro/",
+  "selector": "#media-card-gallery-item-3-trigger",
+  "status": "captured",
+  "label": "\n                                                          Pro Fusion camera system\n                                                      ",
+  "before": {
+    "scrollY": 1034,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "target": {
+      "html": "<a id=\"media-card-gallery-item-3-trigger\" data-focus-expression=\"{&quot;expression&quot;: &quot;a0t - 100vh + a0h + var(--global-section-aap-padding) * .5&quot;, &quot;anchors&quot;: [&quot;[data-media-card-gallery]&quot;], &quot;focus-delay&quot;: &quot;true&quot;}\" data-focus-enabled-when=\"media-card-gallery-focusable\" class=\"dotnav-link\" data-ac-gallery-trigger=\"media-card-gallery-item-3\" href=\"#media-card-gallery-item-3\" role=\"tab\" aria-controls=\"media-card-gallery-item-3\" tabindex=\"-1\" aria-selected=\"false\">\n                                                          <span class=\"visuallyhidden\">Pro Fusion camera system</span>\n                                                      </a>",
+      "styles": {
+        "transform": "none",
+        "opacity": "1",
+        "transition": "background-color 0.25s linear",
+        "animation": "none",
+        "clip-path": "none",
+        "border-radius": "10px",
+        "background-color": "rgba(245, 245, 247, 0.8)"
+      },
+      "selected": "false",
+      "expanded": null
+    },
+    "selected": [
+      {
+        "id": "media-card-gallery-item-1-trigger",
+        "label": null,
+        "text": "Design"
+      },
+      {
+        "id": "colornav-value-Orange",
+        "label": null,
+        "text": ""
+      },
+      {
+        "id": "zoom-gallery-tab-0",
+        "label": null,
+        "text": "200 mm"
+      },
+      {
+        "id": "new-camera-features-tab-0",
+        "label": null,
+        "text": "Center Stagefor photos"
+      }
+    ],
+    "dialogs": [],
+    "animated": [
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-header",
+        "timing": {
+          "delay": 200,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 520,
+          "localTime": 520,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 220,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 540,
+          "localTime": 540,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 240.00000000000003,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 560,
+          "localTime": 560,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 260,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 580.0000000000001,
+          "localTime": 580.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 280,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 600.0000000000001,
+          "localTime": 600.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 300.00000000000006,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 620.0000000000001,
+          "localTime": 620.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ribbon-drop",
+        "playState": "finished",
+        "target": "\n\t\t\t\n\t\t\t\tac-ribbon__upgrade-2026-ribbon-drop-wrapper\n\t\t\t\n\t\t",
+        "timing": {
+          "delay": 0,
+          "direction": "normal",
+          "duration": 800,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 800,
+          "currentIteration": 0,
+          "endTime": 800,
+          "localTime": 800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "transform": "translateY(-100%)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-background-1d1d1f-1d1d1f",
+        "playState": "finished",
+        "target": "ac-ribbon__upgrade-2026-content-wrapper",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(29, 29, 31)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(29, 29, 31)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-fff-1d1d1f",
+        "playState": "finished",
+        "target": "ac-ribbon__upgrade-2026-content row",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(255, 255, 255)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(255, 255, 255)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-2997ff-2997ff",
+        "playState": "finished",
+        "target": "icon-wrapper ac-ribbon__upgrade-2026-link upgrade-2026-link",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(41, 151, 255)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(41, 151, 255)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aap-animate-progress",
+        "playState": "running",
+        "target": "dotnav-link current",
+        "timing": {
+          "delay": 0,
+          "direction": "normal",
+          "duration": 6150,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 6150,
+          "currentIteration": 0,
+          "endTime": 6150,
+          "localTime": 5533.100000000001,
+          "progress": 0.8996910569105692
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "linear",
+            "composite": "auto",
+            "width": "0px",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "linear",
+            "composite": "auto",
+            "width": "115%",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ],
+    "transformed": [
+      {
+        "tag": "DIV",
+        "class": "all-access-pass aap-media-card-gallery activated",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "all-access-pass__intro-element",
+        "styles": {
+          "transform": "matrix(0.8, 0, 0, 0.8, -28, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "56px",
+          "background-color": "rgb(42, 42, 45)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "all-access-pass__element play-pause-button-wrapper",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SPAN",
+        "class": "all-access-pass__background",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -28, -28)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(42, 42, 45, 0.72)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "play-pause-button all-access-pass__play-pause-button aap-media-card-gallery__button",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "background-color 0.1s linear, opacity 0.1s ease-in 0.94s, transform 0.2s ease-out 0.94s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "32px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "all-access-pass__element aap-media-card-gallery__timed-dotnav",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SPAN",
+        "class": "all-access-pass__background",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -108, -28)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(42, 42, 45, 0.72)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item current aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 312, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "elapsed": 80,
+      "delay": 80,
+      "scrollY": 1034,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "html": "<a id=\"media-card-gallery-item-3-trigger\" data-focus-expression=\"{&quot;expression&quot;: &quot;a0t - 100vh + a0h + var(--global-section-aap-padding) * .5&quot;, &quot;anchors&quot;: [&quot;[data-media-card-gallery]&quot;], &quot;focus-delay&quot;: &quot;true&quot;}\" data-focus-enabled-when=\"media-card-gallery-focusable\" class=\"dotnav-link current\" data-ac-gallery-trigger=\"media-card-gallery-item-3\" href=\"#media-card-gallery-item-3\" role=\"tab\" aria-controls=\"media-card-gallery-item-3\" tabindex=\"0\" aria-selected=\"true\" data-focus-method=\"mouse\">\n                                                          <span class=\"visuallyhidden\">Pro Fusion camera system</span>\n                                                      </a>",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "transition": "background-color 0.25s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "10px",
+          "background-color": "rgba(245, 245, 247, 0.8)"
+        },
+        "selected": "true",
+        "expanded": null
+      },
+      "selected": [
+        {
+          "id": "media-card-gallery-item-3-trigger",
+          "label": null,
+          "text": "Pro Fusion camera system"
+        },
+        {
+          "id": "colornav-value-Orange",
+          "label": null,
+          "text": ""
+        },
+        {
+          "id": "zoom-gallery-tab-0",
+          "label": null,
+          "text": "200 mm"
+        },
+        {
+          "id": "new-camera-features-tab-0",
+          "label": null,
+          "text": "Center Stagefor photos"
+        }
+      ],
+      "dialogs": [],
+      "animated": [
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-header",
+          "timing": {
+            "delay": 200,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 520,
+            "localTime": 520,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 220,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 540,
+            "localTime": 540,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 240.00000000000003,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 560,
+            "localTime": 560,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 260,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 580.0000000000001,
+            "localTime": 580.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 280,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 600.0000000000001,
+            "localTime": 600.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 300.00000000000006,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 620.0000000000001,
+            "localTime": 620.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "ribbon-drop",
+          "playState": "finished",
+          "target": "\n\t\t\t\n\t\t\t\tac-ribbon__upgrade-2026-ribbon-drop-wrapper\n\t\t\t\n\t\t",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 800,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 800,
+            "currentIteration": 0,
+            "endTime": 800,
+            "localTime": 800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "transform": "translateY(-100%)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-background-1d1d1f-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__upgrade-2026-content-wrapper",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(29, 29, 31)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(29, 29, 31)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-fff-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__upgrade-2026-content row",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-2997ff-2997ff",
+          "playState": "finished",
+          "target": "icon-wrapper ac-ribbon__upgrade-2026-link upgrade-2026-link",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(41, 151, 255)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(41, 151, 255)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "aap-animate-progress",
+          "playState": "running",
+          "target": "dotnav-link current",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 6150,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 6150,
+            "currentIteration": 0,
+            "endTime": 6150,
+            "localTime": 150.00000000000034,
+            "progress": 0.02439024390243908
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "width": "0px",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "width": "115%",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      "transformed": [
+        {
+          "tag": "DIV",
+          "class": "all-access-pass aap-media-card-gallery activated",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__intro-element",
+          "styles": {
+            "transform": "matrix(0.8, 0, 0, 0.8, -28, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "56px",
+            "background-color": "rgb(42, 42, 45)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__element play-pause-button-wrapper",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "SPAN",
+          "class": "all-access-pass__background",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -28, -28)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(42, 42, 45, 0.72)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "play-pause-button all-access-pass__play-pause-button aap-media-card-gallery__button",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "background-color 0.1s linear, opacity 0.1s ease-in 0.94s, transform 0.2s ease-out 0.94s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "32px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__element aap-media-card-gallery__timed-dotnav",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "SPAN",
+          "class": "all-access-pass__background",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -108, -28)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(42, 42, 45, 0.72)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -5.3625, 0)",
+            "opacity": "0.945",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 306.638, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 618.638, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 930.638, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 1242.64, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 1554.64, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "elapsed": 320,
+      "delay": 240,
+      "scrollY": 1034,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "html": "<a id=\"media-card-gallery-item-3-trigger\" data-focus-expression=\"{&quot;expression&quot;: &quot;a0t - 100vh + a0h + var(--global-section-aap-padding) * .5&quot;, &quot;anchors&quot;: [&quot;[data-media-card-gallery]&quot;], &quot;focus-delay&quot;: &quot;true&quot;}\" data-focus-enabled-when=\"media-card-gallery-focusable\" class=\"dotnav-link current\" data-ac-gallery-trigger=\"media-card-gallery-item-3\" href=\"#media-card-gallery-item-3\" role=\"tab\" aria-controls=\"media-card-gallery-item-3\" tabindex=\"0\" aria-selected=\"true\" data-focus-method=\"mouse\">\n                                                          <span class=\"visuallyhidden\">Pro Fusion camera system</span>\n                                                      </a>",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "transition": "background-color 0.25s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "10px",
+          "background-color": "rgba(245, 245, 247, 0.8)"
+        },
+        "selected": "true",
+        "expanded": null
+      },
+      "selected": [
+        {
+          "id": "media-card-gallery-item-3-trigger",
+          "label": null,
+          "text": "Pro Fusion camera system"
+        },
+        {
+          "id": "colornav-value-Orange",
+          "label": null,
+          "text": ""
+        },
+        {
+          "id": "zoom-gallery-tab-0",
+          "label": null,
+          "text": "200 mm"
+        },
+        {
+          "id": "new-camera-features-tab-0",
+          "label": null,
+          "text": "Center Stagefor photos"
+        }
+      ],
+      "dialogs": [],
+      "animated": [
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-header",
+          "timing": {
+            "delay": 200,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 520,
+            "localTime": 520,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 220,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 540,
+            "localTime": 540,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 240.00000000000003,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 560,
+            "localTime": 560,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 260,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 580.0000000000001,
+            "localTime": 580.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 280,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 600.0000000000001,
+            "localTime": 600.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 300.00000000000006,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 620.0000000000001,
+            "localTime": 620.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "ribbon-drop",
+          "playState": "finished",
+          "target": "\n\t\t\t\n\t\t\t\tac-ribbon__upgrade-2026-ribbon-drop-wrapper\n\t\t\t\n\t\t",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 800,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 800,
+            "currentIteration": 0,
+            "endTime": 800,
+            "localTime": 800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "transform": "translateY(-100%)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-background-1d1d1f-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__upgrade-2026-content-wrapper",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(29, 29, 31)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(29, 29, 31)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-fff-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__upgrade-2026-content row",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-2997ff-2997ff",
+          "playState": "finished",
+          "target": "icon-wrapper ac-ribbon__upgrade-2026-link upgrade-2026-link",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(41, 151, 255)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(41, 151, 255)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "aap-animate-progress",
+          "playState": "running",
+          "target": "dotnav-link current",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 6150,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 6150,
+            "currentIteration": 0,
+            "endTime": 6150,
+            "localTime": 416.60000000000076,
+            "progress": 0.0677398373983741
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "width": "0px",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "width": "115%",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      "transformed": [
+        {
+          "tag": "DIV",
+          "class": "all-access-pass aap-media-card-gallery activated",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__intro-element",
+          "styles": {
+            "transform": "matrix(0.8, 0, 0, 0.8, -28, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "56px",
+            "background-color": "rgb(42, 42, 45)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__element play-pause-button-wrapper",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "SPAN",
+          "class": "all-access-pass__background",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -28, -28)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(42, 42, 45, 0.72)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "play-pause-button all-access-pass__play-pause-button aap-media-card-gallery__button",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "background-color 0.1s linear, opacity 0.1s ease-in 0.94s, transform 0.2s ease-out 0.94s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "32px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__element aap-media-card-gallery__timed-dotnav",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "SPAN",
+          "class": "all-access-pass__background",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -108, -28)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(42, 42, 45, 0.72)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -131.625, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 180.375, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 492.375, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 804.375, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 1116.38, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 1428.38, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "elapsed": 920,
+      "delay": 600,
+      "scrollY": 1034,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "html": "<a id=\"media-card-gallery-item-3-trigger\" data-focus-expression=\"{&quot;expression&quot;: &quot;a0t - 100vh + a0h + var(--global-section-aap-padding) * .5&quot;, &quot;anchors&quot;: [&quot;[data-media-card-gallery]&quot;], &quot;focus-delay&quot;: &quot;true&quot;}\" data-focus-enabled-when=\"media-card-gallery-focusable\" class=\"dotnav-link current\" data-ac-gallery-trigger=\"media-card-gallery-item-3\" href=\"#media-card-gallery-item-3\" role=\"tab\" aria-controls=\"media-card-gallery-item-3\" tabindex=\"0\" aria-selected=\"true\" data-focus-method=\"mouse\">\n                                                          <span class=\"visuallyhidden\">Pro Fusion camera system</span>\n                                                      </a>",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "transition": "background-color 0.25s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "10px",
+          "background-color": "rgba(245, 245, 247, 0.8)"
+        },
+        "selected": "true",
+        "expanded": null
+      },
+      "selected": [
+        {
+          "id": "media-card-gallery-item-3-trigger",
+          "label": null,
+          "text": "Pro Fusion camera system"
+        },
+        {
+          "id": "colornav-value-Orange",
+          "label": null,
+          "text": ""
+        },
+        {
+          "id": "zoom-gallery-tab-0",
+          "label": null,
+          "text": "200 mm"
+        },
+        {
+          "id": "new-camera-features-tab-0",
+          "label": null,
+          "text": "Center Stagefor photos"
+        }
+      ],
+      "dialogs": [],
+      "animated": [
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-header",
+          "timing": {
+            "delay": 200,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 520,
+            "localTime": 520,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 220,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 540,
+            "localTime": 540,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 240.00000000000003,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 560,
+            "localTime": 560,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 260,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 580.0000000000001,
+            "localTime": 580.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 280,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 600.0000000000001,
+            "localTime": 600.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 300.00000000000006,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 620.0000000000001,
+            "localTime": 620.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "ribbon-drop",
+          "playState": "finished",
+          "target": "\n\t\t\t\n\t\t\t\tac-ribbon__upgrade-2026-ribbon-drop-wrapper\n\t\t\t\n\t\t",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 800,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 800,
+            "currentIteration": 0,
+            "endTime": 800,
+            "localTime": 800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "transform": "translateY(-100%)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-background-1d1d1f-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__upgrade-2026-content-wrapper",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(29, 29, 31)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(29, 29, 31)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-fff-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__upgrade-2026-content row",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-2997ff-2997ff",
+          "playState": "finished",
+          "target": "icon-wrapper ac-ribbon__upgrade-2026-link upgrade-2026-link",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(41, 151, 255)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(41, 151, 255)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "aap-animate-progress",
+          "playState": "paused",
+          "target": "dotnav-link current",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 6150,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 6150,
+            "currentIteration": 0,
+            "endTime": 6150,
+            "localTime": 566.600000000001,
+            "progress": 0.09213008130081318
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "width": "0px",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "width": "115%",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      "transformed": [
+        {
+          "tag": "DIV",
+          "class": "all-access-pass aap-media-card-gallery activated",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__intro-element",
+          "styles": {
+            "transform": "matrix(0.8, 0, 0, 0.8, -28, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "56px",
+            "background-color": "rgb(42, 42, 45)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__element play-pause-button-wrapper",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "SPAN",
+          "class": "all-access-pass__background",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -28, -28)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(42, 42, 45, 0.72)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "play-pause-button all-access-pass__play-pause-button aap-media-card-gallery__button",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "background-color 0.1s linear, opacity 0.1s ease-in 0.94s, transform 0.2s ease-out 0.94s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "32px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "all-access-pass__element aap-media-card-gallery__timed-dotnav",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "SPAN",
+          "class": "all-access-pass__background",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -108, -28)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "28px",
+            "background-color": "rgba(42, 42, 45, 0.72)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "LI",
+          "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "opacity 0.1s ease-in 0.74s",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -610.594, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -298.594, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 13.4062, 0)",
+            "opacity": "0.8625",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 325.406, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 637.406, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "caption pin-offset typography-media-card-gallery-headline",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 949.406, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ]
+    }
+  ],
+  "after": {
+    "elapsed": 920,
+    "delay": 600,
+    "scrollY": 1034,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "target": {
+      "html": "<a id=\"media-card-gallery-item-3-trigger\" data-focus-expression=\"{&quot;expression&quot;: &quot;a0t - 100vh + a0h + var(--global-section-aap-padding) * .5&quot;, &quot;anchors&quot;: [&quot;[data-media-card-gallery]&quot;], &quot;focus-delay&quot;: &quot;true&quot;}\" data-focus-enabled-when=\"media-card-gallery-focusable\" class=\"dotnav-link current\" data-ac-gallery-trigger=\"media-card-gallery-item-3\" href=\"#media-card-gallery-item-3\" role=\"tab\" aria-controls=\"media-card-gallery-item-3\" tabindex=\"0\" aria-selected=\"true\" data-focus-method=\"mouse\">\n                                                          <span class=\"visuallyhidden\">Pro Fusion camera system</span>\n                                                      </a>",
+      "styles": {
+        "transform": "none",
+        "opacity": "1",
+        "transition": "background-color 0.25s linear",
+        "animation": "none",
+        "clip-path": "none",
+        "border-radius": "10px",
+        "background-color": "rgba(245, 245, 247, 0.8)"
+      },
+      "selected": "true",
+      "expanded": null
+    },
+    "selected": [
+      {
+        "id": "media-card-gallery-item-3-trigger",
+        "label": null,
+        "text": "Pro Fusion camera system"
+      },
+      {
+        "id": "colornav-value-Orange",
+        "label": null,
+        "text": ""
+      },
+      {
+        "id": "zoom-gallery-tab-0",
+        "label": null,
+        "text": "200 mm"
+      },
+      {
+        "id": "new-camera-features-tab-0",
+        "label": null,
+        "text": "Center Stagefor photos"
+      }
+    ],
+    "dialogs": [],
+    "animated": [
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-header",
+        "timing": {
+          "delay": 200,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 520,
+          "localTime": 520,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 220,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 540,
+          "localTime": 540,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 240.00000000000003,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 560,
+          "localTime": 560,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 260,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 580.0000000000001,
+          "localTime": 580.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 280,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 600.0000000000001,
+          "localTime": 600.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 300.00000000000006,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 620.0000000000001,
+          "localTime": 620.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ribbon-drop",
+        "playState": "finished",
+        "target": "\n\t\t\t\n\t\t\t\tac-ribbon__upgrade-2026-ribbon-drop-wrapper\n\t\t\t\n\t\t",
+        "timing": {
+          "delay": 0,
+          "direction": "normal",
+          "duration": 800,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 800,
+          "currentIteration": 0,
+          "endTime": 800,
+          "localTime": 800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "transform": "translateY(-100%)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-background-1d1d1f-1d1d1f",
+        "playState": "finished",
+        "target": "ac-ribbon__upgrade-2026-content-wrapper",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(29, 29, 31)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(29, 29, 31)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-fff-1d1d1f",
+        "playState": "finished",
+        "target": "ac-ribbon__upgrade-2026-content row",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(255, 255, 255)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(255, 255, 255)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-2997ff-2997ff",
+        "playState": "finished",
+        "target": "icon-wrapper ac-ribbon__upgrade-2026-link upgrade-2026-link",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(41, 151, 255)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(41, 151, 255)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aap-animate-progress",
+        "playState": "paused",
+        "target": "dotnav-link current",
+        "timing": {
+          "delay": 0,
+          "direction": "normal",
+          "duration": 6150,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 6150,
+          "currentIteration": 0,
+          "endTime": 6150,
+          "localTime": 566.600000000001,
+          "progress": 0.09213008130081318
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "linear",
+            "composite": "auto",
+            "width": "0px",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "linear",
+            "composite": "auto",
+            "width": "115%",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ],
+    "transformed": [
+      {
+        "tag": "DIV",
+        "class": "all-access-pass aap-media-card-gallery activated",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "all-access-pass__intro-element",
+        "styles": {
+          "transform": "matrix(0.8, 0, 0, 0.8, -28, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "56px",
+          "background-color": "rgb(42, 42, 45)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "all-access-pass__element play-pause-button-wrapper",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SPAN",
+        "class": "all-access-pass__background",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -28, -28)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(42, 42, 45, 0.72)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "play-pause-button all-access-pass__play-pause-button aap-media-card-gallery__button",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "background-color 0.1s linear, opacity 0.1s ease-in 0.94s, transform 0.2s ease-out 0.94s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "32px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "all-access-pass__element aap-media-card-gallery__timed-dotnav",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SPAN",
+        "class": "all-access-pass__background",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -108, -28)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "28px",
+          "background-color": "rgba(42, 42, 45, 0.72)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "LI",
+        "class": "dotnav-item aap-media-card-gallery__dotnav-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "opacity 0.1s ease-in 0.74s",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -610.594, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -298.594, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 13.4062, 0)",
+          "opacity": "0.8625",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 325.406, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 637.406, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "caption pin-offset typography-media-card-gallery-headline",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 949.406, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  "beforeScreenshot": "/apple_design/app/dist/client/interaction-lab/iphone-pro-highlight-camera-before.png",
+  "afterScreenshot": "/apple_design/app/dist/client/interaction-lab/iphone-pro-highlight-camera-after.png"
+}

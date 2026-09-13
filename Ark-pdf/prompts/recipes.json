@@ -1,0 +1,710 @@
+[
+  {
+    "id": "icon-house",
+    "name": "House",
+    "category": "outline-utility",
+    "subject": "accommodations / housing",
+    "description": "A compact house pictogram preserving the page 26 accommodations grammar.",
+    "path": "assets/icons/house.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for accommodations. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a simple roof, square body, baseline, door, and one window. Keep the mass centered and architectural. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No filled house, no perspective home illustration, no chimney detail overload, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient, no shadow, no mascot style.",
+    "origin": "extension",
+    "sourcePages": [
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/house.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-gold-bars",
+    "name": "Gold Bars",
+    "category": "outline-utility",
+    "subject": "value / gold bars",
+    "description": "House-to-gold-bars adaptation that keeps ARK's modular outline grammar without shiny gold treatment.",
+    "path": "assets/icons/gold-bars.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for gold bars, adapted from the page 26 house icon grammar. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, three stacked modular bars, and short inset face marks. Keep it centered and restrained. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No photorealistic gold, no metallic yellow gradient, no bevel, no sparkle, no coin pile, no dollar clip-art, no shadow, no 3D extrusion. No unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      15,
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/gold-bars.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-shield",
+    "name": "Shield",
+    "category": "outline-utility",
+    "subject": "safety / protection",
+    "description": "A safety shield with a centered check, matching the page 15 protection icon.",
+    "path": "assets/icons/shield.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for safety. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a symmetric shield silhouette and simple check mark. Match page 15 optical weight. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No badge fill, no police crest, no star, no decorative ribbon, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient, no sharp heraldic detail.",
+    "origin": "extension",
+    "sourcePages": [
+      15,
+      29
+    ],
+    "gradientPath": "assets/icons/gradient/shield.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-warehouse",
+    "name": "Warehouse",
+    "category": "outline-utility",
+    "subject": "warehouse / industrial storage",
+    "description": "A modular warehouse adapted from the house and storage icon logic.",
+    "path": "assets/icons/warehouse.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for a warehouse. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a wide roof, rectangular wall, central loading door, and side panel lines. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No photorealistic building, no perspective facade, no excessive windows, no filled block, no shadow. No unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      5,
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/warehouse.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-logistics",
+    "name": "Logistics",
+    "category": "outline-utility",
+    "subject": "storage and logistics",
+    "description": "A package and route arrow that extends the page 26 storage/logistics icon.",
+    "path": "assets/icons/logistics.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for logistics. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a modular package cube, route arrow, and short movement line. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No delivery truck clip art, no map pin clutter, no filled box, no speed streak overload, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/logistics.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-medical",
+    "name": "Medical",
+    "category": "outline-utility",
+    "subject": "medical and health units",
+    "description": "A medical kit outline matching the page 26 health units icon.",
+    "path": "assets/icons/medical.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for medical units. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, rounded square kit, handle, and medical cross. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No red cross color, no hospital building, no filled emergency badge, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient, no tiny labels.",
+    "origin": "extension",
+    "sourcePages": [
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/medical.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-clock-fast",
+    "name": "Clock Fast",
+    "category": "outline-utility",
+    "subject": "fast deployment",
+    "description": "A speed clock with left motion rules, derived from page 15.",
+    "path": "assets/icons/clock-fast.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for fast deployment. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, circular clock, simple hands, and two left-side speed lines. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No stopwatch chrome, no alarm clock bells, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient, no dense tick marks, no filled face.",
+    "origin": "extension",
+    "sourcePages": [
+      15
+    ],
+    "gradientPath": "assets/icons/gradient/clock-fast.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-flexible-module",
+    "name": "Flexible Module",
+    "category": "outline-utility",
+    "subject": "flexible modular unit",
+    "description": "A segmented module with an arced dotted top, matching page 15 flexibility.",
+    "path": "assets/icons/flexible-module.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for flexible modular units. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a segmented rectangular module and arced modular segments above it. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No tent, no software widget, no filled panels, no complex dashed pattern, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      15
+    ],
+    "gradientPath": "assets/icons/gradient/flexible-module.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-economy-coins",
+    "name": "Economy Coins",
+    "category": "outline-utility",
+    "subject": "economy / cost efficiency",
+    "description": "Stacked coin cylinders with a small currency mark, matching page 15 economy.",
+    "path": "assets/icons/economy-coins.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for economy. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, three coin-stack ellipses and a simple currency mark. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No gold fill, no money bag, no detailed coin engraving, no shine, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      15
+    ],
+    "gradientPath": "assets/icons/gradient/economy-coins.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-workspace",
+    "name": "Workspace",
+    "category": "outline-utility",
+    "subject": "office workspace",
+    "description": "Desk, monitor, and chair pictogram extending the page 26 workspace category.",
+    "path": "assets/icons/workspace.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for workspaces. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, monitor, desk line, chair, and small support legs. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No person-heavy illustration, no filled office furniture, no perspective desk, no tiny keyboard detail. No unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/workspace.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-dining",
+    "name": "Dining",
+    "category": "outline-utility",
+    "subject": "dining and hygiene facilities",
+    "description": "Fork and knife pictogram aligned to the page 26 dining category.",
+    "path": "assets/icons/dining.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for dining and hygiene facilities. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, fork, knife, and restrained vertical geometry. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No plate-and-food illustration, no filled utensils, no restaurant logo style, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/dining.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-recreation",
+    "name": "Recreation",
+    "category": "outline-utility",
+    "subject": "recreation and leisure",
+    "description": "Lounge base and ball outline extending the page 26 recreation icon.",
+    "path": "assets/icons/recreation.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for recreation and leisure. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a lounge base, angled rest, and simple ball circle with two internal curves. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No beach scene, no filled sport icon, no person silhouette, no sunburst, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/recreation.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-precision-tool",
+    "name": "Precision Tool",
+    "category": "outline-utility",
+    "subject": "precision manufacturing",
+    "description": "A T-shaped tool and calibration marks translated into the outline family from page 29's precision theme.",
+    "path": "assets/icons/precision-tool.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for precision. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a T-square/tool silhouette and short calibration lines. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No filled hammer, no construction cartoon, no heavy 3D tool, no hazard stripe, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      29
+    ],
+    "gradientPath": "assets/icons/gradient/precision-tool.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-compliance-check",
+    "name": "Compliance Check",
+    "category": "outline-utility",
+    "subject": "compliance / checklist",
+    "description": "Checklist sheet with check marks, translating page 29 compliance into the outline utility set.",
+    "path": "assets/icons/compliance-check.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for compliance. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, a document outline, two checklist rows, and a simple check mark. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No clipboard clutter, no legal scales, no certificate seal, no filled document, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      29
+    ],
+    "gradientPath": "assets/icons/gradient/compliance-check.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-accountability-user",
+    "name": "Accountability User",
+    "category": "outline-utility",
+    "subject": "accountability / responsible team",
+    "description": "User profile and check badge converted from page 29's filled accountability idea into outline grammar.",
+    "path": "assets/icons/accountability-user.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for accountability. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, user head and shoulders plus a small check badge. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No filled avatar, no corporate profile photo style, no medal ribbon, no dense facial detail, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      29
+    ],
+    "gradientPath": "assets/icons/gradient/accountability-user.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  },
+  {
+    "id": "icon-modular-cabin",
+    "name": "Modular Cabin",
+    "category": "outline-utility",
+    "subject": "prefab modular cabin",
+    "description": "A container-like cabin icon bridging page 5 architecture and page 26 utility icons.",
+    "path": "assets/icons/modular-cabin.svg",
+    "prompt": "Create a 48x48 ARK Prefab outline utility SVG icon for a prefab modular cabin. Use the ARK source-match blue/violet-to-navy diagonal gradient stroke, 3-unit rounded strokes, no fill, rectangular cabin body, roof line, door, window, and base skids. Default to gradientPath for source match. For print mono, use path with currentColor/#091955.",
+    "negativePrompt": "No realistic building render, no shipping-container texture overload, no filled facade, no perspective, no unrelated gradient; keep only the ARK blue/violet-to-navy source-match stroke gradient.",
+    "origin": "extension",
+    "sourcePages": [
+      5,
+      26
+    ],
+    "gradientPath": "assets/icons/gradient/modular-cabin.svg",
+    "gradient": {
+      "type": "linearGradient",
+      "svg": {
+        "x1": 8,
+        "y1": 8,
+        "x2": 40,
+        "y2": 40,
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "cssAngle": "135deg",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#5C66D4",
+          "role": "sampled light blue-violet"
+        },
+        {
+          "offset": "52%",
+          "color": "#2733A1",
+          "role": "sampled mid indigo"
+        },
+        {
+          "offset": "100%",
+          "color": "#051565",
+          "role": "sampled deep navy"
+        }
+      ],
+      "basis": "Sampled from source/graphics PNG crops and source/graphics-contact-sheet.png; extracted icon SVG files contain flattened color shapes, not reusable gradient definitions."
+    }
+  }
+]

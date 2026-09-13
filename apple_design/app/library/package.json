@@ -1,0 +1,29 @@
+{
+  "name": "@local/source-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "description": "Locally authored React design system for the source library prototype.",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/system/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./tokens.css": "./dist/tokens.css",
+    "./components.css": "./dist/components.css",
+    "./tokens.json": "./dist/tokens.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": [
+    "./dist/*.css"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "scope": "All 14 major visual groups visible in provided recording; implementation versus original media labeled",
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Hero & navigation",
+      "videoRange": "0–3초",
+      "frame": 1,
+      "description": "가운데 제목과 양옆 장식, 대기자 등록 폼. 장식 드래그·등장·흔들림과 nav 패널을 각각 구현했습니다.",
+      "previewId": "hero-entry-shapes",
+      "group": "hero"
+    },
+    {
+      "id": "bento",
+      "title": "Explore · five cards",
+      "videoRange": "4–7초",
+      "frame": 3,
+      "description": "Easy / Secure / Fast / Powerful / Fun. 단순 레이아웃뿐 아니라 2초 간격의 내부 상태 변화를 개별 썸네일로 제공합니다.",
+      "previewId": "backup-success",
+      "group": "bento"
+    },
+    {
+      "id": "transfer",
+      "title": "Send · Receive · Swap",
+      "videoRange": "8–11초",
+      "frame": 5,
+      "description": "3열의 폰 미디어와 아래 캡션. 원본 3개 영상과 전송·수신·교환 아이콘 동작을 함께 제공합니다.",
+      "previewId": "send-receive-swap",
+      "group": "app"
+    },
+    {
+      "id": "features",
+      "title": "Feature copy grid",
+      "videoRange": "10–13초",
+      "frame": 6,
+      "description": "기능명과 짧은 설명으로 이루어진 2열 텍스트 블록. 낮은 대비 배경과 촘촘한 본문 위계가 특징입니다.",
+      "previewId": "layout-features",
+      "group": "static"
+    },
+    {
+      "id": "nft",
+      "title": "The best way to experience NFTs",
+      "videoRange": "13–17초",
+      "frame": 8,
+      "description": "좌측 폰, 우측 골드 라벨·제목·지원 포맷 목록. 영상과 재생/즐겨찾기 컨트롤 재구성을 함께 제공합니다.",
+      "previewId": "nft-progress-star",
+      "group": "app"
+    },
+    {
+      "id": "watch",
+      "title": "Watch the wallets you care about",
+      "videoRange": "17–19초",
+      "frame": 10,
+      "description": "Watch 기능을 설명하는 교차 배치. green 체크 리스트, 간결한 설명과 토큰 화면이 대응됩니다.",
+      "previewId": "wallet-assets",
+      "group": "app"
+    },
+    {
+      "id": "activity",
+      "title": "Easy-to-read activity",
+      "videoRange": "19–21초",
+      "frame": 11,
+      "description": "새 거래가 더해지는 리스트, 날짜·아바타·상태 강조. 폰 원본과 작은 활동 목록 예시를 모두 제공합니다.",
+      "previewId": "activity-addition",
+      "group": "app"
+    },
+    {
+      "id": "security",
+      "title": "Relentless protection. Restful ease.",
+      "videoRange": "21–23초",
+      "frame": 12,
+      "description": "구름과 파란 자물쇠 일러스트. 현재 사이트의 보안 마스코트 SVG도 별도로 보존했습니다.",
+      "previewId": "padlock-security",
+      "group": "illustration"
+    },
+    {
+      "id": "management",
+      "title": "Effortless onboarding. Masterful management.",
+      "videoRange": "24–27초",
+      "frame": 14,
+      "description": "온보딩 / Mission Control / 드래그 정리의 3열 구성. 원본 세 영상과 실제로 움직일 수 있는 그룹·재정렬 컨트롤이 있습니다.",
+      "previewId": "wallet-drag-reorder",
+      "group": "app"
+    },
+    {
+      "id": "articles",
+      "title": "The latest from Family",
+      "videoRange": "27–29초",
+      "frame": 15,
+      "description": "2열 이미지 카드에 메타 정보와 설명을 붙입니다. 이미지에만 1.02배 hover를 적용하는 원본 규칙을 시연합니다.",
+      "previewId": "article-hover",
+      "group": "content"
+    },
+    {
+      "id": "details",
+      "title": "Details that matter",
+      "videoRange": "29–38초",
+      "frame": 17,
+      "description": "Monitor / Protect / Organise / See Clearly 네 가지. 거래 카드 겹침, 보호 배지, 토큰 수치, 그룹 표시를 개별 상태 루프로 구현했습니다.",
+      "previewId": "transaction-toast",
+      "group": "details"
+    },
+    {
+      "id": "testimonials",
+      "title": "Friends of Family",
+      "videoRange": "39–42초",
+      "frame": 21,
+      "description": "후기 카드 레일과 양끝의 fade mask. 120초 선형 반복을 재현하고 일시정지와 모션 감소 설정을 제공합니다.",
+      "previewId": "testimonial-rail",
+      "group": "content"
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "videoRange": "43–45초",
+      "frame": 23,
+      "description": "질문을 누르면 한 항목만 열리는 아코디언. +/−, 답변 높이와 투명도가 서로 다른 spring으로 변합니다.",
+      "previewId": "faq-accordion",
+      "group": "content"
+    },
+    {
+      "id": "footer",
+      "title": "Explore Family · footer",
+      "videoRange": "45–46.85초",
+      "frame": 23,
+      "description": "마지막 CTA와 잘린 장식 그래픽. viewport 진입 시 시작하는 도형별 stagger를 추가 구현했습니다.",
+      "previewId": "footer-reveal",
+      "group": "hero"
+    }
+  ]
+}

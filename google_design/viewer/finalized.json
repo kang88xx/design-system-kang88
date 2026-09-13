@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-09-13T03:54:06.146Z",
+  "schemaVersion": "1.0.0",
+  "services": [
+    "gmail",
+    "calendar",
+    "drive",
+    "meet",
+    "finance"
+  ],
+  "counts": {
+    "services": 5,
+    "components": 19,
+    "interactions": 14,
+    "interactionSamples": 14
+  },
+  "source": "data/curated/catalog.json",
+  "catalogSha256": "8e57063711a626e2d5a2a5b18da53a35ea32abe9d652eb869cfc6636ca960c84",
+  "templateSha256": "15074766d568494bc4ea6e2bf5ecbf7cd270d9eb5a117e1cd748aa5327f24244",
+  "viewerSha256": "5621c4d0c07cc79f3cd4c3e77f52d075a3bc37abf3e06c093afb0bb4cbb57615",
+  "viewerBytes": 449583,
+  "inputsSha256": {
+    "data/curated/catalog.json": "8e57063711a626e2d5a2a5b18da53a35ea32abe9d652eb869cfc6636ca960c84",
+    "viewer/template.html": "15074766d568494bc4ea6e2bf5ecbf7cd270d9eb5a117e1cd748aa5327f24244",
+    "data/curated/tokens.css": "1e16773e7fe9149d9ffeb10279bbf07abc87f0f174cf65bf9528ea1cbcb300b8",
+    "viewer/workbench.css": "8f54e6289065baa142869f3f78ec83f713d57ed87de2509a99351911d4200f7f",
+    "viewer/workbench.js": "7499c712385fab10399866e721a78006a52a78efb27e25627fbd9f71ed472cae",
+    "viewer/interaction-workbench.css": "fa5515ca5cb5e107a605d71409bde4cce89900b3e322995b08938ede4b309698",
+    "viewer/interaction-workbench.js": "93feaf63363256caeb118abd3ccf0d63c46dc79d1001f9dfca77a64010e8a4b5"
+  }
+}

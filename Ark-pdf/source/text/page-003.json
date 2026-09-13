@@ -1,0 +1,1889 @@
+{
+  "page": 3,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\nCONTENTS\n\n01     About Ark Prefab\n\n3\n\n06     After-Sales Service & Support\n\n03     Core Services & Solutions\n\n04     Manufacturing &\nProduction Capabilities\n\n05     Project Case Studies\n\n07     Partners & Clients\n\n08     Contact Us\n\n• Time Line\n• Our Mission/Vision/Core\nValue\n• Our Team\n• Our Department\n\n02     Industry Status Analysis\n• History\n• Present\n• Future\n• Advantages of Modular\nBuildings\n\n• Flatpack\n• Ready Box\n• Bathroom Pod\n• Storage Cabin\n• Work Flow\n• Customized Solutions for\nDifferent Markets\n\n• Production Capacity\n• Quality Control, and Safety\nStandards\n\n07     Partners & clients\n\n• Technip Offices & Food\nServicing Building\n• CCC (Camp)\n• Technip Camp\n• Qatar Energy – Lng Site\nOffices & Food Service\nBuilding\n• Technip Site Offices\n• Other Case\n\n• Commitment and Process of\nAfter-Sales Maintenance\nServices\n\n• Our World Layout\n• Contact Methods",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "CONTENTS",
+      "bbox": [
+        76.833,
+        64.576,
+        552.748,
+        159.946
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        76.833,
+        142.946
+      ]
+    },
+    {
+      "text": "01     About Ark Prefab",
+      "bbox": [
+        966.833,
+        69.857,
+        1195.473,
+        92.297
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.833,
+        88.297
+      ]
+    },
+    {
+      "text": "3",
+      "bbox": [
+        1860.346,
+        45.176,
+        1866.556,
+        56.496
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#FF9301",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1860.346,
+        54.496
+      ]
+    },
+    {
+      "text": "06     After-Sales Service & Support",
+      "bbox": [
+        1424.833,
+        391.437,
+        1781.573,
+        413.877
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.833,
+        409.877
+      ]
+    },
+    {
+      "text": "03     Core Services & Solutions",
+      "bbox": [
+        966.833,
+        492.477,
+        1280.553,
+        514.917
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.833,
+        510.917
+      ]
+    },
+    {
+      "text": "04     Manufacturing &   ",
+      "bbox": [
+        966.833,
+        757.099,
+        1207.513,
+        779.539
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.833,
+        775.539
+      ]
+    },
+    {
+      "text": "          Production Capabilities",
+      "bbox": [
+        966.833,
+        783.339,
+        1262.113,
+        805.779
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.833,
+        801.779
+      ]
+    },
+    {
+      "text": "05     Project Case Studies",
+      "bbox": [
+        1424.833,
+        69.857,
+        1688.653,
+        92.297
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.833,
+        88.297
+      ]
+    },
+    {
+      "text": "07     Partners & Clients",
+      "bbox": [
+        1424.833,
+        548.128,
+        1659.853,
+        570.568
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.833,
+        566.568
+      ]
+    },
+    {
+      "text": "08     Contact Us",
+      "bbox": [
+        1424.833,
+        626.852,
+        1592.713,
+        649.292
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.833,
+        645.292
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1018.833,
+        101.016,
+        1030.395,
+        128.027
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1018.833,
+        123.107
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1030.395,
+        103.756,
+        1038.833,
+        127.107
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1030.395,
+        123.107
+      ]
+    },
+    {
+      "text": "Time Line ",
+      "bbox": [
+        1038.833,
+        103.756,
+        1139.973,
+        125.716
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1038.833,
+        121.716
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1018.833,
+        127.252,
+        1030.395,
+        154.263
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1018.833,
+        149.343
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1030.395,
+        129.992,
+        1038.833,
+        153.343
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1030.395,
+        149.343
+      ]
+    },
+    {
+      "text": "Our Mission/Vision/Core ",
+      "bbox": [
+        1038.833,
+        129.992,
+        1285.453,
+        151.952
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1038.833,
+        147.952
+      ]
+    },
+    {
+      "text": "Value ",
+      "bbox": [
+        1038.833,
+        156.232,
+        1098.833,
+        178.192
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1038.833,
+        174.192
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1018.833,
+        179.724,
+        1030.395,
+        206.735
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1018.833,
+        201.815
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1030.395,
+        182.464,
+        1038.833,
+        205.815
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1030.395,
+        201.815
+      ]
+    },
+    {
+      "text": "Our Team ",
+      "bbox": [
+        1038.833,
+        182.464,
+        1140.533,
+        204.424
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1038.833,
+        200.424
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1018.833,
+        205.96,
+        1030.395,
+        232.971
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1018.833,
+        228.051
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1030.395,
+        208.7,
+        1038.833,
+        232.051
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1030.395,
+        228.051
+      ]
+    },
+    {
+      "text": "Our Department",
+      "bbox": [
+        1038.833,
+        208.7,
+        1201.053,
+        230.66
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1038.833,
+        226.66
+      ]
+    },
+    {
+      "text": "02     Industry Status Analysis",
+      "bbox": [
+        966.833,
+        279.024,
+        1264.133,
+        301.464
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        966.833,
+        297.464
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        310.04,
+        1032.395,
+        337.05
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        332.13
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        312.779,
+        1040.833,
+        336.13
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        332.13
+      ]
+    },
+    {
+      "text": "History ",
+      "bbox": [
+        1040.833,
+        312.779,
+        1117.013,
+        334.739
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        330.739
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        336.275,
+        1032.395,
+        363.286
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        358.366
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        339.015,
+        1040.833,
+        362.366
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        358.366
+      ]
+    },
+    {
+      "text": "Present ",
+      "bbox": [
+        1040.833,
+        339.015,
+        1121.253,
+        360.975
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        356.975
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        362.512,
+        1032.395,
+        389.522
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        384.602
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        365.251,
+        1040.833,
+        388.602
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        384.602
+      ]
+    },
+    {
+      "text": "Future ",
+      "bbox": [
+        1040.833,
+        365.251,
+        1111.653,
+        387.211
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        383.211
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        388.748,
+        1032.395,
+        415.758
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        410.838
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        391.487,
+        1040.833,
+        414.838
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        410.838
+      ]
+    },
+    {
+      "text": "Advantages of Modular ",
+      "bbox": [
+        1040.833,
+        391.487,
+        1276.633,
+        413.447
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        409.447
+      ]
+    },
+    {
+      "text": "Buildings",
+      "bbox": [
+        1040.833,
+        417.727,
+        1131.073,
+        439.687
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        435.687
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        528.96,
+        1032.395,
+        555.97
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        551.05
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        531.699,
+        1040.833,
+        555.05
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        551.05
+      ]
+    },
+    {
+      "text": "Flatpack ",
+      "bbox": [
+        1040.833,
+        531.699,
+        1131.613,
+        553.659
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        549.659
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        555.196,
+        1032.395,
+        582.206
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        577.286
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        557.935,
+        1040.833,
+        581.286
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        577.286
+      ]
+    },
+    {
+      "text": "Ready Box ",
+      "bbox": [
+        1040.833,
+        557.935,
+        1153.153,
+        579.895
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        575.895
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        581.432,
+        1032.395,
+        608.442
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        603.522
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        584.171,
+        1040.833,
+        607.522
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        603.522
+      ]
+    },
+    {
+      "text": "Bathroom Pod ",
+      "bbox": [
+        1040.833,
+        584.171,
+        1190.293,
+        606.131
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        602.131
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        607.668,
+        1032.395,
+        634.679
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        629.759
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        610.407,
+        1040.833,
+        633.759
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        629.759
+      ]
+    },
+    {
+      "text": "Storage Cabin ",
+      "bbox": [
+        1040.833,
+        610.407,
+        1186.573,
+        632.367
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        628.367
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        633.904,
+        1032.395,
+        660.914
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        655.995
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        636.643,
+        1040.833,
+        659.995
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        655.995
+      ]
+    },
+    {
+      "text": "Work Flow ",
+      "bbox": [
+        1040.833,
+        636.643,
+        1153.193,
+        658.603
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        654.603
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        660.14,
+        1032.395,
+        687.15
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        682.23
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        662.879,
+        1040.833,
+        686.23
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        682.23
+      ]
+    },
+    {
+      "text": "Customized Solutions for ",
+      "bbox": [
+        1040.833,
+        662.879,
+        1294.413,
+        684.839
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        680.839
+      ]
+    },
+    {
+      "text": "Different Markets",
+      "bbox": [
+        1040.833,
+        689.119,
+        1210.013,
+        711.079
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        707.079
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        818.955,
+        1032.395,
+        845.966
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        841.046
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        821.695,
+        1040.833,
+        845.046
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        841.046
+      ]
+    },
+    {
+      "text": "Production Capacity ",
+      "bbox": [
+        1040.833,
+        821.695,
+        1248.493,
+        843.655
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        839.655
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1020.833,
+        845.191,
+        1032.395,
+        872.202
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1020.833,
+        867.282
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1032.395,
+        847.931,
+        1040.833,
+        871.282
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1032.395,
+        867.282
+      ]
+    },
+    {
+      "text": "Quality Control, and Safety ",
+      "bbox": [
+        1040.833,
+        847.931,
+        1312.493,
+        869.891
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        865.891
+      ]
+    },
+    {
+      "text": "Standards",
+      "bbox": [
+        1040.833,
+        874.171,
+        1140.593,
+        896.131
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1040.833,
+        892.131
+      ]
+    },
+    {
+      "text": "07     Partners & clients",
+      "bbox": [
+        1424.833,
+        548.128,
+        1656.513,
+        570.568
+      ],
+      "font": "Gotham-Medium",
+      "size": 20.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1424.833,
+        566.568
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1481.999,
+        103.016,
+        1493.561,
+        130.027
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1481.999,
+        125.107
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1493.561,
+        105.756,
+        1501.999,
+        129.107
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1493.561,
+        125.107
+      ]
+    },
+    {
+      "text": "Technip Offices & Food ",
+      "bbox": [
+        1501.999,
+        105.756,
+        1736.799,
+        127.716
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        123.716
+      ]
+    },
+    {
+      "text": "Servicing Building ",
+      "bbox": [
+        1501.999,
+        131.996,
+        1685.259,
+        153.956
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        149.956
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1481.999,
+        155.488,
+        1493.561,
+        182.499
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1481.999,
+        177.579
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1493.561,
+        158.228,
+        1501.999,
+        181.579
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1493.561,
+        177.579
+      ]
+    },
+    {
+      "text": "CCC (Camp) ",
+      "bbox": [
+        1501.999,
+        158.228,
+        1631.939,
+        180.188
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        176.188
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1481.999,
+        181.724,
+        1493.561,
+        208.735
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1481.999,
+        203.815
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1493.561,
+        184.464,
+        1501.999,
+        207.815
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1493.561,
+        203.815
+      ]
+    },
+    {
+      "text": "Technip Camp ",
+      "bbox": [
+        1501.999,
+        184.464,
+        1648.519,
+        206.424
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        202.424
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1481.999,
+        207.96,
+        1493.561,
+        234.971
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1481.999,
+        230.051
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1493.561,
+        210.7,
+        1501.999,
+        234.051
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1493.561,
+        230.051
+      ]
+    },
+    {
+      "text": "Qatar Energy – Lng Site ",
+      "bbox": [
+        1501.999,
+        210.7,
+        1743.219,
+        232.66
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        228.66
+      ]
+    },
+    {
+      "text": "Offices & Food Service ",
+      "bbox": [
+        1501.999,
+        236.94,
+        1732.639,
+        258.9
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        254.9
+      ]
+    },
+    {
+      "text": "Building ",
+      "bbox": [
+        1501.999,
+        263.18,
+        1588.299,
+        285.14
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        281.14
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1481.999,
+        286.668,
+        1493.561,
+        313.679
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1481.999,
+        308.759
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1493.561,
+        289.408,
+        1501.999,
+        312.759
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1493.561,
+        308.759
+      ]
+    },
+    {
+      "text": "Technip Site Offices ",
+      "bbox": [
+        1501.999,
+        289.408,
+        1702.419,
+        311.368
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        307.368
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1481.999,
+        312.904,
+        1493.561,
+        339.915
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1481.999,
+        334.995
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1493.561,
+        315.644,
+        1501.999,
+        338.995
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1493.561,
+        334.995
+      ]
+    },
+    {
+      "text": "Other Case",
+      "bbox": [
+        1501.999,
+        315.644,
+        1612.799,
+        337.604
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1501.999,
+        333.604
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1483.999,
+        424.452,
+        1495.561,
+        451.463
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1483.999,
+        446.543
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1495.561,
+        427.192,
+        1503.999,
+        450.543
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1495.561,
+        446.543
+      ]
+    },
+    {
+      "text": "Commitment and Process of ",
+      "bbox": [
+        1503.999,
+        427.192,
+        1790.459,
+        449.152
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1503.999,
+        445.152
+      ]
+    },
+    {
+      "text": "After-Sales Maintenance ",
+      "bbox": [
+        1503.999,
+        453.432,
+        1749.319,
+        475.392
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1503.999,
+        471.392
+      ]
+    },
+    {
+      "text": "Services",
+      "bbox": [
+        1503.999,
+        479.672,
+        1585.839,
+        501.632
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1503.999,
+        497.632
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1483.999,
+        665.045,
+        1495.561,
+        692.056
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1483.999,
+        687.136
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1495.561,
+        667.785,
+        1503.999,
+        691.136
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1495.561,
+        687.136
+      ]
+    },
+    {
+      "text": "Our World Layout ",
+      "bbox": [
+        1503.999,
+        667.785,
+        1686.659,
+        689.745
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1503.999,
+        685.745
+      ]
+    },
+    {
+      "text": "•",
+      "bbox": [
+        1483.999,
+        691.281,
+        1495.561,
+        718.292
+      ],
+      "font": "Gotham-Light",
+      "size": 24.6,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1483.999,
+        713.372
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1495.561,
+        694.021,
+        1503.999,
+        717.372
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1495.561,
+        713.372
+      ]
+    },
+    {
+      "text": "Contact Methods",
+      "bbox": [
+        1503.999,
+        694.021,
+        1673.759,
+        715.981
+      ],
+      "font": "Gotham-Light",
+      "size": 20.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1503.999,
+        711.981
+      ]
+    }
+  ]
+}

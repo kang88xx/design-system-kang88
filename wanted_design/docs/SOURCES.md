@@ -1,0 +1,42 @@
+# Sources
+
+## Primary
+
+- [Montage documentation](https://montage.wanted.co.kr/)
+- [Terms of use](https://montage.wanted.co.kr/docs/getting-started/terms-of-use)
+
+## Linked resources
+
+- [원티드의 목소리, 원티드 산스를 소개해요.by Wanted Design System Team](https://brunch.co.kr/@wanteddesign/28)
+- [Wanted Design System 제작기를 소개해요.by Wanted Design System Team](https://brunch.co.kr/@wanteddesign/37)
+- [메이커를 위한 메이커들의 인터뷰를 소개해요.by Wanted Design System Team](https://brunch.co.kr/@wanteddesign/38)
+- [dayjs](https://day.js.org/docs/en/timezone/timezone)
+- [getAnimations](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAnimations)
+- [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat)
+- [Emotion](https://emotion.sh/docs/class-names)
+- [react-hook-form](https://github.com/orgs/react-hook-form/discussions/5858)
+- [Pretendard JP](https://github.com/orioncactus/pretendard)
+- [Android](https://github.com/wanteddev/montage-android/blob/main/GETTING_STARTED.en.md)
+- [Android](https://github.com/wanteddev/montage-android/releases/latest)
+- [iOS](https://github.com/wanteddev/montage-ios/blob/main/GETTINGSTARTED.md)
+- [iOS](https://github.com/wanteddev/montage-ios/releases/latest)
+- [Web](https://github.com/wanteddev/montage-web/blob/main/packages/wds/README.md)
+- [Web](https://github.com/wanteddev/montage-web/releases/latest)
+- [MIT 라이선스](https://opensource.org/license/MIT)
+- [React 공식 문서](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components)
+- [@tanstack/react-virtual](https://tanstack.com/virtual/latest)
+- [캡션HeadingCaptionSub captionExtra caption](https://wanted.co.kr/)
+- [Wanted Figma UI Kit](https://www.figma.com/community/file/1355516515676178246)
+- [Native Platform UI KIT for FigmaLast Updated. 2026.03.09](https://www.figma.com/community/file/1509019654708670821)
+- [aria-hidden](https://www.npmjs.com/package/aria-hidden)
+- [WAI-ARIA Accordion Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/)
+- [WAI-ARIA Alert Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/alert/)
+- [WAI-ARIA button Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/button/)
+- [WAI-ARIA Checkbox Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/)
+- [WAI-ARIA Combobox Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/)
+- [WAI-ARIA Datepicker dialog](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/)
+- [WAI-ARIA Radio Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/radio/)
+- [WAI-ARIA Slider Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/)
+- [WAI-ARIA Switch Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/switch/)
+- [WAI-ARIA Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)
+- [https://www.wanted.co.kr/](https://www.wanted.co.kr/)

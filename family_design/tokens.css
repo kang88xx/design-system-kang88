@@ -1,0 +1,106 @@
+/* Extracted from family.co, 2026-09-06. Original names and fallbacks preserved. */
+:root {
+  --app-green: #34C759;
+  --app-gray: #747484;
+  --app-blue: #018DFF;
+  --app-pink: #F966AC;
+  --graphic-green: #44C67F;
+  --graphic-blue: #7DC4FF;
+  --graphic-blue-alt: #4DAFFF;
+  --graphic-blue-pale: #8ECCFF;
+  --graphic-blue-pale-alt: #6DBDFF;
+  --graphic-purple: #5F5DE7;
+  --graphic-yellow: #FFCF7B;
+  --graphic-gold: #F5B442;
+  --graphic-gold-alt: #FFA620;
+  --graphic-yellow-pale: #F6F4EF;
+  --graphic-black: #343433;
+  --graphic-gray: #E2D6C5;
+  --graphic-stone: #F2EBE0;
+  --graphic-orange: #FF5310;
+  --graphic-outline: #B2A79A;
+  --pocket: #52CB58;
+  --heading: #343433;
+  --body: #494440;
+  --body-muted: #848281;
+  --gray: #747484;
+  --gray-light: #F2F0ED;
+  --beige: #FBFAF9;
+  --beige-dark: #EAEAEA;
+  --focus: #848281;
+  --white: #FFFFFF;
+  --blue: #3784F4;
+  --blue-light: #EEFBFD;
+  --green: #44C67F;
+  --yellow: #FFBE4C;
+  --gold: #CA9230;
+  --orange: #FF5310;
+  --orange-dark: #FF2B00;
+  --red: #EF4444;
+  --purple: #9553F9;
+  --twitter-blue: #343433;
+  --color-anchor: #6187FE;
+  --color-primary: #343433;
+  --color-text: #343433;
+  --color-border: #E8E8E8;
+  --color-valid: #00C454;
+  --background-valid: rgba(0,196,84,0.1);
+  --color-invalid: #FF4E4E;
+  --background-invalid: #FFF0F0;
+  --color-warning: #F6C30F;
+  --background-warning: #FEFAE6;
+}
+@supports (color: color(display-p3 1 1 1)) {
+  :root {
+    --app-green: color(display-p3 0.20392156862745098 0.7803921568627451 0.34901960784313724);
+    --app-gray: color(display-p3 0.4549019607843137 0.4549019607843137 0.5176470588235295);
+    --app-blue: color(display-p3 0.00392156862745098 0.5529411764705883 1);
+    --app-pink: color(display-p3 0.9764705882352941 0.4 0.6745098039215687);
+    --graphic-green: color(display-p3 0.26666666666666666 0.7764705882352941 0.4980392156862745);
+    --graphic-blue: color(display-p3 0.49019607843137253 0.7686274509803922 1);
+    --graphic-blue-alt: color(display-p3 0.30196078431372547 0.6862745098039216 1);
+    --graphic-blue-pale: color(display-p3 0.5568627450980392 0.8 1);
+    --graphic-blue-pale-alt: color(display-p3 0.42745098039215684 0.7411764705882353 1);
+    --graphic-purple: color(display-p3 0.37254901960784315 0.36470588235294116 0.9058823529411765);
+    --graphic-yellow: color(display-p3 1 0.8117647058823529 0.4823529411764706);
+    --graphic-gold: color(display-p3 0.9607843137254902 0.7058823529411765 0.25882352941176473);
+    --graphic-gold-alt: color(display-p3 1 0.6509803921568628 0.12549019607843137);
+    --graphic-yellow-pale: color(display-p3 0.9647058823529412 0.9568627450980393 0.9372549019607843);
+    --graphic-black: color(display-p3 0.20392156862745098 0.20392156862745098 0.2);
+    --graphic-gray: color(display-p3 0.8862745098039215 0.8392156862745098 0.7725490196078432);
+    --graphic-stone: color(display-p3 0.9490196078431372 0.9215686274509803 0.8784313725490196);
+    --graphic-orange: color(display-p3 1 0.3254901960784314 0.06274509803921569);
+    --graphic-outline: color(display-p3 0.6980392156862745 0.6549019607843137 0.6039215686274509);
+    --pocket: color(display-p3 0.3215686274509804 0.796078431372549 0.34509803921568627);
+    --heading: color(display-p3 0.20392156862745098 0.20392156862745098 0.2);
+    --body: color(display-p3 0.28627450980392155 0.26666666666666666 0.25098039215686274);
+    --body-muted: color(display-p3 0.5176470588235295 0.5098039215686274 0.5058823529411764);
+    --gray: color(display-p3 0.4549019607843137 0.4549019607843137 0.5176470588235295);
+    --gray-light: color(display-p3 0.9490196078431372 0.9411764705882353 0.9294117647058824);
+    --beige: color(display-p3 0.984313725490196 0.9803921568627451 0.9764705882352941);
+    --beige-dark: color(display-p3 0.9176470588235294 0.9176470588235294 0.9176470588235294);
+    --focus: color(display-p3 0.5176470588235295 0.5098039215686274 0.5058823529411764);
+    --white: color(display-p3 1 1 1);
+    --blue: color(display-p3 0.21568627450980393 0.5176470588235295 0.9568627450980393);
+    --blue-light: color(display-p3 0.9333333333333333 0.984313725490196 0.9921568627450981);
+    --green: color(display-p3 0.26666666666666666 0.7764705882352941 0.4980392156862745);
+    --yellow: color(display-p3 1 0.7450980392156863 0.2980392156862745);
+    --gold: color(display-p3 0.792156862745098 0.5725490196078431 0.18823529411764706);
+    --orange: color(display-p3 1 0.3254901960784314 0.06274509803921569);
+    --orange-dark: color(display-p3 1 0.16862745098039217 0);
+    --red: color(display-p3 0.9372549019607843 0.26666666666666666 0.26666666666666666);
+    --purple: color(display-p3 0.5843137254901961 0.3254901960784314 0.9764705882352941);
+    --twitter-blue: color(display-p3 0.20392156862745098 0.20392156862745098 0.2);
+  }
+}
+/* Normalized extraction aliases; names are not original source tokens. */
+:root {
+  --family-font-display: "Family", Arial, sans-serif;
+  --family-font-body: "Inter", Arial, sans-serif;
+  --family-content-max: 1024px;
+  --family-gutter: 24px;
+  --family-duration-nav: 200ms;
+  --family-duration-dropdown: 100ms;
+  --family-duration-transform: 220ms;
+  --family-ease-out: cubic-bezier(.19,1,.22,1);
+}

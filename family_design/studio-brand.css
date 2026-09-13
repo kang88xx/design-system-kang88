@@ -1,0 +1,194 @@
+/* ==========================================================================
+   Studio shell — Family 브랜드 매핑 + 기존 셸 규칙 무력화.
+   규격: ../All/shell/SPEC.md  ·  뼈대: studio-shell.css / studio-shell.js
+   - 이 파일은 반드시 catalog.css / catalog-v2.css 뒤에 로드한다(옛 사이드바·상단바
+     규칙이 새 셸을 덮어쓰지 않도록 무력화하는 역할을 겸한다).
+   - shell.css의 치수·간격·타입 크기는 바꾸지 않고, --as-* 토큰만 Family 값으로 맞춘다.
+   ========================================================================== */
+:root {
+  --as-font-display: Family, Arial, sans-serif;
+  --as-font-text: Inter, Arial, sans-serif;
+  --as-font-mono: ui-monospace, monospace;
+  --as-ink: #343433;
+  --as-ink-2: #494440;
+  --as-ink-3: #686460;
+  --as-muted: #848281;
+  --as-faint: #8a847d;
+  --as-faint-2: #a39c94;
+  --as-line: #edeae6;
+  --as-line-strong: #e6e2db;
+  --as-accent: #171717;
+  --as-accent-hover: #343433;
+  --as-accent-active: #121212;
+  --as-link: #6187fe;
+  --as-on-accent: #ffffff;
+  --as-bg: #ffffff;
+  --as-surface: #f6f4ef;
+  --as-sidebar-bg: #fbfaf9;
+  --as-nav-hover: #f2efea;
+  --as-nav-active-bg: #efece7;
+  --as-nav-active-ink: #343433;
+  --as-status: #44c67f;
+  --as-selection: #f0e5d3;
+  --as-toast-bg: #343433;
+  --as-toast-ink: #ffffff;
+}
+
+/* 앵커 스크롤이 sticky 상단바 밑으로 숨지 않도록 */
+html { scroll-padding-top: 92px; }
+
+/* ---------- 옛 사이드바 규칙 무력화 (catalog.css / catalog-v2.css) ---------- */
+.as-studio .as-sidebar {
+  width: var(--as-sidebar-w);
+  padding: 0;
+  background: var(--as-sidebar-bg);
+  border-right: 1px solid var(--as-line);
+  z-index: 50;
+}
+.as-studio .as-brand {
+  height: 104px;
+  padding: 0 25px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.2;
+  gap: 12px;
+}
+.as-studio .as-brand:hover { text-decoration: none; }
+.as-studio .as-brand strong { font-size: 19px; font-weight: 600; letter-spacing: -.02em; }
+.as-studio .as-brand .small {
+  display: block; font-size: 11px; font-weight: 400; letter-spacing: 0;
+  color: var(--as-muted); padding-left: 0; margin-top: 4px;
+}
+.as-studio .as-brand-mark { font-size: 24px; line-height: 1; margin-right: 0; vertical-align: baseline; }
+.as-studio .as-sidebar-caption {
+  font-size: 9px; letter-spacing: 1.4px; color: var(--as-faint);
+  margin: -4px 0 12px; padding: 0 12px;
+}
+.as-studio .as-sidebar nav { display: grid; gap: 4px; margin-top: 0; }
+.as-studio .as-sidebar nav a {
+  display: flex; align-items: center; justify-content: flex-start;
+  font-size: 13px; letter-spacing: -.01em; padding: 12px; min-height: 42px; gap: 10px;
+  border-radius: var(--as-radius); text-decoration: none;
+}
+.as-studio .as-sidebar nav a:hover { background: var(--as-nav-hover); text-decoration: none; }
+.as-studio .as-sidebar nav a.active,
+.as-studio .as-sidebar nav a[aria-current] {
+  background: var(--as-nav-active-bg); color: var(--as-nav-active-ink); font-weight: 500;
+}
+.as-studio .as-sidebar nav a .as-nav-index { font-size: 10px; color: var(--as-faint-2); flex: none; }
+.as-studio .as-sidebar nav a .as-nav-count { margin-left: auto; padding-left: 8px; font-size: 10px; color: var(--as-faint-2); }
+.as-studio .as-sidebar nav a.active .as-nav-index,
+.as-studio .as-sidebar nav a[aria-current] .as-nav-index { color: var(--as-nav-active-ink); }
+.as-studio .as-sidebar-bottom {
+  display: flex; align-items: center; gap: 9px;
+  margin-top: auto; padding: 22px 18px; line-height: 1.5;
+  font-size: 10px; color: var(--as-ink-3);
+  border-top: 1px solid var(--as-line);
+}
+.as-studio .as-sidebar-bottom small { display: block; font-size: 9px; color: var(--as-faint); margin-top: 5px; line-height: 1.7; }
+.as-studio .as-sidebar-bottom small a { color: inherit; font-size: 9px; margin-left: 0; }
+.as-studio .as-sidebar-bottom > a:last-child { margin-left: auto; font-size: 17px; }
+.as-studio .as-status-dot { margin-right: 0; }
+
+/* ---------- 본문 폭·여백: 옛 main 규칙 무력화 ---------- */
+.as-studio .as-workspace { margin: 0 auto; max-width: 1400px; padding: 43px 48px 0; }
+.as-studio #overview.intro { padding-top: 0 !important; }
+.as-studio .as-workspace > section:first-of-type { margin-top: 0; padding-top: 0; }
+
+/* ---------- 상단바 ---------- */
+.as-studio .as-topbar a:hover, .as-studio .as-export-button:hover { text-decoration: none; }
+.as-studio .as-topbar-tools .as-motion-toggle {
+  width: auto; min-height: 34px; height: 34px; padding: 0 12px;
+  font-size: 11px; font-weight: 400; letter-spacing: 0; border-radius: var(--as-radius);
+  background: var(--as-bg); color: var(--as-ink); border: 1px solid var(--as-line-strong);
+}
+.as-studio .as-topbar-tools .as-motion-toggle:hover { background: var(--as-surface); }
+.as-studio .as-topbar-tools .as-motion-toggle[aria-pressed="true"] { background: var(--as-surface); color: var(--as-ink); }
+
+/* ---------- 히어로 ---------- */
+.as-studio .as-overview-title { position: relative; }
+.as-studio .as-title-meta {
+  height: auto; border-bottom: 0; justify-content: flex-start; gap: 14px;
+  margin: 0 0 20px; padding: 0; font-size: 10px; letter-spacing: 1.4px; color: var(--as-faint);
+}
+.as-studio .as-eyebrow {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 0; letter-spacing: 1.7px; color: var(--as-muted);
+}
+.as-studio .as-overview-title .as-eyebrow { color: #a27634; }
+.as-studio .as-overview-title h1 { font-size: 56px; line-height: 1.1; letter-spacing: -.03em; margin: 20px 0 0; }
+.as-studio .as-intro { font-size: 19px; line-height: 1.55; color: var(--as-muted); margin: 10px 0 0; max-width: 720px; }
+.as-studio .as-title-actions { margin-top: 27px; }
+.as-studio .as-title-actions .as-button {
+  min-height: 36px; padding: 8px 18px; font-size: 13px; font-weight: 500;
+  border-radius: var(--as-radius-pill); gap: 8px;
+}
+.as-studio .as-title-actions .as-button:hover { text-decoration: none; }
+/* shell.css의 .as-studio a{color:inherit} 가 1차 CTA 글자색을 덮지 않도록 */
+.as-studio a.as-button { color: var(--as-on-accent); }
+.as-studio .as-title-actions .as-text-command:hover { text-decoration: none; }
+.as-studio .as-overview-title .intro-stickers { top: auto; bottom: -10px; right: 0; }
+.as-studio .as-stats-strip { margin: 36px 0 0; }
+.as-studio .as-stats-strip strong { letter-spacing: -.02em; }
+.as-studio #overview .tag-row { margin: 26px 0 22px; }
+.as-studio #overview .note { margin-bottom: 0; }
+
+/* ---------- 섹션 머리 ---------- */
+.as-studio .as-section-heading { align-items: flex-start; gap: 25px; margin-bottom: 22px; }
+.as-studio .as-section-heading h2 { font-size: 22px; letter-spacing: -.02em; margin: 0 0 0; }
+.as-studio .as-section-heading .section-label { margin-bottom: 13px; }
+.as-studio .as-section-heading p { font-size: 14px; color: var(--as-muted); margin: 12px 0 0; max-width: 760px; }
+.as-studio .as-workspace:not(.as-page-overview) > .as-section-heading:first-child h2 { font-size: 36px; }
+.as-studio .as-section-heading > .count-bubble { flex: none; }
+.as-studio .as-section-heading > button { flex-shrink: 0; margin-top: 5px; }
+
+/* ---------- 푸터 ---------- */
+.as-studio .as-studio-footer { padding: 26px 0; margin-top: 34px; font-size: 10px; color: var(--as-faint-2); }
+
+/* ---------- 반응형: 옛 값 무력화 ---------- */
+@media (min-width: 1600px) {
+  .as-studio .as-workspace { padding-top: 50px; margin: 0 auto; }
+}
+@media (max-width: 1200px) {
+  .as-studio .as-workspace { padding: 35px 30px 0; }
+}
+@media (max-width: 920px) {
+  .as-studio .as-sidebar { width: 190px; padding: 0; }
+  .as-studio .as-main-shell { margin-left: 190px; }
+  .as-studio .as-brand { padding: 0 18px; }
+  .as-studio .as-workspace { margin: 0 auto; padding: 30px 22px 0; }
+  .as-studio .as-overview-title h1 { font-size: 48px; }
+  .as-studio .intro-stickers { display: none; }
+}
+@media (max-width: 680px) {
+  /* catalog.css가 680px 밑에서 사이드바를 문서 흐름으로 되돌리는 것을 막는다 */
+  .as-studio .as-sidebar {
+    position: fixed; inset: 0 auto 0 0; padding: 0;
+    border-right: 1px solid var(--as-line); border-bottom: 0;
+  }
+  .as-studio .as-sidebar nav { display: grid; overflow: visible; gap: 4px; margin-top: 0; }
+  .as-studio .as-sidebar nav a { white-space: normal; font-size: 13px; padding: 12px; }
+  .as-studio .as-sidebar nav a span { display: inline; }
+  .as-studio .as-sidebar-caption, .as-studio .as-sidebar-bottom { display: flex; }
+  .as-studio .as-sidebar-caption { display: block; }
+  .as-studio .as-brand { font-size: 14px; }
+  .as-studio .as-brand .small { display: block; margin-left: 0; padding-left: 0; }
+  .as-studio .as-title-meta { height: auto; }
+}
+@media (max-width: 640px) {
+  /* shell.css 버그 우회: .as-sidebar-scrim{display:block} 이 [hidden] 을 이겨서
+     닫힌 상태에서도 클릭을 가로챈다. shell.css 수정 제안은 보고서 참조. */
+  .as-studio .as-sidebar-scrim[hidden] { display: none; }
+  /* 좁은 화면에서 상단바(브레드크럼 + 도구)가 가로 오버플로를 만들지 않도록 */
+  .as-studio .as-breadcrumb { min-width: 0; overflow: hidden; }
+  .as-studio .as-breadcrumb strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .as-studio .as-topbar-tools { flex: none; }
+  .as-studio .as-sidebar { width: 250px; }
+  .as-studio .as-main-shell { margin-left: 0; }
+  .as-studio .as-workspace { margin: 0 auto; padding: 29px 20px 0; }
+  .as-studio .as-title-meta { flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+  .as-studio .as-overview-title h1 { font-size: 40px; }
+  .as-studio .as-intro { font-size: 17px; }
+  .as-studio .as-workspace:not(.as-page-overview) > .as-section-heading:first-child h2 { font-size: 30px; }
+}

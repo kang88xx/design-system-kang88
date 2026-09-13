@@ -1,0 +1,141 @@
+{
+  "page": 34,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n34\nProject Case Studies\n\nCcc Camp Mosque\nCcc Camp Laundry",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "34",
+      "bbox": [
+        1850.508,
+        43.993,
+        1863.608,
+        55.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#FFFFFF",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1850.508,
+        53.313
+      ]
+    },
+    {
+      "text": "Project Case Studies",
+      "bbox": [
+        512.889,
+        41.993,
+        617.349,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        51.313
+      ]
+    },
+    {
+      "text": "Ccc Camp Mosque",
+      "bbox": [
+        110.927,
+        981.153,
+        342.702,
+        1008.828
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        110.927,
+        1003.828
+      ]
+    },
+    {
+      "text": "Ccc Camp Laundry ",
+      "bbox": [
+        1024.927,
+        981.153,
+        1269.352,
+        1008.828
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1024.927,
+        1003.828
+      ]
+    }
+  ]
+}

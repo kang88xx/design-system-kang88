@@ -1,0 +1,6 @@
+import {chromium} from '/home/kang/.claude/skills/gstack/node_modules/playwright/index.mjs';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});const pending=[];const manifest=JSON.parse(await fs.readFile('app/public/extraction.json','utf8'));
+page.on('response',r=>{if(r.status()===200&&/\/flyouts\?|\/suggestions\/defaultlinks\//.test(r.url()))pending.push((async()=>{const url=new URL(r.url());const file=url.pathname.endsWith('/')?url.pathname+'index.json':url.pathname+'.json';const data=await r.body();await fs.mkdir(path.dirname('app/public'+file),{recursive:true});await fs.writeFile('app/public'+file,data);if(!manifest.resources.some(a=>a.file===file))manifest.resources.push({url:r.url(),file});console.log('Saved',file);})());});
+await page.goto('https://www.apple.com/',{waitUntil:'domcontentloaded'});await page.waitForTimeout(1300);await page.locator('.globalnav-link-mac').first().hover();await page.waitForTimeout(400);await page.keyboard.press('Escape');await page.locator('.globalnav-link-search').first().click();await page.waitForTimeout(500);await Promise.all(pending);await fs.writeFile('app/public/extraction.json',JSON.stringify(manifest,null,2));await browser.close();

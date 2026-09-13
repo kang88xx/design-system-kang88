@@ -1,0 +1,24 @@
+{
+  "pages": 22,
+  "projects": 19,
+  "assets": 394,
+  "bytes": 160122862,
+  "errors": 1,
+  "types": {
+    "image/png": 17,
+    "image/vnd.microsoft.icon": 2,
+    "application/manifest+json": 1,
+    "image/svg+xml": 18,
+    "text/css": 1,
+    "text/javascript": 1,
+    "image/jpeg": 3,
+    "video/mp4": 28,
+    "image/webp": 238,
+    "font/woff2": 6,
+    "font/woff": 6,
+    "audio/ogg": 16,
+    "application/octet-stream": 55,
+    "image/aces": 1,
+    "application/json": 1
+  }
+}

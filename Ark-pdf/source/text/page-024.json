@@ -1,0 +1,1186 @@
+{
+  "page": 24,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n24\n\n3m Cabin\n4m Cabin\n5m Cabin\n6m Cabin\n\nDimensions (L x W x H)\n\nCabin Standard Size\n3000*2200*2200mm\n4000*2200*2200mm\n5000*2200*2200mm\n6000*2200*2200mm\n\nDimensions in transport position\n3000*2200*380mm\n4000*2200*380mm\n5000*2200*380mm\n6000*2200*380mm\n\nSquare Metres\n6.6m2\n8.8m2\n11m2\n13.2m2\n\nHeight\n\nExternal Height\n2200mm\n\nInside Height\n2200mm\n\nStructure\n2mn galvanized steel\n\nRoof\n0.75mm galvanized steel sheet\n\nWall\n0.75mm galvanized steel sheet\n\nFloor\n\nFloor finishes\n35mm wooden planks\n\nBottom covering\n0.75mm galyanized steel sheet\n\nDoor type\nDouble-wing steel profile door，1930*1930mm\n\nWeight\n450kg\n560kg\n670kg\n780kg\n\nLoading\nby handling with crane - 1500 kg | by handling with forklift truck - 3000 kg\nof floor surface - 500 kg/m2  | of foor surfacewith stiffeninf - 300 kg/m2\n\nSTORAGE\nCABIN\n\nTechnical Parameters",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "24",
+      "bbox": [
+        1852.961,
+        43.845,
+        1865.931,
+        55.165
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1852.961,
+        53.165
+      ]
+    },
+    {
+      "text": "3m Cabin",
+      "bbox": [
+        749.554,
+        255.35,
+        868.779,
+        283.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        749.554,
+        278.4
+      ]
+    },
+    {
+      "text": "4m Cabin",
+      "bbox": [
+        1050.433,
+        255.35,
+        1171.233,
+        283.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1050.433,
+        278.4
+      ]
+    },
+    {
+      "text": "5m Cabin",
+      "bbox": [
+        1352.837,
+        255.35,
+        1472.162,
+        283.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1352.837,
+        278.4
+      ]
+    },
+    {
+      "text": "6m Cabin",
+      "bbox": [
+        1654.079,
+        255.35,
+        1774.254,
+        283.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1654.079,
+        278.4
+      ]
+    },
+    {
+      "text": "Dimensions (L x W x H)",
+      "bbox": [
+        112.017,
+        339.962,
+        299.649,
+        357.674
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        112.017,
+        354.474
+      ]
+    },
+    {
+      "text": "Cabin Standard Size",
+      "bbox": [
+        427.332,
+        312.462,
+        587.668,
+        330.174
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        427.332,
+        326.974
+      ]
+    },
+    {
+      "text": "3000*2200*2200mm",
+      "bbox": [
+        722.959,
+        312.962,
+        895.375,
+        330.674
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        722.959,
+        327.474
+      ]
+    },
+    {
+      "text": "4000*2200*2200mm",
+      "bbox": [
+        1024.161,
+        312.962,
+        1197.504,
+        330.674
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1024.161,
+        327.474
+      ]
+    },
+    {
+      "text": "5000*2200*2200mm",
+      "bbox": [
+        1326.3,
+        312.962,
+        1498.699,
+        330.674
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1326.3,
+        327.474
+      ]
+    },
+    {
+      "text": "6000*2200*2200mm",
+      "bbox": [
+        1627.687,
+        312.962,
+        1800.646,
+        330.674
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1627.687,
+        327.474
+      ]
+    },
+    {
+      "text": "Dimensions in transport position",
+      "bbox": [
+        378.7,
+        364.87,
+        636.3,
+        382.582
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        378.7,
+        379.382
+      ]
+    },
+    {
+      "text": "3000*2200*380mm",
+      "bbox": [
+        728.319,
+        364.87,
+        890.015,
+        382.582
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        728.319,
+        379.382
+      ]
+    },
+    {
+      "text": "4000*2200*380mm",
+      "bbox": [
+        1029.521,
+        364.87,
+        1192.144,
+        382.582
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1029.521,
+        379.382
+      ]
+    },
+    {
+      "text": "5000*2200*380mm",
+      "bbox": [
+        1331.66,
+        364.87,
+        1493.339,
+        382.582
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1331.66,
+        379.382
+      ]
+    },
+    {
+      "text": "6000*2200*380mm",
+      "bbox": [
+        1633.047,
+        364.87,
+        1795.286,
+        382.582
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1633.047,
+        379.382
+      ]
+    },
+    {
+      "text": "Square Metres",
+      "bbox": [
+        299.779,
+        413.263,
+        413.555,
+        430.975
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        299.779,
+        427.775
+      ]
+    },
+    {
+      "text": "6.6m",
+      "bbox": [
+        785.653,
+        413.263,
+        825.493,
+        430.975
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        785.653,
+        427.775
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        825.493,
+        416.891,
+        832.681,
+        430.175
+      ],
+      "font": "Gotham-Book",
+      "size": 12.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        825.493,
+        427.775
+      ]
+    },
+    {
+      "text": "8.8m",
+      "bbox": [
+        1087.591,
+        414.013,
+        1126.887,
+        431.725
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1087.591,
+        428.525
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1126.887,
+        417.641,
+        1134.075,
+        430.925
+      ],
+      "font": "Gotham-Book",
+      "size": 12.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1126.887,
+        428.525
+      ]
+    },
+    {
+      "text": "11m",
+      "bbox": [
+        1395.57,
+        414.013,
+        1422.242,
+        431.725
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1395.57,
+        428.525
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1422.242,
+        417.641,
+        1429.43,
+        430.925
+      ],
+      "font": "Gotham-Book",
+      "size": 12.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1422.242,
+        428.525
+      ]
+    },
+    {
+      "text": "13.2m",
+      "bbox": [
+        1688.445,
+        414.013,
+        1732.701,
+        431.725
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1688.445,
+        428.525
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1732.701,
+        417.641,
+        1739.889,
+        430.925
+      ],
+      "font": "Gotham-Book",
+      "size": 12.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1732.701,
+        428.525
+      ]
+    },
+    {
+      "text": "Height",
+      "bbox": [
+        179.441,
+        484.687,
+        232.225,
+        502.399
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        179.441,
+        499.199
+      ]
+    },
+    {
+      "text": "External Height",
+      "bbox": [
+        446.004,
+        459.687,
+        568.996,
+        477.399
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        446.004,
+        474.199
+      ]
+    },
+    {
+      "text": "2200mm",
+      "bbox": [
+        1225.427,
+        459.687,
+        1297.907,
+        477.399
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1225.427,
+        474.199
+      ]
+    },
+    {
+      "text": "Inside Height",
+      "bbox": [
+        455.316,
+        508.595,
+        559.684,
+        526.307
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        455.316,
+        523.107
+      ]
+    },
+    {
+      "text": "2200mm",
+      "bbox": [
+        1225.427,
+        508.595,
+        1297.907,
+        526.307
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1225.427,
+        523.107
+      ]
+    },
+    {
+      "text": "Structure",
+      "bbox": [
+        168.825,
+        557.503,
+        242.841,
+        575.215
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        168.825,
+        572.015
+      ]
+    },
+    {
+      "text": "2mn galvanized steel",
+      "bbox": [
+        1178.363,
+        557.503,
+        1344.971,
+        575.215
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1178.363,
+        572.015
+      ]
+    },
+    {
+      "text": "Roof",
+      "bbox": [
+        186.857,
+        606.411,
+        224.809,
+        624.123
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        186.857,
+        620.923
+      ]
+    },
+    {
+      "text": "0.75mm galvanized steel sheet",
+      "bbox": [
+        1139.635,
+        606.411,
+        1383.699,
+        624.123
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1139.635,
+        620.923
+      ]
+    },
+    {
+      "text": "Wall",
+      "bbox": [
+        188.697,
+        655.32,
+        222.969,
+        673.032
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        188.697,
+        669.832
+      ]
+    },
+    {
+      "text": "0.75mm galvanized steel sheet",
+      "bbox": [
+        1139.635,
+        655.32,
+        1383.699,
+        673.032
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1139.635,
+        669.832
+      ]
+    },
+    {
+      "text": "Floor",
+      "bbox": [
+        184.905,
+        729.228,
+        226.761,
+        746.94
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        184.905,
+        743.74
+      ]
+    },
+    {
+      "text": "Floor finishes",
+      "bbox": [
+        454.468,
+        704.228,
+        560.532,
+        721.94
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        454.468,
+        718.74
+      ]
+    },
+    {
+      "text": "35mm wooden planks",
+      "bbox": [
+        1174.379,
+        704.228,
+        1348.955,
+        721.94
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1174.379,
+        718.74
+      ]
+    },
+    {
+      "text": "Bottom covering",
+      "bbox": [
+        440.884,
+        753.136,
+        574.116,
+        770.848
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        440.884,
+        767.648
+      ]
+    },
+    {
+      "text": "0.75mm galyanized steel sheet",
+      "bbox": [
+        1139.603,
+        753.136,
+        1383.731,
+        770.848
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1139.603,
+        767.648
+      ]
+    },
+    {
+      "text": "Door type",
+      "bbox": [
+        316.427,
+        802.044,
+        396.907,
+        819.756
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        316.427,
+        816.556
+      ]
+    },
+    {
+      "text": "Double-wing steel profile door",
+      "bbox": [
+        1076.819,
+        802.132,
+        1318.867,
+        819.844
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1076.819,
+        816.644
+      ]
+    },
+    {
+      "text": "，",
+      "bbox": [
+        1318.867,
+        799.684,
+        1334.867,
+        822.084
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        1318.867,
+        816.644
+      ]
+    },
+    {
+      "text": "1930*1930mm",
+      "bbox": [
+        1334.867,
+        802.132,
+        1446.515,
+        819.844
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1334.867,
+        816.644
+      ]
+    },
+    {
+      "text": "Weight",
+      "bbox": [
+        328.019,
+        850.952,
+        385.315,
+        868.664
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        328.019,
+        865.464
+      ]
+    },
+    {
+      "text": "450kg",
+      "bbox": [
+        783.519,
+        850.952,
+        834.815,
+        868.664
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        783.519,
+        865.464
+      ]
+    },
+    {
+      "text": "560kg",
+      "bbox": [
+        1085.377,
+        850.952,
+        1136.289,
+        868.664
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1085.377,
+        865.464
+      ]
+    },
+    {
+      "text": "670kg",
+      "bbox": [
+        1387.508,
+        850.952,
+        1437.492,
+        868.664
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1387.508,
+        865.464
+      ]
+    },
+    {
+      "text": "780kg",
+      "bbox": [
+        1689.055,
+        850.952,
+        1739.279,
+        868.664
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1689.055,
+        865.464
+      ]
+    },
+    {
+      "text": "Loading",
+      "bbox": [
+        324.339,
+        924.861,
+        388.995,
+        942.573
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        324.339,
+        939.373
+      ]
+    },
+    {
+      "text": "by handling with crane - 1500 kg | by handling with forklift truck - 3000 kg ",
+      "bbox": [
+        662.833,
+        912.861,
+        1260.913,
+        930.573
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        662.833,
+        927.373
+      ]
+    },
+    {
+      "text": "of floor surface - 500 kg/m",
+      "bbox": [
+        662.833,
+        935.395,
+        878.913,
+        953.107
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        662.833,
+        949.907
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        878.913,
+        939.023,
+        886.101,
+        952.307
+      ],
+      "font": "Gotham-Book",
+      "size": 12.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        878.913,
+        949.907
+      ]
+    },
+    {
+      "text": "  | of foor surfacewith stiffeninf - 300 kg/m",
+      "bbox": [
+        886.101,
+        935.395,
+        1225.109,
+        953.107
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        886.101,
+        949.907
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1225.109,
+        939.023,
+        1232.297,
+        952.307
+      ],
+      "font": "Gotham-Book",
+      "size": 12.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1225.109,
+        949.907
+      ]
+    },
+    {
+      "text": "STORAGE ",
+      "bbox": [
+        47.77,
+        27.221,
+        487.135,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "CABIN",
+      "bbox": [
+        47.77,
+        110.249,
+        326.315,
+        205.619
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.619
+      ]
+    },
+    {
+      "text": "Technical Parameters",
+      "bbox": [
+        738.364,
+        40.91,
+        1217.638,
+        91.418
+      ],
+      "font": "Gotham-Light",
+      "size": 46.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        738.364,
+        82.218
+      ]
+    }
+  ]
+}

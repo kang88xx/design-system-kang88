@@ -1,0 +1,1813 @@
+{
+  "page": 19,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\nFLATPACK\n\n19\nTechnical Parameters\n\nFlatpack Size\nL\nW\nH\nL\nW\nH\nHeight\n\nWeight\n\n（KG）\n\nExterior\nInterior\nPackage\n\nType\n\n8’×10’\n2989mm\n\n2435mm\n2590mm\n2810mm\n3100mm\n\n2795mm\n\n2240mm\n2310mm\n2520mm\n2820mm\n\n432mm\n(6 in 1 bundle)\n\n518mm\n(5 in 1 bundle)\n\n648mm\n(4 in 1 bundle)\n\n864mm\n(3 in 1 bundle)\n\n1296mm\n(2 in 1 bundle)\n\n1150\n1350\n\n8’×16’\n2885mm\n4710mm\n1600\n1750\n\n8’×20’\n6055mm\n5860mm\n1950\n2000\n\n8’×24’\n7296mm\n7140mm\n2300\n2400\n\n8’×30’\n9120mm\n8925mm\n2550\n2800\n\n10’×20’\n6055mm\n3000mm\n5860mm\n2880mm\n2020\n2220\n\n1.\nThe mentioned weights are valid for standard configuration and can very depending on configuration and equipment\n2. 6 flatpacks in 1 bundle means there’s no wall panel inside, the others depend on the configuration and equipment\n3. The width of the walkway floors can be customized, but cannot be packed in flatpacks\n4. If transported in flatpacks, one bundle will need 3 standard 20’ GP shipping space.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "FLATPACK",
+      "bbox": [
+        47.77,
+        27.221,
+        497.505,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "19",
+      "bbox": [
+        1853.961,
+        42.845,
+        1864.801,
+        54.165
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1853.961,
+        52.165
+      ]
+    },
+    {
+      "text": "Technical Parameters",
+      "bbox": [
+        740.682,
+        36.89,
+        1219.956,
+        87.398
+      ],
+      "font": "Gotham-Light",
+      "size": 46.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        740.682,
+        78.198
+      ]
+    },
+    {
+      "text": "Flatpack Size",
+      "bbox": [
+        152.012,
+        262.35,
+        319.987,
+        290.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        152.012,
+        285.4
+      ]
+    },
+    {
+      "text": "L",
+      "bbox": [
+        499.763,
+        261.35,
+        515.237,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        499.763,
+        284.4
+      ]
+    },
+    {
+      "text": "W",
+      "bbox": [
+        674.55,
+        261.35,
+        702.45,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        674.55,
+        284.4
+      ]
+    },
+    {
+      "text": "H",
+      "bbox": [
+        860.0,
+        261.35,
+        879.0,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        860.0,
+        284.4
+      ]
+    },
+    {
+      "text": "L",
+      "bbox": [
+        1042.763,
+        261.35,
+        1058.238,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1042.763,
+        284.4
+      ]
+    },
+    {
+      "text": "W",
+      "bbox": [
+        1217.55,
+        261.35,
+        1245.45,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1217.55,
+        284.4
+      ]
+    },
+    {
+      "text": "H",
+      "bbox": [
+        1403.0,
+        261.35,
+        1422.0,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1403.0,
+        284.4
+      ]
+    },
+    {
+      "text": "Height",
+      "bbox": [
+        1551.625,
+        261.35,
+        1635.375,
+        289.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1551.625,
+        284.4
+      ]
+    },
+    {
+      "text": "Weight",
+      "bbox": [
+        1728.987,
+        239.35,
+        1820.012,
+        267.4
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1728.987,
+        262.4
+      ]
+    },
+    {
+      "text": "（",
+      "bbox": [
+        1731.312,
+        276.075,
+        1756.312,
+        311.075
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        1731.312,
+        302.575
+      ]
+    },
+    {
+      "text": "KG",
+      "bbox": [
+        1756.312,
+        279.525,
+        1792.712,
+        307.575
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1756.312,
+        302.575
+      ]
+    },
+    {
+      "text": "）",
+      "bbox": [
+        1792.712,
+        276.075,
+        1817.712,
+        311.075
+      ],
+      "font": "PingFangSC-Regular",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 1.06,
+      "descender": -0.34,
+      "origin": [
+        1792.712,
+        302.575
+      ]
+    },
+    {
+      "text": "Exterior",
+      "bbox": [
+        638.275,
+        336.938,
+        738.725,
+        364.988
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        638.275,
+        359.988
+      ]
+    },
+    {
+      "text": "Interior",
+      "bbox": [
+        1185.188,
+        336.938,
+        1277.813,
+        364.988
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1185.188,
+        359.988
+      ]
+    },
+    {
+      "text": "Package",
+      "bbox": [
+        1540.388,
+        336.938,
+        1646.613,
+        364.988
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1540.388,
+        359.988
+      ]
+    },
+    {
+      "text": "Type",
+      "bbox": [
+        126.236,
+        594.63,
+        164.764,
+        612.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        126.236,
+        609.142
+      ]
+    },
+    {
+      "text": "8’",
+      "bbox": [
+        304.284,
+        409.479,
+        318.284,
+        427.191
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        304.284,
+        423.991
+      ]
+    },
+    {
+      "text": "×",
+      "bbox": [
+        318.284,
+        411.671,
+        327.628,
+        427.671
+      ],
+      "font": "Helvetica",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.77,
+      "descender": -0.23,
+      "origin": [
+        318.284,
+        423.991
+      ]
+    },
+    {
+      "text": "10’",
+      "bbox": [
+        327.628,
+        409.479,
+        348.716,
+        427.191
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        327.628,
+        423.991
+      ]
+    },
+    {
+      "text": "2989mm",
+      "bbox": [
+        472.14,
+        409.63,
+        542.86,
+        427.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        472.14,
+        424.142
+      ]
+    },
+    {
+      "text": "2435mm",
+      "bbox": [
+        653.572,
+        557.63,
+        723.428,
+        575.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        653.572,
+        572.142
+      ]
+    },
+    {
+      "text": "2590mm ",
+      "bbox": [
+        833.74,
+        572.63,
+        910.06,
+        590.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        833.74,
+        587.142
+      ]
+    },
+    {
+      "text": "2810mm ",
+      "bbox": [
+        835.868,
+        595.165,
+        907.932,
+        612.877
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        835.868,
+        609.677
+      ]
+    },
+    {
+      "text": "3100mm",
+      "bbox": [
+        835.068,
+        617.693,
+        903.916,
+        635.405
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        835.068,
+        632.205
+      ]
+    },
+    {
+      "text": "2795mm",
+      "bbox": [
+        1015.908,
+        409.63,
+        1085.092,
+        427.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1015.908,
+        424.142
+      ]
+    },
+    {
+      "text": "2240mm",
+      "bbox": [
+        1195.82,
+        557.63,
+        1267.18,
+        575.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1195.82,
+        572.142
+      ]
+    },
+    {
+      "text": "2310mm ",
+      "bbox": [
+        1379.004,
+        572.63,
+        1450.796,
+        590.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1379.004,
+        587.142
+      ]
+    },
+    {
+      "text": "2520mm ",
+      "bbox": [
+        1377.164,
+        595.165,
+        1452.636,
+        612.877
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1377.164,
+        609.677
+      ]
+    },
+    {
+      "text": "2820mm",
+      "bbox": [
+        1376.94,
+        617.693,
+        1448.06,
+        635.405
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1376.94,
+        632.205
+      ]
+    },
+    {
+      "text": "432mm ",
+      "bbox": [
+        1563.22,
+        436.63,
+        1628.58,
+        454.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1563.22,
+        451.142
+      ]
+    },
+    {
+      "text": " (6 in 1 bundle) ",
+      "bbox": [
+        1534.804,
+        459.165,
+        1656.996,
+        476.877
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1534.804,
+        473.677
+      ]
+    },
+    {
+      "text": "518mm ",
+      "bbox": [
+        1565.476,
+        504.237,
+        1626.308,
+        521.949
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1565.476,
+        518.749
+      ]
+    },
+    {
+      "text": " (5 in 1 bundle) ",
+      "bbox": [
+        1535.076,
+        526.765,
+        1656.708,
+        544.477
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1535.076,
+        541.277
+      ]
+    },
+    {
+      "text": "648mm ",
+      "bbox": [
+        1562.692,
+        571.837,
+        1629.092,
+        589.549
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1562.692,
+        586.349
+      ]
+    },
+    {
+      "text": " (4 in 1 bundle) ",
+      "bbox": [
+        1534.596,
+        594.365,
+        1657.172,
+        612.077
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1534.596,
+        608.877
+      ]
+    },
+    {
+      "text": "864mm ",
+      "bbox": [
+        1562.692,
+        639.437,
+        1629.092,
+        657.149
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1562.692,
+        653.949
+      ]
+    },
+    {
+      "text": " (3 in 1 bundle) ",
+      "bbox": [
+        1535.076,
+        661.965,
+        1656.724,
+        679.677
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1535.076,
+        676.477
+      ]
+    },
+    {
+      "text": "1296mm  ",
+      "bbox": [
+        1560.276,
+        707.037,
+        1636.324,
+        724.749
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1560.276,
+        721.549
+      ]
+    },
+    {
+      "text": "(2 in 1 bundle) ",
+      "bbox": [
+        1537.588,
+        729.565,
+        1654.212,
+        747.277
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1537.588,
+        744.077
+      ]
+    },
+    {
+      "text": "1150 ",
+      "bbox": [
+        1758.156,
+        397.63,
+        1795.644,
+        415.342
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1758.156,
+        412.142
+      ]
+    },
+    {
+      "text": "1350",
+      "bbox": [
+        1756.156,
+        420.165,
+        1792.844,
+        437.877
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1756.156,
+        434.677
+      ]
+    },
+    {
+      "text": "8’",
+      "bbox": [
+        304.828,
+        483.564,
+        318.828,
+        501.276
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        304.828,
+        498.076
+      ]
+    },
+    {
+      "text": "×",
+      "bbox": [
+        318.828,
+        485.756,
+        328.172,
+        501.756
+      ],
+      "font": "Helvetica",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.77,
+      "descender": -0.23,
+      "origin": [
+        318.828,
+        498.076
+      ]
+    },
+    {
+      "text": "16’",
+      "bbox": [
+        328.172,
+        483.564,
+        348.172,
+        501.276
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        328.172,
+        498.076
+      ]
+    },
+    {
+      "text": "2885mm",
+      "bbox": [
+        472.516,
+        483.715,
+        542.484,
+        501.427
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        472.516,
+        498.227
+      ]
+    },
+    {
+      "text": "4710mm",
+      "bbox": [
+        1016.78,
+        483.715,
+        1084.22,
+        501.427
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1016.78,
+        498.227
+      ]
+    },
+    {
+      "text": "1600 ",
+      "bbox": [
+        1755.02,
+        471.715,
+        1798.78,
+        489.427
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1755.02,
+        486.227
+      ]
+    },
+    {
+      "text": "1750",
+      "bbox": [
+        1756.452,
+        494.25,
+        1792.548,
+        511.962
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1756.452,
+        508.762
+      ]
+    },
+    {
+      "text": "8’",
+      "bbox": [
+        302.356,
+        557.649,
+        316.356,
+        575.361
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        302.356,
+        572.161
+      ]
+    },
+    {
+      "text": "×",
+      "bbox": [
+        316.356,
+        559.841,
+        325.7,
+        575.841
+      ],
+      "font": "Helvetica",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.77,
+      "descender": -0.23,
+      "origin": [
+        316.356,
+        572.161
+      ]
+    },
+    {
+      "text": "20’",
+      "bbox": [
+        325.7,
+        557.649,
+        350.644,
+        575.361
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        325.7,
+        572.161
+      ]
+    },
+    {
+      "text": "6055mm",
+      "bbox": [
+        471.596,
+        557.801,
+        543.404,
+        575.513
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        471.596,
+        572.313
+      ]
+    },
+    {
+      "text": "5860mm",
+      "bbox": [
+        1014.452,
+        557.801,
+        1086.548,
+        575.513
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1014.452,
+        572.313
+      ]
+    },
+    {
+      "text": "1950 ",
+      "bbox": [
+        1755.884,
+        545.801,
+        1797.916,
+        563.513
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1755.884,
+        560.313
+      ]
+    },
+    {
+      "text": "2000",
+      "bbox": [
+        1752.548,
+        568.335,
+        1796.452,
+        586.047
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1752.548,
+        582.847
+      ]
+    },
+    {
+      "text": "8’",
+      "bbox": [
+        302.916,
+        631.734,
+        316.916,
+        649.446
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        302.916,
+        646.246
+      ]
+    },
+    {
+      "text": "×",
+      "bbox": [
+        316.916,
+        633.926,
+        326.26,
+        649.926
+      ],
+      "font": "Helvetica",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.77,
+      "descender": -0.23,
+      "origin": [
+        316.916,
+        646.246
+      ]
+    },
+    {
+      "text": "24’",
+      "bbox": [
+        326.26,
+        631.734,
+        350.084,
+        649.446
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        326.26,
+        646.246
+      ]
+    },
+    {
+      "text": "7296mm",
+      "bbox": [
+        472.492,
+        631.886,
+        542.508,
+        649.598
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        472.492,
+        646.398
+      ]
+    },
+    {
+      "text": "7140mm",
+      "bbox": [
+        1016.484,
+        631.886,
+        1084.516,
+        649.598
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1016.484,
+        646.398
+      ]
+    },
+    {
+      "text": "2300 ",
+      "bbox": [
+        1753.364,
+        619.886,
+        1800.436,
+        637.598
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1753.364,
+        634.398
+      ]
+    },
+    {
+      "text": "2400",
+      "bbox": [
+        1753.108,
+        642.42,
+        1795.892,
+        660.132
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1753.108,
+        656.932
+      ]
+    },
+    {
+      "text": "8’",
+      "bbox": [
+        302.244,
+        705.819,
+        316.244,
+        723.531
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        302.244,
+        720.331
+      ]
+    },
+    {
+      "text": "×",
+      "bbox": [
+        316.244,
+        708.011,
+        325.588,
+        724.011
+      ],
+      "font": "Helvetica",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.77,
+      "descender": -0.23,
+      "origin": [
+        316.244,
+        720.331
+      ]
+    },
+    {
+      "text": "30’",
+      "bbox": [
+        325.588,
+        705.819,
+        350.756,
+        723.531
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        325.588,
+        720.331
+      ]
+    },
+    {
+      "text": "9120mm",
+      "bbox": [
+        473.732,
+        705.971,
+        541.268,
+        723.683
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        473.732,
+        720.483
+      ]
+    },
+    {
+      "text": "8925mm",
+      "bbox": [
+        1015.5,
+        705.971,
+        1085.5,
+        723.683
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1015.5,
+        720.483
+      ]
+    },
+    {
+      "text": "2550 ",
+      "bbox": [
+        1754.196,
+        693.971,
+        1799.604,
+        711.683
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1754.196,
+        708.483
+      ]
+    },
+    {
+      "text": "2800",
+      "bbox": [
+        1753.228,
+        716.505,
+        1795.772,
+        734.217
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1753.228,
+        731.017
+      ]
+    },
+    {
+      "text": "10’",
+      "bbox": [
+        298.812,
+        779.904,
+        319.9,
+        797.616
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        298.812,
+        794.416
+      ]
+    },
+    {
+      "text": "×",
+      "bbox": [
+        319.9,
+        782.096,
+        329.244,
+        798.096
+      ],
+      "font": "Helvetica",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.77,
+      "descender": -0.23,
+      "origin": [
+        319.9,
+        794.416
+      ]
+    },
+    {
+      "text": "20’",
+      "bbox": [
+        329.244,
+        779.904,
+        354.188,
+        797.616
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        329.244,
+        794.416
+      ]
+    },
+    {
+      "text": "6055mm",
+      "bbox": [
+        471.596,
+        780.056,
+        543.404,
+        797.768
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        471.596,
+        794.568
+      ]
+    },
+    {
+      "text": "3000mm",
+      "bbox": [
+        651.22,
+        780.056,
+        725.78,
+        797.768
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        651.22,
+        794.568
+      ]
+    },
+    {
+      "text": "5860mm",
+      "bbox": [
+        1014.452,
+        780.056,
+        1086.548,
+        797.768
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1014.452,
+        794.568
+      ]
+    },
+    {
+      "text": "2880mm",
+      "bbox": [
+        1195.692,
+        780.056,
+        1267.308,
+        797.768
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1195.692,
+        794.568
+      ]
+    },
+    {
+      "text": "2020 ",
+      "bbox": [
+        1753.556,
+        768.056,
+        1800.244,
+        785.768
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1753.556,
+        782.568
+      ]
+    },
+    {
+      "text": "2220",
+      "bbox": [
+        1754.404,
+        790.591,
+        1794.596,
+        808.303
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1754.404,
+        805.103
+      ]
+    },
+    {
+      "text": "1.",
+      "bbox": [
+        59.5,
+        857.141,
+        69.148,
+        874.853
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        59.5,
+        871.653
+      ]
+    },
+    {
+      "text": "The mentioned weights are valid for standard configuration and can very depending on configuration and equipment ",
+      "bbox": [
+        82.833,
+        857.141,
+        1016.257,
+        874.853
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        82.833,
+        871.653
+      ]
+    },
+    {
+      "text": "2.",
+      "bbox": [
+        59.5,
+        879.676,
+        73.004,
+        897.388
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        59.5,
+        894.188
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        73.004,
+        879.676,
+        82.828,
+        897.388
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        73.004,
+        894.188
+      ]
+    },
+    {
+      "text": "6 flatpacks in 1 bundle means there’s no wall panel inside, the others depend on the configuration and equipment ",
+      "bbox": [
+        82.828,
+        879.676,
+        984.46,
+        897.388
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        82.828,
+        894.188
+      ]
+    },
+    {
+      "text": "3.",
+      "bbox": [
+        59.5,
+        902.21,
+        73.228,
+        919.922
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        59.5,
+        916.722
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        73.228,
+        902.21,
+        82.828,
+        919.922
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        73.228,
+        916.722
+      ]
+    },
+    {
+      "text": "The width of the walkway floors can be customized, but cannot be packed in flatpacks ",
+      "bbox": [
+        82.828,
+        902.21,
+        773.452,
+        919.922
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        82.828,
+        916.722
+      ]
+    },
+    {
+      "text": "4.",
+      "bbox": [
+        59.5,
+        924.744,
+        74.156,
+        942.456
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        59.5,
+        939.256
+      ]
+    },
+    {
+      "text": " ",
+      "bbox": [
+        74.156,
+        924.744,
+        82.828,
+        942.456
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        74.156,
+        939.256
+      ]
+    },
+    {
+      "text": "If transported in flatpacks, one bundle will need 3 standard 20’ GP shipping space.",
+      "bbox": [
+        82.828,
+        924.744,
+        735.068,
+        942.456
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#000000",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        82.828,
+        939.256
+      ]
+    }
+  ]
+}

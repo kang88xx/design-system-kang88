@@ -1,0 +1,4351 @@
+{
+  "id": "macbook-air-silver",
+  "name": "silver",
+  "sourceUrl": "https://www.apple.com/macbook-air/",
+  "selector": "#finishes-gallery-item-2-trigger",
+  "status": "captured",
+  "label": "Silver",
+  "before": {
+    "scrollY": 4099,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "target": {
+      "html": "<input type=\"radio\" name=\"finishes-gallery-value\" class=\"colornav-value\" id=\"finishes-gallery-item-2-trigger\" value=\"silver\" data-ac-gallery-trigger=\"finishes-gallery-silver\" aria-label=\"Silver\" role=\"tab\" aria-controls=\"finishes-gallery-silver\">",
+      "styles": {
+        "transform": "none",
+        "opacity": "1",
+        "transition": "all",
+        "animation": "none",
+        "clip-path": "inset(0px 0px 99.9% 99.9%)",
+        "border-radius": "0px",
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "checked": false,
+      "selected": null,
+      "expanded": null
+    },
+    "selected": [
+      {
+        "id": "finishes-gallery-item-1-trigger",
+        "label": "Sky Blue",
+        "text": ""
+      },
+      {
+        "id": "continuity-gallery-item-1-trigger",
+        "label": null,
+        "text": "Answer calls and texts"
+      },
+      {
+        "id": "camera-audio-gallery-item-1-trigger",
+        "label": null,
+        "text": "Center Stage"
+      }
+    ],
+    "dialogs": [],
+    "animated": [
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-header",
+        "timing": {
+          "delay": 200,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 520,
+          "localTime": 520,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 220,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 540,
+          "localTime": 540,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 240.00000000000003,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 560,
+          "localTime": 560,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 260,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 580.0000000000001,
+          "localTime": 580.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 280,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 600.0000000000001,
+          "localTime": 600.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 300.00000000000006,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 620.0000000000001,
+          "localTime": 620.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-background-f5f5f7-f5f5f7",
+        "playState": "running",
+        "target": "ac-ribbon__bts-fy26-content-wrapper",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": null,
+          "endTime": 2800,
+          "localTime": 1716.5,
+          "progress": null
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(245, 245, 247)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(245, 245, 247)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-1d1d1f-1d1d1f",
+        "playState": "running",
+        "target": "ac-ribbon__bts-fy26-content row",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": null,
+          "endTime": 2800,
+          "localTime": 1716.5,
+          "progress": null
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(29, 29, 31)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(29, 29, 31)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-06c-06c",
+        "playState": "running",
+        "target": "icon-wrapper ac-ribbon__bts-fy26-link bts-fy26-link",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": null,
+          "endTime": 2800,
+          "localTime": 1716.5,
+          "progress": null
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(0, 102, 204)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(0, 102, 204)",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ],
+    "transformed": [
+      {
+        "tag": "DIV",
+        "class": "section-header row",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 4.92301)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "VIDEO",
+        "class": "video",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -365.398, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -2.26648)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 4.92999)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label word-anim-will-change",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue word-anim-will-change",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "VIDEO",
+        "class": "video",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -490.68, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-calls-text current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-clipboard",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-mirroring",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-activities",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-sidecar",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "camera-audio-gallery-item gallery-item gallery-item-center-stage current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "camera-audio-gallery-item gallery-item gallery-item-desk-view",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.93431)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 9.83577)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "hardware-wrapper hardware-wrapper-right",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 365, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "elapsed": 80,
+      "delay": 80,
+      "scrollY": 4099,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "html": "<input type=\"radio\" name=\"finishes-gallery-value\" class=\"colornav-value current\" id=\"finishes-gallery-item-2-trigger\" value=\"silver\" data-ac-gallery-trigger=\"finishes-gallery-silver\" aria-label=\"Silver\" role=\"tab\" aria-controls=\"finishes-gallery-silver\" data-focus-method=\"mouse\" aria-selected=\"true\" style=\"\">",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "inset(0px 0px 99.9% 99.9%)",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        },
+        "checked": true,
+        "selected": "true",
+        "expanded": null
+      },
+      "selected": [
+        {
+          "id": "finishes-gallery-item-2-trigger",
+          "label": "Silver",
+          "text": ""
+        },
+        {
+          "id": "continuity-gallery-item-1-trigger",
+          "label": null,
+          "text": "Answer calls and texts"
+        },
+        {
+          "id": "camera-audio-gallery-item-1-trigger",
+          "label": null,
+          "text": "Center Stage"
+        }
+      ],
+      "dialogs": [],
+      "animated": [
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-header",
+          "timing": {
+            "delay": 200,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 520,
+            "localTime": 520,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 220,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 540,
+            "localTime": 540,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 240.00000000000003,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 560,
+            "localTime": 560,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 260,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 580.0000000000001,
+            "localTime": 580.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 280,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 600.0000000000001,
+            "localTime": 600.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 300.00000000000006,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 620.0000000000001,
+            "localTime": 620.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-background-f5f5f7-f5f5f7",
+          "playState": "running",
+          "target": "ac-ribbon__bts-fy26-content-wrapper",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2016.499999999997,
+            "progress": 0.21649999999999703
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(245, 245, 247)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(245, 245, 247)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-1d1d1f-1d1d1f",
+          "playState": "running",
+          "target": "ac-ribbon__bts-fy26-content row",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2016.499999999997,
+            "progress": 0.21649999999999703
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(29, 29, 31)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(29, 29, 31)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-06c-06c",
+          "playState": "running",
+          "target": "icon-wrapper ac-ribbon__bts-fy26-link bts-fy26-link",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2016.499999999997,
+            "progress": 0.21649999999999703
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(0, 102, 204)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(0, 102, 204)",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      "transformed": [
+        {
+          "tag": "DIV",
+          "class": "section-header row",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.813515)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "class": "video",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -365.398, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -0.453737)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.815044)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label word-anim-will-change",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue word-anim-will-change",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "class": "video",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -490.68, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-calls-text current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-clipboard",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-mirroring",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-activities",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-sidecar",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "camera-audio-gallery-item gallery-item gallery-item-center-stage current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "camera-audio-gallery-item gallery-item gallery-item-desk-view",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99014)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.97535)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "hardware-wrapper hardware-wrapper-right",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 365, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "elapsed": 320,
+      "delay": 240,
+      "scrollY": 4099,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "html": "<input type=\"radio\" name=\"finishes-gallery-value\" class=\"colornav-value current\" id=\"finishes-gallery-item-2-trigger\" value=\"silver\" data-ac-gallery-trigger=\"finishes-gallery-silver\" aria-label=\"Silver\" role=\"tab\" aria-controls=\"finishes-gallery-silver\" data-focus-method=\"mouse\" aria-selected=\"true\" style=\"\">",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "inset(0px 0px 99.9% 99.9%)",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        },
+        "checked": true,
+        "selected": "true",
+        "expanded": null
+      },
+      "selected": [
+        {
+          "id": "finishes-gallery-item-2-trigger",
+          "label": "Silver",
+          "text": ""
+        },
+        {
+          "id": "continuity-gallery-item-1-trigger",
+          "label": null,
+          "text": "Answer calls and texts"
+        },
+        {
+          "id": "camera-audio-gallery-item-1-trigger",
+          "label": null,
+          "text": "Center Stage"
+        }
+      ],
+      "dialogs": [],
+      "animated": [
+        {
+          "type": "CSSTransition",
+          "name": "opacity",
+          "playState": "running",
+          "target": "gradient-background animate",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 1830,
+            "easing": "ease-out",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1830,
+            "currentIteration": 0,
+            "endTime": 1830,
+            "localTime": 199.90700000114003,
+            "progress": 0.17470349131584675
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-header",
+          "timing": {
+            "delay": 200,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 520,
+            "localTime": 520,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 220,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 540,
+            "localTime": 540,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 240.00000000000003,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 560,
+            "localTime": 560,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 260,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 580.0000000000001,
+            "localTime": 580.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 280,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 600.0000000000001,
+            "localTime": 600.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 300.00000000000006,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 620.0000000000001,
+            "localTime": 620.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-background-f5f5f7-f5f5f7",
+          "playState": "running",
+          "target": "ac-ribbon__bts-fy26-content-wrapper",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2266.3999999999974,
+            "progress": 0.46639999999999726
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(245, 245, 247)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(245, 245, 247)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-1d1d1f-1d1d1f",
+          "playState": "running",
+          "target": "ac-ribbon__bts-fy26-content row",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2266.3999999999974,
+            "progress": 0.46639999999999726
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(29, 29, 31)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(29, 29, 31)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-06c-06c",
+          "playState": "running",
+          "target": "icon-wrapper ac-ribbon__bts-fy26-link bts-fy26-link",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2266.3999999999974,
+            "progress": 0.46639999999999726
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(0, 102, 204)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(0, 102, 204)",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      "transformed": [
+        {
+          "tag": "DIV",
+          "class": "section-header row",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.167495)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "class": "video",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -365.398, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -0.0934205)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.16781)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label word-anim-will-change",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue word-anim-will-change",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "class": "video",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -490.68, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-calls-text current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-clipboard",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-mirroring",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-activities",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-sidecar",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "camera-audio-gallery-item gallery-item gallery-item-center-stage current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "camera-audio-gallery-item gallery-item gallery-item-desk-view",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "hardware-wrapper hardware-wrapper-right",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 365, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "elapsed": 920,
+      "delay": 600,
+      "scrollY": 4099,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "html": "<input type=\"radio\" name=\"finishes-gallery-value\" class=\"colornav-value current\" id=\"finishes-gallery-item-2-trigger\" value=\"silver\" data-ac-gallery-trigger=\"finishes-gallery-silver\" aria-label=\"Silver\" role=\"tab\" aria-controls=\"finishes-gallery-silver\" data-focus-method=\"mouse\" aria-selected=\"true\" style=\"\">",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "inset(0px 0px 99.9% 99.9%)",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        },
+        "checked": true,
+        "selected": "true",
+        "expanded": null
+      },
+      "selected": [
+        {
+          "id": "finishes-gallery-item-2-trigger",
+          "label": "Silver",
+          "text": ""
+        },
+        {
+          "id": "continuity-gallery-item-1-trigger",
+          "label": null,
+          "text": "Answer calls and texts"
+        },
+        {
+          "id": "camera-audio-gallery-item-1-trigger",
+          "label": null,
+          "text": "Center Stage"
+        }
+      ],
+      "dialogs": [],
+      "animated": [
+        {
+          "type": "CSSTransition",
+          "name": "opacity",
+          "playState": "running",
+          "target": "gradient-background animate",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 1830,
+            "easing": "ease-out",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1830,
+            "currentIteration": 0,
+            "endTime": 1830,
+            "localTime": 800.0070000011413,
+            "progress": 0.614609854194683
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-header",
+          "timing": {
+            "delay": 200,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 520,
+            "localTime": 520,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 220,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 540,
+            "localTime": 540,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 240.00000000000003,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 560,
+            "localTime": 560,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 260,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 580.0000000000001,
+            "localTime": 580.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 280,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 600.0000000000001,
+            "localTime": 600.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "globalnav-search-fade-and-slide",
+          "playState": "finished",
+          "target": "globalnav-searchresults-list-item",
+          "timing": {
+            "delay": 300.00000000000006,
+            "direction": "normal",
+            "duration": 320,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 320,
+            "currentIteration": 0,
+            "endTime": 620.0000000000001,
+            "localTime": 620.0000000000001,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "transform": "translateY(-4px)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "transform": "translateY(0px)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-background-f5f5f7-f5f5f7",
+          "playState": "finished",
+          "target": "ac-ribbon__bts-fy26-content-wrapper",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(245, 245, 247)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "backgroundColor": "rgb(245, 245, 247)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-1d1d1f-1d1d1f",
+          "playState": "finished",
+          "target": "ac-ribbon__bts-fy26-content row",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(29, 29, 31)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(29, 29, 31)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "animate-color-06c-06c",
+          "playState": "finished",
+          "target": "icon-wrapper ac-ribbon__bts-fy26-link bts-fy26-link",
+          "timing": {
+            "delay": 1800,
+            "direction": "normal",
+            "duration": 1000,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "forwards",
+            "iterationStart": 0,
+            "iterations": 1,
+            "activeDuration": 1000,
+            "currentIteration": 0,
+            "endTime": 2800,
+            "localTime": 2800,
+            "progress": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(0, 102, 204)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+              "composite": "auto",
+              "color": "rgb(0, 102, 204)",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      "transformed": [
+        {
+          "tag": "DIV",
+          "class": "section-header row",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "class": "video",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -365.398, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "gallery-item",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label word-anim-will-change",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue word-anim-will-change",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "class": "video",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -490.68, 0)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-calls-text current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-clipboard",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-mirroring",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-activities",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "continuity-gallery-item gallery-item gallery-item-sidecar",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+          "styles": {
+            "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+            "opacity": "0.42",
+            "transition": "background 0.1s linear, opacity 0.1s linear",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "50%",
+            "background-color": "rgb(232, 232, 237)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "camera-audio-gallery-item gallery-item gallery-item-center-stage current",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "camera-audio-gallery-item gallery-item gallery-item-desk-view",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "tag": "H2",
+          "class": "article-eyebrow typography-section-label",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -4)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "P",
+          "class": "article-headline typography-section-headline gradient-text-blue",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 10)",
+            "opacity": "0",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "hardware-wrapper hardware-wrapper-right",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 365, 0)",
+            "opacity": "1",
+            "transition": "all",
+            "animation": "none",
+            "clip-path": "none",
+            "border-radius": "0px",
+            "background-color": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ]
+    }
+  ],
+  "after": {
+    "elapsed": 920,
+    "delay": 600,
+    "scrollY": 4099,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "target": {
+      "html": "<input type=\"radio\" name=\"finishes-gallery-value\" class=\"colornav-value current\" id=\"finishes-gallery-item-2-trigger\" value=\"silver\" data-ac-gallery-trigger=\"finishes-gallery-silver\" aria-label=\"Silver\" role=\"tab\" aria-controls=\"finishes-gallery-silver\" data-focus-method=\"mouse\" aria-selected=\"true\" style=\"\">",
+      "styles": {
+        "transform": "none",
+        "opacity": "1",
+        "transition": "all",
+        "animation": "none",
+        "clip-path": "inset(0px 0px 99.9% 99.9%)",
+        "border-radius": "0px",
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "checked": true,
+      "selected": "true",
+      "expanded": null
+    },
+    "selected": [
+      {
+        "id": "finishes-gallery-item-2-trigger",
+        "label": "Silver",
+        "text": ""
+      },
+      {
+        "id": "continuity-gallery-item-1-trigger",
+        "label": null,
+        "text": "Answer calls and texts"
+      },
+      {
+        "id": "camera-audio-gallery-item-1-trigger",
+        "label": null,
+        "text": "Center Stage"
+      }
+    ],
+    "dialogs": [],
+    "animated": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "playState": "running",
+        "target": "gradient-background animate",
+        "timing": {
+          "delay": 0,
+          "direction": "normal",
+          "duration": 1830,
+          "easing": "ease-out",
+          "endDelay": 0,
+          "fill": "backwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1830,
+          "currentIteration": 0,
+          "endTime": 1830,
+          "localTime": 800.0070000011413,
+          "progress": 0.614609854194683
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "linear",
+            "composite": "auto",
+            "opacity": "0",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "linear",
+            "composite": "auto",
+            "opacity": "1",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-header",
+        "timing": {
+          "delay": 200,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 520,
+          "localTime": 520,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 220,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 540,
+          "localTime": 540,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 240.00000000000003,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 560,
+          "localTime": 560,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 260,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 580.0000000000001,
+          "localTime": 580.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 280,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 600.0000000000001,
+          "localTime": 600.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "globalnav-search-fade-and-slide",
+        "playState": "finished",
+        "target": "globalnav-searchresults-list-item",
+        "timing": {
+          "delay": 300.00000000000006,
+          "direction": "normal",
+          "duration": 320,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 320,
+          "currentIteration": 0,
+          "endTime": 620.0000000000001,
+          "localTime": 620.0000000000001,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "0",
+            "transform": "translateY(-4px)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+            "composite": "auto",
+            "opacity": "1",
+            "transform": "translateY(0px)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-background-f5f5f7-f5f5f7",
+        "playState": "finished",
+        "target": "ac-ribbon__bts-fy26-content-wrapper",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(245, 245, 247)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "backgroundColor": "rgb(245, 245, 247)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-1d1d1f-1d1d1f",
+        "playState": "finished",
+        "target": "ac-ribbon__bts-fy26-content row",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(29, 29, 31)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(29, 29, 31)",
+            "computedOffset": 1
+          }
+        ]
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "animate-color-06c-06c",
+        "playState": "finished",
+        "target": "icon-wrapper ac-ribbon__bts-fy26-link bts-fy26-link",
+        "timing": {
+          "delay": 1800,
+          "direction": "normal",
+          "duration": 1000,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "forwards",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 1000,
+          "currentIteration": 0,
+          "endTime": 2800,
+          "localTime": 2800,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": 0,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(0, 102, 204)",
+            "computedOffset": 0
+          },
+          {
+            "offset": 1,
+            "easing": "cubic-bezier(0.42, 0, 0.58, 1)",
+            "composite": "auto",
+            "color": "rgb(0, 102, 204)",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ],
+    "transformed": [
+      {
+        "tag": "DIV",
+        "class": "section-header row",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "VIDEO",
+        "class": "video",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -365.398, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "gallery-item",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label word-anim-will-change",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue word-anim-will-change",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "VIDEO",
+        "class": "video",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -490.68, 0)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-calls-text current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-clipboard",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-mirroring",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-activities",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "continuity-gallery-item gallery-item gallery-item-sidecar",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "paddlenav-arrow paddles-previous paddlenav-arrow-previous iconcontrol",
+        "styles": {
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+          "opacity": "0.42",
+          "transition": "background 0.1s linear, opacity 0.1s linear",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "50%",
+          "background-color": "rgb(232, 232, 237)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "camera-audio-gallery-item gallery-item gallery-item-center-stage current",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "camera-audio-gallery-item gallery-item gallery-item-desk-view",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgb(255, 255, 255)"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "article-eyebrow typography-section-label",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "article-headline typography-section-headline gradient-text-blue",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "opacity": "0",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "hardware-wrapper hardware-wrapper-right",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 365, 0)",
+          "opacity": "1",
+          "transition": "all",
+          "animation": "none",
+          "clip-path": "none",
+          "border-radius": "0px",
+          "background-color": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  "beforeScreenshot": "/apple_design/app/dist/client/interaction-lab/macbook-air-silver-before.png",
+  "afterScreenshot": "/apple_design/app/dist/client/interaction-lab/macbook-air-silver-after.png"
+}

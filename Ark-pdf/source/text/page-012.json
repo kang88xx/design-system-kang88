@@ -1,0 +1,331 @@
+{
+  "page": 12,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n12\nThe History of\nModular Construction\n\n19th Century\n\nUsed for quick, temporary buildings.\n\nMid-20th Century\n\nGained standardization and scalability;\napplied in schools, hospitals, offices.\n\nRecent Years\n\nDriven by tech and sustainability, it became an\nefficient and eco-friendly mainstream solution.\n\nNo longer a temporary fix\n\nNow a go-to method for high-quality, fast,\nand reliable construction.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "12",
+      "bbox": [
+        1856.508,
+        41.672,
+        1866.958,
+        52.992
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#E8E8E8",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1856.508,
+        50.992
+      ]
+    },
+    {
+      "text": "The History of ",
+      "bbox": [
+        53.129,
+        35.906,
+        415.533,
+        90.884
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.129,
+        81.084
+      ]
+    },
+    {
+      "text": "Modular Construction",
+      "bbox": [
+        53.129,
+        100.39,
+        586.396,
+        155.368
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#FFFFFF",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.129,
+        145.568
+      ]
+    },
+    {
+      "text": "19th Century ",
+      "bbox": [
+        56.5,
+        902.66,
+        223.325,
+        930.71
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        56.5,
+        925.71
+      ]
+    },
+    {
+      "text": "Used for quick, temporary buildings.",
+      "bbox": [
+        56.5,
+        935.56,
+        344.532,
+        953.272
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        56.5,
+        950.072
+      ]
+    },
+    {
+      "text": "Mid-20th Century ",
+      "bbox": [
+        512.477,
+        902.66,
+        742.227,
+        930.71
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        512.477,
+        925.71
+      ]
+    },
+    {
+      "text": "Gained standardization and scalability; ",
+      "bbox": [
+        512.477,
+        935.56,
+        823.837,
+        953.272
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        512.477,
+        950.072
+      ]
+    },
+    {
+      "text": "applied in schools, hospitals, offices.",
+      "bbox": [
+        512.477,
+        958.088,
+        799.854,
+        975.8
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        512.477,
+        972.6
+      ]
+    },
+    {
+      "text": "Recent Years ",
+      "bbox": [
+        967.982,
+        902.66,
+        1138.407,
+        930.71
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        967.982,
+        925.71
+      ]
+    },
+    {
+      "text": "Driven by tech and sustainability, it became an ",
+      "bbox": [
+        967.982,
+        935.56,
+        1341.327,
+        953.272
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.982,
+        950.072
+      ]
+    },
+    {
+      "text": "efficient and eco-friendly mainstream solution.",
+      "bbox": [
+        967.982,
+        958.088,
+        1336.942,
+        975.8
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        967.982,
+        972.6
+      ]
+    },
+    {
+      "text": "No longer a temporary fix ",
+      "bbox": [
+        1427.399,
+        902.66,
+        1759.549,
+        930.71
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1427.399,
+        925.71
+      ]
+    },
+    {
+      "text": "Now a go-to method for high-quality, fast, ",
+      "bbox": [
+        1427.399,
+        935.56,
+        1765.96,
+        953.272
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1427.399,
+        950.072
+      ]
+    },
+    {
+      "text": "and reliable construction.",
+      "bbox": [
+        1427.399,
+        958.088,
+        1627.943,
+        975.8
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1427.399,
+        972.6
+      ]
+    }
+  ]
+}

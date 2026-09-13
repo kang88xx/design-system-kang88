@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="workspace-title workspace-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="workspace-title">Workspace icon</title>
+  <desc id="workspace-desc">Newly constructed ARK Prefab outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[26],"family":"outline-utility","tone":"mono"}</metadata>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="11" width="15" height="11" rx="2"/>
+    <path d="M31.5 22v5"/>
+    <path d="M25 27h13"/>
+    <path d="M9 29h23"/>
+    <path d="M13 29v9"/>
+    <path d="M28 29v9"/>
+    <path d="M10 38h9"/>
+    <path d="M15 20h5v9"/>
+    <path d="M11 25h9"/>
+  </g>
+</svg>

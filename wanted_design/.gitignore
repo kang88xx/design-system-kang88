@@ -1,0 +1,14 @@
+._*
+.DS_Store
+.gstack/
+.omx/
+# 원티드 브랜드 자산(로고·스크린샷·일러스트)은 재배포하지 않는다. 매니페스트만 추적.
+assets/montage/images/
+# 11MB 원본 크롤 결과. 필요하면 스크립트로 재생성.
+data/raw/montage.json
+# Reproducible large source/download artifacts remain local; manifests and collectors are tracked.
+assets/montage/source/upstream/
+assets/montage/source/*.tar.gz
+exports/*.zip
+data/raw/montage-live.json
+scripts/__pycache__/

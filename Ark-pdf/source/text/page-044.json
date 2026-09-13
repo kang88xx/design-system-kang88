@@ -1,0 +1,255 @@
+{
+  "page": 44,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n44\n09\n\nLihir Gold Mine Camp 1\nProject\nJan,2017 – Now\n\nClient:\n\nLocation:\n\nPeriod:\n\nNewcrest Mining\n\nLihir Island Png",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "44",
+      "bbox": [
+        1851.961,
+        44.845,
+        1865.741,
+        56.165
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1851.961,
+        54.165
+      ]
+    },
+    {
+      "text": "09",
+      "bbox": [
+        51.5,
+        29.054,
+        167.1,
+        124.424
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        51.5,
+        107.424
+      ]
+    },
+    {
+      "text": "Lihir Gold Mine Camp 1 ",
+      "bbox": [
+        53.123,
+        171.067,
+        633.283,
+        226.045
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.123,
+        216.245
+      ]
+    },
+    {
+      "text": "Project",
+      "bbox": [
+        53.123,
+        235.551,
+        229.082,
+        290.529
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.123,
+        280.729
+      ]
+    },
+    {
+      "text": "Jan,2017 – Now",
+      "bbox": [
+        1335.515,
+        262.892,
+        1526.915,
+        290.567
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1335.515,
+        285.567
+      ]
+    },
+    {
+      "text": "Client: ",
+      "bbox": [
+        1177.911,
+        182.533,
+        1265.986,
+        210.583
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1177.911,
+        205.583
+      ]
+    },
+    {
+      "text": "Location:  ",
+      "bbox": [
+        1177.911,
+        223.683,
+        1309.686,
+        251.733
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1177.911,
+        246.733
+      ]
+    },
+    {
+      "text": "Period:",
+      "bbox": [
+        1177.911,
+        264.833,
+        1267.211,
+        292.883
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1177.911,
+        287.883
+      ]
+    },
+    {
+      "text": "Newcrest Mining",
+      "bbox": [
+        1332.586,
+        183.098,
+        1538.111,
+        210.773
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1332.586,
+        205.773
+      ]
+    },
+    {
+      "text": "Lihir Island Png",
+      "bbox": [
+        1336.815,
+        224.098,
+        1527.44,
+        251.773
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1336.815,
+        246.773
+      ]
+    }
+  ]
+}

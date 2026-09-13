@@ -1,0 +1,12 @@
+{
+  "path": "downloads/lusion-source-system-v4.zip",
+  "files": 2108,
+  "bytes": 193149293,
+  "sha256": "30f47c2558cdbe85af76605dbf0a88b8bd318ffa50b08d4457377d872555f00b",
+  "zip_crc_verified": true,
+  "excludes": [
+    ".omx runtime state",
+    "downloads (archive itself)",
+    "__pycache__"
+  ]
+}

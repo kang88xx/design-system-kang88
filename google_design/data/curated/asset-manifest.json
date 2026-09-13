@@ -1,0 +1,2446 @@
+{
+  "sources": [
+    {
+      "id": "material-3",
+      "kind": "guidance",
+      "name": "Material Design 3",
+      "url": "https://m3.material.io/",
+      "license": "Reference guidance",
+      "reuse": "reference-only",
+      "notes": "Use principles and semantic roles. Do not bundle documentation screenshots or illustrations."
+    },
+    {
+      "id": "material-web",
+      "kind": "code",
+      "name": "Material Web",
+      "url": "https://github.com/material-components/material-web",
+      "license": "Apache-2.0",
+      "reuse": "redistributable",
+      "notes": "Official M3 web components and tokens."
+    },
+    {
+      "id": "material-color-utilities",
+      "kind": "code",
+      "name": "Material Color Utilities",
+      "url": "https://github.com/material-foundation/material-color-utilities",
+      "license": "Apache-2.0",
+      "reuse": "redistributable",
+      "notes": "Dynamic color and semantic role implementation."
+    },
+    {
+      "id": "material-symbols",
+      "kind": "icons",
+      "name": "Material Symbols",
+      "url": "https://github.com/google/material-design-icons",
+      "license": "Apache-2.0",
+      "reuse": "redistributable",
+      "notes": "Product logos are excluded; use only the symbol library."
+    },
+    {
+      "id": "noto-emoji",
+      "kind": "emoji",
+      "name": "Noto Emoji",
+      "url": "https://github.com/googlefonts/noto-emoji",
+      "license": "OFL-1.1 fonts; Apache-2.0 SVG/resources",
+      "reuse": "redistributable-with-file-check",
+      "notes": "Region flags have separate provenance and must be verified individually."
+    },
+    {
+      "id": "roboto",
+      "kind": "font",
+      "name": "Roboto",
+      "url": "https://github.com/googlefonts/roboto-3-classic",
+      "license": "OFL-1.1",
+      "reuse": "redistributable",
+      "notes": "Open fallback and body font."
+    },
+    {
+      "id": "google-sans",
+      "kind": "font",
+      "name": "Google Sans / Google Sans Flex",
+      "url": "https://fonts.google.com/specimen/Google+Sans",
+      "license": "Google Fonts open-source bundle",
+      "reuse": "redistributable-with-bundle-license",
+      "notes": "Use only official Google Fonts downloads and preserve the bundled license. Product Sans dumps are excluded."
+    },
+    {
+      "id": "google-brand",
+      "kind": "brand",
+      "name": "Google Brand Resource Center",
+      "url": "https://about.google/brand-resource-center/guidance/",
+      "license": "Brand terms",
+      "reuse": "reference-only",
+      "notes": "Google product logos, icons, screenshots, and visual identity are not bundled in distributable assets."
+    }
+  ],
+  "openSource": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-09-06T16:12:00.727Z",
+    "sourcePolicy": "Only official Apache-2.0 upstream assets are stored. Google product marks, screenshots, hosted product UI art, and brand treatments remain reference-only.",
+    "upstreamRepositories": [
+      {
+        "id": "material-design-icons",
+        "owner": "google",
+        "repo": "material-design-icons",
+        "branch": "master",
+        "commit": "0cbb08816df07faaae3dca060d4ebb10b66c214f",
+        "license": "Apache-2.0",
+        "sourceUrl": "https://github.com/google/material-design-icons/tree/0cbb08816df07faaae3dca060d4ebb10b66c214f"
+      },
+      {
+        "id": "material-web",
+        "owner": "material-components",
+        "repo": "material-web",
+        "branch": "main",
+        "commit": "c05b4b23485c803f68ff31cde52506cea5cc555a",
+        "license": "Apache-2.0",
+        "sourceUrl": "https://github.com/material-components/material-web/tree/c05b4b23485c803f68ff31cde52506cea5cc555a"
+      }
+    ],
+    "counts": {
+      "catalogIconNames": 70,
+      "requestedInterfaceIcons": 18,
+      "icons": 81,
+      "upstreamFiles": 11
+    },
+    "icons": [
+      {
+        "id": "material-symbols-rounded-account_circle",
+        "name": "account_circle",
+        "upstreamName": "account_circle",
+        "path": "assets/material-symbols/rounded/account_circle.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/account_circle/materialsymbolsrounded/account_circle_wght500_24px.svg",
+        "sha256": "b0a439501883a378c84809f8c3dbb11a0fe0feaf2e9f08db4c61c569144840d1",
+        "bytes": 1322,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-add",
+        "name": "add",
+        "upstreamName": "add",
+        "path": "assets/material-symbols/rounded/add.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/add/materialsymbolsrounded/add_wght500_24px.svg",
+        "sha256": "518c0977b6f45c4f2f4897ada4c8aeac35e7a81237c4cb8dd8cfd2a484daa2de",
+        "bytes": 499,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-add_chart",
+        "name": "add_chart",
+        "upstreamName": "add_chart",
+        "path": "assets/material-symbols/rounded/add_chart.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/add_chart/materialsymbolsrounded/add_chart_wght500_24px.svg",
+        "sha256": "a18921b132f4fe465c7446f946bcf771711127824a430519cdc386656ac2ff4f",
+        "bytes": 1168,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-animation",
+        "name": "animation",
+        "upstreamName": "animation",
+        "path": "assets/material-symbols/rounded/animation.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/animation/materialsymbolsrounded/animation_wght500_24px.svg",
+        "sha256": "90f1c01d0ab73d0086a8631f15de1cb5af820ab355123e1643453169a085977e",
+        "bytes": 1687,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-apps",
+        "name": "apps",
+        "upstreamName": "apps",
+        "path": "assets/material-symbols/rounded/apps.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/apps/materialsymbolsrounded/apps_wght500_24px.svg",
+        "sha256": "4c61365361f83d073a539b0932c8db0b59a2765c8e0a81bd68fc3126cab918ad",
+        "bytes": 1765,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "navigation"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-archive",
+        "name": "archive",
+        "upstreamName": "archive",
+        "path": "assets/material-symbols/rounded/archive.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/archive/materialsymbolsrounded/archive_wght500_24px.svg",
+        "sha256": "1efc3490b00dc12c88cf083beccba0847ef193cf3a971926274b9067d4f0cade",
+        "bytes": 894,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-arrow_forward",
+        "name": "arrow_forward",
+        "upstreamName": "arrow_forward",
+        "path": "assets/material-symbols/rounded/arrow_forward.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/arrow_forward/materialsymbolsrounded/arrow_forward_wght500_24px.svg",
+        "sha256": "c63bd2d702f728aaa2957add02122c4e60330ff5e10be2590ea4c82b358cf4c2",
+        "bytes": 514,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-attach_file",
+        "name": "attach_file",
+        "upstreamName": "attach_file",
+        "path": "assets/material-symbols/rounded/attach_file.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/attach_file/materialsymbolsrounded/attach_file_wght500_24px.svg",
+        "sha256": "ba58f56fbb24e7ff64ae2713e7b008eea76355068b9d31142ba74bcfebe7d5df",
+        "bytes": 888,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-calendar_today",
+        "name": "calendar_today",
+        "upstreamName": "calendar_today",
+        "path": "assets/material-symbols/rounded/calendar_today.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/calendar_today/materialsymbolsrounded/calendar_today_wght500_24px.svg",
+        "sha256": "8cf89376bb0330364ccd45d06bf249d84174268bf9eec97ac2f2d19a018c2ac1",
+        "bytes": 555,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-call",
+        "name": "call",
+        "upstreamName": "call",
+        "path": "assets/material-symbols/rounded/call.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/call/materialsymbolsrounded/call_wght500_24px.svg",
+        "sha256": "ce387f52c744018fe2e2b78da34084d1ac055786234984b30651a2352443c857",
+        "bytes": 846,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-candlestick_chart",
+        "name": "candlestick_chart",
+        "upstreamName": "candlestick_chart",
+        "path": "assets/material-symbols/rounded/candlestick_chart.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/candlestick_chart/materialsymbolsrounded/candlestick_chart_wght500_24px.svg",
+        "sha256": "893f6f95236a3a62b7d3ab5d280a1e34f7901c241c7239b20162de53cb143f26",
+        "bytes": 1035,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-chat",
+        "name": "chat",
+        "upstreamName": "chat",
+        "path": "assets/material-symbols/rounded/chat.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/chat/materialsymbolsrounded/chat_wght500_24px.svg",
+        "sha256": "6aa2967740c9a024a9a405d2f1b613a9098a4a41ea86abd8dac78b2c93f6f5c8",
+        "bytes": 700,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-check_box",
+        "name": "check_box",
+        "upstreamName": "check_box",
+        "path": "assets/material-symbols/rounded/check_box.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/check_box/materialsymbolsrounded/check_box_wght500_24px.svg",
+        "sha256": "5c9d041247e5e977fddaf521797933687a90de4a5feb119333c5490500f8eadd",
+        "bytes": 633,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-chevron_left",
+        "name": "chevron_left",
+        "upstreamName": "chevron_left",
+        "path": "assets/material-symbols/rounded/chevron_left.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/chevron_left/materialsymbolsrounded/chevron_left_wght500_24px.svg",
+        "sha256": "c1771efbbc1f69d3e2a4657d651e58a158fa6475000b0310e5437993e6ee1f75",
+        "bytes": 391,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-chevron_right",
+        "name": "chevron_right",
+        "upstreamName": "chevron_right",
+        "path": "assets/material-symbols/rounded/chevron_right.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/chevron_right/materialsymbolsrounded/chevron_right_wght500_24px.svg",
+        "sha256": "3824f71e2724f590be76f8ac3fe773c53eedd63930b6217c841f980c275be419",
+        "bytes": 388,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-close",
+        "name": "close",
+        "upstreamName": "close",
+        "path": "assets/material-symbols/rounded/close.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/close/materialsymbolsrounded/close_wght500_24px.svg",
+        "sha256": "10e73c18b0940e123d49ca35cf72f726d16c4262b0ece39d1e6f2a91fd69ac83",
+        "bytes": 502,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-cloud",
+        "name": "cloud",
+        "upstreamName": "cloud",
+        "path": "assets/material-symbols/rounded/cloud.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/cloud/materialsymbolsrounded/cloud_wght500_24px.svg",
+        "sha256": "5ce6fc1952e7d81e4b8f7d0cf14711aa8595188ff298010deb9b3e24645e28c3",
+        "bytes": 659,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-code",
+        "name": "code",
+        "upstreamName": "code",
+        "path": "assets/material-symbols/rounded/code.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/code/materialsymbolsrounded/code_wght500_24px.svg",
+        "sha256": "4f68b1d5218ca846f0e5f92aee312ab6b0071e27832eb47916fae643d9aa5aae",
+        "bytes": 741,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-computer",
+        "name": "computer",
+        "upstreamName": "computer",
+        "path": "assets/material-symbols/rounded/computer.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/computer/materialsymbolsrounded/computer_wght500_24px.svg",
+        "sha256": "f5a19300502b2e776fc518b679c8fc57018dc6663de33631c0b4ee05585b84b2",
+        "bytes": 501,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-content_copy",
+        "name": "content_copy",
+        "upstreamName": "content_copy",
+        "path": "assets/material-symbols/rounded/content_copy.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/content_copy/materialsymbolsrounded/content_copy_wght500_24px.svg",
+        "sha256": "b57fb85c919c2c1b2bc8a105d572b8b658557d927196f5083d014097f44490ca",
+        "bytes": 575,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "common-interface",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-contrast",
+        "name": "contrast",
+        "upstreamName": "contrast",
+        "path": "assets/material-symbols/rounded/contrast.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/contrast/materialsymbolsrounded/contrast_wght500_24px.svg",
+        "sha256": "3cedbbe95ce1e16c9787d2766afeb89cbe868f62ef632cc9d7337ad01ebb7817",
+        "bytes": 602,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-currency_exchange",
+        "name": "currency_exchange",
+        "upstreamName": "currency_exchange",
+        "path": "assets/material-symbols/rounded/currency_exchange.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/currency_exchange/materialsymbolsrounded/currency_exchange_wght500_24px.svg",
+        "sha256": "be03ec6b7b3170dc5a005eb68bc4dd431cf3577a7b1ffaba76232653a6ebeba4",
+        "bytes": 2163,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-delete",
+        "name": "delete",
+        "upstreamName": "delete",
+        "path": "assets/material-symbols/rounded/delete.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/delete/materialsymbolsrounded/delete_wght500_24px.svg",
+        "sha256": "9440b1717e6d197c379417e7cd84ba19f8d6d50ec62c040a075e218b68eac547",
+        "bytes": 951,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-description",
+        "name": "description",
+        "upstreamName": "description",
+        "path": "assets/material-symbols/rounded/description.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/description/materialsymbolsrounded/description_wght500_24px.svg",
+        "sha256": "a599613fd286cf4bd7dd7488c84c0f8be2e47c423322dd86c03e593723a1128a",
+        "bytes": 819,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-download",
+        "name": "download",
+        "upstreamName": "download",
+        "path": "assets/material-symbols/rounded/download.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/download/materialsymbolsrounded/download_wght500_24px.svg",
+        "sha256": "30add3af7199d1bbe70bc3064f0a4328ab78f69f0047bb9aa913f16887faa205",
+        "bytes": 797,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "common-interface",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-draft",
+        "name": "draft",
+        "upstreamName": "draft",
+        "path": "assets/material-symbols/rounded/draft.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/draft/materialsymbolsrounded/draft_wght500_24px.svg",
+        "sha256": "d81574bc93d6c18acc3de5e76c1bfcd726b746203bbb613436079256ae4bb445",
+        "bytes": 491,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-edit",
+        "name": "edit",
+        "upstreamName": "edit",
+        "path": "assets/material-symbols/rounded/edit.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/edit/materialsymbolsrounded/edit_wght500_24px.svg",
+        "sha256": "671bf9298a69200401c18e5112e4f7fcf909c8cfb56ae90159c24def55ac9218",
+        "bytes": 624,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-event",
+        "name": "event",
+        "upstreamName": "event",
+        "path": "assets/material-symbols/rounded/event.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/event/materialsymbolsrounded/event_wght500_24px.svg",
+        "sha256": "b2a962ea37f27cbf6a4b4a8dd7c700be2d2ca206d42cf63f72a2f392aa160c30",
+        "bytes": 635,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-expand_less",
+        "name": "expand_less",
+        "upstreamName": "expand_less",
+        "path": "assets/material-symbols/rounded/expand_less.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/expand_less/materialsymbolsrounded/expand_less_wght500_24px.svg",
+        "sha256": "ff88e8e714b55155a24c9f77352bc8955ea3e32deed1169bd4e169b9ffc981ce",
+        "bytes": 397,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-expand_more",
+        "name": "expand_more",
+        "upstreamName": "expand_more",
+        "path": "assets/material-symbols/rounded/expand_more.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/expand_more/materialsymbolsrounded/expand_more_wght500_24px.svg",
+        "sha256": "09499b58be64af567cb07597c301a3b16272c253ff7ee7f67ccbcba34cc61d4d",
+        "bytes": 396,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-filter_list",
+        "name": "filter_list",
+        "upstreamName": "filter_list",
+        "path": "assets/material-symbols/rounded/filter_list.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/filter_list/materialsymbolsrounded/filter_list_wght500_24px.svg",
+        "sha256": "e107511735e2c6ab376a2c072bcf9dd3b3fd3672b99af6464d29d6eacc55e00e",
+        "bytes": 662,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-finance",
+        "name": "finance",
+        "upstreamName": "finance",
+        "path": "assets/material-symbols/rounded/finance.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/finance/materialsymbolsrounded/finance_wght500_24px.svg",
+        "sha256": "65d43133a7a50c42c2c1f9e084ccfd729d211fc228e68b90604a78abdd0253ec",
+        "bytes": 952,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-folder",
+        "name": "folder",
+        "upstreamName": "folder",
+        "path": "assets/material-symbols/rounded/folder.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/folder/materialsymbolsrounded/folder_wght500_24px.svg",
+        "sha256": "e82f313c31acfb4bbd34ebeb26dbacb79156a34369132c24c065944ca8e48aea",
+        "bytes": 422,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-grid_view",
+        "name": "grid_view",
+        "upstreamName": "grid_view",
+        "path": "assets/material-symbols/rounded/grid_view.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/grid_view/materialsymbolsrounded/grid_view_wght500_24px.svg",
+        "sha256": "361e2d5a9f33ea4c7cbd6d94b2d53d45484f95c957cb4cbd81daab1f17a575d0",
+        "bytes": 1088,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "navigation"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-group",
+        "name": "group",
+        "upstreamName": "group",
+        "path": "assets/material-symbols/rounded/group.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/group/materialsymbolsrounded/group_wght500_24px.svg",
+        "sha256": "1e7e48c8737fa91129c36a546b8812007b52b35b1f8f9c4298c0c91ed09767c9",
+        "bytes": 1521,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-help",
+        "name": "help",
+        "upstreamName": "help",
+        "path": "assets/material-symbols/rounded/help.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/help/materialsymbolsrounded/help_wght500_24px.svg",
+        "sha256": "33d4350414b7f66a3283a6fe4b6373d927805fb126a7a21aa66552b90569e92d",
+        "bytes": 1383,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-history",
+        "name": "history",
+        "upstreamName": "history",
+        "path": "assets/material-symbols/rounded/history.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/history/materialsymbolsrounded/history_wght500_24px.svg",
+        "sha256": "9c428c576e1733e649b8aad3ca23a07c02aaee8a3d685e9c0182e2fe2ff81b5b",
+        "bytes": 1131,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-home",
+        "name": "home",
+        "upstreamName": "home",
+        "path": "assets/material-symbols/rounded/home.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/home/materialsymbolsrounded/home_wght500_24px.svg",
+        "sha256": "23803b02e30d493de99a96acd3336c06abbbd0995858aa04f1c7fc9019adba67",
+        "bytes": 653,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "navigation"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-hourglass_empty",
+        "name": "hourglass_empty",
+        "upstreamName": "hourglass_empty",
+        "path": "assets/material-symbols/rounded/hourglass_empty.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/hourglass_empty/materialsymbolsrounded/hourglass_empty_wght500_24px.svg",
+        "sha256": "3b6c54934320faeb18635a30f00ebba576fc09b175690ef2794dc336e8c26f64",
+        "bytes": 928,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-inbox",
+        "name": "inbox",
+        "upstreamName": "inbox",
+        "path": "assets/material-symbols/rounded/inbox.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/inbox/materialsymbolsrounded/inbox_wght500_24px.svg",
+        "sha256": "7ec6845862476ca00f7588757374c53bd6ebae29e3c70bc9ed3f97ed233ef23d",
+        "bytes": 612,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-info",
+        "name": "info",
+        "upstreamName": "info",
+        "path": "assets/material-symbols/rounded/info.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/info/materialsymbolsrounded/info_wght500_24px.svg",
+        "sha256": "d8507a2cb7e764e052d5a0b7af53cb89e331b00cdc4e89a3268634643da5d693",
+        "bytes": 1026,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "common-interface",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-keyboard",
+        "name": "keyboard",
+        "upstreamName": "keyboard",
+        "path": "assets/material-symbols/rounded/keyboard.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/keyboard/materialsymbolsrounded/keyboard_wght500_24px.svg",
+        "sha256": "4f8164c9bc764f4f72f36416541727d1c444d9205e927377314b416231a93a73",
+        "bytes": 1397,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "common-interface",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-label",
+        "name": "label",
+        "upstreamName": "label",
+        "path": "assets/material-symbols/rounded/label.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/label/materialsymbolsrounded/label_wght500_24px.svg",
+        "sha256": "a733958784dbb9446eb582fbc33f1efd075ad15c799f01fb2dcfbb56218a39b3",
+        "bytes": 474,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-link",
+        "name": "link",
+        "upstreamName": "link",
+        "path": "assets/material-symbols/rounded/link.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/link/materialsymbolsrounded/link_wght500_24px.svg",
+        "sha256": "e2f0cca73f84df5dfa9bc0b70bae6ad0c6f02882e968b886f8ac9419bc7413f9",
+        "bytes": 987,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-location_on",
+        "name": "location_on",
+        "upstreamName": "location_on",
+        "path": "assets/material-symbols/rounded/location_on.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/location_on/materialsymbolsrounded/location_on_wght500_24px.svg",
+        "sha256": "6e5ea5b5537ffb7aa089361af88ebef1d7b52994ea22de515993c668644197bb",
+        "bytes": 835,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-lock",
+        "name": "lock",
+        "upstreamName": "lock",
+        "path": "assets/material-symbols/rounded/lock.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/lock/materialsymbolsrounded/lock_wght500_24px.svg",
+        "sha256": "c8b0df17c749414149c640b46faaeef1501751ea6bbf7d69e15515ecbc94995a",
+        "bytes": 730,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-mail",
+        "name": "mail",
+        "upstreamName": "mail",
+        "path": "assets/material-symbols/rounded/mail.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/mail/materialsymbolsrounded/mail_wght500_24px.svg",
+        "sha256": "837dc00a2802689d975a4dff755ac81c8bc5532ed0ccff986c972177fef72cc2",
+        "bytes": 541,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-mark_email_read",
+        "name": "mark_email_read",
+        "upstreamName": "mark_email_read",
+        "path": "assets/material-symbols/rounded/mark_email_read.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/mark_email_read/materialsymbolsrounded/mark_email_read_wght500_24px.svg",
+        "sha256": "5b90f5466721e6a39ca95ead2e0a55b131193c6fa9d4de91cdbd027fdf159316",
+        "bytes": 853,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-menu",
+        "name": "menu",
+        "upstreamName": "menu",
+        "path": "assets/material-symbols/rounded/menu.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/menu/materialsymbolsrounded/menu_wght500_24px.svg",
+        "sha256": "1222c39f28a0b9eea4b17604bc43bab411df0425abec34f2a41c1358ba3ec045",
+        "bytes": 672,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "navigation"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-mic",
+        "name": "mic",
+        "upstreamName": "mic",
+        "path": "assets/material-symbols/rounded/mic.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/mic/materialsymbolsrounded/mic_wght500_24px.svg",
+        "sha256": "17e9ba8add2df046484f85e18ccabdeab67767059b45619c711db0cf9fa03ef7",
+        "bytes": 916,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "meeting"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-monitoring",
+        "name": "monitoring",
+        "upstreamName": "monitoring",
+        "path": "assets/material-symbols/rounded/monitoring.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/monitoring/materialsymbolsrounded/monitoring_wght500_24px.svg",
+        "sha256": "f0852b42eb708634026eac59b719c5f8d23eadb3cf4c887fa27cbd0268de8387",
+        "bytes": 1545,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-more_vert",
+        "name": "more_vert",
+        "upstreamName": "more_vert",
+        "path": "assets/material-symbols/rounded/more_vert.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/more_vert/materialsymbolsrounded/more_vert_wght500_24px.svg",
+        "sha256": "c3ac041e96a498cb6db59c151c8c516e17315dfa22a15b83b8120f8b7da2b3f3",
+        "bytes": 634,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-notifications",
+        "name": "notifications",
+        "upstreamName": "notifications",
+        "path": "assets/material-symbols/rounded/notifications.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/notifications/materialsymbolsrounded/notifications_wght500_24px.svg",
+        "sha256": "95dc07bc0c49064f1d9e860d4573d683700b61987c93c9201a8637bc729146e4",
+        "bytes": 678,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "common-interface",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-open_in_new",
+        "name": "open_in_new",
+        "upstreamName": "open_in_new",
+        "path": "assets/material-symbols/rounded/open_in_new.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/open_in_new/materialsymbolsrounded/open_in_new_wght500_24px.svg",
+        "sha256": "308561b1be99d2df6f177d5a8583d71b5ca5c42142662a6f50b18748e83469b9",
+        "bytes": 793,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "navigation"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-people",
+        "name": "people",
+        "upstreamName": "groups",
+        "path": "assets/material-symbols/rounded/people.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/groups/materialsymbolsrounded/groups_wght500_24px.svg",
+        "sha256": "a3be5cb774e3d338d9c016876355d127120005a85a96dd03e0f676c32a9cc2be",
+        "bytes": 1642,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-person_add",
+        "name": "person_add",
+        "upstreamName": "person_add",
+        "path": "assets/material-symbols/rounded/person_add.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/person_add/materialsymbolsrounded/person_add_wght500_24px.svg",
+        "sha256": "1c1d772aef70d87c88fe875b84a15244d7be7a0608f2aeadd33383989513d029",
+        "bytes": 1332,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-policy",
+        "name": "policy",
+        "upstreamName": "policy",
+        "path": "assets/material-symbols/rounded/policy.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/policy/materialsymbolsrounded/policy_wght500_24px.svg",
+        "sha256": "9c983e1d2296ece26fa163167233945cd99d3df3ca23ad78c04aa3370de6c6cd",
+        "bytes": 1155,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-present_to_all",
+        "name": "present_to_all",
+        "upstreamName": "present_to_all",
+        "path": "assets/material-symbols/rounded/present_to_all.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/present_to_all/materialsymbolsrounded/present_to_all_wght500_24px.svg",
+        "sha256": "3363c3b1634e0223c0a15ce2814a4f2c26ee031bff0b1f66d16d322bd339ff3a",
+        "bytes": 711,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "meeting"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-progress_activity",
+        "name": "progress_activity",
+        "upstreamName": "progress_activity",
+        "path": "assets/material-symbols/rounded/progress_activity.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/progress_activity/materialsymbolsrounded/progress_activity_wght500_24px.svg",
+        "sha256": "207d2e37e41feacc1baf2a31a4f6d459bfdeef22a267bbf0ad13d2086c422824",
+        "bytes": 686,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-radio_button_checked",
+        "name": "radio_button_checked",
+        "upstreamName": "radio_button_checked",
+        "path": "assets/material-symbols/rounded/radio_button_checked.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/radio_button_checked/materialsymbolsrounded/radio_button_checked_wght500_24px.svg",
+        "sha256": "c43fea79673b307644937c65b7e963653fc77315821538fea6c83c233ecdefe9",
+        "bytes": 776,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-refresh",
+        "name": "refresh",
+        "upstreamName": "refresh",
+        "path": "assets/material-symbols/rounded/refresh.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/refresh/materialsymbolsrounded/refresh_wght500_24px.svg",
+        "sha256": "346e99f9447c9ce850adc4b892df665fd7064dc9b8ca718c41d15b1904c76db6",
+        "bytes": 761,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "common-interface",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-schedule",
+        "name": "schedule",
+        "upstreamName": "schedule",
+        "path": "assets/material-symbols/rounded/schedule.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/schedule/materialsymbolsrounded/schedule_wght500_24px.svg",
+        "sha256": "cd33148b747c8074fbf12576060dfd0ea19f8d99fb4a253c9ba9311e10eafe39",
+        "bytes": 933,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-search",
+        "name": "search",
+        "upstreamName": "search",
+        "path": "assets/material-symbols/rounded/search.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/search/materialsymbolsrounded/search_wght500_24px.svg",
+        "sha256": "a9b82ae2ab974916aca638e7270b6018700cc30b2330277d3af047e8313bd4c8",
+        "bytes": 631,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "common-interface",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-send",
+        "name": "send",
+        "upstreamName": "send",
+        "path": "assets/material-symbols/rounded/send.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/send/materialsymbolsrounded/send_wght500_24px.svg",
+        "sha256": "23f5b87ebab5c2dfc2238171a52426ae173e70e8459dce594909ada515261795",
+        "bytes": 379,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "communication",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-settings",
+        "name": "settings",
+        "upstreamName": "settings",
+        "path": "assets/material-symbols/rounded/settings.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/settings/materialsymbolsrounded/settings_wght500_24px.svg",
+        "sha256": "d69bbfa9684126e49f79db4a587beddc8c6c9a66b49f064417d0f3569e79664f",
+        "bytes": 1734,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-shapes",
+        "name": "shapes",
+        "upstreamName": "shapes",
+        "path": "assets/material-symbols/rounded/shapes.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/shapes/materialsymbolsrounded/shapes_wght500_24px.svg",
+        "sha256": "e150b2bd2be2108f93691b350495c5ffc504d52a280b94ab213fcc1ed03b77e7",
+        "bytes": 842,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-shield_lock",
+        "name": "shield_lock",
+        "upstreamName": "shield_lock",
+        "path": "assets/material-symbols/rounded/shield_lock.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/shield_lock/materialsymbolsrounded/shield_lock_wght500_24px.svg",
+        "sha256": "8abf188be1f19ca86a12b11756d14f74cbf1b1dbb581004e1ea454a00532dd09",
+        "bytes": 880,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-show_chart",
+        "name": "show_chart",
+        "upstreamName": "show_chart",
+        "path": "assets/material-symbols/rounded/show_chart.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/show_chart/materialsymbolsrounded/show_chart_wght500_24px.svg",
+        "sha256": "953b9ed0bfda27f8a1016bb05ec5336bf1f816b4d6ce27d2a942fd8bb6660e57",
+        "bytes": 450,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-star",
+        "name": "star",
+        "upstreamName": "star",
+        "path": "assets/material-symbols/rounded/star.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/star/materialsymbolsrounded/star_wght500_24px.svg",
+        "sha256": "0e077bf6f1a553f8ffb11da4849b5047404445f40303b1828b96ff9292d65443",
+        "bytes": 833,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-task_alt",
+        "name": "task_alt",
+        "upstreamName": "task_alt",
+        "path": "assets/material-symbols/rounded/task_alt.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/task_alt/materialsymbolsrounded/task_alt_wght500_24px.svg",
+        "sha256": "72b556599c2fd45ec00440e528c1f607bcd6d6f175679171a7080d04c1874b07",
+        "bytes": 1142,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-today",
+        "name": "today",
+        "upstreamName": "today",
+        "path": "assets/material-symbols/rounded/today.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/today/materialsymbolsrounded/today_wght500_24px.svg",
+        "sha256": "b95569d3b04a1c3bbd1f745ee3667713d5b7c53b27bcda6fc6298abbba6f01fe",
+        "bytes": 641,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "productivity"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-toggle_on",
+        "name": "toggle_on",
+        "upstreamName": "toggle_on",
+        "path": "assets/material-symbols/rounded/toggle_on.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/toggle_on/materialsymbolsrounded/toggle_on_wght500_24px.svg",
+        "sha256": "8367b0b03ec1fec1242006f24d6de13bee2bfa3a5d69a14df0b829ef0ffc3a0c",
+        "bytes": 469,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "common-interface",
+          "interface-control",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-trending_down",
+        "name": "trending_down",
+        "upstreamName": "trending_down",
+        "path": "assets/material-symbols/rounded/trending_down.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/trending_down/materialsymbolsrounded/trending_down_wght500_24px.svg",
+        "sha256": "99ad9196c43eafc647ef93b1bb05d3eddcfbc08f49aacb02d215f332160d7660",
+        "bytes": 607,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-trending_up",
+        "name": "trending_up",
+        "upstreamName": "trending_up",
+        "path": "assets/material-symbols/rounded/trending_up.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/trending_up/materialsymbolsrounded/trending_up_wght500_24px.svg",
+        "sha256": "de6c491c73f75781e00585bec98528a6bc62c56f0b8c130d7e029a316ef6c9a6",
+        "bytes": 613,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "finance",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-tune",
+        "name": "tune",
+        "upstreamName": "tune",
+        "path": "assets/material-symbols/rounded/tune.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/tune/materialsymbolsrounded/tune_wght500_24px.svg",
+        "sha256": "f59f2ade49e49c89b8fb4c1878520e6b0c3ae5cb25f2ff0b739ee2601daed93f",
+        "bytes": 1605,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "common-interface",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-upload",
+        "name": "upload",
+        "upstreamName": "upload",
+        "path": "assets/material-symbols/rounded/upload.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/upload/materialsymbolsrounded/upload_wght500_24px.svg",
+        "sha256": "c69a25eb65cad13b6e769169d59ead7de8aef105b3bbd739026462854543e8c9",
+        "bytes": 803,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "action",
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-video_call",
+        "name": "video_call",
+        "upstreamName": "video_call",
+        "path": "assets/material-symbols/rounded/video_call.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/video_call/materialsymbolsrounded/video_call_wght500_24px.svg",
+        "sha256": "501d07b4bacfb0f0bd36b8871e244298c0430f604eddb522e2aabb51ca835ce6",
+        "bytes": 703,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "meeting"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-videocam",
+        "name": "videocam",
+        "upstreamName": "videocam",
+        "path": "assets/material-symbols/rounded/videocam.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/videocam/materialsymbolsrounded/videocam_wght500_24px.svg",
+        "sha256": "651b10af3e2488db7df5026cb049b901550b230832224cd7cb784534c78e6231",
+        "bytes": 457,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "meeting"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-view_list",
+        "name": "view_list",
+        "upstreamName": "view_list",
+        "path": "assets/material-symbols/rounded/view_list.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/view_list/materialsymbolsrounded/view_list_wght500_24px.svg",
+        "sha256": "41c82ac6106e37b5572aa405a548025f64906a4c0ba2c7d2be05e2fe6cef4ba2",
+        "bytes": 541,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "navigation"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-view_week",
+        "name": "view_week",
+        "upstreamName": "view_week",
+        "path": "assets/material-symbols/rounded/view_week.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/view_week/materialsymbolsrounded/view_week_wght500_24px.svg",
+        "sha256": "48eb772ffca44db7b2717959e4dd6f03551089d77e2a986687b1aac74600fa16",
+        "bytes": 400,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded"
+        ],
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-symbols-rounded-warning",
+        "name": "warning",
+        "upstreamName": "warning",
+        "path": "assets/material-symbols/rounded/warning.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/symbols/web/warning/materialsymbolsrounded/warning_wght500_24px.svg",
+        "sha256": "7391025735db8406806106096f98e4c6493bffa07b9e41a47db3210191cf8bcf",
+        "bytes": 732,
+        "viewBox": "0 -960 960 960",
+        "categories": [
+          "catalog",
+          "material-symbols-rounded",
+          "status"
+        ],
+        "license": "Apache-2.0"
+      }
+    ],
+    "upstreamFiles": [
+      {
+        "id": "material-design-icons-license",
+        "path": "assets/upstream/material-design-icons/LICENSE",
+        "upstreamPath": "LICENSE",
+        "sourceUrl": "https://raw.githubusercontent.com/google/material-design-icons/0cbb08816df07faaae3dca060d4ebb10b66c214f/LICENSE",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "bytes": 11357,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-license",
+        "path": "assets/upstream/material-web/LICENSE",
+        "upstreamPath": "LICENSE",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/LICENSE",
+        "sha256": "295cdb4364b782931c914f5ca8c47fac87c732fa7e448b788a47aa5b25728212",
+        "bytes": 11348,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-motion",
+        "path": "assets/upstream/material-web/tokens/_md-sys-motion.scss",
+        "upstreamPath": "tokens/_md-sys-motion.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/_md-sys-motion.scss",
+        "sha256": "75e8f3c3dbf442f6b4509298215208924125d4bc4a90a6e71d10b89a926642a7",
+        "bytes": 274,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-shape",
+        "path": "assets/upstream/material-web/tokens/_md-sys-shape.scss",
+        "upstreamPath": "tokens/_md-sys-shape.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/_md-sys-shape.scss",
+        "sha256": "09945a1d4abda485cc8d2562276967870f5bc5491358c55b47ebdec4d3489d87",
+        "bytes": 2744,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-state",
+        "path": "assets/upstream/material-web/tokens/_md-sys-state.scss",
+        "upstreamPath": "tokens/_md-sys-state.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/_md-sys-state.scss",
+        "sha256": "b8b968727668f56b4ed27db119215e2272bdac9556a5e601753b5d1f141d1f36",
+        "bytes": 272,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-elevation",
+        "path": "assets/upstream/material-web/tokens/_md-sys-elevation.scss",
+        "upstreamPath": "tokens/_md-sys-elevation.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/_md-sys-elevation.scss",
+        "sha256": "aa454b036b392b62e9d917a6de15827e788d09b87ea4f35e5cec8cac71b42b0d",
+        "bytes": 932,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-motion",
+        "path": "assets/upstream/material-web/tokens/versions/v0_192/_md-sys-motion.scss",
+        "upstreamPath": "tokens/versions/v0_192/_md-sys-motion.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/versions/v0_192/_md-sys-motion.scss",
+        "sha256": "5a29bda5a3677ccab74954dc957c1d76346e3470849378e47b0de57aafdbacee",
+        "bytes": 2638,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-shape",
+        "path": "assets/upstream/material-web/tokens/versions/v0_192/_md-sys-shape.scss",
+        "upstreamPath": "tokens/versions/v0_192/_md-sys-shape.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/versions/v0_192/_md-sys-shape.scss",
+        "sha256": "2ffa44f85591cde7f501aafb8e26c422d341b1eae56b3e2fab7ab6034a3ee6eb",
+        "bytes": 1364,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-state",
+        "path": "assets/upstream/material-web/tokens/versions/v0_192/_md-sys-state.scss",
+        "upstreamPath": "tokens/versions/v0_192/_md-sys-state.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/versions/v0_192/_md-sys-state.scss",
+        "sha256": "d410dd5d47c1bc25b25b6fa82901bdf8d555360cbd35716bc73ed8d6a61ea6f8",
+        "bytes": 781,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-elevation",
+        "path": "assets/upstream/material-web/tokens/versions/v0_192/_md-sys-elevation.scss",
+        "upstreamPath": "tokens/versions/v0_192/_md-sys-elevation.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/versions/v0_192/_md-sys-elevation.scss",
+        "sha256": "658319c50ce8f33f08d567493dfe52106e9ef177f43b4d6a38526ee339e24972",
+        "bytes": 798,
+        "license": "Apache-2.0"
+      },
+      {
+        "id": "material-web-md-sys-color",
+        "path": "assets/upstream/material-web/tokens/versions/v0_192/_md-sys-color.scss",
+        "upstreamPath": "tokens/versions/v0_192/_md-sys-color.scss",
+        "sourceUrl": "https://raw.githubusercontent.com/material-components/material-web/c05b4b23485c803f68ff31cde52506cea5cc555a/tokens/versions/v0_192/_md-sys-color.scss",
+        "sha256": "aa0c2dc244989edcb1bb2af169a87d290e5303a7e945720cd2c21c8bdb103670",
+        "bytes": 7693,
+        "license": "Apache-2.0"
+      }
+    ],
+    "selectedMaterialWeb": {
+      "purpose": "Official token SCSS references for motion, shape, state, and elevation decisions.",
+      "files": [
+        "tokens/_md-sys-motion.scss",
+        "tokens/_md-sys-shape.scss",
+        "tokens/_md-sys-state.scss",
+        "tokens/_md-sys-elevation.scss",
+        "tokens/versions/v0_192/_md-sys-motion.scss",
+        "tokens/versions/v0_192/_md-sys-shape.scss",
+        "tokens/versions/v0_192/_md-sys-state.scss",
+        "tokens/versions/v0_192/_md-sys-elevation.scss",
+        "tokens/versions/v0_192/_md-sys-color.scss"
+      ]
+    }
+  },
+  "iconNames": [
+    "menu",
+    "search",
+    "tune",
+    "help",
+    "settings",
+    "apps",
+    "account_circle",
+    "add",
+    "edit",
+    "close",
+    "refresh",
+    "more_vert",
+    "mail",
+    "inbox",
+    "star",
+    "schedule",
+    "send",
+    "draft",
+    "label",
+    "archive",
+    "delete",
+    "mark_email_read",
+    "attach_file",
+    "filter_list",
+    "calendar_today",
+    "event",
+    "today",
+    "chevron_left",
+    "chevron_right",
+    "view_week",
+    "task_alt",
+    "people",
+    "location_on",
+    "notifications",
+    "home",
+    "folder",
+    "description",
+    "computer",
+    "group",
+    "history",
+    "warning",
+    "cloud",
+    "upload",
+    "download",
+    "grid_view",
+    "view_list",
+    "videocam",
+    "call",
+    "keyboard",
+    "shield_lock",
+    "info",
+    "lock",
+    "mic",
+    "present_to_all",
+    "chat",
+    "person_add",
+    "link",
+    "video_call",
+    "finance",
+    "monitoring",
+    "trending_up",
+    "trending_down",
+    "show_chart",
+    "candlestick_chart",
+    "currency_exchange",
+    "add_chart",
+    "expand_more",
+    "expand_less",
+    "open_in_new",
+    "policy"
+  ],
+  "illustrations": [
+    {
+      "id": "meet-empty-schedule",
+      "name": "Meet empty schedule illustration",
+      "sourceUrl": "https://meet.google.com/home",
+      "reuse": "reference-only",
+      "evidenceId": "meet-home",
+      "observation": "Soft pink, yellow, and blue editorial line illustration centered above an empty-state headline.",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "event_busy",
+        "treatment": "secondaryContainer surface, 28px radius"
+      }
+    },
+    {
+      "id": "calendar-onboarding",
+      "name": "Calendar onboarding illustration",
+      "sourceUrl": "https://calendar.google.com/calendar/u/0/r",
+      "reuse": "reference-only",
+      "evidenceId": "calendar-onboarding",
+      "observation": "Large blue travel/calendar scene used as dialog media above onboarding copy.",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "calendar_month",
+        "treatment": "primaryContainer surface, 28px radius"
+      }
+    },
+    {
+      "id": "gmail-gemini-banner-mark",
+      "name": "Gmail Gemini banner mark",
+      "sourceUrl": "https://mail.google.com/",
+      "reuse": "reference-only",
+      "evidenceId": "gmail-inbox",
+      "observation": "Small branded decorative mark in an informational banner.",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "auto_awesome",
+        "treatment": "primary color, no Google product branding"
+      }
+    },
+    {
+      "id": "drive-empty-recommendation",
+      "name": "Drive recommendation empty state",
+      "sourceUrl": "https://drive.google.com/drive/u/0/home",
+      "reuse": "independent-pattern",
+      "evidenceId": "drive-home",
+      "observation": "Whitespace-first empty recommendation surface with centered support text and contextual filters.",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "folder_off",
+        "treatment": "surfaceContainerLow, 20px radius"
+      }
+    }
+  ],
+  "infographics": [
+    {
+      "id": "finance-market-sparkline",
+      "name": "Market sparkline card",
+      "sourceUrl": "https://www.google.com/finance/beta",
+      "reuse": "independent-data-pattern",
+      "evidenceId": "finance-overview",
+      "anatomy": [
+        "market name",
+        "current value",
+        "signed delta",
+        "direction icon",
+        "sparkline"
+      ],
+      "rule": "Use semantic positive/negative tokens and always pair color with sign or icon."
+    },
+    {
+      "id": "finance-market-summary",
+      "name": "Market summary block",
+      "sourceUrl": "https://www.google.com/finance/beta",
+      "reuse": "independent-data-pattern",
+      "evidenceId": "finance-overview",
+      "anatomy": [
+        "regional filter",
+        "index cards",
+        "summary headline",
+        "source attribution",
+        "expandable stories"
+      ],
+      "rule": "Keep dense data above editorial context; charts are UI, not copied image assets."
+    },
+    {
+      "id": "calendar-time-grid",
+      "name": "Weekly time-grid",
+      "sourceUrl": "https://calendar.google.com/calendar/u/0/r",
+      "reuse": "independent-layout-pattern",
+      "evidenceId": "calendar-week",
+      "anatomy": [
+        "day headers",
+        "time gutter",
+        "hour slots",
+        "today circle",
+        "current-time line",
+        "event layer"
+      ],
+      "rule": "Time is encoded by position first, then color and labels."
+    },
+    {
+      "id": "material-documentation-graphics",
+      "name": "Material documentation diagrams",
+      "sourceUrl": "https://m3.material.io/",
+      "reuse": "reference-only",
+      "evidenceId": null,
+      "anatomy": [
+        "component anatomy diagrams",
+        "token relationship diagrams",
+        "motion demonstrations"
+      ],
+      "rule": "Recreate diagrams with original neutral shapes and text; do not copy Material documentation imagery."
+    }
+  ],
+  "productReferenceAssets": [
+    {
+      "id": "meet-product-mark",
+      "name": "Google Meet product mark",
+      "category": "ProductBrandMarks",
+      "evidenceId": "meet-product-navigation-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 38,
+        "y": 22,
+        "width": 350,
+        "height": 55
+      },
+      "sourceSize": {
+        "width": 420,
+        "height": 580
+      },
+      "colors": [
+        "#FBB100",
+        "#FECC05",
+        "#FECA03",
+        "#FECD06",
+        "#FAAD01",
+        "#212226",
+        "#212327",
+        "#FFFFFF"
+      ],
+      "gradientId": "meet-product-mark-yellow",
+      "officialObservedAssetId": "observed-b0ea9acd3ec6",
+      "paletteMethod": "exact-source-pixels",
+      "typography": {
+        "family": "Google Sans-like",
+        "weight": 500,
+        "approximateSize": "48px"
+      },
+      "sourceFidelity": "official-raster-reference",
+      "distributableSubstitute": {
+        "type": "none",
+        "name": "no-public-substitute",
+        "note": "Do not approximate or recreate the Google product mark."
+      }
+    },
+    {
+      "id": "meet-nav-meeting-selected",
+      "name": "Meeting navigation item, selected",
+      "category": "ProductNavigationIcons",
+      "evidenceId": "meet-product-navigation-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 44,
+        "y": 212,
+        "width": 112,
+        "height": 112
+      },
+      "sourceSize": {
+        "width": 420,
+        "height": 580
+      },
+      "colors": [
+        "#C9E6FD",
+        "#061C33",
+        "#1967D2",
+        "#FFFFFF"
+      ],
+      "containerId": "meet-nav-selected-pill",
+      "states": [
+        "selected"
+      ],
+      "sourceFidelity": "screenshot-measured-reference",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "calendar_today",
+        "axes": {
+          "fill": 0,
+          "weight": 500,
+          "grade": 0,
+          "opticalSize": 24
+        },
+        "renderSize": 36
+      }
+    },
+    {
+      "id": "meet-nav-call-inactive",
+      "name": "Call navigation item, inactive",
+      "category": "ProductNavigationIcons",
+      "evidenceId": "meet-product-navigation-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 72,
+        "y": 360,
+        "width": 70,
+        "height": 112
+      },
+      "sourceSize": {
+        "width": 420,
+        "height": 580
+      },
+      "colors": [
+        "#454746",
+        "#5F6368",
+        "#FFFFFF"
+      ],
+      "states": [
+        "inactive"
+      ],
+      "sourceFidelity": "screenshot-measured-reference",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "call",
+        "axes": {
+          "fill": 0,
+          "weight": 500,
+          "grade": 0,
+          "opticalSize": 24
+        },
+        "renderSize": 36
+      }
+    },
+    {
+      "id": "meet-security-shield-lock",
+      "name": "Security shield-lock status icon",
+      "category": "StatusAndTrustIcons",
+      "evidenceId": "meet-security-banner-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 80,
+        "y": 70,
+        "width": 56,
+        "height": 73
+      },
+      "sourceSize": {
+        "width": 640,
+        "height": 256
+      },
+      "colors": [
+        "#4285F4",
+        "#185ABC",
+        "#FFFFFF"
+      ],
+      "sourceFidelity": "official-svg-exact",
+      "officialObservedAssetId": "observed-d087ff35eeca",
+      "vector": {
+        "width": 58,
+        "height": 58,
+        "paths": 3,
+        "fills": [
+          "#4285F4",
+          "#185ABC",
+          "#FFFFFF"
+        ],
+        "stroke": "none"
+      },
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "shield_lock",
+        "axes": {
+          "fill": 0,
+          "weight": 500,
+          "grade": 0,
+          "opticalSize": 24
+        },
+        "renderSize": 40
+      }
+    },
+    {
+      "id": "meet-security-banner",
+      "name": "Security / trust info banner",
+      "category": "ContainersAndSurfaces",
+      "evidenceId": "meet-security-banner-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 28,
+        "y": 42,
+        "width": 612,
+        "height": 128
+      },
+      "sourceSize": {
+        "width": 640,
+        "height": 256
+      },
+      "colors": [
+        "#D3E3FD",
+        "#454746",
+        "#4285F4",
+        "#185ABC",
+        "#FFFFFF"
+      ],
+      "containerId": "meet-security-banner-pill",
+      "anatomy": [
+        "shield-lock icon",
+        "bold title",
+        "supporting text",
+        "pill surface"
+      ],
+      "sourceFidelity": "computed-surface-plus-official-svg",
+      "distributableSubstitute": {
+        "type": "component",
+        "name": "banner",
+        "icon": "shield_lock",
+        "iconAxes": {
+          "fill": 0,
+          "weight": 500,
+          "grade": 0,
+          "opticalSize": 24
+        }
+      }
+    },
+    {
+      "id": "meet-empty-state-illustration",
+      "name": "Meet empty-schedule illustration",
+      "category": "EmptyStateIllustrations",
+      "evidenceId": "meet-empty-state-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 247,
+        "y": 123,
+        "width": 615,
+        "height": 325
+      },
+      "sourceSize": {
+        "width": 1126,
+        "height": 936
+      },
+      "colors": [
+        "#FFC6EF",
+        "#FFDB0F",
+        "#FDFD6D",
+        "#1F1F1F",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "gradientIds": [
+        "meet-cup-pink-yellow-exact"
+      ],
+      "stroke": {
+        "colors": [
+          "#1F1F1F",
+          "#000000"
+        ],
+        "nativeWidth": "1px default SVG stroke",
+        "observedScale": 1.95,
+        "approximateRenderedWidth": "1.95px",
+        "cap": "round",
+        "join": "round"
+      },
+      "sourceFidelity": "official-svg-exact",
+      "officialObservedAssetId": "observed-6c787294a44b",
+      "vector": {
+        "width": 315,
+        "height": 167,
+        "viewBox": [
+          0,
+          0,
+          315,
+          167
+        ],
+        "paths": 12,
+        "gradientCount": 1
+      },
+      "illustrationStyle": "thin black line, flat pastel geometry, isolated white stage",
+      "distributableSubstitute": {
+        "type": "none",
+        "name": "original-reference-only",
+        "note": "Do not collapse the illustration into a generic icon; use a separately commissioned or licensed illustration for public implementation."
+      }
+    },
+    {
+      "id": "meet-new-meeting-icon",
+      "name": "Video-plus action icon",
+      "category": "ActionIcons",
+      "evidenceId": "meet-empty-state-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 499,
+        "y": 726,
+        "width": 35,
+        "height": 33
+      },
+      "sourceSize": {
+        "width": 1126,
+        "height": 936
+      },
+      "colors": [
+        "#102613",
+        "#CDEDD2"
+      ],
+      "sourceFidelity": "screenshot-measured-reference",
+      "distributableSubstitute": {
+        "type": "material-symbol",
+        "name": "video_call",
+        "axes": {
+          "fill": 0,
+          "weight": 500,
+          "grade": 0,
+          "opticalSize": 24
+        },
+        "renderSize": 32
+      }
+    },
+    {
+      "id": "meet-new-meeting-button",
+      "name": "Soft-green new meeting CTA",
+      "category": "ContainersAndSurfaces",
+      "evidenceId": "meet-empty-state-source",
+      "referenceOnly": true,
+      "bbox": {
+        "x": 446,
+        "y": 686,
+        "width": 214,
+        "height": 111
+      },
+      "sourceSize": {
+        "width": 1126,
+        "height": 936
+      },
+      "colors": [
+        "#C4EED0",
+        "#072711"
+      ],
+      "containerId": "meet-new-meeting-pill",
+      "typography": {
+        "family": "Google Sans-like",
+        "weight": 500,
+        "approximateSize": "30px"
+      },
+      "sourceFidelity": "computed-surface-plus-screenshot-geometry",
+      "distributableSubstitute": {
+        "type": "component",
+        "name": "tonal-button",
+        "icon": "video_call",
+        "iconAxes": {
+          "fill": 0,
+          "weight": 500,
+          "grade": 0,
+          "opticalSize": 24
+        }
+      }
+    }
+  ],
+  "containerReferences": [
+    {
+      "id": "meet-nav-selected-pill",
+      "name": "Selected navigation capsule",
+      "dimensions": {
+        "width": 112,
+        "height": 64
+      },
+      "radius": "32px",
+      "background": "#C9E6FD",
+      "border": "none",
+      "contentColors": {
+        "icon": "#061C33",
+        "label": "#1967D2"
+      },
+      "usage": "selected destination in a vertical navigation rail"
+    },
+    {
+      "id": "meet-security-banner-pill",
+      "name": "Security information banner",
+      "dimensions": {
+        "height": 128,
+        "width": "fluid"
+      },
+      "radius": "64px",
+      "background": "#D3E3FD",
+      "border": "none",
+      "padding": {
+        "block": 28,
+        "inline": 52
+      },
+      "usage": "high-trust informational message with a status icon"
+    },
+    {
+      "id": "meet-new-meeting-pill",
+      "name": "Soft-green primary tonal CTA",
+      "dimensions": {
+        "width": 214,
+        "height": 111
+      },
+      "radius": "56px",
+      "background": "#C4EED0",
+      "border": "none",
+      "contentColors": {
+        "icon": "#072711",
+        "label": "#072711"
+      },
+      "usage": "empty-state primary action"
+    }
+  ],
+  "gradientReferences": [
+    {
+      "id": "meet-product-mark-yellow",
+      "name": "Meet product mark yellow-orange",
+      "css": "linear-gradient(135deg, #FFD00A 0%, #FECC05 48%, #FBB100 100%)",
+      "stops": [
+        {
+          "offset": 0,
+          "color": "#FFD00A"
+        },
+        {
+          "offset": 48,
+          "color": "#FECC05"
+        },
+        {
+          "offset": 100,
+          "color": "#FBB100"
+        }
+      ],
+      "measurement": "raster-sampled-approximation",
+      "confidence": 0.78,
+      "referenceOnly": true
+    },
+    {
+      "id": "meet-cup-pink-yellow-exact",
+      "name": "Empty-state cup official SVG gradient",
+      "css": "linear-gradient(258deg, #FFC6EF 45%, #FFDB0F 61%)",
+      "stops": [
+        {
+          "offset": 45,
+          "color": "#FFC6EF"
+        },
+        {
+          "offset": 61,
+          "color": "#FFDB0F"
+        }
+      ],
+      "vector": {
+        "id": "a",
+        "gradientUnits": "userSpaceOnUse",
+        "x1": 257.5,
+        "y1": 104.033,
+        "x2": 10.96,
+        "y2": 157.859
+      },
+      "measurement": "official-svg-exact",
+      "confidence": 1,
+      "referenceOnly": true
+    }
+  ],
+  "observedPlatformAssetSummary": {
+    "available": true,
+    "generatedAt": "2026-09-01T06:42:38.950Z",
+    "total": 37,
+    "failed": 0,
+    "byCategory": {
+      "companion-app-icon": 4,
+      "gmail-ui-icon": 18,
+      "illustration": 2,
+      "launcher-icon": 1,
+      "material-icon": 4,
+      "product-logo": 5,
+      "sprite": 1,
+      "status-icon": 1,
+      "store-badge": 1
+    },
+    "byService": {
+      "calendar": 9,
+      "drive": 7,
+      "finance": 1,
+      "gmail": 29,
+      "meet": 4
+    },
+    "formats": {
+      "png": 34,
+      "svg": 3
+    },
+    "exactSourceCount": 37,
+    "vectorAssetCount": 3,
+    "gradientAssetCount": 1,
+    "classification": "private-local-reference-only"
+  },
+  "productSourceRegistry": [
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "productUrl": "https://workspace.google.com/products/gmail/",
+      "policyUrl": "https://about.google/brand-resource-center/products-and-services/",
+      "observedImageCount": 29,
+      "status": "official-observed-reference",
+      "redistribution": "ask-first",
+      "representative": {
+        "observedAssetId": "observed-68073e7e45b6",
+        "category": "product-logo",
+        "width": 109,
+        "height": 40,
+        "palette": [
+          "#FC413D",
+          "#FA413E",
+          "#FC423D",
+          "#FD413D",
+          "#FC423E"
+        ],
+        "privateLocalFile": "product-logo/logo_gmail_lockup_default_1x_r7-68073e7e45.png",
+        "sourceUrl": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r7.png",
+        "displayMode": "leading-symbol-crop",
+        "displaySize": {
+          "width": 40,
+          "height": 40
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "Google Calendar",
+      "productUrl": "https://workspace.google.com/products/calendar/",
+      "policyUrl": "https://about.google/brand-resource-center/products-and-services/",
+      "observedImageCount": 9,
+      "status": "official-observed-reference",
+      "redistribution": "ask-first",
+      "representative": {
+        "observedAssetId": "observed-21bcd65568cf",
+        "category": "product-logo",
+        "width": 96,
+        "height": 96,
+        "palette": [
+          "#BBE2FF",
+          "#3C90FF",
+          "#3D90FF",
+          "#3C8FFF",
+          "#499BFF"
+        ],
+        "privateLocalFile": "product-logo/calendar_2026_01_96dp-21bcd65568.png",
+        "sourceUrl": "https://www.gstatic.com/images/branding/productlogos/calendar_2026_01/v2/png/calendar_2026_01_96dp.png",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 52,
+          "height": 52
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "drive",
+      "name": "Google Drive",
+      "productUrl": "https://workspace.google.com/products/drive/",
+      "policyUrl": "https://about.google/brand-resource-center/products-and-services/",
+      "observedImageCount": 7,
+      "status": "official-observed-reference",
+      "redistribution": "ask-first",
+      "representative": {
+        "observedAssetId": "observed-c7469a9f91bd",
+        "category": "product-logo",
+        "width": 48,
+        "height": 48,
+        "palette": [
+          "#3186FF",
+          "#0EBC5F",
+          "#FECE07",
+          "#FECC05",
+          "#FECF08"
+        ],
+        "privateLocalFile": "product-logo/logo_drive_2026_color_1x_web_48dp-c7469a9f91.png",
+        "sourceUrl": "https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 48,
+          "height": 48
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "meet",
+      "name": "Google Meet",
+      "productUrl": "https://workspace.google.com/products/meet/",
+      "policyUrl": "https://about.google/brand-resource-center/guidance/",
+      "observedImageCount": 4,
+      "status": "official-observed-reference",
+      "redistribution": "general-brand-guidance",
+      "representative": {
+        "observedAssetId": "observed-b0ea9acd3ec6",
+        "category": "product-logo",
+        "width": 124,
+        "height": 40,
+        "palette": [
+          "#FBB100",
+          "#FECC05",
+          "#FECA03",
+          "#FECD06",
+          "#FAAD01"
+        ],
+        "privateLocalFile": "product-logo/logo_meet_2026_1x_6468c1b9f0dedbff2aa2a8e003f73eca-b0ea9acd3e.png",
+        "sourceUrl": "https://www.gstatic.com/meet/icons/logo_meet_2026_1x_6468c1b9f0dedbff2aa2a8e003f73eca.png",
+        "displayMode": "leading-symbol-crop",
+        "displaySize": {
+          "width": 40,
+          "height": 40
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "finance",
+      "name": "Google Finance",
+      "productUrl": "https://www.google.com/finance/beta",
+      "policyUrl": "https://about.google/brand-resource-center/guidance/",
+      "observedImageCount": 1,
+      "status": "official-observed-reference",
+      "redistribution": "general-brand-guidance",
+      "representative": {
+        "observedAssetId": "finance-play-store-app-icon-2026",
+        "category": "official-app-icon",
+        "width": 256,
+        "height": 256,
+        "palette": [
+          "#4285F4",
+          "#0F9D58",
+          "#F4B400",
+          "#DB4437"
+        ],
+        "privateLocalFile": null,
+        "sourceUrl": "https://play-lh.googleusercontent.com/DbcRfwWKElMfl7RVuhcBHbEmxzhB-1xZjht0PAsuar3ku89ETH48AF2bvs2jJeca9L5dJvJGS1LIkXeeKvCV5w=s256",
+        "sourcePage": "https://play.google.com/store/apps/details?id=com.google.android.apps.finance",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 52,
+          "height": 52
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "keep",
+      "name": "Google Keep",
+      "productUrl": "https://workspace.google.com/products/keep/",
+      "policyUrl": "https://about.google/brand-resource-center/guidance/",
+      "observedImageCount": 1,
+      "status": "official-observed-reference",
+      "redistribution": "general-brand-guidance",
+      "representative": {
+        "observedAssetId": "observed-0d7247c653bd",
+        "category": "companion-app-icon",
+        "width": 48,
+        "height": 48,
+        "palette": [
+          "#F6A100",
+          "#FFBF02",
+          "#FFC103",
+          "#FFC0D1",
+          "#FFBBDA"
+        ],
+        "privateLocalFile": "companion-app-icon/keep_2026_2x-0d7247c653.png",
+        "sourceUrl": "https://www.gstatic.com/companion/icon_assets/keep_2026_2x.png",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 48,
+          "height": 48
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "contacts",
+      "name": "Google Contacts",
+      "productUrl": "https://contacts.google.com/",
+      "policyUrl": "https://about.google/brand-resource-center/guidance/",
+      "observedImageCount": 1,
+      "status": "official-observed-reference",
+      "redistribution": "general-brand-guidance",
+      "representative": {
+        "observedAssetId": "observed-880bd59b9870",
+        "category": "companion-app-icon",
+        "width": 40,
+        "height": 40,
+        "palette": [
+          "#0057CC",
+          "#578CFF",
+          "#005AD4",
+          "#89ACFF",
+          "#0056CC"
+        ],
+        "privateLocalFile": "companion-app-icon/contacts_2022_2x-880bd59b98.png",
+        "sourceUrl": "https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 40,
+          "height": 40
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "tasks",
+      "name": "Google Tasks",
+      "productUrl": "https://workspace.google.com/products/tasks/",
+      "policyUrl": "https://about.google/brand-resource-center/guidance/",
+      "observedImageCount": 1,
+      "status": "official-observed-reference",
+      "redistribution": "general-brand-guidance",
+      "representative": {
+        "observedAssetId": "observed-cac484c4fcd3",
+        "category": "companion-app-icon",
+        "width": 48,
+        "height": 48,
+        "palette": [
+          "#3186FF",
+          "#BBE2FF",
+          "#3185FF",
+          "#3085FF",
+          "#3286FF"
+        ],
+        "privateLocalFile": "companion-app-icon/tasks_2026_2x-cac484c4fc.png",
+        "sourceUrl": "https://www.gstatic.com/companion/icon_assets/tasks_2026_2x.png",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 48,
+          "height": 48
+        },
+        "referenceOnly": true
+      }
+    },
+    {
+      "id": "maps",
+      "name": "Google Maps",
+      "productUrl": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/",
+      "policyUrl": "https://developers.google.com/maps/documentation/geolocation/policies",
+      "observedImageCount": 1,
+      "status": "conditional-attribution-reference",
+      "redistribution": "maps-api-context-only",
+      "representative": {
+        "observedAssetId": "observed-61c2310b2780",
+        "category": "product-logo",
+        "width": 48,
+        "height": 48,
+        "palette": [
+          "#0DBB62",
+          "#0DBA66",
+          "#0DBA65",
+          "#0EBB61",
+          "#0DB965"
+        ],
+        "privateLocalFile": "product-logo/logo_maps_2025_color_2x_web_24dp-61c2310b27.png",
+        "sourceUrl": "https://www.gstatic.com/images/branding/productlogos/maps_2025/v1/web-24dp/logo_maps_2025_color_2x_web_24dp.png",
+        "displayMode": "contain",
+        "displaySize": {
+          "width": 48,
+          "height": 48
+        },
+        "referenceOnly": true
+      }
+    }
+  ]
+}

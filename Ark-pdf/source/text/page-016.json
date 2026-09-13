@@ -1,0 +1,217 @@
+{
+  "page": 16,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n16\nCertification, Qualification Certificates,\nIndustry Recognition\n\nETL Certification 1 Hour\nFire Rated\n\nCSC Certification\nEN1090 Certification\nISO9001",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#F4F5F8",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "16",
+      "bbox": [
+        1855.041,
+        42.672,
+        1865.881,
+        53.992
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#E8E8E8",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1855.041,
+        51.992
+      ]
+    },
+    {
+      "text": "Certification, Qualification Certificates,  ",
+      "bbox": [
+        53.129,
+        35.906,
+        1039.94,
+        90.884
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.129,
+        81.084
+      ]
+    },
+    {
+      "text": "Industry Recognition",
+      "bbox": [
+        53.129,
+        100.39,
+        568.364,
+        155.368
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.129,
+        145.568
+      ]
+    },
+    {
+      "text": "ETL Certification 1 Hour  ",
+      "bbox": [
+        82.538,
+        895.728,
+        395.338,
+        923.778
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        82.538,
+        918.778
+      ]
+    },
+    {
+      "text": "Fire Rated",
+      "bbox": [
+        82.538,
+        928.528,
+        212.913,
+        956.578
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        82.538,
+        951.578
+      ]
+    },
+    {
+      "text": "CSC Certification",
+      "bbox": [
+        585.64,
+        895.728,
+        801.766,
+        923.778
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        585.64,
+        918.778
+      ]
+    },
+    {
+      "text": "EN1090 Certification",
+      "bbox": [
+        1032.646,
+        895.728,
+        1294.871,
+        923.778
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1032.646,
+        918.778
+      ]
+    },
+    {
+      "text": "ISO9001",
+      "bbox": [
+        1469.728,
+        895.728,
+        1577.278,
+        923.778
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#E8E8E8",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1469.728,
+        918.778
+      ]
+    }
+  ]
+}

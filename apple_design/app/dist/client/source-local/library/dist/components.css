@@ -1,0 +1,552 @@
+.ds-button,
+.ds-button *,
+.ds-segmented-control,
+.ds-segmented-control *,
+.ds-toggle,
+.ds-toggle *,
+.ds-accordion,
+.ds-accordion *,
+.ds-product-tile,
+.ds-product-tile *,
+.ds-carousel,
+.ds-carousel * {
+  box-sizing: border-box;
+}
+
+.ds-button[hidden],
+.ds-segmented-control[hidden],
+.ds-toggle[hidden],
+.ds-accordion[hidden],
+.ds-product-tile[hidden],
+.ds-carousel[hidden] {
+  display: none;
+}
+
+.ds-button {
+  align-items: center;
+  appearance: none;
+  background: var(--apple-blue, #0071e3);
+  border: 1px solid transparent;
+  border-radius: var(--apple-radius-pill, 980px);
+  color: var(--apple-on-action, var(--apple-white, #ffffff));
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  font-size: var(--apple-button-size, 17px);
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: var(--apple-button-line, 20px);
+  min-height: 44px;
+  min-width: 44px;
+  padding: 11px 21px;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition:
+    background var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1)),
+    border-color var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1)),
+    color var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1));
+  white-space: nowrap;
+}
+
+.ds-button:hover {
+  background: var(--apple-blue-hover, #0076df);
+  color: var(--apple-on-action, var(--apple-white, #ffffff));
+  text-decoration: none;
+}
+
+.ds-button:active {
+  background: var(--apple-blue-active, #006edb);
+}
+
+.ds-button:focus-visible,
+.ds-segmented-option:focus-visible,
+.ds-toggle-input:focus-visible + .ds-toggle-track,
+.ds-accordion-trigger:focus-visible,
+.ds-carousel-control:focus-visible,
+.ds-carousel-dot:focus-visible,
+.ds-carousel-card:focus-visible {
+  outline: 2px solid var(--apple-focus, #0071e3);
+  outline-offset: 3px;
+}
+
+.ds-button-small {
+  font-size: var(--apple-button-small-size, 14px);
+  line-height: var(--apple-button-small-line, 18px);
+  min-height: 36px;
+  padding: 8px 16px;
+}
+
+.ds-button-secondary {
+  background: transparent;
+  border-color: var(--apple-link, #0066cc);
+  color: var(--apple-link, #0066cc);
+}
+
+.ds-button-secondary:hover {
+  background: var(--apple-blue-hover, #0076df);
+  border-color: var(--apple-blue-hover, #0076df);
+  color: var(--apple-on-action, var(--apple-white, #ffffff));
+}
+
+.ds-button-neutral {
+  background: var(--apple-control-fill, var(--apple-canvas, #f5f5f7));
+  color: var(--apple-black, #1d1d1f);
+}
+
+.ds-button-neutral:hover {
+  background: var(--apple-surface-hover, #ededf0);
+}
+
+.ds-button:disabled,
+.ds-button[aria-disabled="true"],
+.ds-button[data-loading="true"] {
+  cursor: default;
+  opacity: 0.42;
+  pointer-events: none;
+}
+
+.ds-segmented-control {
+  align-items: center;
+  background: var(--apple-control-fill, rgba(0, 0, 0, 0.06));
+  border-radius: var(--apple-radius-pill, 980px);
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  gap: 2px;
+  letter-spacing: 0;
+  padding: 3px;
+}
+
+.ds-segmented-option {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: var(--apple-radius-pill, 980px);
+  color: var(--apple-black, #1d1d1f);
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: 0;
+  line-height: var(--apple-text-body-line, 25px);
+  min-height: 32px;
+  min-width: 44px;
+  padding: 3px 14px;
+  transition:
+    background var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1)),
+    box-shadow var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1)),
+    color var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.ds-segmented-option[data-selected="true"] {
+  background: var(--apple-control-active, var(--apple-surface, var(--apple-white, #ffffff)));
+  box-shadow: var(--apple-shadow-card, 0 1px 5px rgba(0, 0, 0, 0.12));
+}
+
+.ds-segmented-option:disabled {
+  cursor: default;
+  opacity: 0.42;
+}
+
+.ds-toggle {
+  position: relative;
+  align-items: center;
+  color: var(--apple-black, #1d1d1f);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  font-size: var(--apple-text-body-size, 17px);
+  gap: 12px;
+  letter-spacing: 0;
+  line-height: var(--apple-text-body-line, 25px);
+}
+
+.ds-toggle-input {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 51px;
+  height: 31px;
+  margin: 0;
+  z-index: 1;
+}
+
+.ds-toggle-track {
+  background: #86868b;
+  border-radius: var(--apple-radius-pill, 980px);
+  display: inline-flex;
+  height: 31px;
+  padding: 2px;
+  transition: background var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1));
+  width: 51px;
+}
+
+.ds-toggle-thumb {
+  background: var(--apple-white, #ffffff);
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  height: 27px;
+  transform: translateX(0);
+  transition: transform var(--apple-motion-standard, 280ms cubic-bezier(0.4, 0, 0.6, 1));
+  width: 27px;
+}
+
+.ds-toggle-input:checked + .ds-toggle-track {
+  background: var(--apple-success, #34c759);
+}
+
+.ds-toggle-input:checked + .ds-toggle-track .ds-toggle-thumb {
+  transform: translateX(20px);
+}
+
+.ds-toggle[data-disabled="true"] {
+  cursor: default;
+  opacity: 0.42;
+}
+
+.ds-accordion {
+  border-top: 1px solid var(--apple-border, rgba(0, 0, 0, 0.16));
+  color: var(--apple-black, #1d1d1f);
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  letter-spacing: 0;
+}
+
+.ds-accordion-item {
+  border-bottom: 1px solid var(--apple-border, rgba(0, 0, 0, 0.16));
+}
+
+.ds-accordion-trigger {
+  cursor: pointer;
+  font-size: var(--apple-text-body-size, 17px);
+  line-height: var(--apple-text-body-line, 25px);
+  list-style: none;
+  padding: 18px 4px;
+}
+
+.ds-accordion-trigger::-webkit-details-marker {
+  display: none;
+}
+
+.ds-accordion-trigger::after {
+  content: "+";
+  float: right;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.ds-accordion-item[open] .ds-accordion-trigger::after {
+  content: "-";
+}
+
+.ds-accordion-content {
+  color: var(--apple-muted, #6e6e73);
+  font-size: var(--apple-text-body-size, 17px);
+  line-height: var(--apple-text-body-line, 25px);
+  padding: 0 4px 22px;
+}
+
+.ds-product-tile {
+  align-items: center;
+  background: var(--apple-surface, var(--apple-white, #ffffff));
+  color: var(--apple-black, #1d1d1f);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  justify-content: flex-start;
+  letter-spacing: 0;
+  min-height: 580px;
+  overflow: hidden;
+  padding: 53px 24px 60px;
+  position: relative;
+  text-align: center;
+}
+
+.ds-product-tile-dark {
+  background: #000000;
+  color: var(--apple-canvas, #f5f5f7);
+}
+
+.ds-product-tile-compact {
+  min-height: 490px;
+  padding-block: 42px 48px;
+}
+
+.ds-product-tile-copy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 670px;
+  position: relative;
+  z-index: 1;
+}
+
+.ds-product-tile-title {
+  font-family: var(--apple-font-display, system-ui, sans-serif);
+  font-size: var(--apple-text-display-xl-size, 56px);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: var(--apple-text-display-xl-line, 60px);
+  margin: 0;
+}
+
+.ds-product-tile-subtitle {
+  font-family: var(--apple-font-display, system-ui, sans-serif);
+  font-size: var(--apple-text-title-size, 28px);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: var(--apple-text-title-line, 32px);
+  margin: 6px 0 0;
+}
+
+.ds-product-tile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 17px;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.ds-product-tile-image {
+  bottom: 0;
+  height: 100%;
+  left: 50%;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.ds-carousel {
+  color: var(--apple-black, #1d1d1f);
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  letter-spacing: 0;
+  position: relative;
+  width: 100%;
+}
+
+.ds-carousel-viewport {
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.ds-carousel-track {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.6, 1);
+  will-change: transform;
+}
+
+.ds-carousel-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.ds-carousel-card {
+  background: var(--apple-surface, var(--apple-white, #ffffff));
+  color: inherit;
+  display: grid;
+  min-height: 523px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.ds-carousel-image {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.ds-carousel-card-fallback {
+  background:
+    linear-gradient(135deg, rgba(0, 113, 227, 0.14), transparent 42%),
+    var(--apple-surface-hover, var(--apple-canvas, #f5f5f7));
+  inset: 0;
+  position: absolute;
+}
+
+.ds-carousel-copy {
+  align-self: end;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.62),
+    rgba(0, 0, 0, 0.18),
+    transparent
+  );
+  color: var(--apple-white, #ffffff);
+  display: grid;
+  gap: 8px;
+  inline-size: 100%;
+  max-width: 520px;
+  padding: 0 48px 48px;
+  position: relative;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.ds-carousel-title {
+  font-family: var(--apple-font-display, system-ui, sans-serif);
+  font-size: var(--apple-text-display-md-size, 32px);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: var(--apple-text-display-md-line, 36px);
+}
+
+.ds-carousel-description {
+  font-size: var(--apple-text-body-size, 17px);
+  line-height: var(--apple-text-body-line, 25px);
+}
+
+.ds-carousel-controls {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.ds-carousel-control {
+  appearance: none;
+  background: rgba(0, 0, 0, 0.56);
+  border: 0;
+  border-radius: var(--apple-radius-pill, 980px);
+  color: var(--apple-white, #ffffff);
+  cursor: pointer;
+  font-family: var(--apple-font-text, system-ui, sans-serif);
+  font-size: 24px;
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 1;
+  min-width: 36px;
+  padding: 0 10px;
+  touch-action: manipulation;
+}
+
+.ds-carousel-pause {
+  font-size: var(--apple-text-caption-size, 12px);
+  line-height: var(--apple-text-caption-line, 16px);
+  min-width: 58px;
+}
+
+.ds-carousel-dots {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  padding-left: 6px;
+}
+
+.ds-carousel-dot {
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  height: 24px;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  touch-action: manipulation;
+  width: 24px;
+}
+
+.ds-carousel-dot::before {
+  background: rgba(0, 0, 0, 0.38);
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+}
+
+.ds-carousel-dot[data-active="true"]::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1068px) {
+  .ds-product-tile {
+    min-height: 490px;
+  }
+
+  .ds-product-tile-title {
+    font-size: var(--apple-text-display-lg-size, 40px);
+    line-height: var(--apple-text-display-lg-line, 44px);
+  }
+}
+
+@media (max-width: 734px) {
+  .ds-button {
+    font-size: var(--apple-button-small-size, 14px);
+    line-height: var(--apple-button-small-line, 18px);
+    min-height: 36px;
+    padding: 8px 16px;
+    white-space: normal;
+  }
+
+  .ds-segmented-control {
+    max-width: 100%;
+  }
+
+  .ds-segmented-option {
+    flex: 1 1 auto;
+    min-width: max(44px, min-content);
+  }
+
+  .ds-product-tile {
+    min-height: 500px;
+    padding: 39px 18px 43px;
+  }
+
+  .ds-product-tile-title {
+    font-size: var(--apple-text-display-md-size, 32px);
+    line-height: var(--apple-text-display-md-line, 36px);
+  }
+
+  .ds-product-tile-subtitle {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .ds-carousel-card {
+    min-height: 420px;
+  }
+
+  .ds-carousel-copy {
+    padding: 0 24px 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-button,
+  .ds-segmented-option,
+  .ds-toggle-track,
+  .ds-toggle-thumb,
+  .ds-carousel-track {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .ds-button,
+  .ds-segmented-option,
+  .ds-toggle-track,
+  .ds-accordion-item,
+  .ds-carousel-control,
+  .ds-carousel-dot::before {
+    border: 1px solid CanvasText;
+  }
+
+  .ds-carousel-copy {
+    background: Canvas;
+    color: CanvasText;
+    text-shadow: none;
+  }
+}

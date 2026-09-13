@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="warehouse-title warehouse-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="warehouse-title">Warehouse icon</title>
+  <desc id="warehouse-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[5,26],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientWarehouse" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientWarehouse)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 21 24 10l17 11"/>
+    <path d="M10 20v19h28V20"/>
+    <path d="M19 39V27h10v12"/>
+    <path d="M14.5 27h3"/>
+    <path d="M30.5 27h3"/>
+    <path d="M7 39h34"/>
+  </g>
+</svg>

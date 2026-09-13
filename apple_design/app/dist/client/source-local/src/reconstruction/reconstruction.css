@@ -1,0 +1,476 @@
+.recon-surface {
+  display: grid;
+  gap: 24px;
+  min-width: 0;
+  padding-bottom: 34px;
+}
+
+.recon-provenance {
+  align-items: center;
+  background: #f5f5f7;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: #515154;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  line-height: 1.5;
+  padding: 12px 14px;
+}
+
+.recon-provenance a,
+.recon-searchbox span {
+  color: var(--blue);
+}
+
+.recon-hero {
+  align-items: end;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding-bottom: 28px;
+}
+
+.recon-hero h1 {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.08;
+  margin-top: 8px;
+  max-width: 780px;
+}
+
+.recon-hero p,
+.recon-current p,
+.recon-account-state p,
+.recon-gallery-copy p {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+  margin-top: 10px;
+}
+
+.recon-layout {
+  align-items: start;
+  display: grid;
+  gap: 22px;
+  grid-template-columns: minmax(230px, 0.75fr) minmax(0, 1.45fr) minmax(250px, 0.8fr);
+}
+
+.recon-main,
+.recon-side {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+.recon-panel,
+.recon-gallery {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  min-width: 0;
+  padding: 20px;
+}
+
+.recon-panel h2,
+.recon-gallery h2,
+.recon-dialog h2 {
+  font-family: var(--font-display);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.14;
+}
+
+.recon-panel-heading {
+  align-items: start;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.recon-search {
+  display: grid;
+  gap: 16px;
+  position: sticky;
+  top: 88px;
+}
+
+.recon-searchbox {
+  align-items: center;
+  background: #f5f5f7;
+  border: 1px solid transparent;
+  border-radius: 980px;
+  display: flex;
+  gap: 8px;
+  min-height: 42px;
+  padding: 0 14px;
+}
+
+.recon-search-label {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.recon-searchbox:focus-within {
+  border-color: var(--blue);
+  background: #fff;
+}
+
+.recon-searchbox input {
+  background: transparent;
+  border: 0;
+  min-width: 0;
+  outline: 0;
+  width: 100%;
+}
+
+.recon-suggestion-list,
+.recon-source-nav,
+.recon-add-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.recon-suggestion-list button,
+.recon-source-nav button,
+.recon-add-grid button,
+.recon-menu-buttons button {
+  background: #f5f5f7;
+  border-radius: 6px;
+  min-height: 38px;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.recon-empty-status {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+
+.recon-menu {
+  display: grid;
+  gap: 16px;
+}
+
+.recon-menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recon-menu-buttons button[aria-expanded="true"] {
+  background: #e7eef7;
+  color: #0066cc;
+}
+
+.recon-menu-panel {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-top: 16px;
+}
+
+.recon-menu-panel div {
+  display: grid;
+  gap: 9px;
+}
+
+.recon-menu-panel strong {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.recon-menu-panel a {
+  color: #424245;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.recon-menu-panel a:hover {
+  color: #0066cc;
+}
+
+.recon-source-nav button[aria-current] {
+  background: #e7eef7;
+  color: #0066cc;
+}
+
+.recon-source-nav small {
+  color: var(--muted);
+  display: block;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.recon-state-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.recon-state-chips code {
+  background: #f5f5f7;
+  border-radius: 5px;
+  color: #414145;
+  font-size: 11px;
+  padding: 6px 8px;
+}
+
+.recon-gallery {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 0.85fr) minmax(220px, 1fr);
+  overflow: hidden;
+}
+
+.recon-gallery-copy {
+  align-self: center;
+  display: grid;
+  gap: 15px;
+}
+
+.recon-tab-strip,
+.recon-color-nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recon-tab-strip button {
+  border-bottom: 1px solid transparent;
+  color: #515154;
+  min-height: 36px;
+  padding: 5px 0;
+}
+
+.recon-tab-strip button[aria-selected="true"] {
+  border-color: #1d1d1f;
+  color: #1d1d1f;
+}
+
+.recon-color-nav button {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  height: 38px;
+  padding: 3px;
+  width: 38px;
+}
+
+.recon-color-nav button[aria-pressed="true"] {
+  border-color: var(--blue);
+}
+
+.recon-color-nav span {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.recon-product-stage {
+  align-items: center;
+  background:
+    radial-gradient(circle at 50% 46%, var(--recon-product-color), transparent 36%),
+    #f5f5f7;
+  border-radius: 8px;
+  display: grid;
+  min-height: 380px;
+  overflow: hidden;
+  padding: 26px;
+}
+
+.recon-device {
+  align-items: center;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.38));
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 34px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.14);
+  color: #1d1d1f;
+  display: grid;
+  height: 240px;
+  justify-items: center;
+  margin: auto;
+  padding: 28px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 420ms cubic-bezier(0.4, 0, 0.6, 1);
+  width: min(100%, 320px);
+}
+
+.recon-product-stage:not([data-reduced-motion="true"]):hover .recon-device {
+  transform: translateY(-6px);
+}
+
+.recon-device span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.recon-device strong {
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.recon-bag-list {
+  border-bottom: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 0;
+  margin: 16px 0;
+}
+
+.recon-bag-list > p {
+  color: var(--muted);
+  padding: 16px 0;
+}
+
+.recon-bag-row {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.recon-bag-row small {
+  color: var(--muted);
+  display: block;
+  margin-top: 3px;
+}
+
+.recon-bag-row button {
+  background: #f5f5f7;
+  border-radius: 50%;
+  font-size: 19px;
+  height: 32px;
+  width: 32px;
+}
+
+.recon-account-state {
+  background: #f5f5f7;
+  border-radius: 6px;
+  margin-top: 16px;
+  padding: 16px;
+}
+
+.recon-dialog {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.24);
+  color: #1d1d1f;
+  max-width: min(520px, calc(100vw - 32px));
+  padding: 30px;
+}
+
+.recon-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.42);
+}
+
+.recon-dialog p {
+  color: var(--muted);
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.recon-dialog ul {
+  display: grid;
+  gap: 9px;
+  margin: 20px 0 0;
+  padding-left: 18px;
+}
+
+.recon-dialog-close {
+  float: right;
+}
+
+.recon-dialog-close button {
+  background: #f5f5f7;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+}
+
+@media (max-width: 1180px) {
+  .recon-layout {
+    grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.4fr);
+  }
+
+  .recon-side {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 734px) {
+  .recon-hero,
+  .recon-layout,
+  .recon-gallery,
+  .recon-side {
+    grid-template-columns: 1fr;
+  }
+
+  .recon-hero h1 {
+    font-size: 34px;
+  }
+
+  .recon-search {
+    position: static;
+  }
+
+  .recon-product-stage {
+    min-height: 300px;
+  }
+
+  .recon-menu-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .recon-device {
+    transition: none;
+  }
+}
+
+.recon-surface .ds-segmented-control {
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.recon-state-chips code {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+@media (max-width: 1180px) {
+  .recon-hero,
+  .recon-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .recon-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .recon-search {
+    position: static;
+  }
+}

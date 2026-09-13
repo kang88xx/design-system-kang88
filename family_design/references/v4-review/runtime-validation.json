@@ -1,0 +1,55 @@
+{
+  "status": "failed",
+  "browserName": "chromium",
+  "browserVersion": "151.0.7922.34",
+  "baseUrl": "http://127.0.0.1:40565",
+  "generatedAt": "2026-09-13T04:00:05.156Z",
+  "checks": [
+    {
+      "name": "same root init is idempotent",
+      "status": "passed"
+    },
+    {
+      "name": "tabs initialize native roles and relationships",
+      "status": "passed"
+    },
+    {
+      "name": "manual tabs move focus with keyboard and activate on Enter",
+      "status": "passed"
+    },
+    {
+      "name": "vertical tabs use ArrowUp and ArrowDown only for vertical movement",
+      "status": "passed"
+    },
+    {
+      "name": "nested tabsets in one root stay isolated",
+      "status": "passed"
+    },
+    {
+      "name": "destroying nested root first leaves outer-owned nested attributes intact",
+      "status": "passed"
+    },
+    {
+      "name": "anonymous tabsets receive collision-free generated ids",
+      "status": "passed"
+    },
+    {
+      "name": "tabs ignore aria-controls panels outside their own tab group",
+      "status": "passed"
+    },
+    {
+      "name": "exclusive accordion keeps only the active detail open",
+      "status": "passed"
+    },
+    {
+      "name": "nested accordions only close details in their own accordion",
+      "status": "passed"
+    },
+    {
+      "name": "native dialog uses showModal, emits state, and restores focus",
+      "status": "failed",
+      "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    id: 'native-dialog',\n+   open: true\n-   open: false\n  }\n",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    id: 'native-dialog',\n+   open: true\n-   open: false\n  }\n\n    at /mnt/j/02_Source/family_design/scripts/verify-system-runtime.cjs:236:14\n    at async check (/mnt/j/02_Source/family_design/scripts/verify-system-runtime.cjs:29:7)\n    at async main (/mnt/j/02_Source/family_design/scripts/verify-system-runtime.cjs:229:5)"
+    }
+  ]
+}

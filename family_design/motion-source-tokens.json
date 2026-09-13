@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "Family V2 source-backed motion tokens",
+  "retrievedAt": "2026-09-06",
+  "scope": "Public Family marketing-site production bundles; not a claim of byte-for-byte equivalence to the 2023 Recent recording or native iOS app.",
+  "sourceUrls": {
+    "page": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js",
+    "accordion": "https://family.co/_next/static/chunks/pages/index-9c94e1d3d027443f.js",
+    "cta": "https://family.co/_next/static/chunks/861-4bee4940f7ae3785.js"
+  },
+  "implementationDisclaimer": "Values marked source-confirmed are recovered from public minified JavaScript. A static HTML/CSS/JS catalog is a native reconstruction, not the original React/Framer runtime; randomized timing, rendering, and physics may differ. Values marked recommended are accessibility/product fallbacks, not extracted source behavior.",
+  "evidence": {
+    "sourceConfirmed": "public-production-bundle",
+    "recommended": "catalog-accessibility-fallback"
+  },
+  "springs": {
+    "ornamentDesktop": {
+      "type": "spring",
+      "mass": 4,
+      "stiffness": 800,
+      "damping": 80,
+      "restDelta": 0.0001,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "ornamentMobile": {
+      "type": "spring",
+      "mass": 4,
+      "stiffness": 800,
+      "damping": 60,
+      "restDelta": 0.0001,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "cardState": {
+      "type": "spring",
+      "mass": 4,
+      "stiffness": 800,
+      "damping": 80,
+      "restDelta": 0.0001,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "powerfulState": {
+      "type": "spring",
+      "mass": 4,
+      "stiffness": 2000,
+      "damping": 80,
+      "restDelta": 0.0001,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "faqGlyph": {
+      "type": "spring",
+      "mass": 0.5,
+      "stiffness": 220,
+      "damping": 20,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/pages/index-9c94e1d3d027443f.js"
+    },
+    "faqHeight": {
+      "type": "spring",
+      "mass": 0.2,
+      "stiffness": 280,
+      "damping": 18,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/pages/index-9c94e1d3d027443f.js"
+    },
+    "faqContent": {
+      "type": "spring",
+      "mass": 0.5,
+      "stiffness": 200,
+      "damping": 18,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/pages/index-9c94e1d3d027443f.js"
+    },
+    "ctaPath": {
+      "type": "spring",
+      "mass": 4,
+      "stiffness": 800,
+      "damping": 80,
+      "restDelta": 0.0001,
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/861-4bee4940f7ae3785.js"
+    }
+  },
+  "motion": {
+    "heroCopy": {
+      "trigger": "initial-load",
+      "durationMs": 937,
+      "ease": [0.19, 1, 0.22, 1],
+      "wordInitial": { "opacity": 0, "rotateX": -45, "y": "100%" },
+      "wordTarget": { "opacity": 1, "rotateX": 0, "y": 0 },
+      "lineDelaysMs": [300, 600],
+      "wordStaggerMs": 50,
+      "supportingCopyDelayMs": 1000,
+      "ctaDelayMs": 1100,
+      "supportingInitial": { "opacity": 0, "y": 32 },
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "heroOrnamentDesktop": {
+      "trigger": "initial-load-and-pointer-drag",
+      "parent": { "delayChildrenMs": 200, "staggerChildrenMs": 50, "staggerDirection": -1 },
+      "initial": { "opacity": 0, "y": 40, "scale": 0 },
+      "target": { "opacity": 1, "y": 0, "rotate": 0, "scale": 1 },
+      "spring": "ornamentDesktop",
+      "ambient": {
+        "rotateDegrees": [-2, 2],
+        "yPx": [-2, 5],
+        "durationRangeMs": [2000, 3000],
+        "delayRangeMs": [0, 1000],
+        "repeat": "infinite",
+        "repeatType": "mirror",
+        "randomized": true
+      },
+      "drag": {
+        "enabled": true,
+        "elastic": 0.1,
+        "snapToOrigin": true,
+        "constraints": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "bounceStiffness": 600,
+        "bounceDamping": 20
+      },
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "heroOrnamentMobile": {
+      "trigger": "initial-load",
+      "parent": { "delayChildrenMs": 200, "staggerChildrenMs": 50, "staggerDirection": 1 },
+      "initial": { "opacity": 0, "y": 60, "scale": 0 },
+      "target": { "opacity": 1, "y": 0, "rotate": 0, "scale": 1 },
+      "spring": "ornamentMobile",
+      "ambient": {
+        "rotateDegrees": [-6, 6],
+        "yPx": [-5, 5],
+        "durationRangeMs": [1000, 3000],
+        "delayRangeMs": [0, 1000],
+        "repeat": "infinite",
+        "repeatType": "mirror",
+        "randomized": true
+      },
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "footerCta": {
+      "trigger": "in-view-once",
+      "inView": { "once": true, "amount": 0.25 },
+      "parentStaggerMs": 25,
+      "spring": "ctaPath",
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/861-4bee4940f7ae3785.js"
+    },
+    "explore": {
+      "trigger": "autonomous-mounted-state-machine",
+      "cadenceMs": 2000,
+      "sectionEnter": { "y": [20, 0], "opacity": [0, 1], "delayMs": 1400, "durationMs": 800, "ease": "circOut" },
+      "easy": { "states": ["Send", "Swap", "Receive", "Purchase"], "activeScale": [1, 0.99, 1, 1, 1, 1], "spring": "cardState", "actionDelayMs": 100 },
+      "secure": { "states": 3, "spring": "cardState", "ringPulse": { "durationMs": 1000, "ease": "easeInOut", "opacityA": [0.1, 0.5, 0.1], "opacityB": [0.25, 1, 0.25], "delayMs": 150 } },
+      "fast": { "states": 3, "spring": "cardState" },
+      "powerful": { "states": 3, "counter": [15, 60, 30, 15], "counterDurationMs": 800, "counterEase": "easeOut", "spring": "powerfulState", "incomingDelayMs": 100 },
+      "fun": { "states": 9, "railDurationMs": 1000, "railEase": "cubic-bezier(0.19,1,0.22,1)", "activeBubbleScale": 1.25, "inactiveBubbleScale": 1, "activeEmojiScale": 1, "inactiveEmojiScale": 0.8, "localDurationMs": 750, "localEase": [0.63, 0.01, 0.54, 1.03], "localRepeat": 10, "localRepeatDelayMs": 250 },
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "details": {
+      "monitor": { "trigger": "autonomous-mounted-state-machine", "cadenceMs": 2000, "states": 3, "spring": "cardState", "zIndexDelayMs": 500 },
+      "protect": { "trigger": "autonomous-mounted-state-machine", "cadenceMs": 1750, "states": 2, "spring": "cardState", "pillWidth": [286.25, 234.25], "pillX": [0, 26], "fillTransitionMs": 400, "fillEase": "ease" },
+      "organise": { "trigger": "autonomous-mounted-keyframes", "rowDurationMs": 1500, "rowRepeatDelayMs": 3000, "secondRowPhaseDelayMs": 2000, "x": [0, 0, 64, 0, 0, 0, 0], "numberTweenDurationMs": 800, "numberTweenEase": "easeOut" },
+      "grouping": { "trigger": "autonomous-mounted-state-machine", "cadenceMs": 2000, "states": ["start", "end"], "spring": "cardState", "settleScale": [1, 0.98, 1, 1, 1, 1], "childDelayMs": 200 },
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "faq": {
+      "trigger": "question-or-toggle-click",
+      "mode": "exclusive-single-open",
+      "tap": { "opacity": 0.5, "durationMs": 100 },
+      "horizontalGlyph": { "rotateZ": [0, 180], "spring": "faqGlyph" },
+      "verticalGlyph": { "scale": [1, 0], "rotateZ": [0, 80], "spring": "faqGlyph" },
+      "answerHeight": { "closed": "0px", "open": "auto", "spring": "faqHeight" },
+      "answerOpacity": { "closed": 0, "open": 1, "openDelayMs": 100, "spring": "faqContent" },
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/pages/index-9c94e1d3d027443f.js"
+    },
+    "testimonialRail": {
+      "trigger": "ambient-mounted-loop",
+      "from": "translateX(0%)",
+      "to": "translateX(-50%)",
+      "durationMs": 120000,
+      "ease": "linear",
+      "repeat": "infinite",
+      "mobile": "hidden-at-max-width-768px",
+      "evidence": "source-confirmed",
+      "sourceUrl": "https://family.co/_next/static/chunks/7087-0908057adee7ff82.js"
+    },
+    "reducedMotion": {
+      "trigger": "prefers-reduced-motion: reduce",
+      "behavior": "Stop ambient drift, state loops, media autoplay, and rail movement; retain an immediate final-state control response.",
+      "evidence": "recommended"
+    }
+  }
+}

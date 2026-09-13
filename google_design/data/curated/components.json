@@ -1,0 +1,426 @@
+[
+  {
+    "id": "top-app-bar",
+    "family": "app-shell",
+    "variant": "top-bar",
+    "category": "Navigation",
+    "title": "Top app bar",
+    "anatomy": [
+      "menu or product mark",
+      "search",
+      "utility actions",
+      "account"
+    ],
+    "states": [
+      "default",
+      "search-active",
+      "scrolled"
+    ],
+    "services": [
+      "gmail",
+      "calendar",
+      "drive",
+      "meet",
+      "finance"
+    ]
+  },
+  {
+    "id": "navigation-drawer",
+    "family": "navigation",
+    "variant": "drawer",
+    "category": "Navigation",
+    "title": "Navigation drawer",
+    "anatomy": [
+      "primary action",
+      "section links",
+      "selected item",
+      "storage or secondary actions"
+    ],
+    "states": [
+      "expanded",
+      "collapsed",
+      "selected",
+      "hover"
+    ],
+    "services": [
+      "gmail",
+      "calendar",
+      "drive"
+    ]
+  },
+  {
+    "id": "navigation-rail",
+    "family": "navigation",
+    "variant": "rail",
+    "category": "Navigation",
+    "title": "Navigation rail",
+    "anatomy": [
+      "destination icon",
+      "label",
+      "selected container"
+    ],
+    "states": [
+      "default",
+      "selected",
+      "hover"
+    ],
+    "services": [
+      "meet"
+    ]
+  },
+  {
+    "id": "tabs",
+    "family": "navigation",
+    "variant": "tabs",
+    "category": "Navigation",
+    "title": "Tabs",
+    "anatomy": [
+      "label",
+      "optional count",
+      "active indicator"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "selected",
+      "disabled"
+    ],
+    "services": [
+      "gmail",
+      "finance"
+    ]
+  },
+  {
+    "id": "search-bar",
+    "category": "Input",
+    "title": "Search bar",
+    "anatomy": [
+      "leading icon",
+      "placeholder",
+      "optional filter or voice action"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "query",
+      "disabled"
+    ],
+    "services": [
+      "gmail",
+      "drive",
+      "finance"
+    ]
+  },
+  {
+    "id": "filter-chip",
+    "category": "Input",
+    "title": "Filter chip",
+    "anatomy": [
+      "leading icon",
+      "label",
+      "trailing menu"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "selected",
+      "disabled"
+    ],
+    "services": [
+      "drive",
+      "finance"
+    ]
+  },
+  {
+    "id": "filled-button",
+    "family": "button",
+    "variant": "filled",
+    "category": "Actions",
+    "title": "Filled button",
+    "anatomy": [
+      "optional icon",
+      "label"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "disabled"
+    ],
+    "services": [
+      "calendar",
+      "finance"
+    ]
+  },
+  {
+    "id": "tonal-button",
+    "family": "button",
+    "variant": "tonal",
+    "category": "Actions",
+    "title": "Filled tonal button",
+    "anatomy": [
+      "optional icon",
+      "label"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "disabled"
+    ],
+    "services": [
+      "gmail",
+      "drive",
+      "meet",
+      "finance"
+    ]
+  },
+  {
+    "id": "outlined-button",
+    "family": "button",
+    "variant": "outlined",
+    "category": "Actions",
+    "title": "Outlined button",
+    "anatomy": [
+      "optional icon",
+      "label",
+      "outline"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "disabled"
+    ],
+    "services": [
+      "calendar",
+      "meet",
+      "finance"
+    ]
+  },
+  {
+    "id": "icon-button",
+    "family": "button",
+    "variant": "icon",
+    "category": "Actions",
+    "title": "Icon button",
+    "anatomy": [
+      "24px symbol",
+      "40-48px target",
+      "tooltip"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "disabled",
+      "selected"
+    ],
+    "services": [
+      "gmail",
+      "calendar",
+      "drive",
+      "meet",
+      "finance"
+    ]
+  },
+  {
+    "id": "fab",
+    "family": "button",
+    "variant": "floating-action",
+    "category": "Actions",
+    "title": "FAB / extended FAB",
+    "anatomy": [
+      "icon",
+      "optional label",
+      "elevated container"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus"
+    ],
+    "services": [
+      "gmail",
+      "calendar",
+      "drive"
+    ]
+  },
+  {
+    "id": "list-row",
+    "category": "Content",
+    "title": "Dense list row",
+    "anatomy": [
+      "selection",
+      "leading state",
+      "primary text",
+      "secondary text",
+      "metadata",
+      "hover actions"
+    ],
+    "states": [
+      "read",
+      "unread",
+      "hover",
+      "selected",
+      "disabled"
+    ],
+    "services": [
+      "gmail",
+      "drive"
+    ]
+  },
+  {
+    "id": "data-card",
+    "category": "Content",
+    "title": "Data card",
+    "anatomy": [
+      "title",
+      "value",
+      "delta",
+      "sparkline"
+    ],
+    "states": [
+      "default",
+      "positive",
+      "negative",
+      "selected"
+    ],
+    "services": [
+      "finance"
+    ]
+  },
+  {
+    "id": "calendar-grid",
+    "category": "Content",
+    "title": "Calendar grid",
+    "anatomy": [
+      "day header",
+      "time gutter",
+      "slot",
+      "today indicator",
+      "event chip"
+    ],
+    "states": [
+      "empty",
+      "today",
+      "current-time",
+      "event",
+      "drag"
+    ],
+    "services": [
+      "calendar",
+      "meet"
+    ]
+  },
+  {
+    "id": "banner",
+    "category": "Feedback",
+    "title": "Inline banner",
+    "anatomy": [
+      "leading icon",
+      "title",
+      "supporting text",
+      "action",
+      "dismiss"
+    ],
+    "states": [
+      "info",
+      "warning",
+      "success",
+      "dismissed"
+    ],
+    "services": [
+      "gmail",
+      "drive",
+      "meet"
+    ]
+  },
+  {
+    "id": "snackbar",
+    "category": "Feedback",
+    "title": "Snackbar",
+    "anatomy": [
+      "message",
+      "optional action",
+      "dismiss"
+    ],
+    "states": [
+      "enter",
+      "rest",
+      "action-hover",
+      "exit"
+    ],
+    "services": [
+      "gmail"
+    ]
+  },
+  {
+    "id": "dialog",
+    "category": "Feedback",
+    "title": "Dialog",
+    "anatomy": [
+      "media or icon",
+      "headline",
+      "supporting content",
+      "actions",
+      "scrim"
+    ],
+    "states": [
+      "enter",
+      "rest",
+      "focus-trap",
+      "exit"
+    ],
+    "services": [
+      "calendar"
+    ]
+  },
+  {
+    "id": "empty-state",
+    "category": "Feedback",
+    "title": "Empty state",
+    "anatomy": [
+      "illustration",
+      "headline",
+      "supporting text",
+      "primary action"
+    ],
+    "states": [
+      "empty",
+      "loading",
+      "resolved"
+    ],
+    "services": [
+      "drive",
+      "meet"
+    ]
+  },
+  {
+    "id": "side-panel",
+    "category": "Layout",
+    "title": "Utility side panel",
+    "anatomy": [
+      "icon rail",
+      "expanded panel",
+      "divider",
+      "add action"
+    ],
+    "states": [
+      "collapsed",
+      "expanded",
+      "selected"
+    ],
+    "services": [
+      "gmail",
+      "calendar",
+      "drive"
+    ]
+  }
+]

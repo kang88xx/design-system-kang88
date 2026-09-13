@@ -1,0 +1,127 @@
+/* ==========================================================================
+   Studio Shell — ARK 브랜드 매핑 (../All/shell/SPEC.md 6항)
+   - studio-shell.css 의 뼈대는 그대로 두고, 색·서체만 ARK 토큰으로 매핑합니다.
+   - 뒤이어 오는 규칙은 기존 ark-system.css 의 옛 셸 규칙 중
+     새 셸과 충돌하는 것만 무력화/복원합니다.
+   로드 순서: studio-shell.css → tokens.css → ark-system.css → studio-brand.css
+   ========================================================================== */
+:root {
+  --as-font-display: var(--font-sans);
+  --as-font-text: var(--font-sans);
+  --as-font-mono: var(--font-mono);
+  --as-ink: var(--ark-ink);
+  --as-ink-2: var(--ark-ink);
+  --as-ink-3: #545d70;
+  --as-muted: #71798a;
+  --as-faint: #747d8e;
+  --as-faint-2: #8a93a2;
+  --as-line: #dfe2e7;
+  --as-line-strong: #d2d7e0;
+  --as-accent: var(--ark-cobalt);
+  --as-accent-hover: #162799;
+  --as-accent-active: #0b1f7a;
+  --as-link: var(--ark-cobalt);
+  --as-on-accent: #ffffff;
+  --as-bg: #fafaf9;
+  --as-surface: #f0f3f8;
+  --as-sidebar-bg: #f5f5f2;
+  --as-nav-hover: #e9ebef;
+  --as-nav-active-bg: #e8ebf8;
+  --as-nav-active-ink: var(--ark-cobalt);
+  --as-status: var(--ark-cobalt);
+  --as-selection: #d7ddf5;
+  --as-toast-bg: var(--ark-navy);
+  --as-toast-ink: #ffffff;
+  /* ARK 는 모든 면을 직각으로 씁니다 (tokens.json / ark-system.css) */
+  --as-radius: 0;
+  --as-radius-pill: 0;
+}
+
+/* ---------- 셸의 일반 button/a 리셋(.as-studio button / .as-studio a)이
+     기존 컴포넌트 규칙(특이도 0,1,0)을 덮어쓰지 않도록 복원 ---------- */
+.as-studio .button { font-size: 11px; line-height: 1.4; font-weight: 500; border: 1px solid transparent; }
+.as-studio .button.small { font-size: 10px; }
+.as-studio .button.secondary { border-color: #d2d7e0; }
+.as-studio .button.secondary:hover { border-color: var(--ark-cobalt); color: var(--ark-cobalt); }
+.as-studio .text-link, .as-studio .link-button { font-size: 11px; line-height: 1.5; border-bottom: 1px solid #aeb5c3; }
+.as-studio .text-link:hover, .as-studio .link-button:hover { color: var(--ark-cobalt); border-color: var(--ark-cobalt); }
+.as-studio .icon-button { font-size: 26px; line-height: 1; border: 1px solid #dce2ec; }
+.as-studio .color-card { border: 1px solid #dce1e8; background: #fff; padding: 0; }
+.as-studio .asset-card { background: #fff; border: 1px solid #dce1e8; padding: 0; }
+.as-studio .asset-card:hover { border-color: var(--ark-cobalt); }
+.as-studio .source-card { padding: 0; border: 1px solid #dce1e8; background: #fff; }
+.as-studio .source-card:hover { border-color: var(--ark-cobalt); }
+.as-studio .download-hero { color: #fff; }
+.as-studio .skip-link { background: var(--ark-cobalt); color: #fff; }
+.as-studio .load-more { margin: 28px auto 0; }
+
+/* 셸의 a{color:inherit} 리셋이 셸 자신의 버튼/링크 색을 덮는 것을 되돌린다 */
+.as-studio .as-button { color: var(--as-on-accent); }
+.as-studio .as-button:hover { color: var(--as-on-accent); }
+.as-studio .as-text-command { color: var(--as-ink-3); }
+.as-studio .as-text-command:hover { color: var(--as-accent); }
+.as-studio .as-sidebar nav a[aria-current], .as-studio .as-sidebar nav a.active { color: var(--as-nav-active-ink); }
+
+/* ---------- 사이드바 브랜드 마크: ARK. 워드마크를 셸 마크 자리에 ---------- */
+.as-brand { gap: 9px; }
+.as-brand-mark { align-self: center; }
+.as-brand-mark .brand-type { font-size: 21px; line-height: 1; font-weight: 800; letter-spacing: -1.8px; }
+.as-brand strong { font-size: 13px; letter-spacing: .6px; white-space: nowrap; }
+.as-brand-badge { font-size: 8px; padding: 3px; }
+.as-brand div > .brand-caption { display: block; font: 8px/1.6 var(--font-mono); letter-spacing: 1px; color: var(--as-muted); margin-top: 5px; border: 0; padding: 0; }
+
+/* 사이드바 하단 고정 영역 위의 기존 카드/버튼/문구 */
+.as-sidebar-extras { flex: none; padding: 6px 18px 14px; }
+.as-sidebar-extras .sidebar-note { margin-top: 0; padding-top: 0; }
+.as-sidebar-extras .sidebar-bottom { margin-top: 14px; }
+.as-sidebar-bottom .system-label-text { font: 9px/1.6 var(--font-mono); letter-spacing: 1px; }
+.as-sidebar-bottom small { font-family: var(--font-sans); letter-spacing: 0; }
+
+/* 현재 항목: 원본 스타일(흰 카드)의 굵기 대신 셸의 강조 배경을 쓰되 코발트 유지 */
+.as-sidebar nav a[aria-current], .as-sidebar nav a.active { font-weight: 700; }
+
+/* ---------- 상단바 도구 ---------- */
+.as-topbar-tools .local-badge { font-size: 10px; color: #757d8a; }
+@media (max-width: 900px) { .as-topbar-tools .local-badge { display: none; } }
+
+/* ---------- 개요 히어로 ---------- */
+.as-overview-title .eyebrow { color: var(--as-muted); }
+.as-stats-strip strong span { display: inline; font: 8px var(--font-mono); color: #8991a0; margin-left: 8px; letter-spacing: 0; }
+.as-stats-strip p { display: block; font-size: 10px; color: var(--as-muted); margin: 9px 0 0; }
+.as-overview-meta { display: flex; justify-content: flex-end; margin: 0 0 18px; }
+.as-overview-meta .edition { margin-top: 0; }
+
+/* ---------- 섹션 머리: 셸 규격 크기 복원 ---------- */
+.as-studio .as-section-heading h2 { font-size: 22px; font-weight: 600; line-height: 1.2; letter-spacing: -.6px; }
+.as-studio .as-section-heading h1 { font-size: 36px; line-height: 1.2; }
+@media (max-width: 900px) { .as-studio .as-section-heading h1 { font-size: 32px; } }
+@media (max-width: 640px) {
+  .as-studio .as-section-heading h1 { font-size: 30px; }
+  .as-studio .as-section-heading h2 { font-size: 18px; }
+}
+
+/* ---------- 옛 셸 전용 규칙 무력화 ---------- */
+/* 720px 이하에서 옛 가로 내비로 전환하며 숨기던 요소들을 새 오프캔버스 사이드바에서 되살린다 */
+@media (max-width: 720px) {
+  html { scroll-padding-top: 0; }
+  .as-studio .nav-arrow, .as-studio .nav-count { display: inline-block; }
+  .as-studio .tiny-dot { display: inline-block; }
+  .as-studio .sidebar-note, .as-studio .sidebar-download { display: flex; }
+  .as-studio .sidebar-bottom { display: block; }
+  .as-studio .nav-no { font-size: 10px; }
+  /* 옛 셸에서 숨기던 판본 블록을 새 셸에서는 stats 아래 한 줄로 유지 */
+  .as-studio .as-overview-meta .edition { display: block; }
+}
+@media (max-width: 640px) {
+  /* 상단바가 320px 에서도 가로 스크롤을 만들지 않도록 */
+  .as-studio .as-breadcrumb { min-width: 0; overflow: hidden; }
+  .as-studio .as-breadcrumb strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .as-studio .as-topbar-tools { flex: none; }
+  .as-studio .as-topbar-tools .text-link { font-size: 10px; }
+  .as-studio .toast { left: 50%; }
+}
+@media print {
+  .as-sidebar, .as-topbar, .as-studio-footer, .as-sidebar-scrim, .as-toast, .as-skip-link { display: none !important; }
+  .as-main-shell { margin: 0; }
+  .as-workspace { padding: 0; min-height: 0; }
+}

@@ -1,0 +1,483 @@
+{
+  "url": "https://montage.wanted.co.kr/",
+  "at": "2026-09-06T15:52:57.290Z",
+  "links": [
+    {
+      "text": "",
+      "url": "https://montage.wanted.co.kr/"
+    },
+    {
+      "text": "Getting started",
+      "url": "https://montage.wanted.co.kr/docs/getting-started"
+    },
+    {
+      "text": "Foundations",
+      "url": "https://montage.wanted.co.kr/docs/foundations"
+    },
+    {
+      "text": "Components",
+      "url": "https://montage.wanted.co.kr/docs/components"
+    },
+    {
+      "text": "Utilities",
+      "url": "https://montage.wanted.co.kr/docs/utilities"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://montage.wanted.co.kr/docs/getting-started"
+    },
+    {
+      "text": "Wanted Design System UI KIT for FigmaLast Updated. 2026.03.09",
+      "url": "https://www.figma.com/community/file/1355516515676178246"
+    },
+    {
+      "text": "Native Platform UI KIT for FigmaLast Updated. 2026.03.09",
+      "url": "https://www.figma.com/community/file/1509019654708670821"
+    },
+    {
+      "text": "Pretendard JP Dynamic FontLast Updated. 2021.06.28",
+      "url": "https://github.com/orioncactus/pretendard"
+    },
+    {
+      "text": "Wanted Design System 제작기를 소개해요.by Wanted Design System Team",
+      "url": "https://brunch.co.kr/@wanteddesign/37"
+    },
+    {
+      "text": "원티드의 목소리, 원티드 산스를 소개해요.by Wanted Design System Team",
+      "url": "https://brunch.co.kr/@wanteddesign/28"
+    },
+    {
+      "text": "메이커를 위한 메이커들의 인터뷰를 소개해요.by Wanted Design System Team",
+      "url": "https://brunch.co.kr/@wanteddesign/38"
+    }
+  ],
+  "scripts": [
+    "https://montage.wanted.co.kr/_next/static/chunks/3vidq4jvig0d3.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/2qncvl4ndjvzy.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/1hneosi6d4khv.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/turbopack-2lb2162ysdoba.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0azhpd2tjyqzx.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/200s9uovz-x4j.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/39hqjar0wvuyg.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0co84vs4ojavh.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/1ewy-okwf9kxc.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0-6bmj_i3dzws.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/28x_c7ahzaf42.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/2h5isxiphzy-g.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/1mxwju2d8yjr_.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/2fg5v074mkkc4.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/2ucn150cw2afg.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/3m3xyi2v-qkg0.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0ihky747vpkv6.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/21b-e37b13el8.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0zy5dc9dckdjq.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/3a01p_n6k14nk.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/1_4kftf7pb_-c.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/3m4o542_wa8mt.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/39g-zt-3ortmo.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/3om3ysmlmqk4j.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/2j9d_13_d6z9o.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/14r3ig2gn_28x.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/040mitccwo3y-.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/3hookzus6wwwp.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/2cg45-c6e1ump.js",
+    "https://montage.wanted.co.kr/_next/static/chunks/0aiwqbbu9nbec.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-XX1CL3693S"
+  ],
+  "styles": [
+    "https://montage.wanted.co.kr/_next/static/chunks/3dinud6wrc5zf.css"
+  ],
+  "animations": [
+    {
+      "target": "<p data-animation-state=\"animation-end\" class=\"wds-1o84mdm\">원티드가 꿈꿔온 세상은, 모든 일하는 사람이 더 나답게 일할 수 있는 세상입니다.\n그 꿈에 한 걸음 더 다가가기 위해, 우리는 디자인 시스템을 만들었습니다.</p>",
+      "timing": {
+        "delay": 200,
+        "direction": "normal",
+        "duration": 600,
+        "easing": "cubic-bezier(0.4, 0.14, 0.3, 1)",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translate3d(0px, 20px, 0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "none",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "target": "<div data-animation-state=\"animation-start\" class=\"wds-18bn9h8\"><div class=\"wds-1n96hm7\"><div data-role=\"marquee-wrapper\" class=\"wds-1ch2av6\"><figure aria-hidden=\"true\" class=\"wds-1l8kxz7\"><img src=\"https://montage.wanted.co.kr/home/marquee/Image.png\" alt=\"marquee-image-1\" aria-hidden=\"true\" class=\"",
+      "timing": {
+        "delay": 400,
+        "direction": "normal",
+        "duration": 1000,
+        "easing": "cubic-bezier(0.4, 0.14, 0.3, 1)",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translate3d(0px, 20px, 0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "none",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "target": "<a data-animation-state=\"animation-end\" class=\"wds-2y78ft\" href=\"/docs/getting-started\"><span class=\"wds-83zqyc\">Getting Started</span></a>",
+      "timing": {
+        "delay": 200,
+        "direction": "normal",
+        "duration": 600,
+        "easing": "cubic-bezier(0.4, 0.14, 0.3, 1)",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translate3d(0px, 20px, 0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "none",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "target": "<h1 data-animation-state=\"animation-end\" class=\"wds-1wi8z9p\">From Separate\nCore Blocks<br>To a Seamless Flow</h1>",
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 600,
+        "easing": "cubic-bezier(0.4, 0.14, 0.3, 1)",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translate3d(0px, 20px, 0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "none",
+          "computedOffset": 1
+        }
+      ]
+    }
+  ],
+  "visuals": [
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image.png",
+      "alt": "marquee-image-1"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-1.png",
+      "alt": "marquee-image-2"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-2.png",
+      "alt": "marquee-image-3"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-3.png",
+      "alt": "marquee-image-4"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-4.png",
+      "alt": "marquee-image-5"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-5.png",
+      "alt": "marquee-image-6"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-6.png",
+      "alt": "marquee-image-7"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-7.png",
+      "alt": "marquee-image-8"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-8.png",
+      "alt": "marquee-image-9"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-9.png",
+      "alt": "marquee-image-10"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-10.png",
+      "alt": "marquee-image-11"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image.png",
+      "alt": "marquee-image-1"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-1.png",
+      "alt": "marquee-image-2"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-2.png",
+      "alt": "marquee-image-3"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-3.png",
+      "alt": "marquee-image-4"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-4.png",
+      "alt": "marquee-image-5"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-5.png",
+      "alt": "marquee-image-6"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-6.png",
+      "alt": "marquee-image-7"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-7.png",
+      "alt": "marquee-image-8"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-8.png",
+      "alt": "marquee-image-9"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-9.png",
+      "alt": "marquee-image-10"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-10.png",
+      "alt": "marquee-image-11"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image.png",
+      "alt": "marquee-image-1"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-1.png",
+      "alt": "marquee-image-2"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-2.png",
+      "alt": "marquee-image-3"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-3.png",
+      "alt": "marquee-image-4"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-4.png",
+      "alt": "marquee-image-5"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-5.png",
+      "alt": "marquee-image-6"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-6.png",
+      "alt": "marquee-image-7"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-7.png",
+      "alt": "marquee-image-8"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-8.png",
+      "alt": "marquee-image-9"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-9.png",
+      "alt": "marquee-image-10"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-10.png",
+      "alt": "marquee-image-11"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-11.png",
+      "alt": "marquee-image-12"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-12.png",
+      "alt": "marquee-image-13"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-13.png",
+      "alt": "marquee-image-14"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-14.png",
+      "alt": "marquee-image-15"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-15.png",
+      "alt": "marquee-image-16"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-16.png",
+      "alt": "marquee-image-17"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-17.png",
+      "alt": "marquee-image-18"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-18.png",
+      "alt": "marquee-image-19"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-19.png",
+      "alt": "marquee-image-20"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-20.png",
+      "alt": "marquee-image-21"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-11.png",
+      "alt": "marquee-image-12"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-12.png",
+      "alt": "marquee-image-13"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-13.png",
+      "alt": "marquee-image-14"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-14.png",
+      "alt": "marquee-image-15"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-15.png",
+      "alt": "marquee-image-16"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-16.png",
+      "alt": "marquee-image-17"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-17.png",
+      "alt": "marquee-image-18"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-18.png",
+      "alt": "marquee-image-19"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-19.png",
+      "alt": "marquee-image-20"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-20.png",
+      "alt": "marquee-image-21"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-11.png",
+      "alt": "marquee-image-12"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-12.png",
+      "alt": "marquee-image-13"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-13.png",
+      "alt": "marquee-image-14"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-14.png",
+      "alt": "marquee-image-15"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-15.png",
+      "alt": "marquee-image-16"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-16.png",
+      "alt": "marquee-image-17"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-17.png",
+      "alt": "marquee-image-18"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-18.png",
+      "alt": "marquee-image-19"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-19.png",
+      "alt": "marquee-image-20"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/marquee/Image-20.png",
+      "alt": "marquee-image-21"
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/behind/Image.png",
+      "alt": "Wanted Design System 제작기를 소개해요."
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/behind/Image-1.png",
+      "alt": "원티드의 목소리, 원티드 산스를 소개해요."
+    },
+    {
+      "url": "https://montage.wanted.co.kr/home/behind/Image-2.png",
+      "alt": "메이커를 위한 메이커들의 인터뷰를 소개해요."
+    }
+  ]
+}

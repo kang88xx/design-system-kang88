@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-09-06T15:19:14.849Z",
+  "indexed_items": 1979,
+  "checks": [
+    {
+      "name": "All real index entries render",
+      "passed": true
+    },
+    {
+      "name": "Official count excludes derived files and fallback",
+      "passed": true
+    },
+    {
+      "name": "Class names searchable",
+      "passed": true
+    },
+    {
+      "name": "Deep link selects sources/readable/classes/ScreenPaint-612138.js",
+      "passed": true
+    },
+    {
+      "name": "Readable class code",
+      "passed": true
+    },
+    {
+      "name": "Deep link selects sources/extracted/shaders/hoisted.CUO_IjfL-001.glsl",
+      "passed": true
+    },
+    {
+      "name": "Actual source text .glsl",
+      "passed": true
+    },
+    {
+      "name": "Deep link selects sources/decoded/models__about__bg_box.obj",
+      "passed": true
+    },
+    {
+      "name": "Actual source text .obj",
+      "passed": true
+    },
+    {
+      "name": "Deep link selects sources/assets/lusion.dev/assets/textures/home/matcap.exr",
+      "passed": true
+    },
+    {
+      "name": "EXR uses unsupported-format fallback",
+      "passed": true
+    },
+    {
+      "name": "Deep link selects sources/assets/lusion.dev/assets/models/about/person.buf",
+      "passed": true
+    },
+    {
+      "name": "Model link retains actual source and valid anchor",
+      "passed": true
+    },
+    {
+      "name": "Requested original model is selected",
+      "passed": true
+    },
+    {
+      "name": "Rapid model selection keeps latest result",
+      "passed": true
+    },
+    {
+      "name": "Failed model read displays recoverable status",
+      "passed": true
+    },
+    {
+      "name": "Model selection recovers after read failure",
+      "passed": true
+    },
+    {
+      "name": "Malformed hash does not break index",
+      "passed": true
+    },
+    {
+      "name": "No unexpected JavaScript exceptions",
+      "passed": true
+    },
+    {
+      "name": "No unexpected failed HTTP resources",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "passed": true
+}

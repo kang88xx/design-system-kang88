@@ -1,0 +1,719 @@
+{
+  "title": "Lusion - Award Winning 3D and Interactive Web Studio",
+  "height": 1000,
+  "root": "",
+  "links": [
+    {
+      "text": "",
+      "href": "https://lusion.co/"
+    },
+    {
+      "text": "",
+      "href": "mailto:hello@lusion.co"
+    },
+    {
+      "text": "Home Home",
+      "href": "https://lusion.co/"
+    },
+    {
+      "text": "About us About us",
+      "href": "https://lusion.co/about"
+    },
+    {
+      "text": "Projects Projects",
+      "href": "https://lusion.co/projects"
+    },
+    {
+      "text": "",
+      "href": "mailto:hello@lusion.co"
+    },
+    {
+      "text": "Labs Labs",
+      "href": "https://labs.lusion.co/"
+    },
+    {
+      "text": "Our Approach",
+      "href": "https://lusion.co/about"
+    },
+    {
+      "text": "concept • web • design • development • 3d • animation   OOOOrrrryyyyzzzzooooAAAAIIII",
+      "href": "https://lusion.co/projects/oryzo_ai"
+    },
+    {
+      "text": "concept • web • design • development • 3d • animation   AAAAttttllllaaaassssMMMMoooottttiiiioooonnnn",
+      "href": "https://lusion.co/projects/atlas_motion"
+    },
+    {
+      "text": "web • design • development • 3d   DDDDeeeevvvviiiinnnnAAAAIIII",
+      "href": "https://lusion.co/projects/devin_ai"
+    },
+    {
+      "text": "web • design • development • 3d • animation   OOOOffffTTTThhhheeeeOOOOaaaakkkk",
+      "href": "https://lusion.co/projects/of_the_oak"
+    },
+    {
+      "text": "concept • web • design • development • 3d • animation   EEEEvvvveeeerrrrsssswwwwaaaapppp",
+      "href": "https://lusion.co/projects/everswap"
+    },
+    {
+      "text": "concept • 3D illustration • mograph • video   PPPPoooorrrrsssscccchhhheeee::::DDDDrrrreeeeaaaammmmMMMMaaaacccchhhhiiiinnnneeee",
+      "href": "https://lusion.co/projects/porsche_dream_machine"
+    },
+    {
+      "text": "web • design • development • 3d   SSSSyyyynnnntttthhhheeeettttiiiiccccHHHHuuuummmmaaaannnn",
+      "href": "https://lusion.co/projects/synthetic_human"
+    },
+    {
+      "text": "web • design • development • 3d   MMMMeeeettttaaaa::::SSSSppppaaaattttiiiiaaaallllFFFFuuuussssiiiioooonnnn",
+      "href": "https://lusion.co/projects/spatial_fusion"
+    },
+    {
+      "text": "web • design • development • 3d • web3   SSSSppppaaaaaaaacccceeee----NNNNFFFFTTTTMMMMaaaarrrrkkkkeeeettttppppllllaaaacccceeee",
+      "href": "https://lusion.co/projects/spaace"
+    },
+    {
+      "text": "web • design • development • 3d   DDDDDDDDDDDD2222000022224444",
+      "href": "https://lusion.co/projects/ddd_2024"
+    },
+    {
+      "text": "concept • web • game design • 3d   CCCChhhhooooooooCCCChhhhooooooooWWWWoooorrrrlllldddd",
+      "href": "https://lusion.co/projects/choo_choo_world"
+    },
+    {
+      "text": "AR • development • 3d   SSSSooooddddaaaaEEEExxxxppppeeeerrrriiiieeeennnncccceeee",
+      "href": "https://lusion.co/projects/soda_experience"
+    },
+    {
+      "text": "See all projects",
+      "href": "https://lusion.co/projects"
+    },
+    {
+      "text": "Suite 29 Marsh StreetBristol, BS1 4AAUnited Kingdom",
+      "href": "https://goo.gl/maps/x9evc1NxZocjrM947"
+    },
+    {
+      "text": "Twitter / X",
+      "href": "https://twitter.com/lusionltd/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/lusionltd/"
+    },
+    {
+      "text": "Linkedin",
+      "href": "https://www.linkedin.com/company/lusionltd/"
+    },
+    {
+      "text": "hello@lusion.co",
+      "href": "mailto:hello@lusion.co"
+    },
+    {
+      "text": "business@lusion.co",
+      "href": "mailto:business@lusion.co"
+    },
+    {
+      "text": "R&D: labs.lusion.co",
+      "href": "https://labs.lusion.co/"
+    }
+  ],
+  "elements": [
+    {
+      "tag": "HEADER",
+      "text": "back              Let's talk        Menu Close             Home Home       About us About us       P",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "back",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "16.1px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "100px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.1px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.1px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "87.5px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Let's talk",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "16.1px",
+      "tracking": "normal",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(43, 46, 58)",
+      "radius": "87.5px"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "16.1px",
+      "tracking": "normal",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Menu Close",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "16.1px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(228, 230, 239)",
+      "radius": "87.5px"
+    },
+    {
+      "tag": "A",
+      "text": "Home Home",
+      "class": "header-menu-link --active",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "16px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "About us About us",
+      "class": "header-menu-link",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "16px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "Projects Projects",
+      "class": "header-menu-link",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "16px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Contact Contact",
+      "class": "header-menu-link",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "16px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "H3",
+      "text": "Subscribe to our newsletter",
+      "class": "",
+      "font": "Aeonik",
+      "size": "38px",
+      "weight": "400",
+      "lineHeight": "43.7px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "20px",
+      "weight": "400",
+      "lineHeight": "23px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Let's talk",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "10px"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "Labs Labs",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(0, 0, 0)",
+      "radius": "10px"
+    },
+    {
+      "tag": "H1",
+      "text": "We create 3D visual storytellingand interactive web experiencesthat help brands stand out",
+      "class": "",
+      "font": "Aeonik",
+      "size": "36px",
+      "weight": "400",
+      "lineHeight": "39.6px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "H4",
+      "text": "Bold Ideas, Brought to Life",
+      "class": "",
+      "font": "Aeonik",
+      "size": "144px",
+      "weight": "400",
+      "lineHeight": "144px",
+      "tracking": "-2.88px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "H2",
+      "text": "We combine design, motion, 3D, and development to create digital experiences that feel visually stri",
+      "class": "",
+      "font": "Aeonik",
+      "size": "21.6px",
+      "weight": "400",
+      "lineHeight": "30.24px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "Our Approach",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14.4px",
+      "weight": "500",
+      "lineHeight": "20.16px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "76.5px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14.4px",
+      "weight": "400",
+      "lineHeight": "16.56px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "324px"
+    },
+    {
+      "tag": "H4",
+      "text": "Featured Work",
+      "class": "",
+      "font": "Aeonik",
+      "size": "115.2px",
+      "weight": "400",
+      "lineHeight": "103.68px",
+      "tracking": "-2.304px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "concept • web • design • development • 3d • animation   OOOOrrrryyyyzzzzooooAAAAIIII",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "concept • web • design • development • 3d • animation   AAAAttttllllaaaassssMMMMoooottttiiiioooonnnn",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "web • design • development • 3d   DDDDeeeevvvviiiinnnnAAAAIIII",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "web • design • development • 3d • animation   OOOOffffTTTThhhheeeeOOOOaaaakkkk",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "concept • web • design • development • 3d • animation   EEEEvvvveeeerrrrsssswwwwaaaapppp",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "concept • 3D illustration • mograph • video   PPPPoooorrrrsssscccchhhheeee::::DDDDrrrreeeeaaaammmmMM",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "web • design • development • 3d   SSSSyyyynnnntttthhhheeeettttiiiiccccHHHHuuuummmmaaaannnn",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "web • design • development • 3d   MMMMeeeettttaaaa::::SSSSppppaaaattttiiiiaaaallllFFFFuuuussssiiiioo",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "web • design • development • 3d • web3   SSSSppppaaaaaaaacccceeee----NNNNFFFFTTTTMMMMaaaarrrrkkkkeee",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "web • design • development • 3d   DDDDDDDDDDDD2222000022224444",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "concept • web • game design • 3d   CCCChhhhooooooooCCCChhhhooooooooWWWWoooorrrrlllldddd",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "AR • development • 3d   SSSSooooddddaaaaEEEExxxxppppeeeerrrriiiieeeennnncccceeee",
+      "class": "project-item project-type-website",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "See all projects",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14.4px",
+      "weight": "500",
+      "lineHeight": "16.56px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "76.5px"
+    },
+    {
+      "tag": "A",
+      "text": "Suite 29 Marsh StreetBristol, BS1 4AAUnited Kingdom",
+      "class": "",
+      "font": "Aeonik",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "25.2px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "Twitter / X",
+      "class": "footer-socials-line",
+      "font": "Aeonik",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "20.7px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "Instagram",
+      "class": "footer-socials-line",
+      "font": "Aeonik",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "20.7px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "Linkedin",
+      "class": "footer-socials-line",
+      "font": "Aeonik",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "20.7px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "hello@lusion.co",
+      "class": "",
+      "font": "Aeonik",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "20.7px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "business@lusion.co",
+      "class": "",
+      "font": "Aeonik",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "20.7px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14.4px",
+      "weight": "400",
+      "lineHeight": "16.56px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "A",
+      "text": "R&D: labs.lusion.co",
+      "class": "",
+      "font": "Aeonik",
+      "size": "14.4px",
+      "weight": "400",
+      "lineHeight": "16.56px",
+      "tracking": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "PLAY",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "MUTE",
+      "class": "",
+      "font": "Aeonik",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "18.4px",
+      "tracking": "normal",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px"
+    }
+  ]
+}

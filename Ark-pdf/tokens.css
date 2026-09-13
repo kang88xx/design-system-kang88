@@ -1,0 +1,24 @@
+/* Observed source colors; normalized spacing is an extension. See tokens.json. */
+:root {
+  --ark-cobalt: #011187;
+  --ark-navy: #061A58;
+  --ark-icon: #091955;
+  --ark-paper: #F4F4F8;
+  --ark-ink: #1A2646;
+  --ark-steel: #516086;
+  --ark-white: #FFFFFF;
+  --ark-yellow: #EEC12B;
+  --ark-rule: #DADDE5;
+  --ark-muted: #687084;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --font-sans: Arial, "Noto Sans CJK KR", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, monospace;
+}

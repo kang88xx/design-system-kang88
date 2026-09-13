@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="compliance-check-title compliance-check-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="compliance-check-title">Compliance check icon</title>
+  <desc id="compliance-check-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[29],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientComplianceCheck" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientComplianceCheck)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 8h17l5 5v27H14z"/>
+    <path d="M31 8v6h5"/>
+    <path d="m18 20 3 3 5-6"/>
+    <path d="M29 21h5"/>
+    <path d="m18 31 3 3 5-6"/>
+    <path d="M29 32h5"/>
+  </g>
+</svg>

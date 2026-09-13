@@ -1,0 +1,2171 @@
+{
+  "id": "radio-3eeacf8dc9e23232",
+  "pageId": "05-www-apple-com-airpods",
+  "pageTitle": "AirPods - Apple",
+  "sourceUrl": "https://www.apple.com/airpods/",
+  "label": "Read more about Active Noise Cancellation",
+  "selector": "#tile-overlay-toggle-active-noise-cancellation",
+  "trigger": "click",
+  "kind": "animation",
+  "viewport": "desktop",
+  "status": "observed",
+  "properties": [
+    "backgroundColor",
+    "color",
+    "transform",
+    "opacity",
+    "visibility"
+  ],
+  "tracks": [
+    {
+      "target": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 100,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-42bf43585e900412"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(214, 214, 215)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(255, 255, 255)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 100,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-70f28b9cfee8cc24"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "backgroundColor": "rgb(51, 51, 54)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 100,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-b08b172cd314f8c0"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "none",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "rotate(45deg)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 500,
+        "easing": "cubic-bezier(0.66, 0, 0.2, 1)",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-a7557aa60f868fd4"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 500,
+        "easing": "ease-in-out",
+        "endDelay": 0,
+        "fill": "backwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "source": "web-animations",
+      "id": "track-409d2e9127dc981b"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "opacity": "0",
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-d262538e88936fc6"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-9ca76d1fdb505f60"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-d7173f2517223941"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-6ba1faf7d073ae4a"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-374aa780dac28e95"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-4a50fec2b9d0c9e1"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-e56e5052d4a57971"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-d7df3868914b239e"
+    },
+    {
+      "target": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-02f8f135eda3b2ee"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 1,
+          "visibility": "hidden"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-a55877c6ac3ac0cd"
+    },
+    {
+      "target": "#content-toggle-active-noise-cancellation",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-6a7ddede8b9e3bad"
+    },
+    {
+      "target": "#content-toggle-active-noise-cancellation > h4:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-d1555a18ca21c7db"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-738f4e8d30f562d9"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-ec465d04b52e6bbc"
+    },
+    {
+      "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "visibility": "hidden"
+        },
+        {
+          "offset": 0.16946308724832215,
+          "visibility": "visible"
+        },
+        {
+          "offset": 0.4395973154362416,
+          "visibility": "visible"
+        },
+        {
+          "offset": 1,
+          "visibility": "visible"
+        }
+      ],
+      "timing": {
+        "duration": 596,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 596,
+      "id": "track-a9855f9a4c46eef2"
+    }
+  ],
+  "summary": "Native input / associated label follow-up",
+  "sourceRefs": [
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-04057c6f1314.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-ba129f605ce0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-8a47caaa6c2e.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fcc65a1f662.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-2b5da0c42d8a.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-f52c2f48451b.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-fed73df3c65c.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-a7daf26fe14e.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-66eaf5902e6b.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-8a2307e11a53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-704c3e9515d0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/05-www-apple-com-airpods-bdb4460c6fed.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-5d0d07c5ecfa-46cb73c281d4.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-cc1ee1bcba53-721fc3d2e4c1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-9fcc65a1f662-d40ac7756e83.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-e294186e3f21-5afac158df6b.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-0b8b4b148b25-95cc4e593b80.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-04057c6f1314-a9d2a8f8d325.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-46c6298737ce-731c003a8950.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d42b552a7854-d8166e1bcf72.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-067f3fc9933a-0143d2dc99f0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-c999b0b330cd-b05926ff64d2.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d9efb267a3c0-a443c235ec6a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d66ca6484df1-86c7b6cc8988.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-2b5da0c42d8a-41f2ade09a40.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-f52c2f48451b-406213d5cc9d.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-a7daf26fe14e-ac2e178abde0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-66eaf5902e6b-3bf387d1bbf7.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-8a2307e11a53-88ea0ad09faa.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-704c3e9515d0-3bfab1844a7f.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-ba129f605ce0-202a2016c552.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-8a47caaa6c2e-9c9d99a54561.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-bdb4460c6fed-84bc8e3db253.js"
+  ],
+  "before": {
+    "scrollY": 5672,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "target": {
+      "selector": "#tile-overlay-toggle-active-noise-cancellation",
+      "state": {
+        "checked": false,
+        "value": "on"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "33px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "595px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "21px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "64px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -186, -340)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "33px",
+          "max-height": "none",
+          "background-color": "rgb(51, 51, 54)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "0",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgb(245, 245, 247)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#content-toggle-active-noise-cancellation",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "42px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#content-toggle-active-noise-cancellation > h4:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "21px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "280px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "175px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "175px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      }
+    ],
+    "animations": []
+  },
+  "frames": [
+    {
+      "scrollY": 5672,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "selector": "#tile-overlay-toggle-active-noise-cancellation",
+        "state": {
+          "checked": true,
+          "value": "on"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "33px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0.9)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "595px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "21px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "64px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -186, -340)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.999975, 0.00701014, -0.00701014, 0.999975, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "33px",
+            "max-height": "none",
+            "background-color": "rgba(28, 28, 30, 0.898)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0.0197571",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgb(245, 245, 247)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-active-noise-cancellation",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "42px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-active-noise-cancellation > h4:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "21px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "280px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "175px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "175px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [
+        {
+          "target": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "backgroundColor": "rgba(0, 0, 0, 0.8)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 100,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "color": "rgb(214, 214, 215)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "color": "rgb(255, 255, 255)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 100,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "backgroundColor": "rgb(51, 51, 54)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "backgroundColor": "rgba(0, 0, 0, 0.8)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 100,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "rotate(45deg)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "cubic-bezier(0.66, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "ease-in-out",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ],
+      "elapsed": 101
+    },
+    {
+      "scrollY": 5672,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "selector": "#tile-overlay-toggle-active-noise-cancellation",
+        "state": {
+          "checked": true,
+          "value": "on"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "33px",
+            "max-height": "none",
+            "background-color": "rgb(0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "595px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "21px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "64px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -186, -340)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.966489, 0.256709, -0.256709, 0.966489, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "33px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0.8)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0.332021",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgb(245, 245, 247)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-active-noise-cancellation",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "42px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-active-noise-cancellation > h4:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "21px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "280px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "175px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "175px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [
+        {
+          "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "transform": "rotate(45deg)",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "cubic-bezier(0.66, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        },
+        {
+          "target": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ],
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 500,
+            "easing": "ease-in-out",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ],
+      "elapsed": 262
+    },
+    {
+      "scrollY": 5672,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "target": {
+        "selector": "#tile-overlay-toggle-active-noise-cancellation",
+        "state": {
+          "checked": true,
+          "value": "on"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "33px",
+            "max-height": "none",
+            "background-color": "rgb(0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "595px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "21px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "64px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, -186, -340)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "auto",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "hidden"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "33px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0.8)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "680px",
+            "max-height": "none",
+            "background-color": "rgb(245, 245, 247)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-active-noise-cancellation",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "42px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#content-toggle-active-noise-cancellation > h4:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "21px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "280px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "175px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "175px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 596
+    }
+  ],
+  "after": {
+    "scrollY": 5672,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "target": {
+      "selector": "#tile-overlay-toggle-active-noise-cancellation",
+      "state": {
+        "checked": true,
+        "value": "on"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#scroll-gallery-item-2 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "33px",
+          "max-height": "none",
+          "background-color": "rgb(0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "0",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "595px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "21px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "64px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, -186, -340)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > source:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#overview-consider-card-noise-cancellation-1 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > noscript:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "auto",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > label:nth-of-type(1) > span:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "33px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "680px",
+          "max-height": "none",
+          "background-color": "rgb(245, 245, 247)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#content-toggle-active-noise-cancellation",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "42px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#content-toggle-active-noise-cancellation > h4:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "21px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "280px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "175px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#scroll-gallery-item-3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "175px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": [],
+    "elapsed": 596
+  }
+}

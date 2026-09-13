@@ -1,0 +1,184 @@
+{
+  "checked_at": "2026-09-06T14:04:12.242Z",
+  "checks": [
+    {
+      "name": "index.html: source explorer reachable",
+      "passed": true
+    },
+    {
+      "name": "index.html: no broken initial images",
+      "passed": true
+    },
+    {
+      "name": "index.html: no horizontal overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "index.html: no horizontal overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "index.html: no horizontal overflow at 812",
+      "passed": true
+    },
+    {
+      "name": "index.html: no horizontal overflow at 1000",
+      "passed": true
+    },
+    {
+      "name": "index.html: no horizontal overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "components.html: source explorer reachable",
+      "passed": true
+    },
+    {
+      "name": "components.html: no broken initial images",
+      "passed": true
+    },
+    {
+      "name": "components.html: no horizontal overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "components.html: no horizontal overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "components.html: no horizontal overflow at 812",
+      "passed": true
+    },
+    {
+      "name": "components.html: no horizontal overflow at 1000",
+      "passed": true
+    },
+    {
+      "name": "components.html: no horizontal overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: source explorer reachable",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: no broken initial images",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: no horizontal overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: no horizontal overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: no horizontal overflow at 812",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: no horizontal overflow at 1000",
+      "passed": true
+    },
+    {
+      "name": "motion-lab.html: no horizontal overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: source explorer reachable",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: no broken initial images",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: no horizontal overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: no horizontal overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: no horizontal overflow at 812",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: no horizontal overflow at 1000",
+      "passed": true
+    },
+    {
+      "name": "video-analysis.html: no horizontal overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: source explorer reachable",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: no broken initial images",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: no horizontal overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: no horizontal overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: no horizontal overflow at 812",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: no horizontal overflow at 1000",
+      "passed": true
+    },
+    {
+      "name": "source-explorer.html: no horizontal overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: source explorer reachable",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: no broken initial images",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: no horizontal overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: no horizontal overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: no horizontal overflow at 812",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: no horizontal overflow at 1000",
+      "passed": true
+    },
+    {
+      "name": "reconstruction.html: no horizontal overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript exceptions across all six screens",
+      "passed": true
+    },
+    {
+      "name": "No failed HTTP responses across all six screens",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "passed": true
+}

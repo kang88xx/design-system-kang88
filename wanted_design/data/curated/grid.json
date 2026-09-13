@@ -1,0 +1,82 @@
+{
+  "base": "8px",
+  "recommendedSpacingIncrement": "4px",
+  "visualCorrectionIncrement": "2px",
+  "artboards": [
+    [
+      "환경",
+      "너비",
+      "높이",
+      "최대 너비"
+    ],
+    [
+      "Web desktop",
+      "1440px",
+      "960px",
+      "1100px"
+    ],
+    [
+      "Web Mobile",
+      "375px",
+      "635px",
+      "-"
+    ],
+    [
+      "iOS",
+      "375pt",
+      "812pt",
+      "-"
+    ],
+    [
+      "Android",
+      "360pp",
+      "800dp",
+      "-"
+    ]
+  ],
+  "breakpoints": [
+    [
+      "명칭",
+      "대응 환경",
+      "너비",
+      "최대 너비"
+    ],
+    [
+      "xs",
+      "모바일",
+      "0-768px",
+      "-"
+    ],
+    [
+      "sm",
+      "태블릿 세로",
+      "768-992px",
+      "-"
+    ],
+    [
+      "md",
+      "태블릿 가로",
+      "992-1200px",
+      "-"
+    ],
+    [
+      "lg",
+      "데스크탑",
+      "1200-1600px",
+      "1100px(Padding 포함)"
+    ],
+    [
+      "xl",
+      "데스크탑 대형",
+      "1600px~",
+      "1440px(Padding 포함)"
+    ]
+  ],
+  "layout": {
+    "gutter": "20px",
+    "mobileColumns": 2,
+    "tabletColumns": 3,
+    "desktopColumns": 12
+  },
+  "source": "https://montage.wanted.co.kr/docs/foundations/base-material/grid"
+}

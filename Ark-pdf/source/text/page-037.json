@@ -1,0 +1,293 @@
+{
+  "page": 37,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n37\n04\n\nQatar Energy\n– Lng Site Offices &\nFood Service Building\n\nFoc -2 Building\n\nJune,2021-October, 2022\n\nClient:\n\nLocation:\n\nPeriod:\n\nCCC\n\nQatar, Ras-Laffan City",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "37",
+      "bbox": [
+        1849.508,
+        45.176,
+        1861.708,
+        56.496
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1849.508,
+        54.496
+      ]
+    },
+    {
+      "text": "04",
+      "bbox": [
+        51.5,
+        29.054,
+        169.225,
+        124.424
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        51.5,
+        107.424
+      ]
+    },
+    {
+      "text": "Qatar Energy  ",
+      "bbox": [
+        53.123,
+        171.067,
+        410.823,
+        226.045
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.123,
+        216.245
+      ]
+    },
+    {
+      "text": "– Lng Site Offices & ",
+      "bbox": [
+        53.123,
+        235.551,
+        548.317,
+        290.529
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.123,
+        280.729
+      ]
+    },
+    {
+      "text": "Food Service Building",
+      "bbox": [
+        53.123,
+        300.035,
+        596.19,
+        355.013
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        53.123,
+        345.213
+      ]
+    },
+    {
+      "text": "Foc -2 Building",
+      "bbox": [
+        826.927,
+        968.865,
+        1015.327,
+        996.539
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#434343",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        826.927,
+        991.539
+      ]
+    },
+    {
+      "text": "June,2021-October, 2022",
+      "bbox": [
+        203.629,
+        497.968,
+        512.504,
+        525.643
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        203.629,
+        520.643
+      ]
+    },
+    {
+      "text": "Client: ",
+      "bbox": [
+        52.529,
+        417.609,
+        140.604,
+        445.659
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.529,
+        440.659
+      ]
+    },
+    {
+      "text": "Location:  ",
+      "bbox": [
+        52.529,
+        458.759,
+        184.304,
+        486.809
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.529,
+        481.809
+      ]
+    },
+    {
+      "text": "Period:",
+      "bbox": [
+        52.529,
+        499.909,
+        141.829,
+        527.959
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.529,
+        522.959
+      ]
+    },
+    {
+      "text": "CCC",
+      "bbox": [
+        207.654,
+        418.741,
+        262.004,
+        446.416
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        207.654,
+        441.416
+      ]
+    },
+    {
+      "text": "Qatar, Ras-Laffan City",
+      "bbox": [
+        203.629,
+        459.174,
+        475.704,
+        486.849
+      ],
+      "font": "Gotham-Book",
+      "size": 25.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        203.629,
+        481.849
+      ]
+    }
+  ]
+}

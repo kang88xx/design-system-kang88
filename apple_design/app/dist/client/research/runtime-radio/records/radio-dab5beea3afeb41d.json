@@ -1,0 +1,1329 @@
+{
+  "id": "radio-dab5beea3afeb41d",
+  "pageId": "11-www-apple-com-macbook-air",
+  "pageTitle": "MacBook Air 13-inch and MacBook Air 15-inch - Apple",
+  "sourceUrl": "https://www.apple.com/macbook-air/",
+  "label": "Sky Blue",
+  "selector": "#finishes-gallery-item-1-trigger",
+  "trigger": "click",
+  "kind": "animation",
+  "viewport": "mobile",
+  "status": "observed",
+  "properties": [
+    "opacity",
+    "transform",
+    "height"
+  ],
+  "tracks": [
+    {
+      "target": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "opacity": "0.2304"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "opacity": "0.4644"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "opacity": "0.797"
+        },
+        {
+          "offset": 1,
+          "opacity": "1"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-3b23ff009630084e"
+    },
+    {
+      "target": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, -3.24022)",
+          "opacity": "0.786288"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "transform": "matrix(1, 0, 0, 1, 0, -2.36639)",
+          "opacity": "1"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "transform": "matrix(1, 0, 0, 1, 0, -1.12179)",
+          "opacity": "1"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -0.140242)",
+          "opacity": "1"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-0755df98c0802d7c"
+    },
+    {
+      "target": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 7.7969)",
+          "opacity": "0.786288"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "transform": "matrix(1, 0, 0, 1, 0, 5.21682)",
+          "opacity": "1"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "transform": "matrix(1, 0, 0, 1, 0, 2.06413)",
+          "opacity": "1"
+        },
+        {
+          "offset": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.25095)",
+          "opacity": "1"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-2e82787ab26436d9"
+    },
+    {
+      "target": "#overview-design-sizes-design-sizes-endframe-4 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "349px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "349px"
+        },
+        {
+          "offset": 1,
+          "height": "349px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-42454257b7e8beff"
+    },
+    {
+      "target": "#overview-design-color-design-top-skyblue-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "438px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "438px"
+        },
+        {
+          "offset": 1,
+          "height": "438px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-cf924b78f71942ea"
+    },
+    {
+      "target": "#overview-design-color-design-magsafe-skyblue-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "252px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "252px"
+        },
+        {
+          "offset": 1,
+          "height": "252px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-0d249e329970f9db"
+    },
+    {
+      "target": "#overview-design-color-design-top-silver-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "438px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "438px"
+        },
+        {
+          "offset": 1,
+          "height": "438px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-80a68e492677885d"
+    },
+    {
+      "target": "#overview-design-color-design-magsafe-silver-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "252px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "252px"
+        },
+        {
+          "offset": 1,
+          "height": "252px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-2ac9dfd9292d5b5d"
+    },
+    {
+      "target": "#overview-design-color-design-top-starlight-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "438px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "438px"
+        },
+        {
+          "offset": 1,
+          "height": "438px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-8b73fabaf1ec9961"
+    },
+    {
+      "target": "#overview-design-color-design-magsafe-starlight-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "252px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "252px"
+        },
+        {
+          "offset": 1,
+          "height": "252px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-e3262b468ff64c39"
+    },
+    {
+      "target": "#overview-design-color-design-top-midnight-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "438px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "438px"
+        },
+        {
+          "offset": 1,
+          "height": "438px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-139684ba06b6fe97"
+    },
+    {
+      "target": "#overview-design-color-design-magsafe-midnight-2 > img:nth-of-type(1)",
+      "keyframes": [
+        {
+          "offset": 0,
+          "height": "1px"
+        },
+        {
+          "offset": 0.1880064829821718,
+          "height": "252px"
+        },
+        {
+          "offset": 0.4473257698541329,
+          "height": "252px"
+        },
+        {
+          "offset": 1,
+          "height": "252px"
+        }
+      ],
+      "timing": {
+        "duration": 617,
+        "easing": "linear",
+        "iterations": 1,
+        "fill": "both"
+      },
+      "source": "computed-samples",
+      "timingProvenance": "Linear interpolation of recorded sample offsets; original duration and easing are not recovered.",
+      "sampleWindowMs": 617,
+      "id": "track-5496d0e89db842b1"
+    }
+  ],
+  "summary": "Native input / associated label follow-up",
+  "sourceRefs": [
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-9fff042843e0.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-46c6298737ce.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-04057c6f1314.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d42b552a7854.css",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-0b8b4b148b25.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/01-www-apple-com-mac-5d0d07c5ecfa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-cc1ee1bcba53.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-9fcc65a1f662.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-097a86ba2314.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d9efb267a3c0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-067f3fc9933a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-d66ca6484df1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-c999b0b330cd.js",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-188c938f104c.js",
+    "/apple_design/app/dist/client/research/runtime-sources/00-www-apple-com-home-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-e294186e3f21.css",
+    "/apple_design/app/dist/client/research/runtime-sources/02-www-apple-com-iphone-3be19abfee91.js",
+    "/apple_design/app/dist/client/research/runtime-sources/06-www-apple-com-apple-vision-pro-d3c9a23cd17f.js",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-1500b626a6ba.css",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-cc4649d01a59.css",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-a35519adda09.js",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-950cfb6f8bf2.css",
+    "/apple_design/app/dist/client/research/runtime-sources/11-www-apple-com-macbook-air-2e5d9ce97148.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-5d0d07c5ecfa-46cb73c281d4.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-cc1ee1bcba53-721fc3d2e4c1.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-9fcc65a1f662-d40ac7756e83.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-e294186e3f21-5afac158df6b.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-0b8b4b148b25-95cc4e593b80.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-04057c6f1314-a9d2a8f8d325.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-46c6298737ce-731c003a8950.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d42b552a7854-d8166e1bcf72.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-067f3fc9933a-0143d2dc99f0.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-c999b0b330cd-b05926ff64d2.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-097a86ba2314-72152331836b.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d9efb267a3c0-a443c235ec6a.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d66ca6484df1-86c7b6cc8988.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-188c938f104c-53b47c5c0705.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-3be19abfee91-949bb77614fa.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-d3c9a23cd17f-962fceac9b9e.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-cc4649d01a59-d337b819f31f.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-a35519adda09-5f775b3daa6b.js",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-1500b626a6ba-9137fd5d5aaa.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-950cfb6f8bf2-b7d949547014.css",
+    "/apple_design/app/dist/client/research/runtime-sources/radio-2e5d9ce97148-cc98fb871c0e.js"
+  ],
+  "before": {
+    "scrollY": 3007,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "target": {
+      "selector": "#finishes-gallery-item-1-trigger",
+      "state": {
+        "checked": true,
+        "value": "skyblue"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "0.2304",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "146px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -3.24022)",
+          "opacity": "0.786288",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "25px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 7.7969)",
+          "opacity": "0.786288",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "104px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-sizes-design-sizes-endframe-4 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-skyblue-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-skyblue-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-silver-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-silver-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-starlight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-starlight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-midnight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-midnight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "1px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": []
+  },
+  "frames": [
+    {
+      "scrollY": 3007,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#finishes-gallery-item-1-trigger",
+        "state": {
+          "checked": true,
+          "value": "skyblue"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0.4644",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "146px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -2.36639)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 5.21682)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "104px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-sizes-design-sizes-endframe-4 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "349px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-skyblue-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-skyblue-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-silver-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-silver-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-starlight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-starlight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-midnight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-midnight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 116
+    },
+    {
+      "scrollY": 3007,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#finishes-gallery-item-1-trigger",
+        "state": {
+          "checked": true,
+          "value": "skyblue"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "0.797",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "146px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -1.12179)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 2.06413)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "104px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-sizes-design-sizes-endframe-4 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "349px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-skyblue-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-skyblue-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-silver-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-silver-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-starlight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-starlight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-midnight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-midnight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 276
+    },
+    {
+      "scrollY": 3007,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "selector": "#finishes-gallery-item-1-trigger",
+        "state": {
+          "checked": true,
+          "value": "skyblue"
+        }
+      },
+      "elements": [
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "146px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, -0.140242)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "25px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "styles": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.25095)",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "104px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-sizes-design-sizes-endframe-4 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "349px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-skyblue-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-skyblue-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-silver-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-silver-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-starlight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-starlight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-top-midnight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "438px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "selector": "#overview-design-color-design-magsafe-midnight-2 > img:nth-of-type(1)",
+          "styles": {
+            "transform": "none",
+            "opacity": "1",
+            "clip-path": "none",
+            "filter": "none",
+            "height": "252px",
+            "max-height": "none",
+            "background-color": "rgba(0, 0, 0, 0)",
+            "visibility": "visible"
+          }
+        }
+      ],
+      "animations": [],
+      "elapsed": 617
+    }
+  ],
+  "after": {
+    "scrollY": 3007,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "target": {
+      "selector": "#finishes-gallery-item-1-trigger",
+      "state": {
+        "checked": true,
+        "value": "skyblue"
+      }
+    },
+    "elements": [
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "146px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, -0.140242)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "25px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#main > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "styles": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0.25095)",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "104px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-sizes-design-sizes-endframe-4 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "349px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-skyblue-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "438px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-skyblue-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "252px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-silver-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "438px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-silver-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "252px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-starlight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "438px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-starlight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "252px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-top-midnight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "438px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      },
+      {
+        "selector": "#overview-design-color-design-magsafe-midnight-2 > img:nth-of-type(1)",
+        "styles": {
+          "transform": "none",
+          "opacity": "1",
+          "clip-path": "none",
+          "filter": "none",
+          "height": "252px",
+          "max-height": "none",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "visibility": "visible"
+        }
+      }
+    ],
+    "animations": [],
+    "elapsed": 617
+  }
+}

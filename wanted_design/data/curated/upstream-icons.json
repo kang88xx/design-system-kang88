@@ -1,0 +1,402 @@
+[
+  {
+    "name": "IconAgentColor",
+    "localPath": "assets/montage/icons-upstream/IconAgentColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "79ff9296afb2cc4f3622f1829b67a7e94823eb225d234cda812b8c38c535454c",
+    "byteSize": 1777,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-agent-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-agent-color.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconBlankColor",
+    "localPath": "assets/montage/icons-upstream/IconBlankColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "ea8b064f196163b648a07955c573f4b84739f17a81cee8dd7e5afd409a607b9b",
+    "byteSize": 5459,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-blank-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-blank-color.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconCornerDownLeft",
+    "localPath": "assets/montage/icons-upstream/IconCornerDownLeft.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "262da275c9ac271bed65dafe252c38f6423a95658df372b2228f85e4eb304d17",
+    "byteSize": 1015,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-corner-down-left.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-corner-down-left.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconHashTag",
+    "localPath": "assets/montage/icons-upstream/IconHashTag.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "509d820311d7c93f1ef395e238294793cad89bf29681bef7a90caab285b13900",
+    "byteSize": 1236,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-hash-tag.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-hash-tag.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoAppleColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoAppleColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a8b16616a6843a27985afadb46c3f8f9f962af1c56b43d6260da5ec5c694be38",
+    "byteSize": 1079,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-apple-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-apple-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoFacebookColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoFacebookColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "c337d2afffcc9ed1b664bfa11ae99883e9e0c1cd584574c3c131923d170d3b41",
+    "byteSize": 586,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-facebook-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-facebook-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoGoogleColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoGoogleColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "d4b536b4933525032620794a454e20901bac67cd587df7fd2719850612a5de37",
+    "byteSize": 1276,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-google-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-google-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoGooglePlayColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoGooglePlayColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "dad7f716aaf279b38231e615240d77e355fc5a5455f3a15a8e81ab273e166703",
+    "byteSize": 876,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-google-play-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-google-play-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoInstagramColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoInstagramColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "441e523e1fb3441782acffe989384b899b9e08a923f54895a3dcdd2c18f08be7",
+    "byteSize": 68091,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-instagram-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-instagram-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoKakaoColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoKakaoColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "373a1e82405c2935417c0f456891afa4138fd51fc5d81ed5cddd2c3d1e6b4e06",
+    "byteSize": 638,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-kakao-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-kakao-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoLinkedInColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoLinkedInColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "4a768269f71cf334c203017f45b1b06774ec226b50023b8548289cfa356b8bd4",
+    "byteSize": 1745,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-linked-in-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-linked-in-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoMicrosoftColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoMicrosoftColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "9d49abcd9ac736be49a33c3412809d1c89052f80d7b40e76a8cffd953124ea7c",
+    "byteSize": 355,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-microsoft-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-microsoft-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoNaverBlogColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoNaverBlogColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "f2e29af5c78f8b325911b640e740c899176fa1744e76a04bee2574330a982680",
+    "byteSize": 2072,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-naver-blog-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-naver-blog-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconLogoYoutubeColor",
+    "localPath": "assets/montage/icons-upstream/IconLogoYoutubeColor.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "3b72647bf2dfc9dddff6ba0a27bb1db27fa6a877d132ffdbcc71944686c3b5e7",
+    "byteSize": 762,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-logo-youtube-color.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-logo-youtube-color.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconNavigationCareer",
+    "localPath": "assets/montage/icons-upstream/IconNavigationCareer.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a5da6c11679811aca6a59a7d4ed42feeff17b19cfe6f0e13fdf1b76111547d8e",
+    "byteSize": 634,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-navigation-career.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-navigation-career.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconNavigationMenu",
+    "localPath": "assets/montage/icons-upstream/IconNavigationMenu.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "aa0552bbf2f486d3132c34865b10634748d5b67945658ef801545822407cc2b9",
+    "byteSize": 804,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-navigation-menu.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-navigation-menu.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconNavigationMypage",
+    "localPath": "assets/montage/icons-upstream/IconNavigationMypage.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "5e0aadcc122fb047e11333790d165f2a94d1b50e4d5c11980a888d82331ad8ff",
+    "byteSize": 708,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-navigation-mypage.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-navigation-mypage.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconNavigationRecruit",
+    "localPath": "assets/montage/icons-upstream/IconNavigationRecruit.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "29214f578efe303e165b4d910357fc27bebfee28df3b0752c0191505c1abd46c",
+    "byteSize": 660,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-navigation-recruit.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-navigation-recruit.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconNavigationSocial",
+    "localPath": "assets/montage/icons-upstream/IconNavigationSocial.svg",
+    "viewBox": "0 0 24 24",
+    "width": 24,
+    "height": 24,
+    "sha256": "a9a644576fcef4a7db3f1cb0eaabf5ac957d92dee0b929b87f50e35c833b2134",
+    "byteSize": 1220,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-navigation-social.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-navigation-social.tsx",
+    "evidence": "documented",
+    "brandAsset": false,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  },
+  {
+    "name": "IconSymbol",
+    "localPath": "assets/montage/icons-upstream/IconSymbol.svg",
+    "viewBox": "0 0 1632 1632",
+    "width": 1632,
+    "height": 1632,
+    "sha256": "02a0612a2274ded060961fb764707cfce4968bac671929591f12f7a6c15c2b75",
+    "byteSize": 11324,
+    "source": "assets/montage/source/upstream/packages/wds-icon/src/icon-symbol.tsx",
+    "sourceUrl": "https://github.com/wanteddev/montage-web/blob/bfced87f96dfb21c8ea80074c551b64b9ed1530b/packages/wds-icon/src/icon-symbol.tsx",
+    "evidence": "documented",
+    "brandAsset": true,
+    "origin": {
+      "repository": "https://github.com/wanteddev/montage-web",
+      "release": "v3.12.0",
+      "commit": "bfced87f96dfb21c8ea80074c551b64b9ed1530b",
+      "package": "@wanteddev/wds-icon",
+      "packageVersion": "3.12.0"
+    }
+  }
+]

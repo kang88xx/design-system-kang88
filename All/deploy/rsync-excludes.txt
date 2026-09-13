@@ -1,0 +1,76 @@
+# Studio Hub 배포용 rsync 제외 목록 (기준: 02_Source 루트). GitHub Pages 한도(사이트 1GB, 파일 100MB)에 맞춘 선별.
+# --- 뷰어가 직접 불러오는 개별 파일: 전역 제외보다 먼저 포함 (rsync는 첫 매치 우선) ---
++ /toss_design/evidence/
++ /toss_design/evidence/source/
++ /toss_design/evidence/source/home-1440.png
+- /toss_design/evidence/**
++ /lusion_design/screenshots/
++ /lusion_design/screenshots/home-ready.png
+- /lusion_design/screenshots/**
+# --- 어디서나 제외 --- (숨김 디렉터리는 전부: .git .omx .omc .openai .vercel .claude .gstack .tmp …)
+- .*/
+- .git/
+- node_modules/
+- ._*
+- .DS_Store
+- .gstack/
+- *-private/
+- backups/
+- test-results/
+- evidence/
+- captures/
+- screenshots/
+# --- references: 뷰어가 실제로 불러오는 하위만 포함, 나머지 원본 캡처 제외 ---
++ /family_design/references/
+- /family_design/references/v3-source/
++ /adver_design/references/
++ /adver_design/references/frames/
++ /adver_design/references/frames/**
++ /adver_design/references/recording.mp4
+- /adver_design/references/*
+- /apple_design/references/
+- /google_design/references/
+- /toss_design/references/
+- /wanted_design/references/
+- /lusion_design/references/
+- /Ark-pdf/references/
+# --- 50MB 초과 아카이브(다운로드 링크는 사이트에서 열리지 않음) ---
+- /apple_design/app/dist/client/research-source-kit.tar.gz
+- /wanted_design/assets/montage/source/*.tar.gz
+- /toss_design/dist/toss-source-kit.zip
+# --- 허브에 등록되지 않은 루트 폴더·파일 ---
+- /stripe_design/
+- /logo/
+- /design/
+- /*.zip
+- /_deploy/
+# --- Apple: public은 dist 중복, research 원본 증거(4.7GB) 중 대용량만 제외 ---
+- /apple_design/app/public/
+- /apple_design/app/dist/client/research/runtime-motion/
+- /apple_design/app/dist/client/research/inline/
+- /apple_design/app/dist/client/research/pages/
+- /apple_design/app/dist/client/research/motion-replay.json
+- /apple_design/app/dist/server/
+# --- Toss: 스니펫 원본 196MB ---
+- /toss_design/dist/snippets/
+# --- Wanted: 다운로드 이미지 원본 ---
+- /wanted_design/exports/montage-reference-assets.zip
+# --- Family: 100MB 초과 ZIP ---
+- /family_design/family-design-system.zip
+# --- Lusion: 100MB 초과 ZIP, 원본 자산·읽기용 캡처 ---
+- /lusion_design/downloads/lusion-source-system-v3.zip
+- /lusion_design/downloads/lusion-source-system-v4.zip
++ /lusion_design/sources/assets/
++ /lusion_design/sources/assets/lusion.co/
++ /lusion_design/sources/assets/lusion.co/**
++ /lusion_design/sources/assets/lusion.dev/
++ /lusion_design/sources/assets/lusion.dev/assets/
++ /lusion_design/sources/assets/lusion.dev/assets/projects/
++ /lusion_design/sources/assets/lusion.dev/assets/projects/*/
++ /lusion_design/sources/assets/lusion.dev/assets/projects/*/home.webp
+- /lusion_design/sources/assets/**
+- /lusion_design/sources/readable/
+# --- ARK: 100MB 초과 ZIP, PDF 페이지 이미지 원본 254MB ---
+- /Ark-pdf/downloads/ark-design-system.zip
+- /Ark-pdf/downloads/ark-source-archive.zip
+- /Ark-pdf/source/images/

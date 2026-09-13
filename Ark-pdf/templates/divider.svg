@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Section Divider">
+  <title>Section Divider</title>
+  <desc>ARK PDF p4/p10/p17/p27의 코발트 섹션 화면처럼 거대 번호를 우상단에 두고 제목을 좌하단에 배치한 디바이더. Source pages: 4, 10, 17, 27. Icon adaptation guide: ../prompts/guide.md.</desc>
+  <metadata data-guide-ref="../prompts/guide.md"/>
+  <rect width="1920" height="1080" fill="#011187"/>
+
+  <rect width="1920" height="1080" fill="#011187"/>
+  <text x="1760" y="390" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="400" font-weight="300" fill="#FFFFFF">02</text>
+  <text x="60" y="132" font-family="'Malgun Gothic', Arial, sans-serif" font-size="28" fill="#FFFFFF" opacity=".72">SAMPLE SECTION</text>
+  <text x="60" y="760" text-anchor="start" font-family="'Malgun Gothic', Arial, sans-serif" font-size="108" font-weight="500" fill="#FFFFFF"><tspan x="60" dy="0">MARKET</tspan><tspan x="60" dy="118">CONTEXT</tspan></text>
+  <text x="60" y="914" font-family="'Malgun Gothic', Arial, sans-serif" font-size="28" fill="#FFFFFF" opacity=".76">예시: 핵심 메시지를 한 문장으로 압축</text>
+  
+  <line x1="60" y1="1032" x2="1860" y2="1032" stroke="#FFFFFF" stroke-opacity=".42" stroke-width="2"/>
+  <text x="60" y="1058" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity=".72">ARK / PROJECT DOCUMENT SYSTEM</text>
+  <text x="1860" y="1058" text-anchor="end" font-family="'Malgun Gothic', Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity=".72">03</text>
+
+
+</svg>

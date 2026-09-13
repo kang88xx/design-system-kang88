@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아이콘 · 일러스트 소스</title>
+<style>
+  :root { --bg:#f4f3ef; --bg-elev:#fff; --bg-sunk:#ebe9e3; --ink:#17171a; --ink-2:#55555c; --ink-3:#8a8a92; --line:#dedcd5; --line-strong:#c9c7bf; --accent:#17171a; --accent-ink:#fff; --focus:#2f6bff; --tile:#fff; --tile-ink:#17171a;
+    --font:"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, "Noto Sans KR", sans-serif; --mono:"SF Mono", ui-monospace, Menlo, monospace; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121214; --bg-elev:#1b1b1f; --bg-sunk:#0d0d0f; --ink:#f2f2f4; --ink-2:#b5b5bd; --ink-3:#7c7c86; --line:#2a2a30; --line-strong:#3a3a42; --accent:#f2f2f4; --accent-ink:#121214; --tile:#1b1b1f; --tile-ink:#f2f2f4; } }
+  html { color-scheme: light dark; }
+  body[data-tile="dark"] { --tile:#141418; --tile-ink:#f2f2f4; } body[data-tile="light"] { --tile:#fff; --tile-ink:#17171a; }
+  * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.5 var(--font); -webkit-font-smoothing:antialiased; }
+  button { font:inherit; color:inherit; cursor:pointer; } :focus-visible { outline:2px solid var(--focus); outline-offset:2px; } [hidden] { display:none !important; }
+  .top { position:sticky; top:0; z-index:10; background:color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+  .top-in { max-width:1440px; margin:0 auto; padding:12px 24px; display:flex; flex-wrap:wrap; align-items:center; gap:10px; }
+  .title { font-weight:700; font-size:15px; letter-spacing:-.01em; display:flex; align-items:center; gap:8px; }
+  .title i { width:10px; height:10px; border-radius:3px; background:var(--set-accent, var(--ink)); display:inline-block; }
+  .title small { font-weight:500; color:var(--ink-3); }
+  .search { flex:1 1 220px; max-width:380px; display:flex; align-items:center; gap:8px; background:var(--bg-elev); border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+  .search input { border:0; background:transparent; flex:1; font:inherit; color:inherit; outline:0; min-width:0; }
+  .search svg { width:15px; height:15px; color:var(--ink-3); }
+  .tabs { display:flex; gap:6px; flex-wrap:wrap; }
+  .chip { border:1px solid var(--line); background:transparent; border-radius:999px; padding:5px 11px; font-size:12.5px; font-weight:500; color:var(--ink-2); }
+  .chip:hover { border-color:var(--line-strong); color:var(--ink); } .chip[aria-pressed="true"] { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  .chip b { font-weight:500; opacity:.6; margin-left:4px; font-variant-numeric:tabular-nums; }
+  .tools { margin-left:auto; display:flex; gap:6px; align-items:center; }
+  .tools button, .tools a { border:1px solid var(--line); background:var(--bg-elev); border-radius:8px; height:30px; padding:0 10px; font-size:12.5px; display:inline-flex; align-items:center; gap:6px; text-decoration:none; color:inherit; }
+  .tools button[aria-pressed="true"] { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  .tools input[type=range] { width:90px; accent-color:var(--ink); }
+  .desc { max-width:1440px; margin:0 auto; padding:18px 24px 0; color:var(--ink-2); display:flex; gap:14px; flex-wrap:wrap; align-items:baseline; }
+  .desc .n { color:var(--ink-3); font-size:12.5px; font-variant-numeric:tabular-nums; }
+  .desc code { font:12px var(--mono); color:var(--ink-3); }
+  .grid { max-width:1440px; margin:0 auto; padding:16px 24px 80px; display:grid; gap:8px; grid-template-columns:repeat(auto-fill, minmax(var(--tile-size, 112px), 1fr)); }
+  .tile { position:relative; background:var(--tile); border:1px solid var(--line); border-radius:10px; padding:10px 8px 8px; display:flex; flex-direction:column; align-items:center; gap:8px; text-align:center; transition:border-color .12s, transform .12s, box-shadow .12s; }
+  .tile:hover { border-color:var(--line-strong); transform:translateY(-1px); box-shadow:0 6px 16px -10px rgba(0,0,0,.35); }
+  .tile[aria-pressed="true"] { border-color:var(--set-accent, var(--ink)); box-shadow:0 0 0 2px color-mix(in srgb, var(--set-accent, var(--ink)) 30%, transparent); }
+  .tile .img { width:100%; aspect-ratio:1; display:grid; place-items:center; }
+  .tile img { max-width:72%; max-height:72%; object-fit:contain; }
+  .tile.big img { max-width:90%; max-height:90%; }
+  .tile span { font-size:11px; color:var(--ink-2); width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .tile em { position:absolute; top:6px; right:6px; font:10px var(--mono); font-style:normal; color:var(--ink-3); text-transform:uppercase; }
+  .empty { grid-column:1/-1; color:var(--ink-3); text-align:center; padding:60px 0; }
+  /* detail drawer */
+  .drawer { position:fixed; right:0; top:0; bottom:0; width:min(420px, 100%); background:var(--bg-elev); border-left:1px solid var(--line); box-shadow:-20px 0 60px -30px rgba(0,0,0,.4); transform:translateX(102%); transition:transform .22s cubic-bezier(.2,.7,.2,1); z-index:20; display:flex; flex-direction:column; }
+  .drawer.open { transform:none; }
+  .drawer-top { display:flex; align-items:center; gap:8px; padding:12px 14px; border-bottom:1px solid var(--line); }
+  .drawer-top h2 { font-size:14px; margin:0; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .x { border:1px solid var(--line); background:transparent; border-radius:8px; width:30px; height:30px; display:grid; place-items:center; } .x svg { width:14px; height:14px; }
+  .preview { margin:14px; background:var(--tile); border:1px solid var(--line); border-radius:12px; aspect-ratio:1; display:grid; place-items:center; background-image:linear-gradient(45deg, color-mix(in srgb, var(--ink) 5%, transparent) 25%, transparent 25%, transparent 75%, color-mix(in srgb, var(--ink) 5%, transparent) 75%), linear-gradient(45deg, color-mix(in srgb, var(--ink) 5%, transparent) 25%, transparent 25%, transparent 75%, color-mix(in srgb, var(--ink) 5%, transparent) 75%); background-size:20px 20px; background-position:0 0, 10px 10px; }
+  .preview img { max-width:60%; max-height:60%; object-fit:contain; }
+  .meta { padding:0 14px; display:grid; grid-template-columns:auto 1fr; gap:6px 14px; font-size:12.5px; color:var(--ink-2); } .meta b { color:var(--ink-3); font-weight:500; } .meta code { font:11.5px var(--mono); word-break:break-all; }
+  .actions { padding:14px; display:flex; gap:8px; flex-wrap:wrap; }
+  .actions button, .actions a { flex:1 1 120px; border:1px solid var(--line); background:var(--bg-elev); border-radius:9px; height:36px; font-size:13px; font-weight:500; display:inline-flex; align-items:center; justify-content:center; gap:6px; text-decoration:none; color:inherit; }
+  .actions .primary { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+  .code { margin:0 14px 14px; flex:1; min-height:0; overflow:auto; background:var(--bg-sunk); border-radius:9px; padding:10px 12px; font:11.5px/1.5 var(--mono); white-space:pre-wrap; word-break:break-all; color:var(--ink-2); }
+  .toast { position:fixed; left:50%; bottom:24px; transform:translate(-50%, 12px); background:var(--accent); color:var(--accent-ink); padding:8px 14px; border-radius:999px; font-size:13px; opacity:0; transition:opacity .2s, transform .2s; pointer-events:none; z-index:30; }
+  .toast.show { opacity:1; transform:translateX(-50%); }
+</style>
+</head>
+<body data-tile="light">
+<header class="top"><div class="top-in">
+  <div class="title"><i></i><span id="set-name">아이콘 소스</span><small id="set-count"></small></div>
+  <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="아이콘 이름 검색" aria-label="아이콘 검색"></label>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="tools">
+    <button id="tile-dark" aria-pressed="false" title="타일 배경 어둡게">다크 타일</button>
+    <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-3)">크기 <input type="range" id="size" min="72" max="200" value="112" aria-label="타일 크기"></label>
+    <a id="viewer-link" target="_blank" rel="noopener" hidden>원본 뷰어 ↗</a>
+  </div>
+</div></header>
+<div class="desc"><span id="set-desc"></span><span class="n" id="folders"></span></div>
+<main class="grid" id="grid"></main>
+
+<aside class="drawer" id="drawer" aria-label="아이콘 상세">
+  <div class="drawer-top"><h2 id="d-name"></h2><button class="x" id="d-close" aria-label="닫기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div class="preview"><img id="d-img" alt=""></div>
+  <div class="meta"><b>형식</b><span id="d-ext"></span><b>크기</b><span id="d-size"></span><b>경로</b><code id="d-path"></code></div>
+  <div class="actions">
+    <button class="primary" id="d-copy-svg">SVG 코드 복사</button>
+    <button id="d-copy-path">경로 복사</button>
+    <a id="d-download" download>다운로드</a>
+    <a id="d-open" target="_blank" rel="noopener">새 탭</a>
+  </div>
+  <pre class="code" id="d-code"></pre>
+</aside>
+<div class="toast" id="toast"></div>
+
+<script src="icons.js"></script>
+<script>
+(() => {
+  const SETS = window.ICON_SETS || [];
+  const $ = s => document.querySelector(s);
+  const grid = $("#grid"), tabs = $("#tabs"), q = $("#q"), drawer = $("#drawer"), toast = $("#toast");
+  const params = new URLSearchParams(location.search);
+  let setId = params.get("set") && SETS.some(s => s.id === params.get("set")) ? params.get("set") : (SETS[0] && SETS[0].id);
+  let query = "", selected = null;
+  const fmt = n => n > 1024 * 1024 ? (n / 1048576).toFixed(1) + " MB" : n > 1024 ? (n / 1024).toFixed(1) + " KB" : n + " B";
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const set = () => SETS.find(s => s.id === setId);
+
+  function renderTabs() {
+    tabs.innerHTML = SETS.map(s => `<button class="chip" role="tab" data-id="${s.id}" aria-pressed="${s.id === setId}">${esc(s.name)}<b>${s.count}</b></button>`).join("");
+  }
+  function renderSet() {
+    const s = set(); if (!s) return;
+    document.documentElement.style.setProperty("--set-accent", s.accent);
+    $("#set-name").textContent = s.name; $("#set-count").textContent = s.count + "개";
+    $("#set-desc").textContent = s.desc; $("#folders").innerHTML = s.folders.map(f => `<code>02_Source/${esc(f)}</code>`).join(" · ");
+    const v = $("#viewer-link"); v.hidden = !s.viewer; if (s.viewer) v.href = s.viewer;
+    document.title = s.name + " · 아이콘 소스";
+    history.replaceState(null, "", "?set=" + s.id);
+    renderGrid();
+  }
+  function renderGrid() {
+    const s = set(); const t = query.trim().toLowerCase();
+    const list = s.files.filter(f => !t || f.name.toLowerCase().includes(t));
+    const big = /graphics|brand/.test(s.id);
+    grid.innerHTML = list.length ? list.map((f, i) => `
+      <button class="tile${big ? " big" : ""}" data-i="${s.files.indexOf(f)}" title="${esc(f.name)}" aria-pressed="false">
+        <em>${f.ext}</em><div class="img"><img src="${f.path}" alt="" loading="lazy" decoding="async"></div><span>${esc(f.name)}</span>
+      </button>`).join("") : `<div class="empty">검색 결과가 없습니다.</div>`;
+  }
+  async function open(i) {
+    const s = set(), f = s.files[i]; selected = f;
+    grid.querySelectorAll(".tile").forEach(t => t.setAttribute("aria-pressed", +t.dataset.i === i));
+    $("#d-name").textContent = f.name + "." + f.ext; $("#d-img").src = f.path; $("#d-ext").textContent = f.ext.toUpperCase();
+    $("#d-size").textContent = fmt(f.size); $("#d-path").textContent = decodeURIComponent(f.path.replace(/^\.\.\//, "02_Source/"));
+    $("#d-download").href = f.path; $("#d-download").download = f.name + "." + f.ext; $("#d-open").href = f.path;
+    $("#d-copy-svg").hidden = f.ext !== "svg"; $("#d-code").hidden = f.ext !== "svg"; $("#d-code").textContent = "";
+    drawer.classList.add("open");
+    if (f.ext === "svg") { try { const r = await fetch(f.path); const code = await r.text(); if (selected === f) { $("#d-code").textContent = code; $("#d-code").dataset.code = code; } } catch (e) { $("#d-code").textContent = "코드를 불러오지 못했습니다."; } }
+  }
+  function say(m) { toast.textContent = m; toast.classList.add("show"); clearTimeout(say.t); say.t = setTimeout(() => toast.classList.remove("show"), 1400); }
+  async function copy(text, label) { try { await navigator.clipboard.writeText(text); say(label + " 복사됨"); } catch (e) { say("복사 실패: 브라우저 권한을 확인하세요"); } }
+
+  tabs.addEventListener("click", e => { const b = e.target.closest("[data-id]"); if (!b) return; setId = b.dataset.id; renderTabs(); renderSet(); drawer.classList.remove("open"); });
+  grid.addEventListener("click", e => { const t = e.target.closest(".tile"); if (t) open(+t.dataset.i); });
+  q.addEventListener("input", () => { query = q.value; renderGrid(); });
+  $("#d-close").addEventListener("click", () => { drawer.classList.remove("open"); grid.querySelectorAll(".tile").forEach(t => t.setAttribute("aria-pressed", "false")); });
+  $("#d-copy-svg").addEventListener("click", () => copy($("#d-code").dataset.code || "", "SVG 코드"));
+  $("#d-copy-path").addEventListener("click", () => copy($("#d-path").textContent, "경로"));
+  $("#tile-dark").addEventListener("click", e => { const on = e.currentTarget.getAttribute("aria-pressed") !== "true"; e.currentTarget.setAttribute("aria-pressed", on); document.body.dataset.tile = on ? "dark" : "light"; });
+  $("#size").addEventListener("input", e => document.documentElement.style.setProperty("--tile-size", e.target.value + "px"));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") $("#d-close").click(); if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); } });
+  renderTabs(); renderSet();
+})();
+</script>
+</body>
+</html>

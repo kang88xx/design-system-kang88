@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-13T04:12:09.298Z",
+  "url": "http://127.0.0.1:40565",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "exact 22-card motion inventory is present and ordered",
+      "status": "passed"
+    },
+    {
+      "name": "all extracted source assets referenced by motion demos exist",
+      "status": "passed"
+    },
+    {
+      "name": "source labels distinguish original, evidence, and inferred replacements",
+      "status": "passed"
+    },
+    {
+      "name": "Fun carousel uses extracted first-party emoji assets, not handcrafted SVG stand-ins",
+      "status": "passed"
+    },
+    {
+      "name": "core controls, dialog parity, and private-state stand-ins run without errors",
+      "status": "passed"
+    },
+    {
+      "name": "details present implementation notes and direct source downloads",
+      "status": "passed"
+    },
+    {
+      "name": "FAQ, drag reorder, and reduced motion stay accessible",
+      "status": "passed"
+    },
+    {
+      "name": "filter search and reveal cover all aliases including footer",
+      "status": "passed"
+    },
+    {
+      "name": "desktop and mobile motion UI screenshots are nonblank",
+      "status": "passed"
+    },
+    {
+      "name": "motion-owned page resources have no local failures or JS errors",
+      "status": "passed"
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "failedResponses": [],
+  "ignoredResponses": [],
+  "screenshots": [
+    "references/v3-review/motion-after-1440.png",
+    "references/v3-review/motion-after-fun-1440.png",
+    "references/v3-review/motion-after-390.png"
+  ]
+}

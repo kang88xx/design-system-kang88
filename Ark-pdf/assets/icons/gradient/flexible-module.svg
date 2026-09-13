@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="flexible-module-title flexible-module-desc" style="color:var(--ark-icon-color,#091955)">
+  <title id="flexible-module-title">Flexible module icon</title>
+  <desc id="flexible-module-desc">Newly constructed ARK Prefab gradient outline extension; not an original extracted asset.</desc>
+  <metadata>{"origin":"extension","sourcePages":[15],"family":"outline-utility","tone":"gradient","gradient":{"type":"linearGradient","x1":8,"y1":8,"x2":40,"y2":40,"stops":["#5C66D4","#2733A1","#051565"],"basis":"sampled from source/graphics PNG crops; approximate, not exact PDF gradient metadata"}}</metadata>
+  <defs>
+    <linearGradient id="arkIconGradientFlexibleModule" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="var(--ark-icon-gradient-light,#5C66D4)"/>
+      <stop offset="52%" stop-color="var(--ark-icon-gradient-mid,#2733A1)"/>
+      <stop offset="100%" stop-color="var(--ark-icon-gradient-dark,#051565)"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#arkIconGradientFlexibleModule)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 24h26v14H11z"/>
+    <path d="M20 24v14"/>
+    <path d="M28 24v14"/>
+    <path d="M12 18c3-5 7-8 12-8s9 3 12 8"/>
+    <path d="M15 15.5h.1"/>
+    <path d="M21 11h.1"/>
+    <path d="M27 11h.1"/>
+    <path d="M33 15.5h.1"/>
+  </g>
+</svg>

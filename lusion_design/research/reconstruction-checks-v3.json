@@ -1,0 +1,404 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:4187/reconstruction.html",
+  "files": [
+    "reconstruction.html",
+    "reconstruction.css",
+    "reconstruction.js",
+    "media/reconstruction-v3.md",
+    "scripts/decode-buf.cjs",
+    "sources/decoded/manifest.json",
+    "research/buf-analysis-v3.json",
+    "source-explorer.html"
+  ],
+  "bufRows": [
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/person.buf",
+      "bytes": 86170,
+      "headerBytes": 944,
+      "vertexCount": 2666,
+      "indexCount": 11952,
+      "attributes": [
+        "uv",
+        "boneWeights",
+        "indices",
+        "position",
+        "boneIndices",
+        "normal"
+      ]
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/about/person_idle.buf",
+      "bytes": 101372,
+      "headerBytes": 388,
+      "vertexCount": 4590,
+      "indexCount": 0,
+      "attributes": [
+        "orient",
+        "position"
+      ]
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/playground/tunnel.buf",
+      "bytes": 900,
+      "headerBytes": 320,
+      "vertexCount": 64,
+      "indexCount": 192,
+      "attributes": [
+        "position",
+        "indices"
+      ]
+    },
+    {
+      "file": "sources/assets/lusion.dev/assets/models/home/cross.buf",
+      "bytes": 282676,
+      "headerBytes": 1116,
+      "vertexCount": 4940,
+      "indexCount": 29628,
+      "attributes": [
+        "daoN",
+        "normal",
+        "SN",
+        "ao",
+        "daoP",
+        "indices",
+        "position",
+        "thickness"
+      ]
+    }
+  ],
+  "bufSummary": {
+    "total": 55,
+    "statuses": {
+      "mesh-decoded": 34,
+      "points-animation-decoded": 10,
+      "points-decoded": 11
+    }
+  },
+  "checks": [
+    {
+      "name": "desktop: title",
+      "passed": true
+    },
+    {
+      "name": "desktop: 6 demos",
+      "passed": true
+    },
+    {
+      "name": "desktop: buf table",
+      "passed": true
+    },
+    {
+      "name": "desktop: decoded model options",
+      "passed": true
+    },
+    {
+      "name": "desktop: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href index.html",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href source-explorer.html",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href motion-lab.html",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md#01-fluid-like-pointer-trail",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href reconstruction.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/assets/lusion.dev/assets/textures/tunnels/astronaut/face.png",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md#02-face--astronaut-particle-morph",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md#03-glass-shatter-polygons",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href reconstruction.css",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href research/coverage-v2.md",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md#04-secondorderdynamics-follower",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href reconstruction.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md#05-loader--transition-wipe",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href scripts/verify-reconstruction.cjs",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/decoded/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href research/buf-analysis-v3.json",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href scripts/decode-buf.cjs",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href research/coverage-v2.md",
+      "passed": true
+    },
+    {
+      "name": "desktop: local href media/reconstruction-v3.md",
+      "passed": true
+    },
+    {
+      "name": "desktop: fluid burst creates strokes",
+      "passed": true
+    },
+    {
+      "name": "desktop: fluid clear result",
+      "passed": true
+    },
+    {
+      "name": "desktop: morph toggle target",
+      "passed": true
+    },
+    {
+      "name": "desktop: shatter fragments",
+      "passed": true
+    },
+    {
+      "name": "desktop: spring preset",
+      "passed": true
+    },
+    {
+      "name": "desktop: decoded model fetch",
+      "passed": true
+    },
+    {
+      "name": "desktop: loader completes",
+      "passed": true
+    },
+    {
+      "name": "desktop: pause stability",
+      "passed": true
+    },
+    {
+      "name": "desktop: media reduced-motion reflected",
+      "passed": true
+    },
+    {
+      "name": "desktop: reduced motion status",
+      "passed": true
+    },
+    {
+      "name": "mobile: title",
+      "passed": true
+    },
+    {
+      "name": "mobile: 6 demos",
+      "passed": true
+    },
+    {
+      "name": "mobile: buf table",
+      "passed": true
+    },
+    {
+      "name": "mobile: decoded model options",
+      "passed": true
+    },
+    {
+      "name": "mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href index.html",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href source-explorer.html",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href motion-lab.html",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md#01-fluid-like-pointer-trail",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href reconstruction.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/assets/lusion.dev/assets/textures/tunnels/astronaut/face.png",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md#02-face--astronaut-particle-morph",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md#03-glass-shatter-polygons",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href reconstruction.css",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href research/coverage-v2.md",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md#04-secondorderdynamics-follower",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href reconstruction.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md#05-loader--transition-wipe",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href scripts/verify-reconstruction.cjs",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/decoded/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href research/buf-analysis-v3.json",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href scripts/decode-buf.cjs",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href sources/site.js",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href research/coverage-v2.md",
+      "passed": true
+    },
+    {
+      "name": "mobile: local href media/reconstruction-v3.md",
+      "passed": true
+    },
+    {
+      "name": "mobile: fluid burst creates strokes",
+      "passed": true
+    },
+    {
+      "name": "mobile: fluid clear result",
+      "passed": true
+    },
+    {
+      "name": "mobile: morph toggle target",
+      "passed": true
+    },
+    {
+      "name": "mobile: shatter fragments",
+      "passed": true
+    },
+    {
+      "name": "mobile: spring preset",
+      "passed": true
+    },
+    {
+      "name": "mobile: decoded model fetch",
+      "passed": true
+    },
+    {
+      "name": "mobile: loader completes",
+      "passed": true
+    },
+    {
+      "name": "mobile: pause stability",
+      "passed": true
+    },
+    {
+      "name": "mobile: media reduced-motion reflected",
+      "passed": true
+    },
+    {
+      "name": "mobile: reduced motion status",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "screenshots/reconstruction-desktop.png",
+    "screenshots/reconstruction-mobile.png"
+  ]
+}

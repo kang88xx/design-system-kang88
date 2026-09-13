@@ -1,0 +1,213 @@
+{
+  "note": "Public capture failures are preserved in the original manifests. This file maps unavailable or blocked states to local reconstructed substitutes only; it does not claim recovered Apple private source, internal components, server responses, credentials, or authored design tokens.",
+  "entries": [
+    {
+      "id": "substitute-mac-compare-disclosure",
+      "title": "Mac global navigation menu substitute",
+      "reason": "A captured global navigation menu button on the Mac page timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/mac/",
+      "sourceStateId": "01-www-apple-com-mac-state-1",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local menu open and close behavior uses observed menu labels and existing design tokens, not Apple internal navigation source."
+    },
+    {
+      "id": "substitute-airpods-feature-1",
+      "title": "AirPods Heart Rate Sensing substitute",
+      "reason": "AirPods expansion control 65 timed out during capture.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/airpods/",
+      "sourceStateId": "05-www-apple-com-airpods-state-1",
+      "component": "Reconstruction/ProductGallery",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Uses named local Heart Rate Sensing disclosure content and no sensor, account, or media controller."
+    },
+    {
+      "id": "substitute-airpods-feature-2",
+      "title": "AirPods Live Translation substitute",
+      "reason": "AirPods expansion control 68 timed out during capture.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/airpods/",
+      "sourceStateId": "05-www-apple-com-airpods-state-2",
+      "component": "Reconstruction/Accordion",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Expandable local Live Translation content replaces unavailable authored panel structure and no translation service runs."
+    },
+    {
+      "id": "substitute-airpods-feature-3",
+      "title": "AirPods Active Noise Cancellation substitute",
+      "reason": "AirPods expansion control 71 timed out during capture.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/airpods/",
+      "sourceStateId": "05-www-apple-com-airpods-state-3",
+      "component": "Reconstruction/Accordion",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "The flow preserves disclosure behavior for Active Noise Cancellation but not private animation or audio internals."
+    },
+    {
+      "id": "substitute-tv-home-service-card-1",
+      "title": "TV & Home global navigation menu substitute 1",
+      "reason": "A captured global navigation menu button around TV & Home timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/tv-home/",
+      "sourceStateId": "07-www-apple-com-tv-home-state-2",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local menu links replace the blocked menu interaction and do not include private navigation source."
+    },
+    {
+      "id": "substitute-tv-home-service-card-2",
+      "title": "TV & Home global navigation menu substitute 2",
+      "reason": "A captured global navigation menu button around TV & Home timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/tv-home/",
+      "sourceStateId": "07-www-apple-com-tv-home-state-3",
+      "component": "Reconstruction/Accordion",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Does not include private menu source, service asset delivery, or account-specific recommendations."
+    },
+    {
+      "id": "substitute-macbook-air-disclosure",
+      "title": "MacBook Air Answer calls and texts substitute",
+      "reason": "The MacBook Air continuity tab for Answer calls and texts timed out during capture.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/macbook-air/",
+      "sourceStateId": "11-www-apple-com-macbook-air-state-3",
+      "component": "Reconstruction/ProductGallery",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Continuity content is local static copy and does not connect to phone, account, or notification services."
+    },
+    {
+      "id": "substitute-iphone-pro-disclosure",
+      "title": "iPhone global navigation menu substitute",
+      "reason": "A captured global navigation menu button around iPhone timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/iphone-17-pro/",
+      "sourceStateId": "12-www-apple-com-iphone-17-pro-state-1",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Uses local menu open and close behavior and no private navigation implementation."
+    },
+    {
+      "id": "substitute-iphone-chip-highlight",
+      "title": "iPhone chip highlight substitute",
+      "reason": "Chip highlight media-card tab was resolved but click timed out.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/iphone-17-pro/",
+      "sourceStateId": "iphone-pro-highlight-chip",
+      "component": "Reconstruction/DetailsDialog",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Native dialog and static feature list replace unavailable media-card animation."
+    },
+    {
+      "id": "substitute-iphone-silver-color",
+      "title": "iPhone silver color substitute",
+      "reason": "Silver color nav required a colors control that timed out before click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://www.apple.com/iphone-17-pro/",
+      "sourceStateId": "iphone-pro-silver",
+      "component": "Reconstruction/ProductGallery",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local swatch and device surface replace private color-tour state."
+    },
+    {
+      "id": "substitute-support-topic-0",
+      "title": "Store global navigation menu substitute",
+      "reason": "A captured Store global navigation menu button on the Support capture path timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://support.apple.com/",
+      "sourceStateId": "13-support-apple-com-state-0",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local Store menu links include no account, order, identity, token, session, or credential fields."
+    },
+    {
+      "id": "substitute-support-topic-1",
+      "title": "Mac global navigation menu substitute from Support capture",
+      "reason": "A captured Mac global navigation menu button on the Support capture path timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://support.apple.com/",
+      "sourceStateId": "13-support-apple-com-state-1",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local Mac menu links replace the blocked menu interaction and remain offline."
+    },
+    {
+      "id": "substitute-support-topic-2",
+      "title": "iPad global navigation menu substitute from Support capture",
+      "reason": "A captured iPad global navigation menu button on the Support capture path timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://support.apple.com/",
+      "sourceStateId": "13-support-apple-com-state-2",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local iPad menu links replace the blocked menu interaction and do not call account or service APIs."
+    },
+    {
+      "id": "substitute-support-topic-3",
+      "title": "iPhone global navigation menu substitute from Support capture",
+      "reason": "A captured iPhone global navigation menu button on the Support capture path timed out during click.",
+      "provenance": "reconstructed",
+      "sourceUrl": "https://support.apple.com/",
+      "sourceStateId": "13-support-apple-com-state-3",
+      "component": "Reconstruction/MenuSubstitute",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "medium",
+      "limitations": "Local iPhone menu links replace the blocked menu interaction and no support/account server state is recovered."
+    },
+    {
+      "id": "substitute-private-authoring-tokens",
+      "title": "Private authoring token substitute",
+      "reason": "Internal design token source and authored token pipeline are not publicly available.",
+      "provenance": "reconstructed",
+      "component": "Reconstruction/Accordion",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "low",
+      "limitations": "Uses observed public CSS values and local names only."
+    },
+    {
+      "id": "substitute-private-components",
+      "title": "Private component source substitute",
+      "reason": "Apple internal React/Web component implementation cannot be inspected from public capture.",
+      "provenance": "reconstructed",
+      "component": "Reconstruction",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "low",
+      "limitations": "Behavior is implemented as local React components following observed interaction shape."
+    },
+    {
+      "id": "substitute-server-responses",
+      "title": "Server response substitute",
+      "reason": "Search, bag, product, and support server responses are private or session dependent.",
+      "provenance": "reconstructed",
+      "component": "Reconstruction/BagPanel",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "low",
+      "limitations": "All data is static local sample data with no network mutation."
+    },
+    {
+      "id": "substitute-auth-states",
+      "title": "Authentication state substitute",
+      "reason": "Real Apple Account authentication and credential flows are unavailable and should not be emulated with real fields.",
+      "provenance": "reconstructed",
+      "component": "Reconstruction/AccountDemo",
+      "file": "/apple_design/app/dist/client/source-local/src/reconstruction/Reconstruction.jsx",
+      "confidence": "low",
+      "limitations": "Demo state toggle contains no username, password, token, payment, or identity input."
+    }
+  ]
+}

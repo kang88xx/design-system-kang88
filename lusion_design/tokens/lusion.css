@@ -1,0 +1,198 @@
+/*
+  Lusion public design tokens.
+  Source: sources/site.css and sources/site.js collected from https://lusion.co/
+  Labels:
+  - extracted: browser-delivered values copied from the public CSS/JS bundle.
+  - recommended: system aliases derived from repeated extracted usage.
+*/
+
+@font-face {
+  font-family: "Aeonik";
+  src:
+    url("../sources/assets/lusion.co/assets/fonts/Aeonik-Regular.woff2") format("woff2"),
+    url("../sources/assets/lusion.co/assets/fonts/Aeonik-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src:
+    url("../sources/assets/lusion.co/assets/fonts/Aeonik-Medium.woff2") format("woff2"),
+    url("../sources/assets/lusion.co/assets/fonts/Aeonik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src:
+    url("../sources/assets/lusion.co/assets/fonts/Aeonik-RegularItalic.woff2") format("woff2"),
+    url("../sources/assets/lusion.co/assets/fonts/Aeonik-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src:
+    url("../sources/assets/lusion.co/assets/fonts/IBMPlexMono-Regular.woff2") format("woff2"),
+    url("../sources/assets/lusion.co/assets/fonts/IBMPlexMono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src:
+    url("../sources/assets/lusion.co/assets/fonts/IBMPlexMono-Medium.woff2") format("woff2"),
+    url("../sources/assets/lusion.co/assets/fonts/IBMPlexMono-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "LusionMono";
+  src:
+    url("../sources/assets/lusion.co/assets/fonts/LusionMono.woff2") format("woff2"),
+    url("../sources/assets/lusion.co/assets/fonts/LusionMono.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  /* extracted: raw public CSS custom properties */
+  --color-error: #e90000;
+  --color-off-white: #f0f1fa;
+  --color-white: #fff;
+  --color-dark-white: #e4e6ef;
+  --color-off-white-semi: rgba(240, 241, 250, .7);
+  --color-black: #000000;
+  --color-green: #c1ff00;
+  --color-blue: #1a2ffb;
+  --color-red: #ff4c41;
+  --color-grey-blue: #2b2e3a;
+  --color-dark-blue: #071bdf;
+  --color-purple: #8832f7;
+  --color-project-details-logo-color: #f0f;
+  --grid-space: calc((100% - 11 * var(--grid-gap)) / 12);
+  --grid-gap: 2vw;
+  --global-border-radius: 20px;
+  --base-padding-x: max(5vw, 40px);
+  --base-padding-y: clamp(30px, 4vw, 50px);
+  --header-color: #0016ec;
+  --header-text-color: #000000;
+  --project-details-bg: #000;
+  --project-details-highlight: #000;
+  --project-details-btn-bg: #000;
+  --project-details-btn-text: #000;
+  --project-details-icon-bg: #000;
+  --project-details-icon-color: #000;
+  --project-details-text: #000;
+  --project-details-btn-bg-hover: #000;
+  --project-details-btn-text-hover: #fff;
+  --header-size: clamp(1rem, 1vw, 2rem);
+  --cross-size: clamp(.875rem, 1vw, 2rem);
+
+  /* recommended: stable aliases for a local design system */
+  --lusion-font-sans: "Aeonik", system-ui, sans-serif;
+  --lusion-font-mono: "IBMPlexMono", ui-monospace, monospace;
+  --lusion-font-symbol: "LusionMono", "IBMPlexMono", ui-monospace, monospace;
+  --lusion-type-xs: .75em;
+  --lusion-type-base: clamp(1rem, 1.5vw, 2rem);
+  --lusion-type-lg: 1.75em;
+  --lusion-type-display: clamp(7em, 8vw, 20em);
+  --lusion-leading-tight: 1;
+  --lusion-leading-copy: 1.4;
+  --lusion-leading-ui: 1.2;
+  --lusion-weight-regular: 400;
+  --lusion-weight-medium: 500;
+  --lusion-grid-columns: 12;
+  --lusion-grid-columns-mobile: 6;
+  --lusion-radius-card: .625em;
+  --lusion-radius-pill: 6.25em;
+  --lusion-radius-circle: 100%;
+  --lusion-ease-standard: cubic-bezier(.4, 0, .1, 1);
+  --lusion-ease-smooth: cubic-bezier(.35, 0, 0, 1);
+  --lusion-ease-marquee: cubic-bezier(.1, 0, .1, 1);
+  --lusion-duration-fast: .2s;
+  --lusion-duration-ui: .3s;
+  --lusion-duration-medium: .4s;
+  --lusion-duration-menu: .5s;
+  --lusion-duration-line: .6s;
+  --lusion-duration-loop: 3s;
+}
+
+@media (max-width: 812px) {
+  :root {
+    --grid-gap: 4vw;
+    --global-border-radius: 10px;
+    --base-padding-x: 25px;
+    --base-padding-y: 25px;
+    --lusion-type-base: .875em;
+    --lusion-type-lg: 1.5em;
+    --lusion-type-display: 13vw;
+  }
+}
+
+@media (min-aspect-ratio: 21/9) {
+  :root {
+    --base-padding-x: max(6vw, 60px);
+  }
+
+  html,
+  body {
+    font-size: .6em;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --base-padding-x: 15px;
+    --base-padding-y: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  :root {
+    --header-size: clamp(.75rem, 1vw, 2rem);
+  }
+}
+
+.lusion-type-xs {
+  font-size: var(--lusion-type-xs);
+}
+
+.lusion-type-base {
+  font-size: var(--lusion-type-base);
+}
+
+.lusion-type-lg {
+  font-size: var(--lusion-type-lg);
+}
+
+.lusion-type-display {
+  font-size: var(--lusion-type-display);
+  line-height: var(--lusion-leading-tight);
+}
+
+.lusion-section-grid {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(var(--lusion-grid-columns), minmax(0, 1fr));
+  column-gap: var(--grid-gap);
+  padding: var(--base-padding-y) var(--base-padding-x);
+}
+
+@media (max-width: 812px) {
+  .lusion-section-grid {
+    grid-template-columns: repeat(var(--lusion-grid-columns-mobile), minmax(0, 1fr));
+  }
+}

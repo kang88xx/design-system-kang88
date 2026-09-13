@@ -1,0 +1,6 @@
+<svg class="accordion-icon-svg" viewBox="0 0 17 8.85" xmlns="http://www.w3.org/2000/svg">
+	<polyline data-accordion-icon-shape="" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+		<animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;&#10;&#9;&#9;&#9;&#9;&#9;15.85 4.42 8.5 4.42 1.15 4.42;&#10;&#9;&#9;&#9;&#9;&#9;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;&#10;&#9;&#9;&#9;&#9;&#9;0.5;&#10;&#9;&#9;&#9;&#9;&#9;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;&#10;&#9;&#9;&#9;&#9;&#9;&#9;0.2, 1, 0.68, 1"/>
+		<animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;&#10;&#9;&#9;&#9;&#9;&#9;15.85 4.42 8.5 4.42 1.15 4.42;&#10;&#9;&#9;&#9;&#9;&#9;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;&#10;&#9;&#9;&#9;&#9;&#9;0.5;&#10;&#9;&#9;&#9;&#9;&#9;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;&#10;&#9;&#9;&#9;&#9;&#9;&#9;0.2, 1, 0.68, 1"/>
+	</polyline>
+</svg>

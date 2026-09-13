@@ -1,0 +1,1519 @@
+{
+  "generatedAt": "2026-09-06T17:01:35.328Z",
+  "resources": [
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.046Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.055Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.056Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.057Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.057Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.058Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.058Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.059Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.347Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.348Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.348Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.348Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.348Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.349Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.349Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.349Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.586Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.587Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.840Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.840Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.840Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.840Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.841Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.841Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.841Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:44.841Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.122Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.123Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.355Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.355Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.645Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.966Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.966Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.966Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.967Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.967Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.967Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.967Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:45.967Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.246Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.247Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.889Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.890Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.890Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.890Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.890Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.890Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.891Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:46.891Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.125Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.125Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.125Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.125Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.125Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.125Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.126Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.126Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.353Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.353Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.353Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.353Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.354Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.605Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.605Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.605Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.605Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.605Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.605Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.606Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.606Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.864Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_thin.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_thin.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_thin.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:47.865Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_medium.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.100Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_medium.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.100Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_medium.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.100Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.100Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.100Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.100Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_bold.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.101Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_bold.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.101Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_bold.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.366Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_heavy.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_heavy.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_heavy.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_black.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_black.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_black.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-a822f5392a3b07df.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/appletvplus/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.367Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/appletvplus/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.684Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/asa/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/asa/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/bag/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/bag/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/call/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/call/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/engraving/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:48.685Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/engraving/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.224Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/financing/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.224Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/financing/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.224Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/giftwrap/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.225Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/giftwrap/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.225Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/help/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.225Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/help/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.225Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/homekit/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.225Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/homekit/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.664Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/learning/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/learning/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/personal_setup/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/personal_setup/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/retail/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/retail/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/shipping/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:49.665Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/shipping/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/thirdparty_retail/icon_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-footer/v1/en_US/assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-api-www-global-elements-global-footer-v1-en-us-styles-ac-g-731c003a8950bebe.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Apple-Monochrome-Emoji/v3/apple-monochrome-emoji_regular.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Apple-Monochrome-Emoji/v3/apple-monochrome-emoji_regular.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Apple-Monochrome-Emoji/v3/apple-monochrome-emoji_regular.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Apple-Monochrome-Emoji-Ind/v2/SFIndicesAMEmoji_regular.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Apple-Monochrome-Emoji-Ind/v2/SFIndicesAMEmoji_regular.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:50.776Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Apple-Monochrome-Emoji-Ind/v2/SFIndicesAMEmoji_regular.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.060Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Graphik/v1/Graphik-Light.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.060Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Graphik/v1/Graphik-Light.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.060Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Graphik/v1/Graphik-Light.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.060Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Graphik/v1/Graphik-Regular.woff2",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.060Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Graphik/v1/Graphik-Regular.woff",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.061Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/Graphik/v1/Graphik-Regular.ttf",
+      "via": "/apple_design/app/dist/client/research/files/www-apple-com-wss-fonts-fc8bdfe18d487c33.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.061Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    },
+    {
+      "url": "https://km.support.apple.com/etc/designs/support/publish/Base-sk7/assets/patterns/ac-colornav/productred.svg",
+      "via": "/apple_design/app/dist/client/research/files/km-support-apple-com-etc-designs-support-publish-base-sk7-min-css-2ae181cc3ae7221a.css",
+      "status": "unavailable",
+      "checkedAt": "2026-09-06T14:09:51.061Z",
+      "retried": false,
+      "reason": "Error: HTTP 404",
+      "cachedFrom": "2026-09-06T16:42:49.474Z"
+    }
+  ],
+  "unresolvedDynamicImports": 0,
+  "parseErrors": []
+}

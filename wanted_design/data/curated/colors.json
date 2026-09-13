@@ -1,0 +1,4224 @@
+{
+  "source": "https://montage.wanted.co.kr/docs/foundations/base-material/colors/semantic",
+  "collectedAt": "2026-09-01T03:22:38.257Z",
+  "counts": {
+    "total": 468,
+    "atomic": 332,
+    "semantic": 136,
+    "themeAware": 113
+  },
+  "tokens": [
+    {
+      "name": "--atomic-blue-10",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#001536",
+      "dark": "#001536",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-10-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "0, 21, 54",
+      "dark": "0, 21, 54",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-20",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#002966",
+      "dark": "#002966",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-20-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "0, 41, 102",
+      "dark": "0, 41, 102",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-30",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#003e9c",
+      "dark": "#003e9c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-30-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "0, 62, 156",
+      "dark": "0, 62, 156",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-40",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#0054d1",
+      "dark": "#0054d1",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-40-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "0, 84, 209",
+      "dark": "0, 84, 209",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-45",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#005eeb",
+      "dark": "#005eeb",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-45-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "0, 94, 235",
+      "dark": "0, 94, 235",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-50",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#06f",
+      "dark": "#06f",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-50-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "0, 102, 255",
+      "dark": "0, 102, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-55",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#1a75ff",
+      "dark": "#1a75ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-55-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "26, 117, 255",
+      "dark": "26, 117, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-60",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#3385ff",
+      "dark": "#3385ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-60-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "51, 133, 255",
+      "dark": "51, 133, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-65",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#4f95ff",
+      "dark": "#4f95ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-65-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "79, 149, 255",
+      "dark": "79, 149, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-70",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#69a5ff",
+      "dark": "#69a5ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-70-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "105, 165, 255",
+      "dark": "105, 165, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-80",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#9ec5ff",
+      "dark": "#9ec5ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-80-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "158, 197, 255",
+      "dark": "158, 197, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-90",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#c9defe",
+      "dark": "#c9defe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-90-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "201, 222, 254",
+      "dark": "201, 222, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-95",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#eaf2fe",
+      "dark": "#eaf2fe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-95-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "234, 242, 254",
+      "dark": "234, 242, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-99",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": false,
+      "light": "#f7fbff",
+      "dark": "#f7fbff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-blue-99-rgb",
+      "kind": "atomic",
+      "group": "blue",
+      "isRgbCompanion": true,
+      "light": "247, 251, 255",
+      "dark": "247, 251, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-common-0",
+      "kind": "atomic",
+      "group": "common",
+      "isRgbCompanion": false,
+      "light": "#000",
+      "dark": "#000",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-common-0-rgb",
+      "kind": "atomic",
+      "group": "common",
+      "isRgbCompanion": true,
+      "light": "0, 0, 0",
+      "dark": "0, 0, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-common-100",
+      "kind": "atomic",
+      "group": "common",
+      "isRgbCompanion": false,
+      "light": "#fff",
+      "dark": "#fff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-common-100-rgb",
+      "kind": "atomic",
+      "group": "common",
+      "isRgbCompanion": true,
+      "light": "255, 255, 255",
+      "dark": "255, 255, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-10",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#171719",
+      "dark": "#171719",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-10-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "23, 23, 25",
+      "dark": "23, 23, 25",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-15",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#1b1c1e",
+      "dark": "#1b1c1e",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-15-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "27, 28, 30",
+      "dark": "27, 28, 30",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-17",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#212225",
+      "dark": "#212225",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-17-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "33, 34, 37",
+      "dark": "33, 34, 37",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-20",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#292a2d",
+      "dark": "#292a2d",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-20-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "41, 42, 45",
+      "dark": "41, 42, 45",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-22",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#2e2f33",
+      "dark": "#2e2f33",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-22-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "46, 47, 51",
+      "dark": "46, 47, 51",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-23",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#333438",
+      "dark": "#333438",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-23-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "51, 52, 56",
+      "dark": "51, 52, 56",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-25",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#37383c",
+      "dark": "#37383c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-25-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "55, 56, 60",
+      "dark": "55, 56, 60",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-30",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#46474c",
+      "dark": "#46474c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-30-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "70, 71, 76",
+      "dark": "70, 71, 76",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-40",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#5a5c63",
+      "dark": "#5a5c63",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-40-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "90, 92, 99",
+      "dark": "90, 92, 99",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-5",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#0f0f10",
+      "dark": "#0f0f10",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-5-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "15, 15, 16",
+      "dark": "15, 15, 16",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-50",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#70737c",
+      "dark": "#70737c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-50-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-60",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#878a93",
+      "dark": "#878a93",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-60-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "135, 138, 147",
+      "dark": "135, 138, 147",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-7",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#141415",
+      "dark": "#141415",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-7-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "20, 20, 21",
+      "dark": "20, 20, 21",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-70",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#989ba2",
+      "dark": "#989ba2",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-70-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "152, 155, 162",
+      "dark": "152, 155, 162",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-80",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#aeb0b6",
+      "dark": "#aeb0b6",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-80-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "174, 176, 182",
+      "dark": "174, 176, 182",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-90",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#c2c4c8",
+      "dark": "#c2c4c8",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-90-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "194, 196, 200",
+      "dark": "194, 196, 200",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-95",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#dbdcdf",
+      "dark": "#dbdcdf",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-95-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "219, 220, 223",
+      "dark": "219, 220, 223",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-96",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#e1e2e4",
+      "dark": "#e1e2e4",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-96-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "225, 226, 228",
+      "dark": "225, 226, 228",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-97",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#eaebec",
+      "dark": "#eaebec",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-97-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "234, 235, 236",
+      "dark": "234, 235, 236",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-98",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#f4f4f5",
+      "dark": "#f4f4f5",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-98-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "244, 244, 245",
+      "dark": "244, 244, 245",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-99",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": false,
+      "light": "#f7f7f8",
+      "dark": "#f7f7f8",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-coolNeutral-99-rgb",
+      "kind": "atomic",
+      "group": "coolNeutral",
+      "isRgbCompanion": true,
+      "light": "247, 247, 248",
+      "dark": "247, 247, 248",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-10",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#00252b",
+      "dark": "#00252b",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-10-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "0, 37, 43",
+      "dark": "0, 37, 43",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-20",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#004854",
+      "dark": "#004854",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-20-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "0, 72, 84",
+      "dark": "0, 72, 84",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-30",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#006f82",
+      "dark": "#006f82",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-30-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "0, 111, 130",
+      "dark": "0, 111, 130",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-40",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#0098b2",
+      "dark": "#0098b2",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-40-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "0, 152, 178",
+      "dark": "0, 152, 178",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-50",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#00bdde",
+      "dark": "#00bdde",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-50-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "0, 189, 222",
+      "dark": "0, 189, 222",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-60",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#28d0ed",
+      "dark": "#28d0ed",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-60-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "40, 208, 237",
+      "dark": "40, 208, 237",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-70",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#57dff7",
+      "dark": "#57dff7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-70-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "87, 223, 247",
+      "dark": "87, 223, 247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-80",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#8aedff",
+      "dark": "#8aedff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-80-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "138, 237, 255",
+      "dark": "138, 237, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-90",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#b5f4ff",
+      "dark": "#b5f4ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-90-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "181, 244, 255",
+      "dark": "181, 244, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-95",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#defaff",
+      "dark": "#defaff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-95-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "222, 250, 255",
+      "dark": "222, 250, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-99",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": false,
+      "light": "#f7feff",
+      "dark": "#f7feff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-cyan-99-rgb",
+      "kind": "atomic",
+      "group": "cyan",
+      "isRgbCompanion": true,
+      "light": "247, 254, 255",
+      "dark": "247, 254, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-10",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#00240c",
+      "dark": "#00240c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-10-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "0, 36, 12",
+      "dark": "0, 36, 12",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-20",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#004517",
+      "dark": "#004517",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-20-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "0, 69, 23",
+      "dark": "0, 69, 23",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-30",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#006e25",
+      "dark": "#006e25",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-30-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "0, 110, 37",
+      "dark": "0, 110, 37",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-40",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#009632",
+      "dark": "#009632",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-40-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "0, 150, 50",
+      "dark": "0, 150, 50",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-50",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#00bf40",
+      "dark": "#00bf40",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-50-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "0, 191, 64",
+      "dark": "0, 191, 64",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-60",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#1ed45a",
+      "dark": "#1ed45a",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-60-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "30, 212, 90",
+      "dark": "30, 212, 90",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-70",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#49e57d",
+      "dark": "#49e57d",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-70-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "73, 229, 125",
+      "dark": "73, 229, 125",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-80",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#7df5a5",
+      "dark": "#7df5a5",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-80-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "125, 245, 165",
+      "dark": "125, 245, 165",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-90",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#acfcc7",
+      "dark": "#acfcc7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-90-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "172, 252, 199",
+      "dark": "172, 252, 199",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-95",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#d9ffe6",
+      "dark": "#d9ffe6",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-95-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "217, 255, 230",
+      "dark": "217, 255, 230",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-99",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": false,
+      "light": "#f2fff6",
+      "dark": "#f2fff6",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-green-99-rgb",
+      "kind": "atomic",
+      "group": "green",
+      "isRgbCompanion": true,
+      "light": "242, 255, 246",
+      "dark": "242, 255, 246",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-10",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#002130",
+      "dark": "#002130",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-10-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "0, 33, 48",
+      "dark": "0, 33, 48",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-20",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#004261",
+      "dark": "#004261",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-20-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "0, 66, 97",
+      "dark": "0, 66, 97",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-30",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#006796",
+      "dark": "#006796",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-30-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "0, 103, 150",
+      "dark": "0, 103, 150",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-40",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#008dcf",
+      "dark": "#008dcf",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-40-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "0, 141, 207",
+      "dark": "0, 141, 207",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-50",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#00aeff",
+      "dark": "#00aeff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-50-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "0, 174, 255",
+      "dark": "0, 174, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-60",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#3dc2ff",
+      "dark": "#3dc2ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-60-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "61, 194, 255",
+      "dark": "61, 194, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-70",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#70d2ff",
+      "dark": "#70d2ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-70-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "112, 210, 255",
+      "dark": "112, 210, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-80",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#a1e1ff",
+      "dark": "#a1e1ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-80-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "161, 225, 255",
+      "dark": "161, 225, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-90",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#c4ecfe",
+      "dark": "#c4ecfe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-90-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "196, 236, 254",
+      "dark": "196, 236, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-95",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#e5f6fe",
+      "dark": "#e5f6fe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-95-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "229, 246, 254",
+      "dark": "229, 246, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-99",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": false,
+      "light": "#f7fdff",
+      "dark": "#f7fdff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lightBlue-99-rgb",
+      "kind": "atomic",
+      "group": "lightBlue",
+      "isRgbCompanion": true,
+      "light": "247, 253, 255",
+      "dark": "247, 253, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-10",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#112900",
+      "dark": "#112900",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-10-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "17, 41, 0",
+      "dark": "17, 41, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-20",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#225200",
+      "dark": "#225200",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-20-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "34, 82, 0",
+      "dark": "34, 82, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-30",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#347d00",
+      "dark": "#347d00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-30-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "52, 125, 0",
+      "dark": "52, 125, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-37",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#429e00",
+      "dark": "#429e00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-37-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "66, 158, 0",
+      "dark": "66, 158, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-40",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#48ad00",
+      "dark": "#48ad00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-40-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "72, 173, 0",
+      "dark": "72, 173, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-50",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#58cf04",
+      "dark": "#58cf04",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-50-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "88, 207, 4",
+      "dark": "88, 207, 4",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-60",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#6be016",
+      "dark": "#6be016",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-60-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "107, 224, 22",
+      "dark": "107, 224, 22",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-70",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#88f03e",
+      "dark": "#88f03e",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-70-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "136, 240, 62",
+      "dark": "136, 240, 62",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-80",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#aef779",
+      "dark": "#aef779",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-80-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "174, 247, 121",
+      "dark": "174, 247, 121",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-90",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#ccfca9",
+      "dark": "#ccfca9",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-90-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "204, 252, 169",
+      "dark": "204, 252, 169",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-95",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#e6ffd4",
+      "dark": "#e6ffd4",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-95-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "230, 255, 212",
+      "dark": "230, 255, 212",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-99",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": false,
+      "light": "#f8fff2",
+      "dark": "#f8fff2",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-lime-99-rgb",
+      "kind": "atomic",
+      "group": "lime",
+      "isRgbCompanion": true,
+      "light": "248, 255, 242",
+      "dark": "248, 255, 242",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-10",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#171717",
+      "dark": "#171717",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-10-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "23, 23, 23",
+      "dark": "23, 23, 23",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-15",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#1c1c1c",
+      "dark": "#1c1c1c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-15-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "28, 28, 28",
+      "dark": "28, 28, 28",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-20",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#2a2a2a",
+      "dark": "#2a2a2a",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-20-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "42, 42, 42",
+      "dark": "42, 42, 42",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-22",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#303030",
+      "dark": "#303030",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-22-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "48, 48, 48",
+      "dark": "48, 48, 48",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-30",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#474747",
+      "dark": "#474747",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-30-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "71, 71, 71",
+      "dark": "71, 71, 71",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-40",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#5c5c5c",
+      "dark": "#5c5c5c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-40-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "92, 92, 92",
+      "dark": "92, 92, 92",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-5",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#0f0f0f",
+      "dark": "#0f0f0f",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-5-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "15, 15, 15",
+      "dark": "15, 15, 15",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-50",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#737373",
+      "dark": "#737373",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-50-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "115, 115, 115",
+      "dark": "115, 115, 115",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-60",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#8a8a8a",
+      "dark": "#8a8a8a",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-60-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "138, 138, 138",
+      "dark": "138, 138, 138",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-70",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#9b9b9b",
+      "dark": "#9b9b9b",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-70-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "155, 155, 155",
+      "dark": "155, 155, 155",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-80",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#b0b0b0",
+      "dark": "#b0b0b0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-80-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "176, 176, 176",
+      "dark": "176, 176, 176",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-90",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#c4c4c4",
+      "dark": "#c4c4c4",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-90-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "196, 196, 196",
+      "dark": "196, 196, 196",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-95",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#dcdcdc",
+      "dark": "#dcdcdc",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-95-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "220, 220, 220",
+      "dark": "220, 220, 220",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-99",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": false,
+      "light": "#f7f7f7",
+      "dark": "#f7f7f7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-neutral-99-rgb",
+      "kind": "atomic",
+      "group": "neutral",
+      "isRgbCompanion": true,
+      "light": "247, 247, 247",
+      "dark": "247, 247, 247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-10",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#361e00",
+      "dark": "#361e00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-10-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "54, 30, 0",
+      "dark": "54, 30, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-20",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#663a00",
+      "dark": "#663a00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-20-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "102, 58, 0",
+      "dark": "102, 58, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-30",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#9c5800",
+      "dark": "#9c5800",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-30-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "156, 88, 0",
+      "dark": "156, 88, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-39",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#d17600",
+      "dark": "#d17600",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-39-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "209, 118, 0",
+      "dark": "209, 118, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-40",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#d47800",
+      "dark": "#d47800",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-40-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "212, 120, 0",
+      "dark": "212, 120, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-50",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#ff9200",
+      "dark": "#ff9200",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-50-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "255, 146, 0",
+      "dark": "255, 146, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-60",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#ffa938",
+      "dark": "#ffa938",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-60-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "255, 169, 56",
+      "dark": "255, 169, 56",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-70",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#ffc06e",
+      "dark": "#ffc06e",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-70-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "255, 192, 110",
+      "dark": "255, 192, 110",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-80",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#ffd49c",
+      "dark": "#ffd49c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-80-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "255, 212, 156",
+      "dark": "255, 212, 156",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-90",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#fee6c6",
+      "dark": "#fee6c6",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-90-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "254, 230, 198",
+      "dark": "254, 230, 198",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-95",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#fef4e6",
+      "dark": "#fef4e6",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-95-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "254, 244, 230",
+      "dark": "254, 244, 230",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-99",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": false,
+      "light": "#fffcf7",
+      "dark": "#fffcf7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-orange-99-rgb",
+      "kind": "atomic",
+      "group": "orange",
+      "isRgbCompanion": true,
+      "light": "255, 252, 247",
+      "dark": "255, 252, 247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-10",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#3d0133",
+      "dark": "#3d0133",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-10-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "61, 1, 51",
+      "dark": "61, 1, 51",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-20",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#730560",
+      "dark": "#730560",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-20-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "115, 5, 96",
+      "dark": "115, 5, 96",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-30",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#a81690",
+      "dark": "#a81690",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-30-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "168, 22, 144",
+      "dark": "168, 22, 144",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-40",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#d331b8",
+      "dark": "#d331b8",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-40-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "211, 49, 184",
+      "dark": "211, 49, 184",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-46",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#e846cd",
+      "dark": "#e846cd",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-46-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "232, 70, 205",
+      "dark": "232, 70, 205",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-50",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#f553da",
+      "dark": "#f553da",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-50-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "245, 83, 218",
+      "dark": "245, 83, 218",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-60",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#fa73e3",
+      "dark": "#fa73e3",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-60-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "250, 115, 227",
+      "dark": "250, 115, 227",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-70",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#ff94ed",
+      "dark": "#ff94ed",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-70-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "255, 148, 237",
+      "dark": "255, 148, 237",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-80",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#ffb8f3",
+      "dark": "#ffb8f3",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-80-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "255, 184, 243",
+      "dark": "255, 184, 243",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-90",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#fed3f7",
+      "dark": "#fed3f7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-90-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "254, 211, 247",
+      "dark": "254, 211, 247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-95",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#feecfb",
+      "dark": "#feecfb",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-95-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "254, 236, 251",
+      "dark": "254, 236, 251",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-99",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": false,
+      "light": "#fffafe",
+      "dark": "#fffafe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-pink-99-rgb",
+      "kind": "atomic",
+      "group": "pink",
+      "isRgbCompanion": true,
+      "light": "255, 250, 254",
+      "dark": "255, 250, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-10",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#290247",
+      "dark": "#290247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-10-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "41, 2, 71",
+      "dark": "41, 2, 71",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-20",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#580a7d",
+      "dark": "#580a7d",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-20-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "88, 10, 125",
+      "dark": "88, 10, 125",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-30",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#861cb8",
+      "dark": "#861cb8",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-30-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "134, 28, 184",
+      "dark": "134, 28, 184",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-40",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#ad36e3",
+      "dark": "#ad36e3",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-40-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "173, 54, 227",
+      "dark": "173, 54, 227",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-50",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#cb59ff",
+      "dark": "#cb59ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-50-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "203, 89, 255",
+      "dark": "203, 89, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-60",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#d478ff",
+      "dark": "#d478ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-60-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "212, 120, 255",
+      "dark": "212, 120, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-70",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#de96ff",
+      "dark": "#de96ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-70-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "222, 150, 255",
+      "dark": "222, 150, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-80",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#e9baff",
+      "dark": "#e9baff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-80-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "233, 186, 255",
+      "dark": "233, 186, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-90",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#f2d6ff",
+      "dark": "#f2d6ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-90-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "242, 214, 255",
+      "dark": "242, 214, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-95",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#f9edff",
+      "dark": "#f9edff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-95-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "249, 237, 255",
+      "dark": "249, 237, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-99",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": false,
+      "light": "#fefbff",
+      "dark": "#fefbff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-purple-99-rgb",
+      "kind": "atomic",
+      "group": "purple",
+      "isRgbCompanion": true,
+      "light": "254, 251, 255",
+      "dark": "254, 251, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-10",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#3b0101",
+      "dark": "#3b0101",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-10-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "59, 1, 1",
+      "dark": "59, 1, 1",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-20",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#730303",
+      "dark": "#730303",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-20-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "115, 3, 3",
+      "dark": "115, 3, 3",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-30",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#b00c0c",
+      "dark": "#b00c0c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-30-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "176, 12, 12",
+      "dark": "176, 12, 12",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-40",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#e52222",
+      "dark": "#e52222",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-40-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "229, 34, 34",
+      "dark": "229, 34, 34",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-50",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#ff4242",
+      "dark": "#ff4242",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-50-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "255, 66, 66",
+      "dark": "255, 66, 66",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-60",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#ff6363",
+      "dark": "#ff6363",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-60-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "255, 99, 99",
+      "dark": "255, 99, 99",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-70",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#ff8c8c",
+      "dark": "#ff8c8c",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-70-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "255, 140, 140",
+      "dark": "255, 140, 140",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-80",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#ffb5b5",
+      "dark": "#ffb5b5",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-80-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "255, 181, 181",
+      "dark": "255, 181, 181",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-90",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#fed5d5",
+      "dark": "#fed5d5",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-90-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "254, 213, 213",
+      "dark": "254, 213, 213",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-95",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "#feecec",
+      "dark": "#feecec",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-95-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "254, 236, 236",
+      "dark": "254, 236, 236",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-99",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": false,
+      "light": "snow",
+      "dark": "snow",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-red-99-rgb",
+      "kind": "atomic",
+      "group": "red",
+      "isRgbCompanion": true,
+      "light": "255, 250, 250",
+      "dark": "255, 250, 250",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-10",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#290f00",
+      "dark": "#290f00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-10-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "41, 15, 0",
+      "dark": "41, 15, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-20",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#592100",
+      "dark": "#592100",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-20-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "89, 33, 0",
+      "dark": "89, 33, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-30",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#913500",
+      "dark": "#913500",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-30-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "145, 53, 0",
+      "dark": "145, 53, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-40",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#c94a00",
+      "dark": "#c94a00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-40-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "201, 74, 0",
+      "dark": "201, 74, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-48",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#f55a00",
+      "dark": "#f55a00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-48-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "245, 90, 0",
+      "dark": "245, 90, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-50",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#ff5e00",
+      "dark": "#ff5e00",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-50-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "255, 94, 0",
+      "dark": "255, 94, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-60",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#ff7b2e",
+      "dark": "#ff7b2e",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-60-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "255, 123, 46",
+      "dark": "255, 123, 46",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-70",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#ff9b61",
+      "dark": "#ff9b61",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-70-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "255, 155, 97",
+      "dark": "255, 155, 97",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-80",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#ffbd96",
+      "dark": "#ffbd96",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-80-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "255, 189, 150",
+      "dark": "255, 189, 150",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-90",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#fed9c4",
+      "dark": "#fed9c4",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-90-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "254, 217, 196",
+      "dark": "254, 217, 196",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-95",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#feeee5",
+      "dark": "#feeee5",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-95-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "254, 238, 229",
+      "dark": "254, 238, 229",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-99",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": false,
+      "light": "#fffaf7",
+      "dark": "#fffaf7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-redOrange-99-rgb",
+      "kind": "atomic",
+      "group": "redOrange",
+      "isRgbCompanion": true,
+      "light": "255, 250, 247",
+      "dark": "255, 250, 247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-10",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#11024d",
+      "dark": "#11024d",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-10-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "17, 2, 77",
+      "dark": "17, 2, 77",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-20",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#23098f",
+      "dark": "#23098f",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-20-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "35, 9, 143",
+      "dark": "35, 9, 143",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-30",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#3a16c9",
+      "dark": "#3a16c9",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-30-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "58, 22, 201",
+      "dark": "58, 22, 201",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-40",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#4f29e5",
+      "dark": "#4f29e5",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-40-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "79, 41, 229",
+      "dark": "79, 41, 229",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-45",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#5b37ed",
+      "dark": "#5b37ed",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-45-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "91, 55, 237",
+      "dark": "91, 55, 237",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-50",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#6541f2",
+      "dark": "#6541f2",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-50-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "101, 65, 242",
+      "dark": "101, 65, 242",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-60",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#7d5ef7",
+      "dark": "#7d5ef7",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-60-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "125, 94, 247",
+      "dark": "125, 94, 247",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-70",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#9e86fc",
+      "dark": "#9e86fc",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-70-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "158, 134, 252",
+      "dark": "158, 134, 252",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-80",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#c0b0ff",
+      "dark": "#c0b0ff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-80-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "192, 176, 255",
+      "dark": "192, 176, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-90",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#dbd3fe",
+      "dark": "#dbd3fe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-90-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "219, 211, 254",
+      "dark": "219, 211, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-95",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#f0ecfe",
+      "dark": "#f0ecfe",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-95-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "240, 236, 254",
+      "dark": "240, 236, 254",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-99",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": false,
+      "light": "#fbfaff",
+      "dark": "#fbfaff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--atomic-violet-99-rgb",
+      "kind": "atomic",
+      "group": "violet",
+      "isRgbCompanion": true,
+      "light": "251, 250, 255",
+      "dark": "251, 250, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-accent-background-cyan",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#00bdde",
+      "dark": "#28d0ed",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-cyan-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "0, 189, 222",
+      "dark": "40, 208, 237",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-lightBlue",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#00aeff",
+      "dark": "#3dc2ff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-lightBlue-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "0, 174, 255",
+      "dark": "61, 194, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-lime",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#58cf04",
+      "dark": "#6be016",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-lime-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "88, 207, 4",
+      "dark": "107, 224, 22",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-pink",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#f553da",
+      "dark": "#fa73e3",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-pink-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "245, 83, 218",
+      "dark": "250, 115, 227",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-purple",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#cb59ff",
+      "dark": "#d478ff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-purple-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "203, 89, 255",
+      "dark": "212, 120, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-redOrange",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#ff5e00",
+      "dark": "#ff7b2e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-redOrange-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "255, 94, 0",
+      "dark": "255, 123, 46",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-violet",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#6541f2",
+      "dark": "#7d5ef7",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-background-violet-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "101, 65, 242",
+      "dark": "125, 94, 247",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-blue",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#005eeb",
+      "dark": "#4f95ff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-blue-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "0, 94, 235",
+      "dark": "79, 149, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-cyan",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#0098b2",
+      "dark": "#00bdde",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-cyan-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "0, 152, 178",
+      "dark": "0, 189, 222",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-green",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#009632",
+      "dark": "#1ed45a",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-green-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "0, 150, 50",
+      "dark": "30, 212, 90",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-lightBlue",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#008dcf",
+      "dark": "#00aeff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-lightBlue-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "0, 141, 207",
+      "dark": "0, 174, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-lime",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#429e00",
+      "dark": "#58cf04",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-lime-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "66, 158, 0",
+      "dark": "88, 207, 4",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-orange",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#d17600",
+      "dark": "#ff9200",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-orange-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "209, 118, 0",
+      "dark": "255, 146, 0",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-pink",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#e846cd",
+      "dark": "#fa73e3",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-pink-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "232, 70, 205",
+      "dark": "250, 115, 227",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-purple",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#ad36e3",
+      "dark": "#d478ff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-purple-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "173, 54, 227",
+      "dark": "212, 120, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-red",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#e52222",
+      "dark": "#ff6363",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-red-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "229, 34, 34",
+      "dark": "255, 99, 99",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-redOrange",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#f55a00",
+      "dark": "#ff7b2e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-redOrange-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "245, 90, 0",
+      "dark": "255, 123, 46",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-violet",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": false,
+      "light": "#5b37ed",
+      "dark": "#9e86fc",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-accent-foreground-violet-rgb",
+      "kind": "semantic",
+      "group": "accent",
+      "isRgbCompanion": true,
+      "light": "91, 55, 237",
+      "dark": "158, 134, 252",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-elevated-alternative",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#f7f7f8",
+      "dark": "#141415",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-elevated-alternative-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "247, 247, 248",
+      "dark": "20, 20, 21",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-elevated-normal",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#fff",
+      "dark": "#212225",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-elevated-normal-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "255, 255, 255",
+      "dark": "33, 34, 37",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-normal-alternative",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#f7f7f8",
+      "dark": "#0f0f10",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-normal-alternative-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "247, 247, 248",
+      "dark": "15, 15, 16",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-normal-normal",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#fff",
+      "dark": "#1b1c1e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-normal-normal-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "255, 255, 255",
+      "dark": "27, 28, 30",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-status-cautionary",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#ff920014",
+      "dark": "#ffa93814",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-status-cautionary-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "255, 146, 0",
+      "dark": "255, 169, 56",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-status-negative",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#ff424214",
+      "dark": "#ff636314",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-status-negative-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "255, 66, 66",
+      "dark": "255, 99, 99",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-status-positive",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#00bf4014",
+      "dark": "#1ed45a14",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-status-positive-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "0, 191, 64",
+      "dark": "30, 212, 90",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-transparent-alternative",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#ffffff47",
+      "dark": "#2122259c",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-transparent-alternative-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "255, 255, 255",
+      "dark": "33, 34, 37",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-transparent-normal",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": false,
+      "light": "#ffffff14",
+      "dark": "#2122259c",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-background-transparent-normal-rgb",
+      "kind": "semantic",
+      "group": "background",
+      "isRgbCompanion": true,
+      "light": "255, 255, 255",
+      "dark": "33, 34, 37",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-elevation-shadow-drop-large",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "drop-shadow(0px 6px 3px #1717170a) drop-shadow(0px 16px 9px #17171708)",
+      "dark": "drop-shadow(0px 6px 3px #1717170a) drop-shadow(0px 16px 9px #17171708)",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-drop-medium",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "drop-shadow(0px 4px 2px #17171709) drop-shadow(0px 10px 6px #17171709)",
+      "dark": "drop-shadow(0px 4px 2px #17171709) drop-shadow(0px 10px 6px #17171709)",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-drop-small",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "drop-shadow(0px 2px 1px #17171708) drop-shadow(0px 4px 2.5px #17171708)",
+      "dark": "drop-shadow(0px 2px 1px #17171708) drop-shadow(0px 4px 2.5px #17171708)",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-drop-xlarge",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "drop-shadow(0px 10px 5px #1717170d) drop-shadow(0px 24px 14px #1717170f)",
+      "dark": "drop-shadow(0px 10px 5px #1717170d) drop-shadow(0px 24px 14px #1717170f)",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-drop-xsmall",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "drop-shadow(0px 1px .5px #1717170d)",
+      "dark": "drop-shadow(0px 1px .5px #1717170d)",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-normal-large",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 6px 10px -4px #17171714, 0px 16px 24px -6px #17171714",
+      "dark": "0px 6px 10px -4px #17171714, 0px 16px 24px -6px #17171714",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-normal-medium",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 4px 6px -2px #17171712, 0px 10px 15px -3px #17171712",
+      "dark": "0px 4px 6px -2px #17171712, 0px 10px 15px -3px #17171712",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-normal-small",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 2px 4px -2px #1717170f, 0px 4px 6px -1px #1717170f",
+      "dark": "0px 2px 4px -2px #1717170f, 0px 4px 6px -1px #1717170f",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-normal-xlarge",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 10px 15px -5px #1717171a, 0px 24px 38px -10px #1717171f",
+      "dark": "0px 10px 15px -5px #1717171a, 0px 24px 38px -10px #1717171f",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-normal-xsmall",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 1px 2px -1px #1717171a",
+      "dark": "0px 1px 2px -1px #1717171a",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-spread-medium",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 15px 75px 0px #17171729",
+      "dark": "0px 15px 75px 0px #17171729",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-elevation-shadow-spread-small",
+      "kind": "semantic",
+      "group": "elevation",
+      "isRgbCompanion": false,
+      "light": "0px 0px 60px 0px #1717171a",
+      "dark": "0px 0px 60px 0px #1717171a",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-fill-alternative",
+      "kind": "semantic",
+      "group": "fill",
+      "isRgbCompanion": false,
+      "light": "#70737c0d",
+      "dark": "#70737c1f",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-fill-alternative-rgb",
+      "kind": "semantic",
+      "group": "fill",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-fill-normal",
+      "kind": "semantic",
+      "group": "fill",
+      "isRgbCompanion": false,
+      "light": "#70737c14",
+      "dark": "#70737c38",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-fill-normal-rgb",
+      "kind": "semantic",
+      "group": "fill",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-fill-strong",
+      "kind": "semantic",
+      "group": "fill",
+      "isRgbCompanion": false,
+      "light": "#70737c29",
+      "dark": "#70737c47",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-fill-strong-rgb",
+      "kind": "semantic",
+      "group": "fill",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-interaction-disable",
+      "kind": "semantic",
+      "group": "interaction",
+      "isRgbCompanion": false,
+      "light": "#f4f4f5",
+      "dark": "#2e2f33",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-interaction-disable-rgb",
+      "kind": "semantic",
+      "group": "interaction",
+      "isRgbCompanion": true,
+      "light": "244, 244, 245",
+      "dark": "46, 47, 51",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-interaction-inactive",
+      "kind": "semantic",
+      "group": "interaction",
+      "isRgbCompanion": false,
+      "light": "#989ba2",
+      "dark": "#5a5c63",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-interaction-inactive-rgb",
+      "kind": "semantic",
+      "group": "interaction",
+      "isRgbCompanion": true,
+      "light": "152, 155, 162",
+      "dark": "90, 92, 99",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-inverse-background",
+      "kind": "semantic",
+      "group": "inverse",
+      "isRgbCompanion": false,
+      "light": "#1b1c1e",
+      "dark": "#fff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-inverse-background-rgb",
+      "kind": "semantic",
+      "group": "inverse",
+      "isRgbCompanion": true,
+      "light": "27, 28, 30",
+      "dark": "255, 255, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-inverse-label",
+      "kind": "semantic",
+      "group": "inverse",
+      "isRgbCompanion": false,
+      "light": "#f7f7f8",
+      "dark": "#171719",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-inverse-label-rgb",
+      "kind": "semantic",
+      "group": "inverse",
+      "isRgbCompanion": true,
+      "light": "247, 247, 248",
+      "dark": "23, 23, 25",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-inverse-primary",
+      "kind": "semantic",
+      "group": "inverse",
+      "isRgbCompanion": false,
+      "light": "#3385ff",
+      "dark": "#06f",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-inverse-primary-rgb",
+      "kind": "semantic",
+      "group": "inverse",
+      "isRgbCompanion": true,
+      "light": "51, 133, 255",
+      "dark": "0, 102, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-alternative",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": false,
+      "light": "#37383c9c",
+      "dark": "#aeb0b69c",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-alternative-rgb",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": true,
+      "light": "55, 56, 60",
+      "dark": "174, 176, 182",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-assistive",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": false,
+      "light": "#37383c47",
+      "dark": "#aeb0b647",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-assistive-rgb",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": true,
+      "light": "55, 56, 60",
+      "dark": "174, 176, 182",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-disable",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": false,
+      "light": "#37383c29",
+      "dark": "#989ba229",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-disable-rgb",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": true,
+      "light": "55, 56, 60",
+      "dark": "152, 155, 162",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-neutral",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": false,
+      "light": "#2e2f33e0",
+      "dark": "#c2c4c8e0",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-neutral-rgb",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": true,
+      "light": "46, 47, 51",
+      "dark": "194, 196, 200",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-normal",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": false,
+      "light": "#171719",
+      "dark": "#f7f7f8",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-normal-rgb",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": true,
+      "light": "23, 23, 25",
+      "dark": "247, 247, 248",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-strong",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": false,
+      "light": "#000",
+      "dark": "#fff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-label-strong-rgb",
+      "kind": "semantic",
+      "group": "label",
+      "isRgbCompanion": true,
+      "light": "0, 0, 0",
+      "dark": "255, 255, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-normal-alternative",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#70737c14",
+      "dark": "#70737c38",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-normal-alternative-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-line-normal-neutral",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#70737c29",
+      "dark": "#70737c47",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-normal-neutral-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-line-normal-normal",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#70737c38",
+      "dark": "#70737c52",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-normal-normal-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "112, 115, 124",
+      "dark": "112, 115, 124",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-line-primary-normal",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#0066ff47",
+      "dark": "#3385ff47",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-primary-normal-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "0, 102, 255",
+      "dark": "51, 133, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-primary-strong",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#0066ff6e",
+      "dark": "#3385ff6e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-primary-strong-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "0, 102, 255",
+      "dark": "51, 133, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-solid-alternative",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#f4f4f5",
+      "dark": "#2e2f33",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-solid-alternative-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "244, 244, 245",
+      "dark": "46, 47, 51",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-solid-neutral",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#eaebec",
+      "dark": "#333438",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-solid-neutral-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "234, 235, 236",
+      "dark": "51, 52, 56",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-solid-normal",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#e1e2e4",
+      "dark": "#37383c",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-solid-normal-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "225, 226, 228",
+      "dark": "55, 56, 60",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-cautionary-normal",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#ff92006e",
+      "dark": "#ffa9386e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-cautionary-normal-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "255, 146, 0",
+      "dark": "255, 169, 56",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-negative-normal",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#ff42426e",
+      "dark": "#ff63636e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-negative-normal-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "255, 66, 66",
+      "dark": "255, 99, 99",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-negative-strong",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#ff424285",
+      "dark": "#ff636385",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-negative-strong-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "255, 66, 66",
+      "dark": "255, 99, 99",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-positive-normal",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": false,
+      "light": "#00bf406e",
+      "dark": "#1ed45a6e",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-line-status-positive-normal-rgb",
+      "kind": "semantic",
+      "group": "line",
+      "isRgbCompanion": true,
+      "light": "0, 191, 64",
+      "dark": "30, 212, 90",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-material-dimmer",
+      "kind": "semantic",
+      "group": "material",
+      "isRgbCompanion": false,
+      "light": "#17171985",
+      "dark": "#171719bd",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-material-dimmer-rgb",
+      "kind": "semantic",
+      "group": "material",
+      "isRgbCompanion": true,
+      "light": "23, 23, 25",
+      "dark": "23, 23, 25",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-primary-heavy",
+      "kind": "semantic",
+      "group": "primary",
+      "isRgbCompanion": false,
+      "light": "#0054d1",
+      "dark": "#06f",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-primary-heavy-rgb",
+      "kind": "semantic",
+      "group": "primary",
+      "isRgbCompanion": true,
+      "light": "0, 84, 209",
+      "dark": "0, 102, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-primary-normal",
+      "kind": "semantic",
+      "group": "primary",
+      "isRgbCompanion": false,
+      "light": "#06f",
+      "dark": "#3385ff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-primary-normal-rgb",
+      "kind": "semantic",
+      "group": "primary",
+      "isRgbCompanion": true,
+      "light": "0, 102, 255",
+      "dark": "51, 133, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-primary-strong",
+      "kind": "semantic",
+      "group": "primary",
+      "isRgbCompanion": false,
+      "light": "#005eeb",
+      "dark": "#1a75ff",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-primary-strong-rgb",
+      "kind": "semantic",
+      "group": "primary",
+      "isRgbCompanion": true,
+      "light": "0, 94, 235",
+      "dark": "26, 117, 255",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-static-black",
+      "kind": "semantic",
+      "group": "static",
+      "isRgbCompanion": false,
+      "light": "#000",
+      "dark": "#000",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-static-black-rgb",
+      "kind": "semantic",
+      "group": "static",
+      "isRgbCompanion": true,
+      "light": "0, 0, 0",
+      "dark": "0, 0, 0",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-static-white",
+      "kind": "semantic",
+      "group": "static",
+      "isRgbCompanion": false,
+      "light": "#fff",
+      "dark": "#fff",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-static-white-rgb",
+      "kind": "semantic",
+      "group": "static",
+      "isRgbCompanion": true,
+      "light": "255, 255, 255",
+      "dark": "255, 255, 255",
+      "changesWithTheme": false
+    },
+    {
+      "name": "--semantic-status-cautionary",
+      "kind": "semantic",
+      "group": "status",
+      "isRgbCompanion": false,
+      "light": "#ff9200",
+      "dark": "#ffa938",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-status-cautionary-rgb",
+      "kind": "semantic",
+      "group": "status",
+      "isRgbCompanion": true,
+      "light": "255, 146, 0",
+      "dark": "255, 169, 56",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-status-negative",
+      "kind": "semantic",
+      "group": "status",
+      "isRgbCompanion": false,
+      "light": "#ff4242",
+      "dark": "#ff6363",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-status-negative-rgb",
+      "kind": "semantic",
+      "group": "status",
+      "isRgbCompanion": true,
+      "light": "255, 66, 66",
+      "dark": "255, 99, 99",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-status-positive",
+      "kind": "semantic",
+      "group": "status",
+      "isRgbCompanion": false,
+      "light": "#00bf40",
+      "dark": "#1ed45a",
+      "changesWithTheme": true
+    },
+    {
+      "name": "--semantic-status-positive-rgb",
+      "kind": "semantic",
+      "group": "status",
+      "isRgbCompanion": true,
+      "light": "0, 191, 64",
+      "dark": "30, 212, 90",
+      "changesWithTheme": true
+    }
+  ]
+}

@@ -1,0 +1,3228 @@
+{
+  "source": "https://www.apple.com",
+  "capturedAt": "2026-09-05T15:16:04.345Z",
+  "nav": [
+    {
+      "name": "Store",
+      "groups": [
+        {
+          "title": "Shop",
+          "links": [
+            {
+              "label": "Shop the Latest",
+              "url": "https://www.apple.com/us/shop/goto/store"
+            },
+            {
+              "label": "Mac",
+              "url": "https://www.apple.com/us/shop/goto/buy_mac"
+            },
+            {
+              "label": "iPad",
+              "url": "https://www.apple.com/us/shop/goto/buy_ipad"
+            },
+            {
+              "label": "iPhone",
+              "url": "https://www.apple.com/us/shop/goto/buy_iphone"
+            },
+            {
+              "label": "Apple Watch",
+              "url": "https://www.apple.com/us/shop/goto/buy_watch"
+            },
+            {
+              "label": "Apple Vision Pro",
+              "url": "https://www.apple.com/us/shop/goto/buy_vision"
+            },
+            {
+              "label": "AirPods",
+              "url": "https://www.apple.com/us/shop/goto/airpods/accessories"
+            },
+            {
+              "label": "Accessories",
+              "url": "https://www.apple.com/us/shop/goto/buy_accessories"
+            }
+          ]
+        },
+        {
+          "title": "Quick Links",
+          "links": [
+            {
+              "label": "Find a Store",
+              "url": "https://www.apple.com/retail/"
+            },
+            {
+              "label": "Order Status",
+              "url": "https://www.apple.com/us/shop/goto/order/list"
+            },
+            {
+              "label": "Apple Upgrade",
+              "url": "https://www.apple.com/us/shop/goto/apple_upgrade"
+            },
+            {
+              "label": "Apple Trade In",
+              "url": "https://www.apple.com/us/shop/goto/trade_in"
+            },
+            {
+              "label": "Financing",
+              "url": "https://www.apple.com/us/shop/goto/payment_plan"
+            },
+            {
+              "label": "Personal Setup",
+              "url": "https://www.apple.com/us/shop/goto/personal_setup"
+            },
+            {
+              "label": "College Student Offer",
+              "url": "https://www.apple.com/us/shop/goto/edu_store"
+            }
+          ]
+        },
+        {
+          "title": "Shop Special Stores",
+          "links": [
+            {
+              "label": "Certified Refurbished",
+              "url": "https://www.apple.com/us/shop/goto/special_deals"
+            },
+            {
+              "label": "Education",
+              "url": "https://www.apple.com/us/shop/goto/educationrouting"
+            },
+            {
+              "label": "Business",
+              "url": "https://www.apple.com/retail/business/"
+            },
+            {
+              "label": "Veterans and Military",
+              "url": "https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary"
+            },
+            {
+              "label": "Government",
+              "url": "https://www.apple.com/r/store/government/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mac",
+      "groups": [
+        {
+          "title": "Explore Mac",
+          "links": [
+            {
+              "label": "Explore All Mac",
+              "url": "https://www.apple.com/mac/"
+            },
+            {
+              "label": "MacBook Neo",
+              "url": "https://www.apple.com/macbook-neo/"
+            },
+            {
+              "label": "MacBook Air",
+              "url": "https://www.apple.com/macbook-air/"
+            },
+            {
+              "label": "MacBook Pro",
+              "url": "https://www.apple.com/macbook-pro/"
+            },
+            {
+              "label": "iMac",
+              "url": "https://www.apple.com/imac/"
+            },
+            {
+              "label": "Mac mini",
+              "url": "https://www.apple.com/mac-mini/"
+            },
+            {
+              "label": "Mac Studio",
+              "url": "https://www.apple.com/mac-studio/"
+            },
+            {
+              "label": "Displays",
+              "url": "https://www.apple.com/displays/"
+            },
+            {
+              "label": "Compare Mac",
+              "url": "https://www.apple.com/mac/compare/"
+            },
+            {
+              "label": "Switch from PC to Mac",
+              "url": "https://www.apple.com/mac/mac-does-that/"
+            }
+          ]
+        },
+        {
+          "title": "Shop Mac",
+          "links": [
+            {
+              "label": "Shop Mac",
+              "url": "https://www.apple.com/us/shop/goto/buy_mac"
+            },
+            {
+              "label": "Help Me Choose",
+              "url": "https://www.apple.com/mac/best-mac/"
+            },
+            {
+              "label": "Mac Accessories",
+              "url": "https://www.apple.com/us/shop/goto/mac/accessories"
+            },
+            {
+              "label": "Apple Upgrade",
+              "url": "https://www.apple.com/us/shop/goto/apple_upgrade"
+            },
+            {
+              "label": "Apple Trade In",
+              "url": "https://www.apple.com/us/shop/goto/trade_in#mac"
+            },
+            {
+              "label": "Financing",
+              "url": "https://www.apple.com/us/shop/goto/payment_plan"
+            },
+            {
+              "label": "Personal Setup",
+              "url": "https://www.apple.com/us/shop/goto/personal_setup"
+            },
+            {
+              "label": "College Student Offer",
+              "url": "https://www.apple.com/us/shop/goto/edu_store"
+            }
+          ]
+        },
+        {
+          "title": "More from Mac",
+          "links": [
+            {
+              "label": "Mac Support",
+              "url": "https://support.apple.com/mac?cid=gn-ols-mac-psp-prodfly"
+            },
+            {
+              "label": "AppleCare",
+              "url": "https://www.apple.com/applecare/?filter=mac"
+            },
+            {
+              "label": "macOS 27 Preview",
+              "url": "https://www.apple.com/os/macos/"
+            },
+            {
+              "label": "Apple Intelligence and Siri",
+              "url": "https://www.apple.com/apple-intelligence/"
+            },
+            {
+              "label": "Apps by Apple",
+              "url": "https://www.apple.com/apps/"
+            },
+            {
+              "label": "Apple Creator Studio",
+              "url": "https://www.apple.com/apple-creator-studio/"
+            },
+            {
+              "label": "Better with iPhone",
+              "url": "https://www.apple.com/macos/continuity/"
+            },
+            {
+              "label": "iCloud+",
+              "url": "https://www.apple.com/icloud/"
+            },
+            {
+              "label": "Mac for Business",
+              "url": "https://www.apple.com/business/mac/"
+            },
+            {
+              "label": "Education",
+              "url": "https://www.apple.com/education/"
+            },
+            {
+              "label": "Apple at Work",
+              "url": "https://www.apple.com/business/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPad",
+      "groups": [
+        {
+          "title": "Explore iPad",
+          "links": [
+            {
+              "label": "Explore All iPad",
+              "url": "https://www.apple.com/ipad/"
+            },
+            {
+              "label": "iPad Pro",
+              "url": "https://www.apple.com/ipad-pro/"
+            },
+            {
+              "label": "iPad Air",
+              "url": "https://www.apple.com/ipad-air/"
+            },
+            {
+              "label": "iPad",
+              "url": "https://www.apple.com/ipad-11/"
+            },
+            {
+              "label": "iPad mini",
+              "url": "https://www.apple.com/ipad-mini/"
+            },
+            {
+              "label": "Apple Pencil",
+              "url": "https://www.apple.com/apple-pencil/"
+            },
+            {
+              "label": "Keyboards",
+              "url": "https://www.apple.com/ipad-keyboards/"
+            },
+            {
+              "label": "Compare iPad",
+              "url": "https://www.apple.com/ipad/compare/"
+            }
+          ]
+        },
+        {
+          "title": "Shop iPad",
+          "links": [
+            {
+              "label": "Shop iPad",
+              "url": "https://www.apple.com/us/shop/goto/buy_ipad"
+            },
+            {
+              "label": "iPad Accessories",
+              "url": "https://www.apple.com/us/shop/goto/ipad/accessories"
+            },
+            {
+              "label": "Apple Upgrade",
+              "url": "https://www.apple.com/us/shop/goto/apple_upgrade"
+            },
+            {
+              "label": "Apple Trade In",
+              "url": "https://www.apple.com/us/shop/goto/trade_in#ipad"
+            },
+            {
+              "label": "Financing",
+              "url": "https://www.apple.com/us/shop/goto/payment_plan"
+            },
+            {
+              "label": "Personal Setup",
+              "url": "https://www.apple.com/us/shop/goto/personal_setup"
+            },
+            {
+              "label": "College Student Offer",
+              "url": "https://www.apple.com/us/shop/goto/edu_store"
+            }
+          ]
+        },
+        {
+          "title": "More from iPad",
+          "links": [
+            {
+              "label": "iPad Support",
+              "url": "https://support.apple.com/ipad?cid=gn-ols-ipad-psp-prodfly"
+            },
+            {
+              "label": "AppleCare",
+              "url": "https://www.apple.com/applecare/?filter=ipad"
+            },
+            {
+              "label": "iPadOS 27 Preview",
+              "url": "https://www.apple.com/os/ipados/"
+            },
+            {
+              "label": "Apple Intelligence and Siri",
+              "url": "https://www.apple.com/apple-intelligence/"
+            },
+            {
+              "label": "Apps by Apple",
+              "url": "https://www.apple.com/apps/"
+            },
+            {
+              "label": "Apple Creator Studio",
+              "url": "https://www.apple.com/apple-creator-studio/"
+            },
+            {
+              "label": "iCloud+",
+              "url": "https://www.apple.com/icloud/"
+            },
+            {
+              "label": "Education",
+              "url": "https://www.apple.com/education/"
+            },
+            {
+              "label": "Apple at Work",
+              "url": "https://www.apple.com/business/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPhone",
+      "groups": [
+        {
+          "title": "Explore iPhone",
+          "links": [
+            {
+              "label": "Explore All iPhone",
+              "url": "https://www.apple.com/iphone/"
+            },
+            {
+              "label": "iPhone 17 Pro",
+              "url": "https://www.apple.com/iphone-17-pro/"
+            },
+            {
+              "label": "iPhone Air",
+              "url": "https://www.apple.com/iphone-air/"
+            },
+            {
+              "label": "iPhone 17",
+              "url": "https://www.apple.com/iphone-17/"
+            },
+            {
+              "label": "iPhone 17e",
+              "url": "https://www.apple.com/iphone-17e/"
+            },
+            {
+              "label": "iPhone 16",
+              "url": "https://www.apple.com/us/shop/goto/buy_iphone/iphone_16"
+            },
+            {
+              "label": "Compare iPhone",
+              "url": "https://www.apple.com/iphone/compare/"
+            },
+            {
+              "label": "Switch from Android",
+              "url": "https://www.apple.com/iphone/switch/"
+            }
+          ]
+        },
+        {
+          "title": "Shop iPhone",
+          "links": [
+            {
+              "label": "Shop iPhone",
+              "url": "https://www.apple.com/us/shop/goto/buy_iphone"
+            },
+            {
+              "label": "iPhone Accessories",
+              "url": "https://www.apple.com/us/shop/goto/iphone/accessories"
+            },
+            {
+              "label": "Apple Upgrade",
+              "url": "https://www.apple.com/us/shop/goto/apple_upgrade"
+            },
+            {
+              "label": "Apple Trade In",
+              "url": "https://www.apple.com/us/shop/goto/trade_in#iphone"
+            },
+            {
+              "label": "Carrier Deals at Apple",
+              "url": "https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers"
+            },
+            {
+              "label": "Financing",
+              "url": "https://www.apple.com/us/shop/goto/payment_plan"
+            },
+            {
+              "label": "Personal Setup",
+              "url": "https://www.apple.com/us/shop/goto/personal_setup"
+            }
+          ]
+        },
+        {
+          "title": "More from iPhone",
+          "links": [
+            {
+              "label": "iPhone Support",
+              "url": "https://support.apple.com/iphone?cid=gn-ols-iphone-psp-prodfly"
+            },
+            {
+              "label": "AppleCare",
+              "url": "https://www.apple.com/applecare/?filter=iphone"
+            },
+            {
+              "label": "iOS 27 Preview",
+              "url": "https://www.apple.com/os/ios/"
+            },
+            {
+              "label": "Apple Intelligence and Siri",
+              "url": "https://www.apple.com/apple-intelligence/"
+            },
+            {
+              "label": "Apps by Apple",
+              "url": "https://www.apple.com/apps/"
+            },
+            {
+              "label": "iPhone Privacy",
+              "url": "https://www.apple.com/privacy/"
+            },
+            {
+              "label": "Better with Mac",
+              "url": "https://www.apple.com/macos/continuity/"
+            },
+            {
+              "label": "iCloud+",
+              "url": "https://www.apple.com/icloud/"
+            },
+            {
+              "label": "Wallet, Pay, Card",
+              "url": "https://www.apple.com/wallet/"
+            },
+            {
+              "label": "Apple at Work",
+              "url": "https://www.apple.com/business/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Watch",
+      "groups": [
+        {
+          "title": "Explore Watch",
+          "links": [
+            {
+              "label": "Explore All Apple Watch",
+              "url": "https://www.apple.com/watch/"
+            },
+            {
+              "label": "Apple Watch Series 11",
+              "url": "https://www.apple.com/apple-watch-series-11/"
+            },
+            {
+              "label": "Apple Watch SE 3",
+              "url": "https://www.apple.com/apple-watch-se-3/"
+            },
+            {
+              "label": "Apple Watch Ultra 3",
+              "url": "https://www.apple.com/apple-watch-ultra-3/"
+            },
+            {
+              "label": "Apple Watch Nike",
+              "url": "https://www.apple.com/apple-watch-nike/"
+            },
+            {
+              "label": "Apple Watch Hermès",
+              "url": "https://www.apple.com/apple-watch-hermes/"
+            },
+            {
+              "label": "Compare Watch",
+              "url": "https://www.apple.com/watch/compare/"
+            },
+            {
+              "label": "Why Apple Watch",
+              "url": "https://www.apple.com/watch/why-apple-watch/"
+            }
+          ]
+        },
+        {
+          "title": "Shop Watch",
+          "links": [
+            {
+              "label": "Shop Apple Watch",
+              "url": "https://www.apple.com/us/shop/goto/buy_watch"
+            },
+            {
+              "label": "Apple Watch Bands",
+              "url": "https://www.apple.com/us/shop/goto/watch/bands"
+            },
+            {
+              "label": "Apple Watch Accessories",
+              "url": "https://www.apple.com/us/shop/goto/watch/accessories"
+            },
+            {
+              "label": "Apple Upgrade",
+              "url": "https://www.apple.com/us/shop/goto/apple_upgrade"
+            },
+            {
+              "label": "Apple Trade In",
+              "url": "https://www.apple.com/us/shop/goto/trade_in#watch"
+            },
+            {
+              "label": "Financing",
+              "url": "https://www.apple.com/us/shop/goto/payment_plan"
+            },
+            {
+              "label": "Personal Setup",
+              "url": "https://www.apple.com/us/shop/goto/personal_setup"
+            }
+          ]
+        },
+        {
+          "title": "More from Watch",
+          "links": [
+            {
+              "label": "Apple Watch Support",
+              "url": "https://support.apple.com/watch?cid=gn-ols-watch-psp-prodfly"
+            },
+            {
+              "label": "AppleCare",
+              "url": "https://www.apple.com/applecare/?filter=watch"
+            },
+            {
+              "label": "watchOS 27 Preview",
+              "url": "https://www.apple.com/os/watchos/"
+            },
+            {
+              "label": "Apple Watch For Your Kids",
+              "url": "https://www.apple.com/apple-watch-for-your-kids/"
+            },
+            {
+              "label": "Apps by Apple",
+              "url": "https://www.apple.com/apps/"
+            },
+            {
+              "label": "Apple Fitness+",
+              "url": "https://www.apple.com/apple-fitness-plus/"
+            },
+            {
+              "label": "Education",
+              "url": "https://www.apple.com/education/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "groups": [
+        {
+          "title": "Explore Vision",
+          "links": [
+            {
+              "label": "Explore Apple Vision Pro",
+              "url": "https://www.apple.com/apple-vision-pro/"
+            },
+            {
+              "label": "Tech Specs",
+              "url": "https://www.apple.com/apple-vision-pro/specs/"
+            }
+          ]
+        },
+        {
+          "title": "Shop Vision",
+          "links": [
+            {
+              "label": "Shop Apple Vision Pro",
+              "url": "https://www.apple.com/us/shop/goto/buy_vision"
+            },
+            {
+              "label": "Apple Vision Pro Accessories",
+              "url": "https://www.apple.com/us/shop/goto/vision/accessories"
+            },
+            {
+              "label": "Book a Demo",
+              "url": "https://www.apple.com/retail/instore-shopping-session/session-selection/?topic=visionpro"
+            },
+            {
+              "label": "Financing",
+              "url": "https://www.apple.com/us/shop/goto/payment_plan"
+            },
+            {
+              "label": "Personal Setup",
+              "url": "https://www.apple.com/us/shop/goto/personal_setup"
+            }
+          ]
+        },
+        {
+          "title": "More from Vision",
+          "links": [
+            {
+              "label": "Apple Vision Pro Support",
+              "url": "https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-prodfly"
+            },
+            {
+              "label": "AppleCare",
+              "url": "https://www.apple.com/applecare/?filter=apple-vision-pro"
+            },
+            {
+              "label": "visionOS 27 Preview",
+              "url": "https://www.apple.com/os/visionos/"
+            },
+            {
+              "label": "Apple Vision Pro for Enterprise",
+              "url": "https://www.apple.com/business/enterprise/apple-vision-pro/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AirPods",
+      "groups": [
+        {
+          "title": "Explore AirPods",
+          "links": [
+            {
+              "label": "Explore All AirPods",
+              "url": "https://www.apple.com/airpods/"
+            },
+            {
+              "label": "AirPods 4",
+              "url": "https://www.apple.com/airpods-4/"
+            },
+            {
+              "label": "AirPods Pro 3",
+              "url": "https://www.apple.com/airpods-pro/"
+            },
+            {
+              "label": "AirPods Max 2",
+              "url": "https://www.apple.com/airpods-max/"
+            },
+            {
+              "label": "Compare AirPods",
+              "url": "https://www.apple.com/airpods/compare/"
+            }
+          ]
+        },
+        {
+          "title": "Shop AirPods",
+          "links": [
+            {
+              "label": "Shop AirPods",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all_accessories/headphones_speakers?fh=47d1%2B3214%2B45aa%2B45ab&f=apple-overear-sport&page=1"
+            },
+            {
+              "label": "AirPods Accessories",
+              "url": "https://www.apple.com/us/shop/goto/airpods/accessories"
+            }
+          ]
+        },
+        {
+          "title": "More from AirPods",
+          "links": [
+            {
+              "label": "AirPods Support",
+              "url": "https://support.apple.com/airpods?cid=gn-ols-airpods-psp-prodfly"
+            },
+            {
+              "label": "AppleCare",
+              "url": "https://www.apple.com/applecare/?filter=headphones"
+            },
+            {
+              "label": "Hearing Health",
+              "url": "https://www.apple.com/airpods-pro/hearing-health/"
+            },
+            {
+              "label": "Apple Music",
+              "url": "https://www.apple.com/apple-music/"
+            },
+            {
+              "label": "Apple Fitness+",
+              "url": "https://www.apple.com/apple-fitness-plus/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TV & Home",
+      "groups": [
+        {
+          "title": "Explore TV & Home",
+          "links": [
+            {
+              "label": "Explore TV & Home",
+              "url": "https://www.apple.com/tv-home/"
+            },
+            {
+              "label": "Apple TV 4K",
+              "url": "https://www.apple.com/apple-tv-4k/"
+            },
+            {
+              "label": "HomePod",
+              "url": "https://www.apple.com/homepod-2nd-generation/"
+            },
+            {
+              "label": "HomePod mini",
+              "url": "https://www.apple.com/homepod-mini/"
+            }
+          ]
+        },
+        {
+          "title": "Shop TV & Home",
+          "links": [
+            {
+              "label": "Shop Apple TV 4K",
+              "url": "https://www.apple.com/us/shop/goto/buy_tv/apple_tv_4k"
+            },
+            {
+              "label": "Shop HomePod",
+              "url": "https://www.apple.com/us/shop/goto/buy_homepod/homepod"
+            },
+            {
+              "label": "Shop HomePod mini",
+              "url": "https://www.apple.com/us/shop/goto/buy_homepod/homepod_mini"
+            },
+            {
+              "label": "Shop Siri Remote",
+              "url": "https://www.apple.com/us/shop/goto/product/MW5G3"
+            },
+            {
+              "label": "TV & Home Accessories",
+              "url": "https://www.apple.com/us/shop/goto/smart_home/accessories"
+            }
+          ]
+        },
+        {
+          "title": "More from TV & Home",
+          "links": [
+            {
+              "label": "Apple TV Support",
+              "url": "https://support.apple.com/apple-tv?cid=gn-ols-appletv-psp-prodfly"
+            },
+            {
+              "label": "HomePod Support",
+              "url": "https://support.apple.com/homepod?cid=gn-ols-homepod-psp-prodfly"
+            },
+            {
+              "label": "AppleCare for Apple TV",
+              "url": "https://www.apple.com/applecare/?filter=tv"
+            },
+            {
+              "label": "AppleCare for HomePod",
+              "url": "https://www.apple.com/applecare/?filter=homepod"
+            },
+            {
+              "label": "Apple TV app",
+              "url": "https://www.apple.com/apple-tv-app/"
+            },
+            {
+              "label": "Apple TV",
+              "url": "https://www.apple.com/apple-tv/"
+            },
+            {
+              "label": "Home app",
+              "url": "https://www.apple.com/home-app/"
+            },
+            {
+              "label": "Apple Music",
+              "url": "https://www.apple.com/apple-music/"
+            },
+            {
+              "label": "AirPlay",
+              "url": "https://www.apple.com/airplay/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "groups": [
+        {
+          "title": "Explore Entertainment",
+          "links": [
+            {
+              "label": "Explore Entertainment",
+              "url": "https://www.apple.com/services/"
+            },
+            {
+              "label": "Apple One",
+              "url": "https://www.apple.com/apple-one/"
+            },
+            {
+              "label": "Apple TV",
+              "url": "https://www.apple.com/apple-tv/"
+            },
+            {
+              "label": "Apple Music",
+              "url": "https://www.apple.com/apple-music/"
+            },
+            {
+              "label": "Apple Arcade",
+              "url": "https://www.apple.com/apple-arcade/"
+            },
+            {
+              "label": "Apple Fitness+",
+              "url": "https://www.apple.com/apple-fitness-plus/"
+            },
+            {
+              "label": "Apple News+",
+              "url": "https://www.apple.com/apple-news/"
+            },
+            {
+              "label": "Apple Podcasts",
+              "url": "https://www.apple.com/apple-podcasts/"
+            },
+            {
+              "label": "Apple Books",
+              "url": "https://www.apple.com/apple-books/"
+            },
+            {
+              "label": "App Store",
+              "url": "https://www.apple.com/app-store/"
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "links": [
+            {
+              "label": "Apple TV Support",
+              "url": "https://support.apple.com/tv?cid=gn-ols-tv-psp-prodfly"
+            },
+            {
+              "label": "Apple Music Support",
+              "url": "https://support.apple.com/music?cid=gn-ols-music-psp-prodfly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accessories",
+      "groups": [
+        {
+          "title": "Shop by Product",
+          "links": [
+            {
+              "label": "Shop All Accessories",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all"
+            },
+            {
+              "label": "iPhone",
+              "url": "https://www.apple.com/us/shop/goto/iphone/accessories"
+            },
+            {
+              "label": "iPad",
+              "url": "https://www.apple.com/us/shop/goto/ipad/accessories"
+            },
+            {
+              "label": "Mac",
+              "url": "https://www.apple.com/us/shop/goto/mac/accessories"
+            },
+            {
+              "label": "Apple Watch",
+              "url": "https://www.apple.com/us/shop/goto/watch/accessories"
+            },
+            {
+              "label": "Apple Vision Pro",
+              "url": "https://www.apple.com/us/shop/goto/vision/accessories"
+            },
+            {
+              "label": "AirPods",
+              "url": "https://www.apple.com/us/shop/goto/airpods/accessories"
+            },
+            {
+              "label": "TV & Home",
+              "url": "https://www.apple.com/us/shop/goto/tv/accessories"
+            },
+            {
+              "label": "AirTag",
+              "url": "https://www.apple.com/us/shop/goto/airtag/accessories"
+            },
+            {
+              "label": "Beats",
+              "url": "https://www.apple.com/us/shop/goto/beats/accessories"
+            }
+          ]
+        },
+        {
+          "title": "Shop by Category",
+          "links": [
+            {
+              "label": "Headphones & Speakers",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/headphones_speakers"
+            },
+            {
+              "label": "Chargers & Adapters",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/chargers_adapters"
+            },
+            {
+              "label": "Smart Home Essentials",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/homekit"
+            },
+            {
+              "label": "Cases & Protection",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/cases_protection"
+            },
+            {
+              "label": "Content Creation",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/content_creation"
+            },
+            {
+              "label": "Gaming",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/gaming"
+            },
+            {
+              "label": "Hard Drives & Storage",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/drives_storage"
+            },
+            {
+              "label": "Mice & Keyboards",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/mice_keyboards"
+            },
+            {
+              "label": "Health & Fitness",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/health_fitness"
+            },
+            {
+              "label": "Office Accessories",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/office"
+            },
+            {
+              "label": "Software",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/software"
+            }
+          ]
+        },
+        {
+          "title": "More to Explore",
+          "links": [
+            {
+              "label": "New Arrivals",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/new_arrivals"
+            },
+            {
+              "label": "Made by Apple",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/made_by_apple"
+            },
+            {
+              "label": "Accessibility",
+              "url": "https://www.apple.com/us/shop/goto/accessories/all/accessibility"
+            },
+            {
+              "label": "Assistive Technologies",
+              "url": "https://www.apple.com/accessibility/assistive-technologies/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "groups": [
+        {
+          "title": "Explore Support",
+          "links": [
+            {
+              "label": "iPhone",
+              "url": "https://support.apple.com/iphone?cid=gn-ols-iphone-psp-explore"
+            },
+            {
+              "label": "Mac",
+              "url": "https://support.apple.com/mac?cid=gn-ols-mac-psp-explore"
+            },
+            {
+              "label": "iPad",
+              "url": "https://support.apple.com/ipad?cid=gn-ols-ipad-psp-explore"
+            },
+            {
+              "label": "Watch",
+              "url": "https://support.apple.com/watch?cid=gn-ols-watch-psp-explore"
+            },
+            {
+              "label": "Apple Vision Pro",
+              "url": "https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-explore"
+            },
+            {
+              "label": "AirPods",
+              "url": "https://support.apple.com/airpods?cid=gn-ols-airpods-psp-explore"
+            },
+            {
+              "label": "Music",
+              "url": "https://support.apple.com/music?cid=gn-ols-music-psp-explore"
+            },
+            {
+              "label": "TV",
+              "url": "https://support.apple.com/tv?cid=gn-ols-tv-psp-explore"
+            },
+            {
+              "label": "Explore Support",
+              "url": "https://support.apple.com/?cid=gn-ols-home-hp-explore"
+            }
+          ]
+        },
+        {
+          "title": "Get Help",
+          "links": [
+            {
+              "label": "Community",
+              "url": "https://discussions.apple.com/welcome?cid=gn-com-community-lp-get_help"
+            },
+            {
+              "label": "Check Coverage",
+              "url": "https://checkcoverage.apple.com/us/en?cid=gn-ols-checkcoverage-lp-get_help"
+            },
+            {
+              "label": "Genius Bar",
+              "url": "https://www.apple.com/retail/geniusbar/"
+            },
+            {
+              "label": "Repair",
+              "url": "https://support.apple.com/repair?cid=gn-ols-repair-lp-get_help"
+            }
+          ]
+        },
+        {
+          "title": "Helpful Topics",
+          "links": [
+            {
+              "label": "Get AppleCare",
+              "url": "https://www.apple.com/applecare/"
+            },
+            {
+              "label": "Apple Account and Password",
+              "url": "https://support.apple.com/apple-account?cid=gn-ols-appleaccount-psp-helpful_topics"
+            },
+            {
+              "label": "Billing & Subscriptions",
+              "url": "https://support.apple.com/billing?cid=gn-ols-billing-collection-helpful_topics"
+            },
+            {
+              "label": "Accessibility",
+              "url": "https://support.apple.com/accessibility?cid=gn-ols-accessibility-psp-helpful_topics"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "id": "apple-event-september-2026-announce",
+      "title": "Surprise and shine.",
+      "html": "<div class=\"tile-wrapper theme-dark\" data-tile-id=\"apple-event-september-2026-announce\" data-analytics-section-engagement=\"name:hero-apple-event-september-2026\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/apple_design/app/dist/client/v/apple-events/home/ak/built/assets/event/event.ics\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content content-bottom\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h2 class=\"tile-headline typography-tile-headline\">Surprise and shine.</h2>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Watch a special Apple&nbsp;Event online on 9/9 at 10 a.m. PT.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\"><a class=\"button button-neutral\" href=\"/apple_design/app/dist/client/v/apple-events/home/ak/built/assets/event/event.ics\" data-analytics-region=\"learn more\" data-analytics-title=\"add to calendar - september 2026 apple event\" aria-label=\"Add to calendar, September 2026 Apple Event\">Add to calendar</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall_2x.jpg 2x\" media=\"(max-width:1068px) and (min-height:734px)\">\n\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium_2x.jpg 2x\" media=\"(max-width:1068px) and (max-height:733px)\">\n\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall_2x.jpg 2x\" media=\"(min-width:0px) and (min-height:776px)\">\n\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large.jpg, /apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large_2x.jpg 2x\" media=\"(min-width:0px) and (max-height:775px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large.jpg\" alt=\"Apple logo with a glowing neon effect in blue and pink hues, a bright white flare at its center, on a gradient background\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "bts-2026",
+      "title": "College, sorted.",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"bts-2026\" data-analytics-section-engagement=\"name:hero-bts-2026\" data-component-list=\"InlineMedia BTS2026\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/us/shop/goto/edu_store\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h2 class=\"tile-headline typography-tile-headline\">College, sorted.</h2>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">\n\t\t\t\t\t\t\t\tGet a gift card from $100 to $150<span class=\"footnote footnote-supglyph\" aria-label=\"Footnote * symbol\">*</span> when you buy Mac or iPad with education savings.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\"><a class=\"button\" href=\"/us/shop/goto/edu_store\" data-analytics-region=\"learn more\" data-analytics-title=\"shop - education savings\" aria-label=\"Shop, Education Store\">Shop</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<div class=\"inline-media-wrapper\">\n\t\t\t\t\t\t\t<picture class=\"start-frame\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large.png\" alt=\"\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t\t<picture class=\"start-frame\">\n\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small_2x.png 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall_2x.png 2x\" media=\"(max-width:1068px) and (min-height:734px)\">\n\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium_2x.png 2x\" media=\"(max-width:1068px) and (max-height:733px)\">\n\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall_2x.png 2x\" media=\"(min-width:0px) and (min-height:776px)\">\n\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large.png, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large_2x.png 2x\" media=\"(min-width:0px) and (max-height:775px)\">\n\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t</noscript>\n\t\t\t\t\t\t\t<video id=\"bts-2026\" muted=\"\" preload=\"none\" playsinline=\"\" data-inline-media-basepath=\"/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/\" data-inline-media-type=\"webm\" data-inline-media-play-kf=\"{&quot;start&quot;:&quot;t - (100vh - 70h)&quot;,&quot;end&quot;:&quot;b&quot;}\" aria-label=\"Animated cutouts of smiling students each carrying various MacBook and iPad models, and assorted dorm room supplies\" role=\"img\"></video>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large.jpg\" alt=\"Students carrying various MacBook and iPad models, along with dorm room essentials in rectangular containers\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall_2x.jpg 2x\" media=\"(max-width:1068px) and (min-height:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium_2x.jpg 2x\" media=\"(max-width:1068px) and (max-height:733px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall_2x.jpg 2x\" media=\"(min-width:0px) and (min-height:776px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large.jpg, /apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large_2x.jpg 2x\" media=\"(min-width:0px) and (max-height:775px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large.jpg\" alt=\"Students carrying various MacBook and iPad models, along with dorm room essentials in rectangular containers\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t\t<div class=\"solo-inline-media-wrapper hidden\" aria-hidden=\"true\" tabindex=\"-1\">\n\t\t\t\t\t\t\t<div class=\"solo-wrapper\">\n\t\t\t\t\t\t\t\t<div class=\"solo-box\"></div>\n\t\t\t\t\t\t\t\t<div class=\"inline-media-wrapper\"><video id=\"bts-solo-02\" muted=\"\" preload=\"none\" playsinline=\"\" data-inline-media-basepath=\"/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/\" data-inline-media-type=\"webm\" role=\"img\"></video></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"solo-wrapper\">\n\t\t\t\t\t\t\t\t<div class=\"solo-box\"></div>\n\t\t\t\t\t\t\t\t<div class=\"inline-media-wrapper\"><video id=\"bts-solo-01\" muted=\"\" preload=\"none\" playsinline=\"\" data-inline-media-basepath=\"/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/\" data-inline-media-type=\"webm\" role=\"img\"></video></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"solo-wrapper\">\n\t\t\t\t\t\t\t\t<div class=\"solo-box\"></div>\n\t\t\t\t\t\t\t\t<div class=\"inline-media-wrapper\"><video id=\"bts-solo-03\" muted=\"\" preload=\"none\" playsinline=\"\" data-inline-media-basepath=\"/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/\" data-inline-media-type=\"webm\" role=\"img\"></video></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "iphone-family",
+      "title": "iPhone",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"iphone-family\" data-analytics-section-engagement=\"name:hero-iphone-family\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/iphone/\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h2 class=\"tile-headline typography-tile-headline\">iPhone</h2>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Meet the latest iPhone lineup.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\">\n\t\t\t\t\t\t\t<a class=\"button\" href=\"/iphone/\" data-analytics-region=\"learn more\" data-analytics-title=\"learn more - iphone\" aria-label=\"Learn more, iPhone\">Learn more</a>\n\t\t\t\t\t\t\t<a class=\"button button-secondary\" href=\"/us/shop/goto/buy_iphone\" data-analytics-region=\"learn more\" data-analytics-title=\"shop iphone\" aria-label=\"Shop iPhone\">Shop iPhone</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large.jpg\" alt=\"iPhone 17 Pro, back exterior, deep blue color, Pro Fusion camera system in top left corner, Apple logo in center, iPhone 17, back exterior, white color, Dual Fusion camera system in top left corner, Apple logo in center, iPhone 17e, back exterior, soft pink color, Fusion camera system in top left corner, Apple logo in center, iPhone Air, side, titanium frame profile, Fusion camera system in top left corner\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall_2x.jpg 2x\" media=\"(max-width:1068px) and (min-height:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium_2x.jpg 2x\" media=\"(max-width:1068px) and (max-height:733px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall_2x.jpg 2x\" media=\"(min-width:0px) and (min-height:776px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large.jpg, /apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large_2x.jpg 2x\" media=\"(min-width:0px) and (max-height:775px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large.jpg\" alt=\"iPhone 17 Pro, back exterior, deep blue color, Pro Fusion camera system in top left corner, Apple logo in center, iPhone 17, back exterior, white color, Dual Fusion camera system in top left corner, Apple logo in center, iPhone 17e, back exterior, soft pink color, Fusion camera system in top left corner, Apple logo in center, iPhone Air, side, titanium frame profile, Fusion camera system in top left corner\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "mac-mini-m6-m5-pro",
+      "title": "Mac mini",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"mac-mini-m6-m5-pro\" data-analytics-section-engagement=\"name:promo-mac-mini-m6-m5-pro\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/mac-mini/\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h3 class=\"tile-headline typography-tile-headline\">Mac mini</h3>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Now with M6 and M5 Pro.</p>\n\t\t\t\t\t\t\t<p class=\"tile-callout typography-tile-callout\">Available starting 9.22</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\">\n\t\t\t\t\t\t\t<a class=\"button\" href=\"/mac-mini/\" data-analytics-region=\"learn more\" data-analytics-title=\"learn more - mac mini m6 and m5 pro\" aria-label=\"Learn more, Mac mini M6 and M5 Pro\">Learn more</a>\n\t\t\t\t\t\t\t<a class=\"button button-secondary\" href=\"/us/shop/goto/buy_mac/mac_mini\" data-analytics-region=\"buy\" data-analytics-title=\"pre-order - mac mini m6 and m5 pro\" aria-label=\"Pre-order, Mac mini M6 and M5 Pro\">Pre-order</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg\" alt=\"Front view of Mac mini balanced on the fingertips of an up-stretched hand, front shows two Thunderbolt ports, status indicator light and headphone jack, tapered black base at bottom, flat top, rounded sides, straight edges, silver color\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small.jpg, /apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium.jpg, /apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium_2x.jpg 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg, /apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large_2x.jpg 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg\" alt=\"Front view of Mac mini balanced on the fingertips of an up-stretched hand, front shows two Thunderbolt ports, status indicator light and headphone jack, tapered black base at bottom, flat top, rounded sides, straight edges, silver color\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "macbook-air-m5",
+      "title": "MacBook Air",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"macbook-air-m5\" data-analytics-section-engagement=\"name:promo-macbook-air-m5\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/macbook-air/\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h3 class=\"tile-headline typography-tile-headline\">MacBook&nbsp;Air</h3>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Now supercharged by M5.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\">\n\t\t\t\t\t\t\t<a class=\"button\" href=\"/macbook-air/\" data-analytics-region=\"learn more\" data-analytics-title=\"learn more - macbook air with m5\" aria-label=\"Learn more, MacBook Air with M5\">Learn more</a>\n\t\t\t\t\t\t\t<a class=\"button button-secondary\" href=\"/us/shop/goto/buy_mac/macbook_air\" data-analytics-region=\"buy\" data-analytics-title=\"buy - macbook air with m5\" aria-label=\"Buy, MacBook Air with M5\">Buy</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg\" alt=\"Two open MacBook Air laptops in sky blue color forming arrow shape, emphasizing narrow profile\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small.jpg, /apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium.jpg, /apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium_2x.jpg 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg, /apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large_2x.jpg 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg\" alt=\"Two open MacBook Air laptops in sky blue color forming arrow shape, emphasizing narrow profile\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "ipad-air-m4",
+      "title": "iPad Air",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"ipad-air-m4\" data-analytics-section-engagement=\"name:promo-ipad-air-m4\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/ipad-air/\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h3 class=\"tile-headline logo-image\">\n\t\t\t\t\t\t\t\t<picture class=\"headline\" data-anim-lazy-image=\"\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t\t\t<picture class=\"headline\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small.png, /apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small_2x.png 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium.png, /apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium_2x.png 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png, /apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large_2x.png 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t\t</noscript> <span class=\"visuallyhidden\">iPad Air</span> </h3>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Now supercharged by M4.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\">\n\t\t\t\t\t\t\t<a class=\"button\" href=\"/ipad-air/\" data-analytics-region=\"learn more\" data-analytics-title=\"learn more - ipad air\" aria-label=\"Learn more, iPad Air\">Learn more</a>\n\t\t\t\t\t\t\t<a class=\"button button-secondary\" href=\"/us/shop/goto/buy_ipad/ipad_air\" data-analytics-region=\"buy\" data-analytics-title=\"buy - ipad air\" aria-label=\"Buy, iPad Air\">Buy</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg\" alt=\"iPad Air models floating, back exterior, single-lens camera, front exterior, rounded corners, black display bezel\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small.jpg, /apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium.jpg, /apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium_2x.jpg 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg, /apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large_2x.jpg 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg\" alt=\"iPad Air models floating, back exterior, single-lens camera, front exterior, rounded corners, black display bezel\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "ipad-pro",
+      "title": "iPad Pro",
+      "html": "<div class=\"tile-wrapper theme-dark\" data-tile-id=\"ipad-pro\" data-analytics-section-engagement=\"name:promo-ipad-pro\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/ipad-pro/\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h3 class=\"tile-headline typography-tile-headline\">iPad&nbsp;Pro</h3>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Advanced AI performance and&nbsp;game-changing capabilities.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\">\n\t\t\t\t\t\t\t<a class=\"button\" href=\"/ipad-pro/\" data-analytics-region=\"learn more\" data-analytics-title=\"learn more - ipad pro\" aria-label=\"Learn more, iPad Pro\">Learn more</a>\n\t\t\t\t\t\t\t<a class=\"button button-secondary\" href=\"/us/shop/goto/ipad_pro/select\" data-analytics-region=\"buy\" data-analytics-title=\"buy - ipad pro\" aria-label=\"Buy, iPad Pro\">Buy</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg\" alt=\"Two iPad Pro devices, front exterior, portrait orientation, black display bezel, display showing multicolored, curved line art, side exterior, thin profile, volume-up button, volume-down button, raised Pro Camera System\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small.jpg, /apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium.jpg, /apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium_2x.jpg 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg, /apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large_2x.jpg 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg\" alt=\"Two iPad Pro devices, front exterior, portrait orientation, black display bezel, display showing multicolored, curved line art, side exterior, thin profile, volume-up button, volume-down button, raised Pro Camera System\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "iphone-tradein",
+      "title": "Apple Trade In",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"iphone-tradein\" data-analytics-section-engagement=\"name:promo-iphone-tradein\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/us/shop/goto/trade_in\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h3 class=\"tile-headline logo-image\">\n\t\t\t\t\t\t\t\t<picture class=\"headline\" data-anim-lazy-image=\"\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t\t\t<picture class=\"headline\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small.png, /apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small_2x.png 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium.png, /apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium_2x.png 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png, /apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large_2x.png 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t\t</noscript> <span class=\"visuallyhidden\">Apple Trade In</span> </h3>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\"><span class=\"pricing-container\"><span data-tradein-product=\"tradein-iphone13\" data-product-template=\"Get up to ${credit.display.smart}–\">Get credit toward your next iPhone when you trade in an eligible device.</span><span data-tradein-product=\"tradein-iphone16promax\" data-product-template=\"${credit.display.smart} in credit when you trade in iPhone 13 or higher.\" data-tradein-hide-all=\"tradein-iphone13,tradein-iphone16promax\"></span><sup class=\"footnote footnote-number\" aria-label=\"Footnote 1\">1</sup></span></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\"><a class=\"button\" href=\"/us/shop/goto/trade_in\" data-analytics-region=\"learn more\" data-analytics-title=\"get your estimate\" aria-label=\"Get your estimate\">Get your estimate</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg\" alt=\"Side-by-side, hand holding iPhone 13 in silicon case with stickers on back exterior, trade-in with hand holding new iPhone box for iPhone 17 Pro\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small.jpg, /apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium.jpg, /apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium_2x.jpg 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg, /apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large_2x.jpg 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg\" alt=\"Side-by-side, hand holding iPhone 13 in silicon case with stickers on back exterior, trade-in with hand holding new iPhone box for iPhone 17 Pro\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    },
+    {
+      "id": "apple-card",
+      "title": "Apple Card",
+      "html": "<div class=\"tile-wrapper\" data-tile-id=\"apple-card\" data-analytics-section-engagement=\"name:promo-apple-card\">\n\t\t\t\t\t<a class=\"tile-link\" href=\"/apple-card/\" data-analytics-region=\"learn more\" aria-hidden=\"true\" tabindex=\"-1\"></a>\n\t\t\t\t\t<div class=\"tile-content\">\n\t\t\t\t\t\t<div class=\"tile-copy-wrapper\">\n\t\t\t\t\t\t\t<h3 class=\"tile-headline logo-image\">\n\t\t\t\t\t\t\t\t<picture class=\"headline\" data-anim-lazy-image=\"\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t\t\t<picture class=\"headline\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small.png, /apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small_2x.png 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium.png, /apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium_2x.png 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png, /apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large_2x.png 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t\t\t</noscript> <span class=\"visuallyhidden\">Apple Card</span> </h3>\n\t\t\t\t\t\t\t<p class=\"tile-subhead typography-tile-subhead\">Get up to 3% Daily&nbsp;Cash back with every purchase.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tile-ctas\">\n\t\t\t\t\t\t\t<a class=\"button\" href=\"/apple-card/\" data-analytics-region=\"learn more\" data-analytics-title=\"learn more - apple card\" aria-label=\"Learn more, Apple Card\">Learn more</a>\n\t\t\t\t\t\t\t<a class=\"button button-secondary\" href=\"https://card.apple.com/apply/application?referrer=cid%3Dapy-200-10000036&amp;start=false\" data-analytics-region=\"learn more\" data-analytics-title=\"apply now - apple card\" data-rid-relay=\"{&quot;287&quot;:&quot;referrer&quot;}\" data-analytics-exit-link=\"\" data-ios-link=\"https://wallet.apple.com/apple-card/setup/feature/ccs?referrer=cid%3Dapy-200-10000036\" aria-label=\"Apply now, Apple Card\">Apply now</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"tile-image-wrapper\">\n\t\t\t\t\t\t<picture class=\"static\" data-anim-lazy-image=\"\">\n\t\t\t\t\t\t\t<source data-empty=\"\" srcset=\"data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg\" alt=\"Apple Card, front, Apple logo in top left, cardholder name in middle left Marisa Robertson, card chip in middle right.\">\n\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t<noscript>\n\t\t\t\t\t\t\t<picture class=\"static\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small.jpg, /apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small_2x.jpg 2x\" media=\"(max-width:734px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium.jpg, /apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium_2x.jpg 2x\" media=\"(max-width:1068px)\">\n\t\t\t\t\t\t\t\t<source srcset=\"/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg, /apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large_2x.jpg 2x\" media=\"(min-width:0px)\">\n\t\t\t\t\t\t\t\t<img src=\"/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg\" alt=\"Apple Card, front, Apple logo in top left, cardholder name in middle left Marisa Robertson, card chip in middle right.\">\n\t\t\t\t\t\t\t</picture>\n\t\t\t\t\t\t</noscript>\n\t\t\t\t\t</div>\n\t\t\t\t</div>"
+    }
+  ],
+  "computed": [
+    {
+      "selector": ".tile-headline",
+      "values": {
+        "font-family": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "56px",
+        "font-weight": "600",
+        "line-height": "60px",
+        "letter-spacing": "-0.28px",
+        "color": "rgb(245, 245, 247)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "60px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".tile-subhead",
+      "values": {
+        "font-family": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "28px",
+        "font-weight": "400",
+        "line-height": "32px",
+        "letter-spacing": "0.196px",
+        "color": "rgb(245, 245, 247)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "32px",
+        "max-width": "670px"
+      }
+    },
+    {
+      "selector": ".button",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "20.0002px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(0, 0, 0)",
+        "background-color": "rgb(245, 245, 247)",
+        "border-radius": "980px",
+        "padding": "11px 21px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "20px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".button-secondary",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "20.0002px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(0, 102, 204)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "980px",
+        "padding": "11px 21px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "20px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": "#globalnav",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgba(255, 255, 255, 0.8)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "44px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".globalnav-flyout",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "auto",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".globalnav-submenu-link",
+      "values": {
+        "font-family": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "24px",
+        "font-weight": "600",
+        "line-height": "28px",
+        "letter-spacing": "0.216px",
+        "color": "rgb(51, 51, 54)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "9px 11px 7px",
+        "gap": "normal",
+        "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)",
+        "animation": "none",
+        "height": "28px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".globalnav-flyout-content",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "40px 22px 84px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "446px",
+        "max-width": "1024px"
+      }
+    },
+    {
+      "selector": ".section-hero .tile-wrapper",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgb(94, 126, 175)",
+        "border-radius": "0px",
+        "padding": "56px 0px 63px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "692px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".section-promo .tile-wrapper",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgb(245, 245, 247)",
+        "border-radius": "0px",
+        "padding": "53px 0px 60px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "580px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".media-gallery-item",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "523px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".media-gallery-item-container",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "523px",
+        "max-width": "none"
+      }
+    },
+    {
+      "selector": ".dotnav-item",
+      "values": {
+        "font-family": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "25px",
+        "letter-spacing": "-0.374px",
+        "color": "rgb(29, 29, 31)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-radius": "0px",
+        "padding": "0px",
+        "gap": "normal",
+        "transition": "all",
+        "animation": "none",
+        "height": "24px",
+        "max-width": "none"
+      }
+    }
+  ],
+  "icons": {
+    "apple": "<svg height=\"44\" viewBox=\"0 0 14 44\" width=\"14\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z\"></path></svg>",
+    "search": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15px\" height=\"44px\" viewBox=\"0 0 15 44\">\n<path d=\"M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z\"></path>\n</svg>",
+    "bag": "<svg height=\"44\" viewBox=\"0 0 14 44\" width=\"14\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z\"></path></svg>",
+    "chevron": "<svg height=\"48\" viewBox=\"0 0 9 48\" width=\"9\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z\"></path></svg>"
+  },
+  "resources": [
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+      "file": "/apple_design/app/dist/client/api-www/global-elements/global-header/v1/assets/globalheader.css"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css"
+    },
+    {
+      "url": "https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css",
+      "file": "/apple_design/app/dist/client/ac/localnav/9/styles/ac-localnav.built.css"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3",
+      "file": "/apple_design/app/dist/client/fonts/source-fonts.css"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/styles/main.built.css",
+      "file": "/apple_design/app/dist/client/v/home/a/styles/main.built.css"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/styles/home.built.css",
+      "file": "/apple_design/app/dist/client/v/home/a/styles/home.built.css"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/built/styles/home-gallery.built.css",
+      "file": "/apple_design/app/dist/client/v/home/a/built/styles/home-gallery.built.css"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/styles/inline-media.built.css",
+      "file": "/apple_design/app/dist/client/v/home/a/styles/inline-media.built.css"
+    },
+    {
+      "url": "https://www.apple.com/home/built/styles/home_1qb7owdk.built.css",
+      "file": "/apple_design/app/dist/client/home/built/styles/home_1qb7owdk.built.css"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/head.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/head.built.js"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js",
+      "file": "/apple_design/app/dist/client/api-www/global-elements/global-header/v1/assets/globalheader.umd.js"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_ultralight.woff",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_ultralight.woff"
+    },
+    {
+      "url": "https://www.apple.com/ac/localnav/9/assets/ac-localnav/chevron/chevron-medium.svg",
+      "file": "/apple_design/app/dist/client/ac/localnav/9/assets/ac-localnav/chevron/chevron-medium.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_ultralight.ttf",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_ultralight.ttf"
+    },
+    {
+      "url": "https://www.apple.com/ac/localnav/9/assets/ac-localnav/chevron/chevron-small.svg",
+      "file": "/apple_design/app/dist/client/ac/localnav/9/assets/ac-localnav/chevron/chevron-small.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_ultralight.eot",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_ultralight.eot"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_thin.woff",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_thin.woff"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_thin.ttf",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_thin.ttf"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_thin.eot",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_thin.eot"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_text.woff",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_text.woff"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_text.ttf",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_text.ttf"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_text.eot",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/legacy/appleicons_text.eot"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/appletvplus/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/appletvplus/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/appletvplus/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/appletvplus/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/asa/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/asa/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/asa/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/asa/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/bag/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/bag/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/bag/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/bag/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/call/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/call/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/call/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/call/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/engraving/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/engraving/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/engraving/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/engraving/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/financing/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/financing/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/financing/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/financing/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/giftwrap/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/giftwrap/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/giftwrap/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/giftwrap/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/help/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/help/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/help/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/help/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/homekit/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/homekit/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/homekit/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/homekit/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/learning/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/learning/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/learning/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/learning/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/personal_setup/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/personal_setup/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/personal_setup/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/personal_setup/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/retail/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/retail/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/retail/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/retail/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/shipping/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/shipping/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/shipping/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/shipping/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/thirdparty_retail/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/thirdparty_retail/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/breadcrumbs/apple/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/breadcrumbs/apple/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/assets/ac-footer/breadcrumbs/separator/icon_large.svg",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/assets/ac-footer/breadcrumbs/separator/icon_large.svg"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.woff2"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.woff2",
+      "file": "/apple_design/app/dist/client/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.woff2"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1250x668sr.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+      "file": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1250x668sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1250x668sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/220x54.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/220x54.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/470x264.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/470x264.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/226x226SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/226x226SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/470x264.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/470x264.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/226x226SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/226x226SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/470x264.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/470x264.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/470x264.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/470x264.jpg"
+    },
+    {
+      "url": "https://www.apple.com/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js",
+      "file": "/apple_design/app/dist/client/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/bts2026.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/bts2026.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/built/scripts/endless-entertainment-gallery.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/built/scripts/endless-entertainment-gallery.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/inline-media.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/inline-media.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/main.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/main.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/home.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/home.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_mediumtall_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_largetall_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-event-september-2026/a/hero_apple_event_september_2026__fkq1w4m2h2eu_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_small_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_mediumtall_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_medium_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_largetall_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_startframe__cd4vg5frm39e_large_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_mediumtall_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_largetall_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/back-to-school-2026/a/hero_back_to_school_2026__cz07tzsg14sy_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_mediumtall_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_largetall_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-family/a/hero_iphone_family__be5jkzxszb1e_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/mac-mini/a/promo_mac_mini_m6__pwypzbjgopea_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/macbook-air-m5/a/promo_macbook_air_m5__e5xk2yysqiie_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_small_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_medium_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-air-m4/a/promo_ipad_air_m4__bgcv7t286k8y_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/ipad-pro/a/promo_ipad_pro__emtduc920o02_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_small_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_medium_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/iphone-tradein/a/promo_logo_iphone_tradein__bb7assu7ubo2_large_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/iphone-tradein/a/promo_iphone_tradein__e4hrjxmgmf0i_large_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_small_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_medium_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large_2x.png"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_small_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_medium_2x.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large_2x.jpg",
+      "file": "/apple_design/app/dist/client/v/home/images/apple-card/a/promo_apple_card__d8xz4kd4evwy_large_2x.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/b5/d5/3db5d5c0-808b-d357-a2f1-2240d614e2b0/e6663278-3bd4-4114-9f97-082e7c192453.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/eD8DZGJ170t3MyFhlWOkdw/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png",
+      "file": "/apple_design/app/dist/client/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small_2x.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/80/8a/0f808a66-ae1f-c96f-700c-576fd8583dc5/1877f2a7-55c3-4dd2-a57d-54edfa8791cb.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/b-b9eb0IET479YbfP-t1cA/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/b1/a8/83/b1a88315-7ac3-d5d3-4b4c-f57195124807/d49d5737-70c5-4df0-9067-5e87132ee561.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/bf/d7/aa/bfd7aa41-c3ef-51b1-bd47-1ceb10d7bb53/65cc7cce-58fb-4f87-bc9f-bd468a6cdfbd.png/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/50/e0/fc/50e0fc53-b627-fce0-2dbf-1b904f7a838b/99618edc-b794-4a5b-bfde-78c77f294d36.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hRaOrIKahRFcNlKt6UV4Ow/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/w6iOdqXGZLugnUgKmWZp0g/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/84/8f/ae/848fae9b-b050-f00b-33ff-54932b7c3f8b/fa693f23-c474-4eec-9a57-407d4b4af5f6.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/f6/7e/73/f67e7393-19c9-54b5-c439-5f1ccf75baa6/81c83e31-ee86-4dc6-800f-51215e1732f7.png/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/37/c2/6c37c2c2-5207-8f0f-d099-45cd384ffb18/d0d4a395-2bd5-41d5-907b-8efe7ab19bed.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/3aJOoInTKLjwSg8kv-ifDg/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/pQdOLq_2af0BOpHwvbC6vg/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/13/64/d9/1364d938-97c6-ec90-6ad1-3cb8882d3cb2/64570904-8b59-4032-b998-502902b395af.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/18/c7/bc/18c7bc4b-ce17-3cbe-edde-1292b78841e0/1a41ac7e-0e50-4801-92b2-847f50b8f02a.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/koGPFMce0cxPTuuHdx325g/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/hjNrUSK0q2WdGZr46dOQyw/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/274x496nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/274x496nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/548x992nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/aa/d0/f7/aad0f7e2-d20d-610a-ad83-e4c18d53808f/9fc84f34-217d-4161-8c71-a5064339d807.png/548x992nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/688x368sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/688x368sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1376x736sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1376x736sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/980x522sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/980x522sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1960x1044sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/1960x1044sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/2500x1336sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/CqMFl0CvUAUE1axxV4k-ew/2500x1336sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/440x108.png",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/440x108.png"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/122x122sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/122x122sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/244x244sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/244x244sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/196x196sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/196x196sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/392x392sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/392x392sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/452x452sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/452x452sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/188x254nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/188x254nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/376x508nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features116/v4/7b/5d/49/7b5d490a-a9b8-15e0-19d0-70e1f2c760d6/d675e2a7-8bb6-40e0-aa60-296128bb9668.png/376x508nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/417x234.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/417x234.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/834x468.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/834x468.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/940x528.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/940x528.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/188x254sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/188x254sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/376x508sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/90/41/5d9041f2-eab3-8246-64db-6e2744797607/ce5125c6-befb-4dd5-bbce-eb7b2786c80d.png/376x508sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/417x234.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/417x234.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/834x468.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/834x468.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/940x528.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/e6/09/c1e609c8-914d-6037-cda2-4cfdaf87a263/07eaa70a-574b-4abe-aea4-bcb530d837e3.png/940x528.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/122x122SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/122x122SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/244x244SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/244x244SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/196x196SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/196x196SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/392x392SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/392x392SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/452x452SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/c0/34/d2c034a9-4c6f-c97f-2cc8-85b056699f62/a6b27345-5c84-471f-99aa-c84fc695814e.png/452x452SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/188x254nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/188x254nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/376x508nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/05/52/d7/0552d754-8342-0858-7ba1-bc547e5a6efc/c89a1a25-7f92-4734-9374-0f0631d8a532.png/376x508nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/417x234.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/417x234.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/834x468.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/834x468.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/940x528.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/940x528.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/188x254sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/188x254sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/376x508sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/7f/d8/e1/7fd8e153-1462-33c3-aa8f-cb07fbb94d75/430982d0-95b2-497b-bcd6-3445305d7449.png/376x508sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/417x234.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/417x234.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/834x468.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/834x468.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/940x528.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Video221/v4/24/25/85/2425854a-14c7-fb09-533b-110aaf585363/HI_BW_0217_artwork_en_ID336111_0.png/940x528.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/122x122SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/122x122SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/244x244SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/244x244SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/196x196SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/196x196SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/392x392SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/392x392SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/452x452SC.DN01.jpg?l=en-US",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features/v4/da/39/f5/da39f55d-14f1-68df-21a7-c1fdd4de5303/f1a2cd59-4a5e-43c2-bb87-d3f4e1210317.png/452x452SC.DN01.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/188x254nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/188x254nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/376x508nr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/48/a0/a2/48a0a2d6-9878-205d-182a-538873fe6fd0/334b5005-d020-4198-9d5b-6314adc8f158.png/376x508nr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/417x234.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/417x234.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/834x468.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/834x468.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/940x528.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/89/07/9c/89079c5b-29da-cd1f-4ce3-ad68f3d28a68/f0346506-4c9f-4be1-b275-11fa4004b103.png/940x528.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/188x254sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/188x254sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/376x508sr.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features221/v4/63/79/eb/6379ebdd-976c-11a5-0258-5c5f589b0031/681367fd-f322-4b95-93bf-f906975df4c4.png/376x508sr.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/417x234.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/417x234.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/834x468.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/834x468.jpg"
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/940x528.jpg",
+      "file": "/apple_design/app/dist/client/external/is1-ssl.mzstatic.com/image/thumb/Features211/v4/2a/75/df/2a75df27-703b-4712-6d95-9c9e29ca1dc6/fa77ffdb-61aa-47e7-920a-7da1876f3929.png/940x528.jpg"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/largetall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/largetall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/largetall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/largetall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/largetall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/largetall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/largetall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/largetall.webm"
+    },
+    {
+      "url": "https://www.apple.com/v/apple-events/home/ak/built/assets/event/event.ics",
+      "file": "/apple_design/app/dist/client/v/apple-events/home/ak/built/assets/event/event.ics"
+    },
+    {
+      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=en_US",
+      "file": "/apple_design/app/dist/client/api-www/global-elements/global-header/v1/flyouts.json"
+    },
+    {
+      "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US",
+      "file": "/apple_design/app/dist/client/search-services/suggestions/defaultlinks/index.json"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/ComponentMap-thvKzGgL.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/ComponentMap-thvKzGgL.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/inlineMediaSource-9OnjO25M.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/inlineMediaSource-9OnjO25M.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/HpViewport-DHyTaS-L.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/HpViewport-DHyTaS-L.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/_commonjsHelpers-JypJ4tLA.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/_commonjsHelpers-JypJ4tLA.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/AnimSystemModel-CyyfEbM8.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/AnimSystemModel-CyyfEbM8.built.js"
+    },
+    {
+      "url": "https://www.apple.com/v/home/a/scripts/index-DSp7vY0t.built.js",
+      "file": "/apple_design/app/dist/client/v/home/a/scripts/index-DSp7vY0t.built.js"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/small.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/small.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/medium.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/medium.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/mediumtall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/mediumtall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/large.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/hero/large.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/medium.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/medium.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/mediumtall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/mediumtall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/large.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-2/large.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/medium.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/medium.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/mediumtall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/mediumtall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/large.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-1/large.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/medium.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/medium.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/mediumtall.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/mediumtall.webm"
+    },
+    {
+      "url": "https://www.apple.com/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/large.webm",
+      "file": "/apple_design/app/dist/client/105/media/us/home/2026/0728f380-24a1-41b4-8575-8f63d7f3afb9/anim/solo-3/large.webm"
+    }
+  ],
+  "failures": [],
+  "omittedFontVariants": [
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_heavy-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_black-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_ultralight.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_thin.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_thin.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_thin.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_medium.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_medium.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_medium.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_bold.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_bold.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_bold.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_heavy.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_heavy.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_heavy.ttf",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_black.woff2",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_black.woff",
+      "error": "Error: 404"
+    },
+    {
+      "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_black.ttf",
+      "error": "Error: 404"
+    }
+  ],
+  "notes": [
+    "Unused unavailable font variants omitted from runtime stylesheet; full upstream font stylesheet preserved in evidence/source/fonts-full.css.",
+    "Product media supports the runnable homepage; code library excludes standalone raster files."
+  ]
+}

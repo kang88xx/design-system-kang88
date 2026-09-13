@@ -1,0 +1,563 @@
+{
+  "version": 3,
+  "scope": "Public Family landing design + observed nine app films; unavailable private original code replaced explicitly",
+  "counts": {
+    "motionComponents": 22,
+    "appFlows": 9,
+    "layoutRecipes": 5
+  },
+  "items": [
+    {
+      "id": "hero-entry-shapes",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-hero-entry-shapes",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·네이티브 재구성",
+      "behavior": "히어로 제목은 rotateX -45deg/y 100%에서 올라오고, 69개 원본 shape SVG가 y40/scale0에서 spring처럼 정착합니다. dragSnapToOrigin, dragElastic .1, bounceStiffness 600, bounceDamping 20을 네이티브 pointer drag/spring으로 근사했습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "nav-dropdown",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-nav-dropdown",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "CSS·영상 관찰",
+      "behavior": "Developers 드롭다운은 scale .96에서 1로 커지고 opacity가 빠르게 올라옵니다. 패널 shadow/radius는 현재 사이트 CSS 관찰값을 반영했습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "pill-cta",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-pill-cta",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "CSS 수치·재구성",
+      "behavior": "원형 CTA는 100ms 배경 피드백을 기본으로 하고, 가입/제출 상황에 필요한 loading 및 success 상태를 Family 스타일로 보완했습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "waitlist-validation",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-waitlist-validation",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "토큰 기반·재구성",
+      "behavior": "과거 영상의 waitlist CTA를 기준으로 valid/invalid 토큰을 적용한 이메일 검증 상태입니다. 실제 서버 제출은 하지 않습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "backup-success",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-backup-success",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·재구성",
+      "behavior": "Secure Bento의 3상태 루프와 ring/shield pulse를 백업 성공 배지 썸네일로 재구성했습니다. 2초마다 상태가 바뀌고 ring은 1초 easeInOut로 낮게 맥박칩니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "timeline-status",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-timeline-status",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·재구성",
+      "behavior": "Fast Bento의 날짜/상태 패널 reshuffle을 submitted, pending, completed 타임라인으로 번역했습니다. 원본처럼 hover가 아니라 보이는 동안 2초 cadence로 순환합니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "urgency-selector",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-urgency-selector",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치",
+      "behavior": "Powerful Bento의 실제 15 → 60 → 30 → 15 숫자 tween을 반영했습니다. 선택 pill은 직접 누를 수 있고, 자동 루프는 보이는 동안만 돕니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "fun-carousel",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-fun-carousel",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·원본 에셋·재구성",
+      "behavior": "Fun Bento는 9개 상태가 2초마다 이동하고 active bubble이 1.25배가 됩니다. 추출된 원본 emoji PNG 10개를 rail에 넣고 원본 cadence로 재구성했습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "send-receive-swap",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-send-receive-swap",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·CSS",
+      "behavior": "Easy Bento의 Send → Swap → Receive → Purchase 4개 row 루프와 원본 CSS 아이콘 keyframe을 합쳤습니다. 각 버튼으로도 같은 모션을 재생할 수 있습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "padlock-security",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-padlock-security",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "영상 관찰·재구성",
+      "behavior": "Security 섹션의 큰 자물쇠 계열 이미지를 단순 SVG로 재구성하고 잠금/해제 상태를 확인할 수 있게 했습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "activity-addition",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-activity-addition",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "영상 관찰·재구성",
+      "behavior": "Activity 데모에서 보이는 리스트 갱신을 거래 row 추가 애니메이션으로 재현합니다. 실제 거래 전송은 없습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "nft-progress-star",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-nft-progress-star",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "영상 관찰",
+      "behavior": "NFT 미디어 진행바와 원형 favorite 컨트롤 등장을 thumbnail stage로 재현합니다. star 상태는 클릭으로 토글됩니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "transaction-toast",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-transaction-toast",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·재구성",
+      "behavior": "Details의 Monitor In Real-Time 3상태 카드 deck cadence를 토스트 제출/완료 preview로 재구성했습니다. 보이는 동안 2초마다 상태가 바뀝니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "protection-badges",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-protection-badges",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·재구성",
+      "behavior": "Protect Your Assets의 두 상태 warning/protection pill을 shield/check/cross badge로 풀었습니다. 원본 cadence인 1.75초 자동 전환을 반영합니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "wallet-assets",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-wallet-assets",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·재구성",
+      "behavior": "Organise Your Wallet의 ETH/USDC row phase와 숫자 tween을 자산 리스트로 재구성했습니다. row reorder와 잔액 변경이 자동/수동으로 동작합니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "wallet-grouping",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-wallet-grouping",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·재구성",
+      "behavior": "See Everything Clearly의 start/end grouping sequence를 selectable wallet group으로 구현했습니다. 2초마다 관계 표시가 전환됩니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "testimonial-rail",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-testimonial-rail",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "CSS 수치",
+      "behavior": "원본 CSS에서 확인된 testimonial row translateX 120초 루프입니다. 화면 밖에서는 pause하고, 사용자가 정지할 수 있습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "faq-accordion",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-faq-accordion",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치·네이티브 spring",
+      "behavior": "실제 FAQ는 한 항목만 열리고, answer height와 opacity, plus/minus bar가 서로 다른 spring 수치로 움직입니다. 이 카드에서는 JS spring keyframe을 생성해 네이티브 WAAPI로 실행합니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "article-hover",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-article-hover",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "CSS 수치",
+      "behavior": "article 이미지 hover scale 1.02 패턴을 카드 썸네일로 보여줍니다. 터치 환경에서는 액션 버튼으로 같은 상태를 토글합니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "mobile-menu",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-mobile-menu",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "모바일 관찰·재구성",
+      "behavior": "모바일 햄버거의 200ms transform 관찰값을 기준으로 sheet opening을 재구성했습니다. 실제 모바일 메뉴 녹화는 없어서 재구성 라벨을 붙였습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "wallet-drag-reorder",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-wallet-drag-reorder",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "영상 관찰·재구성",
+      "behavior": "Drag and Drop 데모를 실제 drag/drop 가능한 카드와 위/아래 버튼으로 구현했습니다. 키보드와 터치 대체 조작을 함께 제공합니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "footer-reveal",
+      "type": "motion-component",
+      "status": "reconstructed",
+      "preview": "index.html#fm-footer-reveal",
+      "implementationPaths": [
+        "motion-library.js",
+        "motion-library.css"
+      ],
+      "evidencePaths": [
+        "motion-source-tokens.json",
+        "references/v2-research/motion-source-report.md"
+      ],
+      "observedEvidence": "원본 수치",
+      "behavior": "Footer CTA는 로드가 아니라 viewport 진입 amount .25에서 한 번 실행됩니다. 개별 path가 .025초 간격으로 등장하는 원본 spring 수치를 썸네일로 재현했습니다.",
+      "limitation": "공개 수치·관찰 기반 DOM/SVG renderer. 원본 앱 또는 원본 Framer 컴포넌트 소스가 아님."
+    },
+    {
+      "id": "app-send",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#send",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/send.mp4",
+        "references/v2-source/previews/send-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "대상·금액 입력 → 확인 → 완료",
+      "limitation": "토큰 금액 입력·검증·완료는 대체 상태. 원본 NFT 선택 화면 전체를 복구한 것은 아님."
+    },
+    {
+      "id": "app-receive",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#receive",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/receive.mp4",
+        "references/v2-source/previews/receive-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "샘플 주소 카드 → 주소 복사",
+      "limitation": "QR 원본은 영상에서 보존. 대체 화면에서는 샘플 주소 복사로 대체."
+    },
+    {
+      "id": "app-swap",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#swap",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/swap.mp4",
+        "references/v2-source/previews/swap-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "자산·금액 입력 → 교환 예상 → 확인 → 완료",
+      "limitation": "환율 고정 데모. 견적 엔진·서버는 원본 소스 아님."
+    },
+    {
+      "id": "app-nft",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#nft",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/nft.mp4",
+        "references/v2-source/previews/nft-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "미디어 표시 → 즐겨찾기 → 정보 펼침",
+      "limitation": "개별 NFT 에셋 대신 원본 홍보 이미지 사용. 전체 네이티브 뷰어 아님."
+    },
+    {
+      "id": "app-watch",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#watch",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/watch.mp4",
+        "references/v2-source/previews/watch-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "주소 입력 → 읽기 전용 자산 목록",
+      "limitation": "조회·잔액은 로컬 데모."
+    },
+    {
+      "id": "app-activity",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#activity",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/activity.mp4",
+        "references/v2-source/previews/activity-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "거래 내역 → 분류 → 새 내역 추가",
+      "limitation": "실시간 거래 피드 대신 메모리 내 예제."
+    },
+    {
+      "id": "app-onboarding",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#onboarding",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/onboarding.mp4",
+        "references/v2-source/previews/onboarding-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "Import / Restore / Watch → 로컬 확인 → 완료",
+      "limitation": "비밀 인증 절차 대신 샘플 완료. 입력할 비밀 정보 없음."
+    },
+    {
+      "id": "app-missioncontrol",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#missioncontrol",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/missioncontrol.mp4",
+        "references/v2-source/previews/missioncontrol-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "지갑 카드 선택 → 그룹 지정 → 완료",
+      "limitation": "현재 페이지 메모리에만 적용하는 그룹화 예제."
+    },
+    {
+      "id": "app-dragdropdone",
+      "type": "private-app-flow",
+      "status": "reconstructed",
+      "preview": "app-reconstructions.html#dragdropdone",
+      "implementationPaths": [
+        "app-reconstructions.html",
+        "app-reconstructions.js",
+        "app-reconstructions.css"
+      ],
+      "evidencePaths": [
+        "references/v2-source/videos/dragdropdone.mp4",
+        "references/v2-source/previews/dragdropdone-storyboard.jpg"
+      ],
+      "observedEvidence": "원본 앱 영상",
+      "behavior": "자산 목록 → 드래그 또는 위/아래 이동 → 재정렬",
+      "limitation": "키보드/터치 버튼을 보완한 DOM 재구성."
+    },
+    {
+      "id": "responsive-layouts",
+      "type": "layout",
+      "status": "reconstructed",
+      "preview": "layout-recipes.html",
+      "implementationPaths": [
+        "layout-recipes.html"
+      ],
+      "evidencePaths": [
+        "references/live-desktop.json",
+        "references/live-mobile.json",
+        "source-coverage.json"
+      ],
+      "behavior": "Bento / Split / Phones / Feature grid / Sticky details 다섯 반응형 레시피",
+      "limitation": "원본 CSS/관찰값을 적용한 독립 HTML 레이아웃 예제."
+    }
+  ]
+}

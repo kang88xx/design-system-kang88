@@ -1,0 +1,272 @@
+[
+  {
+    "id": "gmail",
+    "name": "Gmail",
+    "productUrl": "https://workspace.google.com/products/gmail/",
+    "policyUrl": "https://about.google/brand-resource-center/products-and-services/",
+    "observedImageCount": 29,
+    "status": "official-observed-reference",
+    "redistribution": "ask-first",
+    "representative": {
+      "observedAssetId": "observed-68073e7e45b6",
+      "category": "product-logo",
+      "width": 109,
+      "height": 40,
+      "palette": [
+        "#FC413D",
+        "#FA413E",
+        "#FC423D",
+        "#FD413D",
+        "#FC423E"
+      ],
+      "privateLocalFile": "product-logo/logo_gmail_lockup_default_1x_r7-68073e7e45.png",
+      "sourceUrl": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r7.png",
+      "displayMode": "leading-symbol-crop",
+      "displaySize": {
+        "width": 40,
+        "height": 40
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "calendar",
+    "name": "Google Calendar",
+    "productUrl": "https://workspace.google.com/products/calendar/",
+    "policyUrl": "https://about.google/brand-resource-center/products-and-services/",
+    "observedImageCount": 9,
+    "status": "official-observed-reference",
+    "redistribution": "ask-first",
+    "representative": {
+      "observedAssetId": "observed-21bcd65568cf",
+      "category": "product-logo",
+      "width": 96,
+      "height": 96,
+      "palette": [
+        "#BBE2FF",
+        "#3C90FF",
+        "#3D90FF",
+        "#3C8FFF",
+        "#499BFF"
+      ],
+      "privateLocalFile": "product-logo/calendar_2026_01_96dp-21bcd65568.png",
+      "sourceUrl": "https://www.gstatic.com/images/branding/productlogos/calendar_2026_01/v2/png/calendar_2026_01_96dp.png",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 52,
+        "height": 52
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "drive",
+    "name": "Google Drive",
+    "productUrl": "https://workspace.google.com/products/drive/",
+    "policyUrl": "https://about.google/brand-resource-center/products-and-services/",
+    "observedImageCount": 7,
+    "status": "official-observed-reference",
+    "redistribution": "ask-first",
+    "representative": {
+      "observedAssetId": "observed-c7469a9f91bd",
+      "category": "product-logo",
+      "width": 48,
+      "height": 48,
+      "palette": [
+        "#3186FF",
+        "#0EBC5F",
+        "#FECE07",
+        "#FECC05",
+        "#FECF08"
+      ],
+      "privateLocalFile": "product-logo/logo_drive_2026_color_1x_web_48dp-c7469a9f91.png",
+      "sourceUrl": "https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 48,
+        "height": 48
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "meet",
+    "name": "Google Meet",
+    "productUrl": "https://workspace.google.com/products/meet/",
+    "policyUrl": "https://about.google/brand-resource-center/guidance/",
+    "observedImageCount": 4,
+    "status": "official-observed-reference",
+    "redistribution": "general-brand-guidance",
+    "representative": {
+      "observedAssetId": "observed-b0ea9acd3ec6",
+      "category": "product-logo",
+      "width": 124,
+      "height": 40,
+      "palette": [
+        "#FBB100",
+        "#FECC05",
+        "#FECA03",
+        "#FECD06",
+        "#FAAD01"
+      ],
+      "privateLocalFile": "product-logo/logo_meet_2026_1x_6468c1b9f0dedbff2aa2a8e003f73eca-b0ea9acd3e.png",
+      "sourceUrl": "https://www.gstatic.com/meet/icons/logo_meet_2026_1x_6468c1b9f0dedbff2aa2a8e003f73eca.png",
+      "displayMode": "leading-symbol-crop",
+      "displaySize": {
+        "width": 40,
+        "height": 40
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "finance",
+    "name": "Google Finance",
+    "productUrl": "https://www.google.com/finance/beta",
+    "policyUrl": "https://about.google/brand-resource-center/guidance/",
+    "observedImageCount": 1,
+    "status": "official-observed-reference",
+    "redistribution": "general-brand-guidance",
+    "representative": {
+      "observedAssetId": "finance-play-store-app-icon-2026",
+      "category": "official-app-icon",
+      "width": 256,
+      "height": 256,
+      "palette": [
+        "#4285F4",
+        "#0F9D58",
+        "#F4B400",
+        "#DB4437"
+      ],
+      "privateLocalFile": null,
+      "sourceUrl": "https://play-lh.googleusercontent.com/DbcRfwWKElMfl7RVuhcBHbEmxzhB-1xZjht0PAsuar3ku89ETH48AF2bvs2jJeca9L5dJvJGS1LIkXeeKvCV5w=s256",
+      "sourcePage": "https://play.google.com/store/apps/details?id=com.google.android.apps.finance",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 52,
+        "height": 52
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "keep",
+    "name": "Google Keep",
+    "productUrl": "https://workspace.google.com/products/keep/",
+    "policyUrl": "https://about.google/brand-resource-center/guidance/",
+    "observedImageCount": 1,
+    "status": "official-observed-reference",
+    "redistribution": "general-brand-guidance",
+    "representative": {
+      "observedAssetId": "observed-0d7247c653bd",
+      "category": "companion-app-icon",
+      "width": 48,
+      "height": 48,
+      "palette": [
+        "#F6A100",
+        "#FFBF02",
+        "#FFC103",
+        "#FFC0D1",
+        "#FFBBDA"
+      ],
+      "privateLocalFile": "companion-app-icon/keep_2026_2x-0d7247c653.png",
+      "sourceUrl": "https://www.gstatic.com/companion/icon_assets/keep_2026_2x.png",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 48,
+        "height": 48
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "contacts",
+    "name": "Google Contacts",
+    "productUrl": "https://contacts.google.com/",
+    "policyUrl": "https://about.google/brand-resource-center/guidance/",
+    "observedImageCount": 1,
+    "status": "official-observed-reference",
+    "redistribution": "general-brand-guidance",
+    "representative": {
+      "observedAssetId": "observed-880bd59b9870",
+      "category": "companion-app-icon",
+      "width": 40,
+      "height": 40,
+      "palette": [
+        "#0057CC",
+        "#578CFF",
+        "#005AD4",
+        "#89ACFF",
+        "#0056CC"
+      ],
+      "privateLocalFile": "companion-app-icon/contacts_2022_2x-880bd59b98.png",
+      "sourceUrl": "https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 40,
+        "height": 40
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "tasks",
+    "name": "Google Tasks",
+    "productUrl": "https://workspace.google.com/products/tasks/",
+    "policyUrl": "https://about.google/brand-resource-center/guidance/",
+    "observedImageCount": 1,
+    "status": "official-observed-reference",
+    "redistribution": "general-brand-guidance",
+    "representative": {
+      "observedAssetId": "observed-cac484c4fcd3",
+      "category": "companion-app-icon",
+      "width": 48,
+      "height": 48,
+      "palette": [
+        "#3186FF",
+        "#BBE2FF",
+        "#3185FF",
+        "#3085FF",
+        "#3286FF"
+      ],
+      "privateLocalFile": "companion-app-icon/tasks_2026_2x-cac484c4fc.png",
+      "sourceUrl": "https://www.gstatic.com/companion/icon_assets/tasks_2026_2x.png",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 48,
+        "height": 48
+      },
+      "referenceOnly": true
+    }
+  },
+  {
+    "id": "maps",
+    "name": "Google Maps",
+    "productUrl": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/",
+    "policyUrl": "https://developers.google.com/maps/documentation/geolocation/policies",
+    "observedImageCount": 1,
+    "status": "conditional-attribution-reference",
+    "redistribution": "maps-api-context-only",
+    "representative": {
+      "observedAssetId": "observed-61c2310b2780",
+      "category": "product-logo",
+      "width": 48,
+      "height": 48,
+      "palette": [
+        "#0DBB62",
+        "#0DBA66",
+        "#0DBA65",
+        "#0EBB61",
+        "#0DB965"
+      ],
+      "privateLocalFile": "product-logo/logo_maps_2025_color_2x_web_24dp-61c2310b27.png",
+      "sourceUrl": "https://www.gstatic.com/images/branding/productlogos/maps_2025/v1/web-24dp/logo_maps_2025_color_2x_web_24dp.png",
+      "displayMode": "contain",
+      "displaySize": {
+        "width": 48,
+        "height": 48
+      },
+      "referenceOnly": true
+    }
+  }
+]

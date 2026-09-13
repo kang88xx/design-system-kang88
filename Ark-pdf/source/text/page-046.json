@@ -1,0 +1,692 @@
+{
+  "page": 46,
+  "width": 1920.0,
+  "height": 1080.0,
+  "plainText": "VISION 1.0\nMARCH 2025\nwww.arkprefab.com\n\n46\n\n01\nResponse\n02\nDiagnosis & Plan\n03\nExecution\n04\nFollow-up & Improvement\n\nWe respond to your inquiries and feedback promptly,\nwithin 24 hours.Our team will assess the situation and\nprovide a clear action plan.\n\nTechnical experts analyze the issue and confirm\nwhether remote or on-site support is needed.\nWe provide a transparent solution timeline and\ncommunicate every step.\n\nWe deliver maintenance, replacement, or repair\naccording to the agreed plan—efficiently and safely.\nOur team ensures minimal disruption to your\noperations.\n\nAfter service completion, we follow up to ensure\nsatisfaction.We document all cases to improve future\nperformance and customer experience.\n\nTo provide responsive, reliable, and professional\nafter-sales support.\nOur dedicated team ensures timely maintenance,\ntechnical assistance, and long-term service for every\nproject we deliver.\n\nWe Promise\n\nCOMMITMENT AND PROCESS OF\nAFTER-SALES MAINTENANCE SERVICES\n\nYour satisfaction and safety are at the core of\neverything we do.",
+  "spans": [
+    {
+      "text": "VISION 1.0",
+      "bbox": [
+        54.264,
+        1027.348,
+        105.594,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        54.264,
+        1036.328
+      ]
+    },
+    {
+      "text": "MARCH 2025",
+      "bbox": [
+        512.889,
+        1027.348,
+        579.529,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        512.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "www.arkprefab.com",
+      "bbox": [
+        1767.889,
+        1027.348,
+        1865.929,
+        1038.328
+      ],
+      "font": "Gotham-Light",
+      "size": 10.0,
+      "color": "#516086",
+      "flags": 4,
+      "ascender": 0.898,
+      "descender": -0.2,
+      "origin": [
+        1767.889,
+        1036.328
+      ]
+    },
+    {
+      "text": "46",
+      "bbox": [
+        1853.508,
+        41.993,
+        1867.018,
+        53.313
+      ],
+      "font": "Gotham-Bold",
+      "size": 10.0,
+      "color": "#434343",
+      "flags": 20,
+      "ascender": 0.932,
+      "descender": -0.2,
+      "origin": [
+        1853.508,
+        51.313
+      ]
+    },
+    {
+      "text": "01",
+      "bbox": [
+        52.5,
+        795.9,
+        80.375,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        52.5,
+        818.95
+      ]
+    },
+    {
+      "text": "Response",
+      "bbox": [
+        116.5,
+        795.9,
+        238.2,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        116.5,
+        818.95
+      ]
+    },
+    {
+      "text": "02",
+      "bbox": [
+        510.5,
+        795.9,
+        543.675,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        510.5,
+        818.95
+      ]
+    },
+    {
+      "text": "Diagnosis & Plan",
+      "bbox": [
+        594.5,
+        795.9,
+        803.125,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        594.5,
+        818.95
+      ]
+    },
+    {
+      "text": "03",
+      "bbox": [
+        968.5,
+        795.9,
+        1001.8,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        968.5,
+        818.95
+      ]
+    },
+    {
+      "text": "Execution",
+      "bbox": [
+        1052.5,
+        795.9,
+        1177.075,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1052.5,
+        818.95
+      ]
+    },
+    {
+      "text": "04",
+      "bbox": [
+        1426.5,
+        795.9,
+        1461.625,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1426.5,
+        818.95
+      ]
+    },
+    {
+      "text": "Follow-up & Improvement",
+      "bbox": [
+        1510.5,
+        795.9,
+        1836.975,
+        823.95
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1510.5,
+        818.95
+      ]
+    },
+    {
+      "text": "We respond to your inquiries and feedback promptly, ",
+      "bbox": [
+        54.862,
+        860.557,
+        482.27,
+        878.269
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        54.862,
+        875.069
+      ]
+    },
+    {
+      "text": "within 24 hours.Our team will assess the situation and ",
+      "bbox": [
+        54.862,
+        883.085,
+        484.99,
+        900.797
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        54.862,
+        897.597
+      ]
+    },
+    {
+      "text": "provide a clear action plan.",
+      "bbox": [
+        54.862,
+        905.613,
+        269.327,
+        923.325
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        54.862,
+        920.125
+      ]
+    },
+    {
+      "text": "Technical experts analyze the issue and confirm ",
+      "bbox": [
+        514.862,
+        860.557,
+        896.926,
+        878.269
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        514.862,
+        875.069
+      ]
+    },
+    {
+      "text": "whether remote or on-site support is needed. ",
+      "bbox": [
+        514.862,
+        883.085,
+        880.062,
+        900.797
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        514.862,
+        897.597
+      ]
+    },
+    {
+      "text": "We provide a transparent solution timeline and ",
+      "bbox": [
+        514.862,
+        905.613,
+        891.694,
+        923.325
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        514.862,
+        920.125
+      ]
+    },
+    {
+      "text": "communicate every step.",
+      "bbox": [
+        514.862,
+        928.141,
+        713.342,
+        945.853
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        514.862,
+        942.653
+      ]
+    },
+    {
+      "text": "We deliver maintenance, replacement, or repair ",
+      "bbox": [
+        972.862,
+        860.557,
+        1352.511,
+        878.269
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        972.862,
+        875.069
+      ]
+    },
+    {
+      "text": "according to the agreed plan—efficiently and safely. ",
+      "bbox": [
+        972.862,
+        883.085,
+        1388.175,
+        900.797
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        972.862,
+        897.597
+      ]
+    },
+    {
+      "text": "Our team ensures minimal disruption to your ",
+      "bbox": [
+        972.862,
+        905.613,
+        1332.303,
+        923.325
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        972.862,
+        920.125
+      ]
+    },
+    {
+      "text": "operations.",
+      "bbox": [
+        972.862,
+        928.141,
+        1061.311,
+        945.853
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        972.862,
+        942.653
+      ]
+    },
+    {
+      "text": "After service completion, we follow up to ensure ",
+      "bbox": [
+        1430.863,
+        860.557,
+        1819.872,
+        878.269
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1430.863,
+        875.069
+      ]
+    },
+    {
+      "text": "satisfaction.We document all cases to improve future ",
+      "bbox": [
+        1430.863,
+        883.085,
+        1854.688,
+        900.797
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1430.863,
+        897.597
+      ]
+    },
+    {
+      "text": "performance and customer experience.",
+      "bbox": [
+        1430.863,
+        905.613,
+        1741.759,
+        923.325
+      ],
+      "font": "Gotham-Book",
+      "size": 16.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.907,
+      "descender": -0.2,
+      "origin": [
+        1430.863,
+        920.125
+      ]
+    },
+    {
+      "text": "To provide responsive, reliable, and professional ",
+      "bbox": [
+        511.596,
+        295.898,
+        1123.347,
+        323.948
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        511.596,
+        318.948
+      ]
+    },
+    {
+      "text": "after-sales support. ",
+      "bbox": [
+        511.596,
+        328.698,
+        763.321,
+        356.748
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        511.596,
+        351.748
+      ]
+    },
+    {
+      "text": "Our dedicated team ensures timely maintenance, ",
+      "bbox": [
+        511.596,
+        361.498,
+        1134.947,
+        389.548
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        511.596,
+        384.548
+      ]
+    },
+    {
+      "text": "technical assistance, and long-term service for every ",
+      "bbox": [
+        511.596,
+        394.298,
+        1178.096,
+        422.348
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        511.596,
+        417.348
+      ]
+    },
+    {
+      "text": "project we deliver.",
+      "bbox": [
+        511.596,
+        427.098,
+        742.596,
+        455.148
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        511.596,
+        450.148
+      ]
+    },
+    {
+      "text": "We Promise",
+      "bbox": [
+        54.588,
+        284.871,
+        349.323,
+        339.849
+      ],
+      "font": "Gotham-Medium",
+      "size": 49.0,
+      "color": "#A9A9A9",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        54.588,
+        330.049
+      ]
+    },
+    {
+      "text": "COMMITMENT AND PROCESS OF ",
+      "bbox": [
+        47.77,
+        27.221,
+        1469.989,
+        122.591
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        105.591
+      ]
+    },
+    {
+      "text": "AFTER-SALES MAINTENANCE SERVICES",
+      "bbox": [
+        47.77,
+        110.265,
+        1765.45,
+        205.635
+      ],
+      "font": "Gotham-Medium",
+      "size": 85.0,
+      "color": "#061A58",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        47.77,
+        188.635
+      ]
+    },
+    {
+      "text": "Your satisfaction and safety are at the core of ",
+      "bbox": [
+        1196.596,
+        295.898,
+        1775.672,
+        323.948
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1196.596,
+        318.948
+      ]
+    },
+    {
+      "text": "everything we do.",
+      "bbox": [
+        1196.596,
+        328.698,
+        1421.071,
+        356.748
+      ],
+      "font": "Gotham-Medium",
+      "size": 25.0,
+      "color": "#1A2646",
+      "flags": 4,
+      "ascender": 0.922,
+      "descender": -0.2,
+      "origin": [
+        1196.596,
+        351.748
+      ]
+    }
+  ]
+}

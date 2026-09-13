@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://lusion.co/about?JUMP_SECTION=about-who-team&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/about-who-team-0.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "about-who-team",
+        "top": 50,
+        "height": 800,
+        "text": ""
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/about?JUMP_SECTION=about-clients&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/about-clients-0.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "about-clients",
+        "top": 0,
+        "height": 974.484375,
+        "text": "BRANDS\nBRANDS\nBRANDS\nWE\nWE\nWE\nWORK\nWORK\nWORK\nWITH\nWITH\nWITH\nTRUSTED BY GLOBAL BRANDS, CULTURAL INSTITUTIONS, AND FORWARD THINKING TEAMS."
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/about?JUMP_SECTION=about-award&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/about-award-0.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "about-award",
+        "top": 0,
+        "height": 1666.65625,
+        "text": "AWARDS\n\n58\n\nAwwwards\n\n001\n\nSite of the Year\n\n001\n\nDeveloper Site of the Year\n\n001\n\nSite of the Month\n\n010\n\nSite of the Day\n\n016\n\nHonorable Mention\n\nFWA\n\n001\n\nSite of the Year\n\n002\n\nSite of the Month\n\n017\n\nSite of the Day\n\nCSSDA\n\n001\n\nSite of the Year\n\n001\n\nAgency Site of the Year\n\nWebby Awards\n\n002\n\nWebby Winner\n\n002\n\nWebby Nominee\n\nLovie Awards\n\n001\n\nLovie Winner\n\nDrum Awards\n\n001\n\nThe Drum Awards for Design\n\nCommArts\n\n001\n\nBest-in-show Interactive\n\nARTICLES\n\n03\n\nPorsche Newsroom - Driven By Dream\nWallpaper - Driven by Dreams\nOpera North - The Turn of the Screw\nTALKS\n\n5\n\nDigital Design Days\n\nOct 2024 Milan\n\nAwwwards Conf\n\nOct 2023 Amsterdam\n\nKIKK Festival\n\nOct 2023 Namur\n\nAwwwards Conf\n\nOct 2022 Amsterdam\n\nGrow Paris\n\nNov 2018 Paris"
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/about?JUMP_SECTION=about-capability&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/about-capability-0.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "about-capability",
+        "top": 0,
+        "height": 3745.3125,
+        "text": "AREA OF\nEXPERTISE\nMULTIDISCIPLINARY EXPERTISE ACROSS\nSTRATEGY, CREATIVE, TECHNOLOGY, AND\nPRODUCTION.\nS\nD\nT\n3\n\nSTRATEGY\n\ns\nDigital Experience Strategy\nTechnology Strategy\nCreative Direction\nDiscovery\nResearch\n\nSTRATEGY\n\ns\n\nCREATIVE\n\nc\nArt Direction\nUX/UI Design\nMotion Design\nInteractive Design\nIllustration\n\nCREATIVE\n\nc\n\nTECH\n\nt\nWebGL Development\nFront End Development\nUnity/Unreal\nInteractive Installations\nAR and VR Experiences\n\nTECH\n\nt\n\nPRODUCTION\n\nP\nProcedural Modeling\n3D Asset Creation\n3D Optimization\nAnimation\n3D Pipeline Development\n\nPRODUCTION\n\nP"
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-0.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": 0,
+        "height": 39632.5625,
+        "text": "Where Creative Ideas\nBecome Immersive\nExperiences\nWe do not chase trends or produce work that looks like everyone else. We focus on creating visually distinctive digital experiences that reflect your brand, engage your audience, and make people remember what they saw.\nOur process blends creative direction, 3D craft, and interactive development to build tailored digital journeys that feel original, polished, and built for impact."
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=2&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-2.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -1800,
+        "height": 39632.5625,
+        "text": "Where Creative Ideas\nBecome Immersive\nExperiences\nWe do not chase trends or produce work that looks like everyone else. We focus on creating visually distinctive digital experiences that reflect your brand, engage your audience, and make people remember what they saw.\nOur process blends creative direction, 3D craft, and interactive development to build tailored digital journeys that feel original, polished, and built for impact."
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=6&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-6.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -5400,
+        "height": 39632.5625,
+        "text": "STEPINTOANEWWORLD\nANDLETYOUR\nIMAGINATIONRUNWILD"
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=footer&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/footer-0.png",
+    "target": [],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=12&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-12.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -10800,
+        "height": 39632.5625,
+        "text": ""
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=20&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-20.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -18000,
+        "height": 39632.5625,
+        "text": ""
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=28&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-28.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -25200,
+        "height": 39632.5625,
+        "text": ""
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=36&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-36.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -32400,
+        "height": 39632.5625,
+        "text": ""
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=home-goal&JUMP_OFFSET=42&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/home-goal-42.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "home-goal",
+        "top": -37800,
+        "height": 39632.5625,
+        "text": "Where Creative Ideas\nBecome Immersive\nExperiences\nWe do not chase trends or produce work that looks like everyone else. We focus on creating visually distinctive digital experiences that reflect your brand, engage your audience, and make people remember what they saw.\nOur process blends creative direction, 3D craft, and interactive development to build tailored digital journeys that feel original, polished, and built for impact."
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/?JUMP_SECTION=footer-section&JUMP_OFFSET=0&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/footer-section-0.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "footer-section",
+        "top": 0,
+        "height": 900,
+        "text": "Suite 2\n9 Marsh Street\nBristol, BS1 4AA\nUnited Kingdom\nTwitter / X\nInstagram\nLinkedin\nGeneral enquires\nhello@lusion.co\nNew business\nbusiness@lusion.co\nSubscribe to\nour newsletter\n©2026 LUSION Creative Studio\nR&D: labs.lusion.co\nBuilt by Lusion with ❤️"
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/about?JUMP_SECTION=about-who&JUMP_OFFSET=3&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/about-who-3.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "about-who",
+        "top": -2700,
+        "height": 13060,
+        "text": "SCROLL TO EXPLORE\nWE ARE\nA CREATIVE\nPRODUCTION STUDIO\nCRAFTING UNIQUE\nDIGITAL EXPERIENCES"
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  },
+  {
+    "url": "https://lusion.co/about?JUMP_SECTION=about-capability&JUMP_OFFSET=2&SKIP_ANIMATION=1&DPR=0.75",
+    "local": "screenshots/sections-v2/about-capability-2.png",
+    "target": [
+      {
+        "tag": "DIV",
+        "id": "about-capability",
+        "top": -1800,
+        "height": 3745.3125,
+        "text": "AREA OF\nEXPERTISE\nMULTIDISCIPLINARY EXPERTISE ACROSS\nSTRATEGY, CREATIVE, TECHNOLOGY, AND\nPRODUCTION.\nS\nD\nT\n3\n\nSTRATEGY\n\ns\nDigital Experience Strategy\nTechnology Strategy\nCreative Direction\nDiscovery\nResearch\n\nSTRATEGY\n\ns\n\nCREATIVE\n\nc\nArt Direction\nUX/UI Design\nMotion Design\nInteractive Design\nIllustration\n\nCREATIVE\n\nc\n\nTECH\n\nt\nWebGL Development\nFront End Development\nUnity/Unreal\nInteractive Installations\nAR and VR Experiences\n\nTECH\n\nt\n\nPRODUCTION\n\nP\nProcedural Modeling\n3D Asset Creation\n3D Optimization\nAnimation\n3D Pipeline Development\n\nPRODUCTION\n\nP"
+      }
+    ],
+    "method": "Public source Settings JUMP_SECTION/JUMP_OFFSET startup scroll; SKIP_ANIMATION=1 skips preloader task queue; DPR=.75 changes render quality, not DOM viewport. Static settled section reference, not natural transition-timing proof."
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "before": {
+    "text": "",
+    "transform": "none",
+    "color": "rgb(71, 70, 69)",
+    "background": "rgba(0, 0, 0, 0)",
+    "transition": "0.2s ease-out"
+  },
+  "after": {
+    "text": "Developers ",
+    "transform": "none",
+    "color": "color(display-p3 0.203922 0.203922 0.2)",
+    "background": "color(display-p3 0.984314 0.980392 0.976471)",
+    "transition": "background 0.2s, color 0.2s"
+  },
+  "scroll": {
+    "y": 10367,
+    "h": 11367,
+    "header": [
+      {
+        "tag": "HEADER",
+        "position": "relative",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)",
+        "opacity": "1"
+      },
+      {
+        "tag": "NAV",
+        "position": "relative",
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "tag": "NAV",
+        "position": "static",
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  }
+}

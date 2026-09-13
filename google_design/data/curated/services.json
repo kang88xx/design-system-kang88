@@ -1,0 +1,2142 @@
+[
+  {
+    "id": "gmail",
+    "name": "Gmail",
+    "url": "https://mail.google.com/",
+    "page": "Inbox",
+    "evidence": {
+      "type": "private-redacted-capture",
+      "ids": [
+        "gmail-inbox",
+        "gmail-row-hover"
+      ]
+    },
+    "states": [
+      "default",
+      "row-hover",
+      "selected-tab",
+      "unread",
+      "read",
+      "attachment"
+    ],
+    "capturedAt": "2026-09-01T03:32:51.502Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "visibleElementCount": 1342,
+      "svgCount": 17,
+      "imageCount": 92,
+      "inlineStyleSheetCount": 7,
+      "externalStyleSheetCount": 1
+    },
+    "captureCount": 1,
+    "primaryCaptureId": "gmail",
+    "summaryScope": "primary-capture; see captures for all measured states",
+    "captures": [
+      {
+        "id": "gmail",
+        "capturedAt": "2026-09-01T03:32:51.502Z",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "visibleElementCount": 1342,
+          "svgCount": 17,
+          "imageCount": 92,
+          "inlineStyleSheetCount": 7,
+          "externalStyleSheetCount": 1
+        },
+        "interactionStates": {
+          "focusable": 53,
+          "disabled": 3,
+          "expanded": 1,
+          "selected": 1,
+          "checked": 0
+        }
+      }
+    ],
+    "interactionStates": {
+      "focusable": 53,
+      "disabled": 3,
+      "expanded": 1,
+      "selected": 1,
+      "checked": 0
+    },
+    "observed": {
+      "colors": [
+        {
+          "value": "#202124",
+          "count": 1099
+        },
+        {
+          "value": "#5f6368",
+          "count": 85
+        },
+        {
+          "value": "#1f1f1f",
+          "count": 49
+        },
+        {
+          "value": "#444746",
+          "count": 37
+        },
+        {
+          "value": "#444444",
+          "count": 16
+        },
+        {
+          "value": "#000000",
+          "count": 13
+        },
+        {
+          "value": "#333333",
+          "count": 12
+        },
+        {
+          "value": "#0000ee",
+          "count": 8
+        },
+        {
+          "value": "#ffffff",
+          "count": 5
+        },
+        {
+          "value": "#5e5e5e",
+          "count": 5
+        },
+        {
+          "value": "#001d35",
+          "count": 4
+        },
+        {
+          "value": "#666666",
+          "count": 4
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgba(0, 0, 0, 0)",
+          "count": 1320
+        },
+        {
+          "value": "#f2f6fc",
+          "count": 9
+        },
+        {
+          "value": "#ffffff",
+          "count": 3
+        },
+        {
+          "value": "#c2e7ff",
+          "count": 2
+        },
+        {
+          "value": "#d3e3fd",
+          "count": 2
+        },
+        {
+          "value": "#f8fafd",
+          "count": 2
+        },
+        {
+          "value": "#0b57d0",
+          "count": 1
+        },
+        {
+          "value": "#dadce0",
+          "count": 1
+        },
+        {
+          "value": "#e9eef6",
+          "count": 1
+        },
+        {
+          "value": "#202124",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "50%",
+          "count": 20
+        },
+        {
+          "value": "0px 16px 16px 0px",
+          "count": 7
+        },
+        {
+          "value": "15px",
+          "count": 7
+        },
+        {
+          "value": "16px",
+          "count": 7
+        },
+        {
+          "value": "20px",
+          "count": 6
+        },
+        {
+          "value": "4px",
+          "count": 4
+        },
+        {
+          "value": "9999px",
+          "count": 4
+        },
+        {
+          "value": "2px",
+          "count": 2
+        },
+        {
+          "value": "38px",
+          "count": 2
+        },
+        {
+          "value": "min(100%, 20px)",
+          "count": 2
+        },
+        {
+          "value": "0px 2px 2px 0px",
+          "count": 1
+        },
+        {
+          "value": "24px",
+          "count": 1
+        }
+      ],
+      "typography": {
+        "families": [
+          {
+            "value": "\"Google Sans\", Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+            "count": 1261
+          },
+          {
+            "value": "\"Google Sans Text\", Roboto, Helvetica, Arial, sans-serif",
+            "count": 60
+          },
+          {
+            "value": "\"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 14
+          },
+          {
+            "value": "\"Google Sans Flex\", \"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 4
+          },
+          {
+            "value": "\"Google Sans\", Roboto, Helvetica, Arial, sans-serif",
+            "count": 2
+          },
+          {
+            "value": "\"Google Sans\"",
+            "count": 1
+          }
+        ],
+        "sizes": [
+          {
+            "value": "14px",
+            "count": 897
+          },
+          {
+            "value": "16px",
+            "count": 182
+          },
+          {
+            "value": "12px",
+            "count": 120
+          },
+          {
+            "value": "13px",
+            "count": 59
+          },
+          {
+            "value": "1px",
+            "count": 51
+          },
+          {
+            "value": "13.3333px",
+            "count": 19
+          },
+          {
+            "value": "11px",
+            "count": 4
+          },
+          {
+            "value": "24px",
+            "count": 3
+          },
+          {
+            "value": "21px",
+            "count": 2
+          },
+          {
+            "value": "19.5px",
+            "count": 1
+          },
+          {
+            "value": "32px",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": "400",
+            "count": 1259
+          },
+          {
+            "value": "700",
+            "count": 54
+          },
+          {
+            "value": "500",
+            "count": 29
+          }
+        ],
+        "lineHeights": [
+          {
+            "value": "20px",
+            "count": 988
+          },
+          {
+            "value": "27px",
+            "count": 32
+          },
+          {
+            "value": "18px",
+            "count": 18
+          },
+          {
+            "value": "16px",
+            "count": 8
+          },
+          {
+            "value": "24px",
+            "count": 2
+          },
+          {
+            "value": "32px",
+            "count": 1
+          }
+        ],
+        "letterSpacing": []
+      },
+      "spacing": [
+        {
+          "value": "10px",
+          "count": 254
+        },
+        {
+          "value": "8px",
+          "count": 114
+        },
+        {
+          "value": "16px",
+          "count": 75
+        },
+        {
+          "value": "32px",
+          "count": 52
+        },
+        {
+          "value": "13px",
+          "count": 50
+        },
+        {
+          "value": "12px",
+          "count": 31
+        },
+        {
+          "value": "4px",
+          "count": 31
+        },
+        {
+          "value": "3px",
+          "count": 12
+        },
+        {
+          "value": "24px",
+          "count": 11
+        },
+        {
+          "value": "18px",
+          "count": 9
+        },
+        {
+          "value": "26px",
+          "count": 8
+        },
+        {
+          "value": "2px",
+          "count": 7
+        },
+        {
+          "value": "7px",
+          "count": 6
+        },
+        {
+          "value": "17.43px",
+          "count": 4
+        },
+        {
+          "value": "5px",
+          "count": 4
+        },
+        {
+          "value": "9px",
+          "count": 4
+        },
+        {
+          "value": "-12px",
+          "count": 3
+        },
+        {
+          "value": "103.438px",
+          "count": 3
+        },
+        {
+          "value": "20px",
+          "count": 3
+        },
+        {
+          "value": "-8px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "16.185px",
+          "count": 2
+        },
+        {
+          "value": "19.92px",
+          "count": 2
+        },
+        {
+          "value": "48px",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "calendar",
+    "name": "Google Calendar",
+    "url": "https://calendar.google.com/calendar/u/0/r",
+    "page": "Week view",
+    "evidence": {
+      "type": "private-redacted-capture",
+      "ids": [
+        "calendar-week",
+        "calendar-onboarding"
+      ]
+    },
+    "states": [
+      "week-grid",
+      "today",
+      "time-indicator",
+      "onboarding-dialog"
+    ],
+    "capturedAt": "2026-09-01T03:38:10.092Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "visibleElementCount": 718,
+      "svgCount": 34,
+      "imageCount": 5,
+      "inlineStyleSheetCount": 3,
+      "externalStyleSheetCount": 2
+    },
+    "captureCount": 2,
+    "primaryCaptureId": "calendar",
+    "summaryScope": "primary-capture; see captures for all measured states",
+    "captures": [
+      {
+        "id": "calendar",
+        "capturedAt": "2026-09-01T03:38:10.092Z",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "visibleElementCount": 718,
+          "svgCount": 34,
+          "imageCount": 5,
+          "inlineStyleSheetCount": 3,
+          "externalStyleSheetCount": 2
+        },
+        "interactionStates": {
+          "focusable": 78,
+          "disabled": 2,
+          "expanded": 3,
+          "selected": 0,
+          "checked": 0
+        }
+      },
+      {
+        "id": "calendar-onboarding",
+        "capturedAt": "2026-09-01T03:36:02.530Z",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "visibleElementCount": 744,
+          "svgCount": 35,
+          "imageCount": 5,
+          "inlineStyleSheetCount": 3,
+          "externalStyleSheetCount": 2
+        },
+        "interactionStates": {
+          "focusable": 81,
+          "disabled": 3,
+          "expanded": 3,
+          "selected": 0,
+          "checked": 0
+        }
+      }
+    ],
+    "interactionStates": {
+      "focusable": 78,
+      "disabled": 2,
+      "expanded": 3,
+      "selected": 0,
+      "checked": 0
+    },
+    "observed": {
+      "colors": [
+        {
+          "value": "#1f1f1f",
+          "count": 466
+        },
+        {
+          "value": "#444746",
+          "count": 194
+        },
+        {
+          "value": "#000000",
+          "count": 36
+        },
+        {
+          "value": "#ffffff",
+          "count": 14
+        },
+        {
+          "value": "#0b57d0",
+          "count": 4
+        },
+        {
+          "value": "rgba(16, 16, 16, 0.3)",
+          "count": 3
+        },
+        {
+          "value": "#0842a0",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgba(0, 0, 0, 0)",
+          "count": 701
+        },
+        {
+          "value": "#ffffff",
+          "count": 5
+        },
+        {
+          "value": "#0b57d0",
+          "count": 2
+        },
+        {
+          "value": "#e9eef6",
+          "count": 2
+        },
+        {
+          "value": "#0b8043",
+          "count": 1
+        },
+        {
+          "value": "#c2e7ff",
+          "count": 1
+        },
+        {
+          "value": "#d3e3fd",
+          "count": 1
+        },
+        {
+          "value": "#db372d",
+          "count": 1
+        },
+        {
+          "value": "#f8fafd",
+          "count": 1
+        },
+        {
+          "value": "#039be5",
+          "count": 1
+        },
+        {
+          "value": "#33b679",
+          "count": 1
+        },
+        {
+          "value": "#4285f4",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "9999px",
+          "count": 99
+        },
+        {
+          "value": "50%",
+          "count": 22
+        },
+        {
+          "value": "20px",
+          "count": 16
+        },
+        {
+          "value": "16px",
+          "count": 11
+        },
+        {
+          "value": "32px",
+          "count": 6
+        },
+        {
+          "value": "12px",
+          "count": 4
+        },
+        {
+          "value": "2px",
+          "count": 4
+        },
+        {
+          "value": "40px",
+          "count": 4
+        },
+        {
+          "value": "22px",
+          "count": 3
+        },
+        {
+          "value": "0px 9999px 9999px 0px",
+          "count": 2
+        },
+        {
+          "value": "38px",
+          "count": 2
+        },
+        {
+          "value": "4px",
+          "count": 2
+        }
+      ],
+      "typography": {
+        "families": [
+          {
+            "value": "\"Google Sans Text\", \"Google Sans\", Helvetica, Arial, sans-serif",
+            "count": 346
+          },
+          {
+            "value": "Arial",
+            "count": 168
+          },
+          {
+            "value": "\"Google Sans Text\", Roboto, Helvetica, Arial, sans-serif",
+            "count": 79
+          },
+          {
+            "value": "\"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 70
+          },
+          {
+            "value": "\"Google Sans Text\", \"Google Sans\"",
+            "count": 42
+          },
+          {
+            "value": "\"Google Material Icons\"",
+            "count": 7
+          },
+          {
+            "value": "\"Google Sans Flex\", \"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 6
+          }
+        ],
+        "sizes": [
+          {
+            "value": "14px",
+            "count": 262
+          },
+          {
+            "value": "13.3333px",
+            "count": 153
+          },
+          {
+            "value": "10px",
+            "count": 119
+          },
+          {
+            "value": "13px",
+            "count": 79
+          },
+          {
+            "value": "11px",
+            "count": 31
+          },
+          {
+            "value": "26px",
+            "count": 18
+          },
+          {
+            "value": "21px",
+            "count": 17
+          },
+          {
+            "value": "24px",
+            "count": 11
+          },
+          {
+            "value": "36px",
+            "count": 7
+          },
+          {
+            "value": "18px",
+            "count": 5
+          },
+          {
+            "value": "20px",
+            "count": 4
+          },
+          {
+            "value": "22px",
+            "count": 4
+          },
+          {
+            "value": "12px",
+            "count": 3
+          },
+          {
+            "value": "25px",
+            "count": 3
+          },
+          {
+            "value": "28px",
+            "count": 2
+          }
+        ],
+        "weights": [
+          {
+            "value": "400",
+            "count": 521
+          },
+          {
+            "value": "500",
+            "count": 178
+          },
+          {
+            "value": "700",
+            "count": 19
+          }
+        ],
+        "lineHeights": [
+          {
+            "value": "16px",
+            "count": 28
+          },
+          {
+            "value": "27px",
+            "count": 21
+          },
+          {
+            "value": "46px",
+            "count": 21
+          },
+          {
+            "value": "20px",
+            "count": 8
+          },
+          {
+            "value": "32px",
+            "count": 7
+          },
+          {
+            "value": "24px",
+            "count": 3
+          },
+          {
+            "value": "22px",
+            "count": 2
+          },
+          {
+            "value": "18px",
+            "count": 1
+          },
+          {
+            "value": "28px",
+            "count": 1
+          },
+          {
+            "value": "48px",
+            "count": 1
+          }
+        ],
+        "letterSpacing": [
+          {
+            "value": "0.1px",
+            "count": 24
+          },
+          {
+            "value": "0.8px",
+            "count": 7
+          }
+        ]
+      },
+      "spacing": [
+        {
+          "value": "1px",
+          "count": 198
+        },
+        {
+          "value": "8px",
+          "count": 101
+        },
+        {
+          "value": "4px",
+          "count": 41
+        },
+        {
+          "value": "12px",
+          "count": 28
+        },
+        {
+          "value": "6px",
+          "count": 21
+        },
+        {
+          "value": "17.43px",
+          "count": 20
+        },
+        {
+          "value": "0.96875px",
+          "count": 16
+        },
+        {
+          "value": "2px",
+          "count": 13
+        },
+        {
+          "value": "51.4219px",
+          "count": 13
+        },
+        {
+          "value": "3px",
+          "count": 9
+        },
+        {
+          "value": "-1px",
+          "count": 8
+        },
+        {
+          "value": "-4px",
+          "count": 8
+        },
+        {
+          "value": "16px",
+          "count": 8
+        },
+        {
+          "value": "13px",
+          "count": 7
+        },
+        {
+          "value": "18px",
+          "count": 6
+        },
+        {
+          "value": "18.76px",
+          "count": 4
+        },
+        {
+          "value": "14px",
+          "count": 3
+        },
+        {
+          "value": "-5px",
+          "count": 2
+        },
+        {
+          "value": "20px",
+          "count": 2
+        },
+        {
+          "value": "24px",
+          "count": 2
+        },
+        {
+          "value": "28px",
+          "count": 2
+        },
+        {
+          "value": "-48px",
+          "count": 1
+        },
+        {
+          "value": "-6.5px",
+          "count": 1
+        },
+        {
+          "value": "19px",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "drive",
+    "name": "Google Drive",
+    "url": "https://drive.google.com/drive/u/0/home",
+    "page": "Home",
+    "evidence": {
+      "type": "private-redacted-capture",
+      "ids": [
+        "drive-home"
+      ]
+    },
+    "states": [
+      "home",
+      "selected-navigation",
+      "filter-chip",
+      "empty-recommendation"
+    ],
+    "capturedAt": "2026-09-01T03:39:51.379Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "visibleElementCount": 518,
+      "svgCount": 86,
+      "imageCount": 7,
+      "inlineStyleSheetCount": 6,
+      "externalStyleSheetCount": 2
+    },
+    "captureCount": 1,
+    "primaryCaptureId": "drive",
+    "summaryScope": "primary-capture; see captures for all measured states",
+    "captures": [
+      {
+        "id": "drive",
+        "capturedAt": "2026-09-01T03:39:51.379Z",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "visibleElementCount": 518,
+          "svgCount": 86,
+          "imageCount": 7,
+          "inlineStyleSheetCount": 6,
+          "externalStyleSheetCount": 2
+        },
+        "interactionStates": {
+          "focusable": 28,
+          "disabled": 1,
+          "expanded": 0,
+          "selected": 1,
+          "checked": 0
+        }
+      }
+    ],
+    "interactionStates": {
+      "focusable": 28,
+      "disabled": 1,
+      "expanded": 0,
+      "selected": 1,
+      "checked": 0
+    },
+    "observed": {
+      "colors": [
+        {
+          "value": "#1f1f1f",
+          "count": 354
+        },
+        {
+          "value": "#444746",
+          "count": 67
+        },
+        {
+          "value": "#004a77",
+          "count": 62
+        },
+        {
+          "value": "#000000",
+          "count": 20
+        },
+        {
+          "value": "#0b57d0",
+          "count": 13
+        },
+        {
+          "value": "#ffffff",
+          "count": 1
+        },
+        {
+          "value": "#041e49",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgba(0, 0, 0, 0)",
+          "count": 497
+        },
+        {
+          "value": "#ffffff",
+          "count": 6
+        },
+        {
+          "value": "#e9eef6",
+          "count": 5
+        },
+        {
+          "value": "#f8fafd",
+          "count": 3
+        },
+        {
+          "value": "#0b57d0",
+          "count": 2
+        },
+        {
+          "value": "#c2e7ff",
+          "count": 2
+        },
+        {
+          "value": "#d3e3fd",
+          "count": 2
+        },
+        {
+          "value": "#e1e3e1",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "50%",
+          "count": 18
+        },
+        {
+          "value": "20px",
+          "count": 15
+        },
+        {
+          "value": "100px",
+          "count": 9
+        },
+        {
+          "value": "36px",
+          "count": 8
+        },
+        {
+          "value": "16px",
+          "count": 7
+        },
+        {
+          "value": "9999px",
+          "count": 4
+        },
+        {
+          "value": "22px",
+          "count": 3
+        },
+        {
+          "value": "38px",
+          "count": 2
+        },
+        {
+          "value": "min(100%, 20px)",
+          "count": 2
+        },
+        {
+          "value": "0px 0px 2px 2px",
+          "count": 1
+        },
+        {
+          "value": "0px 12px 12px 0px",
+          "count": 1
+        },
+        {
+          "value": "12px",
+          "count": 1
+        }
+      ],
+      "typography": {
+        "families": [
+          {
+            "value": "\"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 392
+          },
+          {
+            "value": "\"Google Sans Text\", Roboto, Helvetica, Arial, sans-serif",
+            "count": 56
+          },
+          {
+            "value": "Arial",
+            "count": 45
+          },
+          {
+            "value": "\"Google Sans Flex\", \"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 9
+          },
+          {
+            "value": "\"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 7
+          },
+          {
+            "value": "\"Google Sans\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 4
+          },
+          {
+            "value": "\"Google Sans\", Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+            "count": 4
+          },
+          {
+            "value": "\"Product Sans\", Arial, sans-serif",
+            "count": 1
+          }
+        ],
+        "sizes": [
+          {
+            "value": "14px",
+            "count": 396
+          },
+          {
+            "value": "13px",
+            "count": 56
+          },
+          {
+            "value": "13.3333px",
+            "count": 36
+          },
+          {
+            "value": "16px",
+            "count": 16
+          },
+          {
+            "value": "24px",
+            "count": 9
+          },
+          {
+            "value": "20px",
+            "count": 4
+          },
+          {
+            "value": "22px",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": "400",
+            "count": 464
+          },
+          {
+            "value": "500",
+            "count": 54
+          }
+        ],
+        "lineHeights": [
+          {
+            "value": "20px",
+            "count": 244
+          },
+          {
+            "value": "16px",
+            "count": 37
+          },
+          {
+            "value": "26px",
+            "count": 27
+          },
+          {
+            "value": "27px",
+            "count": 18
+          },
+          {
+            "value": "32px",
+            "count": 4
+          },
+          {
+            "value": "24px",
+            "count": 3
+          },
+          {
+            "value": "22px",
+            "count": 1
+          },
+          {
+            "value": "48px",
+            "count": 1
+          }
+        ],
+        "letterSpacing": [
+          {
+            "value": "0.23px",
+            "count": 1
+          }
+        ]
+      },
+      "spacing": [
+        {
+          "value": "4px",
+          "count": 63
+        },
+        {
+          "value": "8px",
+          "count": 47
+        },
+        {
+          "value": "3px",
+          "count": 27
+        },
+        {
+          "value": "12px",
+          "count": 21
+        },
+        {
+          "value": "16px",
+          "count": 16
+        },
+        {
+          "value": "14px",
+          "count": 11
+        },
+        {
+          "value": "2px",
+          "count": 11
+        },
+        {
+          "value": "24px",
+          "count": 9
+        },
+        {
+          "value": "5px",
+          "count": 8
+        },
+        {
+          "value": "-1px",
+          "count": 5
+        },
+        {
+          "value": "18px",
+          "count": 5
+        },
+        {
+          "value": "20px",
+          "count": 4
+        },
+        {
+          "value": "7px",
+          "count": 4
+        },
+        {
+          "value": "9px",
+          "count": 4
+        },
+        {
+          "value": "-4px",
+          "count": 3
+        },
+        {
+          "value": "200px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "176.531px",
+          "count": 2
+        },
+        {
+          "value": "48px",
+          "count": 2
+        },
+        {
+          "value": "103px",
+          "count": 1
+        },
+        {
+          "value": "10px",
+          "count": 1
+        },
+        {
+          "value": "11px",
+          "count": 1
+        },
+        {
+          "value": "25px",
+          "count": 1
+        },
+        {
+          "value": "327.75px",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "meet",
+    "name": "Google Meet",
+    "url": "https://meet.google.com/home?hs=197&authuser=0",
+    "page": "Home",
+    "evidence": {
+      "type": "private-redacted-capture",
+      "ids": [
+        "meet-home"
+      ]
+    },
+    "states": [
+      "empty-schedule",
+      "disabled-join",
+      "new-meeting",
+      "info-banner"
+    ],
+    "capturedAt": "2026-09-01T03:40:25.634Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "visibleElementCount": 270,
+      "svgCount": 7,
+      "imageCount": 5,
+      "inlineStyleSheetCount": 8,
+      "externalStyleSheetCount": 1
+    },
+    "captureCount": 1,
+    "primaryCaptureId": "meet",
+    "summaryScope": "primary-capture; see captures for all measured states",
+    "captures": [
+      {
+        "id": "meet",
+        "capturedAt": "2026-09-01T03:40:25.634Z",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "visibleElementCount": 270,
+          "svgCount": 7,
+          "imageCount": 5,
+          "inlineStyleSheetCount": 8,
+          "externalStyleSheetCount": 1
+        },
+        "interactionStates": {
+          "focusable": 23,
+          "disabled": 1,
+          "expanded": 0,
+          "selected": 0,
+          "checked": 0
+        }
+      }
+    ],
+    "interactionStates": {
+      "focusable": 23,
+      "disabled": 1,
+      "expanded": 0,
+      "selected": 0,
+      "checked": 0
+    },
+    "observed": {
+      "colors": [
+        {
+          "value": "#444746",
+          "count": 82
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.87)",
+          "count": 75
+        },
+        {
+          "value": "#1f1f1f",
+          "count": 57
+        },
+        {
+          "value": "#000000",
+          "count": 31
+        },
+        {
+          "value": "#001d35",
+          "count": 8
+        },
+        {
+          "value": "#072711",
+          "count": 6
+        },
+        {
+          "value": "rgba(16, 16, 16, 0.3)",
+          "count": 4
+        },
+        {
+          "value": "#00639b",
+          "count": 3
+        },
+        {
+          "value": "#0b57d0",
+          "count": 3
+        },
+        {
+          "value": "#041e49",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgba(0, 0, 0, 0)",
+          "count": 254
+        },
+        {
+          "value": "#ffffff",
+          "count": 8
+        },
+        {
+          "value": "#c2e7ff",
+          "count": 2
+        },
+        {
+          "value": "#c4eed0",
+          "count": 2
+        },
+        {
+          "value": "#d3e3fd",
+          "count": 2
+        },
+        {
+          "value": "#e9eef6",
+          "count": 1
+        },
+        {
+          "value": "rgba(31, 31, 31, 0.12)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "28px",
+          "count": 24
+        },
+        {
+          "value": "20px",
+          "count": 12
+        },
+        {
+          "value": "9999px",
+          "count": 5
+        },
+        {
+          "value": "24px",
+          "count": 3
+        },
+        {
+          "value": "16px",
+          "count": 2
+        },
+        {
+          "value": "50%",
+          "count": 2
+        },
+        {
+          "value": "0px 28px 28px 0px",
+          "count": 1
+        },
+        {
+          "value": "28px 0px 0px 28px",
+          "count": 1
+        },
+        {
+          "value": "28px 28px 0px 0px",
+          "count": 1
+        },
+        {
+          "value": "30px",
+          "count": 1
+        },
+        {
+          "value": "999px",
+          "count": 1
+        }
+      ],
+      "typography": {
+        "families": [
+          {
+            "value": "\"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 89
+          },
+          {
+            "value": "Arial",
+            "count": 85
+          },
+          {
+            "value": "\"Google Sans Text\", Roboto, Helvetica, Arial, sans-serif",
+            "count": 61
+          },
+          {
+            "value": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+            "count": 14
+          },
+          {
+            "value": "\"Google Symbols\"",
+            "count": 10
+          },
+          {
+            "value": "\"Google Sans Flex\", \"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 9
+          },
+          {
+            "value": "\"Google Sans\"",
+            "count": 1
+          },
+          {
+            "value": "\"Product Sans\", Arial, sans-serif",
+            "count": 1
+          }
+        ],
+        "sizes": [
+          {
+            "value": "13.3333px",
+            "count": 85
+          },
+          {
+            "value": "16px",
+            "count": 74
+          },
+          {
+            "value": "13px",
+            "count": 61
+          },
+          {
+            "value": "14.4px",
+            "count": 14
+          },
+          {
+            "value": "14px",
+            "count": 12
+          },
+          {
+            "value": "24px",
+            "count": 9
+          },
+          {
+            "value": "11px",
+            "count": 7
+          },
+          {
+            "value": "12px",
+            "count": 4
+          },
+          {
+            "value": "22px",
+            "count": 2
+          },
+          {
+            "value": "20px",
+            "count": 1
+          },
+          {
+            "value": "32px",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": "400",
+            "count": 241
+          },
+          {
+            "value": "500",
+            "count": 28
+          },
+          {
+            "value": "700",
+            "count": 1
+          }
+        ],
+        "lineHeights": [
+          {
+            "value": "24px",
+            "count": 119
+          },
+          {
+            "value": "27px",
+            "count": 18
+          },
+          {
+            "value": "16px",
+            "count": 11
+          },
+          {
+            "value": "20px",
+            "count": 11
+          },
+          {
+            "value": "28px",
+            "count": 1
+          },
+          {
+            "value": "40px",
+            "count": 1
+          },
+          {
+            "value": "44px",
+            "count": 1
+          }
+        ],
+        "letterSpacing": [
+          {
+            "value": "0.1px",
+            "count": 11
+          }
+        ]
+      },
+      "spacing": [
+        {
+          "value": "16px",
+          "count": 45
+        },
+        {
+          "value": "8px",
+          "count": 35
+        },
+        {
+          "value": "4px",
+          "count": 25
+        },
+        {
+          "value": "12px",
+          "count": 21
+        },
+        {
+          "value": "-8px",
+          "count": 7
+        },
+        {
+          "value": "0.8px",
+          "count": 7
+        },
+        {
+          "value": "10px",
+          "count": 6
+        },
+        {
+          "value": "6px",
+          "count": 4
+        },
+        {
+          "value": "30px",
+          "count": 3
+        },
+        {
+          "value": "4.8px",
+          "count": 3
+        },
+        {
+          "value": "142px",
+          "count": 2
+        },
+        {
+          "value": "24px",
+          "count": 2
+        },
+        {
+          "value": "2px",
+          "count": 2
+        },
+        {
+          "value": "44px",
+          "count": 2
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "22px",
+          "count": 1
+        },
+        {
+          "value": "25px",
+          "count": 1
+        },
+        {
+          "value": "40px",
+          "count": 1
+        },
+        {
+          "value": "48px",
+          "count": 1
+        },
+        {
+          "value": "5px",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "finance",
+    "name": "Google Finance",
+    "url": "https://www.google.com/finance/beta",
+    "page": "Market overview",
+    "evidence": {
+      "type": "private-redacted-capture",
+      "ids": [
+        "finance-overview"
+      ]
+    },
+    "states": [
+      "market-card",
+      "positive",
+      "negative",
+      "selected-region",
+      "research-panel"
+    ],
+    "capturedAt": "2026-09-01T03:42:20.944Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "visibleElementCount": 936,
+      "svgCount": 45,
+      "imageCount": 15,
+      "inlineStyleSheetCount": 39,
+      "externalStyleSheetCount": 2
+    },
+    "captureCount": 1,
+    "primaryCaptureId": "finance",
+    "summaryScope": "primary-capture; see captures for all measured states",
+    "captures": [
+      {
+        "id": "finance",
+        "capturedAt": "2026-09-01T03:42:20.944Z",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "visibleElementCount": 936,
+          "svgCount": 45,
+          "imageCount": 15,
+          "inlineStyleSheetCount": 39,
+          "externalStyleSheetCount": 2
+        },
+        "interactionStates": {
+          "focusable": 71,
+          "disabled": 1,
+          "expanded": 0,
+          "selected": 0,
+          "checked": 0
+        }
+      }
+    ],
+    "interactionStates": {
+      "focusable": 71,
+      "disabled": 1,
+      "expanded": 0,
+      "selected": 0,
+      "checked": 0
+    },
+    "observed": {
+      "colors": [
+        {
+          "value": "#0a0a0a",
+          "count": 473
+        },
+        {
+          "value": "#36373a",
+          "count": 155
+        },
+        {
+          "value": "#56595e",
+          "count": 69
+        },
+        {
+          "value": "#5e5e5e",
+          "count": 66
+        },
+        {
+          "value": "#444746",
+          "count": 47
+        },
+        {
+          "value": "#000000",
+          "count": 38
+        },
+        {
+          "value": "#f0f2f5",
+          "count": 28
+        },
+        {
+          "value": "#3364f0",
+          "count": 18
+        },
+        {
+          "value": "#c0151d",
+          "count": 10
+        },
+        {
+          "value": "#1f1f1f",
+          "count": 8
+        },
+        {
+          "value": "#0b57d0",
+          "count": 5
+        },
+        {
+          "value": "rgba(31, 31, 31, 0.38)",
+          "count": 5
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgba(0, 0, 0, 0)",
+          "count": 879
+        },
+        {
+          "value": "#3364f0",
+          "count": 18
+        },
+        {
+          "value": "#c0151d",
+          "count": 10
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 8
+        },
+        {
+          "value": "#f0f2f5",
+          "count": 6
+        },
+        {
+          "value": "#e9ebf0",
+          "count": 5
+        },
+        {
+          "value": "#ffffff",
+          "count": 5
+        },
+        {
+          "value": "#e1e3e8",
+          "count": 4
+        },
+        {
+          "value": "rgba(31, 31, 31, 0.12)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "20px",
+          "count": 37
+        },
+        {
+          "value": "50%",
+          "count": 34
+        },
+        {
+          "value": "18px",
+          "count": 25
+        },
+        {
+          "value": "100px",
+          "count": 8
+        },
+        {
+          "value": "12px",
+          "count": 8
+        },
+        {
+          "value": "100%",
+          "count": 3
+        },
+        {
+          "value": "10px",
+          "count": 2
+        },
+        {
+          "value": "14px",
+          "count": 2
+        },
+        {
+          "value": "32px",
+          "count": 2
+        },
+        {
+          "value": "8px",
+          "count": 2
+        },
+        {
+          "value": "24px",
+          "count": 1
+        }
+      ],
+      "typography": {
+        "families": [
+          {
+            "value": "\"Google Sans Text\", sans-serif",
+            "count": 479
+          },
+          {
+            "value": "\"Google Sans\", sans-serif",
+            "count": 195
+          },
+          {
+            "value": "Arial",
+            "count": 127
+          },
+          {
+            "value": "\"Google Material Icons\"",
+            "count": 32
+          },
+          {
+            "value": "\"Google Symbols\"",
+            "count": 30
+          },
+          {
+            "value": "\"Google Sans Text\"",
+            "count": 27
+          },
+          {
+            "value": "\"Google Sans\"",
+            "count": 24
+          },
+          {
+            "value": "\"Google Sans Text\", Roboto, Helvetica, Arial, sans-serif",
+            "count": 14
+          },
+          {
+            "value": "\"Google Sans Flex\", \"Google Sans Text\", \"Google Sans\", Roboto, Arial, sans-serif",
+            "count": 8
+          }
+        ],
+        "sizes": [
+          {
+            "value": "16px",
+            "count": 420
+          },
+          {
+            "value": "14px",
+            "count": 132
+          },
+          {
+            "value": "13.3333px",
+            "count": 124
+          },
+          {
+            "value": "12px",
+            "count": 107
+          },
+          {
+            "value": "10px",
+            "count": 46
+          },
+          {
+            "value": "11px",
+            "count": 33
+          },
+          {
+            "value": "18px",
+            "count": 21
+          },
+          {
+            "value": "20px",
+            "count": 16
+          },
+          {
+            "value": "24px",
+            "count": 16
+          },
+          {
+            "value": "13px",
+            "count": 14
+          },
+          {
+            "value": "22px",
+            "count": 6
+          },
+          {
+            "value": "36px",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": "400",
+            "count": 785
+          },
+          {
+            "value": "500",
+            "count": 151
+          }
+        ],
+        "lineHeights": [
+          {
+            "value": "16px",
+            "count": 218
+          },
+          {
+            "value": "20px",
+            "count": 67
+          },
+          {
+            "value": "24px",
+            "count": 42
+          },
+          {
+            "value": "10px",
+            "count": 23
+          },
+          {
+            "value": "22.5px",
+            "count": 14
+          },
+          {
+            "value": "27px",
+            "count": 14
+          },
+          {
+            "value": "22px",
+            "count": 9
+          },
+          {
+            "value": "12px",
+            "count": 5
+          },
+          {
+            "value": "28px",
+            "count": 4
+          },
+          {
+            "value": "18px",
+            "count": 3
+          },
+          {
+            "value": "32px",
+            "count": 2
+          }
+        ],
+        "letterSpacing": [
+          {
+            "value": "0.012px",
+            "count": 25
+          }
+        ]
+      },
+      "spacing": [
+        {
+          "value": "4px",
+          "count": 152
+        },
+        {
+          "value": "8px",
+          "count": 131
+        },
+        {
+          "value": "12px",
+          "count": 68
+        },
+        {
+          "value": "2px",
+          "count": 57
+        },
+        {
+          "value": "10px",
+          "count": 48
+        },
+        {
+          "value": "16px",
+          "count": 45
+        },
+        {
+          "value": "6px",
+          "count": 43
+        },
+        {
+          "value": "24px",
+          "count": 22
+        },
+        {
+          "value": "9px",
+          "count": 20
+        },
+        {
+          "value": "5px",
+          "count": 17
+        },
+        {
+          "value": "32px",
+          "count": 7
+        },
+        {
+          "value": "-4px",
+          "count": 4
+        },
+        {
+          "value": "20px",
+          "count": 4
+        },
+        {
+          "value": "40px",
+          "count": 3
+        },
+        {
+          "value": "-16px",
+          "count": 2
+        },
+        {
+          "value": "-12px",
+          "count": 1
+        },
+        {
+          "value": "-32px",
+          "count": 1
+        },
+        {
+          "value": "-40px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "184px",
+          "count": 1
+        },
+        {
+          "value": "300px",
+          "count": 1
+        },
+        {
+          "value": "64px",
+          "count": 1
+        },
+        {
+          "value": "80px",
+          "count": 1
+        }
+      ]
+    }
+  }
+]

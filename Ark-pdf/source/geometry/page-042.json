@@ -1,0 +1,293 @@
+{
+  "page": 42,
+  "width": 1920.0,
+  "height": 1080.0,
+  "drawings": [
+    {
+      "type": "f",
+      "bbox": [
+        0.0,
+        0.0,
+        1920.0,
+        1080.0
+      ],
+      "fill": "#F4F4F8",
+      "stroke": null,
+      "fillOpacity": 1.0,
+      "strokeOpacity": null,
+      "width": null,
+      "lineCap": null,
+      "lineJoin": null,
+      "dashes": null,
+      "items": [
+        [
+          "re",
+          [
+            0.0,
+            0.0,
+            1920.0,
+            1080.0
+          ],
+          -1
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        54.151,
+        1011.844,
+        1865.849,
+        1011.844
+      ],
+      "fill": null,
+      "stroke": "#516086",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 0.5,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            54.151,
+            1011.844
+          ],
+          [
+            1865.849,
+            1011.844
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        1767.889,
+        1037.558,
+        1865.929,
+        1037.558
+      ],
+      "fill": null,
+      "stroke": "#516086",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 0.2,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            1767.889,
+            1037.558
+          ],
+          [
+            1865.929,
+            1037.558
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "f",
+      "bbox": [
+        53.0,
+        426.687,
+        646.554,
+        1036.764
+      ],
+      "fill": "#A9A9A9",
+      "stroke": null,
+      "fillOpacity": 1.0,
+      "strokeOpacity": null,
+      "width": null,
+      "lineCap": null,
+      "lineJoin": null,
+      "dashes": null,
+      "items": [
+        [
+          "re",
+          [
+            53.0,
+            426.687,
+            646.554,
+            1036.764
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "type": "f",
+      "bbox": [
+        663.223,
+        426.687,
+        1256.777,
+        1036.764
+      ],
+      "fill": "#A9A9A9",
+      "stroke": null,
+      "fillOpacity": 1.0,
+      "strokeOpacity": null,
+      "width": null,
+      "lineCap": null,
+      "lineJoin": null,
+      "dashes": null,
+      "items": [
+        [
+          "re",
+          [
+            663.223,
+            426.687,
+            1256.777,
+            1036.764
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "type": "f",
+      "bbox": [
+        1273.446,
+        426.687,
+        1867.0,
+        1036.764
+      ],
+      "fill": "#A9A9A9",
+      "stroke": null,
+      "fillOpacity": 1.0,
+      "strokeOpacity": null,
+      "width": null,
+      "lineCap": null,
+      "lineJoin": null,
+      "dashes": null,
+      "items": [
+        [
+          "re",
+          [
+            1273.446,
+            426.687,
+            1867.0,
+            1036.764
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        1179.824,
+        217.31,
+        1636.251,
+        217.31
+      ],
+      "fill": null,
+      "stroke": "#000000",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 1.0,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            1179.824,
+            217.31
+          ],
+          [
+            1636.251,
+            217.31
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        1179.375,
+        257.752,
+        1636.7,
+        257.752
+      ],
+      "fill": null,
+      "stroke": "#000000",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 1.0,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            1179.375,
+            257.752
+          ],
+          [
+            1636.7,
+            257.752
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "s",
+      "bbox": [
+        1179.375,
+        297.936,
+        1636.7,
+        297.936
+      ],
+      "fill": null,
+      "stroke": "#000000",
+      "fillOpacity": null,
+      "strokeOpacity": 1.0,
+      "width": 1.0,
+      "lineCap": [
+        0,
+        0,
+        0
+      ],
+      "lineJoin": 0.0,
+      "dashes": "[] 0",
+      "items": [
+        [
+          "l",
+          [
+            1179.375,
+            297.936
+          ],
+          [
+            1636.7,
+            297.936
+          ]
+        ]
+      ]
+    }
+  ]
+}

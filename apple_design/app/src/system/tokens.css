@@ -1,0 +1,74 @@
+/* Generated from tokens.json. Run npm run tokens:build after editing tokens. */
+:root {
+  --apple-black: #1d1d1f;
+  --apple-canvas: #f5f5f7;
+  --apple-blue: #0071e3;
+  --apple-blue-hover: #0069d4;
+  --apple-blue-active: #006edb;
+  --apple-link: #0066cc;
+  --apple-muted: #6e6e73;
+  --apple-white: #ffffff;
+  --apple-surface: #ffffff;
+  --apple-surface-hover: #ededf0;
+  --apple-border: rgba(0, 0, 0, 0.16);
+  --apple-border-strong: rgba(0, 0, 0, 0.46);
+  --apple-scrim: rgba(255, 255, 255, 0.8);
+  --apple-dark-scrim: rgba(29, 29, 31, 0.72);
+  --apple-focus: #0071e3;
+  --apple-danger: #b42318;
+  --apple-success: #16713f;
+  --apple-on-action: #ffffff;
+  --apple-control-fill: rgba(0, 0, 0, 0.06);
+  --apple-control-active: #ffffff;
+  --apple-font-text: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --apple-font-display: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --apple-radius-pill: 980px;
+  --apple-radius-card: 8px;
+  --apple-breakpoint-small: 734px;
+  --apple-breakpoint-medium: 1068px;
+  --apple-space-1: 4px;
+  --apple-space-2: 8px;
+  --apple-space-3: 12px;
+  --apple-space-4: 16px;
+  --apple-space-5: 20px;
+  --apple-space-6: 24px;
+  --apple-space-8: 32px;
+  --apple-space-12: 48px;
+  --apple-space-16: 64px;
+  --apple-text-display-xl-size: 56px;
+  --apple-text-display-xl-line: 60px;
+  --apple-text-display-lg-size: 40px;
+  --apple-text-display-lg-line: 44px;
+  --apple-text-display-md-size: 32px;
+  --apple-text-display-md-line: 36px;
+  --apple-text-title-size: 28px;
+  --apple-text-title-line: 32px;
+  --apple-text-body-size: 17px;
+  --apple-text-body-line: 25px;
+  --apple-text-caption-size: 12px;
+  --apple-text-caption-line: 16px;
+  --apple-button-size: 17px;
+  --apple-button-line: 20px;
+  --apple-button-small-size: 14px;
+  --apple-button-small-line: 18px;
+  --apple-motion-standard: 280ms cubic-bezier(0.4, 0, 0.6, 1);
+  --apple-motion-fast: 160ms ease-out;
+  --apple-shadow-card: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+[data-ds-theme="dark"] {
+  --apple-black: #f5f5f7;
+  --apple-canvas: #232326;
+  --apple-surface: #1d1d1f;
+  --apple-surface-hover: #353538;
+  --apple-muted: #a1a1a6;
+  --apple-border: rgba(255, 255, 255, 0.22);
+  --apple-border-strong: rgba(255, 255, 255, 0.5);
+  --apple-link: #64adff;
+  --apple-focus: #64adff;
+  --apple-danger: #ff958b;
+  --apple-success: #77d9a1;
+  --apple-control-fill: rgba(255, 255, 255, 0.12);
+  --apple-control-active: #454548;
+  --apple-shadow-card: 0 8px 30px rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,424 @@
+.iw-sample {
+  align-content: center;
+}
+
+.iw-switch {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border: 0;
+  border-radius: 999px;
+  padding: 4px 14px 4px 6px;
+  background: var(--surface);
+  color: var(--on-surface);
+  cursor: pointer;
+}
+
+.iw-switch:focus-visible,
+.iw-checkset input:focus-visible,
+.iw-tablist button:focus-visible,
+.iw-menu button:focus-visible,
+.iw-field-form input:focus-visible,
+.iw-motion-controls select:focus-visible,
+.iw-motion-controls input:focus-visible,
+.iw-motion-code textarea:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.iw-switch-track {
+  width: 52px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 999px;
+  background: var(--outline-variant);
+  transition: background 150ms cubic-bezier(.2,0,0,1);
+}
+
+.iw-switch-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 1px 2px var(--shadow);
+  transition: transform 150ms cubic-bezier(.2,0,0,1), background 150ms cubic-bezier(.2,0,0,1);
+}
+
+.iw-switch[aria-checked="true"] .iw-switch-track {
+  background: var(--primary);
+}
+
+.iw-switch[aria-checked="true"] .iw-switch-thumb {
+  transform: translateX(20px);
+  background: var(--on-primary);
+}
+
+.iw-switch-copy {
+  font-weight: 500;
+}
+
+.iw-checkset {
+  width: min(420px, 100%);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.iw-checkset legend {
+  grid-column: 1 / -1;
+  margin-bottom: 2px;
+  color: var(--on-surface-variant);
+  font: 500 12px/16px Roboto, Arial, sans-serif;
+}
+
+.iw-checkset label {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 12px;
+  background: var(--surface);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.iw-checkset label:has(input:checked) {
+  border-color: transparent;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+
+.iw-checkset input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+.iw-tabs {
+  width: min(500px, 100%);
+  overflow: hidden;
+  border: 1px solid var(--outline-variant);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.iw-tablist {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-bottom: 1px solid var(--outline-variant);
+}
+
+.iw-tablist button {
+  min-height: 48px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--on-surface-variant);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.iw-tablist button[aria-selected="true"] {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.iw-tabpanels {
+  min-height: 84px;
+  padding: 18px;
+  color: var(--on-surface-variant);
+  font: 400 13px/20px Roboto, Arial, sans-serif;
+}
+
+.iw-menu-sample {
+  position: relative;
+}
+
+.iw-menu-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.iw-menu {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 172px;
+  padding: 8px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px var(--shadow);
+}
+
+.iw-menu button {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  border-radius: 8px;
+  padding: 0 12px;
+  background: transparent;
+  color: var(--on-surface);
+  cursor: pointer;
+  text-align: left;
+}
+
+.iw-menu button:hover {
+  background: var(--surface-low);
+}
+
+.iw-field-form {
+  width: min(420px, 100%);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px 10px;
+  align-items: end;
+}
+
+.iw-field-form label,
+.iw-motion-controls label,
+.iw-motion-code label {
+  color: var(--on-surface-variant);
+  font: 500 12px/16px Roboto, Arial, sans-serif;
+}
+
+.iw-field-form label,
+.iw-field-form p {
+  grid-column: 1 / -1;
+}
+
+.iw-field-form input {
+  min-width: 0;
+  height: 48px;
+  border: 1px solid var(--outline);
+  border-radius: 8px;
+  padding: 0 14px;
+  background: var(--surface);
+  color: var(--on-surface);
+}
+
+.iw-field-form p {
+  margin: 0;
+  color: var(--on-surface-variant);
+  font: 400 12px/18px Roboto, Arial, sans-serif;
+}
+
+.iw-field-form.is-error input {
+  border-color: var(--error);
+}
+
+.iw-field-form.is-error p {
+  color: var(--error);
+}
+
+.iw-field-form.is-valid input {
+  border-color: var(--positive);
+}
+
+.iw-progress-card {
+  width: min(430px, 100%);
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.iw-progress-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-weight: 500;
+}
+
+.iw-progress-track {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--surface-container);
+}
+
+.iw-progress-track span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary);
+  transition: width 250ms cubic-bezier(.2,0,0,1);
+}
+
+.iw-progress-card .btn {
+  justify-self: start;
+}
+
+.iw-motion-lab {
+  margin-bottom: 16px;
+}
+
+.iw-motion-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.iw-motion-head h3 {
+  margin: 4px 0 6px;
+}
+
+.iw-motion-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.iw-motion-grid {
+  display: grid;
+  grid-template-columns: minmax(180px, .8fr) minmax(220px, 1fr) minmax(220px, .9fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.iw-motion-controls,
+.iw-motion-preview,
+.iw-motion-code {
+  min-width: 0;
+  display: grid;
+  gap: 12px;
+  align-content: start;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--surface-low);
+}
+
+.iw-motion-controls label,
+.iw-motion-code label {
+  display: grid;
+  gap: 6px;
+}
+
+.iw-motion-controls select,
+.iw-motion-controls input[type="range"] {
+  width: 100%;
+}
+
+.iw-motion-controls select {
+  height: 42px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  padding: 0 10px;
+  background: var(--surface);
+  color: var(--on-surface);
+}
+
+.iw-motion-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.iw-motion-stage {
+  position: relative;
+  min-height: 132px;
+  overflow: hidden;
+  border: 1px solid var(--outline-variant);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.iw-motion-trace {
+  position: absolute;
+  inset: 50% 32px auto;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--surface-container);
+  transform: translateY(-50%);
+}
+
+.iw-motion-trace span {
+  display: block;
+  width: 42%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary-container);
+}
+
+.iw-motion-dot {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 32px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 4px 14px var(--shadow);
+}
+
+.iw-motion-dot.is-state-layer {
+  background: var(--primary-container);
+  box-shadow: inset 0 0 0 12px color-mix(in srgb, var(--primary) 22%, transparent);
+}
+
+.iw-motion-dot.is-icon-state {
+  border-radius: 12px;
+  background: var(--tertiary-container);
+  box-shadow: inset 0 0 0 10px var(--tertiary), 0 4px 14px var(--shadow);
+}
+
+.iw-motion-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.iw-motion-code textarea {
+  width: 100%;
+  min-height: 154px;
+  resize: vertical;
+  border: 1px solid var(--outline-variant);
+  border-radius: 12px;
+  padding: 12px;
+  background: var(--surface);
+  color: var(--on-surface);
+  font: 500 11px/16px ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@media (max-width: 900px) {
+  .iw-motion-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .iw-checkset,
+  .iw-tablist,
+  .iw-field-form {
+    grid-template-columns: 1fr;
+  }
+
+  .iw-motion-head {
+    display: grid;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .iw-switch-track,
+  .iw-switch-thumb,
+  .iw-progress-track span {
+    transition-duration: 1ms;
+  }
+}

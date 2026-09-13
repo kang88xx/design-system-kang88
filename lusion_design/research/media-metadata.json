@@ -1,0 +1,2430 @@
+[
+  {
+    "url": "https://lusion.co/assets/meta/apple-touch-icon.png",
+    "local": "sources/assets/lusion.co/assets/meta/apple-touch-icon.png",
+    "bytes": 854,
+    "type": "image/png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "url": "https://lusion.co/assets/meta/favicon-32x32.png",
+    "local": "sources/assets/lusion.co/assets/meta/favicon-32x32.png",
+    "bytes": 451,
+    "type": "image/png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "url": "https://lusion.co/assets/meta/dark/favicon-32x32.png",
+    "local": "sources/assets/lusion.co/assets/meta/dark/favicon-32x32.png",
+    "bytes": 469,
+    "type": "image/png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "url": "https://lusion.co/assets/meta/favicon-16x16.png",
+    "local": "sources/assets/lusion.co/assets/meta/favicon-16x16.png",
+    "bytes": 447,
+    "type": "image/png",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "url": "https://lusion.co/assets/meta/dark/favicon-16x16.png",
+    "local": "sources/assets/lusion.co/assets/meta/dark/favicon-16x16.png",
+    "bytes": 448,
+    "type": "image/png",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "url": "https://lusion.co/assets/meta/social_sharing.jpg",
+    "local": "sources/assets/lusion.co/assets/meta/social_sharing.jpg",
+    "bytes": 93072,
+    "type": "image/jpeg",
+    "width": 1200,
+    "height": 630
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/main.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/main.mp4",
+    "bytes": 8557639,
+    "type": "video/mp4",
+    "width": 1250,
+    "height": 720,
+    "duration": 27.310617
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/image_1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/image_1.webp",
+    "bytes": 40742,
+    "type": "image/webp",
+    "width": 1296,
+    "height": 1620
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/launch.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/launch.mp4",
+    "bytes": 7831918,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 31.291667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/image_2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/image_2.webp",
+    "bytes": 16996,
+    "type": "image/webp",
+    "width": 1080,
+    "height": 1440
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/bts.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/bts.mp4",
+    "bytes": 8005057,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 31.966667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/founder.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/founder.webp",
+    "bytes": 75998,
+    "type": "image/webp",
+    "width": 2043,
+    "height": 1140
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/image_3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/image_3.webp",
+    "bytes": 172284,
+    "type": "image/webp",
+    "width": 1296,
+    "height": 1620
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/main.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/main.mp4",
+    "bytes": 4054196,
+    "type": "video/mp4",
+    "width": 1234,
+    "height": 720,
+    "duration": 5.4
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/1.webp",
+    "bytes": 61836,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/2.webp",
+    "bytes": 66042,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/3.webp",
+    "bytes": 58586,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/4.webp",
+    "bytes": 85962,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/5.webp",
+    "bytes": 34286,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/6.webp",
+    "bytes": 70472,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/video0.mp4",
+    "bytes": 4476999,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 12.679333
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/image1.webp",
+    "bytes": 43656,
+    "type": "image/webp",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/video2.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/video2.mp4",
+    "bytes": 6583074,
+    "type": "video/mp4",
+    "width": 1920,
+    "height": 1920,
+    "duration": 17.633333
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/video3.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/video3.mp4",
+    "bytes": 1683345,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 6.4064
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/image4.webp",
+    "bytes": 240544,
+    "type": "image/webp",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/video0.mp4",
+    "bytes": 5951768,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 11.75
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/species.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/species.webp",
+    "bytes": 112304,
+    "type": "image/webp",
+    "width": 2025,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/meditation.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/meditation.webp",
+    "bytes": 39228,
+    "type": "image/webp",
+    "width": 2025,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/making_of_artwork.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/making_of_artwork.webp",
+    "bytes": 82652,
+    "type": "image/webp",
+    "width": 2025,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/houdini_custom_branch_flow.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/houdini_custom_branch_flow.webp",
+    "bytes": 195070,
+    "type": "image/webp",
+    "width": 2024,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/mobile.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/mobile.webp",
+    "bytes": 126726,
+    "type": "image/webp",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/main.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/main.mp4",
+    "bytes": 8599201,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 33.55
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/1.webp",
+    "bytes": 99544,
+    "type": "image/webp",
+    "width": 1679,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/2.webp",
+    "bytes": 300052,
+    "type": "image/webp",
+    "width": 2262,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/3.webp",
+    "bytes": 49746,
+    "type": "image/webp",
+    "width": 1810,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/4.webp",
+    "bytes": 120998,
+    "type": "image/webp",
+    "width": 1819,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/5.webp",
+    "bytes": 192458,
+    "type": "image/webp",
+    "width": 1885,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/6.webp",
+    "bytes": 51442,
+    "type": "image/webp",
+    "width": 1819,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/7.webp",
+    "bytes": 24274,
+    "type": "image/webp",
+    "width": 1819,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/8.webp",
+    "bytes": 38340,
+    "type": "image/webp",
+    "width": 1819,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/9.webp",
+    "bytes": 279278,
+    "type": "image/webp",
+    "width": 2280,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image1.webp",
+    "bytes": 253436,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/video1.mp4",
+    "bytes": 4509145,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 19.37
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image2.webp",
+    "bytes": 124854,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image4.webp",
+    "bytes": 272602,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image5.webp",
+    "bytes": 500864,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image6.webp",
+    "bytes": 597312,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image7.webp",
+    "bytes": 445770,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image8.webp",
+    "bytes": 499110,
+    "type": "image/webp",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image9.webp",
+    "bytes": 532022,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image10.webp",
+    "bytes": 313102,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image11.webp",
+    "bytes": 88830,
+    "type": "image/webp",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image12.webp",
+    "bytes": 50124,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image13.webp",
+    "bytes": 169064,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image14.webp",
+    "bytes": 216856,
+    "type": "image/webp",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/video0.mp4",
+    "bytes": 4941006,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 21.76
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image15.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image15.webp",
+    "bytes": 77934,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/image16.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/image16.webp",
+    "bytes": 165950,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/video0.mp4",
+    "bytes": 3543387,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 13.997317
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/image1.webp",
+    "bytes": 153196,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/image2.webp",
+    "bytes": 148898,
+    "type": "image/webp",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/image3.webp",
+    "bytes": 188740,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/image4.webp",
+    "bytes": 130208,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/image5.webp",
+    "bytes": 100634,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/image6.webp",
+    "bytes": 77172,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image1.webp",
+    "bytes": 94604,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/video0.mp4",
+    "bytes": 2583370,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 721,
+    "duration": 10
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image2.webp",
+    "bytes": 307322,
+    "type": "image/webp",
+    "width": 1958,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image3.webp",
+    "bytes": 41258,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image4.webp",
+    "bytes": 56484,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image5.webp",
+    "bytes": 123980,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image6.webp",
+    "bytes": 29252,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image7.webp",
+    "bytes": 400782,
+    "type": "image/webp",
+    "width": 1881,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image8.webp",
+    "bytes": 208966,
+    "type": "image/webp",
+    "width": 1822,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image9.webp",
+    "bytes": 107644,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image10.webp",
+    "bytes": 131482,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image11.webp",
+    "bytes": 249414,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image13.webp",
+    "bytes": 293274,
+    "type": "image/webp",
+    "width": 1822,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image14.webp",
+    "bytes": 254146,
+    "type": "image/webp",
+    "width": 1344,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image15.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image15.webp",
+    "bytes": 165666,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image16.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image16.webp",
+    "bytes": 118972,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/image17.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/image17.webp",
+    "bytes": 132530,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/video0.mp4",
+    "bytes": 4911083,
+    "type": "video/mp4",
+    "width": 1146,
+    "height": 714,
+    "duration": 10
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/image1.webp",
+    "bytes": 96068,
+    "type": "image/webp",
+    "width": 1600,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/image2.webp",
+    "bytes": 171402,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/image3.webp",
+    "bytes": 431248,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/image4.webp",
+    "bytes": 121352,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/image5.webp",
+    "bytes": 139550,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/image6.webp",
+    "bytes": 74552,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/video0.mp4",
+    "bytes": 2714543,
+    "type": "video/mp4",
+    "width": 1152,
+    "height": 720,
+    "duration": 8.5
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/image1.webp",
+    "bytes": 123304,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/image2.webp",
+    "bytes": 53318,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/image3.webp",
+    "bytes": 225412,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image1.webp",
+    "bytes": 200520,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image2.webp",
+    "bytes": 736672,
+    "type": "image/webp",
+    "width": 1918,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/video1.mp4",
+    "bytes": 1762592,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 8.016667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image4.webp",
+    "bytes": 88154,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image5.webp",
+    "bytes": 40896,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/video2.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/video2.mp4",
+    "bytes": 849637,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 4
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image6.webp",
+    "bytes": 199298,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image7.webp",
+    "bytes": 35406,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image8.webp",
+    "bytes": 125934,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image9.webp",
+    "bytes": 101180,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image10.webp",
+    "bytes": 223594,
+    "type": "image/webp",
+    "width": 1794,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image11.webp",
+    "bytes": 106812,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image12.webp",
+    "bytes": 132534,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image13.webp",
+    "bytes": 118308,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image14.webp",
+    "bytes": 112340,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image15.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image15.webp",
+    "bytes": 94106,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image16.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image16.webp",
+    "bytes": 193082,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image17.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image17.webp",
+    "bytes": 93912,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/image18.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/image18.webp",
+    "bytes": 77366,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image1.webp",
+    "bytes": 103898,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/video0.mp4",
+    "bytes": 2234174,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 10.016667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image2.webp",
+    "bytes": 124478,
+    "type": "image/webp",
+    "width": 1918,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image3.webp",
+    "bytes": 61706,
+    "type": "image/webp",
+    "width": 1809,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image4.webp",
+    "bytes": 55024,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image5.webp",
+    "bytes": 132214,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image6.webp",
+    "bytes": 143954,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/image7.webp",
+    "bytes": 125492,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image1.webp",
+    "bytes": 84240,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image2.webp",
+    "bytes": 122212,
+    "type": "image/webp",
+    "width": 1707,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image3.webp",
+    "bytes": 98464,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image4.webp",
+    "bytes": 71944,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image5.webp",
+    "bytes": 148658,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image6.webp",
+    "bytes": 73042,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image7.webp",
+    "bytes": 31720,
+    "type": "image/webp",
+    "width": 2204,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image8.webp",
+    "bytes": 113140,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image9.webp",
+    "bytes": 99550,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image10.webp",
+    "bytes": 127956,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image11.webp",
+    "bytes": 128140,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image12.webp",
+    "bytes": 117172,
+    "type": "image/webp",
+    "width": 1977,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image13.webp",
+    "bytes": 80812,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/image14.webp",
+    "bytes": 99736,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/image1.webp",
+    "bytes": 108506,
+    "type": "image/webp",
+    "width": 1679,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/image2.webp",
+    "bytes": 133564,
+    "type": "image/webp",
+    "width": 1918,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/video0.mp4",
+    "bytes": 4669086,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 20.833333
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/image4.webp",
+    "bytes": 90666,
+    "type": "image/webp",
+    "width": 1517,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/image3.webp",
+    "bytes": 197870,
+    "type": "image/webp",
+    "width": 1500,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image1.webp",
+    "bytes": 24574,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image2.webp",
+    "bytes": 291828,
+    "type": "image/webp",
+    "width": 1960,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image3.webp",
+    "bytes": 7340,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image4.webp",
+    "bytes": 10694,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/video0.mp4",
+    "bytes": 4593621,
+    "type": "video/mp4",
+    "width": 1281,
+    "height": 720,
+    "duration": 20.016667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image5.webp",
+    "bytes": 69628,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image6.webp",
+    "bytes": 15686,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image7.webp",
+    "bytes": 22748,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image8.webp",
+    "bytes": 118704,
+    "type": "image/webp",
+    "width": 1765,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image9.webp",
+    "bytes": 60918,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image10.webp",
+    "bytes": 61580,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image11.webp",
+    "bytes": 78806,
+    "type": "image/webp",
+    "width": 1822,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image12.webp",
+    "bytes": 510430,
+    "type": "image/webp",
+    "width": 1765,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image13.webp",
+    "bytes": 80580,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image14.webp",
+    "bytes": 72516,
+    "type": "image/webp",
+    "width": 1821,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image15.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image15.webp",
+    "bytes": 105382,
+    "type": "image/webp",
+    "width": 1823,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/image16.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/image16.webp",
+    "bytes": 243562,
+    "type": "image/webp",
+    "width": 1823,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image1.webp",
+    "bytes": 123064,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/video0.mp4",
+    "bytes": 4522636,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 20.166667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image2.webp",
+    "bytes": 348166,
+    "type": "image/webp",
+    "width": 1918,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image3.webp",
+    "bytes": 294760,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image4.webp",
+    "bytes": 164432,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image5.webp",
+    "bytes": 43004,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image6.webp",
+    "bytes": 34628,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image7.webp",
+    "bytes": 88972,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image8.webp",
+    "bytes": 155384,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image9.webp",
+    "bytes": 134364,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image10.webp",
+    "bytes": 135294,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image11.webp",
+    "bytes": 122066,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image12.webp",
+    "bytes": 134300,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image13.webp",
+    "bytes": 266610,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image14.webp",
+    "bytes": 66136,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/image15.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/image15.webp",
+    "bytes": 71380,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image1.webp",
+    "bytes": 52456,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image2.webp",
+    "bytes": 80178,
+    "type": "image/webp",
+    "width": 1918,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/video0.mp4",
+    "bytes": 1652435,
+    "type": "video/mp4",
+    "width": 1282,
+    "height": 720,
+    "duration": 7.4
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image3.webp",
+    "bytes": 147888,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image4.webp",
+    "bytes": 47582,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image5.webp",
+    "bytes": 59914,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/video1.mp4",
+    "bytes": 3546826,
+    "type": "video/mp4",
+    "width": 1308,
+    "height": 656,
+    "duration": 15.8
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image6.webp",
+    "bytes": 39148,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image7.webp",
+    "bytes": 161186,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/image8.webp",
+    "bytes": 276608,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image1.webp",
+    "bytes": 186692,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/video0.mp4",
+    "bytes": 2846228,
+    "type": "video/mp4",
+    "width": 1419,
+    "height": 720,
+    "duration": 13.016667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image2.webp",
+    "bytes": 146006,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image3.webp",
+    "bytes": 404092,
+    "type": "image/webp",
+    "width": 1811,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image4.webp",
+    "bytes": 445348,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image5.webp",
+    "bytes": 79712,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image6.webp",
+    "bytes": 422486,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image7.webp",
+    "bytes": 246616,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image8.webp",
+    "bytes": 67530,
+    "type": "image/webp",
+    "width": 1811,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image9.webp",
+    "bytes": 76610,
+    "type": "image/webp",
+    "width": 1811,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image10.webp",
+    "bytes": 74628,
+    "type": "image/webp",
+    "width": 1811,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image11.webp",
+    "bytes": 406260,
+    "type": "image/webp",
+    "width": 2121,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image12.webp",
+    "bytes": 120294,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/image13.webp",
+    "bytes": 69704,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image1.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image1.webp",
+    "bytes": 32098,
+    "type": "image/webp",
+    "width": 1680,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/video0.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/video0.mp4",
+    "bytes": 2631625,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 11.516667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image2.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image2.webp",
+    "bytes": 77428,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image3.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image3.webp",
+    "bytes": 20612,
+    "type": "image/webp",
+    "width": 1811,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image4.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image4.webp",
+    "bytes": 40826,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image5.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image5.webp",
+    "bytes": 48294,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image6.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image6.webp",
+    "bytes": 63392,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image7.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image7.webp",
+    "bytes": 65302,
+    "type": "image/webp",
+    "width": 1885,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image8.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image8.webp",
+    "bytes": 34054,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/video1.mp4",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/video1.mp4",
+    "bytes": 2491610,
+    "type": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 11.016667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image9.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image9.webp",
+    "bytes": 80438,
+    "type": "image/webp",
+    "width": 1820,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image10.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image10.webp",
+    "bytes": 50904,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image11.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image11.webp",
+    "bytes": 53796,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image12.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image12.webp",
+    "bytes": 116488,
+    "type": "image/webp",
+    "width": 2276,
+    "height": 1280
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image13.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image13.webp",
+    "bytes": 39590,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image14.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image14.webp",
+    "bytes": 76418,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/image15.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/image15.webp",
+    "bytes": 54708,
+    "type": "image/webp",
+    "width": 1818,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.co/assets/images/cards/back.png",
+    "local": "sources/assets/lusion.co/assets/images/cards/back.png",
+    "bytes": 49818,
+    "type": "image/png",
+    "width": 628,
+    "height": 876
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/home.webp",
+    "bytes": 53092,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/cinematic_3.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/cinematic_3.ogg",
+    "bytes": 219018,
+    "type": "audio/ogg",
+    "duration": 10.729206
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/generic.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/generic.ogg",
+    "bytes": 236668,
+    "type": "audio/ogg",
+    "duration": 11.611859
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/cinematic_0.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/cinematic_0.ogg",
+    "bytes": 132390,
+    "type": "audio/ogg",
+    "duration": 6.399705
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/cinematic_2.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/cinematic_2.ogg",
+    "bytes": 102857,
+    "type": "audio/ogg",
+    "duration": 4.921156
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/generic_end.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/generic_end.ogg",
+    "bytes": 475936,
+    "type": "audio/ogg",
+    "duration": 23.575057
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/reel/desktop.mp4",
+    "local": "sources/assets/lusion.dev/assets/textures/reel/desktop.mp4",
+    "bytes": 4980580,
+    "type": "video/mp4",
+    "width": 1920,
+    "height": 960,
+    "duration": 11.516667
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/home.webp",
+    "bytes": 123782,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/atlas_motion/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/atlas_motion/home_depth.webp",
+    "bytes": 8768,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/home.webp",
+    "bytes": 108360,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/oryzo_ai/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/oryzo_ai/home_depth.webp",
+    "bytes": 6048,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/devin_ai/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/devin_ai/home_depth.webp",
+    "bytes": 4798,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/home_depth.webp",
+    "bytes": 26988,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/of_the_oak/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/of_the_oak/home.webp",
+    "bytes": 183326,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/home.webp",
+    "bytes": 28250,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/everswap/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/everswap/home_depth.webp",
+    "bytes": 7742,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/home_depth.webp",
+    "bytes": 30974,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/porsche_dream_machine/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/porsche_dream_machine/home.webp",
+    "bytes": 268054,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/home.webp",
+    "bytes": 40354,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/synthetic_human/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/synthetic_human/home_depth.webp",
+    "bytes": 12770,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/home.webp",
+    "bytes": 94132,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spatial_fusion/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spatial_fusion/home_depth.webp",
+    "bytes": 16966,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/home.webp",
+    "bytes": 20620,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/home.webp",
+    "bytes": 65644,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/ddd_2024/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/ddd_2024/home_depth.webp",
+    "bytes": 19258,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/home.webp",
+    "bytes": 155898,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/choo_choo_world/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/choo_choo_world/home_depth.webp",
+    "bytes": 55184,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/home.webp",
+    "bytes": 97728,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/soda_experience/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/soda_experience/home_depth.webp",
+    "bytes": 6472,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/smaa-search.png",
+    "local": "sources/assets/lusion.dev/assets/textures/smaa-search.png",
+    "bytes": 113,
+    "type": "image/png",
+    "width": 66,
+    "height": 33
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/smaa-area.png",
+    "local": "sources/assets/lusion.dev/assets/textures/smaa-area.png",
+    "bytes": 33203,
+    "type": "image/png",
+    "width": 160,
+    "height": 560
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/spaace/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/spaace/home_depth.webp",
+    "bytes": 6454,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/LDR_RGB1_0.png",
+    "local": "sources/assets/lusion.dev/assets/textures/LDR_RGB1_0.png",
+    "bytes": 48759,
+    "type": "image/png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/face.png",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/face.png",
+    "bytes": 771,
+    "type": "image/png",
+    "width": 100,
+    "height": 345
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+    "bytes": 247466,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+    "bytes": 244766,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp",
+    "bytes": 357692,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+    "bytes": 436250,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp",
+    "bytes": 356024,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+    "bytes": 276990,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+    "bytes": 175634,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp",
+    "bytes": 330450,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+    "bytes": 460660,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/white_matcap.jpg",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/white_matcap.jpg",
+    "bytes": 69851,
+    "type": "image/jpeg",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/earth.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/earth.webp",
+    "bytes": 1634,
+    "type": "image/webp",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/grids/greeble_arm.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/grids/greeble_arm.webp",
+    "bytes": 354148,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/grids/greeble_base.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/grids/greeble_base.webp",
+    "bytes": 276006,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/white_block.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/white_block.webp",
+    "bytes": 189362,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/grids/greeble_nor.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/grids/greeble_nor.webp",
+    "bytes": 198056,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/earth_landscape.jpg",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/earth_landscape.jpg",
+    "bytes": 245092,
+    "type": "image/jpeg",
+    "width": 1024,
+    "height": 512
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/tunnels/stickers.png",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/stickers.png",
+    "bytes": 409573,
+    "type": "image/png",
+    "width": 1465,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/flip_texture.png",
+    "local": "sources/assets/lusion.dev/assets/textures/flip_texture.png",
+    "bytes": 8696,
+    "type": "image/png",
+    "width": 512,
+    "height": 64
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/hover_0.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/hover_0.ogg",
+    "bytes": 6130,
+    "type": "audio/ogg",
+    "duration": 0.084943
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/click_0.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/click_0.ogg",
+    "bytes": 6651,
+    "type": "audio/ogg",
+    "duration": 0.111043
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/focus_0.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/focus_0.ogg",
+    "bytes": 10062,
+    "type": "audio/ogg",
+    "duration": 0.28161
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/glass_broken.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/glass_broken.ogg",
+    "bytes": 30803,
+    "type": "audio/ogg",
+    "duration": 1.318345
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/page_0.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/page_0.ogg",
+    "bytes": 21202,
+    "type": "audio/ogg",
+    "duration": 0.838594
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/page_1.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/page_1.ogg",
+    "bytes": 21190,
+    "type": "audio/ogg",
+    "duration": 0.838005
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/focus_1.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/focus_1.ogg",
+    "bytes": 9883,
+    "type": "audio/ogg",
+    "duration": 0.272653
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/click_1.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/click_1.ogg",
+    "bytes": 6413,
+    "type": "audio/ogg",
+    "duration": 0.099161
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/hover_1.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/hover_1.ogg",
+    "bytes": 6158,
+    "type": "audio/ogg",
+    "duration": 0.086349
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/focus_2.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/focus_2.ogg",
+    "bytes": 10036,
+    "type": "audio/ogg",
+    "duration": 0.280295
+  },
+  {
+    "url": "https://lusion.dev/assets/audios/hover_2.ogg",
+    "local": "sources/assets/lusion.dev/assets/audios/hover_2.ogg",
+    "bytes": 6152,
+    "type": "audio/ogg",
+    "duration": 0.086054
+  },
+  {
+    "url": "https://lusion.dev/assets/textures//tunnels/desktop.png",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/desktop.png",
+    "bytes": 67412,
+    "type": "image/png",
+    "width": 2000,
+    "height": 1537
+  },
+  {
+    "url": "https://lusion.dev/assets/textures//tunnels/tablet.png",
+    "local": "sources/assets/lusion.dev/assets/textures/tunnels/tablet.png",
+    "bytes": 73188,
+    "type": "image/png",
+    "width": 1496,
+    "height": 1080
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/reel/mobile.mp4",
+    "local": "sources/assets/lusion.dev/assets/textures/reel/mobile.mp4",
+    "bytes": 2267388,
+    "type": "video/mp4",
+    "width": 720,
+    "height": 960,
+    "duration": 11.516667
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/about/person_light.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/about/person_light.webp",
+    "bytes": 91978,
+    "type": "image/webp",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/about/ground_person_shadow.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/about/ground_person_shadow.webp",
+    "bytes": 2992,
+    "type": "image/webp",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/about/terrain_shadow_light_height.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/about/terrain_shadow_light_height.webp",
+    "bytes": 1112136,
+    "type": "image/webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/about/person.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/about/person.webp",
+    "bytes": 55682,
+    "type": "image/webp",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/font.png",
+    "local": "sources/assets/lusion.dev/assets/textures/font.png",
+    "bytes": 200,
+    "type": "image/png",
+    "width": 210,
+    "height": 6
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/about/rocks.webp",
+    "local": "sources/assets/lusion.dev/assets/textures/about/rocks.webp",
+    "bytes": 88684,
+    "type": "image/webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/about/fog.png",
+    "local": "sources/assets/lusion.dev/assets/textures/about/fog.png",
+    "bytes": 57325,
+    "type": "image/png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "url": "https://lusion.dev/assets/textures/award_gradient.png",
+    "local": "sources/assets/lusion.dev/assets/textures/award_gradient.png",
+    "bytes": 3126,
+    "type": "image/png",
+    "width": 256,
+    "height": 8
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/home_depth.webp",
+    "bytes": 25866,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/home_depth.webp",
+    "bytes": 31010,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/home_depth.webp",
+    "bytes": 20672,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/home.webp",
+    "bytes": 108214,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/worldcoin/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/worldcoin/home_depth.webp",
+    "bytes": 9776,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/home_depth.webp",
+    "bytes": 28040,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/home_depth.webp",
+    "bytes": 25568,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/home_depth.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/home_depth.webp",
+    "bytes": 31936,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/maxmara_bearings_gifts/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/maxmara_bearings_gifts/home.webp",
+    "bytes": 40720,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/zero_tech/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/zero_tech/home.webp",
+    "bytes": 145586,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/infinite_passerella/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/infinite_passerella/home.webp",
+    "bytes": 30098,
+    "type": "image/webp",
+    "width": 1229,
+    "height": 922
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/the_turn_of_the_screw/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/the_turn_of_the_screw/home.webp",
+    "bytes": 143232,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/my_little_story_book/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/my_little_story_book/home.webp",
+    "bytes": 144260,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "https://lusion.dev/assets/projects/lusion_labs/home.webp",
+    "local": "sources/assets/lusion.dev/assets/projects/lusion_labs/home.webp",
+    "bytes": 20988,
+    "type": "image/webp",
+    "width": 1200,
+    "height": 900
+  }
+]
