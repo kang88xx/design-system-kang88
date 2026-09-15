@@ -1,0 +1,2 @@
+let t=(t,e)=>async()=>{let n=await t();return n[e];},e=()=>import("./n01EnJx9T-2.js"),n=[t(e,"richText")];export async function resolveRichText(t){let e=n[t];if(e)return await e();}
+export const __FramerMetadata__ = {"exports":{"resolveRichText":{"type":"function","annotations":{"framerContractVersion":"1"}},"__FramerMetadata__":{"type":"variable"}}}

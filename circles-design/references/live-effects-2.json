@@ -1,0 +1,1275 @@
+{
+  "navByScroll": [
+    {
+      "label": "top",
+      "y": 0,
+      "cards": [
+        {
+          "text": "Projects",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "About02S",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Services",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 119,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Contact0",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 107,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        }
+      ]
+    },
+    {
+      "label": "projects",
+      "y": 900,
+      "cards": [
+        {
+          "text": "Projects",
+          "h": 150,
+          "bg": "rgb(255, 253, 234)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "About02S",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Services",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 119,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Contact0",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 107,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        }
+      ]
+    },
+    {
+      "label": "about",
+      "y": 2400,
+      "cards": [
+        {
+          "text": "Projects",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "About02S",
+          "h": 150,
+          "bg": "rgb(255, 253, 234)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Services",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 119,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Contact0",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 107,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        }
+      ]
+    },
+    {
+      "label": "services",
+      "y": 3500,
+      "cards": [
+        {
+          "text": "Projects",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "About02S",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Services",
+          "h": 181,
+          "bg": "rgb(255, 253, 234)",
+          "bottomH": 119,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Contact0",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 107,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        }
+      ]
+    },
+    {
+      "label": "awards",
+      "y": 4400,
+      "cards": [
+        {
+          "text": "Projects",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "About02S",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Services",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 119,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Contact0",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 107,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        }
+      ]
+    },
+    {
+      "label": "contact",
+      "y": 7600,
+      "cards": [
+        {
+          "text": "Projects",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "About02S",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 88,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Services",
+          "h": 42,
+          "bg": "rgb(255, 228, 121)",
+          "bottomH": 119,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        },
+        {
+          "text": "Contact0",
+          "h": 169,
+          "bg": "rgb(255, 253, 234)",
+          "bottomH": 107,
+          "bottomOpacity": "1",
+          "variant": "Top"
+        }
+      ]
+    }
+  ],
+  "navMarkers": [
+    {
+      "attrs": [
+        "class=framer-zb2PZ framer-EXVFr framer-twf1J f",
+        "data-framer-name=Default - Desktop",
+        "data-highlight=true",
+        "href=./#project-section",
+        "tabindex=0",
+        "style=background-color: var(--token-2f572e33-7"
+      ],
+      "childNames": [
+        "Top",
+        "Number",
+        "Bottom",
+        "Left",
+        "Right",
+        "1",
+        "Images",
+        "Image Wrapper",
+        "1",
+        "Image Wrapper",
+        "2",
+        "Image Wrapper"
+      ]
+    },
+    {
+      "attrs": [
+        "class=framer-WgX74 framer-EXVFr framer-twf1J f",
+        "data-framer-name=Default - Desktop",
+        "data-highlight=true",
+        "href=./#about-section",
+        "tabindex=0",
+        "style=background-color: var(--token-2f572e33-7"
+      ],
+      "childNames": [
+        "Top",
+        "Number",
+        "Bottom",
+        "Left",
+        "Right",
+        "SM",
+        "Icon",
+        "SM",
+        "Icon",
+        "SM",
+        "Icon"
+      ]
+    },
+    {
+      "attrs": [
+        "class=framer-vcvbm framer-EXVFr framer-twf1J f",
+        "data-framer-name=Default - Desktop",
+        "data-highlight=true",
+        "href=./#service-section",
+        "tabindex=0",
+        "style=background-color: var(--token-2f572e33-7"
+      ],
+      "childNames": [
+        "Top",
+        "Number",
+        "Bottom",
+        "Top",
+        "Bottom",
+        "List",
+        "Fit",
+        "Icon",
+        "Fit",
+        "Icon",
+        "Fit",
+        "Icon"
+      ]
+    },
+    {
+      "attrs": [
+        "class=framer-hNtBn framer-EXVFr framer-twf1J f",
+        "data-framer-name=Active - Desktop",
+        "data-highlight=true",
+        "href=./#contact-section",
+        "tabindex=0",
+        "style=background-color: var(--token-24930864-0"
+      ],
+      "childNames": [
+        "Top",
+        "Number",
+        "Bottom",
+        "Top",
+        "Right",
+        "Brand",
+        "Right",
+        "Bottom",
+        "Title",
+        "Short Description"
+      ]
+    }
+  ],
+  "ticker": {
+    "samples": [
+      {
+        "t": 13425.89999999851,
+        "tx": -520.38,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 13680,
+        "tx": -530.712,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 13931.699999999255,
+        "tx": -540.704,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 14185.39999999851,
+        "tx": -550.708,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 14441.800000000745,
+        "tx": -561.044,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 14694.300000000745,
+        "tx": -571.036,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 14946.599999997765,
+        "tx": -581.372,
+        "ulW": 2376,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 15198.800000000745,
+        "tx": -591.384,
+        "ulW": 2517,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 15451.300000000745,
+        "tx": -601.376,
+        "ulW": 2517,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      },
+      {
+        "t": 15709.099999997765,
+        "tx": -611.692,
+        "ulW": 2517,
+        "cursor": "auto",
+        "ulCursor": "ew-resize",
+        "gap": "60px",
+        "liCount": 14,
+        "parentStyle": "overflow-x:clip;display:flex;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y",
+        "mask": "none"
+      }
+    ],
+    "pxPerSec": 39.992992291533724,
+    "hoverPxPerSec": 3.985271993036625
+  },
+  "blurStack": [
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(0.78125px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(1.5625px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rg",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(3.125px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgba",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(6.25px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rg",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(12.5px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgba",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(25px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rg",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(50px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgb(0, 0, 0) 100%)",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    },
+    {
+      "owner": "Image",
+      "ownerChain": [
+        "Image",
+        "Featured - Desktop",
+        "Project",
+        "Page Content",
+        "Right"
+      ],
+      "backdrop": "blur(100px)",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0) 87.5%, rgb(0, 0, 0) 100%)",
+      "w": 1100,
+      "h": 220,
+      "top": 1229,
+      "position": "absolute"
+    }
+  ],
+  "pulse": [
+    {
+      "chain": [
+        "Status",
+        "Left",
+        "Top",
+        "Right",
+        "Main"
+      ],
+      "w": 30,
+      "h": 30,
+      "top": 17,
+      "bg": "rgb(103, 185, 53)",
+      "radius": "10000px",
+      "duration": 2050,
+      "keyframes": [
+        "{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0.5\",\"computedOffset\":0}",
+        "{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":1}"
+      ]
+    },
+    {
+      "chain": [
+        "Status",
+        "Left",
+        "Top",
+        "Right",
+        "Main"
+      ],
+      "w": 24,
+      "h": 24,
+      "top": 20,
+      "bg": "rgb(103, 185, 53)",
+      "radius": "10000px",
+      "duration": 2050,
+      "keyframes": [
+        "{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0.5\",\"computedOffset\":0}",
+        "{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0\",\"computedOffset\":1}"
+      ]
+    }
+  ],
+  "ewResize": [
+    {
+      "tag": "DIV",
+      "chain": [
+        "Client Ticker",
+        "Content",
+        "Content",
+        "Award"
+      ]
+    },
+    {
+      "tag": "UL",
+      "chain": [
+        "Client Ticker",
+        "Content",
+        "Content",
+        "Award"
+      ]
+    },
+    {
+      "tag": "LI",
+      "chain": [
+        "Client Ticker",
+        "Content",
+        "Content",
+        "Award"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "chain": [
+        "Client 01",
+        "Client Ticker",
+        "Content",
+        "Content"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "chain": [
+        "Desktop",
+        "Client 01",
+        "Client Ticker",
+        "Content"
+      ]
+    }
+  ],
+  "svgMasks": [
+    {
+      "chain": [
+        "Logo",
+        "Content",
+        "Light"
+      ],
+      "w": 12,
+      "h": 20,
+      "bg": "rgb(0, 0, 0)",
+      "mask": "url(\"data:image/svg+xml,<svg display=\\\"block\\\" role=\\\"presentation\\\" viewBox=\\\"0 0 12 20\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M 0 0 L 12 0 L 12 6 L 6 6 Z M 0 6 L 6 6 L 12 12 L 6 12 L 6 18 L 0 12 Z\\\" fill=\\\"var(--1bd4d3i, rgb(0, 0, 0))\\\" height=\\\"18px\\\" id=\\\"td4SVg2I8\\\" transform=\\\"translate(0 1.5)\\\" width=\\\"12px\\\"/></svg>\"), none"
+    },
+    {
+      "chain": [
+        "Text",
+        "Content",
+        "Light"
+      ],
+      "w": 97,
+      "h": 10,
+      "bg": "rgb(0, 0, 0)",
+      "mask": "url(\"data:image/svg+xml,<svg display=\\\"block\\\" role=\\\"presentation\\\" viewBox=\\\"0 0 97 10\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M 91.736 9.781 L 91.736 2.818 L 93.316 2.818 L 93.316 3.98 L 93.374 3.98 C 93.501 3.577 93.714 3.269 94.014 3.053 C 94.328 2.833 94.704 2.72 95.087 2.729 C 95.185 2.729 95.287 2.733 95.392 2.742 C 95.498 2.75 95.587 2.759 95.659 2.767 L 95.659 4.253 C 95.552 4.23 95.444 4.215 95.335 4.209 C 95.188 4.192 95.039 4.184 94.891 4.184 C 94.603 4.184 94.343 4.247 94.11 4.374 C 93.882 4.497 93.702 4.674 93.57 4.907 C 93.434 5.16 93.366 5.445 93.374 5.732 L 93.374 9.782 L 91.736 9.782 Z M 87.286 9.927 C 86.588 9.927 85.985 9.779 85.477 9.483 C 84.969 9.183 84.577 8"
+    }
+  ],
+  "fanRest": [
+    {
+      "name": "1",
+      "transform": "matrix(0.692636, -0.500191, 0.400097, 0.865915, 30.0167, 0)",
+      "radius": "15.0021%",
+      "w": 55
+    },
+    {
+      "name": "2",
+      "transform": "matrix(1.25014, -0.000220024, 0.00027506, 1, -30.0167, 0)",
+      "radius": "11.9987%",
+      "w": 50
+    },
+    {
+      "name": "3",
+      "transform": "matrix(0.692636, 0.500191, -0.400097, 0.865915, -30.0167, 0)",
+      "radius": "15.0021%",
+      "w": 55
+    },
+    {
+      "name": "4",
+      "transform": "matrix3d(1.25014, 0.000220024, 0, 0, -0.00027506, 1, 0, 0, 0, 0, 1, 0, 30.0167, 0, 1.00042, 1)",
+      "radius": "11.9987%",
+      "w": 50
+    }
+  ],
+  "fanHover": [
+    {
+      "t": 0,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.694295, -0.49811, 0.398835, 0.867114, 29.8955, 0)",
+          "radius": "14.9869%",
+          "w": 55
+        },
+        {
+          "name": "2",
+          "transform": "matrix(1.24913, 0.00218105, -0.00272441, 0.999998, -29.8955, 0)",
+          "radius": "12.0084%",
+          "w": 50
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.694295, 0.49811, -0.398835, 0.867114, -29.8955, 0)",
+          "radius": "14.9869%",
+          "w": 55
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(1.24913, -0.00218105, 0, 0, 0.00272441, 0.999998, 0, 0, 0, 0, 1, 0, 29.8955, 0, 0.995834, 1)",
+          "radius": "12.0084%",
+          "w": 50
+        }
+      ]
+    },
+    {
+      "t": 76,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.702748, -0.487763, 0.392651, 0.872976, 29.2496, 0)",
+          "radius": "14.9068%",
+          "w": 55
+        },
+        {
+          "name": "2",
+          "transform": "matrix(1.24362, 0.0140724, -0.0175025, 0.999901, -29.2496, 0)",
+          "radius": "12.0603%",
+          "w": 50
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.702748, 0.487763, -0.392651, 0.872976, -29.2496, 0)",
+          "radius": "14.9068%",
+          "w": 55
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(1.24362, -0.0140724, 0, 0, 0.0175025, 0.999901, 0, 0, 0, 0, 1, 0, 29.2496, 0, 0.973123, 1)",
+          "radius": "12.0603%",
+          "w": 50
+        }
+      ]
+    },
+    {
+      "t": 150,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.723245, -0.462307, 0.377076, 0.88672, 27.6539, 0)",
+          "radius": "14.7124%",
+          "w": 55
+        },
+        {
+          "name": "2",
+          "transform": "matrix(1.22931, 0.0429909, -0.0528982, 0.999075, -27.6539, 0)",
+          "radius": "12.1907%",
+          "w": 51
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.723245, 0.462307, -0.377076, 0.88672, -27.6539, 0)",
+          "radius": "14.7124%",
+          "w": 55
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(1.22931, -0.0429909, 0, 0, 0.0528982, 0.999075, 0, 0, 0, 0, 1, 0, 27.6539, 0, 0.917868, 1)",
+          "radius": "12.1907%",
+          "w": 51
+        }
+      ]
+    },
+    {
+      "t": 225,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.7711, -0.39902, 0.335555, 0.916942, 23.858, 0)",
+          "radius": "14.2696%",
+          "w": 55
+        },
+        {
+          "name": "2",
+          "transform": "matrix(1.19115, 0.11291, -0.135358, 0.993605, -23.858, 0)",
+          "radius": "12.5123%",
+          "w": 53
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.7711, 0.39902, -0.335555, 0.916942, -23.858, 0)",
+          "radius": "14.2696%",
+          "w": 55
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(1.19115, -0.11291, 0, 0, 0.135358, 0.993605, 0, 0, 0, 0, 1, 0, 23.858, 0, 0.783898, 1)",
+          "radius": "12.5123%",
+          "w": 53
+        }
+      ]
+    },
+    {
+      "t": 300,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.911086, -0.178928, 0.165693, 0.983862, 11.0955, 0)",
+          "radius": "12.9585%",
+          "w": 54
+        },
+        {
+          "name": "2",
+          "transform": "matrix(1.02857, 0.336975, -0.368133, 0.941514, -11.0955, 0)",
+          "radius": "13.7304%",
+          "w": 56
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.911086, 0.178928, -0.165693, 0.983862, -11.0955, 0)",
+          "radius": "12.9585%",
+          "w": 54
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(1.02857, -0.336975, 0, 0, 0.368133, 0.941514, 0, 0, 0, 0, 1, 0, 11.0955, 0, 0.343577, 1)",
+          "radius": "13.7304%",
+          "w": 56
+        }
+      ]
+    },
+    {
+      "t": 374,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.975716, -0.0561201, 0.0548437, 0.998424, 3.41165, 0)",
+          "radius": "12.2793%",
+          "w": 52
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.918101, 0.450611, -0.463422, 0.892721, -3.41165, 0)",
+          "radius": "14.5853%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.975716, 0.0561201, -0.0548437, 0.998424, -3.41165, 0)",
+          "radius": "12.2793%",
+          "w": 52
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(0.918101, -0.450611, 0, 0, 0.463422, 0.892721, 0, 0, 0, 0, 1, 0, 3.41165, 0, 0.107238, 1)",
+          "radius": "14.5853%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 450,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.99286, -0.0170509, 0.0169316, 0.999855, 1.04934, 0)",
+          "radius": "12.0845%",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.882071, 0.485161, -0.489403, 0.874425, -1.04934, 0)",
+          "radius": "14.87%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.99286, 0.0170509, -0.0169316, 0.999855, -1.04934, 0)",
+          "radius": "12.0845%",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(0.882071, -0.485161, 0, 0, 0.489403, 0.874425, 0, 0, 0, 0, 1, 0, 1.04934, 0, 0.0325663, 1)",
+          "radius": "14.87%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 525,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(0.998991, -0.00223225, 0.00223, 0.999998, 0.151033, 0)",
+          "radius": "12.0121%",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.868231, 0.498066, -0.498692, 0.867139, -0.151033, 0)",
+          "radius": "14.9811%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "matrix(0.998991, 0.00223225, -0.00223, 0.999998, -0.151033, 0)",
+          "radius": "12.0121%",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(0.868231, -0.498066, 0, 0, 0.498692, 0.867139, 0, 0, 0, 0, 1, 0, 0.151033, 0, 0.00426329, 1)",
+          "radius": "14.9811%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 601,
+      "items": [
+        {
+          "name": "1",
+          "transform": "matrix(1.00018, 0.000393644, -0.000393714, 1, -0.0268598, 0)",
+          "radius": "11.9979%",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.865635, 0.500341, -0.500229, 0.865829, 0.0268598, 0)",
+          "radius": "15.0034%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "matrix(1.00018, -0.000393644, 0.000393714, 1, 0.0268598, 0)",
+          "radius": "11.9979%",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix3d(0.865635, -0.500341, 0, 0, 0.500229, 0.865829, 0, 0, 0, 0, 1, 0, -0.0268598, 0, -0.000751804, 1)",
+          "radius": "15.0034%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 675,
+      "items": [
+        {
+          "name": "1",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.866025, 0.5, -0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix(0.866025, -0.5, 0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 748,
+      "items": [
+        {
+          "name": "1",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.866025, 0.5, -0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix(0.866025, -0.5, 0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 821,
+      "items": [
+        {
+          "name": "1",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.866025, 0.5, -0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix(0.866025, -0.5, 0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 893,
+      "items": [
+        {
+          "name": "1",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.866025, 0.5, -0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix(0.866025, -0.5, 0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        }
+      ]
+    },
+    {
+      "t": 965,
+      "items": [
+        {
+          "name": "1",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "2",
+          "transform": "matrix(0.866025, 0.5, -0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        },
+        {
+          "name": "3",
+          "transform": "none",
+          "radius": "6px",
+          "w": 50
+        },
+        {
+          "name": "4",
+          "transform": "matrix(0.866025, -0.5, 0.5, 0.866025, 0, 0)",
+          "radius": "15%",
+          "w": 55
+        }
+      ]
+    }
+  ],
+  "fanContainer": {
+    "w": 100,
+    "h": 50,
+    "perspective": "none",
+    "transform": "matrix(1, 0, 0, 1, 0, -25)",
+    "visible": 140,
+    "bottomTop": 140,
+    "cardH": 42,
+    "cardOverflow": "hidden"
+  },
+  "fanOverflowChain": [
+    {
+      "name": "Bottom",
+      "overflow": "visible",
+      "h": 88,
+      "top": 140
+    },
+    {
+      "name": "Default - Desktop",
+      "overflow": "hidden",
+      "h": 42,
+      "top": 86
+    },
+    {
+      "name": "DIV",
+      "overflow": "visible",
+      "h": 42,
+      "top": 86
+    },
+    {
+      "name": "Bottom",
+      "overflow": "visible",
+      "h": 186,
+      "top": 86
+    },
+    {
+      "name": "Top",
+      "overflow": "visible",
+      "h": 712,
+      "top": 40
+    },
+    {
+      "name": "Content",
+      "overflow": "visible",
+      "h": 960,
+      "top": 20
+    },
+    {
+      "name": "Desktop",
+      "overflow": "hidden",
+      "h": 1000,
+      "top": 0
+    },
+    {
+      "name": "DIV",
+      "overflow": "visible",
+      "h": 1000,
+      "top": 0
+    }
+  ],
+  "mobile": {
+    "buttonRest": [
+      {
+        "transform": "none",
+        "w": 20,
+        "h": 2,
+        "top": 31,
+        "bg": "rgb(103, 94, 80)",
+        "radius": "6px"
+      },
+      {
+        "transform": "none",
+        "w": 20,
+        "h": 2,
+        "top": 39,
+        "bg": "rgb(103, 94, 80)",
+        "radius": "6px"
+      }
+    ],
+    "buttonOpen": [
+      {
+        "transform": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)",
+        "w": 16,
+        "h": 16,
+        "top": 28
+      },
+      {
+        "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+        "w": 16,
+        "h": 16,
+        "top": 28
+      }
+    ],
+    "cards": [
+      {
+        "text": "Projects",
+        "w": 172,
+        "h": 28,
+        "padding": "4px 12px",
+        "radius": "2px",
+        "bg": "rgb(255, 228, 121)",
+        "numSize": 20,
+        "labelFont": "16px/600"
+      },
+      {
+        "text": "About02",
+        "w": 172,
+        "h": 28,
+        "padding": "4px 10px",
+        "radius": "2px",
+        "bg": "rgb(255, 228, 121)",
+        "numSize": 20,
+        "labelFont": "16px/600"
+      },
+      {
+        "text": "Services",
+        "w": 172,
+        "h": 28,
+        "padding": "4px 10px",
+        "radius": "2px",
+        "bg": "rgb(255, 228, 121)",
+        "numSize": 20,
+        "labelFont": "16px/600"
+      },
+      {
+        "text": "Contact0",
+        "w": 172,
+        "h": 28,
+        "padding": "4px 10px",
+        "radius": "2px",
+        "bg": "rgb(255, 228, 121)",
+        "numSize": 20,
+        "labelFont": "16px/600"
+      }
+    ],
+    "panel": {
+      "w": 370,
+      "h": 324,
+      "padding": "10px",
+      "radius": "6px",
+      "gap": "60px",
+      "children": [
+        {
+          "name": "Top",
+          "h": 62,
+          "display": "flex",
+          "gridCols": "none"
+        },
+        {
+          "name": "Bottom",
+          "h": 182,
+          "display": "flex",
+          "gridCols": "none"
+        }
+      ]
+    }
+  }
+}

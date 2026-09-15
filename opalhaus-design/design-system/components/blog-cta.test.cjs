@@ -1,0 +1,15 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright-core');
+(async()=>{
+ const browser=await chromium.launch({executablePath:process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});const page=await browser.newPage({viewport:{width:1000,height:700}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(require('url').pathToFileURL(require('path').join(__dirname,'blog-cta.html')).href);await page.evaluate(()=>document.fonts.ready);
+ const link=page.locator('.opal-blog-cta');
+ async function state(){return link.evaluate(n=>({width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height,bg:getComputedStyle(n).backgroundColor,outer:getComputedStyle(n).transform,mask:getComputedStyle(n.querySelector('.opal-blog-cta__viewport')).transform,incoming:getComputedStyle(n.querySelector('.opal-blog-cta__arrow--incoming')).transform,outgoing:getComputedStyle(n.querySelector('.opal-blog-cta__arrow--outgoing')).transform,text:getComputedStyle(n.querySelector('.opal-blog-cta__text')).justifyContent,font:getComputedStyle(n).fontFamily,weight:getComputedStyle(n).fontWeight}));}
+ const initial=await state();if(initial.incoming!=='matrix(1, 0, 0, 1, -28, 0)'||initial.outgoing!=='matrix(1, 0, 0, 1, 2, 0)')throw Error('default arrows');
+ await link.hover();await page.waitForTimeout(500);const hover=await state();if(hover.incoming!=='matrix(1, 0, 0, 1, 0, 0)'||hover.outgoing!=='matrix(1, 0, 0, 1, 30, 0)')throw Error('hover arrows');if(hover.mask!==initial.mask)throw Error('mask rotated');if(hover.bg!=='rgb(10, 10, 10)')throw Error('bg');
+ await page.mouse.down();const press=await state();if(press.outer!=='none')throw Error('invented press scale');await page.mouse.up();if(await page.locator('[data-cta-destination]').textContent()!=='Destination: /blog')throw Error('preview click');
+ await page.mouse.move(0,0);await page.keyboard.press('Tab');await link.focus();await page.waitForTimeout(500);const focus=await state();if(focus.incoming!==hover.incoming)throw Error('focus');
+ await page.keyboard.press('Enter');if(!page.url().startsWith('file:'))throw Error('preview navigated');
+ await page.evaluate(()=>{document.documentElement.dataset.reducedMotion='true';document.querySelector('.opal-blog-cta').blur();});await page.waitForTimeout(30);const duration=await link.evaluate(n=>getComputedStyle(n).transitionDuration);if(duration!=='0s')throw Error('reduced motion');
+ await page.evaluate(()=>{const host=document.createElement('div');host.id='mount';document.body.append(host);window.OpalBlogCTA.mount(host,{href:'/custom-blog',label:'Latest news'});});const native=page.locator('#mount a');if(await native.getAttribute('href')!=='/custom-blog'||await native.getAttribute('data-preview')!==null)throw Error('native link');
+ await page.screenshot({path:'/tmp/opal-cta-verified.png'});if(errors.length)throw Error(errors.join(','));console.log(JSON.stringify({initial,hover,pressScale:press.outer,keyboard:true,clickPreview:true,nativeHref:true,reducedMotion:true,errors}));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

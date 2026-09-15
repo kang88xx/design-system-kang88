@@ -1,4 +1,7 @@
 # Studio Hub 배포용 rsync 제외 목록 (기준: 02_Source 루트). GitHub Pages 한도(사이트 1GB, 파일 100MB)에 맞춘 선별.
+# --- macOS AppleDouble·메타 파일은 어떤 포함 규칙보다 먼저 제외 (아래 '+ dir/**' 규칙이 먼저 매치되면 새어 나온다) ---
+- ._*
+- .DS_Store
 # --- 뷰어가 직접 불러오는 개별 파일: 전역 제외보다 먼저 포함 (rsync는 첫 매치 우선) ---
 + /toss_design/evidence/
 + /toss_design/evidence/source/
@@ -24,6 +27,10 @@
 + /stripe_design/captures/pages/
 + /stripe_design/captures/pages/*-fold.png
 - /stripe_design/captures/**
++ /opalhaus-design/evidence/
+- /opalhaus-design/evidence/*.json
+- /opalhaus-design/evidence/text-services/
++ /opalhaus-design/evidence/**
 # --- 어디서나 제외 --- (숨김 디렉터리는 전부: .git .omx .omc .openai .vercel .claude .gstack .tmp …)
 - .*/
 - .git/
@@ -97,3 +104,7 @@
 - /reatic_design/app/public/source/fonts/
 # --- Stripe: 원본 캡처 데이터(문서 예시 API 키 포함, 뷰어 미사용) ---
 - /stripe_design/data/raw/
+# --- Opalhaus: 전체 보관본 ZIP(265MB), 스톡 영상(43MB), 계측 JSON 덤프 evidence/*.json(16MB) 제외. 150KB 초과 소스 이미지는 build-site.sh 가 동적 필터로 제외하고,
+#     제외된 이미지·영상은 배포 사본에서 원본 CDN URL(framerusercontent.com / videos.pexels.com)로 대체한다(2d 단계) ---
+- /opalhaus-design/opalhaus-design-system.zip
+- /opalhaus-design/assets/videos/

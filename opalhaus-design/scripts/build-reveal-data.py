@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# coding: utf-8
+"""Rebuild both source-mapped reveal specifications and the offline gallery payload."""
+import json,re
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+module=next((ROOT/'source/js').glob('56d9*'));src=module.read_text()
+def ref(anchor,selector):
+ i=src.index(anchor);return dict(file=str(module.relative_to(ROOT)),offset=i,offsetUnit='unicode-character',selector=selector,anchor=anchor,excerpt=src[max(0,i-100):i+650])
+assets=json.loads((ROOT/'assets/manifest.json').read_text())['files']
+image=next(f['path'] for f in assets if '1duOVcilpl3cJsg3KzVgMJtYicM' in f['url'] and f['bytes']==712664)
+rows=[dict(id='hero-original',title='Opalhaus® / Visual Collective',mode='characters',lines=['Opalhaus®','Visual Collective '],label='BRAND ARCHITECTS',labelEffect={'opacity':[.001,1],'delay':.3,'damping':66,'stiffness':400,'mass':1},labelStyle={'fontFamily':'Inter Tight','fontSize':14,'fontWeight':500,'lineHeight':1.4,'letterSpacing':'.02em','dot':{'size':8,'gap':8,'color':'#ff5d17'}},trigger='onMount',threshold=None,once=True,initial={'filter':'blur(10px)','opacity':.001,'y':10},transition={'type':'spring','bounce':0,'duration':.4,'delay':.05},startDelay=.1,typography={'family':'Inter Tight','weight':600,'fontSize':{'desktop':150,'tablet':106,'phone':70},'letterSpacing':'-.04em','lineHeight':1.1},background={'image':image,'filter':'grayscale(1)','filterTarget':'background image only','overlay':'linear-gradient(217deg,#0000 0%,#000 100%)','color':'#0a0a0a'},provenance=[ref('Rt={effect:','.framer-n2b5a6'),ref('effect:Rt','.framer-n2b5a6'),ref('children:`Opalhaus®`','.framer-n2b5a6 h1'),ref('It={opacity:1','.framer-ss1831-container'),ref('ZCn1L3jKB:`BRAND ARCHITECTS`','.framer-ss1831-container')],mapping={'tokenization':'character','characterCount':27,'spaces':'preserved, included in index','lineBreak':'explicit two h1 blocks; preview uses one accessible heading with two visual lines','globalIndex':'continues across two lines'},descriptionKo='원본 두 줄 전체 문구와 히어로 이미지를 재현합니다. 각 문자가 blur 10px / y 10px / opacity .001에서 선명해집니다.',boundaries=['Source is onMount; gallery waits until visible so the animation can be inspected.','Source delay .05 interpreted as a per-character interval; index treatment across block boundaries is a native reconstruction.','Duration .4 / bounce 0 rendered with a critically damped response normalized to .4 seconds; not the Framer duration-spring solver.','Gallery scales the 1200px desktop typography to its preview width; standalone component uses original responsive sizes.']),dict(id='service-original',title='Timeless design / to solutions',mode='group',lines=['Timeless design','to solutions'],label='SERVICE',trigger='viewport',threshold=.5,once=True,disabledBelow=810,initial={'opacity':0,'y':150},transition={'type':'spring','damping':100,'mass':1,'stiffness':400,'delay':0},startDelay=0,typography={'family':'Inter Tight','weight':600,'fontSize':{'desktop':62,'tablet':50,'phone':40},'letterSpacing':'-.02em','lineHeight':1.2},background={'color':'#0a0a0a'},provenance=[ref('className:`framer-vqwa91`','.framer-vqwa91'),ref('W={opacity:0','.framer-vqwa91'),ref('G={damping:100','.framer-vqwa91'),ref('children:[`Timeless design`','.framer-cceyx3')],mapping={'animationTarget':'Header parent .framer-vqwa91','children':['SERVICE label .framer-1gv7sks-container','heading .framer-cceyx3'],'characterSplit':False,'mobileOverride':'o5K_bp631 disables styleAppearEffect'},descriptionKo='SERVICE 라벨과 두 줄 제목이 하나의 그룹으로 150px 아래에서 올라옵니다. 원본 제목에는 문자별 블러 효과가 없습니다.',boundaries=['Service title itself has no text effect; parent header provides a single spring reveal.','Original phone variant (<810px) disables this appear effect; reusable component preserves that behavior.','Service label text is white; the preceding 8px dot is orange. Label and title share the group animation.','Native spring samples the exact 100/400/1 differential-equation response; completion threshold .001 is a renderer decision.'])]
+
+css=(ROOT/'source/css/home-inline.css').read_text()
+anchor='.framer-24k4v .framer-1j22bwa{filter:grayscale()'
+i=css.index(anchor)
+rows[0]['provenance'].append({'file':'source/css/home-inline.css','offset':i,'offsetUnit':'unicode-character','selector':'.framer-24k4v .framer-1j22bwa','anchor':anchor,'excerpt':css[i:i+500]})
+rows[0]['mapping']['characterCount']=sum(map(len,rows[0]['lines']))
+(ROOT/'reveal-data.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
+p=ROOT/'reveal-library.js'
+if p.exists():
+ text=p.read_text();block='/* REVEAL_DATA_START */\n  const data = '+json.dumps(rows,ensure_ascii=False)+';\n  /* REVEAL_DATA_END */'
+ text=re.sub(r'/\* REVEAL_DATA_START \*/.*?/\* REVEAL_DATA_END \*/',lambda m:block,text,flags=re.S);p.write_text(text)
+print('2 original text reveal records; '+str(sum(len(r['provenance']) for r in rows))+' exact source anchors verified')

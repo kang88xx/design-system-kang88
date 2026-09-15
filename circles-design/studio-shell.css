@@ -1,0 +1,266 @@
+/* ==========================================================================
+   Studio Shell — Apple Web Design System 스튜디오의 셸(뼈대)을 공통 규격으로 옮긴 CSS.
+   원본: apple_design/app/src/studio.css (.sidebar/.topbar/.workspace/.stats-strip 등)
+   - 모든 클래스는 `as-` 접두어를 써서 각 뷰어의 기존 CSS와 충돌하지 않습니다.
+   - 색·서체는 --as-* 변수로만 받습니다. 기본값은 Apple 값이며, 각 뷰어는
+     자기 브랜드 토큰을 --as-* 에 매핑해서 덮어씁니다(뼈대는 같고 스킨만 다름).
+   ========================================================================== */
+:root {
+  --as-font-display: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  --as-font-text: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --as-font-mono: "SF Mono", Consolas, monospace;
+  --as-ink: #1d1d1f;
+  --as-ink-2: #414145;
+  --as-ink-3: #515156;
+  --as-muted: #6e6e73;
+  --as-faint: #86868b;
+  --as-faint-2: #99999e;
+  --as-line: #e5e5e7;
+  --as-line-strong: #dedee2;
+  --as-accent: #0071e3;
+  --as-accent-hover: #0076df;
+  --as-accent-active: #006edb;
+  --as-link: #0066cc;
+  --as-on-accent: #ffffff;
+  --as-bg: #ffffff;
+  --as-surface: #f5f5f7;
+  --as-sidebar-bg: #fafafa;
+  --as-nav-hover: #eeeef0;
+  --as-nav-active-bg: #e7eef7;
+  --as-nav-active-ink: #0066cc;
+  --as-status: #378264;
+  --as-selection: #c9e3ff;
+  --as-toast-bg: #1d1d1f;
+  --as-toast-ink: #ffffff;
+  --as-sidebar-w: 232px;
+  --as-topbar-h: 65px;
+  --as-radius: 6px;
+  --as-radius-pill: 980px;
+}
+
+/* ---------- 문서 기본 ---------- */
+.as-studio {
+  font-family: var(--as-font-text);
+  color: var(--as-ink);
+  background: var(--as-bg);
+  font-size: 14px;
+  letter-spacing: 0;
+  min-height: 100vh;
+}
+:where(.as-studio) *, :where(.as-studio) *::before, :where(.as-studio) *::after { box-sizing: border-box; }
+:where(.as-studio) ::selection { background: var(--as-selection); }
+/* 리셋은 :where()로 특이도 0 — 각 뷰어의 단일 클래스 컴포넌트 규칙(.button, .link 등)이 항상 이긴다 */
+:where(.as-studio) a { color: inherit; text-decoration: none; }
+:where(.as-studio) button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+:where(.as-studio) button:disabled { cursor: not-allowed; }
+:where(.as-studio) button:focus-visible, :where(.as-studio) a:focus-visible, :where(.as-studio) input:focus-visible,
+:where(.as-studio) summary:focus-visible { outline: 3px solid var(--as-accent); outline-offset: 4px; }
+
+.as-sidebar a, .as-topbar a, .as-studio-footer a { color: inherit; }
+.as-skip-link { position: fixed; top: -60px; left: 20px; background: var(--as-bg); padding: 12px; z-index: 200; }
+.as-skip-link:focus { top: 8px; }
+
+/* ---------- 사이드바 ---------- */
+.as-sidebar {
+  width: var(--as-sidebar-w);
+  position: fixed; inset: 0 auto 0 0;
+  border-right: 1px solid var(--as-line);
+  background: var(--as-sidebar-bg);
+  z-index: 50;
+  display: flex; flex-direction: column;
+}
+.as-brand {
+  flex-shrink: 0;
+  height: 104px;
+  display: flex; align-items: center; gap: 12px;
+  padding: 0 25px;
+}
+.as-brand-mark { display: inline-flex; justify-content: center; align-items: center; flex: none; fill: currentColor; }
+.as-brand-mark svg, .as-brand-mark img { width: 22px; height: 30px; object-fit: contain; display: block; }
+.as-brand > div { flex: 1 1 auto; min-width: 0; }
+.as-brand strong { display: block; font-size: 19px; font-weight: 600; line-height: 1.15; }
+.as-brand div > span { display: block; font-size: 11px; color: var(--as-muted); margin-top: 4px; line-height: 1.3; }
+/* 가로형 워드마크 로고용 변형 */
+.as-brand-mark--wordmark svg, .as-brand-mark--wordmark img { width: auto; max-width: 48px; height: 20px; }
+.as-brand-badge {
+  margin-left: auto; font-size: 9px; border: 1px solid #d9d9dc; border-radius: 4px;
+  padding: 3px 4px; color: var(--as-faint); text-transform: uppercase; flex: none;
+}
+.as-sidebar-group { min-height: 0; overflow-y: auto; padding: 20px 14px; }
+.as-sidebar-label { font-size: 10px; color: var(--as-faint); padding: 0 12px; display: block; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0; }
+.as-sidebar nav { display: grid; gap: 4px; }
+.as-sidebar nav a, .as-sidebar nav button {
+  display: flex; align-items: center; width: 100%; text-align: left;
+  padding: 12px; border-radius: var(--as-radius); font-size: 13px; min-height: 42px; gap: 13px;
+  color: inherit;
+}
+.as-nav-index { font-size: 10px; color: var(--as-faint-2); font-variant-numeric: tabular-nums; flex: none; }
+.as-nav-count { margin-left: auto; font-size: 10px; color: var(--as-faint-2); font-variant-numeric: tabular-nums; }
+.as-sidebar nav a:hover, .as-sidebar nav button:hover { background: var(--as-nav-hover); }
+.as-sidebar nav a[aria-current], .as-sidebar nav button[aria-current],
+.as-sidebar nav a.is-active, .as-sidebar nav button.is-active {
+  background: var(--as-nav-active-bg); color: var(--as-nav-active-ink); font-weight: 500;
+}
+.as-sidebar nav a[aria-current] .as-nav-index, .as-sidebar nav button[aria-current] .as-nav-index,
+.as-sidebar nav a.is-active .as-nav-index, .as-sidebar nav button.is-active .as-nav-index { color: var(--as-nav-active-ink); }
+.as-sidebar-label + nav + .as-sidebar-label { margin-top: 22px; }
+.as-live-dot { width: 5px; height: 5px; background: var(--as-status); border-radius: 50%; margin-left: auto; flex: none; }
+.as-sidebar-bottom {
+  flex-shrink: 0; margin-top: auto;
+  border-top: 1px solid var(--as-line);
+  padding: 22px 18px;
+  display: flex; align-items: center; gap: 9px;
+  font-size: 10px; color: var(--as-ink-3);
+}
+.as-sidebar-bottom small { display: block; font-size: 9px; color: var(--as-faint); margin-top: 5px; }
+.as-sidebar-bottom > a:last-child { margin-left: auto; font-size: 17px; }
+.as-status-dot { display: inline-block; flex: none; width: 6px; height: 6px; border-radius: 50%; background: var(--as-status); }
+.as-mobile-nav-button, .as-sidebar-scrim { display: none; }
+.as-sidebar-scrim[hidden] { display: none !important; }
+
+/* ---------- 메인 ---------- */
+.as-main-shell { margin-left: var(--as-sidebar-w); min-width: 0; }
+.as-topbar {
+  height: var(--as-topbar-h);
+  border-bottom: 1px solid var(--as-line);
+  padding: 0 42px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  background: color-mix(in srgb, var(--as-bg) 93%, transparent);
+  backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  position: sticky; top: 0; z-index: 30;
+}
+.as-breadcrumb { display: flex; gap: 15px; color: var(--as-faint); font-size: 12px; white-space: nowrap; min-width: 0; overflow: hidden; }
+.as-breadcrumb strong { color: var(--as-ink-2); font-weight: 400; overflow: hidden; text-overflow: ellipsis; }
+.as-topbar-tools { display: flex; align-items: center; gap: 10px; margin-left: auto; min-width: 0; }
+.as-topbar-search {
+  display: flex; align-items: center; gap: 8px;
+  border: 1px solid var(--as-line-strong); border-radius: var(--as-radius); background: var(--as-bg);
+  padding: 0 12px; height: 34px; min-width: 200px; max-width: 360px; font-size: 11px; color: var(--as-muted);
+}
+.as-topbar-search input { border: 0; background: transparent; font: inherit; color: var(--as-ink); outline: 0; min-width: 0; flex: 1; }
+.as-topbar-search svg { width: 14px; height: 14px; flex: none; }
+.as-export-button {
+  border: 1px solid var(--as-line-strong); border-radius: var(--as-radius);
+  padding: 9px 12px; font-size: 11px; display: inline-flex; gap: 15px; align-items: center;
+  background: var(--as-bg); color: inherit; white-space: nowrap;
+}
+.as-export-button:hover { background: var(--as-surface); }
+.as-export-button span { font-size: 17px; line-height: 1; }
+.as-icon-button {
+  border: 1px solid var(--as-line-strong); border-radius: var(--as-radius); background: var(--as-bg);
+  width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; font-size: 14px;
+}
+.as-icon-button:hover { background: var(--as-surface); }
+.as-export-button, .as-icon-button, .as-mobile-nav-button { flex: none; }
+
+.as-workspace { max-width: 1400px; margin: 0 auto; padding: 43px 48px 0; min-height: calc(100vh - var(--as-topbar-h)); }
+.as-workspace:focus { outline: 0; }
+.as-workspace > section { margin-top: 35px; }
+.as-workspace > section:first-child { margin-top: 0; }
+
+/* ---------- 개요 페이지 상단(히어로) ---------- */
+.as-eyebrow { font-size: 10px; font-weight: 500; color: var(--as-muted); display: flex; align-items: center; gap: 8px; text-transform: uppercase; }
+.as-version { color: var(--as-faint-2); margin-left: 7px; font-weight: 400; }
+.as-overview-title h1 { font-family: var(--as-font-display); font-size: 56px; line-height: 1.1; font-weight: 600; margin: 20px 0 0; letter-spacing: 0; }
+.as-intro { font-size: 19px; color: var(--as-muted); font-family: var(--as-font-display); margin: 10px 0 0; max-width: 720px; }
+.as-title-actions { display: flex; align-items: center; gap: 23px; margin-top: 27px; flex-wrap: wrap; }
+.as-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  background: var(--as-accent); color: var(--as-on-accent);
+  border: 1px solid transparent; border-radius: var(--as-radius-pill);
+  font-size: 13px; min-height: 36px; padding: 8px 16px; font-weight: 400; white-space: nowrap;
+}
+.as-studio .as-button, .as-studio .as-button:hover { color: var(--as-on-accent); }
+.as-button:hover { background: var(--as-accent-hover); color: var(--as-on-accent); }
+.as-button:active { background: var(--as-accent-active); }
+.as-text-command { font-size: 12px; display: inline-flex; align-items: center; gap: 11px; color: var(--as-ink-3); line-height: 1.4; }
+.as-text-command:hover { color: var(--as-accent); }
+.as-text-command span { font-size: 16px; }
+.as-stats-strip {
+  display: grid; grid-template-columns: repeat(4, 1fr); row-gap: 22px;
+  margin: 36px 0 35px; padding: 23px 0;
+  border-top: 1px solid var(--as-line); border-bottom: 1px solid var(--as-line);
+}
+.as-stats-strip > div { border-right: 1px solid var(--as-line); padding-left: 26px; min-width: 0; }
+.as-stats-strip > div:first-child { padding-left: 0; }
+.as-stats-strip > div:last-child { border: 0; }
+.as-stats-strip strong { font-size: 27px; font-weight: 500; font-family: var(--as-font-display); display: block; line-height: 1.1; }
+.as-stats-strip > div > span { display: block; font-size: 10px; color: var(--as-muted); margin-top: 9px; }
+
+/* ---------- 섹션 제목 ---------- */
+.as-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+.as-section-heading h2 { font-size: 22px; font-weight: 600; line-height: 1.2; font-family: var(--as-font-display); margin: 0; }
+.as-section-heading .as-eyebrow { margin-bottom: 13px; }
+.as-section-heading p { font-size: 14px; color: var(--as-muted); margin: 12px 0 0; line-height: 1.6; }
+/* 개요가 아닌 페이지의 첫 제목은 페이지 제목 크기 */
+.as-workspace:not(.as-page-overview) > .as-section-heading:first-child h2,
+.as-page-title h2 { font-size: 36px; }
+
+/* ---------- 탭 ---------- */
+.as-view-tabs { display: flex; gap: 25px; border-bottom: 1px solid var(--as-line); margin: 30px 0 24px; overflow-x: auto; }
+.as-view-tabs button, .as-view-tabs a { padding: 12px 0 15px; color: var(--as-muted); border-bottom: 2px solid transparent; font-size: 12px; flex: none; border-radius: 0; }
+.as-view-tabs button[aria-selected="true"], .as-view-tabs a[aria-current], .as-view-tabs .is-active { color: var(--as-ink); border-color: var(--as-ink); }
+
+/* ---------- 푸터·토스트 ---------- */
+.as-studio-footer { display: flex; justify-content: space-between; gap: 16px; padding: 26px 0; margin-top: 34px; font-size: 10px; color: var(--as-faint-2); flex-wrap: wrap; }
+.as-toast {
+  position: fixed; bottom: 25px; left: 50%; transform: translate(-50%, 15px); opacity: 0;
+  background: var(--as-toast-bg); color: var(--as-toast-ink); padding: 13px 23px; border-radius: 7px;
+  box-shadow: 0 3px 20px #0002; font-size: 12px; z-index: 100; pointer-events: none; transition: .2s;
+  max-width: 90%; text-align: center;
+}
+.as-toast.visible { transform: translate(-50%, 0); opacity: 1; }
+
+/* ---------- 반응형 ---------- */
+@media (min-width: 1600px) { .as-workspace { padding-top: 50px; } }
+@media (max-width: 1200px) {
+  .as-workspace { padding: 35px 30px 0; }
+  .as-sidebar { width: 210px; }
+  .as-main-shell { margin-left: 210px; }
+  .as-topbar { padding: 0 30px; }
+}
+@media (max-width: 900px) {
+  .as-sidebar { width: 190px; }
+  .as-main-shell { margin-left: 190px; }
+  .as-brand { padding: 0 18px; }
+  .as-brand-badge { display: none; }
+  .as-workspace { padding: 30px 22px 0; }
+  .as-topbar { padding: 0 22px; }
+  .as-overview-title h1 { font-size: 48px; }
+  .as-topbar-search { min-width: 140px; }
+}
+@media (max-width: 640px) {
+  .as-sidebar { transform: translateX(-100%); width: 250px; transition: transform .24s cubic-bezier(.4,0,.6,1); }
+  .as-sidebar.is-open { transform: translateX(0); }
+  .as-sidebar-scrim { display: block; position: fixed; inset: 0; background: #0005; backdrop-filter: blur(4px); z-index: 40; }
+  .as-main-shell { margin-left: 0; }
+  .as-mobile-nav-button { display: block; font-size: 20px; padding: 7px; margin-right: 12px; }
+  .as-topbar { height: 58px; padding: 0 16px; justify-content: flex-start; }
+  .as-breadcrumb { font-size: 10px; gap: 10px; }
+  .as-breadcrumb > span { display: none; }
+  .as-topbar-tools { margin-left: auto; }
+  .as-topbar-search { flex: 1; min-width: 0; max-width: none; }
+  .as-export-button { font-size: 10px; padding: 6px 9px; gap: 8px; }
+  .as-workspace { padding: 29px 20px 0; }
+  .as-overview-title h1 { font-size: 40px; }
+  .as-intro { font-size: 17px; }
+  .as-stats-strip { grid-template-columns: 1fr 1fr; row-gap: 22px; }
+  .as-stats-strip > div:nth-child(2n) { border-right: 0; }
+  .as-stats-strip > div:nth-child(2n+1) { padding-left: 0; }
+  .as-stats-strip > div:nth-child(2n) { padding-left: 20px; }
+  .as-workspace:not(.as-page-overview) > .as-section-heading:first-child h2, .as-page-title h2 { font-size: 30px; }
+  .as-view-tabs { gap: 22px; }
+  .as-studio-footer { flex-direction: column; gap: 6px; }
+  .as-section-heading { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 400px) {
+  .as-topbar { gap: 8px; }
+  .as-topbar-tools { gap: 6px; }
+  .as-mobile-nav-button { margin-right: 4px; }
+  .as-icon-button { width: 28px; height: 28px; }
+  .as-export-button { font-size: 9px; padding: 5px 7px; gap: 6px; }
+  .as-export-button span { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .as-sidebar, .as-toast { transition: none; }
+}

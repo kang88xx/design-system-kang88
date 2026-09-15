@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "scope": "All 10 visual regions of the live one-page site at 1440px, plus mobile navigation. Implementation versus original media labeled.",
+  "sections": [
+    {
+      "id": "sidebar",
+      "title": "Sticky sidebar navigation",
+      "frame": "section-hero.png / live-desktop-first-view.png",
+      "y": 0,
+      "description": "400px 고정 컬럼. 주황(flame) 패널 안에 로고 마크 3개, 노란 nav 카드 4장(번호 배지), 하단 예약 CTA와 크림색 저작권 카드. 스크롤해도 화면에 고정된다.",
+      "previewId": "nav-card",
+      "group": "shell"
+    },
+    {
+      "id": "hero",
+      "title": "Hero · bold moves inspire growth",
+      "frame": "section-hero.png",
+      "y": 43,
+      "description": "150px Bricolage Grotesque 제목. 글자 o를 원형 사진·원형 배지·겹친 검은 원으로 치환한다. 왼쪽 상단 상태 칩, 오른쪽 est.2015 칩과 노란 CTA. 로드 시 spring(80/30) fade-up.",
+      "previewId": "appear-spring",
+      "group": "hero"
+    },
+    {
+      "id": "project-section",
+      "title": "Projects · featured + list",
+      "frame": "section-project-section.png",
+      "y": 743,
+      "description": "980×628 featured 이미지 카드(라벨 칩, 하단 캡션), 점선 구분선의 5행 프로젝트 리스트(hover 시 썸네일 노출), 'other projects' CTA 카드(이미지 스택 hover).",
+      "previewId": "featured-hover",
+      "group": "content"
+    },
+    {
+      "id": "about-section",
+      "title": "About · statement + founder letter",
+      "frame": "section-about-section.png",
+      "y": 2262,
+      "description": "44px 성명문(강조 단어 flame), 흰색 점선 카드 안 편지 본문, 회전한 창업자 사진과 클립, sand 배경 blockquote.",
+      "previewId": "blockquote",
+      "group": "content"
+    },
+    {
+      "id": "service-section",
+      "title": "Services · 3-column dashed cards",
+      "frame": "section-service-section.png",
+      "y": 3354,
+      "description": "313px 카드 6장 중 5장이 서비스(썸네일 스택 + 제목 + 칩 목록), 마지막 1장은 ink 배경 CTA 카드(let's talk).",
+      "previewId": "service-card",
+      "group": "content"
+    },
+    {
+      "id": "award-section",
+      "title": "Awards · count + list + client ticker",
+      "frame": "section-award-section.png",
+      "y": 4249,
+      "description": "50px '5+' 숫자와 연도 칩, 점선 구분선 6행 수상 목록, vanilla 배경 클라이언트 로고 티커(높이 38px).",
+      "previewId": "ticker",
+      "group": "content"
+    },
+    {
+      "id": "results",
+      "title": "Results · photo card with stat cards",
+      "frame": "section-results.png",
+      "y": 4905,
+      "description": "980×706 사진 카드 위에 흰색 제목과 3개의 stat 카드(197×176, white/vanilla). 숫자 34px/500.",
+      "previewId": "stat-card",
+      "group": "content"
+    },
+    {
+      "id": "testimonial-section",
+      "title": "Testimonials · sticky title cluster",
+      "frame": "section-testimonial-section.png",
+      "y": 5771,
+      "description": "가운데 sticky 제목 위로 vanilla 점선 카드 4장이 흩어져 스크롤. 하단 4.5/5 평점 카드(주황 별).",
+      "previewId": "sticky-title",
+      "group": "motion"
+    },
+    {
+      "id": "blog-section",
+      "title": "Blog · 3 dashed cards",
+      "frame": "section-blog-section.png",
+      "y": 6926,
+      "description": "제목(22px) + 점선 구분 + 카테고리 칩/날짜 + 6px 라운드 이미지. hover 시 제목이 flame으로.",
+      "previewId": "blog-card",
+      "group": "content"
+    },
+    {
+      "id": "contact-section",
+      "title": "Contact · sentence form + envelope",
+      "frame": "section-contact-section.png",
+      "y": 7479,
+      "description": "흰 카드(padding 60) 안에 문장형 폼. 입력은 점선 밑줄, 포커스 시 taupe. peach 봉투 일러스트가 뒤에 겹친다.",
+      "previewId": "form-field",
+      "group": "form"
+    },
+    {
+      "id": "footer",
+      "title": "Footer · dark card",
+      "frame": "section-footer.png",
+      "y": 8288,
+      "description": "ink 배경 980×425 카드. 50px 제목, butter CTA, 연락처, 반투명 이메일 입력(모노 폰트 placeholder), 소셜 아이콘, 점선 구분선.",
+      "previewId": "footer-input",
+      "group": "shell"
+    },
+    {
+      "id": "mobile-nav",
+      "title": "Mobile top bar + overlay",
+      "frame": "live-mobile-first-view.png",
+      "y": 0,
+      "description": "≤809px에서 사이드바가 주황 상단 바(로고 + 흰 햄버거)로 접힌다. 열리면 ink 70% 스크림 위에 nav 카드가 나타난다. 제목은 74px.",
+      "previewId": "mobile-menu",
+      "group": "shell"
+    }
+  ]
+}

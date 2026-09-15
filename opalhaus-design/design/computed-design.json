@@ -1,0 +1,2143 @@
+{
+  "home-desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "46px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1394
+      ],
+      [
+        "rgb(255, 255, 255)",
+        27
+      ],
+      [
+        "rgb(0, 0, 0)",
+        14
+      ],
+      [
+        "rgb(255, 93, 23)",
+        12
+      ],
+      [
+        "rgb(10, 10, 10)",
+        9
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "home-hover": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "46px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1394
+      ],
+      [
+        "rgb(255, 255, 255)",
+        27
+      ],
+      [
+        "rgb(0, 0, 0)",
+        14
+      ],
+      [
+        "rgb(255, 93, 23)",
+        11
+      ],
+      [
+        "rgb(10, 10, 10)",
+        10
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "home-bottom": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "46px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1404
+      ],
+      [
+        "rgb(255, 255, 255)",
+        27
+      ],
+      [
+        "rgb(0, 0, 0)",
+        14
+      ],
+      [
+        "rgb(255, 93, 23)",
+        13
+      ],
+      [
+        "rgb(10, 10, 10)",
+        9
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "home-tablet": {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "letterSpacing": "0.26px",
+        "lineHeight": "18.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "21px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "18px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "23px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "32.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.52px",
+        "lineHeight": "31.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "42px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "70px",
+        "fontWeight": "600",
+        "letterSpacing": "-2.8px",
+        "lineHeight": "77px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "70px",
+        "fontWeight": "600",
+        "letterSpacing": "-2.8px",
+        "lineHeight": "84px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1103
+      ],
+      [
+        "rgb(255, 255, 255)",
+        25
+      ],
+      [
+        "rgb(255, 93, 23)",
+        13
+      ],
+      [
+        "rgb(0, 0, 0)",
+        12
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(10, 10, 10)",
+        3
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "home-mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "letterSpacing": "0.26px",
+        "lineHeight": "18.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "21px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "18px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "23px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "32.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.52px",
+        "lineHeight": "31.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "42px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "70px",
+        "fontWeight": "600",
+        "letterSpacing": "-2.8px",
+        "lineHeight": "77px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "70px",
+        "fontWeight": "600",
+        "letterSpacing": "-2.8px",
+        "lineHeight": "84px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1103
+      ],
+      [
+        "rgb(255, 255, 255)",
+        25
+      ],
+      [
+        "rgb(255, 93, 23)",
+        13
+      ],
+      [
+        "rgb(0, 0, 0)",
+        12
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(10, 10, 10)",
+        3
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "mobile-menu-open": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "letterSpacing": "0.26px",
+        "lineHeight": "18.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "21px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "18px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "23px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "32.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.52px",
+        "lineHeight": "31.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "42px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "70px",
+        "fontWeight": "600",
+        "letterSpacing": "-2.8px",
+        "lineHeight": "77px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "70px",
+        "fontWeight": "600",
+        "letterSpacing": "-2.8px",
+        "lineHeight": "84px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1338
+      ],
+      [
+        "rgb(255, 255, 255)",
+        27
+      ],
+      [
+        "rgb(255, 93, 23)",
+        14
+      ],
+      [
+        "rgb(0, 0, 0)",
+        14
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        8
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(10, 10, 10)",
+        3
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "home-tablet-1024": {
+    "viewport": {
+      "width": 1024,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "106px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.24px",
+        "lineHeight": "116.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "letterSpacing": "0.22px",
+        "lineHeight": "15.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "21px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "18px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "23px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "32.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "41px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.64px",
+        "lineHeight": "38.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "50px",
+        "fontWeight": "600",
+        "letterSpacing": "-1px",
+        "lineHeight": "60px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "600",
+        "letterSpacing": "-3.84px",
+        "lineHeight": "115.2px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1309
+      ],
+      [
+        "rgb(255, 255, 255)",
+        26
+      ],
+      [
+        "rgb(0, 0, 0)",
+        14
+      ],
+      [
+        "rgb(255, 93, 23)",
+        13
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(10, 10, 10)",
+        3
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "faq-after": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "500",
+        "letterSpacing": "-1px",
+        "lineHeight": "46px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1397
+      ],
+      [
+        "rgb(255, 255, 255)",
+        27
+      ],
+      [
+        "rgb(0, 0, 0)",
+        14
+      ],
+      [
+        "rgb(255, 93, 23)",
+        12
+      ],
+      [
+        "rgb(10, 10, 10)",
+        9
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        5
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "about": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        824
+      ],
+      [
+        "rgb(255, 255, 255)",
+        16
+      ],
+      [
+        "rgb(255, 93, 23)",
+        15
+      ],
+      [
+        "rgb(10, 10, 10)",
+        12
+      ],
+      [
+        "rgb(248, 247, 245)",
+        8
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(10, 10, 10, 0.3)",
+        5
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "services": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        462
+      ],
+      [
+        "rgba(10, 10, 10, 0.6)",
+        24
+      ],
+      [
+        "rgb(10, 10, 10)",
+        12
+      ],
+      [
+        "rgb(255, 255, 255)",
+        11
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(10, 10, 10, 0.3)",
+        4
+      ],
+      [
+        "rgb(255, 93, 23)",
+        3
+      ],
+      [
+        "rgb(0, 0, 0)",
+        2
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "pricing": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        452
+      ],
+      [
+        "rgb(255, 255, 255)",
+        12
+      ],
+      [
+        "rgb(0, 0, 0)",
+        12
+      ],
+      [
+        "rgb(248, 247, 245)",
+        9
+      ],
+      [
+        "rgb(10, 10, 10)",
+        8
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgb(255, 93, 23)",
+        6
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "projects": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        383
+      ],
+      [
+        "rgb(255, 255, 255)",
+        13
+      ],
+      [
+        "rgb(10, 10, 10)",
+        8
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgb(255, 93, 23)",
+        3
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "blog": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        380
+      ],
+      [
+        "rgb(255, 255, 255)",
+        12
+      ],
+      [
+        "rgb(10, 10, 10)",
+        8
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgb(255, 93, 23)",
+        4
+      ],
+      [
+        "rgb(0, 0, 0)",
+        2
+      ],
+      [
+        "rgb(248, 247, 245)",
+        1
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "contact-us": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        486
+      ],
+      [
+        "rgb(255, 255, 255)",
+        11
+      ],
+      [
+        "rgb(10, 10, 10)",
+        8
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgb(255, 93, 23)",
+        5
+      ],
+      [
+        "rgb(248, 247, 245)",
+        3
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  },
+  "home-v2": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "typography": [
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.7px",
+        "lineHeight": "14px"
+      },
+      {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "700",
+        "letterSpacing": "-2px",
+        "lineHeight": "62px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "600",
+        "letterSpacing": "-4.8px",
+        "lineHeight": "144px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "letterSpacing": "0.28px",
+        "lineHeight": "19.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "150px",
+        "fontWeight": "600",
+        "letterSpacing": "-6px",
+        "lineHeight": "165px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "30px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "34px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "33.6px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "48px"
+      },
+      {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "600",
+        "letterSpacing": "-1.24px",
+        "lineHeight": "74.4px"
+      }
+    ],
+    "surfaces": [
+      [
+        "rgba(0, 0, 0, 0)",
+        1021
+      ],
+      [
+        "rgb(255, 255, 255)",
+        38
+      ],
+      [
+        "rgb(248, 247, 245)",
+        20
+      ],
+      [
+        "rgb(255, 93, 23)",
+        18
+      ],
+      [
+        "rgb(10, 10, 10)",
+        16
+      ],
+      [
+        "rgb(0, 0, 0)",
+        12
+      ],
+      [
+        "rgba(255, 93, 23, 0)",
+        6
+      ],
+      [
+        "rgba(10, 10, 10, 0.3)",
+        3
+      ],
+      [
+        "rgba(249, 249, 249, 0.4)",
+        1
+      ],
+      [
+        "rgb(18, 18, 18)",
+        1
+      ]
+    ]
+  }
+}

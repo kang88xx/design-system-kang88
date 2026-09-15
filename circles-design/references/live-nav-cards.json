@@ -1,0 +1,1172 @@
+[
+ {
+  "label": "projects",
+  "cardH": 150,
+  "padding": "8px 16px",
+  "tree": {
+   "name": "Bottom",
+   "text": "",
+   "w": 288,
+   "h": 88,
+   "x": 16,
+   "y": 54,
+   "pad": "0px 0px 8px",
+   "gap": "20px",
+   "flex": "row",
+   "children": [
+    {
+     "name": "Left",
+     "text": "",
+     "w": 149,
+     "h": 75,
+     "x": 16,
+     "y": 56,
+     "gap": "20px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "div",
+       "text": "",
+       "w": 149,
+       "h": 38,
+       "x": 16,
+       "y": 56,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "Showcase of innovation",
+         "w": 149,
+         "h": 38,
+         "x": 16,
+         "y": 56,
+         "font": "16px/400 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+        }
+       ]
+      },
+      {
+       "name": "div",
+       "text": "",
+       "w": 149,
+       "h": 17,
+       "x": 16,
+       "y": 115,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "Est.15 - 2025",
+         "w": 149,
+         "h": 17,
+         "x": 16,
+         "y": 115,
+         "font": "14px/400 \"Be Vietnam Pro\" rgb(103, 94, 80)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Right",
+     "text": "",
+     "w": 119,
+     "h": 80,
+     "x": 185,
+     "y": 54,
+     "pad": "5px 5px 0px 0px",
+     "gap": "8px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "div",
+       "text": "",
+       "w": 100,
+       "h": 50,
+       "x": 199,
+       "y": 59,
+       "children": [
+        {
+         "name": "3",
+         "text": "",
+         "w": 100,
+         "h": 48,
+         "x": 199,
+         "y": 59,
+         "gap": "28px",
+         "flex": "column",
+         "transform": "matrix(1, 0, 0, 1.19064, 0, 3.81275)",
+         "children": [
+          {
+           "name": "Images",
+           "text": "",
+           "w": 100,
+           "h": 48,
+           "x": 199,
+           "y": 59,
+           "gap": "10px",
+           "flex": "column",
+           "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00083",
+           "children": [
+            {
+             "name": "Image Wrapper",
+             "text": "",
+             "w": 100,
+             "h": 40,
+             "x": 199,
+             "y": 63,
+             "gap": "10px",
+             "flex": "column",
+             "transform": "matrix(1, 0, 0, 0.839886, 0, -20)",
+             "children": [
+              {
+               "name": "1",
+               "text": "",
+               "w": 48,
+               "h": 48,
+               "x": 205,
+               "y": 59,
+               "radius": "15%",
+               "transform": "matrix3d(0.866025, 0.5, 0, 0, -0.5, 0.866025, 0, 0",
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 48,
+                 "h": 48,
+                 "x": 205,
+                 "y": 59,
+                 "radius": "15%"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Image Wrapper",
+             "text": "",
+             "w": 100,
+             "h": 48,
+             "x": 199,
+             "y": 59,
+             "gap": "10px",
+             "flex": "column",
+             "transform": "matrix(1, 0, 0, 1, 0, 0)",
+             "children": [
+              {
+               "name": "2",
+               "text": "",
+               "w": 53,
+               "h": 53,
+               "x": 215,
+               "y": 56,
+               "radius": "12.5983%",
+               "transform": "matrix(1.18034, 0.131231, -0.156248, 0.991352, 22.",
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 53,
+                 "h": 53,
+                 "x": 215,
+                 "y": 56,
+                 "radius": "12.5983%"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Image Wrapper",
+             "text": "",
+             "w": 100,
+             "h": 42,
+             "x": 199,
+             "y": 62,
+             "gap": "10px",
+             "flex": "column",
+             "transform": "matrix(1, 0, 0, 0.711795, 0, -25)",
+             "children": [
+              {
+               "name": "3",
+               "text": "",
+               "w": 55,
+               "h": 55,
+               "x": 244,
+               "y": 55,
+               "radius": "14.1595%",
+               "transform": "matrix3d(0.783209, -0.382027, 0, 0, 0.323764, 0.92",
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 55,
+                 "h": 55,
+                 "x": 244,
+                 "y": 55,
+                 "radius": "14.1595%"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Image Wrapper",
+             "text": "",
+             "w": 100,
+             "h": 40,
+             "x": 199,
+             "y": 59,
+             "gap": "10px",
+             "flex": "column",
+             "transform": "matrix(1, 0, 0, 0.839886, 0, -3.20227)",
+             "children": [
+              {
+               "name": "4",
+               "text": "",
+               "w": 45,
+               "h": 45,
+               "x": 233,
+               "y": 57,
+               "radius": "15%",
+               "transform": "matrix3d(0.866025, -0.5, 0, 0, 0.5, 0.866025, 0, 0",
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 45,
+                 "h": 45,
+                 "x": 233,
+                 "y": 57,
+                 "radius": "15%"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "div",
+       "text": "",
+       "w": 114,
+       "h": 17,
+       "x": 185,
+       "y": 117,
+       "children": [
+        {
+         "name": "div",
+         "text": "8 + design assets",
+         "w": 114,
+         "h": 17,
+         "x": 185,
+         "y": 117,
+         "font": "14px/400 \"Be Vietnam Pro\" rgb(28, 27, 24)",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "label": "about",
+  "cardH": 150,
+  "padding": "8px 16px",
+  "tree": {
+   "name": "Bottom",
+   "text": "",
+   "w": 288,
+   "h": 88,
+   "x": 16,
+   "y": 54,
+   "pad": "0px 0px 8px",
+   "gap": "16px",
+   "flex": "row",
+   "children": [
+    {
+     "name": "Left",
+     "text": "",
+     "w": 92,
+     "h": 80,
+     "x": 16,
+     "y": 54,
+     "bg": "rgb(255, 255, 255)",
+     "radius": "6px",
+     "pad": "16px 18px 12px",
+     "gap": "2px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "div",
+       "text": "",
+       "w": 47,
+       "h": 22,
+       "x": 34,
+       "y": 70,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "SINCE",
+         "w": 47,
+         "h": 22,
+         "x": 34,
+         "y": 70,
+         "font": "18px/600 \"Be Vietnam Pro\" rgb(240, 98, 49)"
+        }
+       ]
+      },
+      {
+       "name": "div",
+       "text": "",
+       "w": 56,
+       "h": 29,
+       "x": 34,
+       "y": 94,
+       "flex": "column",
+       "children": [
+        {
+         "name": "div",
+         "text": "2015",
+         "w": 56,
+         "h": 29,
+         "x": 34,
+         "y": 94,
+         "font": "26px/500 \"Bricolage Grotesque\" rgb(28, 27, 24)",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Right",
+     "text": "",
+     "w": 180,
+     "h": 66,
+     "x": 124,
+     "y": 61,
+     "gap": "8px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "div",
+       "text": "",
+       "w": 180,
+       "h": 17,
+       "x": 124,
+       "y": 61,
+       "children": [
+        {
+         "name": "SM",
+         "text": "",
+         "w": 180,
+         "h": 17,
+         "x": 124,
+         "y": 61,
+         "gap": "6px",
+         "flex": "row",
+         "children": [
+          {
+           "name": "Icon",
+           "text": "",
+           "w": 12,
+           "h": 14,
+           "x": 124,
+           "y": 61,
+           "pad": "2px 0px 0px",
+           "gap": "10px",
+           "flex": "row",
+           "children": [
+            {
+             "name": "div",
+             "text": "",
+             "w": 12,
+             "h": 12,
+             "x": 124,
+             "y": 63,
+             "children": [
+              {
+               "name": "div",
+               "text": "",
+               "w": 12,
+               "h": 12,
+               "x": 124,
+               "y": 63,
+               "children": [
+                {
+                 "name": "img",
+                 "text": "",
+                 "src": "c6ZeLYaJC8zdoW1ayA0T4K5A.svg",
+                 "w": 12,
+                 "h": 12,
+                 "x": 124,
+                 "y": 63
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "div",
+           "text": "",
+           "w": 162,
+           "h": 17,
+           "x": 142,
+           "y": 61,
+           "flex": "column",
+           "children": [
+            {
+             "name": "p",
+             "text": "Creative approach",
+             "w": 162,
+             "h": 17,
+             "x": 142,
+             "y": 61,
+             "font": "14px/400 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "div",
+       "text": "",
+       "w": 180,
+       "h": 17,
+       "x": 124,
+       "y": 86,
+       "children": [
+        {
+         "name": "SM",
+         "text": "",
+         "w": 180,
+         "h": 17,
+         "x": 124,
+         "y": 86,
+         "gap": "6px",
+         "flex": "row",
+         "children": [
+          {
+           "name": "Icon",
+           "text": "",
+           "w": 12,
+           "h": 14,
+           "x": 124,
+           "y": 86,
+           "pad": "2px 0px 0px",
+           "gap": "10px",
+           "flex": "row",
+           "children": [
+            {
+             "name": "div",
+             "text": "",
+             "w": 12,
+             "h": 12,
+             "x": 124,
+             "y": 88,
+             "children": [
+              {
+               "name": "div",
+               "text": "",
+               "w": 12,
+               "h": 12,
+               "x": 124,
+               "y": 88,
+               "children": [
+                {
+                 "name": "img",
+                 "text": "",
+                 "src": "c6ZeLYaJC8zdoW1ayA0T4K5A.svg",
+                 "w": 12,
+                 "h": 12,
+                 "x": 124,
+                 "y": 88
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "div",
+           "text": "",
+           "w": 162,
+           "h": 17,
+           "x": 142,
+           "y": 86,
+           "flex": "column",
+           "children": [
+            {
+             "name": "p",
+             "text": "Clear strategy",
+             "w": 162,
+             "h": 17,
+             "x": 142,
+             "y": 86,
+             "font": "14px/400 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "div",
+       "text": "",
+       "w": 180,
+       "h": 17,
+       "x": 124,
+       "y": 110,
+       "children": [
+        {
+         "name": "SM",
+         "text": "",
+         "w": 180,
+         "h": 17,
+         "x": 124,
+         "y": 110,
+         "gap": "6px",
+         "flex": "row",
+         "children": [
+          {
+           "name": "Icon",
+           "text": "",
+           "w": 12,
+           "h": 14,
+           "x": 124,
+           "y": 110,
+           "pad": "2px 0px 0px",
+           "gap": "10px",
+           "flex": "row",
+           "children": [
+            {
+             "name": "div",
+             "text": "",
+             "w": 12,
+             "h": 12,
+             "x": 124,
+             "y": 112,
+             "children": [
+              {
+               "name": "div",
+               "text": "",
+               "w": 12,
+               "h": 12,
+               "x": 124,
+               "y": 112,
+               "children": [
+                {
+                 "name": "img",
+                 "text": "",
+                 "src": "c6ZeLYaJC8zdoW1ayA0T4K5A.svg",
+                 "w": 12,
+                 "h": 12,
+                 "x": 124,
+                 "y": 112
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "div",
+           "text": "",
+           "w": 162,
+           "h": 17,
+           "x": 142,
+           "y": 110,
+           "flex": "column",
+           "children": [
+            {
+             "name": "p",
+             "text": "Lasting impact",
+             "w": 162,
+             "h": 17,
+             "x": 142,
+             "y": 110,
+             "font": "14px/400 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "label": "services",
+  "cardH": 181,
+  "padding": "8px 16px",
+  "tree": {
+   "name": "Bottom",
+   "text": "",
+   "w": 288,
+   "h": 119,
+   "x": 16,
+   "y": 54,
+   "pad": "0px 0px 8px",
+   "gap": "16px",
+   "flex": "column",
+   "children": [
+    {
+     "name": "Top",
+     "text": "",
+     "w": 288,
+     "h": 54,
+     "x": 16,
+     "y": 54,
+     "bg": "rgb(255, 255, 255)",
+     "radius": "6px",
+     "pad": "10px",
+     "gap": "2px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "div",
+       "text": "",
+       "w": 268,
+       "h": 34,
+       "x": 26,
+       "y": 64,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "We craft solutions that work—clean, clea",
+         "w": 268,
+         "h": 34,
+         "x": 26,
+         "y": 64,
+         "font": "14px/400 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Bottom",
+     "text": "",
+     "w": 288,
+     "h": 42,
+     "x": 16,
+     "y": 124,
+     "gap": "8px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "div",
+       "text": "",
+       "w": 288,
+       "h": 17,
+       "x": 16,
+       "y": 124,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "Path to Success:",
+         "w": 288,
+         "h": 17,
+         "x": 16,
+         "y": 124,
+         "font": "14px/400 \"Be Vietnam Pro\" rgb(103, 94, 80)"
+        }
+       ]
+      },
+      {
+       "name": "List",
+       "text": "",
+       "w": 288,
+       "h": 17,
+       "x": 16,
+       "y": 148,
+       "flex": "row",
+       "children": [
+        {
+         "name": "div",
+         "text": "",
+         "w": 78,
+         "h": 17,
+         "x": 16,
+         "y": 148,
+         "children": [
+          {
+           "name": "Fit",
+           "text": "",
+           "w": 78,
+           "h": 17,
+           "x": 16,
+           "y": 148,
+           "gap": "6px",
+           "flex": "row",
+           "children": [
+            {
+             "name": "Icon",
+             "text": "",
+             "w": 12,
+             "h": 14,
+             "x": 16,
+             "y": 148,
+             "pad": "2px 0px 0px",
+             "gap": "10px",
+             "flex": "row",
+             "children": [
+              {
+               "name": "div",
+               "text": "",
+               "w": 12,
+               "h": 12,
+               "x": 16,
+               "y": 150,
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 12,
+                 "h": 12,
+                 "x": 16,
+                 "y": 150
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "div",
+             "text": "",
+             "w": 60,
+             "h": 17,
+             "x": 34,
+             "y": 148,
+             "flex": "column",
+             "children": [
+              {
+               "name": "p",
+               "text": "Discover",
+               "w": 60,
+               "h": 17,
+               "x": 34,
+               "y": 148,
+               "font": "14px/600 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "div",
+         "text": "",
+         "w": 6,
+         "h": 12,
+         "x": 111,
+         "y": 151,
+         "children": [
+          {
+           "name": "div",
+           "text": "",
+           "w": 6,
+           "h": 12,
+           "x": 111,
+           "y": 151,
+           "children": [
+            {
+             "name": "img",
+             "text": "",
+             "src": "7cES3finIJ41QzId3yZc4BVqqI.svg",
+             "w": 6,
+             "h": 12,
+             "x": 111,
+             "y": 151,
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "div",
+         "text": "",
+         "w": 65,
+         "h": 17,
+         "x": 134,
+         "y": 148,
+         "children": [
+          {
+           "name": "Fit",
+           "text": "",
+           "w": 65,
+           "h": 17,
+           "x": 134,
+           "y": 148,
+           "gap": "6px",
+           "flex": "row",
+           "children": [
+            {
+             "name": "Icon",
+             "text": "",
+             "w": 12,
+             "h": 14,
+             "x": 134,
+             "y": 148,
+             "pad": "2px 0px 0px",
+             "gap": "10px",
+             "flex": "row",
+             "children": [
+              {
+               "name": "div",
+               "text": "",
+               "w": 12,
+               "h": 12,
+               "x": 134,
+               "y": 150,
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 12,
+                 "h": 12,
+                 "x": 134,
+                 "y": 150
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "div",
+             "text": "",
+             "w": 47,
+             "h": 17,
+             "x": 152,
+             "y": 148,
+             "flex": "column",
+             "children": [
+              {
+               "name": "p",
+               "text": "Design",
+               "w": 47,
+               "h": 17,
+               "x": 152,
+               "y": 148,
+               "font": "14px/600 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "div",
+         "text": "",
+         "w": 6,
+         "h": 12,
+         "x": 215,
+         "y": 151,
+         "children": [
+          {
+           "name": "div",
+           "text": "",
+           "w": 6,
+           "h": 12,
+           "x": 215,
+           "y": 151,
+           "children": [
+            {
+             "name": "img",
+             "text": "",
+             "src": "7cES3finIJ41QzId3yZc4BVqqI.svg",
+             "w": 6,
+             "h": 12,
+             "x": 215,
+             "y": 151,
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "div",
+         "text": "",
+         "w": 66,
+         "h": 17,
+         "x": 238,
+         "y": 148,
+         "children": [
+          {
+           "name": "Fit",
+           "text": "",
+           "w": 66,
+           "h": 17,
+           "x": 238,
+           "y": 148,
+           "gap": "6px",
+           "flex": "row",
+           "children": [
+            {
+             "name": "Icon",
+             "text": "",
+             "w": 12,
+             "h": 14,
+             "x": 238,
+             "y": 148,
+             "pad": "2px 0px 0px",
+             "gap": "10px",
+             "flex": "row",
+             "children": [
+              {
+               "name": "div",
+               "text": "",
+               "w": 12,
+               "h": 12,
+               "x": 238,
+               "y": 150,
+               "children": [
+                {
+                 "name": "div",
+                 "text": "",
+                 "w": 12,
+                 "h": 12,
+                 "x": 238,
+                 "y": 150
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "div",
+             "text": "",
+             "w": 48,
+             "h": 17,
+             "x": 256,
+             "y": 148,
+             "flex": "column",
+             "children": [
+              {
+               "name": "p",
+               "text": "Deliver",
+               "w": 48,
+               "h": 17,
+               "x": 256,
+               "y": 148,
+               "font": "14px/600 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "label": "contact",
+  "cardH": 169,
+  "padding": "8px 16px",
+  "tree": {
+   "name": "Bottom",
+   "text": "",
+   "w": 288,
+   "h": 107,
+   "x": 16,
+   "y": 54,
+   "pad": "0px 0px 8px",
+   "gap": "16px",
+   "flex": "column",
+   "children": [
+    {
+     "name": "Top",
+     "text": "",
+     "w": 288,
+     "h": 25,
+     "x": 16,
+     "y": 54,
+     "gap": "8px",
+     "flex": "row",
+     "children": [
+      {
+       "name": "Right",
+       "text": "",
+       "w": 74,
+       "h": 25,
+       "x": 16,
+       "y": 54,
+       "bg": "rgb(240, 98, 49)",
+       "radius": "100px",
+       "pad": "4px 12px",
+       "gap": "10px",
+       "flex": "row",
+       "children": [
+        {
+         "name": "Brand",
+         "text": "",
+         "w": 50,
+         "h": 13,
+         "x": 28,
+         "y": 60,
+         "children": [
+          {
+           "name": "div",
+           "text": "",
+           "w": 50,
+           "h": 13,
+           "x": 28,
+           "y": 60,
+           "children": [
+            {
+             "name": "img",
+             "text": "",
+             "src": "FINFuWlDrvdTGrMGIQHG2CfiNQ.svg",
+             "w": 50,
+             "h": 13,
+             "x": 28,
+             "y": 60,
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "div",
+       "text": "",
+       "w": 9,
+       "h": 17,
+       "x": 98,
+       "y": 58,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "+",
+         "w": 9,
+         "h": 17,
+         "x": 98,
+         "y": 58,
+         "font": "14px/400 \"Be Vietnam Pro\" rgb(103, 94, 80)"
+        }
+       ]
+      },
+      {
+       "name": "Right",
+       "text": "",
+       "w": 49,
+       "h": 25,
+       "x": 115,
+       "y": 54,
+       "bg": "rgb(28, 27, 24)",
+       "radius": "100px",
+       "pad": "4px 12px",
+       "gap": "10px",
+       "flex": "row",
+       "children": [
+        {
+         "name": "div",
+         "text": "",
+         "w": 25,
+         "h": 17,
+         "x": 127,
+         "y": 58,
+         "flex": "column",
+         "children": [
+          {
+           "name": "p",
+           "text": "You",
+           "w": 25,
+           "h": 17,
+           "x": 127,
+           "y": 58,
+           "font": "14px/400 \"Be Vietnam Pro\" rgb(255, 255, 255)"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Bottom",
+     "text": "",
+     "w": 288,
+     "h": 58,
+     "x": 16,
+     "y": 95,
+     "gap": "8px",
+     "flex": "column",
+     "children": [
+      {
+       "name": "Title",
+       "text": "",
+       "w": 288,
+       "h": 17,
+       "x": 16,
+       "y": 95,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "Let’s talk",
+         "w": 288,
+         "h": 17,
+         "x": 16,
+         "y": 95,
+         "font": "14px/600 \"Be Vietnam Pro\" rgb(28, 27, 24)"
+        }
+       ]
+      },
+      {
+       "name": "Short Description",
+       "text": "",
+       "w": 288,
+       "h": 34,
+       "x": 16,
+       "y": 120,
+       "flex": "column",
+       "children": [
+        {
+         "name": "p",
+         "text": "Let’s team up to build something remarka",
+         "w": 288,
+         "h": 34,
+         "x": 16,
+         "y": 120,
+         "font": "14px/400 \"Be Vietnam Pro\" rgb(103, 94, 80)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

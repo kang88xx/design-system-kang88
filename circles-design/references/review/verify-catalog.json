@@ -1,0 +1,118 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "viewport": 1440,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "motionCards": 14,
+        "colorSwatches": 18,
+        "reducedMotionClass": true,
+        "swatchCopyToast": "#1C1B18 복사됨"
+      }
+    },
+    {
+      "file": "index.html",
+      "viewport": 768,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {}
+    },
+    {
+      "file": "index.html",
+      "viewport": 390,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "mobileNavOpens": true
+      }
+    },
+    {
+      "file": "system.html",
+      "viewport": 1440,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "tabSettingsVisible": true,
+        "tabKeyboardToCode": true,
+        "dialogOpen": true,
+        "dialogEscapeCloses": true,
+        "darkTheme": true,
+        "formValidationShown": true,
+        "formSuccessShown": true
+      }
+    },
+    {
+      "file": "system.html",
+      "viewport": 768,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {}
+    },
+    {
+      "file": "system.html",
+      "viewport": 390,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "mobileNavOpens": true
+      }
+    },
+    {
+      "file": "layout-recipes.html",
+      "viewport": 1440,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {}
+    },
+    {
+      "file": "layout-recipes.html",
+      "viewport": 768,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {}
+    },
+    {
+      "file": "layout-recipes.html",
+      "viewport": 390,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "mobileNav": "n/a"
+      }
+    },
+    {
+      "file": "design-system/examples/starter.html",
+      "viewport": 1440,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "tabSettingsVisible": true,
+        "tabKeyboardToCode": true,
+        "dialogOpen": true,
+        "dialogEscapeCloses": true,
+        "darkTheme": true,
+        "formValidationShown": true,
+        "formSuccessShown": true
+      }
+    },
+    {
+      "file": "design-system/examples/starter.html",
+      "viewport": 768,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {}
+    },
+    {
+      "file": "design-system/examples/starter.html",
+      "viewport": 390,
+      "errors": [],
+      "horizontalOverflow": 0,
+      "checks": {
+        "mobileNav": "n/a"
+      }
+    }
+  ],
+  "captured": "2026-09-14T07:41:10.248Z"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "CTA two-arrow hover + click destination",
+    "Four-image banner continues autoplay on hover",
+    "Price label/disc/color hover and checkout destination",
+    "Global reduced motion stops promo timer and animation",
+    "Standalone examples file URL local images/fonts"
+  ],
+  "errors": [],
+  "broken": []
+}

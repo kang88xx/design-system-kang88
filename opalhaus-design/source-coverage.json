@@ -1,0 +1,816 @@
+{
+  "version": 2,
+  "scope": "25 archived public routes. Authored CSS mapped to named DOM regions. Shared home components additionally map to measured browser evidence. Extraction is not a claim of full Framer project recovery or visual parity.",
+  "sections": [
+    {
+      "id": "navigation",
+      "title": "Desktop",
+      "previewId": "navigation",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#navigation",
+      "ruleIds": [
+        "r-02e632a2c713",
+        "r-06391bce1eea",
+        "r-0d9b91e472b1",
+        "r-148d71ffdfe8",
+        "r-22bb240f0ef2",
+        "r-26c35abf9575",
+        "r-26f38ca8ce7d",
+        "r-281ff2345b41",
+        "r-28fab91887fe",
+        "r-2c4a7dc44cfd",
+        "r-35324ad787d8",
+        "r-39cc499c34fe",
+        "r-40581e30fedf",
+        "r-436f9f8b9900",
+        "r-5577f6c37c70",
+        "r-5667b95365c4",
+        "r-5c62d2ab3bf3",
+        "r-683ec6216e77",
+        "r-7fb9380b4e65",
+        "r-88cf189b3aee",
+        "r-8e26295023c2",
+        "r-8e3313811d48",
+        "r-9786cec0d7b3",
+        "r-98c8ef09afe5",
+        "r-9d9dd6e1f76a",
+        "r-a057d82e8db7",
+        "r-a0e2b928b605",
+        "r-a25fb9af6b6c",
+        "r-ad0cfe87f320",
+        "r-b774e716fd1d",
+        "r-b9f42ed4deeb",
+        "r-bb661026f546",
+        "r-c1ff9bce000c",
+        "r-c38b87e7e68a",
+        "r-c3d648c281bb",
+        "r-c3ecbce3f41c",
+        "r-c53011544deb",
+        "r-cb2bcb798eac",
+        "r-cc269c5bf964",
+        "r-d35403288a3b",
+        "r-d4335f3a71e6",
+        "r-daafcc213864",
+        "r-e8c2c995c319",
+        "r-ed30f9acfbf6",
+        "r-ed32d765abf5",
+        "r-efa85d5aba17"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "primary",
+      "title": "Primary",
+      "previewId": "primary",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#primary",
+      "ruleIds": [
+        "r-02e632a2c713",
+        "r-02e8f35214c7",
+        "r-06391bce1eea",
+        "r-130c92b1e6e7",
+        "r-22a52e868c45",
+        "r-23c2637c76ec",
+        "r-23ee1479acba",
+        "r-281ff2345b41",
+        "r-28fab91887fe",
+        "r-2f527af4b3c1",
+        "r-3ce898ee33d6",
+        "r-401148d1cf09",
+        "r-421e28b69fe0",
+        "r-436f9f8b9900",
+        "r-48dc0a10dfa3",
+        "r-50c6d4b1ca3a",
+        "r-5a1919e17516",
+        "r-5daabdc3fb45",
+        "r-683ec6216e77",
+        "r-731259f31bd6",
+        "r-73f85d1cb328",
+        "r-795f50a56f7b",
+        "r-7adea9d32109",
+        "r-7c3461292d2d",
+        "r-8188d87a3257",
+        "r-84369e82b5a1",
+        "r-88cf189b3aee",
+        "r-8e3313811d48",
+        "r-8faf0672f4b0",
+        "r-9e488b56cc77",
+        "r-a64026005d11",
+        "r-abc64ee4d3b3",
+        "r-ad0cfe87f320",
+        "r-ae5b684eb667",
+        "r-b2aacc9c2fe1",
+        "r-b34c05923166",
+        "r-b9f42ed4deeb",
+        "r-bfa49be9e12a",
+        "r-c052ca9f976d",
+        "r-c1ff9bce000c",
+        "r-c38b87e7e68a",
+        "r-c3ecbce3f41c",
+        "r-c7e1add9e0a7",
+        "r-c9fdf1446251",
+        "r-ca621e849d81",
+        "r-cb2bcb798eac",
+        "r-d2409e9c07cf",
+        "r-d35403288a3b",
+        "r-d4478bff911c",
+        "r-daafcc213864",
+        "r-ed30f9acfbf6",
+        "r-effdb392eea9",
+        "r-f0d10bf0a9fc"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "hero",
+      "title": "Hero",
+      "previewId": "hero",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#hero",
+      "ruleIds": [
+        "r-6ab264985e53",
+        "r-d0c5344c615e",
+        "r-d5973b07b8f6"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "hero-services",
+      "title": "Hero services",
+      "previewId": "hero-services",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#hero-services",
+      "ruleIds": [
+        "r-be2083b2f9a0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "about-us",
+      "title": "About us",
+      "previewId": "about-us",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#about-us",
+      "ruleIds": [
+        "r-3ff78b9953f5",
+        "r-691de243ebbf"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "logos",
+      "title": "Logos",
+      "previewId": "logos",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#logos",
+      "ruleIds": [
+        "r-89cdff69a2b2",
+        "r-b957e12129eb"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "previewId": "projects",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#projects",
+      "ruleIds": [
+        "r-647ea5ba13e2",
+        "r-fdf80c0c78d0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "project-container",
+      "title": "Project container",
+      "previewId": "project-container",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#project-container",
+      "ruleIds": [
+        "r-02fdc9187916",
+        "r-5eb2574f3b20"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "project-container-1dtea52",
+      "title": "Project container",
+      "previewId": "project-container-1dtea52",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#project-container-1dtea52",
+      "ruleIds": [
+        "r-02fdc9187916",
+        "r-5eb2574f3b20"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "service",
+      "title": "Service",
+      "previewId": "service",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#service",
+      "ruleIds": [
+        "r-e20e17e8015c",
+        "r-fdf80c0c78d0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "key-stats",
+      "title": "Key stats",
+      "previewId": "key-stats",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#key-stats",
+      "ruleIds": [
+        "r-2c5479ed292f",
+        "r-fdf80c0c78d0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "feedbacks",
+      "title": "Feedbacks",
+      "previewId": "feedbacks",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#feedbacks",
+      "ruleIds": [
+        "r-91d74d64bc2e",
+        "r-fdf80c0c78d0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "previewId": "faq",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#faq",
+      "ruleIds": [
+        "r-91d74d64bc2e",
+        "r-fdf80c0c78d0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "blog",
+      "title": "Blog",
+      "previewId": "blog",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#blog",
+      "ruleIds": [
+        "r-2c5479ed292f",
+        "r-fdf80c0c78d0"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    },
+    {
+      "id": "footer",
+      "title": "Desktop",
+      "previewId": "footer",
+      "sourceHtml": "pages/home.html",
+      "componentSpec": "component-specs.json#footer",
+      "ruleIds": [
+        "r-02e45a97ee8e",
+        "r-02e632a2c713",
+        "r-054b1a55f760",
+        "r-06391bce1eea",
+        "r-0994009439ed",
+        "r-0e08caf13955",
+        "r-12ffa634a821",
+        "r-1e1c430de742",
+        "r-22a52e868c45",
+        "r-2303d2b1ed79",
+        "r-23c2637c76ec",
+        "r-23f1c388752f",
+        "r-26838f5b8242",
+        "r-273bb04aaf81",
+        "r-27b294382abb",
+        "r-281ff2345b41",
+        "r-28fab91887fe",
+        "r-33744df897b5",
+        "r-33941f4d0dea",
+        "r-3b1bf786b73b",
+        "r-4367fbfc3f59",
+        "r-436f9f8b9900",
+        "r-43d0b37a2ce3",
+        "r-513aec2245a3",
+        "r-531351b8695a",
+        "r-5daabdc3fb45",
+        "r-633e8686ad4e",
+        "r-683ec6216e77",
+        "r-6842743eccb7",
+        "r-749b1015b05e",
+        "r-76c782a30b39",
+        "r-77c088e7c535",
+        "r-795f50a56f7b",
+        "r-7a7a1d03c217",
+        "r-7e65f30fdca5",
+        "r-7f7c465d488f",
+        "r-846c3eb5bcd4",
+        "r-86c6519d8c76",
+        "r-88cf189b3aee",
+        "r-89a982b88a67",
+        "r-8b15976224ca",
+        "r-8e3313811d48",
+        "r-9d0cb5f76d03",
+        "r-a63465f0c238",
+        "r-aac1004adda7",
+        "r-acdcf898e7a5",
+        "r-ad0cfe87f320",
+        "r-b9f42ed4deeb",
+        "r-beb699556f15",
+        "r-bfa49be9e12a",
+        "r-c1ff9bce000c",
+        "r-c38b87e7e68a",
+        "r-c3ecbce3f41c",
+        "r-c7e1add9e0a7",
+        "r-c9fdf1446251",
+        "r-ca621e849d81",
+        "r-cb2bcb798eac",
+        "r-d1e2c347b8ce",
+        "r-d35403288a3b",
+        "r-d4478bff911c",
+        "r-daafcc213864",
+        "r-dc91de8f2655",
+        "r-e39a2a1763d3",
+        "r-e66891465341",
+        "r-ed30f9acfbf6",
+        "r-edf492befc3c",
+        "r-f70646ec2fc7",
+        "r-f72acd6c7571",
+        "r-f97f23a884ff",
+        "r-feb9f8ed1b12"
+      ],
+      "evidenceFiles": [
+        "evidence/faq-after.json",
+        "evidence/home-bottom.json",
+        "evidence/home-desktop.json",
+        "evidence/home-hover.json",
+        "evidence/home-mobile.json",
+        "evidence/home-tablet-1024.json",
+        "evidence/home-tablet.json",
+        "evidence/home-v2.json",
+        "evidence/mobile-menu-open.json"
+      ],
+      "status": "source-extracted",
+      "previewStatus": "not-verified-by-extractor"
+    }
+  ],
+  "pages": [
+    {
+      "id": "about",
+      "sourceHtml": "pages/about.html",
+      "sourceCss": "source/css/about-inline.css",
+      "regionCount": 719,
+      "ruleCount": 402,
+      "evidenceFiles": [
+        "evidence/about.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#about"
+    },
+    {
+      "id": "blog-design-thinking-and-its-role-in-digital-product-success",
+      "sourceHtml": "pages/blog-design-thinking-and-its-role-in-digital-product-success.html",
+      "sourceCss": "source/css/blog-design-thinking-and-its-role-in-digital-product-success-inline.css",
+      "regionCount": 396,
+      "ruleCount": 301,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#blog-design-thinking-and-its-role-in-digital-product-success"
+    },
+    {
+      "id": "blog",
+      "sourceHtml": "pages/blog.html",
+      "sourceCss": "source/css/blog-inline.css",
+      "regionCount": 399,
+      "ruleCount": 267,
+      "evidenceFiles": [
+        "evidence/blog.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#blog"
+    },
+    {
+      "id": "blog-the-purpose-of-purposeful-branding-in-a-start-up-business",
+      "sourceHtml": "pages/blog-the-purpose-of-purposeful-branding-in-a-start-up-business.html",
+      "sourceCss": "source/css/blog-the-purpose-of-purposeful-branding-in-a-start-up-business-inline.css",
+      "regionCount": 396,
+      "ruleCount": 301,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#blog-the-purpose-of-purposeful-branding-in-a-start-up-business"
+    },
+    {
+      "id": "blog-the-role-of-consistency-in-visual-identity",
+      "sourceHtml": "pages/blog-the-role-of-consistency-in-visual-identity.html",
+      "sourceCss": "source/css/blog-the-role-of-consistency-in-visual-identity-inline.css",
+      "regionCount": 396,
+      "ruleCount": 301,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#blog-the-role-of-consistency-in-visual-identity"
+    },
+    {
+      "id": "blog-why-mobile-first-design-should-be-your-default-strategy",
+      "sourceHtml": "pages/blog-why-mobile-first-design-should-be-your-default-strategy.html",
+      "sourceCss": "source/css/blog-why-mobile-first-design-should-be-your-default-strategy-inline.css",
+      "regionCount": 396,
+      "ruleCount": 301,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#blog-why-mobile-first-design-should-be-your-default-strategy"
+    },
+    {
+      "id": "blog-why-your-business-needs-strategic-storytelling",
+      "sourceHtml": "pages/blog-why-your-business-needs-strategic-storytelling.html",
+      "sourceCss": "source/css/blog-why-your-business-needs-strategic-storytelling-inline.css",
+      "regionCount": 396,
+      "ruleCount": 301,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#blog-why-your-business-needs-strategic-storytelling"
+    },
+    {
+      "id": "changelog",
+      "sourceHtml": "pages/changelog.html",
+      "sourceCss": "source/css/changelog-inline.css",
+      "regionCount": 7,
+      "ruleCount": 0,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#changelog"
+    },
+    {
+      "id": "contact-us",
+      "sourceHtml": "pages/contact-us.html",
+      "sourceCss": "source/css/contact-us-inline.css",
+      "regionCount": 388,
+      "ruleCount": 317,
+      "evidenceFiles": [
+        "evidence/contact-us.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#contact-us"
+    },
+    {
+      "id": "home",
+      "sourceHtml": "pages/home.html",
+      "sourceCss": "source/css/home-inline.css",
+      "regionCount": 851,
+      "ruleCount": 477,
+      "evidenceFiles": [
+        "evidence/home-desktop.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#home"
+    },
+    {
+      "id": "home-v2",
+      "sourceHtml": "pages/home-v2.html",
+      "sourceCss": "source/css/home-v2-inline.css",
+      "regionCount": 1183,
+      "ruleCount": 566,
+      "evidenceFiles": [
+        "evidence/home-v2.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#home-v2"
+    },
+    {
+      "id": "pricing",
+      "sourceHtml": "pages/pricing.html",
+      "sourceCss": "source/css/pricing-inline.css",
+      "regionCount": 514,
+      "ruleCount": 292,
+      "evidenceFiles": [
+        "evidence/pricing.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#pricing"
+    },
+    {
+      "id": "privacy-privacy",
+      "sourceHtml": "pages/privacy-privacy.html",
+      "sourceCss": "source/css/privacy-privacy-inline.css",
+      "regionCount": 314,
+      "ruleCount": 251,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#privacy-privacy"
+    },
+    {
+      "id": "projects-aurora-home",
+      "sourceHtml": "pages/projects-aurora-home.html",
+      "sourceCss": "source/css/projects-aurora-home-inline.css",
+      "regionCount": 420,
+      "ruleCount": 310,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#projects-aurora-home"
+    },
+    {
+      "id": "projects-bright-future",
+      "sourceHtml": "pages/projects-bright-future.html",
+      "sourceCss": "source/css/projects-bright-future-inline.css",
+      "regionCount": 420,
+      "ruleCount": 310,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#projects-bright-future"
+    },
+    {
+      "id": "projects-city-pulse",
+      "sourceHtml": "pages/projects-city-pulse.html",
+      "sourceCss": "source/css/projects-city-pulse-inline.css",
+      "regionCount": 420,
+      "ruleCount": 310,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#projects-city-pulse"
+    },
+    {
+      "id": "projects-elevate",
+      "sourceHtml": "pages/projects-elevate.html",
+      "sourceCss": "source/css/projects-elevate-inline.css",
+      "regionCount": 7,
+      "ruleCount": 0,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#projects-elevate"
+    },
+    {
+      "id": "projects",
+      "sourceHtml": "pages/projects.html",
+      "sourceCss": "source/css/projects-inline.css",
+      "regionCount": 392,
+      "ruleCount": 261,
+      "evidenceFiles": [
+        "evidence/projects.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#projects"
+    },
+    {
+      "id": "projects-nordic-tones",
+      "sourceHtml": "pages/projects-nordic-tones.html",
+      "sourceCss": "source/css/projects-nordic-tones-inline.css",
+      "regionCount": 420,
+      "ruleCount": 310,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#projects-nordic-tones"
+    },
+    {
+      "id": "projects-studio-edge",
+      "sourceHtml": "pages/projects-studio-edge.html",
+      "sourceCss": "source/css/projects-studio-edge-inline.css",
+      "regionCount": 7,
+      "ruleCount": 0,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#projects-studio-edge"
+    },
+    {
+      "id": "services-brand-strategy",
+      "sourceHtml": "pages/services-brand-strategy.html",
+      "sourceCss": "source/css/services-brand-strategy-inline.css",
+      "regionCount": 530,
+      "ruleCount": 331,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#services-brand-strategy"
+    },
+    {
+      "id": "services-content-systems",
+      "sourceHtml": "pages/services-content-systems.html",
+      "sourceCss": "source/css/services-content-systems-inline.css",
+      "regionCount": 530,
+      "ruleCount": 331,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#services-content-systems"
+    },
+    {
+      "id": "services",
+      "sourceHtml": "pages/services.html",
+      "sourceCss": "source/css/services-inline.css",
+      "regionCount": 560,
+      "ruleCount": 284,
+      "evidenceFiles": [
+        "evidence/services.json"
+      ],
+      "status": "source-extracted",
+      "visualVerification": "captured",
+      "ruleMap": "design/extracted-rules.json#services"
+    },
+    {
+      "id": "services-visual-identity",
+      "sourceHtml": "pages/services-visual-identity.html",
+      "sourceCss": "source/css/services-visual-identity-inline.css",
+      "regionCount": 530,
+      "ruleCount": 331,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#services-visual-identity"
+    },
+    {
+      "id": "services-website-design",
+      "sourceHtml": "pages/services-website-design.html",
+      "sourceCss": "source/css/services-website-design-inline.css",
+      "regionCount": 530,
+      "ruleCount": 331,
+      "evidenceFiles": [],
+      "status": "source-extracted",
+      "visualVerification": "not-captured",
+      "ruleMap": "design/extracted-rules.json#services-website-design"
+    }
+  ]
+}

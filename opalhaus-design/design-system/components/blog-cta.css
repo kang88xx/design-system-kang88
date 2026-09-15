@@ -1,0 +1,20 @@
+/* Source: HE93u556K / .framer-GL2RT Primary. All geometry in CSS pixels. */
+.opal-blog-cta{--opal-cta-orange:#ff5d17;--opal-cta-black:#0a0a0a;--opal-cta-white:#fff;display:inline-flex;position:relative;align-items:center;justify-content:center;gap:10px;height:46px;box-sizing:border-box;padding:4px 56px 4px 20px;border:0;border-radius:50px;background:var(--opal-cta-orange);color:var(--opal-cta-white);font:600 16px/1.2 "Inter Tight",sans-serif;text-decoration:none;white-space:nowrap;overflow:hidden;cursor:pointer;transition:background-color .4s cubic-bezier(.2,.8,.2,1);-webkit-tap-highlight-color:transparent}
+.opal-blog-cta__text{display:flex;flex-direction:column;justify-content:flex-start;gap:5px;height:20px;overflow:hidden}
+.opal-blog-cta__text>span{display:block;flex:none;line-height:1.2}
+.opal-blog-cta__circle{position:absolute;top:4px;bottom:4px;right:4px;width:38px;border-radius:35px;background:var(--opal-cta-white);display:flex;align-items:center;justify-content:center;padding:8px;box-sizing:border-box;overflow:hidden}
+.opal-blog-cta__viewport{display:block;position:relative;width:22px;height:22px;flex:none;overflow:hidden;transform:rotate(-45deg)}
+.opal-blog-cta__arrow{position:absolute;top:1px;width:20px;height:20px;display:block;color:var(--opal-cta-black);transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.opal-blog-cta__arrow--incoming{left:0;transform:translateX(-28px)}
+.opal-blog-cta__arrow--outgoing{left:0;transform:translateX(2px)}
+.opal-blog-cta__arrow svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:24;stroke-linecap:round;stroke-linejoin:round}
+.opal-blog-cta__incoming-arrow{display:none!important}
+.opal-blog-cta:is(:hover,:focus-visible,[data-hover="true"]){background:var(--opal-cta-black)}
+.opal-blog-cta:is(:hover,:focus-visible,[data-hover="true"]) .opal-blog-cta__arrow--incoming{transform:translateX(0)}
+.opal-blog-cta:is(:hover,:focus-visible,[data-hover="true"]) .opal-blog-cta__arrow--outgoing{transform:translateX(30px)}
+.opal-blog-cta:is(:hover,:focus-visible,[data-hover="true"]) .opal-blog-cta__incoming-caret{display:none}
+.opal-blog-cta:is(:hover,:focus-visible,[data-hover="true"]) .opal-blog-cta__incoming-arrow{display:block!important}
+/* The original Primary variant has neither rolling text nor a pressed scale. */
+.opal-blog-cta:focus-visible{outline:3px solid #ff5d17;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){.opal-blog-cta,.opal-blog-cta *{transition:none!important}}
+html[data-reduced-motion="true"] .opal-blog-cta,html[data-reduced-motion="true"] .opal-blog-cta *{transition:none!important}

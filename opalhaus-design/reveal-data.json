@@ -1,0 +1,221 @@
+[
+  {
+    "id": "hero-original",
+    "title": "Opalhaus® / Visual Collective",
+    "mode": "characters",
+    "lines": [
+      "Opalhaus®",
+      "Visual Collective "
+    ],
+    "label": "BRAND ARCHITECTS",
+    "labelEffect": {
+      "opacity": [
+        0.001,
+        1
+      ],
+      "delay": 0.3,
+      "damping": 66,
+      "stiffness": 400,
+      "mass": 1
+    },
+    "labelStyle": {
+      "fontFamily": "Inter Tight",
+      "fontSize": 14,
+      "fontWeight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": ".02em",
+      "dot": {
+        "size": 8,
+        "gap": 8,
+        "color": "#ff5d17"
+      }
+    },
+    "trigger": "onMount",
+    "threshold": null,
+    "once": true,
+    "initial": {
+      "filter": "blur(10px)",
+      "opacity": 0.001,
+      "y": 10
+    },
+    "transition": {
+      "type": "spring",
+      "bounce": 0,
+      "duration": 0.4,
+      "delay": 0.05
+    },
+    "startDelay": 0.1,
+    "typography": {
+      "family": "Inter Tight",
+      "weight": 600,
+      "fontSize": {
+        "desktop": 150,
+        "tablet": 106,
+        "phone": 70
+      },
+      "letterSpacing": "-.04em",
+      "lineHeight": 1.1
+    },
+    "background": {
+      "image": "assets/images/5ab51a9b72b0-1duOVcilpl3cJsg3KzVgMJtYicM.png",
+      "filter": "grayscale(1)",
+      "filterTarget": "background image only",
+      "overlay": "linear-gradient(217deg,#0000 0%,#000 100%)",
+      "color": "#0a0a0a"
+    },
+    "provenance": [
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 12982,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-n2b5a6",
+        "anchor": "Rt={effect:",
+        "excerpt": "e:`spring`},x:0,y:0},Lt={opacity:.001,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0},Rt={effect:{filter:`blur(10px)`,opacity:.001,rotate:0,scale:1,skewX:0,skewY:0,x:0,y:10},startDelay:.1,tokenization:`character`,transition:{bounce:0,delay:.05,duration:.4,type:`spring`},trigger:`onMount`,type:`appear`},zt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:1.2,mass:1,stiffness:400,type:`spring`},x:0,y:0},Bt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:1.5,mass:1,stiffness:400,type:`spring`},x:0,y:0},Vt=()=>({from:{alias:`IOwEpDsdH`,data:Ye,type:`Collection`},limit:{type:`LiteralValue`,value:10},select:[{collection:`IOwEpDsdH`,name:`GSdQoKv"
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 21585,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-n2b5a6",
+        "anchor": "effect:Rt",
+        "excerpt": "Visual Collective `})]}),className:`framer-n2b5a6`,\"data-framer-name\":`Opalhaus® Visual Collective`,effect:Rt,fonts:[`Inter`],verticalAlignment:`top`,withExternalLayout:!0})]}),l(`div`,{className:`framer-6ey5ti`,\"data-framer-name\":`Hero services`,children:[l(vt,{animate:zt,className:`framer-1nu8wby`,\"data-framer-appear-id\":`1nu8wby`,\"data-framer-name\":`Header`,initial:Lt,optimized:!0,children:[o(C,{__fromCanvasComponent:!0,children:o(a,{children:o(`p`,{className:`framer-styles-preset-ffde20`,\"data-styles-preset\":`aAcxwtfs9`,style:{\"--framer-text-color\":`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`},children:`What we do`})}),className:`framer-jb5juw`,\"data-framer-name\":`What we do`,fonts:[`Inter`],verticalAlignment:"
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 21268,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-n2b5a6 h1",
+        "anchor": "children:`Opalhaus®`",
+        "excerpt": "yle:{\"--framer-text-color\":`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`},children:`Opalhaus®`}),o(`h1`,{className:`framer-styles-preset-1d6orfm`,\"data-styles-preset\":`y3TmZsqyl`,style:{\"--framer-text-color\":`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`},children:`Visual Collective `})]}),className:`framer-n2b5a6`,\"data-framer-name\":`Opalhaus® Visual Collective`,effect:Rt,fonts:[`Inter`],verticalAlignment:`top`,withExternalLayout:!0})]}),l(`div`,{className:`framer-6ey5ti`,\"data-framer-name\":`Hero services`,children:[l(vt,{animate:zt,className:`framer-1nu8wby`,\"data-framer-appear-id\":`1nu8wby`,\"data-framer-name\":`Header`,initial:Lt,optimized:!0,children:[o(C,{__fromCanvasComponent:!0,childr"
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 12759,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-ss1831-container",
+        "anchor": "It={opacity:1",
+        "excerpt": "-v-1w3biwb`,o5K_bp631:`framer-v-1qa4xc8`,WQLkyLRf1:`framer-v-72rtr7`},Ft=(e,t,n)=>e&&t?`position`:n,It={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:.3,mass:1,stiffness:400,type:`spring`},x:0,y:0},Lt={opacity:.001,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0},Rt={effect:{filter:`blur(10px)`,opacity:.001,rotate:0,scale:1,skewX:0,skewY:0,x:0,y:10},startDelay:.1,tokenization:`character`,transition:{bounce:0,delay:.05,duration:.4,type:`spring`},trigger:`onMount`,type:`appear`},zt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:1.2,mass:1,stiffness:400,type:`spring`},x:0,y:0},Bt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY"
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 20993,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-ss1831-container",
+        "anchor": "ZCn1L3jKB:`BRAND ARCHITECTS`",
+        "excerpt": "d-c16665e051d8, rgb(248, 248, 248))`,height:`100%`,id:`NrnTZiDzS`,layoutId:`NrnTZiDzS`,width:`100%`,ZCn1L3jKB:`BRAND ARCHITECTS`})})})}),o(C,{__fromCanvasComponent:!0,children:l(a,{children:[o(`h1`,{className:`framer-styles-preset-1d6orfm`,\"data-styles-preset\":`y3TmZsqyl`,style:{\"--framer-text-color\":`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`},children:`Opalhaus®`}),o(`h1`,{className:`framer-styles-preset-1d6orfm`,\"data-styles-preset\":`y3TmZsqyl`,style:{\"--framer-text-color\":`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`},children:`Visual Collective `})]}),className:`framer-n2b5a6`,\"data-framer-name\":`Opalhaus® Visual Collective`,effect:Rt,fonts:[`Inter`],verticalAlignment:`top`,withExte"
+      },
+      {
+        "file": "source/css/home-inline.css",
+        "offset": 130913,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-24k4v .framer-1j22bwa",
+        "anchor": ".framer-24k4v .framer-1j22bwa{filter:grayscale()",
+        "excerpt": ".framer-24k4v .framer-1j22bwa{filter:grayscale();will-change:var(--framer-will-change-filter-override,filter);z-index:0;flex:none;gap:10px;position:absolute;inset:0 0 -46px;overflow:hidden}.framer-24k4v .framer-ar7jlk{mix-blend-mode:luminosity;z-index:0;background:linear-gradient(217deg,#0000 0%,#000 100%);border-radius:16px;flex:none;position:absolute;inset:0}.framer-24k4v .framer-cchos3{z-index:2;flex-flow:row;flex:none;place-content:flex-start center;align-items:flex-start;gap:10px;width:100%"
+      }
+    ],
+    "mapping": {
+      "tokenization": "character",
+      "characterCount": 27,
+      "spaces": "preserved, included in index",
+      "lineBreak": "explicit two h1 blocks; preview uses one accessible heading with two visual lines",
+      "globalIndex": "continues across two lines"
+    },
+    "descriptionKo": "원본 두 줄 전체 문구와 히어로 이미지를 재현합니다. 각 문자가 blur 10px / y 10px / opacity .001에서 선명해집니다.",
+    "boundaries": [
+      "Source is onMount; gallery waits until visible so the animation can be inspected.",
+      "Source delay .05 interpreted as a per-character interval; index treatment across block boundaries is a native reconstruction.",
+      "Duration .4 / bounce 0 rendered with a critically damped response normalized to .4 seconds; not the Framer duration-spring solver.",
+      "Gallery scales the 1200px desktop typography to its preview width; standalone component uses original responsive sizes."
+    ]
+  },
+  {
+    "id": "service-original",
+    "title": "Timeless design / to solutions",
+    "mode": "group",
+    "lines": [
+      "Timeless design",
+      "to solutions"
+    ],
+    "label": "SERVICE",
+    "trigger": "viewport",
+    "threshold": 0.5,
+    "once": true,
+    "disabledBelow": 810,
+    "initial": {
+      "opacity": 0,
+      "y": 150
+    },
+    "transition": {
+      "type": "spring",
+      "damping": 100,
+      "mass": 1,
+      "stiffness": 400,
+      "delay": 0
+    },
+    "startDelay": 0,
+    "typography": {
+      "family": "Inter Tight",
+      "weight": 600,
+      "fontSize": {
+        "desktop": 62,
+        "tablet": 50,
+        "phone": 40
+      },
+      "letterSpacing": "-.02em",
+      "lineHeight": 1.2
+    },
+    "background": {
+      "color": "#0a0a0a"
+    },
+    "provenance": [
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 43078,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-vqwa91",
+        "anchor": "className:`framer-vqwa91`",
+        "excerpt": "K,__framer__styleAppearEffectEnabled:!0,__framer__threshold:.5,__perspectiveFX:!1,__targetOpacity:1,className:`framer-vqwa91`,\"data-framer-name\":`Header`,children:[o(`div`,{className:`framer-1oqqc4o`,\"data-framer-name\":`Container`,children:o(T,{breakpoint:w,overrides:{G9lB4WmzW:{y:(g?.y||0)+0+2519.4+0+80+0+0+0+0},o5K_bp631:{y:(g?.y||0)+0+4019.4+0+0+60+0+0+0+0}},children:o(A,{height:17,y:(g?.y||0)+0+2708.4+0+80+0+0+12,children:o(j,{className:`framer-1gv7sks-container`,nodeId:`FPP3IHky7`,scopeId:`augiA20Il`,children:o(I,{azDpT49bR:`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`,height:`100%`,id:`FPP3IHky7`,layoutId:`FPP3IHky7`,width:`100%`,ZCn1L3jKB:`SERVICE`})})})})}),o(C,{__fromCanvasComponent:!0,children:o(a,{childr"
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 13876,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-vqwa91",
+        "anchor": "W={opacity:0",
+        "excerpt": "collection:`IOwEpDsdH`,name:`id`,type:`Identifier`}]}),U=({query:e,pageSize:t,children:n})=>n(D(e)),W={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:150},G={damping:100,delay:0,mass:1,stiffness:400,type:`spring`},K={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:G,x:0,y:150},q={damping:100,delay:.2,mass:1,stiffness:400,type:`spring`},J={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:q,x:0,y:150},Y=(...e)=>{for(let t of e)if(t&&typeof t==`string`)return t},X={damping:100,delay:.4,mass:1,stiffness:400,type:`spring`},Z={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:X,x:0,y:150},Q=e=>typeof e==`object`&&e&&typeof e.src==`string`?e:typeof e=="
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 13953,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-vqwa91",
+        "anchor": "G={damping:100",
+        "excerpt": ",children:n})=>n(D(e)),W={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:150},G={damping:100,delay:0,mass:1,stiffness:400,type:`spring`},K={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:G,x:0,y:150},q={damping:100,delay:.2,mass:1,stiffness:400,type:`spring`},J={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:q,x:0,y:150},Y=(...e)=>{for(let t of e)if(t&&typeof t==`string`)return t},X={damping:100,delay:.4,mass:1,stiffness:400,type:`spring`},Z={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:X,x:0,y:150},Q=e=>typeof e==`object`&&e&&typeof e.src==`string`?e:typeof e==`string`?{src:e}:void 0,Ht=()=>({from:{alias:`TZDEwqJWL`,data:z,type:`Collect"
+      },
+      {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 43915,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-cceyx3",
+        "anchor": "children:[`Timeless design`",
+        "excerpt": "yle:{\"--framer-text-color\":`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`},children:[`Timeless design`,o(`br`,{}),`to solutions`]})}),className:`framer-cceyx3`,\"data-framer-name\":`Stories behind the build`,fonts:[`Inter`],verticalAlignment:`top`,withExternalLayout:!0})]})}),o(T,{breakpoint:w,overrides:{G9lB4WmzW:{width:`calc(min(max(${g?.width||`100vw`}, 1px), 1200px) - 60px)`,y:(g?.y||0)+0+2519.4+0+80+147.4},o5K_bp631:{width:`calc(min(${g?.width||`100vw`}, 1200px) - 40px)`,y:(g?.y||0)+0+4019.4+0+0+60+141.4}},children:o(A,{height:496,width:`calc(min(max(${g?.width||`100vw`}, 1px), 1200px) - 80px)`,y:(g?.y||0)+0+2708.4+0+80+122.4,children:o(j,{className:`framer-1nieseg-container`,nodeId:`FSdLu2Fue`,scopeId:`augiA20Il"
+      }
+    ],
+    "mapping": {
+      "animationTarget": "Header parent .framer-vqwa91",
+      "children": [
+        "SERVICE label .framer-1gv7sks-container",
+        "heading .framer-cceyx3"
+      ],
+      "characterSplit": false,
+      "mobileOverride": "o5K_bp631 disables styleAppearEffect"
+    },
+    "descriptionKo": "SERVICE 라벨과 두 줄 제목이 하나의 그룹으로 150px 아래에서 올라옵니다. 원본 제목에는 문자별 블러 효과가 없습니다.",
+    "boundaries": [
+      "Service title itself has no text effect; parent header provides a single spring reveal.",
+      "Original phone variant (<810px) disables this appear effect; reusable component preserves that behavior.",
+      "Service label text is white; the preceding 8px dot is orange. Label and title share the group animation.",
+      "Native spring samples the exact 100/400/1 differential-equation response; completion threshold .001 is a renderer decision."
+    ]
+  }
+]

@@ -1,0 +1,6422 @@
+{
+  "source/index.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "ss1831": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1nu8wby": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.2,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-0": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-1": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-2": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "72rtr7",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1w3biwb",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1qa4xc8",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/home.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "ss1831": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1nu8wby": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.2,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-0": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-1": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-2": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dz311m-3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1w3biwb": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1qa4xc8": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "72rtr7",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1w3biwb",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1qa4xc8",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/about.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1hx2awt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "2rjehj": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "czcws6",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1tawrak",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1kfqc0b",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/changelog.html": {},
+  "pages/blog.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1d1sghg": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "q21nis": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1u07bht",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1vqo2lz",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1h3pw36",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/blog-why-your-business-needs-strategic-storytelling.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "egpy5r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "4dynq6": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "12e2tq3",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "k8ik78",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "g9i6y4",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/pricing.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "z6no5c": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "gcmyav": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1a7yqb4": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1jagt9": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "v8t39i": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1a7yqb4": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1jagt9": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "bb5qab": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.7,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1a7yqb4": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.7,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1jagt9": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.7,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "xw7t5n",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1a7yqb4",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1jagt9",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/blog-design-thinking-and-its-role-in-digital-product-success.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "egpy5r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "4dynq6": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "12e2tq3",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "k8ik78",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "g9i6y4",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/projects-city-pulse.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "6r9sdg",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6sro96",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "eta16z",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/privacy-privacy.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "d7766w": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "16p90wt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "10atzaq": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "19bn50r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "delay": 0.3,
+              "duration": 0.6,
+              "ease": [
+                0.44,
+                0,
+                0.56,
+                1
+              ],
+              "type": "tween"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1cagyi5": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "delay": 0.3,
+              "duration": 0.6,
+              "ease": [
+                0.44,
+                0,
+                0.56,
+                1
+              ],
+              "type": "tween"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "7xluh2": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "delay": 0.3,
+              "duration": 0.6,
+              "ease": [
+                0.44,
+                0,
+                0.56,
+                1
+              ],
+              "type": "tween"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1gzex3b",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "7xluh2",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1cagyi5",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/projects-studio-edge.html": {},
+  "pages/projects-elevate.html": {},
+  "pages/projects-aurora-home.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "6r9sdg",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6sro96",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "eta16z",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/blog-why-mobile-first-design-should-be-your-default-strategy.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "egpy5r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "4dynq6": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "12e2tq3",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "k8ik78",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "g9i6y4",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/projects.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "11goagk": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1wvxpbk": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1a85ip8",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1u93ss2",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1npznln",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/projects-nordic-tones.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "6r9sdg",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6sro96",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "eta16z",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/services-brand-strategy.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "9vqwes": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1szh4ok": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1w4lx5b",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "rhu3mv",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1m5ngur",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/services-content-systems.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "9vqwes": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1szh4ok": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1w4lx5b",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "rhu3mv",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1m5ngur",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/services-website-design.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "9vqwes": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1szh4ok": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1w4lx5b",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "rhu3mv",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1m5ngur",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/contact-us.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "12yz5bq": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1pjy3rz": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "dn4h1n": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.5,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1t9a5ux",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "1dlpf2v",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "15qz9xg",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/services-visual-identity.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "9vqwes": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1szh4ok": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1w4lx5b",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "rhu3mv",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1m5ngur",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/services.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "vbq0d8": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1uh00nf": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "1xunstj",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "ttnnqw",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1hqmvh3",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/projects-bright-future.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "6r9sdg",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6sro96",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "eta16z",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/blog-the-purpose-of-purposeful-branding-in-a-start-up-business.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "egpy5r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "4dynq6": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "12e2tq3",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "k8ik78",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "g9i6y4",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/home-v2.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "qxdonj": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "1rziea1": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        },
+        "f8v8dd": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1ft5e6p": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "alqczg": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.2,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "p4plbh": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 66,
+              "delay": 1.4,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "6g8y1i",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "f8v8dd",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "1rziea1",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  },
+  "pages/blog-the-role-of-consistency-in-visual-identity.html": {
+    "__framer__appearAnimationsContent": {
+      "1w4rjgt": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "5y8vup": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 46,
+              "delay": 0.6,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "1vmi7j3": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 40
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.8,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "x87f3r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 60
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 30,
+              "delay": 1.9,
+              "mass": 1,
+              "stiffness": 235,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "egpy5r": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "4dynq6": {
+        "default": {
+          "initial": {
+            "opacity": 0.001,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "x": 0,
+            "y": 150
+          },
+          "animate": {
+            "opacity": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "scale": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": {
+              "damping": 100,
+              "delay": 0.3,
+              "mass": 1,
+              "stiffness": 400,
+              "type": "spring"
+            },
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    },
+    "__framer__breakpoints": [
+      {
+        "hash": "12e2tq3",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "k8ik78",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "g9i6y4",
+        "mediaQuery": "(max-width: 809.98px)"
+      },
+      {
+        "hash": "1xo53ka",
+        "mediaQuery": "(min-width: 1200px)"
+      },
+      {
+        "hash": "6zwtil",
+        "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+      },
+      {
+        "hash": "ut9vim",
+        "mediaQuery": "(max-width: 809.98px)"
+      }
+    ]
+  }
+}

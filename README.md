@@ -5,7 +5,7 @@
 
 ## 구성
 - `All/` — 허브(레지스트리 `systems.js`, 아이콘 브라우저, 문서 뷰어)와 뷰어 공통 셸 규격 `All/shell/`
-- `apple_design/`, `google_design/`, `toss_design/`, `wanted_design/`, `family_design/`, `lusion_design/`, `adver_design/`, `reatic_design/`, `stripe_design/`, `Ark-pdf/` — 각 디자인 시스템 뷰어. 모두 Apple 스튜디오 셸(Studio Shell) 뼈대를 공유합니다.
+- `apple_design/`, `google_design/`, `toss_design/`, `wanted_design/`, `family_design/`, `lusion_design/`, `adver_design/`, `reatic_design/`, `stripe_design/`, `opalhaus-design/`, `circles-design/`, `Ark-pdf/` — 각 디자인 시스템 뷰어. 모두 Apple 스튜디오 셸(Studio Shell) 뼈대를 공유합니다.
 - `Icon_Stripe/`, `SVG/`, `PNG/` — 아이콘·브랜드 자산 세트
 
 Apple 뷰어(Vite 빌드)의 루트 절대 경로는 배포 사본에서 `/apple_design/app/dist/client/` 접두어로 재작성돼 있습니다.
@@ -19,4 +19,5 @@ Apple 뷰어(Vite 빌드)의 루트 절대 경로는 배포 사본에서 `/apple
 - ARK: `downloads/ark-design-system.zip`, `downloads/ark-source-archive.zip`, `source/images/`
 - Family·Adver가 화면에서 쓰는 `references/` 하위만 포함, 그 외 모든 `references/`, `evidence/`, `captures/`, `screenshots/`, `backups/`, `test-results/`, `*-private/`, `node_modules/`, `.git/`
 - Reatic: `evidence/source/`, `app/public/source/fonts/`(유료 폰트 원본) · Stripe: `data/raw/`(원본 캡처, 문서 예시 키 포함) · `captures/` 중 effects·motion·illustrations·viewer 스크린샷 세트와 pages 전체 화면(접힌 화면 썸네일 `*-fold.png`만 포함)
+- Opalhaus: 전체 보관본 `opalhaus-design-system.zip`(265MB), 스톡 영상 `assets/videos/`, 계측 JSON 덤프 `evidence/*.json`, 문서 전용 캡처 `evidence/text-services/`, 150KB 초과 소스 이미지(소스 브라우저 데이터에서만 참조되는 것). 제외된 이미지·영상은 사본에서 원본 CDN URL(framerusercontent.com, videos.pexels.com)로 대체돼 화면에는 그대로 보입니다.
 - 허브 미등록 폴더 `logo/`, `design/`, 초안 `reatic-design/`, 루트 ZIP

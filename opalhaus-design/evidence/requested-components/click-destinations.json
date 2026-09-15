@@ -1,0 +1,18 @@
+{
+  "note": "Banner and price new-tab navigations intercepted with local HTML before external page loads; CTA original /blog navigation completed.",
+  "destinations": [
+    {
+      "kind": "banner",
+      "url": "https://pentaclay.com/"
+    },
+    {
+      "kind": "price",
+      "url": "https://pentaclay-framer.blink.store/opalhaus-design-agency-marketing-template"
+    },
+    {
+      "kind": "cta",
+      "url": "https://opalhaus.framer.website/blog",
+      "title": "Opalhaus - Design Agency Marketing Template"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+/* Extracted colors and measured homepage typography. Opt in using .opal-* classes. */
+@import url('./fonts.css');
+:root {
+ --opal-accent: #ff5d17;
+ --opal-ink: #0a0a0a;
+ --opal-white: #ffffff;
+ --opal-surface: #f8f7f5;
+ --opal-white-40: #f9f9f966;
+ --opal-white-60: #f9f9f999;
+ --opal-ink-30: #0a0a0a4d;
+ --opal-secondary-orange: orange;
+ --opal-font: 'Inter Tight', sans-serif;
+ --opal-display-size: 150px;
+ --opal-heading-size: 62px;
+}
+.opal-type { font-family: var(--opal-font); }
+.opal-display { font-family:var(--opal-font); font-size:var(--opal-display-size); line-height:1.1; letter-spacing:-.04em; }
+.opal-heading { font-family:var(--opal-font); font-size:var(--opal-heading-size); line-height:1.2; letter-spacing:-.02em; }
+@media (min-width:810px) and (max-width:1199.98px) {
+ :root { --opal-display-size:106px; --opal-heading-size:50px; }
+}
+@media (max-width:809.98px) {
+ :root { --opal-display-size:70px; --opal-heading-size:40px; }
+}

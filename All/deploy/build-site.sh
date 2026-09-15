@@ -9,9 +9,36 @@ SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"          # 02_Source
 DEST="${1:-$HOME/design-system-kang88}"
 DOMAIN="design.system.kang88.io"
 mkdir -p "$DEST"
+OPAL_IMG_MAX="${OPAL_IMG_MAX:-150000}"   # opalhaus 소스 이미지 배포 상한(바이트). 초과분은 제외 후 원본 CDN URL로 대체
+
+echo "[0/3] Opalhaus 대용량 소스 이미지 동적 필터 (> $OPAL_IMG_MAX B, 소스 브라우저 데이터 밖에서 참조되는 파일은 유지)"
+OPAL_FILTER="$(mktemp)"
+python3 - "$SRC/opalhaus-design" "$OPAL_IMG_MAX" "$OPAL_FILTER" <<'PY'
+import sys, pathlib
+root = pathlib.Path(sys.argv[1]); limit = int(sys.argv[2]); out = pathlib.Path(sys.argv[3])
+imgdir = root / "assets" / "images"
+if not imgdir.is_dir(): out.write_text(""); sys.exit(0)
+# 뷰어 HTML/CSS/JS(소스 브라우저 데이터 source-library-data.js 제외)가 직접 참조하는 이미지는 화면 구성 요소이므로 유지.
+# 색인·데이터 JSON(manifest, source-library.json 등)의 참조는 2d 단계에서 원본 CDN URL로 대체된다.
+texts = []
+for p in root.rglob("*"):
+    if p.suffix.lower() not in {".html", ".js", ".css"} or not p.is_file(): continue
+    if p.name == "source-library-data.js" or any(part.startswith(".") for part in p.relative_to(root).parts): continue
+    try: texts.append(p.read_text(encoding="utf-8"))
+    except UnicodeDecodeError: pass
+blob = "\n".join(texts)
+keep, drop = [], []
+for f in sorted(imgdir.iterdir()):
+    if not f.is_file() or f.name.startswith("._") or f.stat().st_size <= limit: continue
+    (keep if f.name in blob else drop).append(f.name)
+lines = [f"+ /opalhaus-design/assets/images/{n}" for n in keep] + [f"- /opalhaus-design/assets/images/{n}" for n in drop]
+out.write_text("\n".join(lines) + "\n")
+print(f"  excluded {len(drop)} images ({sum((imgdir/n).stat().st_size for n in drop)/1e6:.0f} MB), kept {len(keep)} directly referenced")
+PY
 
 echo "[1/3] rsync → $DEST"
 rsync -a --delete --delete-excluded --prune-empty-dirs \
+  --filter="merge $OPAL_FILTER" \
   --filter="merge $SRC/All/deploy/rsync-excludes.txt" \
   --filter='P /.git' --filter='P /index.html' --filter='P /CNAME' --filter='P /.nojekyll' \
   --filter='P /README.md' --filter='P /.gitignore' \
@@ -80,6 +107,29 @@ for p in list((dest / "stripe_design").rglob("*.json")) + list((dest / "stripe_d
 print(f"  masked {n} key-like strings")
 PY
 
+echo "[2d] Opalhaus: 배포 사본에 없는 소스 이미지·영상 참조를 원본 CDN URL로 대체 (source-library.json 의 sourceUrl)"
+python3 - "$DEST/opalhaus-design" <<'PY'
+import sys, json, pathlib
+root = pathlib.Path(sys.argv[1]); lib = root / "source-library.json"
+if not lib.exists(): print("  (skip)"); sys.exit(0)
+items = json.loads(lib.read_text(encoding="utf-8"))["items"]
+repl = {}
+for it in items:
+    path, url = it.get("path") or "", it.get("sourceUrl") or ""
+    if path.startswith("assets/") and url.startswith("http") and not (root / path).exists(): repl[path] = url
+n_files = n_hits = 0
+for p in root.rglob("*"):
+    if p.suffix.lower() not in {".html", ".js", ".json", ".css", ".md"} or not p.is_file(): continue
+    try: s = p.read_text(encoding="utf-8")
+    except UnicodeDecodeError: continue
+    new, k = s, 0
+    for path, url in repl.items():
+        if path in new: c = new.count(path); new = new.replace(path, url); k += c
+    if k: p.write_text(new, encoding="utf-8"); n_files += 1; n_hits += k
+print(f"  {len(repl)} missing assets → CDN URL, {n_hits} references in {n_files} files")
+PY
+rm -f "$OPAL_FILTER"
+
 echo "[3/3] 루트 파일"
 cat > "$DEST/index.html" <<HTML
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><title>Design Systems Hub</title>
@@ -98,7 +148,7 @@ cat > "$DEST/README.md" <<'MD'
 
 ## 구성
 - `All/` — 허브(레지스트리 `systems.js`, 아이콘 브라우저, 문서 뷰어)와 뷰어 공통 셸 규격 `All/shell/`
-- `apple_design/`, `google_design/`, `toss_design/`, `wanted_design/`, `family_design/`, `lusion_design/`, `adver_design/`, `reatic_design/`, `stripe_design/`, `Ark-pdf/` — 각 디자인 시스템 뷰어. 모두 Apple 스튜디오 셸(Studio Shell) 뼈대를 공유합니다.
+- `apple_design/`, `google_design/`, `toss_design/`, `wanted_design/`, `family_design/`, `lusion_design/`, `adver_design/`, `reatic_design/`, `stripe_design/`, `opalhaus-design/`, `circles-design/`, `Ark-pdf/` — 각 디자인 시스템 뷰어. 모두 Apple 스튜디오 셸(Studio Shell) 뼈대를 공유합니다.
 - `Icon_Stripe/`, `SVG/`, `PNG/` — 아이콘·브랜드 자산 세트
 
 Apple 뷰어(Vite 빌드)의 루트 절대 경로는 배포 사본에서 `/apple_design/app/dist/client/` 접두어로 재작성돼 있습니다.
@@ -112,6 +162,7 @@ Apple 뷰어(Vite 빌드)의 루트 절대 경로는 배포 사본에서 `/apple
 - ARK: `downloads/ark-design-system.zip`, `downloads/ark-source-archive.zip`, `source/images/`
 - Family·Adver가 화면에서 쓰는 `references/` 하위만 포함, 그 외 모든 `references/`, `evidence/`, `captures/`, `screenshots/`, `backups/`, `test-results/`, `*-private/`, `node_modules/`, `.git/`
 - Reatic: `evidence/source/`, `app/public/source/fonts/`(유료 폰트 원본) · Stripe: `data/raw/`(원본 캡처, 문서 예시 키 포함) · `captures/` 중 effects·motion·illustrations·viewer 스크린샷 세트와 pages 전체 화면(접힌 화면 썸네일 `*-fold.png`만 포함)
+- Opalhaus: 전체 보관본 `opalhaus-design-system.zip`(265MB), 스톡 영상 `assets/videos/`, 계측 JSON 덤프 `evidence/*.json`, 문서 전용 캡처 `evidence/text-services/`, 150KB 초과 소스 이미지(소스 브라우저 데이터에서만 참조되는 것). 제외된 이미지·영상은 사본에서 원본 CDN URL(framerusercontent.com, videos.pexels.com)로 대체돼 화면에는 그대로 보입니다.
 - 허브 미등록 폴더 `logo/`, `design/`, 초안 `reatic-design/`, 루트 ZIP
 MD
 echo "done → $DEST"; du -sh "$DEST" --exclude=.git | cut -f1

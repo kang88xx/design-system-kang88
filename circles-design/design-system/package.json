@@ -1,0 +1,19 @@
+{
+  "name": "@three-circles/system",
+  "version": "1.0.0",
+  "description": "Scoped design tokens, CSS components and native accessible interactions extracted from the three circles creative-studio site, for project integration.",
+  "type": "module",
+  "private": true,
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": { "types": "./index.d.ts", "import": "./index.js", "default": "./index.js" },
+    "./styles.css": { "types": "./styles.d.ts", "default": "./styles.css" },
+    "./tokens.css": { "types": "./styles.d.ts", "default": "./tokens.css" },
+    "./tokens.json": "./tokens.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "index.d.ts", "styles.css", "tokens.css", "tokens.json", "README.md", "CHANGELOG.md", "ASSETS.md", "examples", "tools/build-tokens.py", "styles.d.ts"],
+  "sideEffects": ["*.css"],
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Studio shell — Opalhaus 브랜드 매핑 + 옛 셸이 갖고 있던 문서 기본 규칙.
+   규격: ../All/shell/SPEC.md · 뼈대: studio-shell.css / studio-shell.js (Apple 규격, 사본은 수정 금지)
+   - 이 파일은 catalog.css 등 모든 뷰어 CSS 뒤에 로드한다.
+   - 셸 치수·간격·타입 크기는 바꾸지 않고 --as-* 토큰만 Opalhaus 값으로 맞춘다.
+   ========================================================================== */
+:root {
+  /* 뷰어 컴포넌트 CSS(catalog.css 등)가 쓰는 Opalhaus 토큰 — 옛 studio-shell.css에서 이관 */
+  --accent: #ff5d17; --ink: #0a0a0a; --surface: #f8f7f5; --line: #e8e7e4; --muted: #74736f;
+  --sidebar: var(--as-sidebar-w); --topbar: var(--as-topbar-h); color-scheme: light;
+  /* 셸 토큰 매핑 */
+  --as-font-display: "Inter Tight", Arial, sans-serif;
+  --as-font-text: "Inter Tight", Arial, sans-serif;
+  --as-font-mono: ui-monospace, "SF Mono", Consolas, monospace;
+  --as-ink: #0a0a0a;
+  --as-ink-2: #302e2a;
+  --as-ink-3: #4a4844;
+  --as-muted: #74736f;
+  --as-faint: #8d8a83;
+  --as-faint-2: #a4a19b;
+  --as-line: #e8e7e4;
+  --as-line-strong: #dcdad4;
+  --as-accent: #ff5d17;
+  --as-accent-hover: #f0530f;
+  --as-accent-active: #d9480b;
+  --as-link: #bb3d08;
+  --as-on-accent: #0a0a0a;
+  --as-bg: #ffffff;
+  --as-surface: #f8f7f5;
+  --as-sidebar-bg: #faf9f7;
+  --as-nav-hover: #efede8;
+  --as-nav-active-bg: #ffe9de;
+  --as-nav-active-ink: #bb3d08;
+  --as-status: #ff5d17;
+  --as-selection: #ffe9de;
+  --as-toast-bg: #151515;
+  --as-toast-ink: #ffffff;
+  --as-radius: 6px;
+}
+/* 문서 기본 (옛 studio-shell.css 이관) */
+html { scroll-behavior: smooth; scroll-padding-top: 94px; }
+body { margin: 0; -webkit-font-smoothing: antialiased; }
+:where(.as-studio) button:disabled { opacity: .4; }
+:where(.as-studio) a, :where(.as-studio) button, :where(.as-studio) input, :where(.as-studio) summary { touch-action: manipulation; }
+[hidden] { display: none !important; }
+html[data-reduced-motion=true] { scroll-behavior: auto; }
+html[data-reduced-motion=true] *, html[data-reduced-motion=true] *::before, html[data-reduced-motion=true] *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+/* 브랜드 마크: O® 워드 심볼 */
+.as-studio .as-brand-mark.brand-symbol { font-size: 30px; font-weight: 600; line-height: 1; letter-spacing: -3px; position: relative; padding-right: 6px; width: auto; }
+.as-studio .as-brand-mark.brand-symbol sup { position: absolute; right: -2px; top: -2px; font-size: 11px; color: var(--as-accent); letter-spacing: 0; }
+.as-studio .as-brand strong { font-family: var(--as-font-display); letter-spacing: -.4px; }
+/* 별도 페이지(system/layout-recipes)는 .active 로 현재 항목만 표시하고 브레드크럼 문구는 페이지 고유 라벨을 유지한다 */
+.as-studio .as-sidebar nav a[aria-current], .as-studio .as-sidebar nav a.is-active, .as-studio .as-sidebar nav a.active { font-weight: 600; background: var(--as-nav-active-bg); color: var(--as-nav-active-ink); }
+/* 상단바 도구: 모션 토글은 텍스트 버튼 */
+.as-studio .as-topbar-tools #motion-toggle { border: 0; background: none; color: #76716b; font-size: 10px; padding: 6px 4px; }
+.as-studio .as-topbar-tools #motion-toggle:hover { color: var(--as-ink); }
+/* 개요 상단·섹션 머리: 기존 catalog.css 규칙을 유지하되 셸 색만 따른다 */
+.as-studio .section-heading.as-section-heading { align-items: flex-start; }
+.as-studio .eyebrow.as-eyebrow { text-transform: none; }
+.as-studio .as-title-meta { display: flex; justify-content: space-between; align-items: center; }
+/* 사이드바 캡션(에디션 표기): 옛 .nav-caption span 크기 */
+.as-studio .as-sidebar-caption { display: block; font-size: 8px; letter-spacing: 1.2px; color: #a4a19b; font-weight: 600; padding: 0 10px 12px; }

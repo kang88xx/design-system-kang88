@@ -1,0 +1,56 @@
+{
+  "name": "@opalhaus-design/system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scoped Opalhaus tokens, CSS components and accessible native interactions.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./styles.css": {
+      "types": "./styles.d.ts",
+      "default": "./styles.css"
+    },
+    "./tokens.css": {
+      "types": "./styles.d.ts",
+      "default": "./tokens.css"
+    },
+    "./tokens.json": "./tokens.json",
+    "./package.json": "./package.json",
+    "./components/blog-cta.css": "./components/blog-cta.css",
+    "./components/blog-cta.js": "./components/blog-cta.js",
+    "./components/promo-widget.css": "./components/promo-widget.css",
+    "./components/promo-widget.js": "./components/promo-widget.js",
+    "./components/text-reveal.css": "./components/text-reveal.css",
+    "./components/text-reveal.js": "./components/text-reveal.js",
+    "./components/service-list.css": "./components/service-list.css",
+    "./components/service-list.js": "./components/service-list.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "styles.d.ts",
+    "styles.css",
+    "tokens.css",
+    "tokens.json",
+    "README.md",
+    "ASSETS.md",
+    "CHANGELOG.md",
+    "examples",
+    "tools/build-tokens.py",
+    "components"
+  ],
+  "sideEffects": [
+    "*.css",
+    "components/*.css",
+    "components/*.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

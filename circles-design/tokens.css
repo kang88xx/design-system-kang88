@@ -1,0 +1,55 @@
+/* Extracted from three-circles-wbs.framer.website, 2026-09-14. Framer token ids preserved as declared; readable aliases are normalized extraction. */
+:root {
+  --token-0450188b-3ecc-4a39-9edd-7102407eda8f: #1C1B18;
+  --token-be18f120-c2cd-41d8-8ade-84c674958b3c: #1C1B18B3;
+  --token-1c55fc30-4320-4f32-8f75-56c602e30f91: #675E50;
+  --token-d10d7d5c-1c4f-4f9d-802c-1a10cef2fa55: #B7B0A5;
+  --token-24930864-085b-4c5c-af6f-277c40aa379f: #FFFDEA;
+  --token-c4544943-9092-4c7e-9493-6af223e856e1: #FFF5D4;
+  --token-2f572e33-78c1-4b19-bc82-6ad0c1be7f4f: #FFE479;
+  --token-5a2343b2-0b00-4609-afac-848df22f1a83: #FBEFC7;
+  --token-a7f33d28-d966-4dbd-b5d5-6af910b70d60: #FFDDAA;
+  --token-a9e7605e-42b7-40f1-8350-a918b77c9dd3: #F06231;
+  --token-ec2e7588-845a-476b-8a6d-d0a6fee7bd17: #C5E7FF;
+  --token-e2b67d50-477c-49ba-bb4f-88e5e41f6eca: #BCF09C;
+  --token-6c9b9e36-e9be-4eeb-af62-8e866aa96281: #FFFFFF;
+  --token-8170220a-bffe-454a-a96d-383dd13e1f61: #FFFFFF1A;
+  --token-5aa2b161-4cfe-483c-983e-a23364520822: #000000;
+  --token-d3ba510f-2e62-4f56-bb1c-c6b2aea5870c: #FFFFFF00;
+}
+/* Normalized aliases (names are not original source tokens). */
+:root {
+  --tc-ink: #1C1B18;
+  --tc-ink-70: #1C1B18B3;
+  --tc-taupe: #675E50;
+  --tc-stone: #B7B0A5;
+  --tc-cream: #FFFDEA;
+  --tc-vanilla: #FFF5D4;
+  --tc-butter: #FFE479;
+  --tc-sand: #FBEFC7;
+  --tc-peach: #FFDDAA;
+  --tc-flame: #F06231;
+  --tc-sky: #C5E7FF;
+  --tc-lime: #BCF09C;
+  --tc-white: #FFFFFF;
+  --tc-white-10: #FFFFFF1A;
+  --tc-black: #000000;
+  --tc-transparent: #FFFFFF00;
+  --tc-status-green: #67B935;
+  --tc-input-icon: #999999;
+  --tc-font-display: "Bricolage Grotesque", "Be Vietnam Pro", Arial, sans-serif;
+  --tc-font-body: "Be Vietnam Pro", Arial, sans-serif;
+  --tc-font-mono: "Anonymous Pro", ui-monospace, monospace;
+  --tc-text-transform: lowercase;
+  --tc-sidebar-width: 400px;
+  --tc-content-width: 980px;
+  --tc-gutter: 20px;
+  --tc-radius-chip: 2px;
+  --tc-radius: 6px;
+  --tc-radius-pill: 100px;
+  --tc-border-dashed: 1px dashed #B7B0A5;
+  --tc-duration-color: 300ms;
+  --tc-duration-surface: 450ms;
+  --tc-ease: cubic-bezier(.44, 0, .56, 1);
+  --tc-appear-spring: stiffness 80 / damping 30 / mass 1 / delay 50ms;
+}

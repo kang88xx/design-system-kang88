@@ -1,0 +1,1351 @@
+{
+  "hoverResults": [
+    {
+      "label": "primary-cta",
+      "sel": "a:has-text(\"Book a 30-Min Call\")",
+      "rest": {
+        "name": "Default - Desktop",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 244,
+          "h": 51,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "16px 48px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "a",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 244,
+          "h": 51,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "16px 48px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [
+        {
+          "node": "p",
+          "changes": {
+            "color": [
+              "rgb(255, 245, 212)",
+              "rgb(28, 27, 24)"
+            ],
+            "border": [
+              "0px none rgb(255, 245, 212)",
+              "0px none rgb(28, 27, 24)"
+            ]
+          }
+        },
+        {
+          "node": "Hover BG",
+          "changes": {
+            "transform": [
+              "matrix(0, 0, 0, 0, -25, -25)",
+              "matrix(8, 0, 0, 8, 0, 0)"
+            ],
+            "w": [
+              0,
+              400
+            ],
+            "h": [
+              0,
+              400
+            ]
+          }
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "label": "hero-cta",
+      "sel": "a:has-text(\"get started now\")",
+      "rest": {
+        "name": "Primary - Desktop",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 260,
+          "h": 79,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "16px 48px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "a",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 260,
+          "h": 79,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "16px 48px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [
+        {
+          "node": "Hover BG",
+          "changes": {
+            "transform": [
+              "matrix(0, 0, 0, 0, -25, -25)",
+              "matrix(8, 0, 0, 8, -25, -25)"
+            ],
+            "w": [
+              0,
+              400
+            ],
+            "h": [
+              0,
+              400
+            ]
+          }
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "label": "nav-card-projects",
+      "sel": "nav a:has-text(\"Projects\")",
+      "rest": {
+        "name": "Default - Desktop",
+        "cs": {
+          "bg": "rgb(255, 228, 121)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 320,
+          "h": 42,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "8px 16px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "Default - Desktop",
+        "cs": {
+          "bg": "rgb(255, 228, 121)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 320,
+          "h": 42,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "8px 16px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [],
+      "transitions": []
+    },
+    {
+      "label": "nav-card-about",
+      "sel": "nav a:has-text(\"About\")",
+      "rest": {
+        "name": "Default - Desktop",
+        "cs": {
+          "bg": "rgb(255, 228, 121)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 320,
+          "h": 42,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "8px 16px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "Default - Desktop",
+        "cs": {
+          "bg": "rgb(255, 228, 121)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 320,
+          "h": 42,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "8px 16px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [],
+      "transitions": []
+    },
+    {
+      "label": "view-all",
+      "sel": "a:has-text(\"View all projects\")",
+      "rest": {
+        "name": "CTA",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 275,
+          "h": 220,
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "0px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "a",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 275,
+          "h": 220,
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "0px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [
+        {
+          "node": "01",
+          "changes": {
+            "transform": [
+              "matrix(0.978148, -0.207912, 0.207912, 0.978148, 0, 0)",
+              "none"
+            ],
+            "w": [
+              129,
+              100
+            ],
+            "h": [
+              168,
+              150
+            ]
+          }
+        },
+        {
+          "node": "div",
+          "changes": {
+            "w": [
+              129,
+              100
+            ],
+            "h": [
+              168,
+              150
+            ]
+          }
+        },
+        {
+          "node": "img",
+          "changes": {
+            "w": [
+              129,
+              100
+            ],
+            "h": [
+              168,
+              150
+            ]
+          }
+        },
+        {
+          "node": "03",
+          "changes": {
+            "transform": [
+              "matrix(0.978148, 0.207912, -0.207912, 0.978148, 0, 0)",
+              "none"
+            ],
+            "w": [
+              129,
+              100
+            ],
+            "h": [
+              168,
+              150
+            ]
+          }
+        },
+        {
+          "node": "div",
+          "changes": {
+            "w": [
+              129,
+              100
+            ],
+            "h": [
+              168,
+              150
+            ]
+          }
+        },
+        {
+          "node": "img",
+          "changes": {
+            "w": [
+              129,
+              100
+            ],
+            "h": [
+              168,
+              150
+            ]
+          }
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "label": "project-row",
+      "sel": "a:has-text(\"Art By Liora\")",
+      "rest": {
+        "name": "Default - Desktop",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 980,
+          "h": 70,
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "14px 0px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "a",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 980,
+          "h": 70,
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "14px 0px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [
+        {
+          "node": "Wrap",
+          "changes": {
+            "w": [
+              1,
+              90
+            ]
+          }
+        },
+        {
+          "node": "TItle",
+          "changes": {
+            "w": [
+              464,
+              365
+            ]
+          }
+        },
+        {
+          "node": "div",
+          "changes": {
+            "w": [
+              464,
+              365
+            ]
+          }
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "label": "service-row",
+      "sel": "text=Brand guidelines",
+      "rest": {
+        "name": "h2",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(28, 27, 24)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 273,
+          "h": 26,
+          "radius": "0px",
+          "border": "0px none rgb(28, 27, 24)",
+          "transition": "all",
+          "font": "\"Bricolage Grotesque\"",
+          "size": "22px",
+          "weight": "500",
+          "padding": "0px",
+          "textTransform": "lowercase"
+        }
+      },
+      "hover": {
+        "name": "h2",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(28, 27, 24)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 273,
+          "h": 26,
+          "radius": "0px",
+          "border": "0px none rgb(28, 27, 24)",
+          "transition": "all",
+          "font": "\"Bricolage Grotesque\"",
+          "size": "22px",
+          "weight": "500",
+          "padding": "0px",
+          "textTransform": "lowercase"
+        }
+      },
+      "diffs": [],
+      "transitions": []
+    },
+    {
+      "label": "blog-card",
+      "sel": "a:has-text(\"Why your brand needs a story\")",
+      "rest": {
+        "name": "Desktop",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 313,
+          "h": 318,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "20px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "a",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 313,
+          "h": 318,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "20px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [
+        {
+          "node": "h2",
+          "changes": {
+            "color": [
+              "rgb(28, 27, 24)",
+              "rgb(240, 98, 49)"
+            ],
+            "border": [
+              "0px none rgb(28, 27, 24)",
+              "0px none rgb(240, 98, 49)"
+            ]
+          }
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "label": "submit",
+      "sel": "button:has-text(\"Send a message\")",
+      "rest": {
+        "name": "Default",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 273,
+          "h": 67,
+          "radius": "6px",
+          "border": "0px outset rgb(0, 0, 0)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "24px 74px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "Default",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 273,
+          "h": 67,
+          "radius": "6px",
+          "border": "0px outset rgb(0, 0, 0)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "24px 74px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [],
+      "transitions": []
+    },
+    {
+      "label": "footer-cta",
+      "sel": "a:has-text(\"Book a call\")",
+      "rest": {
+        "name": "Primary - Desktop",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 182,
+          "h": 51,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "16px 48px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "a",
+        "cs": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 182,
+          "h": 51,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "16px 48px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [
+        {
+          "node": "Hover BG",
+          "changes": {
+            "transform": [
+              "matrix(0, 0, 0, 0, -25, -25)",
+              "matrix(8, 0, 0, 8, -25, -25)"
+            ],
+            "w": [
+              0,
+              400
+            ],
+            "h": [
+              0,
+              400
+            ]
+          }
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "label": "lets-talk",
+      "sel": "a:has-text(\"Let’s talk\")",
+      "rest": {
+        "name": "Active - Desktop",
+        "cs": {
+          "bg": "rgb(255, 253, 234)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 320,
+          "h": 169,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "8px 16px",
+          "textTransform": "none"
+        }
+      },
+      "hover": {
+        "name": "Active - Desktop",
+        "cs": {
+          "bg": "rgb(255, 253, 234)",
+          "color": "rgb(0, 0, 238)",
+          "transform": "none",
+          "shadow": "none",
+          "opacity": "1",
+          "w": 320,
+          "h": 169,
+          "radius": "6px",
+          "border": "0px none rgb(0, 0, 238)",
+          "transition": "all",
+          "font": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "padding": "8px 16px",
+          "textTransform": "none"
+        }
+      },
+      "diffs": [],
+      "transitions": []
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "Name",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 27, 24)",
+      "border": "0px none rgb(28, 27, 24)",
+      "borderTop": "0px none rgb(28, 27, 24)",
+      "radius": "0px",
+      "padding": "0px",
+      "font": "\"Be Vietnam Pro\"",
+      "size": "16px",
+      "w": 240,
+      "h": 24,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "placeholder": "",
+      "name": "Email",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 27, 24)",
+      "border": "0px none rgb(28, 27, 24)",
+      "borderTop": "0px none rgb(28, 27, 24)",
+      "radius": "0px",
+      "padding": "0px",
+      "font": "\"Be Vietnam Pro\"",
+      "size": "16px",
+      "w": 240,
+      "h": 24,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "Subject",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 27, 24)",
+      "border": "0px none rgb(28, 27, 24)",
+      "borderTop": "0px none rgb(28, 27, 24)",
+      "radius": "0px",
+      "padding": "0px",
+      "font": "\"Be Vietnam Pro\"",
+      "size": "16px",
+      "w": 620,
+      "h": 24,
+      "required": true
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "placeholder": "",
+      "name": "Message",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 27, 24)",
+      "border": "0px none rgb(28, 27, 24)",
+      "borderTop": "0px none rgb(28, 27, 24)",
+      "radius": "0px",
+      "padding": "0px",
+      "font": "\"Be Vietnam Pro\"",
+      "size": "16px",
+      "w": 620,
+      "h": 100,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "website",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "company",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "message",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "subject",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "title",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "description",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "feedback",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "notes",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "details",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "remarks",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "comments",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "placeholder": "enter email address ",
+      "name": "Email address",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderTop": "0px none rgb(255, 255, 255)",
+      "radius": "0px",
+      "padding": "0px",
+      "font": "\"Anonymous Pro\"",
+      "size": "14px",
+      "w": 185,
+      "h": 26,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "website",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "company",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "message",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "subject",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "title",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "description",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "feedback",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "notes",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "details",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "remarks",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "placeholder": "",
+      "name": "comments",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "borderTop": "2px inset rgb(118, 118, 118)",
+      "radius": "0px",
+      "padding": "1px 2px",
+      "font": "sans-serif",
+      "size": "12px",
+      "w": 0,
+      "h": 0,
+      "required": false
+    }
+  ],
+  "nav": {
+    "w": 400,
+    "h": 1000,
+    "position": "relative",
+    "parentPosition": "sticky",
+    "parentTop": "0px",
+    "pad": "20px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "cards": [
+      {
+        "text": "",
+        "href": "./",
+        "w": 101,
+        "h": 26,
+        "bg": "rgba(0, 0, 0, 0)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "innerRadius": "0px",
+        "padding": "0px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "Projects01Showcase o",
+        "href": "./#project-section",
+        "w": 320,
+        "h": 42,
+        "bg": "rgb(255, 228, 121)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "6px",
+        "innerRadius": "0px",
+        "padding": "8px 16px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "About02SINCE2015Crea",
+        "href": "./#about-section",
+        "w": 320,
+        "h": 42,
+        "bg": "rgb(255, 228, 121)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "6px",
+        "innerRadius": "0px",
+        "padding": "8px 16px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "Services03We craft s",
+        "href": "./#service-section",
+        "w": 320,
+        "h": 42,
+        "bg": "rgb(255, 228, 121)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "6px",
+        "innerRadius": "0px",
+        "padding": "8px 16px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "Contact04+YouLet’s t",
+        "href": "./#contact-section",
+        "w": 320,
+        "h": 169,
+        "bg": "rgb(255, 253, 234)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "6px",
+        "innerRadius": "0px",
+        "padding": "8px 16px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "Book a 30-Min Call",
+        "href": "https://cal.com/",
+        "w": 244,
+        "h": 51,
+        "bg": "rgba(0, 0, 0, 0)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "6px",
+        "innerRadius": "0px",
+        "padding": "16px 48px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/",
+        "w": 16,
+        "h": 16,
+        "bg": "rgba(0, 0, 0, 0)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "innerRadius": "0px",
+        "padding": "0px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/",
+        "w": 16,
+        "h": 16,
+        "bg": "rgba(0, 0, 0, 0)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "innerRadius": "0px",
+        "padding": "0px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/",
+        "w": 16,
+        "h": 16,
+        "bg": "rgba(0, 0, 0, 0)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "innerRadius": "0px",
+        "padding": "0px",
+        "innerPadding": "0px"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/",
+        "w": 16,
+        "h": 16,
+        "bg": "rgba(0, 0, 0, 0)",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "innerRadius": "0px",
+        "padding": "0px",
+        "innerPadding": "0px"
+      }
+    ]
+  },
+  "fixedAfterScroll": [
+    {
+      "name": null,
+      "tag": "DIV",
+      "position": "sticky",
+      "top": 0,
+      "left": 0,
+      "w": 400,
+      "h": 1000,
+      "text": "Projects01Showcase of innovati"
+    },
+    {
+      "name": "Title",
+      "tag": "DIV",
+      "position": "sticky",
+      "top": 3271,
+      "left": 660,
+      "w": 500,
+      "h": 110,
+      "text": "hear from our satisfied client"
+    },
+    {
+      "name": null,
+      "tag": "DIV",
+      "position": "fixed",
+      "top": 892,
+      "left": 1279,
+      "w": 140,
+      "h": 38,
+      "text": "Get it for FREEGet it for FREE"
+    },
+    {
+      "name": null,
+      "tag": "DIV",
+      "position": "fixed",
+      "top": 922,
+      "left": 0,
+      "w": 1440,
+      "h": 78,
+      "text": "Create a free website with Fra"
+    },
+    {
+      "name": null,
+      "tag": "IFRAME",
+      "position": "fixed",
+      "top": 0,
+      "left": 0,
+      "w": 0,
+      "h": 0,
+      "text": ""
+    }
+  ],
+  "captured": "2026-09-14T06:39:42.187Z"
+}

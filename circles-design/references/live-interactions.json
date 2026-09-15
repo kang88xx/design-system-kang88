@@ -1,0 +1,186 @@
+{
+  "hover": [
+    {
+      "sel": "a:has-text(\"Book a 30-Min Call\")",
+      "before": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none"
+      },
+      "after": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "innerTransform": "none"
+      }
+    },
+    {
+      "sel": "a:has-text(\"get started now\")",
+      "before": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none"
+      },
+      "after": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "innerTransform": "none"
+      }
+    },
+    {
+      "sel": "a:has-text(\"Projects\")",
+      "before": {
+        "bg": "rgb(255, 228, 121)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none"
+      },
+      "after": {
+        "bg": "rgb(255, 228, 121)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "innerTransform": "none"
+      }
+    },
+    {
+      "sel": "a:has-text(\"View all projects\")",
+      "before": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none"
+      },
+      "after": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "innerTransform": "none"
+      }
+    },
+    {
+      "sel": "button:has-text(\"Send a message\")",
+      "before": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none"
+      },
+      "after": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "transition": "all",
+        "shadow": "none",
+        "innerBg": "rgba(0, 0, 0, 0)",
+        "innerTransform": "none"
+      }
+    }
+  ],
+  "headerAfterScroll": [
+    {
+      "name": "Desktop",
+      "tag": "NAV",
+      "position": "relative",
+      "top": 0,
+      "h": 1000,
+      "bg": "rgba(0, 0, 0, 0)",
+      "backdrop": "none",
+      "z": "auto"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "box": {
+        "x": 420,
+        "y": 43.203125,
+        "width": 980,
+        "height": 700
+      }
+    },
+    {
+      "id": "project-section",
+      "box": {
+        "x": 420,
+        "y": 0.203125,
+        "width": 980,
+        "height": 1518.390625
+      }
+    },
+    {
+      "id": "about-section",
+      "box": {
+        "x": 420,
+        "y": -46.40625,
+        "width": 980,
+        "height": 1092.84375
+      }
+    },
+    {
+      "id": "service-section",
+      "box": {
+        "x": 420,
+        "y": 52.4375,
+        "width": 980,
+        "height": 895
+      }
+    },
+    {
+      "id": "award-section",
+      "box": {
+        "x": 420,
+        "y": 344.4375,
+        "width": 980,
+        "height": 655.765625
+      }
+    },
+    {
+      "id": "testimonial-section",
+      "box": {
+        "x": 420,
+        "y": -77.984375,
+        "width": 980,
+        "height": 1155.21875
+      }
+    },
+    {
+      "id": "blog-section",
+      "box": {
+        "x": 420,
+        "y": 223.234375,
+        "width": 980,
+        "height": 552.734375
+      }
+    },
+    {
+      "id": "contact-section",
+      "box": {
+        "x": 420,
+        "y": 190.96875,
+        "width": 980,
+        "height": 809.40625
+      }
+    }
+  ],
+  "captured": "2026-09-14T06:37:59.302Z"
+}

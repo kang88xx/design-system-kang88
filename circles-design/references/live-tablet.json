@@ -1,0 +1,4889 @@
+{
+  "url": "https://three-circles-wbs.framer.website/",
+  "title": "three circles - One-Page Creative Studio Template",
+  "page": {
+    "w": 900,
+    "h": 7884,
+    "vw": 900,
+    "vh": 1000
+  },
+  "fonts": [
+    [
+      "Be Vietnam Pro",
+      95
+    ],
+    [
+      "Bricolage Grotesque",
+      73
+    ],
+    [
+      "Geist",
+      2
+    ],
+    [
+      "sans-serif",
+      1
+    ]
+  ],
+  "families": [
+    [
+      "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+      95
+    ],
+    [
+      "\"Bricolage Grotesque\", \"Bricolage Grotesque Placeholder\", sans-serif",
+      73
+    ],
+    [
+      "Geist, \"Geist Placeholder\", sans-serif",
+      2
+    ],
+    [
+      "sans-serif",
+      1
+    ]
+  ],
+  "sizes": [
+    [
+      "16px",
+      69
+    ],
+    [
+      "14px",
+      41
+    ],
+    [
+      "22px",
+      15
+    ],
+    [
+      "18px",
+      12
+    ],
+    [
+      "42px",
+      8
+    ],
+    [
+      "26px",
+      7
+    ],
+    [
+      "90px",
+      7
+    ],
+    [
+      "10px",
+      4
+    ],
+    [
+      "38px",
+      3
+    ],
+    [
+      "12px",
+      3
+    ],
+    [
+      "20px",
+      1
+    ],
+    [
+      "50px",
+      1
+    ]
+  ],
+  "weights": [
+    [
+      "400",
+      94
+    ],
+    [
+      "500",
+      30
+    ],
+    [
+      "600",
+      26
+    ],
+    [
+      "700",
+      21
+    ]
+  ],
+  "lineHeights": [
+    [
+      "19.2px",
+      69
+    ],
+    [
+      "16.8px",
+      41
+    ],
+    [
+      "26.4px",
+      15
+    ],
+    [
+      "21.6px",
+      12
+    ],
+    [
+      "46.2px",
+      8
+    ],
+    [
+      "28.6px",
+      7
+    ],
+    [
+      "72px",
+      7
+    ],
+    [
+      "11px",
+      4
+    ],
+    [
+      "41.8px",
+      3
+    ],
+    [
+      "14.4px",
+      2
+    ],
+    [
+      "24px",
+      1
+    ],
+    [
+      "55px",
+      1
+    ],
+    [
+      "normal",
+      1
+    ]
+  ],
+  "letterSpacings": [
+    [
+      "normal",
+      169
+    ],
+    [
+      "-0.24px",
+      2
+    ]
+  ],
+  "textColors": [
+    [
+      "rgb(28, 27, 24)",
+      96
+    ],
+    [
+      "rgb(103, 94, 80)",
+      53
+    ],
+    [
+      "rgb(255, 253, 234)",
+      7
+    ],
+    [
+      "rgb(240, 98, 49)",
+      4
+    ],
+    [
+      "rgb(255, 255, 255)",
+      4
+    ],
+    [
+      "rgb(255, 245, 212)",
+      3
+    ],
+    [
+      "rgb(5, 8, 12)",
+      2
+    ],
+    [
+      "rgb(183, 176, 165)",
+      1
+    ],
+    [
+      "rgb(0, 0, 238)",
+      1
+    ]
+  ],
+  "backgrounds": [
+    [
+      "rgb(255, 245, 212)",
+      28
+    ],
+    [
+      "rgb(255, 255, 255)",
+      14
+    ],
+    [
+      "rgb(28, 27, 24)",
+      9
+    ],
+    [
+      "rgb(255, 228, 121)",
+      8
+    ],
+    [
+      "rgb(255, 253, 234)",
+      5
+    ],
+    [
+      "rgb(103, 185, 53)",
+      3
+    ],
+    [
+      "rgb(240, 98, 49)",
+      2
+    ],
+    [
+      "rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "rgba(28, 27, 24, 0.7)",
+      1
+    ],
+    [
+      "rgb(251, 239, 199)",
+      1
+    ],
+    [
+      "rgb(103, 94, 80)",
+      1
+    ],
+    [
+      "rgb(255, 221, 170)",
+      1
+    ],
+    [
+      "rgba(255, 255, 255, 0.1)",
+      1
+    ]
+  ],
+  "radii": [
+    [
+      "6px",
+      120
+    ],
+    [
+      "2px",
+      50
+    ],
+    [
+      "50%",
+      14
+    ],
+    [
+      "12.252%",
+      6
+    ],
+    [
+      "14.624%",
+      6
+    ],
+    [
+      "10000px",
+      3
+    ],
+    [
+      "100px",
+      2
+    ],
+    [
+      "10px",
+      2
+    ],
+    [
+      "11px",
+      2
+    ],
+    [
+      "4px",
+      1
+    ]
+  ],
+  "shadows": [
+    [
+      "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+      2
+    ],
+    [
+      "rgba(5, 8, 12, 0.1) 0px 2px 4px 0px",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+      1
+    ]
+  ],
+  "transitions": [
+    [
+      "color 0.3s cubic-bezier(0.44, 0, 0.56, 1)",
+      5
+    ],
+    [
+      "background 0.45s cubic-bezier(0.44, 0, 0.56, 1), box-shadow 0.45s cubic-bezier(0.44, 0, 0.56, 1)",
+      4
+    ],
+    [
+      "background 0.3s cubic-bezier(0.44, 0, 0.56, 1), box-shadow 0.3s cubic-bezier(0.44, 0, 0.56, 1)",
+      1
+    ]
+  ],
+  "samples": [
+    {
+      "tag": "p",
+      "text": "Projects",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 92,
+      "w": 67,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "01",
+      "font": "Be Vietnam Pro",
+      "size": "10px",
+      "weight": "600",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 232,
+      "y": 97,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "tag": "p",
+      "text": "Showcase of innovation",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 124,
+      "w": 57,
+      "h": 77
+    },
+    {
+      "tag": "p",
+      "text": "Est.15 - 2025",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 221,
+      "w": 57,
+      "h": 34
+    },
+    {
+      "tag": "div",
+      "text": "8+ design assets",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "none",
+      "x": 129,
+      "y": 212,
+      "w": 114,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "About",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 130,
+      "w": 48,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "02",
+      "font": "Be Vietnam Pro",
+      "size": "10px",
+      "weight": "600",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 231,
+      "y": 135,
+      "w": 14,
+      "h": 11
+    },
+    {
+      "tag": "p",
+      "text": "SINCE",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(240, 98, 49)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 178,
+      "w": 42,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "2015",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 199,
+      "w": 56,
+      "h": 29
+    },
+    {
+      "tag": "p",
+      "text": "Creative approach",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 256,
+      "w": 178,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Clear strategy",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 281,
+      "w": 178,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Lasting impact",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 305,
+      "w": 178,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Services",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 168,
+      "w": 67,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "03",
+      "font": "Be Vietnam Pro",
+      "size": "10px",
+      "weight": "600",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 231,
+      "y": 173,
+      "w": 14,
+      "h": 11
+    },
+    {
+      "tag": "p",
+      "text": "We craft solutions that work—clean, clear, and result-oriented.",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 62,
+      "y": 210,
+      "w": 176,
+      "h": 50
+    },
+    {
+      "tag": "p",
+      "text": "Path to Success:",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 286,
+      "w": 196,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Discover",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 311,
+      "w": 60,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Design",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 182,
+      "y": 311,
+      "w": 47,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Deliver",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 70,
+      "y": 328,
+      "w": 48,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Contact",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 206,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "04",
+      "font": "Be Vietnam Pro",
+      "size": "10px",
+      "weight": "600",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 231,
+      "y": 211,
+      "w": 14,
+      "h": 11
+    },
+    {
+      "tag": "p",
+      "text": "+",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 134,
+      "y": 242,
+      "w": 9,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "You",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase",
+      "x": 163,
+      "y": 242,
+      "w": 25,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Let’s talk",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 279,
+      "w": 196,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Let’s team up to build something remarkable",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 52,
+      "y": 304,
+      "w": 196,
+      "h": 34
+    },
+    {
+      "tag": "div",
+      "text": "Reserve a Time to Speak with Our Experts",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase",
+      "x": 40,
+      "y": 730,
+      "w": 216,
+      "h": 86
+    },
+    {
+      "tag": "p",
+      "text": "Book a 30-Min Call",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 245, 212)",
+      "transform": "lowercase",
+      "x": 56,
+      "y": 846,
+      "w": 148,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "©2025 three circles.",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 50,
+      "y": 905,
+      "w": 200,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Available for the project",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 22,
+      "w": 187,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Est.2015",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 752,
+      "y": 22,
+      "w": 61,
+      "h": 19
+    },
+    {
+      "tag": "h1",
+      "text": "b",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 480,
+      "y": 143,
+      "w": 57,
+      "h": 72
+    },
+    {
+      "tag": "div",
+      "text": "ld",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 618,
+      "y": 143,
+      "w": 82,
+      "h": 72
+    },
+    {
+      "tag": "div",
+      "text": "m",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 411,
+      "y": 235,
+      "w": 85,
+      "h": 72
+    },
+    {
+      "tag": "div",
+      "text": "ves",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 616,
+      "y": 235,
+      "w": 152,
+      "h": 72
+    },
+    {
+      "tag": "p",
+      "text": "We combine insight, strategy, and design to help you move forward confidently, a",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 327,
+      "w": 256,
+      "h": 96
+    },
+    {
+      "tag": "div",
+      "text": "inspire",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 576,
+      "y": 339,
+      "w": 304,
+      "h": 72
+    },
+    {
+      "tag": "div",
+      "text": "gr",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 412,
+      "y": 443,
+      "w": 93,
+      "h": 72
+    },
+    {
+      "tag": "p",
+      "text": "Since",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 522,
+      "y": 461,
+      "w": 58,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "2015",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(240, 98, 49)",
+      "transform": "lowercase",
+      "x": 522,
+      "y": 483,
+      "w": 58,
+      "h": 26
+    },
+    {
+      "tag": "div",
+      "text": "wth",
+      "font": "Bricolage Grotesque",
+      "size": "90px",
+      "weight": "700",
+      "lineHeight": "72px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 596,
+      "y": 443,
+      "w": 172,
+      "h": 72
+    },
+    {
+      "tag": "p",
+      "text": "get started now",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 528,
+      "y": 555,
+      "w": 124,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Featured project",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 312,
+      "y": 712,
+      "w": 127,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Coaching, female entrepreneur",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 901,
+      "w": 560,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "2025",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 933,
+      "w": 560,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "The Bold Coach",
+      "font": "Be Vietnam Pro",
+      "size": "18px",
+      "weight": "400",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 873,
+      "w": 560,
+      "h": 22
+    },
+    {
+      "tag": "div",
+      "text": "Art By Liora",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 400,
+      "y": 984,
+      "w": 165,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Portfolio website, artist",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 615,
+      "y": 986,
+      "w": 196,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "2024",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 821,
+      "y": 986,
+      "w": 59,
+      "h": 17
+    },
+    {
+      "tag": "div",
+      "text": "Alex Rey Creative",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 400,
+      "y": 1054,
+      "w": 165,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Designer portfolio, freelancer",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 615,
+      "y": 1048,
+      "w": 196,
+      "h": 34
+    },
+    {
+      "tag": "p",
+      "text": "2023",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 821,
+      "y": 1056,
+      "w": 59,
+      "h": 17
+    },
+    {
+      "tag": "div",
+      "text": "Studio Haven",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 400,
+      "y": 1124,
+      "w": 165,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Creative studio, fashion designer",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 615,
+      "y": 1118,
+      "w": 196,
+      "h": 34
+    },
+    {
+      "tag": "p",
+      "text": "2022",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 821,
+      "y": 1126,
+      "w": 59,
+      "h": 17
+    },
+    {
+      "tag": "div",
+      "text": "Mindset Method",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 400,
+      "y": 1194,
+      "w": 165,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Life coach, wellness trainer",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 615,
+      "y": 1196,
+      "w": 196,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "2022",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 821,
+      "y": 1196,
+      "w": 59,
+      "h": 17
+    },
+    {
+      "tag": "div",
+      "text": "Create With Lani",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 400,
+      "y": 1264,
+      "w": 165,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Content creator, educator",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 615,
+      "y": 1266,
+      "w": 196,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "2021",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 821,
+      "y": 1266,
+      "w": 59,
+      "h": 17
+    },
+    {
+      "tag": "h2",
+      "text": "Other",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 346,
+      "y": 1434,
+      "w": 111,
+      "h": 46
+    },
+    {
+      "tag": "p",
+      "text": "View all projects",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 245, 212)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 1496,
+      "w": 127,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "Projects",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 664,
+      "y": 1434,
+      "w": 170,
+      "h": 46
+    },
+    {
+      "tag": "h2",
+      "text": "We don’t do fluff. Just focused, award-winning work that speaks to your audience",
+      "font": "Bricolage Grotesque",
+      "size": "38px",
+      "weight": "700",
+      "lineHeight": "41.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 1665,
+      "w": 580,
+      "h": 167
+    },
+    {
+      "tag": "span",
+      "text": "award-winning",
+      "font": "Bricolage Grotesque",
+      "size": "38px",
+      "weight": "700",
+      "lineHeight": "41.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(240, 98, 49)",
+      "transform": "lowercase",
+      "x": 356,
+      "y": 1705,
+      "w": 279,
+      "h": 45
+    },
+    {
+      "tag": "h3",
+      "text": "Our Journey & Vision",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 1912,
+      "w": 334,
+      "h": 29
+    },
+    {
+      "tag": "h4",
+      "text": "A Note from the Founder",
+      "font": "Bricolage Grotesque",
+      "size": "20px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(240, 98, 49)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 1945,
+      "w": 334,
+      "h": 24
+    },
+    {
+      "tag": "p",
+      "text": "Dear friends,",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2066,
+      "w": 520,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "At 3 Circles, we’ve always believed in building more than just websites—we build",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2115,
+      "w": 520,
+      "h": 96
+    },
+    {
+      "tag": "p",
+      "text": "2023 was a challenging year for us. We had to make some tough decisions, scale b",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2227,
+      "w": 520,
+      "h": 38
+    },
+    {
+      "tag": "p",
+      "text": "Looking ahead, our vision for 2025 is simple yet ambitious: refine our craft, st",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2282,
+      "w": 520,
+      "h": 58
+    },
+    {
+      "tag": "p",
+      "text": "\"Growth isn’t a straight line — it’s the courage to rebuild, refine, and rise st",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 350,
+      "y": 2375,
+      "w": 480,
+      "h": 50
+    },
+    {
+      "tag": "p",
+      "text": "With gratitude,",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2496,
+      "w": 520,
+      "h": 19
+    },
+    {
+      "tag": "h4",
+      "text": "Michael rey",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2535,
+      "w": 520,
+      "h": 26
+    },
+    {
+      "tag": "p",
+      "text": "Founder, Three Circles",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 2565,
+      "w": 520,
+      "h": 17
+    },
+    {
+      "tag": "h2",
+      "text": "Services",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 402,
+      "y": 2732,
+      "w": 377,
+      "h": 46
+    },
+    {
+      "tag": "h2",
+      "text": "Brand strategy",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 2880,
+      "w": 260,
+      "h": 26
+    },
+    {
+      "tag": "div",
+      "text": "Market positioning",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 2978,
+      "w": 141,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Audience research",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 3007,
+      "w": 139,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "Brand guidelines",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 3130,
+      "w": 260,
+      "h": 26
+    },
+    {
+      "tag": "div",
+      "text": "brand audit",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 616,
+      "y": 3228,
+      "w": 86,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "visual evolution",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 720,
+      "y": 3228,
+      "w": 117,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "migration strategy",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 616,
+      "y": 3257,
+      "w": 139,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "Rebranding & brand refresh",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 2880,
+      "w": 260,
+      "h": 53
+    },
+    {
+      "tag": "div",
+      "text": "Social & content assets",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 616,
+      "y": 2978,
+      "w": 176,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Responsiveness",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 616,
+      "y": 3007,
+      "w": 118,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "Packaging design",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 3380,
+      "w": 260,
+      "h": 26
+    },
+    {
+      "tag": "div",
+      "text": "Color systems",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 3449,
+      "w": 106,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Visual usage rules",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 3478,
+      "w": 134,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Copy style",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 468,
+      "y": 3478,
+      "w": 78,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Asset library setup",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 3507,
+      "w": 140,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "Virtual identity design",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 3130,
+      "w": 260,
+      "h": 26
+    },
+    {
+      "tag": "div",
+      "text": "Structural concepting",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 3228,
+      "w": 162,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "Shelf impact analysis",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 3257,
+      "w": 158,
+      "h": 19
+    },
+    {
+      "tag": "h3",
+      "text": "Ready to grow your brand",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 620,
+      "y": 3371,
+      "w": 240,
+      "h": 57
+    },
+    {
+      "tag": "p",
+      "text": "Let’s talk",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 636,
+      "y": 3489,
+      "w": 65,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "No. of awards",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 3618,
+      "w": 456,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "5+",
+      "font": "Bricolage Grotesque",
+      "size": "50px",
+      "weight": "700",
+      "lineHeight": "55px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "none",
+      "x": 300,
+      "y": 3642,
+      "w": 56,
+      "h": 55
+    },
+    {
+      "tag": "h3",
+      "text": "2015",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 762,
+      "y": 3648,
+      "w": 34,
+      "h": 19
+    },
+    {
+      "tag": "h3",
+      "text": "2025",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 836,
+      "y": 3648,
+      "w": 38,
+      "h": 19
+    },
+    {
+      "tag": "h3",
+      "text": "Brand impact awards",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 3742,
+      "w": 187,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Best brand identity for tech",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 3742,
+      "w": 187,
+      "h": 38
+    },
+    {
+      "tag": "p",
+      "text": "2025",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 693,
+      "y": 3742,
+      "w": 187,
+      "h": 17
+    },
+    {
+      "tag": "h3",
+      "text": "CSS design awards",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 3809,
+      "w": 187,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Best UI/UX for emerging brands",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 3809,
+      "w": 187,
+      "h": 38
+    },
+    {
+      "tag": "p",
+      "text": "2023",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 693,
+      "y": 3809,
+      "w": 187,
+      "h": 17
+    },
+    {
+      "tag": "h3",
+      "text": "Designweek global",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 3875,
+      "w": 187,
+      "h": 22
+    },
+    {
+      "tag": "p",
+      "text": "Best rebrand Strategy",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 3875,
+      "w": 187,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "2024",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 693,
+      "y": 3875,
+      "w": 187,
+      "h": 17
+    },
+    {
+      "tag": "h3",
+      "text": "Behance featured project",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 3925,
+      "w": 187,
+      "h": 43
+    },
+    {
+      "tag": "p",
+      "text": "The top pick in branding",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 3925,
+      "w": 187,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "2021",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 693,
+      "y": 3925,
+      "w": 187,
+      "h": 17
+    },
+    {
+      "tag": "h3",
+      "text": "International design awards",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 3996,
+      "w": 187,
+      "h": 43
+    },
+    {
+      "tag": "p",
+      "text": "Brand identity for consumer goods",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 3996,
+      "w": 187,
+      "h": 38
+    },
+    {
+      "tag": "p",
+      "text": "2021",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 693,
+      "y": 3996,
+      "w": 187,
+      "h": 17
+    },
+    {
+      "tag": "h3",
+      "text": "Red dot design awards",
+      "font": "Bricolage Grotesque",
+      "size": "18px",
+      "weight": "600",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 4067,
+      "w": 187,
+      "h": 43
+    },
+    {
+      "tag": "p",
+      "text": "Best use of typography in branding",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 497,
+      "y": 4067,
+      "w": 187,
+      "h": 38
+    },
+    {
+      "tag": "p",
+      "text": "2020",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 693,
+      "y": 4067,
+      "w": 187,
+      "h": 17
+    },
+    {
+      "tag": "h2",
+      "text": "The Results Speak for Themselves",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 4352,
+      "w": 500,
+      "h": 92
+    },
+    {
+      "tag": "div",
+      "text": "100+",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "none",
+      "x": 340,
+      "y": 4515,
+      "w": 56,
+      "h": 29
+    },
+    {
+      "tag": "p",
+      "text": "a brand built from the ground up",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 340,
+      "y": 4573,
+      "w": 230,
+      "h": 38
+    },
+    {
+      "tag": "div",
+      "text": "15+",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "none",
+      "x": 610,
+      "y": 4515,
+      "w": 37,
+      "h": 29
+    },
+    {
+      "tag": "p",
+      "text": "Industries served worldwide",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 4573,
+      "w": 230,
+      "h": 19
+    },
+    {
+      "tag": "div",
+      "text": "95%",
+      "font": "Bricolage Grotesque",
+      "size": "26px",
+      "weight": "500",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "none",
+      "x": 340,
+      "y": 4652,
+      "w": 57,
+      "h": 29
+    },
+    {
+      "tag": "p",
+      "text": "Customer Satisfaction Score",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 340,
+      "y": 4710,
+      "w": 500,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "hear from our satisfied clients",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 340,
+      "y": 4900,
+      "w": 500,
+      "h": 92
+    },
+    {
+      "tag": "h2",
+      "text": "Maya lin",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5032,
+      "w": 200,
+      "h": 26
+    },
+    {
+      "tag": "p",
+      "text": "Founder, luna botanicals",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5063,
+      "w": 200,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "They understood our complex startup vision and brought it to life with clarity, ",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5092,
+      "w": 260,
+      "h": 77
+    },
+    {
+      "tag": "h2",
+      "text": "Lena torres",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5103,
+      "w": 200,
+      "h": 26
+    },
+    {
+      "tag": "p",
+      "text": "Manager",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5134,
+      "w": 200,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "We saw a 2x increase in engagement within weeks. we now attract our dream client",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5163,
+      "w": 260,
+      "h": 96
+    },
+    {
+      "tag": "h2",
+      "text": "Drew kim",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5299,
+      "w": 200,
+      "h": 26
+    },
+    {
+      "tag": "p",
+      "text": "Co-founder, Loopwave",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5330,
+      "w": 200,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "They transformed scattered ideas into a stunning, unified brand presence. strate",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5359,
+      "w": 260,
+      "h": 77
+    },
+    {
+      "tag": "h2",
+      "text": "Michael rey",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5459,
+      "w": 200,
+      "h": 26
+    },
+    {
+      "tag": "p",
+      "text": "Creative director",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5490,
+      "w": 200,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "They helped us redefine our brand identity, and the response from our customers ",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5519,
+      "w": 260,
+      "h": 77
+    },
+    {
+      "tag": "h3",
+      "text": "4.5",
+      "font": "Bricolage Grotesque",
+      "size": "38px",
+      "weight": "700",
+      "lineHeight": "41.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5646,
+      "w": 56,
+      "h": 42
+    },
+    {
+      "tag": "h4",
+      "text": "/5",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 368,
+      "y": 5656,
+      "w": 21,
+      "h": 26
+    },
+    {
+      "tag": "p",
+      "text": "Trusted by clients",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5720,
+      "w": 275,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "56+ times we’ve helped clients take the leap.",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 595,
+      "y": 5696,
+      "w": 275,
+      "h": 38
+    },
+    {
+      "tag": "h2",
+      "text": "Our blog",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 300,
+      "y": 5849,
+      "w": 367,
+      "h": 46
+    },
+    {
+      "tag": "p",
+      "text": "View all blogs",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 755,
+      "y": 5863,
+      "w": 106,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "Why your brand needs a story before a logo",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 5935,
+      "w": 260,
+      "h": 53
+    },
+    {
+      "tag": "div",
+      "text": "Branding",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 6010,
+      "w": 67,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Nov 13, 2025",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 399,
+      "y": 6011,
+      "w": 87,
+      "h": 17
+    },
+    {
+      "tag": "h2",
+      "text": "2025 branding trends that actually matter",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 610,
+      "y": 5935,
+      "w": 260,
+      "h": 53
+    },
+    {
+      "tag": "div",
+      "text": "UX Design",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 616,
+      "y": 6010,
+      "w": 72,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Nov 5, 2025",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 704,
+      "y": 6011,
+      "w": 82,
+      "h": 17
+    },
+    {
+      "tag": "h2",
+      "text": "The power of minimalist design in bold branding",
+      "font": "Bricolage Grotesque",
+      "size": "22px",
+      "weight": "500",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 310,
+      "y": 6216,
+      "w": 560,
+      "h": 26
+    },
+    {
+      "tag": "div",
+      "text": "UI Design",
+      "font": "Bricolage Grotesque",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 316,
+      "y": 6265,
+      "w": 68,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Oct 30, 2025",
+      "font": "Be Vietnam Pro",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 400,
+      "y": 6266,
+      "w": 90,
+      "h": 17
+    },
+    {
+      "tag": "h2",
+      "text": "drop us a note",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 360,
+      "y": 6728,
+      "w": 460,
+      "h": 46
+    },
+    {
+      "tag": "p",
+      "text": "My name is",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 372,
+      "y": 6807,
+      "w": 90,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": ", my email address is",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 372,
+      "y": 6851,
+      "w": 160,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": ", I am contacting you regarding",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 372,
+      "y": 6892,
+      "w": 241,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "I want to tell you that:",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(103, 94, 80)",
+      "transform": "lowercase",
+      "x": 372,
+      "y": 6975,
+      "w": 169,
+      "h": 19
+    },
+    {
+      "tag": "p",
+      "text": "Send a message",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 245, 212)",
+      "transform": "lowercase",
+      "x": 392,
+      "y": 7155,
+      "w": 125,
+      "h": 19
+    },
+    {
+      "tag": "h2",
+      "text": "It’s time to level up your brand",
+      "font": "Bricolage Grotesque",
+      "size": "42px",
+      "weight": "700",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 7426,
+      "w": 520,
+      "h": 92
+    },
+    {
+      "tag": "p",
+      "text": "Book a call",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(28, 27, 24)",
+      "transform": "lowercase",
+      "x": 346,
+      "y": 7548,
+      "w": 86,
+      "h": 19
+    },
+    {
+      "tag": "a",
+      "text": "hello@example.com",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 7627,
+      "w": 159,
+      "h": 20
+    },
+    {
+      "tag": "a",
+      "text": "+123-456-7890",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 7656,
+      "w": 130,
+      "h": 20
+    },
+    {
+      "tag": "p",
+      "text": "Join our creative circle",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 605,
+      "y": 7628,
+      "w": 245,
+      "h": 19
+    },
+    {
+      "tag": "a",
+      "text": "123 remote work avenue, san francisco, ca 94105",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 7717,
+      "w": 194,
+      "h": 39
+    },
+    {
+      "tag": "p",
+      "text": "Designed by Webestica, powered by Framer",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(183, 176, 165)",
+      "transform": "lowercase",
+      "x": 330,
+      "y": 7817,
+      "w": 520,
+      "h": 19
+    },
+    {
+      "tag": "a",
+      "text": "Webestica",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 520,
+      "y": 7816,
+      "w": 82,
+      "h": 20
+    },
+    {
+      "tag": "a",
+      "text": "Framer",
+      "font": "Be Vietnam Pro",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 253, 234)",
+      "transform": "lowercase",
+      "x": 706,
+      "y": 7816,
+      "w": 52,
+      "h": 20
+    },
+    {
+      "tag": "p",
+      "text": "Get it for FREE",
+      "font": "Geist",
+      "size": "12px",
+      "weight": "700",
+      "lineHeight": "14.4px",
+      "letterSpacing": "-0.24px",
+      "color": "rgb(5, 8, 12)",
+      "transform": "none",
+      "x": 755,
+      "y": 904,
+      "w": 82,
+      "h": 14
+    },
+    {
+      "tag": "p",
+      "text": "Get it for FREE",
+      "font": "Geist",
+      "size": "12px",
+      "weight": "700",
+      "lineHeight": "14.4px",
+      "letterSpacing": "-0.24px",
+      "color": "rgb(5, 8, 12)",
+      "transform": "none",
+      "x": 746,
+      "y": 942,
+      "w": 98,
+      "h": 17
+    },
+    {
+      "tag": "p",
+      "text": "Create a free website with Framer, the website builder loved by startups, design",
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 238)",
+      "transform": "none",
+      "x": 810,
+      "y": 961,
+      "w": 0,
+      "h": 0
+    }
+  ],
+  "sections": [
+    {
+      "tag": "nav",
+      "id": "",
+      "cls": "framer-NiaDh framer-Orlze framer-TsKJO framer-8tdopm framer-",
+      "y": 0,
+      "h": 1000,
+      "w": 300,
+      "x": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px",
+      "gap": "10px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "hero",
+      "cls": "framer-1l4py7y",
+      "y": 43,
+      "h": 637,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "100px 0px 80px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "project-section",
+      "cls": "framer-iiq6x4",
+      "y": 680,
+      "h": 965,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px 0px 80px",
+      "gap": "40px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "about-section",
+      "cls": "framer-la6gk6",
+      "y": 1645,
+      "h": 1067,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px 0px 100px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "service-section",
+      "cls": "framer-chb930",
+      "y": 2712,
+      "h": 906,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px 0px 80px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "award-section",
+      "cls": "framer-2epnw1",
+      "y": 3618,
+      "h": 674,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 100px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "",
+      "cls": "framer-1s3dxoo",
+      "y": 4292,
+      "h": 607,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 100px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "testimonial-section",
+      "cls": "framer-1dlgf8z",
+      "y": 4900,
+      "h": 949,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 100px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "blog-section",
+      "cls": "framer-qmytua",
+      "y": 5849,
+      "h": 827,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 80px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "section",
+      "id": "contact-section",
+      "cls": "framer-13kxdon",
+      "y": 6676,
+      "h": 690,
+      "w": 580,
+      "x": 300,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px 0px 0px",
+      "gap": "0px",
+      "position": "relative"
+    },
+    {
+      "tag": "footer",
+      "id": "",
+      "cls": "framer-50uaA framer-oPYe2 framer-TsKJO framer-WI5tR framer-z",
+      "y": 7366,
+      "h": 498,
+      "w": 580,
+      "x": 300,
+      "bg": "rgb(28, 27, 24)",
+      "pad": "60px 30px 30px",
+      "gap": "30px",
+      "position": "relative"
+    }
+  ],
+  "links": [
+    {
+      "href": "./",
+      "text": ""
+    },
+    {
+      "href": "./#project-section",
+      "text": "Projects01Showcase of innovationEst.15 - 20258+ design asset"
+    },
+    {
+      "href": "./#about-section",
+      "text": "About02SINCE2015Creative approachClear strategyLasting impac"
+    },
+    {
+      "href": "./#service-section",
+      "text": "Services03We craft solutions that work—clean, clear, and res"
+    },
+    {
+      "href": "./#contact-section",
+      "text": "Contact04+YouLet’s talkLet’s team up to build something rema"
+    },
+    {
+      "href": "https://cal.com/",
+      "text": "Book a 30-Min Call"
+    },
+    {
+      "href": "https://www.instagram.com/",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/",
+      "text": ""
+    },
+    {
+      "href": "./#contact-section",
+      "text": "get started now"
+    },
+    {
+      "href": "./project/the-bold-coach",
+      "text": "Featured projectCoaching, female entrepreneur2025The Bold Co"
+    },
+    {
+      "href": "./project/art-by-liora",
+      "text": "Art By LioraPortfolio website, artist2024"
+    },
+    {
+      "href": "./project/alex-rey-creative",
+      "text": "Alex Rey CreativeDesigner portfolio, freelancer2023"
+    },
+    {
+      "href": "./project/studio-haven",
+      "text": "Studio HavenCreative studio, fashion designer2022"
+    },
+    {
+      "href": "./project/mindset-method",
+      "text": "Mindset MethodLife coach, wellness trainer2022"
+    },
+    {
+      "href": "./project/create-with-lani",
+      "text": "Create With LaniContent creator, educator2021"
+    },
+    {
+      "href": "./project",
+      "text": "View all projects"
+    },
+    {
+      "href": "./#contact-section",
+      "text": "Let’s talk"
+    },
+    {
+      "href": "./blog",
+      "text": "View all blogs"
+    },
+    {
+      "href": "./blog/why-your-brand-needs-a-story-before-a-logo",
+      "text": "Why your brand needs a story before a logoBrandingNov 13, 20"
+    },
+    {
+      "href": "./blog/2025-branding-trends-that-actually-matter",
+      "text": "2025 branding trends that actually matterUX DesignNov 5, 202"
+    },
+    {
+      "href": "./blog/the-power-of-minimalist-design-in-bold-branding",
+      "text": "The power of minimalist design in bold brandingUI DesignOct "
+    },
+    {
+      "href": "http://cal.com/",
+      "text": "Book a call"
+    },
+    {
+      "href": "mailto: hello@example.com",
+      "text": "hello@example.com"
+    },
+    {
+      "href": "tel: +123-456-7890",
+      "text": "+123-456-7890"
+    },
+    {
+      "href": "https://www.google.co.in/maps",
+      "text": "123 remote work avenue, san francisco, ca 94105"
+    },
+    {
+      "href": "https://www.webestica.com/",
+      "text": "Webestica"
+    },
+    {
+      "href": "https://framer.com/",
+      "text": "Framer"
+    },
+    {
+      "href": "https://framer.link/three-circles",
+      "text": "Get it for FREEGet it for FREE"
+    },
+    {
+      "href": "https://www.framer.com",
+      "text": "Create a free website with Framer, the website builder loved"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/FINFuWlDrvdTGrMGIQHG2CfiNQ.svg?width=109&height=28",
+      "srcset": "",
+      "alt": "",
+      "w": 101,
+      "h": 26,
+      "nw": 109,
+      "nh": 28,
+      "y": 40
+    },
+    {
+      "src": "https://framerusercontent.com/images/yOGH0VMe0dxDvOWCTEYdA3mM.png?scale-down-to=1024&width=928&height=1232",
+      "srcset": "https://framerusercontent.com/images/yOGH0VMe0dxDvOWCTEYdA3mM.png?scale-down-to=1024&width=928&height=1232 771w,https://framerusercontent.com/images/yOGH0VMe0dxDvOWCTEYdA3mM.png?width=928&height=1232 928w",
+      "alt": "",
+      "w": 51,
+      "h": 51,
+      "nw": 50,
+      "nh": 66,
+      "y": 149
+    },
+    {
+      "src": "https://framerusercontent.com/images/wV00y50FP7VauWUCrxOvtC71n9w.png?scale-down-to=1024&width=928&height=1232",
+      "srcset": "https://framerusercontent.com/images/wV00y50FP7VauWUCrxOvtC71n9w.png?scale-down-to=1024&width=928&height=1232 771w,https://framerusercontent.com/images/wV00y50FP7VauWUCrxOvtC71n9w.png?width=928&height=1232 928w",
+      "alt": "",
+      "w": 55,
+      "h": 55,
+      "nw": 40,
+      "nh": 53,
+      "y": 147
+    },
+    {
+      "src": "https://framerusercontent.com/images/AFqibCRH55ISngIoZcqWp5WHHU.png?scale-down-to=1024&width=928&height=1232",
+      "srcset": "https://framerusercontent.com/images/AFqibCRH55ISngIoZcqWp5WHHU.png?scale-down-to=1024&width=928&height=1232 771w,https://framerusercontent.com/images/AFqibCRH55ISngIoZcqWp5WHHU.png?width=928&height=1232 928w",
+      "alt": "",
+      "w": 51,
+      "h": 51,
+      "nw": 50,
+      "nh": 66,
+      "y": 149
+    },
+    {
+      "src": "https://framerusercontent.com/images/YggtxYl2AEg0mgpkCRkPzPhJBA.png?scale-down-to=1024&width=928&height=1232",
+      "srcset": "https://framerusercontent.com/images/YggtxYl2AEg0mgpkCRkPzPhJBA.png?scale-down-to=1024&width=928&height=1232 771w,https://framerusercontent.com/images/YggtxYl2AEg0mgpkCRkPzPhJBA.png?width=928&height=1232 928w",
+      "alt": "",
+      "w": 55,
+      "h": 55,
+      "nw": 40,
+      "nh": 53,
+      "y": 147
+    },
+    {
+      "src": "https://framerusercontent.com/images/c6ZeLYaJC8zdoW1ayA0T4K5A.svg?width=13&height=13",
+      "srcset": "",
+      "alt": "List Icon",
+      "w": 12,
+      "h": 12,
+      "nw": 13,
+      "nh": 13,
+      "y": 258
+    },
+    {
+      "src": "https://framerusercontent.com/images/c6ZeLYaJC8zdoW1ayA0T4K5A.svg?width=13&height=13",
+      "srcset": "",
+      "alt": "List Icon",
+      "w": 12,
+      "h": 12,
+      "nw": 13,
+      "nh": 13,
+      "y": 283
+    },
+    {
+      "src": "https://framerusercontent.com/images/c6ZeLYaJC8zdoW1ayA0T4K5A.svg?width=13&height=13",
+      "srcset": "",
+      "alt": "List Icon",
+      "w": 12,
+      "h": 12,
+      "nw": 13,
+      "nh": 13,
+      "y": 307
+    },
+    {
+      "src": "https://framerusercontent.com/images/WFCNF7JcgklFHWsJlgfw0vVv2OI.svg?width=16&height=17",
+      "srcset": "",
+      "alt": "List Icon",
+      "w": 12,
+      "h": 12,
+      "nw": 16,
+      "nh": 17,
+      "y": 313
+    },
+    {
+      "src": "https://framerusercontent.com/images/7cES3finIJ41QzId3yZc4BVqqI.svg?width=9&height=14",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 6,
+      "h": 12,
+      "nw": 9,
+      "nh": 14,
+      "y": 314
+    },
+    {
+      "src": "https://framerusercontent.com/images/IgXeAhCPhJKMkKz0lBBVUAThuHA.svg?width=17&height=17",
+      "srcset": "",
+      "alt": "List Icon",
+      "w": 12,
+      "h": 12,
+      "nw": 17,
+      "nh": 17,
+      "y": 313
+    },
+    {
+      "src": "https://framerusercontent.com/images/7cES3finIJ41QzId3yZc4BVqqI.svg?width=9&height=14",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 6,
+      "h": 12,
+      "nw": 9,
+      "nh": 14,
+      "y": 314
+    },
+    {
+      "src": "https://framerusercontent.com/images/Yoi0yNdzYdY4keH6LHDYRJ7MsY.svg?width=15&height=17",
+      "srcset": "",
+      "alt": "List Icon",
+      "w": 12,
+      "h": 12,
+      "nw": 15,
+      "nh": 17,
+      "y": 330
+    },
+    {
+      "src": "https://framerusercontent.com/images/FINFuWlDrvdTGrMGIQHG2CfiNQ.svg?width=109&height=28",
+      "srcset": "",
+      "alt": "Brand logo",
+      "w": 50,
+      "h": 13,
+      "nw": 109,
+      "nh": 28,
+      "y": 244
+    },
+    {
+      "src": "https://framerusercontent.com/images/X80bZzkkLRKGykPwJYCoGBmkAc.svg?width=24&height=24",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 24,
+      "y": 934
+    },
+    {
+      "src": "https://framerusercontent.com/images/M6jES7Nekmucvc7x06OLkOa2FQ.svg?width=24&height=24",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 24,
+      "y": 934
+    },
+    {
+      "src": "https://framerusercontent.com/images/s7rMb4y8AKkybRtdqpSO5Xx58.svg?width=24&height=18",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 18,
+      "y": 934
+    },
+    {
+      "src": "https://framerusercontent.com/images/7n5N7HXPeeF40jSUMmjnacb8AS8.svg?width=24&height=24",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 24,
+      "y": 934
+    },
+    {
+      "src": "https://framerusercontent.com/images/fXyiOWTrGvtHLrru4JUf1FvRPw.svg?width=13&height=9",
+      "srcset": "",
+      "alt": "",
+      "w": 13,
+      "h": 8,
+      "nw": 13,
+      "nh": 9,
+      "y": 27
+    },
+    {
+      "src": "https://framerusercontent.com/images/A4Xf2pHVeBlAQlLKWrXDL9eWMwU.svg?width=21&height=11",
+      "srcset": "",
+      "alt": "Shape",
+      "w": 20,
+      "h": 11,
+      "nw": 21,
+      "nh": 11,
+      "y": 26
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y1rpbPtKnTjQTLhSQ5SACNd6MM.jpg?width=200&height=200",
+      "srcset": "",
+      "alt": "BG Image",
+      "w": 60,
+      "h": 60,
+      "nw": 200,
+      "nh": 200,
+      "y": 149
+    },
+    {
+      "src": "https://framerusercontent.com/images/dUn1icWRzytnyPL83HNAC2QxzI.jpg?scale-down-to=1024&width=1400&height=650",
+      "srcset": "https://framerusercontent.com/images/dUn1icWRzytnyPL83HNAC2QxzI.jpg?scale-down-to=512&width=1400&height=650 512w,https://framerusercontent.com/images/dUn1icWRzytnyPL83HNAC2QxzI.jpg?scale-down-to=1024&width=1400&height=650 1024w,https://framerusercontent.com/images/dUn1icWRzytnyPL83HNAC2QxzI.jpg?widt",
+      "alt": "Project Image",
+      "w": 592,
+      "h": 265,
+      "nw": 918,
+      "nh": 425,
+      "y": 698
+    },
+    {
+      "src": "https://framerusercontent.com/images/yBkMfuBWYvLOn2duo0PdDtLoU.jpg?scale-down-to=512&width=1400&height=650",
+      "srcset": "https://framerusercontent.com/images/yBkMfuBWYvLOn2duo0PdDtLoU.jpg?scale-down-to=512&width=1400&height=650 512w,https://framerusercontent.com/images/yBkMfuBWYvLOn2duo0PdDtLoU.jpg?scale-down-to=1024&width=1400&height=650 1024w,https://framerusercontent.com/images/yBkMfuBWYvLOn2duo0PdDtLoU.jpg?width=1",
+      "alt": "Project Image",
+      "w": 90,
+      "h": 42,
+      "nw": 90,
+      "nh": 41,
+      "y": 974
+    },
+    {
+      "src": "https://framerusercontent.com/images/ktPHjCuIErnOoG1BPysqhtv8RC0.jpg?scale-down-to=512&width=1400&height=650",
+      "srcset": "https://framerusercontent.com/images/ktPHjCuIErnOoG1BPysqhtv8RC0.jpg?scale-down-to=512&width=1400&height=650 512w,https://framerusercontent.com/images/ktPHjCuIErnOoG1BPysqhtv8RC0.jpg?scale-down-to=1024&width=1400&height=650 1024w,https://framerusercontent.com/images/ktPHjCuIErnOoG1BPysqhtv8RC0.jpg?w",
+      "alt": "Project Image",
+      "w": 90,
+      "h": 42,
+      "nw": 90,
+      "nh": 41,
+      "y": 1044
+    },
+    {
+      "src": "https://framerusercontent.com/images/h0mV9Qi9c17r629V7vKSwTw9HB4.jpg?scale-down-to=512&width=1400&height=650",
+      "srcset": "https://framerusercontent.com/images/h0mV9Qi9c17r629V7vKSwTw9HB4.jpg?scale-down-to=512&width=1400&height=650 512w,https://framerusercontent.com/images/h0mV9Qi9c17r629V7vKSwTw9HB4.jpg?scale-down-to=1024&width=1400&height=650 1024w,https://framerusercontent.com/images/h0mV9Qi9c17r629V7vKSwTw9HB4.jpg?w",
+      "alt": "Project Image",
+      "w": 90,
+      "h": 42,
+      "nw": 90,
+      "nh": 41,
+      "y": 1114
+    },
+    {
+      "src": "https://framerusercontent.com/images/YMBp9FSoc4CCy0g5MVt5aVBcvH0.jpg?scale-down-to=512&width=1400&height=650",
+      "srcset": "https://framerusercontent.com/images/YMBp9FSoc4CCy0g5MVt5aVBcvH0.jpg?scale-down-to=512&width=1400&height=650 512w,https://framerusercontent.com/images/YMBp9FSoc4CCy0g5MVt5aVBcvH0.jpg?scale-down-to=1024&width=1400&height=650 1024w,https://framerusercontent.com/images/YMBp9FSoc4CCy0g5MVt5aVBcvH0.jpg?w",
+      "alt": "Project Image",
+      "w": 90,
+      "h": 42,
+      "nw": 90,
+      "nh": 41,
+      "y": 1184
+    },
+    {
+      "src": "https://framerusercontent.com/images/FUx9ElDEQUIdDArSgTgUt7Mo8pY.jpg?scale-down-to=512&width=1400&height=650",
+      "srcset": "https://framerusercontent.com/images/FUx9ElDEQUIdDArSgTgUt7Mo8pY.jpg?scale-down-to=512&width=1400&height=650 512w,https://framerusercontent.com/images/FUx9ElDEQUIdDArSgTgUt7Mo8pY.jpg?scale-down-to=1024&width=1400&height=650 1024w,https://framerusercontent.com/images/FUx9ElDEQUIdDArSgTgUt7Mo8pY.jpg?w",
+      "alt": "Project Image",
+      "w": 90,
+      "h": 42,
+      "nw": 90,
+      "nh": 41,
+      "y": 1254
+    },
+    {
+      "src": "https://framerusercontent.com/images/JFWKrJJK4OTf4rNAhQbgNx3IR8.jpg?width=500&height=720",
+      "srcset": "https://framerusercontent.com/images/JFWKrJJK4OTf4rNAhQbgNx3IR8.jpg?width=500&height=720 500w",
+      "alt": "Project CTA Image",
+      "w": 90,
+      "h": 116,
+      "nw": 70,
+      "nh": 100,
+      "y": 1400
+    },
+    {
+      "src": "https://framerusercontent.com/images/3vlKp3M2VCSYOB11mci4plrQ1A0.jpg?width=500&height=540",
+      "srcset": "https://framerusercontent.com/images/3vlKp3M2VCSYOB11mci4plrQ1A0.jpg?width=500&height=540 500w",
+      "alt": "Project CTA Image",
+      "w": 100,
+      "h": 120,
+      "nw": 100,
+      "nh": 108,
+      "y": 1391
+    },
+    {
+      "src": "https://framerusercontent.com/images/8VnXeuclJ2iLClzZQ1KqQhi5PGY.jpg?width=500&height=720",
+      "srcset": "https://framerusercontent.com/images/8VnXeuclJ2iLClzZQ1KqQhi5PGY.jpg?width=500&height=720 500w",
+      "alt": "Project CTA Image",
+      "w": 90,
+      "h": 116,
+      "nw": 70,
+      "nh": 100,
+      "y": 1400
+    },
+    {
+      "src": "https://framerusercontent.com/images/WyGQLDhmrkwlCOGuvG9ZqYKxgk.jpg?width=500&height=550",
+      "srcset": "https://framerusercontent.com/images/WyGQLDhmrkwlCOGuvG9ZqYKxgk.jpg?width=500&height=550 500w",
+      "alt": "Founder Image",
+      "w": 155,
+      "h": 168,
+      "nw": 140,
+      "nh": 154,
+      "y": 1875
+    },
+    {
+      "src": "https://framerusercontent.com/images/17DMTvim49YUVPrBQP9hPqmcaY.png?width=33&height=81",
+      "srcset": "",
+      "alt": "Vector",
+      "w": 33,
+      "h": 80,
+      "nw": 33,
+      "nh": 81,
+      "y": 1863
+    },
+    {
+      "src": "https://framerusercontent.com/images/be9wnDhpDGtE61haq0iU2pu1e8.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 2821
+    },
+    {
+      "src": "https://framerusercontent.com/images/b1RunSCsUotdw2dokD7ZdS4Q.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 36,
+      "h": 36,
+      "nw": 120,
+      "nh": 120,
+      "y": 2818
+    },
+    {
+      "src": "https://framerusercontent.com/images/95LhT9V9bBPKDCpNekA1wkgBQ.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 2821
+    },
+    {
+      "src": "https://framerusercontent.com/images/o3sdFSdVMVVKuA9BvnFQ0ycCg0.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 3071
+    },
+    {
+      "src": "https://framerusercontent.com/images/EIxhMiN8pH0NMLCzzXCBskyic.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 3071
+    },
+    {
+      "src": "https://framerusercontent.com/images/dQxNMmLBTMWH7clNF3wjVsP6dfU.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 2821
+    },
+    {
+      "src": "https://framerusercontent.com/images/puvjRtFoIQ8LJsRMeBZ05YH5xBw.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 36,
+      "h": 36,
+      "nw": 120,
+      "nh": 120,
+      "y": 2818
+    },
+    {
+      "src": "https://framerusercontent.com/images/oCWqdrMI7BLZsLAxEb9quSUO3k.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 2821
+    },
+    {
+      "src": "https://framerusercontent.com/images/ezHtBfBTlRRLdDqb2EzM4zM4CEI.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 3321
+    },
+    {
+      "src": "https://framerusercontent.com/images/9hNdSDfcrBDpAhPfVFH8gLys30.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 3321
+    },
+    {
+      "src": "https://framerusercontent.com/images/KIaozusWopAX9Wj792w30mkJ1Mc.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 3071
+    },
+    {
+      "src": "https://framerusercontent.com/images/JweN3BU36HsEZcao0zd3SL6M5o.jpg?width=120&height=120",
+      "srcset": "",
+      "alt": "Service Image",
+      "w": 42,
+      "h": 42,
+      "nw": 120,
+      "nh": 120,
+      "y": 3071
+    },
+    {
+      "src": "https://framerusercontent.com/images/FINFuWlDrvdTGrMGIQHG2CfiNQ.svg?width=109&height=28",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 88,
+      "h": 23,
+      "nw": 109,
+      "nh": 28,
+      "y": 3328
+    },
+    {
+      "src": "https://framerusercontent.com/images/6ABFqSDb9BQ3nY07QVWH35sIJc.svg?width=169&height=50",
+      "srcset": "",
+      "alt": "Client",
+      "w": 61,
+      "h": 18,
+      "nw": 169,
+      "nh": 50,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/MT71hJ6FLM3Za3P0CzRFhVTBZFQ.svg?width=108&height=30",
+      "srcset": "",
+      "alt": "Client",
+      "w": 65,
+      "h": 18,
+      "nw": 108,
+      "nh": 30,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/O85GKgykZr6M3krekfrjM09M4.svg?width=127&height=30",
+      "srcset": "",
+      "alt": "Client",
+      "w": 76,
+      "h": 18,
+      "nw": 127,
+      "nh": 30,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/BiWm4M55DvYPkwOoAkrEKkHeM.svg?width=116&height=30",
+      "srcset": "",
+      "alt": "Client",
+      "w": 70,
+      "h": 18,
+      "nw": 116,
+      "nh": 30,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/sZbcIteYxanZYB3kdThyN2VDs.svg?width=134&height=30",
+      "srcset": "",
+      "alt": "Client",
+      "w": 80,
+      "h": 18,
+      "nw": 134,
+      "nh": 30,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/xPeB97lqo8XU3YHcRN0Z4B1rCpc.svg?width=230&height=50",
+      "srcset": "",
+      "alt": "Client",
+      "w": 83,
+      "h": 18,
+      "nw": 230,
+      "nh": 50,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/aGfg7V38YmIXHMzZZ9708TfmR0.svg?width=117&height=30",
+      "srcset": "",
+      "alt": "Client",
+      "w": 70,
+      "h": 18,
+      "nw": 117,
+      "nh": 30,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y8uxJbljZe8N52xI4RSVPmCWGQ.svg?width=175&height=31",
+      "srcset": "",
+      "alt": "Client",
+      "w": 102,
+      "h": 18,
+      "nw": 175,
+      "nh": 31,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/vLPkBEaGASdKuu828T3L09cAZ0.svg?width=156&height=31",
+      "srcset": "",
+      "alt": "Client",
+      "w": 91,
+      "h": 18,
+      "nw": 156,
+      "nh": 31,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/w8neB7uwKLhTuT6eXdWM6L0ykYo.svg?width=133&height=31",
+      "srcset": "",
+      "alt": "Client",
+      "w": 77,
+      "h": 18,
+      "nw": 133,
+      "nh": 31,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/QVzKuj6qj2FdRXMcKXQkxc0cQ8.svg?width=101&height=31",
+      "srcset": "",
+      "alt": "Client",
+      "w": 59,
+      "h": 18,
+      "nw": 101,
+      "nh": 31,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/OsbX2KcwmrQKyE3RaczTXsZe7g.svg?width=133&height=31",
+      "srcset": "",
+      "alt": "Client",
+      "w": 77,
+      "h": 18,
+      "nw": 133,
+      "nh": 31,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/DKBnoms9zgIZdkcQ55XxewXhLk.svg?width=140&height=30",
+      "srcset": "",
+      "alt": "Client",
+      "w": 84,
+      "h": 18,
+      "nw": 140,
+      "nh": 30,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/NJiFbGn793rNIpkst3zMFP98wLo.svg?width=156&height=31",
+      "srcset": "",
+      "alt": "Client",
+      "w": 91,
+      "h": 18,
+      "nw": 156,
+      "nh": 31,
+      "y": 4164
+    },
+    {
+      "src": "https://framerusercontent.com/images/QX9eyUg5EConzS4KaBAYAcYWkz8.jpg?scale-down-to=1024&width=1400&height=750",
+      "srcset": "https://framerusercontent.com/images/QX9eyUg5EConzS4KaBAYAcYWkz8.jpg?scale-down-to=512&width=1400&height=750 512w,https://framerusercontent.com/images/QX9eyUg5EConzS4KaBAYAcYWkz8.jpg?scale-down-to=1024&width=1400&height=750 1024w,https://framerusercontent.com/images/QX9eyUg5EConzS4KaBAYAcYWkz8.jpg?w",
+      "alt": "BG Image",
+      "w": 580,
+      "h": 507,
+      "nw": 900,
+      "nh": 482,
+      "y": 4292
+    },
+    {
+      "src": "https://framerusercontent.com/images/CSXZXEKDft8y58gead58gSKEpS4.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 50,
+      "h": 50,
+      "nw": 100,
+      "nh": 100,
+      "y": 5032
+    },
+    {
+      "src": "https://framerusercontent.com/images/RaHJbXO2J2TL51JPIktUkQrNc.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 50,
+      "h": 50,
+      "nw": 100,
+      "nh": 100,
+      "y": 5103
+    },
+    {
+      "src": "https://framerusercontent.com/images/wnIy8W9r8Ui1p9DnvJ4gfkBQQ.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 50,
+      "h": 50,
+      "nw": 100,
+      "nh": 100,
+      "y": 5299
+    },
+    {
+      "src": "https://framerusercontent.com/images/ydhTn3OnZRpEEPjjrDLMUf4xlE.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 50,
+      "h": 50,
+      "nw": 100,
+      "nh": 100,
+      "y": 5459
+    },
+    {
+      "src": "https://framerusercontent.com/images/kgmUU8cJuSv0JwRfWoUg57n93sw.svg?width=127&height=18",
+      "srcset": "",
+      "alt": "Star",
+      "w": 130,
+      "h": 18,
+      "nw": 127,
+      "nh": 18,
+      "y": 5698
+    },
+    {
+      "src": "https://framerusercontent.com/images/mlsPnOrHdQjanVNg6SFjPpCUIow.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 40,
+      "h": 40,
+      "nw": 100,
+      "nh": 100,
+      "y": 5646
+    },
+    {
+      "src": "https://framerusercontent.com/images/aA5s4eAeWe57Zug9QqCF55OrM.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 40,
+      "h": 40,
+      "nw": 100,
+      "nh": 100,
+      "y": 5646
+    },
+    {
+      "src": "https://framerusercontent.com/images/PNgLWggbJZy5m4TCoy5kLxaBCro.jpg?width=100&height=100",
+      "srcset": "",
+      "alt": "Avatar",
+      "w": 40,
+      "h": 40,
+      "nw": 100,
+      "nh": 100,
+      "y": 5646
+    },
+    {
+      "src": "https://framerusercontent.com/images/fXyiOWTrGvtHLrru4JUf1FvRPw.svg?width=13&height=9",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 13,
+      "h": 9,
+      "nw": 13,
+      "nh": 9,
+      "y": 5868
+    },
+    {
+      "src": "https://framerusercontent.com/images/rAhx0TkmcnYYZFtki4VKhJbO4.jpg?width=810&height=420",
+      "srcset": "https://framerusercontent.com/images/rAhx0TkmcnYYZFtki4VKhJbO4.jpg?scale-down-to=512&width=810&height=420 512w,https://framerusercontent.com/images/rAhx0TkmcnYYZFtki4VKhJbO4.jpg?width=810&height=420 810w",
+      "alt": "Blog Image",
+      "w": 263,
+      "h": 136,
+      "nw": 879,
+      "nh": 456,
+      "y": 6041
+    },
+    {
+      "src": "https://framerusercontent.com/images/A8W14ZlHcpS9tEOuuRNFj5MIuw.jpg?width=810&height=420",
+      "srcset": "https://framerusercontent.com/images/A8W14ZlHcpS9tEOuuRNFj5MIuw.jpg?scale-down-to=512&width=810&height=420 512w,https://framerusercontent.com/images/A8W14ZlHcpS9tEOuuRNFj5MIuw.jpg?width=810&height=420 810w",
+      "alt": "Blog Image",
+      "w": 263,
+      "h": 136,
+      "nw": 879,
+      "nh": 456,
+      "y": 6041
+    },
+    {
+      "src": "https://framerusercontent.com/images/MiynMkH9DwYlJHcGF0ByXn84Vww.jpg?width=810&height=420",
+      "srcset": "https://framerusercontent.com/images/MiynMkH9DwYlJHcGF0ByXn84Vww.jpg?scale-down-to=512&width=810&height=420 512w,https://framerusercontent.com/images/MiynMkH9DwYlJHcGF0ByXn84Vww.jpg?width=810&height=420 810w",
+      "alt": "Blog Image",
+      "w": 566,
+      "h": 293,
+      "nw": 879,
+      "nh": 456,
+      "y": 6294
+    },
+    {
+      "src": "https://framerusercontent.com/images/QLhF04hBOb9L34XIibvs57mpNHM.svg?width=796&height=353",
+      "srcset": "https://framerusercontent.com/images/QLhF04hBOb9L34XIibvs57mpNHM.svg?scale-down-to=512&width=796&height=353 512w,https://framerusercontent.com/images/QLhF04hBOb9L34XIibvs57mpNHM.svg?width=796&height=353 796w",
+      "alt": "Vector",
+      "w": 580,
+      "h": 235,
+      "nw": 860,
+      "nh": 381,
+      "y": 7161
+    },
+    {
+      "src": "https://framerusercontent.com/images/Os4iHidNg3ghQBQ87Yt2s7KOXo.svg?width=781&height=217",
+      "srcset": "https://framerusercontent.com/images/Os4iHidNg3ghQBQ87Yt2s7KOXo.svg?scale-down-to=512&width=781&height=217 512w,https://framerusercontent.com/images/Os4iHidNg3ghQBQ87Yt2s7KOXo.svg?width=781&height=217 781w",
+      "alt": "Vector",
+      "w": 580,
+      "h": 235,
+      "nw": 860,
+      "nh": 238,
+      "y": 7241
+    },
+    {
+      "src": "https://framerusercontent.com/images/ay3KCEennR2H9wBfTF0rgts6o.svg?width=13&height=9",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 18,
+      "h": 18,
+      "nw": 13,
+      "nh": 9,
+      "y": 7663
+    },
+    {
+      "src": "https://framerusercontent.com/images/sQnMsrdmtbdGGohDHaN2mtKVGy4.svg?width=13&height=9",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 18,
+      "h": 18,
+      "nw": 13,
+      "nh": 9,
+      "y": 7663
+    },
+    {
+      "src": "https://framerusercontent.com/images/8zTwq4050Ye50RzpyHJV8oA1YY.svg?width=24&height=24",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 24,
+      "y": 7718
+    },
+    {
+      "src": "https://framerusercontent.com/images/sB6tdZyRKxUSaLMKd94lSQy2kSs.svg?width=24&height=24",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 24,
+      "y": 7718
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xf2Q8Wzl7VPwvCCvRQ6GQLF9xiE.svg?width=24&height=18",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 18,
+      "y": 7718
+    },
+    {
+      "src": "https://framerusercontent.com/images/rzKeFADXLTHTWIFtlQU0gE4dlDM.svg?width=24&height=24",
+      "srcset": "",
+      "alt": "Social Icon",
+      "w": 16,
+      "h": 16,
+      "nw": 24,
+      "nh": 24,
+      "y": 7718
+    },
+    {
+      "src": "https://framerusercontent.com/images/JCDk8i61Ec1N2laCFRxqdUPv0sM.svg?width=21&height=21",
+      "srcset": "",
+      "alt": "Icon",
+      "w": 14,
+      "h": 14,
+      "nw": 21,
+      "nh": 21,
+      "y": 904
+    }
+  ],
+  "videos": [],
+  "buttons": [
+    {
+      "text": "Projects01Showcase of innovationEst.15 -",
+      "bg": "rgb(255, 228, 121)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "6px 12px",
+      "h": 32,
+      "w": 220,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "About02SINCE2015Creative approachClear s",
+      "bg": "rgb(255, 228, 121)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "6px 12px",
+      "h": 32,
+      "w": 220,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Services03We craft solutions that work—c",
+      "bg": "rgb(255, 228, 121)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "6px 12px",
+      "h": 32,
+      "w": 220,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Contact04+YouLet’s talkLet’s team up to ",
+      "bg": "rgb(255, 228, 121)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "6px 12px",
+      "h": 32,
+      "w": 220,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Book a 30-Min Call",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px 16px",
+      "h": 39,
+      "w": 180,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "get started now",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px 16px",
+      "h": 49,
+      "w": 180,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Featured projectCoaching, female entrepr",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "0px",
+      "h": 259,
+      "w": 580,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Let’s talk",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px 16px",
+      "h": 39,
+      "w": 97,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Why your brand needs a story before a lo",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px",
+      "h": 261,
+      "w": 280,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "2025 branding trends that actually matte",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px",
+      "h": 261,
+      "w": 280,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "The power of minimalist design in bold b",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px",
+      "h": 390,
+      "w": 580,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Send a message",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "6px",
+      "padding": "10px 20px",
+      "h": 39,
+      "w": 165,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px outset rgb(0, 0, 0)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Book a call",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "6px",
+      "padding": "10px 16px",
+      "h": 39,
+      "w": 118,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "none",
+      "transition": "all"
+    },
+    {
+      "text": "Get it for FREEGet it for FREE",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 238)",
+      "radius": "10px",
+      "padding": "6px 9px",
+      "h": 38,
+      "w": 140,
+      "font": "sans-serif",
+      "size": "12px",
+      "weight": "400",
+      "border": "0px none rgb(0, 0, 238)",
+      "shadow": "rgba(5, 8, 12, 0.1) 0px 2px 4px 0px",
+      "transition": "all"
+    }
+  ],
+  "fontFaces": [
+    {
+      "family": "Anonymous Pro",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Geist",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Bricolage Grotesque Placeholder",
+      "weight": "normal",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Geist Placeholder",
+      "weight": "normal",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter Placeholder",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Be Vietnam Pro Placeholder",
+      "weight": "normal",
+      "style": "normal",
+      "status": "loaded"
+    }
+  ],
+  "animations": [
+    {
+      "type": "Animation",
+      "name": 2,
+      "duration": 2050,
+      "iterations": 1,
+      "easing": "linear(0 0%, 0.0062 0.49019607843137253%, 0.021 0.9803921568627452%, 0.0401 1.4705882352941178%, 0.0615 1.9607843137254903%, 0.0839 2.450980392156863%, 0.1065 2.9411764705882355%, 0.1291 3.431372549019608%, 0.1513 3.9215686274509807%, 0.1731 4.411764705882353%, 0.1945 4.901960784313726%, 0.2153 5.392156862745098%, 0.2356 5.882352941176471%, 0.2554 6.372549019607844%, 0.2747 6.862745098039216%, 0.2935 7.352941176470589%, 0.3118 7.843137254901961%, 0.3296 8.333333333333334%, 0.347 8.823529411764707%, 0.3639 9.313725490196079%, 0.3804 9.803921568627452%, 0.3965 10.294117647058824%, 0.4121 10.784313725490197%, 0.4274 11.27450980392157%, 0.4422 11.764705882352942%, 0.4567 12.254901960784315%, 0.4708 12.745098039215687%, 0.4845 13.23529411764706%, 0.4978 13.725490196078432%, 0.5109 14.215686274509805%, 0.5235 14.705882352941178%, 0.5359 15.19607843137255%, 0.5479 15.686274509803923%, 0.5597 16.176470588235293%, 0.5711 16.666666666666664%, 0.5822 17.15686274509804%, 0.593 17.64705882352941%, 0.6036 18.13725490196078%, 0.6138 18.627450980392155%, 0.6239 19.11764705882353%, 0.6336 19.6078431372549%, 0.6431 20.09803921568627%, 0.6524 20.588235294117645%, 0.6614 21.078431372549016%, 0.6702 21.568627450980387%, 0.6787 22.05882352941176%, 0.687 22.54901960784313%, 0.6951 23.039215686274503%, 0.703 23.529411764705877%, 0.7107 24.019607843137248%, 0.7182 24.50980392156862%, 0.7256 24.999999999999993%, 0.7327 25.490196078431364%, 0.7396 25.980392156862735%, 0.7463 26.47058823529411%, 0.7529 26.960784313725483%, 0.7593 27.450980392156858%, 0.7656 27.941176470588232%, 0.7716 28.431372549019606%, 0.7776 28.921568627450977%, 0.7833 29.411764705882348%, 0.7889 29.901960784313722%, 0.7944 30.392156862745093%, 0.7998 30.882352941176464%, 0.8049 31.37254901960784%, 0.81 31.86274509803921%, 0.8149 32.35294117647058%, 0.8197 32.843137254901954%, 0.8244 33.33333333333333%, 0.8289 33.8235294117647%, 0.8334 34.31372549019608%, 0.8377 34.80392156862745%, 0.8419 35.294117647058826%, 0.846 35.7843137254902%, 0.85 36.274509803921575%, 0.8539 36.76470588235295%, 0.8577 37.25490196078432%, 0.8614 37.7450980392157%, 0.865 38.23529411764707%, 0.8685 38.72549019607845%, 0.8719 39.21568627450982%, 0.8752 39.705882352941195%, 0.8784 40.19607843137257%, 0.8816 40.686274509803944%, 0.8847 41.17647058823532%, 0.8876 41.66666666666669%, 0.8906 42.15686274509807%, 0.8934 42.64705882352944%, 0.8962 43.137254901960816%, 0.8988 43.62745098039219%, 0.9015 44.117647058823565%, 0.904 44.60784313725494%, 0.9065 45.09803921568631%, 0.9089 45.58823529411769%, 0.9113 46.07843137254906%, 0.9136 46.568627450980436%, 0.9158 47.05882352941181%, 0.918 47.549019607843185%, 0.9201 48.03921568627456%, 0.9222 48.529411764705934%, 0.9242 49.01960784313731%, 0.9262 49.50980392156868%, 0.9281 50.00000000000006%, 0.93 50.49019607843143%, 0.9318 50.980392156862806%, 0.9336 51.47058823529418%, 0.9353 51.960784313725554%, 0.937 52.45098039215693%, 0.9386 52.9411764705883%, 0.9402 53.43137254901968%, 0.9417 53.92156862745105%, 0.9432 54.411764705882426%, 0.9447 54.9019607843138%, 0.9461 55.392156862745175%, 0.9475 55.88235294117655%, 0.9489 56.37254901960792%, 0.9502 56.8627450980393%, 0.9515 57.35294117647067%, 0.9528 57.84313725490205%, 0.954 58.33333333333342%, 0.9552 58.823529411764795%, 0.9564 59.31372549019617%, 0.9575 59.803921568627544%, 0.9586 60.29411764705892%, 0.9597 60.78431372549029%, 0.9607 61.27450980392167%, 0.9617 61.76470588235304%, 0.9627 62.254901960784416%, 0.9637 62.74509803921579%, 0.9646 63.235294117647165%, 0.9655 63.72549019607854%, 0.9664 64.2156862745099%, 0.9673 64.70588235294127%, 0.9682 65.19607843137264%, 0.969 65.68627450980401%, 0.9698 66.17647058823538%, 0.9706 66.66666666666674%, 0.9713 67.15686274509811%, 0.9721 67.64705882352948%, 0.9728 68.13725490196084%, 0.9735 68.62745098039221%, 0.9742 69.11764705882358%, 0.9749 69.60784313725495%, 0.9755 70.09803921568631%, 0.9761 70.58823529411768%, 0.9768 71.07843137254905%, 0.9774 71.56862745098042%, 0.978 72.05882352941178%, 0.9785 72.54901960784315%, 0.9791 73.03921568627452%, 0.9796 73.52941176470588%, 0.9802 74.01960784313725%, 0.9807 74.50980392156862%, 0.9812 74.99999999999999%, 0.9817 75.49019607843135%, 0.9821 75.98039215686272%, 0.9826 76.47058823529409%, 0.983 76.96078431372545%, 0.9835 77.45098039215682%, 0.9839 77.94117647058819%, 0.9843 78.43137254901956%, 0.9847 78.92156862745092%, 0.9851 79.41176470588229%, 0.9855 79.90196078431366%, 0.9859 80.39215686274503%, 0.9863 80.8823529411764%, 0.9866 81.37254901960777%, 0.987 81.86274509803914%, 0.9873 82.35294117647052%, 0.9876 82.8431372549019%, 0.988 83.33333333333327%, 0.9883 83.82352941176464%, 0.9886 84.31372549019602%, 0.9889 84.8039215686274%, 0.9892 85.29411764705877%, 0.9894 85.78431372549014%, 0.9897 86.27450980392152%, 0.99 86.7647058823529%, 0.9902 87.25490196078427%, 0.9905 87.74509803921563%, 0.9907 88.23529411764702%, 0.991 88.7254901960784%, 0.9912 89.21568627450976%, 0.9914 89.70588235294113%, 0.9917 90.19607843137251%, 0.9919 90.6862745098039%, 0.9921 91.17647058823526%, 0.9923 91.66666666666663%, 0.9925 92.15686274509801%, 0.9927 92.64705882352939%, 0.9929 93.13725490196076%, 0.9931 93.62745098039213%, 0.9932 94.11764705882351%, 0.9934 94.60784313725489%, 0.9936 95.09803921568626%, 0.9938 95.58823529411762%, 0.9939 96.078431372549%, 0.9941 96.56862745098039%, 0.9942 97.05882352941175%, 0.9944 97.54901960784312%, 0.9945 98.0392156862745%, 0.9947 98.52941176470588%, 0.9948 99.01960784313725%, 0.9949 99.50980392156862%, 1 100%)"
+    }
+  ],
+  "cssVars": {
+    "--token-a9e7605e-42b7-40f1-8350-a918b77c9dd3": "#f06231",
+    "--token-2f572e33-78c1-4b19-bc82-6ad0c1be7f4f": "#ffe479",
+    "--token-ec2e7588-845a-476b-8a6d-d0a6fee7bd17": "#c5e7ff",
+    "--token-5a2343b2-0b00-4609-afac-848df22f1a83": "#fbefc7",
+    "--token-c4544943-9092-4c7e-9493-6af223e856e1": "#fff5d4",
+    "--token-24930864-085b-4c5c-af6f-277c40aa379f": "#fffdea",
+    "--token-0450188b-3ecc-4a39-9edd-7102407eda8f": "#1c1b18",
+    "--token-1c55fc30-4320-4f32-8f75-56c602e30f91": "#675e50",
+    "--token-d10d7d5c-1c4f-4f9d-802c-1a10cef2fa55": "#b7b0a5",
+    "--token-6c9b9e36-e9be-4eeb-af62-8e866aa96281": "#fff",
+    "--token-e2b67d50-477c-49ba-bb4f-88e5e41f6eca": "#bcf09c",
+    "--token-d3ba510f-2e62-4f56-bb1c-c6b2aea5870c": "#fff0",
+    "--token-8170220a-bffe-454a-a96d-383dd13e1f61": "#ffffff1a",
+    "--token-be18f120-c2cd-41d8-8ade-84c674958b3c": "#1c1b18b3",
+    "--token-a7f33d28-d966-4dbd-b5d5-6af910b70d60": "#fda",
+    "--token-5aa2b161-4cfe-483c-983e-a23364520822": "#000",
+    "--framer-link-text-color": "var(--token-24930864-085b-4c5c-af6f-277c40aa379f,#fffdea)",
+    "--framer-link-text-decoration": "none",
+    "--framer-will-change-override": "none",
+    "--framer-will-change-filter-override": "none",
+    "--framer-font-family": "\"Be Vietnam Pro\",\"Be Vietnam Pro Placeholder\",sans-serif",
+    "--framer-font-style": "normal",
+    "--framer-font-weight": "400",
+    "--framer-text-color": "var(--token-1c55fc30-4320-4f32-8f75-56c602e30f91,#675e50)",
+    "--framer-font-size": "14px",
+    "--framer-letter-spacing": "0em",
+    "--framer-text-transform": "lowercase",
+    "--framer-text-decoration": "none",
+    "--framer-text-decoration-style": "none",
+    "--framer-text-decoration-color": "none",
+    "--framer-text-decoration-thickness": "none",
+    "--framer-text-decoration-skip-ink": "none",
+    "--framer-text-decoration-offset": "none",
+    "--framer-line-height": "1.2em",
+    "--framer-text-alignment": "start",
+    "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+    "--framer-text-background-color": "initial",
+    "--framer-text-background-radius": "initial",
+    "--framer-text-background-corner-shape": "initial",
+    "--framer-text-background-padding": "initial",
+    "--framer-font-family-bold": "\"Be Vietnam Pro\",\"Be Vietnam Pro Placeholder\",sans-serif",
+    "--framer-font-family-bold-italic": "\"Be Vietnam Pro\",\"Be Vietnam Pro Placeholder\",sans-serif",
+    "--framer-font-family-italic": "\"Be Vietnam Pro\",\"Be Vietnam Pro Placeholder\",sans-serif",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight-bold": "700",
+    "--framer-font-weight-bold-italic": "700",
+    "--framer-font-weight-italic": "400",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-stroke-color": "initial",
+    "--framer-text-stroke-width": "initial",
+    "--framer-text-wrap-override": "balance",
+    "--framer-input-border-bottom-width": "1px",
+    "--framer-input-border-color": "var(--token-d10d7d5c-1c4f-4f9d-802c-1a10cef2fa55,#b7b0a5)",
+    "--framer-input-border-left-width": "0px",
+    "--framer-input-border-right-width": "0px",
+    "--framer-input-border-style": "dashed",
+    "--framer-input-border-top-width": "0px",
+    "--framer-input-focused-border-color": "var(--token-a9e7605e-42b7-40f1-8350-a918b77c9dd3,#f06231)",
+    "--framer-input-focused-border-style": "dashed",
+    "--framer-input-focused-border-width": "1px",
+    "--framer-input-focused-transition": "all .3s cubic-bezier(.44,0,.56,1)0s",
+    "--framer-input-font-color": "var(--token-0450188b-3ecc-4a39-9edd-7102407eda8f,#1c1b18)",
+    "--framer-input-font-family": "\"Anonymous Pro\"",
+    "--framer-input-font-letter-spacing": "0em",
+    "--framer-input-font-line-height": "1.2em",
+    "--framer-input-font-size": "14px",
+    "--framer-input-font-weight": "400",
+    "--framer-input-icon-color": "#999",
+    "--framer-input-padding": "2px 8px 2px 8px",
+    "--framer-input-placeholder-color": "var(--token-1c55fc30-4320-4f32-8f75-56c602e30f91,#675e50)",
+    "--framer-input-wrapper-height": "auto",
+    "--framer-textarea-resize": "vertical",
+    "--framer-link-current-text-color": "var(--token-a9e7605e-42b7-40f1-8350-a918b77c9dd3,#f06231)",
+    "--framer-link-current-text-decoration": "none",
+    "--framer-link-hover-text-color": "var(--token-a9e7605e-42b7-40f1-8350-a918b77c9dd3,#f06231)",
+    "--framer-link-hover-text-decoration": "none"
+  },
+  "http": {
+    "status": 200,
+    "finalUrl": "https://three-circles-wbs.framer.website/"
+  },
+  "consoleErrors": [],
+  "mediaRequests": [
+    {
+      "url": "https://framerusercontent.com/images/7cES3finIJ41QzId3yZc4BVqqI.svg?width=9&height=14",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/WFCNF7JcgklFHWsJlgfw0vVv2OI.svg?width=16&height=17",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/IgXeAhCPhJKMkKz0lBBVUAThuHA.svg?width=17&height=17",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/Yoi0yNdzYdY4keH6LHDYRJ7MsY.svg?width=15&height=17",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/Y1rpbPtKnTjQTLhSQ5SACNd6MM.jpg?width=200&height=200",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "https://framerusercontent.com/images/dUn1icWRzytnyPL83HNAC2QxzI.jpg?scale-down-to=1024&width=1400&height=650",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/yBkMfuBWYvLOn2duo0PdDtLoU.jpg?scale-down-to=512&width=1400&height=650",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/YMBp9FSoc4CCy0g5MVt5aVBcvH0.jpg?scale-down-to=512&width=1400&height=650",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/ktPHjCuIErnOoG1BPysqhtv8RC0.jpg?scale-down-to=512&width=1400&height=650",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/h0mV9Qi9c17r629V7vKSwTw9HB4.jpg?scale-down-to=512&width=1400&height=650",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/JFWKrJJK4OTf4rNAhQbgNx3IR8.jpg?width=500&height=720",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/FUx9ElDEQUIdDArSgTgUt7Mo8pY.jpg?scale-down-to=512&width=1400&height=650",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/3vlKp3M2VCSYOB11mci4plrQ1A0.jpg?width=500&height=540",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8VnXeuclJ2iLClzZQ1KqQhi5PGY.jpg?width=500&height=720",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/17DMTvim49YUVPrBQP9hPqmcaY.png?width=33&height=81",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/WyGQLDhmrkwlCOGuvG9ZqYKxgk.jpg?width=500&height=550",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/b1RunSCsUotdw2dokD7ZdS4Q.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/o3sdFSdVMVVKuA9BvnFQ0ycCg0.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/95LhT9V9bBPKDCpNekA1wkgBQ.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/dQxNMmLBTMWH7clNF3wjVsP6dfU.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/puvjRtFoIQ8LJsRMeBZ05YH5xBw.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/JweN3BU36HsEZcao0zd3SL6M5o.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/FINFuWlDrvdTGrMGIQHG2CfiNQ.svg?width=109&height=28",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/EIxhMiN8pH0NMLCzzXCBskyic.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/QMIUKUCANYOW3DZTE34ZMVXC7KRYZNCO/X3SZZ4Z5SZNM5K75FPPASQ2YRIJMIPUD/G2K4CBVGEH7VFVIC3T6GBHAWO2E2W7YQ.woff2",
+      "status": 200,
+      "type": "application/octet-stream"
+    },
+    {
+      "url": "https://framerusercontent.com/images/ezHtBfBTlRRLdDqb2EzM4zM4CEI.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/oCWqdrMI7BLZsLAxEb9quSUO3k.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/KIaozusWopAX9Wj792w30mkJ1Mc.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/9hNdSDfcrBDpAhPfVFH8gLys30.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/be9wnDhpDGtE61haq0iU2pu1e8.jpg?width=120&height=120",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/yOGH0VMe0dxDvOWCTEYdA3mM.png?scale-down-to=1024&width=928&height=1232",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/wV00y50FP7VauWUCrxOvtC71n9w.png?scale-down-to=1024&width=928&height=1232",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/VZXRYUQGJWOEW3WBHI2ZRU7QWD66UURZ/KPLUZ2LM37KI6366QBECNGUXYQRCQT5Y/YDWF2IPIKXPINAVFZDUWBJ7A2JGQE6MX.woff2",
+      "status": 200,
+      "type": "application/octet-stream"
+    },
+    {
+      "url": "https://framerusercontent.com/images/AFqibCRH55ISngIoZcqWp5WHHU.png?scale-down-to=1024&width=928&height=1232",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/c6ZeLYaJC8zdoW1ayA0T4K5A.svg?width=13&height=13",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/X80bZzkkLRKGykPwJYCoGBmkAc.svg?width=24&height=24",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/s7rMb4y8AKkybRtdqpSO5Xx58.svg?width=24&height=18",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/fXyiOWTrGvtHLrru4JUf1FvRPw.svg?width=13&height=9",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/A4Xf2pHVeBlAQlLKWrXDL9eWMwU.svg?width=21&height=11",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/M6jES7Nekmucvc7x06OLkOa2FQ.svg?width=24&height=24",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/O85GKgykZr6M3krekfrjM09M4.svg?width=127&height=30",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/BiWm4M55DvYPkwOoAkrEKkHeM.svg?width=116&height=30",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/MT71hJ6FLM3Za3P0CzRFhVTBZFQ.svg?width=108&height=30",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/sZbcIteYxanZYB3kdThyN2VDs.svg?width=134&height=30",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/Y8uxJbljZe8N52xI4RSVPmCWGQ.svg?width=175&height=31",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/w8neB7uwKLhTuT6eXdWM6L0ykYo.svg?width=133&height=31",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/QVzKuj6qj2FdRXMcKXQkxc0cQ8.svg?width=101&height=31",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/OsbX2KcwmrQKyE3RaczTXsZe7g.svg?width=133&height=31",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/NJiFbGn793rNIpkst3zMFP98wLo.svg?width=156&height=31",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/RaHJbXO2J2TL51JPIktUkQrNc.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/MPWDEQ5P4DNS7O465A5AXO6KVHWMIF2Z/MNW3HVOPPNJBFIMMG2JLQ6HBXUDB63AO/G6AF2CHLF7U443YAKNG42CSO2I2VD6MV.woff2",
+      "status": 200,
+      "type": "application/octet-stream"
+    },
+    {
+      "url": "https://framerusercontent.com/images/QX9eyUg5EConzS4KaBAYAcYWkz8.jpg?scale-down-to=1024&width=1400&height=750",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/ydhTn3OnZRpEEPjjrDLMUf4xlE.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/CSXZXEKDft8y58gead58gSKEpS4.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/wnIy8W9r8Ui1p9DnvJ4gfkBQQ.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/mlsPnOrHdQjanVNg6SFjPpCUIow.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/PNgLWggbJZy5m4TCoy5kLxaBCro.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/kgmUU8cJuSv0JwRfWoUg57n93sw.svg?width=127&height=18",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/MiynMkH9DwYlJHcGF0ByXn84Vww.jpg?width=810&height=420",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/QLhF04hBOb9L34XIibvs57mpNHM.svg?width=796&height=353",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/Os4iHidNg3ghQBQ87Yt2s7KOXo.svg?width=781&height=217",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/7n5N7HXPeeF40jSUMmjnacb8AS8.svg?width=24&height=24",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/xPeB97lqo8XU3YHcRN0Z4B1rCpc.svg?width=230&height=50",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/vLPkBEaGASdKuu828T3L09cAZ0.svg?width=156&height=31",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/DKBnoms9zgIZdkcQ55XxewXhLk.svg?width=140&height=30",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/JCDk8i61Ec1N2laCFRxqdUPv0sM.svg?width=21&height=21",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/aGfg7V38YmIXHMzZZ9708TfmR0.svg?width=117&height=30",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/rAhx0TkmcnYYZFtki4VKhJbO4.jpg?width=810&height=420",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/aA5s4eAeWe57Zug9QqCF55OrM.jpg?width=100&height=100",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/A8W14ZlHcpS9tEOuuRNFj5MIuw.jpg?width=810&height=420",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/YggtxYl2AEg0mgpkCRkPzPhJBA.png?scale-down-to=1024&width=928&height=1232",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "url": "https://framerusercontent.com/images/6ABFqSDb9BQ3nY07QVWH35sIJc.svg?width=169&height=50",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvcXlyMgvs-wJDtw.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/anonymouspro/v22/rP2Bp2a15UIB7Un-bOeISG3pHls29Q.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4mJPby1QNtA.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v8/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvSniyMgvs-wJDtw.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v8/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvRviyMgvs-wJDtw.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v8/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvfzlyMgvs-wJDtw.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "url": "https://framerusercontent.com/images/ay3KCEennR2H9wBfTF0rgts6o.svg?width=13&height=9",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/sQnMsrdmtbdGGohDHaN2mtKVGy4.svg?width=13&height=9",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/sB6tdZyRKxUSaLMKd94lSQy2kSs.svg?width=24&height=24",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8zTwq4050Ye50RzpyHJV8oA1YY.svg?width=24&height=24",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/rzKeFADXLTHTWIFtlQU0gE4dlDM.svg?width=24&height=24",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "https://framerusercontent.com/images/Xf2Q8Wzl7VPwvCCvRQ6GQLF9xiE.svg?width=24&height=18",
+      "status": 200,
+      "type": "image/svg+xml"
+    }
+  ],
+  "viewport": {
+    "width": 900,
+    "height": 1000
+  },
+  "captured": "2026-09-14T06:38:14.286Z"
+}

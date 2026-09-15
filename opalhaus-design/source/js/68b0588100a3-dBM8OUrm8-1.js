@@ -1,0 +1,2 @@
+let t=(t,e)=>async()=>{let r=await t();return r[e];},e=()=>import("./dBM8OUrm8-2.js"),r=[t(e,"richText"),t(e,"richText1"),t(e,"richText2"),t(e,"richText3"),t(e,"richText4"),t(e,"richText5"),t(e,"richText6"),t(e,"richText7"),t(e,"richText8"),t(e,"richText9"),t(e,"richText10"),t(e,"richText11")];export async function resolveRichText(t){let e=r[t];if(e)return await e();}
+export const __FramerMetadata__ = {"exports":{"resolveRichText":{"type":"function","annotations":{"framerContractVersion":"1"}},"__FramerMetadata__":{"type":"variable"}}}

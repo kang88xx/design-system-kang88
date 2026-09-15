@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "source": "https://opalhaus.framer.website/",
+  "offsetUnit": "unicode-character",
+  "method": "Exact string anchors in archived authored modules; runtime-only values never promoted to authored tokens.",
+  "records": [
+    {
+      "id": "hero-characters",
+      "values": {
+        "filter": [
+          "blur(10px)",
+          "blur(0px)"
+        ],
+        "opacity": [
+          0.001,
+          1
+        ],
+        "y": [
+          10,
+          0
+        ],
+        "startDelay": 0.1,
+        "tokenization": "character",
+        "transition": {
+          "bounce": 0,
+          "delay": 0.05,
+          "duration": 0.4,
+          "type": "spring"
+        }
+      },
+      "provenance": {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 12982,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-24k4v",
+        "excerpt": ",Lt={opacity:.001,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0},Rt={effect:{filter:`blur(10px)`,opacity:.001,rotate:0,scale:1,skewX:0,skewY:0,x:0,y:10},startDelay:.1,tokenization:`character`,transition:{bounce:0,delay:.05,duration:.4,type:`spring`},trigger:`onMount`,type:`appear`},zt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:1.2,mass:1,stiffness:400,type:`spring`},x:0,y:0},Bt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:1.5,mass:1,stiffness:400,type:`spring`},x:0,y:0},Vt=()=>({from:{alias:`IOwEpDsdH`,data:Ye,type:`Collection`},limit:{type:`LiteralValue`,value"
+      },
+      "limitations": "Source duration/bounce spring is approximated by cubic-bezier(.2,.8,.2,1); character delay interpretation is reconstructed."
+    },
+    {
+      "id": "section-reveal",
+      "values": {
+        "opacity": [
+          0,
+          1
+        ],
+        "y": [
+          150,
+          0
+        ],
+        "transition": {
+          "damping": 100,
+          "delay": 0,
+          "mass": 1,
+          "stiffness": 400,
+          "type": "spring"
+        }
+      },
+      "provenance": {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 13876,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-24k4v",
+        "excerpt": "H`,name:`id`,type:`Identifier`}]}),U=({query:e,pageSize:t,children:n})=>n(D(e)),W={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:150},G={damping:100,delay:0,mass:1,stiffness:400,type:`spring`},K={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:G,x:0,y:150},q={damping:100,delay:.2,mass:1,stiffness:400,type:`spring`},J={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:q,x:0,y:150},Y=(...e)=>{for(let t of e)if(t&&typeof t==`string`)return t},X={damping:100,delay:.4,mass:1,stiffness:400,type:`spring`},Z={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:X,x:0,y:150},Q=e=>typeof e"
+      },
+      "limitations": "Native WAAPI/CSS playback reconstruction; Framer runtime is not embedded."
+    },
+    {
+      "id": "card-stagger",
+      "values": {
+        "y": [
+          150,
+          0
+        ],
+        "opacity": [
+          0,
+          1
+        ],
+        "delays": [
+          0,
+          0.2,
+          0.4,
+          0.6
+        ],
+        "transition": {
+          "damping": 100,
+          "mass": 1,
+          "stiffness": 400
+        }
+      },
+      "provenance": {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 14986,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-24k4v",
+        "excerpt": "cPm`,type:`Identifier`},{collection:`TZDEwqJWL`,name:`id`,type:`Identifier`}]}),Ut={damping:100,delay:.6,mass:1,stiffness:400,type:`spring`},Wt={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:Ut,x:0,y:150},Gt=()=>({from:{alias:`twTD7FvpW`,data:z,type:`Collection`},limit:{type:`LiteralValue`,value:1},offset:{type:`LiteralValue`,value:3},select:[{collection:`twTD7FvpW`,name:`j4rmIC1dE`,type:`Identifier`},{collection:`twTD7FvpW`,name:`kzJkQlsLa`,type:`Identifier`},{collection:`twTD7FvpW`,name:`d9EY8X7wU`,type:`Identifier`},{collection:`twTD7FvpW`,name:`FNGN7ocPm`,type:`Identifier`},{collection:`twTD7FvpW`,name:`id`,type:`Identifier`}]}),Kt={damping"
+      },
+      "limitations": "Native WAAPI/CSS playback reconstruction; Framer runtime is not embedded."
+    },
+    {
+      "id": "hero-sequence",
+      "values": {
+        "opacity": [
+          0.001,
+          1
+        ],
+        "delays": [
+          0.3,
+          1.2,
+          1.5
+        ],
+        "transition": {
+          "damping": 66,
+          "mass": 1,
+          "stiffness": 400
+        }
+      },
+      "provenance": {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 12759,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-24k4v",
+        "excerpt": "1:`framer-v-1qa4xc8`,WQLkyLRf1:`framer-v-72rtr7`},Ft=(e,t,n)=>e&&t?`position`:n,It={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:.3,mass:1,stiffness:400,type:`spring`},x:0,y:0},Lt={opacity:.001,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0},Rt={effect:{filter:`blur(10px)`,opacity:.001,rotate:0,scale:1,skewX:0,skewY:0,x:0,y:10},startDelay:.1,tokenization:`character`,transition:{bounce:0,delay:.05,duration:.4,type:`spring`},trigger:`onMount`,type:`appear`},zt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:66,delay:1.2,mass:1,stiffness:400,type:`spring`},x:0,y:0},Bt={opacity:1,"
+      },
+      "limitations": "Native WAAPI/CSS playback reconstruction; Framer runtime is not embedded."
+    },
+    {
+      "id": "rolling-link",
+      "values": {
+        "height": 20,
+        "gap": 5,
+        "transition": {
+          "bounce": 0.2,
+          "duration": 0.4,
+          "type": "spring"
+        }
+      },
+      "provenance": {
+        "file": "source/js/1b74ddc35131-HE93u556K.BmCsTx7i.mjs",
+        "offset": 28829,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-GL2RT .framer-ulnch2",
+        "excerpt": "h: min-content; will-change: var(--framer-will-change-override, transform); }`,`.framer-GL2RT .framer-ulnch2 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 5px; height: 20px; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: min-content; }`,`.framer-GL2RT .framer-irhf2l, .framer-GL2RT .framer-1030fbo { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,`.framer-GL2RT .framer-1ds6xvl { align-content: center; align-items: center; bottom: 4px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; justify-content:"
+      },
+      "limitations": "25px label translation reconstructed from 20px mask + 5px gap; timing is duration-spring approximation."
+    },
+    {
+      "id": "primary-cta",
+      "values": {
+        "label": "View All Blogs",
+        "href": "/blog",
+        "height": 46,
+        "padding": [
+          4,
+          56,
+          4,
+          20
+        ],
+        "radius": 50,
+        "background": [
+          "#ff5d17",
+          "#0a0a0a"
+        ],
+        "font": {
+          "family": "Inter Tight",
+          "size": 16,
+          "weight": 600,
+          "lineHeight": 1.2
+        },
+        "textRoll": false,
+        "pressedScale": null,
+        "circle": {
+          "size": 38,
+          "inset": 4,
+          "radius": 35,
+          "color": "#ffffff"
+        },
+        "arrow": {
+          "viewport": 22,
+          "iconSize": 20,
+          "gap": 10,
+          "viewportRotate": -45,
+          "incomingX": [
+            -28,
+            0
+          ],
+          "outgoingX": [
+            2,
+            30
+          ],
+          "incomingIcon": [
+            "CaretRight",
+            "ArrowRight"
+          ]
+        },
+        "transition": {
+          "bounce": 0.2,
+          "delay": 0,
+          "duration": 0.4,
+          "type": "spring"
+        }
+      },
+      "provenance": {
+        "file": "source/js/1b74ddc35131-HE93u556K.BmCsTx7i.mjs",
+        "offset": 31581,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-GL2RT.framer-v-1tenthq",
+        "excerpt": " }`,`.framer-GL2RT.framer-v-48yoop .framer-ulnch2 { height: 30px; order: 1; }`,`.framer-GL2RT.framer-v-1tenthq.hover .framer-wizsgb, .framer-GL2RT.framer-v-1e9v4sp.hover .framer-wizsgb, .framer-GL2RT.framer-v-109zqlh.hover .framer-wizsgb { justify-content: flex-start; }`,`.framer-GL2RT.framer-v-109zqlh.hover .framer-1ds6xvl { right: unset; }`,`.framer-GL2RT.framer-v-1oropo7.hover .framer-ulnch2, .framer-GL2RT.framer-v-g7zy0q.hover .framer-ulnch2 { justify-content: flex-end; }`,...P,...E,...A],`framer-GL2RT`),Z.displayName=`Primary Button`,Z.defaultProps={height:46,width:124},f(Z,{variant:{options:[`K5tSEeCbX`,`Umsjw6A75`,`bc9cJAMly`,`NHQCzUlWO`,`rRiR3z8fq`,`yvrm9Wjtg`,`pM"
+      },
+      "limitations": "Exact authored geometry, states and native link semantics. CSS .4s cubic-bezier(.2,.8,.2,1) approximates the source duration/bounce spring; SVG bold icon paths reconstructed. Keyboard focus maps to hover as an accessibility addition. Standalone reusable source: design-system/components/blog-cta.html/css/js. Primary text does not roll; only plain white/colored variants do."
+    },
+    {
+      "id": "service-arrow",
+      "values": {
+        "rotate": [
+          0,
+          -45
+        ],
+        "background": [
+          "#ffffff",
+          "#ff5d17"
+        ],
+        "transition": {
+          "damping": 65,
+          "mass": 1,
+          "stiffness": 400
+        }
+      },
+      "provenance": {
+        "file": "source/js/b04af18483f3-KbD64yvaE.DTnnafWx.mjs",
+        "offset": 4678,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-DphBJ",
+        "excerpt": "(--token-b5b5af65-7426-4ae2-8adc-eeccea1f8ffa, rgb(255, 93, 23))`,filter:`none`,rotate:-45,WebkitFilter:`none`}},children:a(T,{children:a(O,{className:`framer-16kszk9-container`,isAuthoredByUser:!0,isModuleExternal:!0,layoutDependency:q,layoutId:`w3QL36ERK-container`,nodeId:`w3QL36ERK`,rendersWithMotion:!0,scopeId:`NPgUmn6oe`,children:a(M,{color:D,height:`100%`,iconSearch:`House`,iconSelection:`ArrowRight`,id:`w3QL36ERK`,layoutId:`w3QL36ERK`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},weight:`bold`,width:`100%`,...F({\"HF17z5ja_-hover\":{color:`var(--token-4b62672a-1254-4f4c-98ad-c16665e051d8, rgb(248, 248, 248))`}},A,N)})})})}),a(u.div,{className:`framer"
+      },
+      "limitations": "Native WAAPI/CSS playback reconstruction; Framer runtime is not embedded."
+    },
+    {
+      "id": "image-hover",
+      "values": {
+        "imageHeightRatio": [
+          1.3107,
+          1.5643
+        ],
+        "scaleRatio": 1.1934843976501106,
+        "cursorSize": [
+          40,
+          70
+        ],
+        "cursorOpacity": [
+          0,
+          1
+        ],
+        "transition": {
+          "damping": 60,
+          "mass": 1,
+          "stiffness": 400
+        }
+      },
+      "provenance": {
+        "file": "source/js/340edbe0e7ad-cTXXTUy1V.DzX-iWsA.mjs",
+        "offset": 7968,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-1gr6r5r",
+        "excerpt": "(m?.height||384)-0-192.4)/1)*1-0-(Math.max(0,((m?.height||384)-0-192.4)/1)*1-0)*1.5643)/2)),sizes:`calc(${(Math.max(0,((m?.height||384)-0-192.4)/1)*1-0)*1.5643} * 1.3419)`,...Z(b)}}},j,P)}),a(T,{height:40,width:`40px`,y:(m?.y||0)+0+0+(Math.max(0,((m?.height||384)-0-192.4)/1)*1*.5000000000000002-20),...W({\"q5PJ9zYyE-hover\":{height:70,width:`70px`,y:(m?.y||0)+0+0+(Math.max(0,((m?.height||384)-0-192.4)/1)*1*.5000000000000002-35)}},j,P),children:a(O,{className:`framer-1v840xe-container`,layoutDependency:I,layoutId:`quanxeJtQ-container`,nodeId:`quanxeJtQ`,rendersWithMotion:!0,scopeId:`cTXXTUy1V`,style:{opacity:0},variants:{\"q5PJ9zYyE-hover\":{opacity:1}},children:a(U,{height:`1"
+      },
+      "limitations": "Image ratio and badge geometry source-extracted; authored spring 60/400/1 is approximated by 0.4s CSS. Badge is centered, not pointer tracking."
+    },
+    {
+      "id": "logo-ticker",
+      "values": {
+        "speed": 100,
+        "direction": "left",
+        "gap": 70,
+        "hoverFactor": 1,
+        "fadeWidth": 25,
+        "fadeContent": true
+      },
+      "provenance": {
+        "file": "source/js/56d9e2b185ec-OPWD7ZWkt3yivZbi40Zl69wwUoA2leUVbFXe0jpmNpE.kuRLFEra.mjs",
+        "offset": 26778,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-24k4v [data-framer-name=\"Ticker\"]",
+        "excerpt": "pha:0,fadeContent:!0,fadeInset:0,fadeWidth:25,overflow:!1},gap:70,height:`100%`,hoverFactor:1,id:`AanFXDgXw`,layoutId:`AanFXDgXw`,padding:10,paddingBottom:10,paddingLeft:10,paddingPerSide:!1,paddingRight:10,paddingTop:10,sizingOptions:{heightType:!0,widthType:!0},slots:[o(N,{background:{alt:`Logo`,fit:`fill`,pixelHeight:704,pixelWidth:2968,sizes:`152px`,src:`https://framerusercontent.com/images/q1rVbV3MJTYK8s5qNBiokZcFwtk.png?width=2968&height=704`,srcSet:`https://framerusercontent.com/images/q1rVbV3MJTYK8s5qNBiokZcFwtk.png?scale-down-to=512&width=2968&height=704 512w,https://framerusercontent.com/images/q1rVbV3MJTYK8s5qNBiokZcFwtk.png?scale-down-to=1024&width=2968&height"
+      },
+      "limitations": "Native WAAPI/CSS playback reconstruction; Framer runtime is not embedded."
+    },
+    {
+      "id": "testimonial-ticker",
+      "values": {
+        "speed": 50,
+        "direction": "left",
+        "gap": 26,
+        "hoverFactor": 0.01,
+        "fadeContent": false
+      },
+      "provenance": {
+        "file": "source/js/1a47114bf50e-g8sWz-icRZOnlV6rxtZU4z0p_GEP92sg_-tMxG2A34o.x5TV_trY.mjs",
+        "offset": 117927,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-1g3aje4 sibling ticker",
+        "excerpt": "pha:0,fadeContent:!1,fadeInset:0,fadeWidth:13,overflow:!1},gap:26,height:`100%`,hoverFactor:.01,id:`J5OKufXcB`,layoutId:`J5OKufXcB`,padding:10,paddingBottom:10,paddingLeft:10,paddingPerSide:!1,paddingRight:10,paddingTop:10,sizingOptions:{heightType:!0,widthType:!0},slots:[d(F,{height:470,children:d(I,{className:`framer-k44cso-container`,inComponentSlot:!0,nodeId:`rw9Jiez2i`,rendersWithMotion:!0,scopeId:`gWDIB0Abx`,children:d(Fn,{Edg1X_AxH:`https://videos.pexels.com/video-files/4434067/4434067-uhd_2560_1440_25fps.mp4`,height:`100%`,id:`rw9Jiez2i`,JXanvOG4q:`Working with this team was an absolute delight. They understood our brand vision instantly and delivered a design tha"
+      },
+      "limitations": "Component is from Home v2; preview text and card dimensions are illustrative."
+    },
+    {
+      "id": "faq",
+      "values": {
+        "transition": {
+          "damping": 40,
+          "mass": 1,
+          "stiffness": 400
+        },
+        "lineRotate": [
+          180,
+          90
+        ],
+        "answerOpacity": 0.62,
+        "multiOpen": true
+      },
+      "provenance": {
+        "file": "source/js/9de41756bdc4-mAJJHnthL.Bg5k7gNe.mjs",
+        "offset": 5064,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-3uLIP",
+        "excerpt": "`],V=`framer-3uLIP`,H={cXGZwZrn2:`framer-v-wg9c91`,w_6LuHclI:`framer-v-8ylhed`},U={damping:40,delay:0,mass:1,stiffness:400,type:`spring`},W=({value:e,children:n})=>{let r=s(m),i=e??r.transition,o=t(()=>({...r,transition:i}),[JSON.stringify(i)]);return a(m.Provider,{value:o,children:n})},G=d.create(i),K={\"Closed v1\":`w_6LuHclI`,\"Open v1\":`cXGZwZrn2`},q=({answer:e,height:t,id:n,question:r,width:i,...a})=>({...a,T8rQFvSBR:e??a.T8rQFvSBR??`Absolutely. You can upload documents, link your knowledge base, or add custom questions and answers. The AI will learn and adapt accordingly. Our AI Agent supports over 40 languages, including English, Spanish, French, German, Arabic, Hindi"
+      },
+      "limitations": "Native WAAPI/CSS playback reconstruction; Framer runtime is not embedded."
+    },
+    {
+      "id": "mobile-menu",
+      "values": {
+        "variants": [
+          "Mobile closed",
+          "Mobile open"
+        ],
+        "transition": {
+          "bounce": 0.2,
+          "duration": 0.4,
+          "type": "spring"
+        },
+        "entry": {
+          "damping": 65,
+          "delay": 0.2,
+          "mass": 1,
+          "stiffness": 400
+        }
+      },
+      "provenance": {
+        "file": "source/js/d46c92adb536-script_main.BwHbeoB9.mjs",
+        "offset": 56799,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-JI5CD",
+        "excerpt": "nah:`framer-v-jxxaab`,scrbRbut3:`framer-v-7ebrm7`,tJbQ_4af1:`framer-v-1a2fvi9`},Xn={bounce:.2,delay:0,duration:.4,type:`spring`},Zn={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{damping:46,delay:.6,mass:1,stiffness:400,type:`spring`},x:0,y:0},Qn={opacity:.001,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0},$n={damping:65,delay:.2,mass:1,stiffness:400,type:`spring`},er=({value:e,children:n})=>{let r=v(P),i=e??r.transition,a=t(()=>({...r,transition:i}),[JSON.stringify(i)]);return p(P.Provider,{value:a,children:n})},tr=j.create(s),nr={\"Mobile closed\":`cBUOjlnah`,\"Mobile open\":`tJbQ_4af1`,Desktop:`scrbRbut3`},rr=({height:e,id:t,widt"
+      },
+      "limitations": "Compact preview panel dimensions reconstructed; original desktop/mobile responsive geometry lives in source CSS."
+    },
+    {
+      "id": "form-state",
+      "values": {
+        "variants": [
+          "Default",
+          "Loading",
+          "Disabled",
+          "Success",
+          "Error"
+        ],
+        "transition": {
+          "duration": 0.2,
+          "ease": [
+            0.44,
+            0,
+            0.56,
+            1
+          ],
+          "type": "tween"
+        },
+        "spinner": {
+          "duration": 1,
+          "rotate": 360,
+          "ease": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "provenance": {
+        "file": "source/js/dbe08be95bc1-dOGqfOWgfi8gUt5SOLWhtJZQ2seA9K47BCDbmkDyt9M.D19nX0V-.mjs",
+        "offset": 1714,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer-tUylZ",
+        "excerpt": "-v-2jh51w`,T79bJbJy5:`framer-v-fmzwef`,zuR8Txf2Y:`framer-v-1xkpwl9`},B={delay:0,duration:.2,ease:[.44,0,.56,1],type:`tween`},V={delay:0,duration:1,ease:[0,0,1,1],type:`tween`},Xe={opacity:1,rotate:360,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0},Ze=(e,t)=>`translateX(-50%) ${t}`,Qe=({value:e,children:n})=>{let r=s(p),i=e??r.transition,o=t(()=>({...r,transition:i}),[JSON.stringify(i)]);return a(p.Provider,{value:o,children:n})},$e=u.create(i),et={Default:`FZKwtpiJC`,Disabled:`T79bJbJy5`,Error:`eOBvQsqpK`,Loading:`AaHAXZIFG`,Success:`zuR8Txf2Y`},tt=({height:e,id:t,width:n,...r})=>({...r,variant:et[r.variant]??r.variant??`FZKwtpiJC`}),nt=(e,t)=>e.layoutDependency?t.j"
+      },
+      "limitations": "Local state stepping only; no server request or simulated network success."
+    },
+    {
+      "id": "slideshow-press",
+      "values": {
+        "whileTap": {
+          "scale": 0.9
+        },
+        "transition": {
+          "duration": 0.15
+        }
+      },
+      "provenance": {
+        "file": "source/js/d46c92adb536-script_main.BwHbeoB9.mjs",
+        "offset": 7746,
+        "offsetUnit": "unicode-character",
+        "selector": ".framer--slideshow-controls button",
+        "excerpt": "`block`:`none`,pointerEvents:`auto`},onClick:()=>Mt(-1),\"aria-label\":`Previous`,whileTap:{scale:.9},transition:{duration:.15},children:p(`img`,{decoding:`async`,width:L,height:L,src:ge||`https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg`,alt:`Back Arrow`})}),p(j.button,{type:`button`,style:{...Et,backgroundColor:he,width:L,height:L,borderRadius:R,rotate:W?0:90,display:me?`block`:`none`,pointerEvents:`auto`},onClick:()=>Mt(1),\"aria-label\":`Next`,whileTap:{scale:.9},transition:{duration:.15},children:p(`img`,{decoding:`async`,width:L,height:L,src:z||`https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg`,alt:`Next Arrow`})})]}),Ht.length>1?p("
+      },
+      "limitations": "Slide content swap is illustrative; no claim that original slide transition is 150ms."
+    }
+  ]
+}

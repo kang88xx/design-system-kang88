@@ -160,6 +160,79 @@ window.DESIGN_SYSTEMS = [
     stats: ["Edition 04", "TypeScript 선언", "모션 라이브러리"]
   },
   {
+    slug: "opalhaus",
+    name: "Opalhaus Design System · Edition 02",
+    brand: "Opalhaus",
+    origin: "opalhaus.framer.website",
+    kind: "web",
+    date: "2026-09-14",
+    tagline: "실제 CSS 추출·컴포넌트 매핑·조작 가능한 모션·설치 키트를 갖춘 Studio 형식 시스템",
+    description:
+      "Opalhaus 공개 사이트의 디자인 언어를 family_design과 같은 Studio 형식(규칙·소스·모션·설치 키트)으로 정리했습니다. 원본 이미지·영상·폰트·페이지 HTML을 보존한 소스 브라우저, 글자 노출·서비스 목록·프로모션 위젯 등 조작 가능한 모션 재구성, .ods 컴포넌트와 43개 시맨틱 토큰의 프로젝트 키트를 제공합니다.",
+    palette: ["#ff5d17", "#0a0a0a", "#f8f7f5", "#e8e7e4", "#74736f", "#ffffff"],
+    accent: "#ff5d17",
+    folder: "opalhaus-design",
+    entry: "../opalhaus-design/index.html",
+    pages: [
+      { label: "디자인 스튜디오", href: "../opalhaus-design/index.html" },
+      { label: "프로젝트 적용 가이드", href: "../opalhaus-design/system.html" },
+      { label: "소스 브라우저", href: "../opalhaus-design/index.html#source-library" },
+      { label: "글자·서비스 모션", href: "../opalhaus-design/index.html#text-services" },
+      { label: "요청 컴포넌트", href: "../opalhaus-design/index.html#requested-components" },
+      { label: "모션 플레이그라운드", href: "../opalhaus-design/index.html#motion" },
+      { label: "레이아웃 레시피", href: "../opalhaus-design/layout-recipes.html" }
+    ],
+    docs: [
+      { label: "DESIGN.md", href: "../opalhaus-design/DESIGN.md" },
+      { label: "README.md", href: "../opalhaus-design/README.md" },
+      { label: "설치 키트 API", href: "../opalhaus-design/design-system/README.md" },
+      { label: "요청 컴포넌트 명세", href: "../opalhaus-design/requested-components.md" },
+      { label: "글자·서비스 원본 규칙", href: "../opalhaus-design/text-services.md" }
+    ],
+    downloads: [
+      { label: "프로젝트 키트 ZIP", href: "../opalhaus-design/opalhaus-project-kit.zip" },
+      { label: "npm 패키지 (.tgz)", href: "../opalhaus-design/opalhaus-design-system-1.0.0.tgz" },
+      { label: "요청 컴포넌트 소스 ZIP", href: "../opalhaus-design/requested-components-kit.zip" },
+      { label: "글자·서비스 소스 ZIP", href: "../opalhaus-design/text-services-kit.zip" },
+      { label: "전체 보관본 ZIP", href: "../opalhaus-design/opalhaus-design-system.zip", unavailable: true }
+    ],
+    stats: ["Edition 02", "소스 항목 868", "장면 아틀라스 14"]
+  },
+  {
+    slug: "circles",
+    name: "three circles Design System · Edition 01",
+    brand: "three circles",
+    origin: "three-circles-wbs.framer.website",
+    kind: "web",
+    date: "2026-09-14",
+    tagline: "Framer 템플릿을 3개 뷰포트에서 실측해 재구성한 CSS 토큰·컴포넌트·모션 키트",
+    description:
+      "Webestica의 Framer 템플릿 \"three circles\"를 1440/900/390px에서 실제 브라우저로 분석해 수집했습니다. 원본 Framer 색상 토큰 16개(ID 보존), 서체 2종의 역할 16종, 직접 조작하는 모션 재구성 14종, 페이지가 참조하는 이미지 77개 전부와 SHA-256 매니페스트를 담고, .tcs 범위의 CSS·JavaScript·TypeScript 선언을 npm 패키지와 프로젝트 키트로 배포합니다.",
+    palette: ["#1c1b18", "#f06231", "#ffe479", "#fffdea", "#fff5d4", "#67b935"],
+    accent: "#f06231",
+    folder: "circles-design",
+    entry: "../circles-design/index.html",
+    pages: [
+      { label: "전체 카탈로그", href: "../circles-design/index.html" },
+      { label: "프로젝트 적용 가이드", href: "../circles-design/system.html" },
+      { label: "모션 플레이그라운드", href: "../circles-design/index.html#motion" },
+      { label: "에셋 77", href: "../circles-design/index.html#assets" },
+      { label: "레이아웃 레시피", href: "../circles-design/layout-recipes.html" }
+    ],
+    docs: [
+      { label: "DESIGN.md", href: "../circles-design/DESIGN.md" },
+      { label: "README.md", href: "../circles-design/README.md" },
+      { label: "설치·컴포넌트 문서", href: "../circles-design/design-system/README.md" }
+    ],
+    downloads: [
+      { label: "프로젝트 키트 ZIP", href: "../circles-design/three-circles-project-kit.zip" },
+      { label: "npm 패키지 (.tgz)", href: "../circles-design/three-circles-system-1.0.0.tgz" },
+      { label: "tokens.css", href: "../circles-design/tokens.css" },
+      { label: "tokens.json", href: "../circles-design/tokens.json" }
+    ],
+    stats: ["Edition 01", "모션 재구성 14", "이미지 77"]
+  },
+  {
     slug: "reatic",
     name: "Reatic Design System",
     brand: "Reatic Industry",

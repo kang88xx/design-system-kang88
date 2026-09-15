@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Studio shell — three circles 브랜드 매핑.
+   뼈대: studio-shell.css / studio-shell.js (Apple 규격). 치수·간격은 바꾸지 않고 --as-* 토큰만 매핑한다.
+   ========================================================================== */
+:root {
+  --as-font-display: "Bricolage Grotesque", "Be Vietnam Pro", Arial, sans-serif;
+  --as-font-text: "Be Vietnam Pro", Arial, sans-serif;
+  --as-font-mono: "Anonymous Pro", ui-monospace, monospace;
+  --as-ink: #1c1b18;
+  --as-ink-2: #3a352f;
+  --as-ink-3: #4d463e;
+  --as-muted: #675e50;
+  --as-faint: #7a7063;
+  --as-faint-2: #9a9186;
+  --as-line: #e8e2d2;
+  --as-line-strong: #b7b0a5;
+  --as-accent: #1c1b18;
+  --as-accent-hover: #2a2823;
+  --as-accent-active: #121110;
+  --as-link: #f06231;
+  --as-on-accent: #fff5d4;
+  --as-bg: #fffdea;
+  --as-surface: #fff5d4;
+  --as-sidebar-bg: #f06231;
+  --as-nav-hover: #f2703f;
+  --as-nav-active-bg: #ffe479;
+  --as-nav-active-ink: #1c1b18;
+  --as-status: #67b935;
+  --as-selection: #ffe479;
+  --as-toast-bg: #1c1b18;
+  --as-toast-ink: #fff5d4;
+  --as-radius: 6px;
+}
+html { scroll-padding-top: 92px; }
+/* 주황 사이드바: 흰/크림 글자, 노란 활성 카드 (원본 nav 카드 규칙) */
+.as-studio .as-sidebar { color: #fffdea; border-right: 0; }
+.as-studio .as-brand strong { font-family: var(--as-font-display); font-weight: 700; letter-spacing: 0; text-transform: lowercase; }
+.as-studio .as-brand div > span, .as-studio .as-sidebar-label, .as-studio .as-sidebar-caption { color: #ffe9c2; }
+.as-studio .as-brand-badge { border-color: #ffb08f; color: #ffe9c2; }
+.as-studio .as-brand-mark { display: inline-flex; gap: 4px; }
+.as-studio .as-brand-mark i { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+.as-studio .as-sidebar nav a { color: #1c1b18; background: #ffe479; border-radius: 6px; font-weight: 600; text-transform: lowercase; }
+.as-studio .as-sidebar nav a:hover { background: #ffd84d; }
+.as-studio .as-sidebar nav a[aria-current], .as-studio .as-sidebar nav a.is-active { background: #fffdea; color: #1c1b18; }
+.as-studio .as-nav-index, .as-studio .as-nav-count { color: #1c1b18; background: #fff; border-radius: 50%; width: 22px; height: 22px; display: inline-grid; place-items: center; font-size: 9px; font-weight: 600; }
+.as-studio .as-nav-count { margin-left: auto; width: auto; min-width: 22px; border-radius: 11px; padding: 0 6px; }
+.as-studio .as-sidebar-bottom { background: #fffdea; color: #1c1b18; margin: 0 14px 14px; border-radius: 6px; border-top: 0; }
+.as-studio .as-sidebar-bottom a { color: #1c1b18; }
+.as-studio .as-sidebar-scrim { background: rgba(28, 27, 24, .7); }
+/* 상단바·본문 */
+.as-studio .as-topbar { background: rgba(255, 253, 234, .92); }
+.as-studio .as-export-button, .as-studio .as-button { background: #1c1b18; color: #fff5d4; border-radius: 6px; text-transform: lowercase; }
+.as-studio .as-export-button:hover, .as-studio .as-button:hover { background: #2a2823; }
+.as-studio .as-text-command { color: #1c1b18; text-transform: lowercase; }
+.as-studio h1, .as-studio h2, .as-studio h3 { font-family: var(--as-font-display); letter-spacing: 0; text-transform: lowercase; }
+.as-studio .as-eyebrow { color: #f06231; }
+.as-studio .as-status-dot { background: #67b935; }
+.as-studio .as-stats-strip { border: 1px dashed var(--as-line-strong); border-radius: 6px; background: #fff5d4; }
+.as-studio .as-stats-strip > div + div { border-left: 1px dashed var(--as-line-strong); }
+.as-studio .as-stats-strip strong { font-family: var(--as-font-display); font-weight: 500; }

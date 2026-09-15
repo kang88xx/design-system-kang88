@@ -1,0 +1,302 @@
+[
+  {
+    "tag": "A",
+    "class": "framer-LwsOh framer-1vmi7j3 framer-v-1vmi7j3 hover framer-1w7gs8d",
+    "name": null,
+    "text": null,
+    "rect": {
+      "x": 1280,
+      "y": 901,
+      "width": 140,
+      "height": 36,
+      "top": 901,
+      "right": 1420,
+      "bottom": 937,
+      "left": 1280
+    },
+    "style": "background-color: rgb(221, 69, 61); height: 100%; width: 100%; will-change: auto; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.26) 0px 0.602187px 0.602187px -1.25px, rgba(0, 0, 0, 0.23) 0px 2.28853px 2.28853px -2.5px, rgba(0, 0, 0, 0.09) 0px 10px 10px -3.75px; opacity: 1; transform: none;",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgb(221, 69, 61)",
+      "color": "rgb(0, 0, 238)",
+      "width": "140px",
+      "height": "36px",
+      "gap": "13px",
+      "justifyContent": "flex-start",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "hidden",
+      "borderRadius": "10px"
+    }
+  },
+  {
+    "tag": "DIV",
+    "class": "framer-1l9d8tp",
+    "name": null,
+    "text": null,
+    "rect": {
+      "x": 1292,
+      "y": 940,
+      "width": 71.453125,
+      "height": 14,
+      "top": 940,
+      "right": 1363.453125,
+      "bottom": 954,
+      "left": 1292
+    },
+    "style": "--extracted-r6o4lv: rgb(34, 34, 34); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; will-change: auto; transform-origin: 50% 50% 0px;",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "width": "71.4531px",
+      "height": "14px",
+      "gap": "normal",
+      "justifyContent": "flex-start",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "P",
+    "class": "framer-text",
+    "name": null,
+    "text": "Buy for $59",
+    "rect": {
+      "x": 1292,
+      "y": 940,
+      "width": 71.453125,
+      "height": 14,
+      "top": 940,
+      "right": 1363.453125,
+      "bottom": 954,
+      "left": 1292
+    },
+    "style": "--font-selector: SW50ZXItU2VtaUJvbGQ=; --framer-font-family: \"Inter\", \"Inter Placeholder\", sans-serif; --framer-font-size: 14px; --framer-font-weight: 600; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-text-color: var(--extracted-r6o4lv, rgb(34, 34, 34));",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "width": "71.4531px",
+      "height": "14px",
+      "gap": "normal",
+      "justifyContent": "normal",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "DIV",
+    "class": "framer-1uvvzy7",
+    "name": null,
+    "text": null,
+    "rect": {
+      "x": 1293,
+      "y": 912,
+      "width": 61.3125,
+      "height": 14,
+      "top": 912,
+      "right": 1354.3125,
+      "bottom": 926,
+      "left": 1293
+    },
+    "style": "--extracted-r6o4lv: rgb(255, 255, 255); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; transform-origin: 50% 50% 0px;",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "width": "61.3125px",
+      "height": "14px",
+      "gap": "normal",
+      "justifyContent": "flex-start",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "P",
+    "class": "framer-text",
+    "name": null,
+    "text": "Grab Now",
+    "rect": {
+      "x": 1293,
+      "y": 912,
+      "width": 61.3125,
+      "height": 14,
+      "top": 912,
+      "right": 1354.3125,
+      "bottom": 926,
+      "left": 1293
+    },
+    "style": "--font-selector:SW50ZXItU2VtaUJvbGQ=;--framer-font-family:\"Inter\", \"Inter Placeholder\", sans-serif;--framer-font-size:14px;--framer-font-weight:600;--framer-letter-spacing:-0.05em;--framer-line-height:1em;--framer-text-color:var(--extracted-r6o4lv, rgb(255, 255, 255))",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "width": "61.3125px",
+      "height": "14px",
+      "gap": "normal",
+      "justifyContent": "normal",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "DIV",
+    "class": "framer-k6r2sg",
+    "name": "Icon",
+    "text": null,
+    "rect": {
+      "x": 1254,
+      "y": 779.5,
+      "width": 279,
+      "height": 279,
+      "top": 779.5,
+      "right": 1533,
+      "bottom": 1058.5,
+      "left": 1254
+    },
+    "style": "background-color: rgb(221, 69, 61); border-radius: 17.9211%; transform: translateY(-50%); will-change: auto; transform-origin: 50% 50% 0px;",
+    "css": {
+      "transform": "matrix(1, 0, 0, 1, 0, -139.5)",
+      "backgroundColor": "rgb(221, 69, 61)",
+      "color": "rgb(0, 0, 238)",
+      "width": "279px",
+      "height": "279px",
+      "gap": "10px",
+      "justifyContent": "center",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "17.9211%"
+    }
+  },
+  {
+    "tag": "DIV",
+    "class": "framer-ousgge",
+    "name": "SVG",
+    "text": null,
+    "rect": {
+      "x": 1394,
+      "y": 910.5,
+      "width": 16,
+      "height": 16,
+      "top": 910.5,
+      "right": 1410,
+      "bottom": 926.5,
+      "left": 1394
+    },
+    "style": "image-rendering: pixelated; flex-shrink: 0; transform: none; transform-origin: 50% 50% 0px;",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "width": "16px",
+      "height": "16px",
+      "gap": "normal",
+      "justifyContent": "normal",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "DIV",
+    "class": "svgContainer",
+    "name": null,
+    "text": null,
+    "rect": {
+      "x": 1394,
+      "y": 910.5,
+      "width": 16,
+      "height": 16,
+      "top": 910.5,
+      "right": 1410,
+      "bottom": 926.5,
+      "left": 1394
+    },
+    "style": "width: 100%; height: 100%; aspect-ratio: inherit;",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "width": "16px",
+      "height": "16px",
+      "gap": "normal",
+      "justifyContent": "normal",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "svg",
+    "class": {},
+    "name": null,
+    "text": null,
+    "rect": {
+      "x": 1394,
+      "y": 910.5,
+      "width": 16,
+      "height": 16,
+      "top": 910.5,
+      "right": 1410,
+      "bottom": 926.5,
+      "left": 1394
+    },
+    "style": "width:100%;height:100%;",
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "width": "16px",
+      "height": "16px",
+      "gap": "normal",
+      "justifyContent": "normal",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "hidden",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "tag": "use",
+    "class": {},
+    "name": null,
+    "text": "",
+    "rect": {
+      "x": 1396.4619140625,
+      "y": 910.5001220703125,
+      "width": 11.076171875,
+      "height": 15.9998779296875,
+      "top": 910.5001220703125,
+      "right": 1407.5380859375,
+      "bottom": 926.5,
+      "left": 1396.4619140625
+    },
+    "style": null,
+    "css": {
+      "transform": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "width": "auto",
+      "height": "auto",
+      "gap": "normal",
+      "justifyContent": "normal",
+      "opacity": "1",
+      "transition": "all",
+      "overflow": "visible",
+      "borderRadius": "0px"
+    }
+  }
+]
